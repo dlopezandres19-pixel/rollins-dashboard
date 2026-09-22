@@ -51,8 +51,8 @@ def main():
     print("Fetching Housing Starts (FRED: HOUST)...")
     data["housing_starts"] = fetch_fred("HOUST", limit=24)
 
-    print("Fetching OpenTable (FRED: DININGOUT)...")
-    data["opentable"] = fetch_fred("DININGOUT", limit=52)
+    print("Fetching Restaurant Sales (FRED: RSAFS)...")
+    data["restaurant_sales"] = fetch_fred("RSAFS", limit=24)
 
     data["last_updated"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
