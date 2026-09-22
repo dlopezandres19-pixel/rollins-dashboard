@@ -83,6 +83,14 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 .vtag.disc{background:#edfaf3;color:#2e9e6b;border:1px solid #9ee0be;}
 .vtag.prem{background:#fef0ee;color:#c0392b;border:1px solid #f0b5ae;}
 
+/* ── SLIDER ── */
+.slider-row{display:flex;align-items:center;gap:8px;margin:10px 0 4px;}
+.slider{flex:1;-webkit-appearance:none;height:4px;border-radius:2px;background:var(--border);outline:none;cursor:pointer;accent-color:#1b3a5c;}
+.slider::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:#1b3a5c;cursor:pointer;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.2);}
+.slider::-moz-range-thumb{width:14px;height:14px;border-radius:50%;background:#1b3a5c;cursor:pointer;border:2px solid #fff;}
+.slider-label{font-size:10px;color:var(--text-muted);white-space:nowrap;min-width:48px;}
+.slider-label:last-child{text-align:right;}
+
 /* ── DIVIDER ── */
 .divider{height:1px;background:var(--border);margin:14px 0;}
 </style>
@@ -120,8 +128,13 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
     <div class="panel-sub">US · Weekly index · Residential demand proxy</div>
     <div id="trends-badge" class="sig-badge neutral">Loading…</div>
     <div class="chart-wrap"><canvas id="chartTrends"></canvas></div>
+    <div class="slider-row">
+      <span class="slider-label" id="trends-slider-start">—</span>
+      <input type="range" id="trends-slider" min="0" max="100" value="0" class="slider">
+      <span class="slider-label" id="trends-slider-end">—</span>
+    </div>
     <div id="trends-table"></div>
-    <div class="notes" id="trends-notes">
+    <div class="notes">
       <div class="note">Weekly search interest (0–100 index). Values above the 52-wk avg signal above-trend residential demand. Peak: summer months (May–Aug).</div>
     </div>
   </div>
@@ -132,8 +145,13 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
     <div class="panel-sub">FRED: HOUST · Monthly · Thousands of units · SA · New residential account pipeline</div>
     <div id="housing-badge" class="sig-badge neutral">Loading…</div>
     <div class="chart-wrap"><canvas id="chartHousing"></canvas></div>
+    <div class="slider-row">
+      <span class="slider-label" id="housing-slider-start">—</span>
+      <input type="range" id="housing-slider" min="0" max="100" value="0" class="slider">
+      <span class="slider-label" id="housing-slider-end">—</span>
+    </div>
     <div id="housing-table"></div>
-    <div class="notes" id="housing-notes">
+    <div class="notes">
       <div class="note">New construction = new homes needing initial pest control. Rollins typically wins contracts within 6–12 months of completion.</div>
     </div>
   </div>
@@ -144,8 +162,13 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
     <div class="panel-sub">FRED: RSAFS · Monthly · $M · B2B commercial demand proxy</div>
     <div id="retail-badge" class="sig-badge neutral">Loading…</div>
     <div class="chart-wrap"><canvas id="chartRetail"></canvas></div>
+    <div class="slider-row">
+      <span class="slider-label" id="retail-slider-start">—</span>
+      <input type="range" id="retail-slider" min="0" max="100" value="0" class="slider">
+      <span class="slider-label" id="retail-slider-end">—</span>
+    </div>
     <div id="retail-table"></div>
-    <div class="notes" id="retail-notes">
+    <div class="notes">
       <div class="note">Restaurants are a core commercial client for Rollins. Growth above 3% YoY historically correlates with expanding B2B pest control contracts.</div>
     </div>
   </div>
@@ -461,91 +484,156 @@ function setBadge(id, cls, text) {
   el.textContent = text;
 }
 
+// ── Slider helpers ─────────────────────────────────────────────────────────
+function fmtWeekly(dateStr) {
+  // "2016-01-03" → "Jan-16"
+  const [y, m] = dateStr.split('-');
+  const mo = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return mo[parseInt(m)-1] + '-' + y.slice(2);
+}
+function fmtMonthly(dateStr) {
+  const [y, m] = dateStr.split('-');
+  const mo = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return mo[parseInt(m)-1] + '-' + y.slice(2);
+}
+
+function initSlider(sliderId, startLblId, endLblId, totalLen, fmtFn, allDates, onSlide) {
+  const slider = document.getElementById(sliderId);
+  const startLbl = document.getElementById(startLblId);
+  const endLbl   = document.getElementById(endLblId);
+  slider.min = 0;
+  slider.max = totalLen - 1;
+  slider.value = 0;
+  startLbl.textContent = fmtFn(allDates[0]);
+  endLbl.textContent   = fmtFn(allDates[totalLen - 1]);
+  slider.addEventListener('input', () => {
+    const idx = parseInt(slider.value);
+    startLbl.textContent = fmtFn(allDates[idx]);
+    onSlide(idx);
+  });
+}
+
+// ── Google Trends renderer ─────────────────────────────────────────────────
+function renderTrends(labs, vals, startIdx) {
+  const sLabs = labs.slice(startIdx);
+  const sVals = vals.slice(startIdx);
+  const avg52 = Math.round(vals.slice(-52).reduce((a,b)=>a+b,0) / Math.min(vals.length,52));
+  makeChart('chartTrends', {
+    type:'line',
+    data:{labels:sLabs, datasets:[
+      lineDs('"pest control near me"', sVals, '#2e9e6b'),
+      {label:'52-wk avg', data:sLabs.map(()=>avg52), borderColor:'#c0392b', borderWidth:1.2, borderDash:[5,3], pointRadius:0, fill:false, tension:0}
+    ]},
+    options:{...baseOpts('index',0), plugins:{legend:{display:false}, tooltip:TOOLTIP}}
+  });
+}
+
+// ── Housing renderer ───────────────────────────────────────────────────────
+function renderHousing(labs, vals, startIdx) {
+  makeChart('chartHousing', {
+    type:'line',
+    data:{labels:labs.slice(startIdx), datasets:[lineDs('Housing Starts (K)', vals.slice(startIdx), '#2e6da4')]},
+    options:{...baseOpts('K units'), plugins:{legend:{display:false}, tooltip:TOOLTIP}}
+  });
+}
+
+// ── Retail renderer ────────────────────────────────────────────────────────
+function renderRetail(labs, vals, startIdx) {
+  makeChart('chartRetail', {
+    type:'line',
+    data:{labels:labs.slice(startIdx), datasets:[lineDs('Restaurant Sales ($M)', vals.slice(startIdx), '#1a7a6e')]},
+    options:{...baseOpts('$M'), plugins:{legend:{display:false}, tooltip:TOOLTIP}}
+  });
+}
+
 async function loadDemand() {
   try {
     const res = await fetch('data.json');
     if (!res.ok) throw new Error('no data.json');
     const d = await res.json();
 
-    // Google Trends
+    // ── Google Trends ──────────────────────────────────────────────────────
     if (d.google_trends && d.google_trends.length > 0) {
-      const t = d.google_trends;
-      const labs = t.map(x => x.date);
-      const vals = t.map(x => Number(x.value));
-      const last = vals[vals.length-1];
-      const avg52 = Math.round(vals.slice(-52).reduce((a,b)=>a+b,0) / Math.min(vals.length,52));
-      const avg4  = Math.round(vals.slice(-4).reduce((a,b)=>a+b,0)/4);
-      const prev52 = vals.length >= 104 ? Math.round(vals.slice(-104,-52).reduce((a,b)=>a+b,0)/52) : avg52;
+      const allLabs = d.google_trends.map(x => x.date);
+      const allVals = d.google_trends.map(x => Number(x.value));
+      const last  = allVals[allVals.length-1];
+      const avg52 = Math.round(allVals.slice(-52).reduce((a,b)=>a+b,0) / Math.min(allVals.length,52));
+      const avg4  = Math.round(allVals.slice(-4).reduce((a,b)=>a+b,0)/4);
+      const prev52 = allVals.length >= 104 ? Math.round(allVals.slice(-104,-52).reduce((a,b)=>a+b,0)/52) : avg52;
       const yoyPct = prev52 > 0 ? ((avg52-prev52)/prev52*100).toFixed(1) : 'N/A';
-      const dir = last >= avg52 ? 'pos' : 'neg';
       const cls = last >= avg52 ? 'green' : 'amber';
       setBadge('trends-badge', cls, `${last >= avg52 ? '▲' : '▼'} Latest: ${last} · 52-wk avg: ${avg52} · ${last >= avg52 ? 'Above trend — demand seasonally strong' : 'Below trend — watch for softening'}`);
 
-      makeChart('chartTrends', {
-        type:'line',
-        data:{labels:labs, datasets:[
-          lineDs('"pest control near me"', vals, '#2e9e6b'),
-          {label:'52-wk avg', data:labs.map(()=>avg52), borderColor:'#c0392b', borderWidth:1.2, borderDash:[5,3], pointRadius:0, fill:false, tension:0}
-        ]},
-        options:{...baseOpts('index',0), plugins:{legend:{display:false}, tooltip:TOOLTIP}}
-      });
+      renderTrends(allLabs, allVals, 0);
+      initSlider('trends-slider','trends-slider-start','trends-slider-end',
+        allLabs.length, fmtWeekly, allLabs,
+        idx => renderTrends(allLabs, allVals, idx)
+      );
       miniTable('trends-table', [
-        {label:'Latest reading', curr: last, yoy: `vs avg ${avg52}`, dir},
-        {label:'4-wk avg', curr: avg4, yoy: avg4>=avg52?'Above 52-wk avg':'Below 52-wk avg', dir: avg4>=avg52?'pos':'neg'},
-        {label:'52-wk avg (YoY)', curr: avg52, yoy: yoyPct!='N/A'?`${yoyPct>0?'+':''}${yoyPct}%`:'N/A', dir: parseFloat(yoyPct)>=0?'pos':'neg'}
+        {label:'Latest reading', curr:last, yoy:`vs avg ${avg52}`, dir:last>=avg52?'pos':'neg'},
+        {label:'4-wk avg', curr:avg4, yoy:avg4>=avg52?'Above 52-wk avg':'Below 52-wk avg', dir:avg4>=avg52?'pos':'neg'},
+        {label:'52-wk avg (YoY)', curr:avg52, yoy:yoyPct!='N/A'?`${parseFloat(yoyPct)>=0?'+':''}${yoyPct}%`:'N/A', dir:parseFloat(yoyPct)>=0?'pos':'neg'}
       ]);
-    } else { placeholderChart('chartTrends', '#2e9e6b'); setBadge('trends-badge','neutral','Connect data.json — Google Trends data will appear here'); }
+    } else {
+      placeholderChart('chartTrends','#2e9e6b');
+      setBadge('trends-badge','neutral','Connect data.json — Google Trends data will appear here');
+    }
 
-    // Housing Starts
+    // ── Housing Starts ─────────────────────────────────────────────────────
     if (d.housing_starts && d.housing_starts.length > 0) {
-      const h = d.housing_starts;
-      const labs = h.map(x => x.date);
-      const vals = h.map(x => Number(x.value));
-      const last = vals[vals.length-1];
-      const prev = vals.length>=13 ? vals[vals.length-13] : null;
-      const yoy = prev ? ((last-prev)/prev*100).toFixed(1) : 'N/A';
-      const dir = parseFloat(yoy) > 0 ? 'pos' : parseFloat(yoy) < -5 ? 'neg' : 'neu';
+      const allLabs = d.housing_starts.map(x => x.date);
+      const allVals = d.housing_starts.map(x => Number(x.value));
+      const last = allVals[allVals.length-1];
+      const prev = allVals.length>=13 ? allVals[allVals.length-13] : null;
+      const yoy  = prev ? ((last-prev)/prev*100).toFixed(1) : 'N/A';
+      const dir  = parseFloat(yoy)>0 ? 'pos' : parseFloat(yoy)<-5 ? 'neg' : 'neu';
       setBadge('housing-badge', dir==='pos'?'green':dir==='neg'?'red':'amber',
-        `${dir==='pos'?'▲':'▼'} Latest: ${last}K units · YoY: ${yoy>0?'+':''}${yoy}%`);
-      makeChart('chartHousing', {
-        type:'line',
-        data:{labels:labs, datasets:[lineDs('Housing Starts (K)', vals, '#2e6da4')]},
-        options:{...baseOpts('K units'), plugins:{legend:{display:false}, tooltip:TOOLTIP}}
-      });
-      miniTable('housing-table', [
-        {label:'Latest', curr:`${last}K`, yoy:`${yoy>0?'+':''}${yoy}% YoY`, dir},
-        {label:'12-mo avg', curr:`${Math.round(vals.slice(-12).reduce((a,b)=>a+b,0)/12)}K`, yoy:'trailing', dir:'neu'},
-      ]);
-    } else { placeholderChart('chartHousing','#2e6da4'); setBadge('housing-badge','neutral','Connect data.json — FRED Housing Starts will appear here'); }
+        `${parseFloat(yoy)>0?'▲':'▼'} Latest: ${last}K units · YoY: ${parseFloat(yoy)>0?'+':''}${yoy}%`);
 
-    // Restaurant Sales
+      renderHousing(allLabs, allVals, 0);
+      initSlider('housing-slider','housing-slider-start','housing-slider-end',
+        allLabs.length, fmtMonthly, allLabs,
+        idx => renderHousing(allLabs, allVals, idx)
+      );
+      miniTable('housing-table', [
+        {label:'Latest', curr:`${last}K`, yoy:`${parseFloat(yoy)>0?'+':''}${yoy}% YoY`, dir},
+        {label:'12-mo avg', curr:`${Math.round(allVals.slice(-12).reduce((a,b)=>a+b,0)/12)}K`, yoy:'trailing', dir:'neu'}
+      ]);
+    } else {
+      placeholderChart('chartHousing','#2e6da4');
+      setBadge('housing-badge','neutral','Connect data.json — FRED Housing Starts will appear here');
+    }
+
+    // ── Restaurant Sales ───────────────────────────────────────────────────
     const rsKey = d.restaurant_sales ? 'restaurant_sales' : d.retail_sales ? 'retail_sales' : null;
     if (rsKey && d[rsKey].length > 0) {
-      const r = d[rsKey];
-      const labs = r.map(x => x.date);
-      const vals = r.map(x => Number(x.value));
-      const last = vals[vals.length-1];
-      const prev = vals.length>=13 ? vals[vals.length-13] : null;
-      const yoy = prev ? ((last-prev)/prev*100).toFixed(1) : 'N/A';
-      const dir = parseFloat(yoy) > 3 ? 'pos' : parseFloat(yoy) < 0 ? 'neg' : 'neu';
+      const allLabs = d[rsKey].map(x => x.date);
+      const allVals = d[rsKey].map(x => Number(x.value));
+      const last = allVals[allVals.length-1];
+      const prev = allVals.length>=13 ? allVals[allVals.length-13] : null;
+      const yoy  = prev ? ((last-prev)/prev*100).toFixed(1) : 'N/A';
+      const dir  = parseFloat(yoy)>3 ? 'pos' : parseFloat(yoy)<0 ? 'neg' : 'neu';
       setBadge('retail-badge', dir==='pos'?'green':dir==='neg'?'red':'amber',
-        `${parseFloat(yoy)>0?'▲':'▼'} Latest: $${(last/1000).toFixed(1)}B · YoY: ${yoy>0?'+':''}${yoy}%`);
-      makeChart('chartRetail', {
-        type:'line',
-        data:{labels:labs, datasets:[lineDs('Restaurant Sales ($M)', vals, '#1a7a6e')]},
-        options:{...baseOpts('$M'), plugins:{legend:{display:false}, tooltip:TOOLTIP}}
-      });
+        `${parseFloat(yoy)>0?'▲':'▼'} Latest: $${(last/1000).toFixed(1)}B · YoY: ${parseFloat(yoy)>0?'+':''}${yoy}%`);
+
+      renderRetail(allLabs, allVals, 0);
+      initSlider('retail-slider','retail-slider-start','retail-slider-end',
+        allLabs.length, fmtMonthly, allLabs,
+        idx => renderRetail(allLabs, allVals, idx)
+      );
       miniTable('retail-table', [
-        {label:'Latest', curr:`$${(last/1000).toFixed(1)}B`, yoy:`${yoy>0?'+':''}${yoy}% YoY`, dir},
-        {label:'12-mo avg', curr:`$${((vals.slice(-12).reduce((a,b)=>a+b,0)/12)/1000).toFixed(1)}B`, yoy:'trailing', dir:'neu'},
+        {label:'Latest', curr:`$${(last/1000).toFixed(1)}B`, yoy:`${parseFloat(yoy)>0?'+':''}${yoy}% YoY`, dir},
+        {label:'12-mo avg', curr:`$${((allVals.slice(-12).reduce((a,b)=>a+b,0)/12)/1000).toFixed(1)}B`, yoy:'trailing', dir:'neu'}
       ]);
-    } else { placeholderChart('chartRetail','#1a7a6e'); setBadge('retail-badge','neutral','Connect data.json — FRED Retail Sales will appear here'); }
+    } else {
+      placeholderChart('chartRetail','#1a7a6e');
+      setBadge('retail-badge','neutral','Connect data.json — FRED Retail Sales will appear here');
+    }
 
   } catch(e) {
     console.warn('data.json not available:', e.message);
-    placeholderChart('chartTrends','#2e9e6b');
-    placeholderChart('chartHousing','#2e6da4');
-    placeholderChart('chartRetail','#1a7a6e');
+    ['chartTrends','chartHousing','chartRetail'].forEach((id,i) =>
+      placeholderChart(id, ['#2e9e6b','#2e6da4','#1a7a6e'][i]));
     setBadge('trends-badge','neutral','Deploy to GitHub Pages to load live Google Trends data');
     setBadge('housing-badge','neutral','Deploy to GitHub Pages to load live FRED Housing Starts data');
     setBadge('retail-badge','neutral','Deploy to GitHub Pages to load live FRED Restaurant Sales data');
