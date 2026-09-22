@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Rollins (ROL) | GRAM Dashboard</title>
+<title>Rollins (ROL) | Investment Dashboard</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
@@ -219,6 +219,16 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
   <div class="panel">
     <div class="panel-title">US Food Services Activity</div>
     <div class="panel-sub">FRED: RSAFS · BLS CEU7072200001 · Monthly · Commercial end-market activity proxy</div>
+
+    <!-- Series toggle -->
+    <div style="display:flex;align-items:center;gap:6px;margin-bottom:10px;">
+      <span style="font-size:10px;color:var(--text-muted);font-weight:500;">Series:</span>
+      <div style="display:flex;border:1px solid var(--border);border-radius:5px;overflow:hidden;">
+        <button class="htog active" data-fs="sales" onclick="setFoodSeries('sales')">Retail Sales</button>
+        <button class="htog"        data-fs="emp"   onclick="setFoodSeries('emp')">Employment</button>
+      </div>
+    </div>
+
     <div id="retail-badge" class="sig-badge neutral">Loading…</div>
     <div class="chart-wrap"><canvas id="chartRetail"></canvas></div>
     <div class="slider-row">
@@ -226,16 +236,29 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
       <input type="range" id="retail-slider" min="0" max="100" value="0" class="slider">
       <span class="slider-label" id="retail-slider-end">—</span>
     </div>
-    <div id="retail-table"></div>
 
-    <!-- Food Services Employment -->
-    <div style="margin-top:12px;padding-top:10px;border-top:1px solid var(--border-light);">
-      <div style="font-size:10px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;">Food Services Employment</div>
-      <div id="food-emp-table"></div>
+    <!-- Always-visible grouped metrics table -->
+    <div style="overflow-x:auto;margin-top:12px;">
+      <table class="mini-table" style="min-width:340px;">
+        <thead>
+          <tr>
+            <th rowspan="2" style="text-align:left;vertical-align:bottom;">Metric</th>
+            <th colspan="2" style="text-align:center;border-bottom:1px solid var(--border);padding-bottom:2px;">Retail Sales (RSAFS)</th>
+            <th colspan="2" style="text-align:center;border-bottom:1px solid var(--border);padding-bottom:2px;">Employment (CEU7072200001)</th>
+          </tr>
+          <tr>
+            <th style="text-align:right;">#</th><th style="text-align:right;">YoY Δ</th>
+            <th style="text-align:right;">#</th><th style="text-align:right;">YoY Δ</th>
+          </tr>
+        </thead>
+        <tbody id="food-grouped-body">
+          <tr><td colspan="5" style="text-align:center;color:var(--text-muted);padding:8px;">Loading…</td></tr>
+        </tbody>
+      </table>
     </div>
 
     <div class="notes">
-      <div class="note">Food-service activity is a proxy for operating conditions within a key Rollins commercial end market. Sales capture sector activity and employment helps assess underlying real activity in potential customer locations.</div>
+      <div class="note">Food-service activity is a proxy for operating conditions within a key Rollins commercial end market. Advance Retail Sales: Food Services &amp; Drinking Places (FRED RSAFS) capture nominal sector spending. Employment (BLS CEU7072200001: All Employees, Food Services &amp; Drinking Places) measures the number of workers actively employed in the sector — a proxy for real operating activity and the number of locations that may require commercial pest control services.</div>
     </div>
   </div>
 
@@ -673,8 +696,8 @@ function renderTrends(startIdx) {
 
   // Metrics table
   miniTable('trends-table', [
-    {label:'Latest', curr: last.toFixed(1), yoy: isComposite ? (last>=100?'Above avg (>100)':'Below avg (<100)') : `vs 52-wk avg ${avg52val.toFixed(1)}`, dir: aboveTrend?'pos':'neg'},
-    {label:'4-wk avg', curr: avg4val.toFixed(1), yoy: avg4val>=avg52val?'Above 52-wk avg':'Below 52-wk avg', dir: avg4val>=avg52val?'pos':'neg'},
+    {label:'Latest', curr: last.toFixed(1), yoy: isComposite ? (last>=100?'↑ Above avg (>100)':'↓ Below avg (<100)') : `vs 52-wk avg ${avg52val.toFixed(1)}`, dir: aboveTrend?'pos':'neg'},
+    {label:'4-wk avg', curr: avg4val.toFixed(1), yoy: avg4val>=avg52val?'↑ Above 52-wk avg':'↓ Below 52-wk avg', dir: avg4val>=avg52val?'pos':'neg'},
     {label:'52-wk avg', curr: avg52val.toFixed(1), yoy: fmtPct(yoy52), dir: dirPct(yoy52)},
   ]);
 }
@@ -868,52 +891,109 @@ function initHousing(d) {
 // ═══════════════════════════════════════════════════════════════════════════
 // FOOD SERVICES
 // ═══════════════════════════════════════════════════════════════════════════
-function renderRetail(labs, vals, startIdx) {
+let _foodData  = { sales:[], emp:[] };
+let _foodSeries = 'sales';
+
+const FOOD_CFG = {
+  sales: { label:'Retail Sales: Food Services & Drinking Places ($M)', color:'#1a7a6e', unit:'$M' },
+  emp:   { label:'Food Services Employment (thousands)',                color:'#6B4EAF', unit:'K'  },
+};
+
+function avg12Yoy(vals) {
+  // YoY of 12M avg: avg(last 12) vs avg(prior 12)
+  if (vals.length < 25) return null;
+  const curr12  = avg(vals.slice(-12));
+  const prior12 = avg(vals.slice(-25, -13));
+  return ((curr12 - prior12) / prior12 * 100);
+}
+
+function renderFoodChart(startIdx) {
+  const cfg  = FOOD_CFG[_foodSeries];
+  const data = _foodData[_foodSeries];
+  if (!data.length) return;
+  const allLabs = data.map(x => x.date);
+  const allVals = data.map(x => Number(x.value));
+  const fmt = _foodSeries === 'sales'
+    ? (c => `$${c.parsed.y.toLocaleString()}M`)
+    : (c => `${c.parsed.y.toFixed(0)}K`);
   makeChart('chartRetail', {
     type:'line',
-    data:{labels:labs.slice(startIdx), datasets:[lineDs('Food Services & Drinking Places ($M)', vals.slice(startIdx), '#1a7a6e')]},
-    options:{...baseOpts('$M'), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`$${c.parsed.y.toLocaleString()}M`}}}}
+    data:{labels:allLabs.slice(startIdx), datasets:[lineDs(cfg.label, allVals.slice(startIdx), cfg.color)]},
+    options:{...baseOpts(cfg.unit), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:fmt}}}}
   });
+}
+
+function setFoodSeries(s) {
+  _foodSeries = s;
+  document.querySelectorAll('[data-fs]').forEach(b => b.classList.toggle('active', b.dataset.fs===s));
+  const data = _foodData[s];
+  const allDates = data.map(x => x.date);
+  initSlider('retail-slider','retail-slider-start','retail-slider-end', allDates, idx => renderFoodChart(idx));
+  renderFoodChart(0);
+
+  // Badge reflects active series
+  const vals = data.map(x => Number(x.value));
+  const last = vals[vals.length-1];
+  const yoy  = yoyPct(vals, 13);
+  const dir  = dirPct(yoy, 0);
+  const lbl  = s === 'sales'
+    ? `${yoy>=0?'▲':'▼'} Retail Sales: Food Services — Latest: $${(last/1000).toFixed(1)}B · YoY: ${fmtPct(yoy)}`
+    : `${yoy>=0?'▲':'▼'} Food Services Employment — Latest: ${last.toFixed(0)}K · YoY: ${fmtPct(yoy)}`;
+  setBadge('retail-badge', dir==='pos'?'green':dir==='neg'?'red':'amber', lbl);
+}
+
+function buildFoodGroupedTable() {
+  const sVals = _foodData.sales.map(x => Number(x.value));
+  const eVals = _foodData.emp.map(x => Number(x.value));
+  const sDate = _foodData.sales[_foodData.sales.length-1]?.date;
+  const eDate = _foodData.emp[_foodData.emp.length-1]?.date;
+
+  const sLast   = sVals[sVals.length-1];
+  const sYoy    = yoyPct(sVals, 13);
+  const sAvg12  = avg(sVals.slice(-12));
+  const sAvgYoy = avg12Yoy(sVals);
+
+  const eLast   = eVals.length ? eVals[eVals.length-1] : null;
+  const eYoy    = eVals.length ? yoyPct(eVals, 13) : null;
+  const eAvg12  = eVals.length ? avg(eVals.slice(-12)) : null;
+  const eAvgYoy = eVals.length ? avg12Yoy(eVals) : null;
+
+  function arrowPct(v) {
+    if (v===null||isNaN(v)) return '—';
+    return `${v>=0?'↑':'↓'} ${Math.abs(v).toFixed(1)}%`;
+  }
+  function dirV(v) { return v===null?'neu':dirPct(v,0); }
+
+  const rows = [
+    {
+      label: `Latest (${fmtDate(sDate)})`,
+      sNum: `$${(sLast/1000).toFixed(1)}B`, sYoy: arrowPct(sYoy), sDir: dirV(sYoy),
+      eNum: eLast ? `${eLast.toFixed(0)}K` : '—', eYoy: arrowPct(eYoy), eDir: dirV(eYoy),
+    },
+    {
+      label: '12M Avg.',
+      sNum: `$${(sAvg12/1000).toFixed(1)}B`, sYoy: arrowPct(sAvgYoy), sDir: dirV(sAvgYoy),
+      eNum: eAvg12 ? `${eAvg12.toFixed(0)}K` : '—', eYoy: arrowPct(eAvgYoy), eDir: dirV(eAvgYoy),
+    },
+  ];
+
+  document.getElementById('food-grouped-body').innerHTML = rows.map(r => `<tr>
+    <td>${r.label}</td>
+    <td>${r.sNum}</td><td class="${r.sDir==='pos'?'delta-pos':r.sDir==='neg'?'delta-neg':'delta-neu'}">${r.sYoy}</td>
+    <td>${r.eNum}</td><td class="${r.eDir==='pos'?'delta-pos':r.eDir==='neg'?'delta-neg':'delta-neu'}">${r.eYoy}</td>
+  </tr>`).join('');
 }
 
 function initFoodServices(d) {
   const rsKey = d.restaurant_sales ? 'restaurant_sales' : d.retail_sales ? 'retail_sales' : null;
   if (!rsKey) { placeholderChart('chartRetail','#1a7a6e'); setBadge('retail-badge','neutral','No Food Services data'); return; }
 
-  const allLabs = d[rsKey].map(x => x.date);
-  const allVals = d[rsKey].map(x => Number(x.value));
-  const last    = allVals[allVals.length-1];
-  const yoy     = yoyPct(allVals, 13);
-  const avg12   = avg(allVals.slice(-12));
-  const dir     = dirPct(yoy, 0);
+  _foodData.sales = d[rsKey];
+  _foodData.emp   = d.food_employment || [];
 
-  setBadge('retail-badge', dir==='pos'?'green':dir==='neg'?'red':'amber',
-    `${yoy>=0?'▲':'▼'} Advance Retail Sales: Food Services — Latest: $${(last/1000).toFixed(1)}B · YoY: ${fmtPct(yoy)}`);
-
-  renderRetail(allLabs, allVals, 0);
-  initSlider('retail-slider','retail-slider-start','retail-slider-end', allLabs, idx => renderRetail(allLabs, allVals, idx));
-
-  miniTable('retail-table', [
-    {label:'Sales (latest)', curr:`$${(last/1000).toFixed(1)}B`, yoy:fmtPct(yoy), dir},
-    {label:'Sales (12M avg)', curr:`$${(avg12/1000).toFixed(1)}B`, yoy:'trailing', dir:'neu'},
-  ]);
-
-  // Employment
-  if (d.food_employment && d.food_employment.length > 0) {
-    const eVals = d.food_employment.map(x => Number(x.value));
-    const eLast = eVals[eVals.length-1];
-    const eYoy  = yoyPct(eVals, 13);
-    const eAvg  = avg(eVals.slice(-12));
-    const eDate = d.food_employment[d.food_employment.length-1].date;
-    const eDir  = dirPct(eYoy, 0);
-    miniTable('food-emp-table', [
-      {label:`Employment (${fmtDate(eDate)})`, curr:`${(eLast).toFixed(0)}K`, yoy:fmtPct(eYoy), dir:eDir},
-      {label:'12M avg', curr:`${(eAvg).toFixed(0)}K`, yoy:'trailing', dir:'neu'},
-    ]);
-  } else {
-    const empEl = document.getElementById('food-emp-table');
-    if (empEl) empEl.innerHTML = `<div style="font-size:10px;color:var(--text-muted);padding:4px 0;">Employment data (CEU7072200001) will appear after next data refresh.</div>`;
-  }
+  // Init chart + slider with sales as default
+  setFoodSeries('sales');
+  buildFoodGroupedTable();
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
