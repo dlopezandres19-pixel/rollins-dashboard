@@ -481,7 +481,7 @@ async function loadDemand() {
       const cls = last >= avg52 ? 'green' : 'amber';
       setBadge('trends-badge', cls, `${last >= avg52 ? '▲' : '▼'} Latest: ${last} · 52-wk avg: ${avg52} · ${last >= avg52 ? 'Above trend — demand seasonally strong' : 'Below trend — watch for softening'}`);
 
-      new Chart(document.getElementById('chartTrends'), {
+      makeChart('chartTrends', {
         type:'line',
         data:{labels:labs, datasets:[
           lineDs('"pest control near me"', vals, '#2e9e6b'),
@@ -507,7 +507,7 @@ async function loadDemand() {
       const dir = parseFloat(yoy) > 0 ? 'pos' : parseFloat(yoy) < -5 ? 'neg' : 'neu';
       setBadge('housing-badge', dir==='pos'?'green':dir==='neg'?'red':'amber',
         `${dir==='pos'?'▲':'▼'} Latest: ${last}K units · YoY: ${yoy>0?'+':''}${yoy}%`);
-      new Chart(document.getElementById('chartHousing'), {
+      makeChart('chartHousing', {
         type:'line',
         data:{labels:labs, datasets:[lineDs('Housing Starts (K)', vals, '#2e6da4')]},
         options:{...baseOpts('K units'), plugins:{legend:{display:false}, tooltip:TOOLTIP}}
@@ -530,7 +530,7 @@ async function loadDemand() {
       const dir = parseFloat(yoy) > 3 ? 'pos' : parseFloat(yoy) < 0 ? 'neg' : 'neu';
       setBadge('retail-badge', dir==='pos'?'green':dir==='neg'?'red':'amber',
         `${parseFloat(yoy)>0?'▲':'▼'} Latest: $${(last/1000).toFixed(1)}B · YoY: ${yoy>0?'+':''}${yoy}%`);
-      new Chart(document.getElementById('chartRetail'), {
+      makeChart('chartRetail', {
         type:'line',
         data:{labels:labs, datasets:[lineDs('Restaurant Sales ($M)', vals, '#1a7a6e')]},
         options:{...baseOpts('$M'), plugins:{legend:{display:false}, tooltip:TOOLTIP}}
@@ -552,8 +552,17 @@ async function loadDemand() {
   }
 }
 
+// Track demand chart instances so we can destroy before redraw
+const _demandCharts = {};
+
+function makeChart(id, config) {
+  if (_demandCharts[id]) { _demandCharts[id].destroy(); }
+  _demandCharts[id] = new Chart(document.getElementById(id), config);
+  return _demandCharts[id];
+}
+
 function placeholderChart(id, color) {
-  new Chart(document.getElementById(id), {
+  makeChart(id, {
     type:'line',
     data:{labels:['—'], datasets:[{data:[null], borderColor:color, borderWidth:1}]},
     options:{responsive:true, maintainAspectRatio:false, animation:{duration:0},
