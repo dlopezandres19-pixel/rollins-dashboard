@@ -100,7 +100,7 @@ def fetch_trends(keyword="pest control near me", geo="US", start_year=2016):
 
         # Save tail for next block's overlap
         tail_start = we - pd.Timedelta(weeks=overlap_wk)
-        prev_tail  = df[df["date"] >= tail_start.date()].copy()
+        prev_tail  = df[df["date"] >= tail_start].copy()
 
         time.sleep(2)   # be polite to pytrends
 
