@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Rollins (ROL) | Investment Dashboard</title>
+<title>Rollins (ROL) | GRAM Dashboard</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
@@ -106,7 +106,7 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 <!-- HEADER -->
 <div class="header">
   <div class="header-left">
-    <h1>Rollins (ROL) | Investment Dashboard</h1>
+    <h1>Rollins (ROL) | GRAM Dashboard</h1>
     <p>Demand Signals · Labor Cost Pressure · Valuation</p>
   </div>
   <div class="header-right">
@@ -220,16 +220,18 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
     <div class="panel-title">US Food Services Activity</div>
     <div class="panel-sub">FRED: RSAFS · BLS CEU7072200001 · Monthly · Commercial end-market activity proxy</div>
 
-    <!-- Series toggle -->
-    <div style="display:flex;align-items:center;gap:6px;margin-bottom:10px;">
-      <span style="font-size:10px;color:var(--text-muted);font-weight:500;">Series:</span>
-      <div style="display:flex;border:1px solid var(--border);border-radius:5px;overflow:hidden;">
-        <button class="htog active" data-fs="sales" onclick="setFoodSeries('sales')">Retail Sales</button>
-        <button class="htog"        data-fs="emp"   onclick="setFoodSeries('emp')">Employment</button>
+    <div id="retail-badge" class="sig-badge neutral">Loading…</div>
+
+    <!-- Legend -->
+    <div style="display:flex;gap:14px;margin-bottom:8px;">
+      <div style="display:flex;align-items:center;gap:5px;font-size:10px;color:var(--text-muted);">
+        <div style="width:18px;height:2px;background:#1a7a6e;border-radius:1px;"></div>Retail Sales (left axis)
+      </div>
+      <div style="display:flex;align-items:center;gap:5px;font-size:10px;color:var(--text-muted);">
+        <div style="width:18px;height:2px;background:#6B4EAF;border-radius:1px;"></div>Employment (right axis)
       </div>
     </div>
 
-    <div id="retail-badge" class="sig-badge neutral">Loading…</div>
     <div class="chart-wrap"><canvas id="chartRetail"></canvas></div>
     <div class="slider-row">
       <span class="slider-label" id="retail-slider-start">—</span>
@@ -819,14 +821,6 @@ function buildHousingGroupedTable() {
       }))
     },
     {
-      label: 'YoY',
-      vals: series.map(s => ({
-        num: fmtPct(stats[s].yoy),
-        yoy: '—',
-        dir: dirPct(stats[s].yoy)
-      }))
-    },
-    {
       label: '12M Avg.',
       vals: series.map(s => ({
         num: `${fmtNum(stats[s].avg12)}K`,
@@ -896,18 +890,11 @@ function initHousing(d) {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
-// FOOD SERVICES
+// FOOD SERVICES — dual axis (Sales left, Employment right)
 // ═══════════════════════════════════════════════════════════════════════════
-let _foodData  = { sales:[], emp:[] };
-let _foodSeries = 'sales';
-
-const FOOD_CFG = {
-  sales: { label:'Retail Sales: Food Services & Drinking Places ($M)', color:'#1a7a6e', unit:'$M' },
-  emp:   { label:'Food Services Employment (thousands)',                color:'#6B4EAF', unit:'K'  },
-};
+let _foodData = { sales:[], emp:[] };
 
 function avg12Yoy(vals) {
-  // YoY of 12M avg: avg(last 12) vs avg(prior 12)
   if (vals.length < 25) return null;
   const curr12  = avg(vals.slice(-12));
   const prior12 = avg(vals.slice(-25, -13));
@@ -915,55 +902,83 @@ function avg12Yoy(vals) {
 }
 
 function renderFoodChart(startIdx) {
-  const cfg  = FOOD_CFG[_foodSeries];
-  const data = _foodData[_foodSeries];
-  if (!data.length) return;
-  const allLabs = data.map(x => x.date);
-  const allVals = data.map(x => Number(x.value));
-  const fmt = _foodSeries === 'sales'
-    ? (c => `$${fmtNum(c.parsed.y)}M`)
-    : (c => `${fmtNum(c.parsed.y)}K`);
+  const sData = _foodData.sales;
+  const eData = _foodData.emp;
+  if (!sData.length) return;
+
+  const allLabs = sData.map(x => x.date);
+  const sVals   = sData.map(x => Number(x.value));
+  const eVals   = eData.map(x => Number(x.value));
+
   makeChart('chartRetail', {
-    type:'line',
-    data:{labels:allLabs.slice(startIdx), datasets:[lineDs(cfg.label, allVals.slice(startIdx), cfg.color)]},
-    options:{...baseOpts(cfg.unit), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:fmt}}}}
+    type: 'line',
+    data: {
+      labels: allLabs.slice(startIdx),
+      datasets: [
+        {
+          label: 'Retail Sales ($M)',
+          data: sVals.slice(startIdx),
+          borderColor: '#1a7a6e', backgroundColor: '#1a7a6e18',
+          borderWidth: 2, pointRadius: 0, pointHoverRadius: 4,
+          tension: 0.35, fill: false, yAxisID: 'ySales'
+        },
+        ...(eVals.length ? [{
+          label: 'Employment (K)',
+          data: eVals.slice(startIdx),
+          borderColor: '#6B4EAF', backgroundColor: '#6B4EAF18',
+          borderWidth: 2, pointRadius: 0, pointHoverRadius: 4,
+          tension: 0.35, fill: false, yAxisID: 'yEmp'
+        }] : [])
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, animation: {duration:500},
+      plugins: {
+        legend: {display:false},
+        tooltip: {
+          ...TOOLTIP,
+          callbacks: {
+            label: c => c.dataset.yAxisID === 'ySales'
+              ? `Sales: $${fmtNum(c.parsed.y)}M`
+              : `Employment: ${fmtNum(c.parsed.y)}K`
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid:{color:'#f0f2f5',drawTicks:false},
+          ticks:{maxTicksLimit:7,maxRotation:0,color:'#98a2b3',font:{size:9}},
+          border:{color:'#e4e7ec'}
+        },
+        ySales: {
+          type:'linear', position:'left',
+          grid:{color:'#f0f2f5',drawTicks:false},
+          ticks:{maxTicksLimit:5,color:'#1a7a6e',font:{size:9},callback:v=>`$${fmtNum(v/1000,0)}B`},
+          border:{color:'#e4e7ec'}
+        },
+        yEmp: {
+          type:'linear', position:'right',
+          grid:{drawOnChartArea:false},
+          ticks:{maxTicksLimit:5,color:'#6B4EAF',font:{size:9},callback:v=>`${fmtNum(v)}K`},
+          border:{color:'#e4e7ec'}
+        }
+      }
+    }
   });
-}
-
-function setFoodSeries(s) {
-  _foodSeries = s;
-  document.querySelectorAll('[data-fs]').forEach(b => b.classList.toggle('active', b.dataset.fs===s));
-  const data = _foodData[s];
-  const allDates = data.map(x => x.date);
-  initSlider('retail-slider','retail-slider-start','retail-slider-end', allDates, idx => renderFoodChart(idx));
-  renderFoodChart(0);
-
-  // Badge reflects active series
-  const vals = data.map(x => Number(x.value));
-  const last = vals[vals.length-1];
-  const yoy  = yoyPct(vals, 13);
-  const dir  = dirPct(yoy, 0);
-  const lbl  = s === 'sales'
-    ? `${yoy>=0?'▲':'▼'} Retail Sales: Food Services — Latest: $${fmtNum(last/1000, 1)}B · YoY: ${fmtPct(yoy)}`
-    : `${yoy>=0?'▲':'▼'} Food Services Employment — Latest: ${fmtNum(last)}K · YoY: ${fmtPct(yoy)}`;
-  setBadge('retail-badge', dir==='pos'?'green':dir==='neg'?'red':'amber', lbl);
 }
 
 function buildFoodGroupedTable() {
   const sVals = _foodData.sales.map(x => Number(x.value));
   const eVals = _foodData.emp.map(x => Number(x.value));
   const sDate = _foodData.sales[_foodData.sales.length-1]?.date;
-  const eDate = _foodData.emp[_foodData.emp.length-1]?.date;
-
-  const sLast   = sVals[sVals.length-1];
-  const sYoy    = yoyPct(sVals, 13);
-  const sAvg12  = avg(sVals.slice(-12));
-  const sAvgYoy = avg12Yoy(sVals);
-
   const eLast   = eVals.length ? eVals[eVals.length-1] : null;
   const eYoy    = eVals.length ? yoyPct(eVals, 13) : null;
   const eAvg12  = eVals.length ? avg(eVals.slice(-12)) : null;
   const eAvgYoy = eVals.length ? avg12Yoy(eVals) : null;
+  const sLast   = sVals[sVals.length-1];
+  const sYoy    = yoyPct(sVals, 13);
+  const sAvg12  = avg(sVals.slice(-12));
+  const sAvgYoy = avg12Yoy(sVals);
 
   function arrowPct(v) {
     if (v===null||isNaN(v)) return '—';
@@ -974,33 +989,37 @@ function buildFoodGroupedTable() {
   const rows = [
     {
       label: `Latest (${fmtDate(sDate)})`,
-      sNum: `$${fmtNum(sLast/1000, 1)}B`, sYoy: arrowPct(sYoy), sDir: dirV(sYoy),
-      eNum: eLast ? `${fmtNum(eLast)}K` : '—', eYoy: arrowPct(eYoy), eDir: dirV(eYoy),
+      sNum:`$${fmtNum(sLast/1000,1)}B`, sYoy:arrowPct(sYoy), sDir:dirV(sYoy),
+      eNum:eLast?`${fmtNum(eLast)}K`:'—', eYoy:arrowPct(eYoy), eDir:dirV(eYoy),
     },
     {
       label: '12M Avg.',
-      sNum: `$${fmtNum(sAvg12/1000, 1)}B`, sYoy: arrowPct(sAvgYoy), sDir: dirV(sAvgYoy),
-      eNum: eAvg12 ? `${fmtNum(eAvg12)}K` : '—', eYoy: arrowPct(eAvgYoy), eDir: dirV(eAvgYoy),
+      sNum:`$${fmtNum(sAvg12/1000,1)}B`, sYoy:arrowPct(sAvgYoy), sDir:dirV(sAvgYoy),
+      eNum:eAvg12?`${fmtNum(eAvg12)}K`:'—', eYoy:arrowPct(eAvgYoy), eDir:dirV(eAvgYoy),
     },
   ];
 
-  document.getElementById('food-grouped-body').innerHTML = rows.map(r => `<tr>
+  document.getElementById('food-grouped-body').innerHTML = rows.map(r=>`<tr>
     <td>${r.label}</td>
     <td>${r.sNum}</td><td class="${r.sDir==='pos'?'delta-pos':r.sDir==='neg'?'delta-neg':'delta-neu'}">${r.sYoy}</td>
     <td>${r.eNum}</td><td class="${r.eDir==='pos'?'delta-pos':r.eDir==='neg'?'delta-neg':'delta-neu'}">${r.eYoy}</td>
   </tr>`).join('');
+
+  const sDir = dirV(sYoy);
+  setBadge('retail-badge', sDir==='pos'?'green':sDir==='neg'?'red':'amber',
+    `${sYoy>=0?'▲':'▼'} Sales: $${fmtNum(sLast/1000,1)}B · YoY: ${arrowPct(sYoy)}  ·  ${eYoy>=0?'▲':'▼'} Employment: ${fmtNum(eLast)}K · YoY: ${arrowPct(eYoy)}`
+  );
 }
 
 function initFoodServices(d) {
   const rsKey = d.restaurant_sales ? 'restaurant_sales' : d.retail_sales ? 'retail_sales' : null;
   if (!rsKey) { placeholderChart('chartRetail','#1a7a6e'); setBadge('retail-badge','neutral','No Food Services data'); return; }
-
   _foodData.sales = d[rsKey];
   _foodData.emp   = d.food_employment || [];
-
-  // Init chart + slider with sales as default
-  setFoodSeries('sales');
+  renderFoodChart(0);
   buildFoodGroupedTable();
+  const allDates = _foodData.sales.map(x => x.date);
+  initSlider('retail-slider','retail-slider-start','retail-slider-end', allDates, idx => renderFoodChart(idx));
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
