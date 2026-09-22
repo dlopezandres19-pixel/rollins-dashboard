@@ -106,7 +106,7 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 <!-- HEADER -->
 <div class="header">
   <div class="header-left">
-    <h1>Rollins (ROL) | GRAM Dashboard</h1>
+    <h1>Rollins (ROL) | Investment Dashboard</h1>
     <p>Demand Signals · Labor Cost Pressure · Valuation</p>
   </div>
   <div class="header-right">
@@ -258,7 +258,9 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
     </div>
 
     <div class="notes">
-      <div class="note">Food-service activity is a proxy for operating conditions within a key Rollins commercial end market. Advance Retail Sales: Food Services &amp; Drinking Places (FRED RSAFS) capture nominal sector spending. Employment (BLS CEU7072200001: All Employees, Food Services &amp; Drinking Places) measures the number of workers actively employed in the sector — a proxy for real operating activity and the number of locations that may require commercial pest control services.</div>
+      <div class="note">Food-service activity is a proxy for operating conditions within a key Rollins commercial end market.</div>
+      <div class="note">1) Advance Retail Sales: Food Services &amp; Drinking Places (FRED RSAFS) capture nominal sector spending.</div>
+      <div class="note">2) Employment (BLS CEU7072200001: All Employees, Food Services &amp; Drinking Places) measures the number of workers actively employed in the sector — a proxy for real operating activity and the number of locations that may require commercial pest control services.</div>
     </div>
   </div>
 
@@ -635,6 +637,11 @@ function fmtPct(v, dec=1) {
   if (v===null||v===undefined||isNaN(v)) return '—';
   return `${v>=0?'+':''}${v.toFixed(dec)}%`;
 }
+function fmtNum(v, dec=0) {
+  // Format number with thousands comma, e.g. 12616 → "12,616"
+  if (v===null||v===undefined||isNaN(v)) return '—';
+  return Number(v.toFixed(dec)).toLocaleString('en-US');
+}
 function dirPct(v, posThreshold=0) {
   if (v===null||isNaN(v)) return 'neu';
   return v > posThreshold ? 'pos' : v < -posThreshold ? 'neg' : 'neu';
@@ -781,7 +788,7 @@ function renderHousing(startIdx) {
 
   makeChart('chartHousing', {
     type:'line', data:{labels:sLabs, datasets:[lineDs(cfg.label, sVals, cfg.color)]},
-    options:{...baseOpts('K units, SAAR'), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`${c.parsed.y.toFixed(0)}K`}}}}
+    options:{...baseOpts('K units, SAAR'), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`${fmtNum(c.parsed.y)}K`}}}}
   });
 }
 
@@ -806,7 +813,7 @@ function buildHousingGroupedTable() {
     {
       label: 'Latest',
       vals: series.map(s => ({
-        num: `${stats[s].last?.toFixed(0)}K`,
+        num: `${fmtNum(stats[s].last)}K`,
         yoy: fmtPct(stats[s].yoy),
         dir: dirPct(stats[s].yoy)
       }))
@@ -822,7 +829,7 @@ function buildHousingGroupedTable() {
     {
       label: '12M Avg.',
       vals: series.map(s => ({
-        num: `${stats[s].avg12?.toFixed(0)}K`,
+        num: `${fmtNum(stats[s].avg12)}K`,
         yoy: fmtPct(stats[s].avgYoy),
         dir: dirPct(stats[s].avgYoy)
       }))
@@ -841,7 +848,7 @@ function buildHousingGroupedTable() {
   const sPct   = tLast > 0 ? (sLast/tLast*100).toFixed(1) : '—';
   const mPct   = tLast > 0 ? (mLast/tLast*100).toFixed(1) : '—';
   document.getElementById('housing-mix').innerHTML =
-    `<span style="color:var(--text-muted);">Latest mix (of total ${tLast?.toFixed(0)}K): </span>
+    `<span style="color:var(--text-muted);">Latest mix (of total ${fmtNum(tLast)}K): </span>
      <span style="color:#2e9e6b;font-weight:600;">Single-Family ${sPct}%</span> &nbsp;·&nbsp;
      <span style="color:#c4820a;font-weight:600;">5+ Unit Multifamily ${mPct}%</span>
      <span style="color:var(--text-muted);font-size:9px;"> (residual: 2–4 unit structures)</span>`;
@@ -850,7 +857,7 @@ function buildHousingGroupedTable() {
   const totYoy = stats.total.yoy;
   const dir = dirPct(totYoy, 2);
   setBadge('housing-badge', dir==='pos'?'green':dir==='neg'?'red':'amber',
-    `Total: ${stats.total.last?.toFixed(0)}K units SAAR · YoY: ${fmtPct(totYoy)} · Single-Fam: ${stats.single.last?.toFixed(0)}K · Multifam 5+: ${stats.multi.last?.toFixed(0)}K`);
+    `Total: ${fmtNum(stats.total.last)}K units SAAR · YoY: ${fmtPct(totYoy)} · Single-Fam: ${fmtNum(stats.single.last)}K · Multifam 5+: ${fmtNum(stats.multi.last)}K`);
 }
 
 function setHousingSeries(s) {
@@ -914,8 +921,8 @@ function renderFoodChart(startIdx) {
   const allLabs = data.map(x => x.date);
   const allVals = data.map(x => Number(x.value));
   const fmt = _foodSeries === 'sales'
-    ? (c => `$${c.parsed.y.toLocaleString()}M`)
-    : (c => `${c.parsed.y.toFixed(0)}K`);
+    ? (c => `$${fmtNum(c.parsed.y)}M`)
+    : (c => `${fmtNum(c.parsed.y)}K`);
   makeChart('chartRetail', {
     type:'line',
     data:{labels:allLabs.slice(startIdx), datasets:[lineDs(cfg.label, allVals.slice(startIdx), cfg.color)]},
@@ -937,8 +944,8 @@ function setFoodSeries(s) {
   const yoy  = yoyPct(vals, 13);
   const dir  = dirPct(yoy, 0);
   const lbl  = s === 'sales'
-    ? `${yoy>=0?'▲':'▼'} Retail Sales: Food Services — Latest: $${(last/1000).toFixed(1)}B · YoY: ${fmtPct(yoy)}`
-    : `${yoy>=0?'▲':'▼'} Food Services Employment — Latest: ${last.toFixed(0)}K · YoY: ${fmtPct(yoy)}`;
+    ? `${yoy>=0?'▲':'▼'} Retail Sales: Food Services — Latest: $${fmtNum(last/1000, 1)}B · YoY: ${fmtPct(yoy)}`
+    : `${yoy>=0?'▲':'▼'} Food Services Employment — Latest: ${fmtNum(last)}K · YoY: ${fmtPct(yoy)}`;
   setBadge('retail-badge', dir==='pos'?'green':dir==='neg'?'red':'amber', lbl);
 }
 
@@ -967,13 +974,13 @@ function buildFoodGroupedTable() {
   const rows = [
     {
       label: `Latest (${fmtDate(sDate)})`,
-      sNum: `$${(sLast/1000).toFixed(1)}B`, sYoy: arrowPct(sYoy), sDir: dirV(sYoy),
-      eNum: eLast ? `${eLast.toFixed(0)}K` : '—', eYoy: arrowPct(eYoy), eDir: dirV(eYoy),
+      sNum: `$${fmtNum(sLast/1000, 1)}B`, sYoy: arrowPct(sYoy), sDir: dirV(sYoy),
+      eNum: eLast ? `${fmtNum(eLast)}K` : '—', eYoy: arrowPct(eYoy), eDir: dirV(eYoy),
     },
     {
       label: '12M Avg.',
-      sNum: `$${(sAvg12/1000).toFixed(1)}B`, sYoy: arrowPct(sAvgYoy), sDir: dirV(sAvgYoy),
-      eNum: eAvg12 ? `${eAvg12.toFixed(0)}K` : '—', eYoy: arrowPct(eAvgYoy), eDir: dirV(eAvgYoy),
+      sNum: `$${fmtNum(sAvg12/1000, 1)}B`, sYoy: arrowPct(sAvgYoy), sDir: dirV(sAvgYoy),
+      eNum: eAvg12 ? `${fmtNum(eAvg12)}K` : '—', eYoy: arrowPct(eAvgYoy), eDir: dirV(eAvgYoy),
     },
   ];
 
