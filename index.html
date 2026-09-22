@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Rollins (ROL) | Investment Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg:#f7f8fa; --card:#ffffff; --border:#e4e7ec; --border-light:#f0f2f5;
+  --text-primary:#1a1a2e; --text-secondary:#344054; --text-muted:#667085; --text-light:#98a2b3;
+  --accent:#1b3a5c; --accent-light:#2e6da4;
+  --positive:#2e9e6b; --negative:#c0392b; --amber:#c4820a;
+  --c-hours:#2e6da4; --c-earn:#c4820a; --c-ulc:#c0392b;
+  --c-ebitda:#6B4EAF; --c-evsales:#1a7a6e;
+  --c-median:#e07820;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;min-height:100vh;font-size:13px;}
+
+/* ── HEADER ── */
+.header{background:#1b3a5c;border-bottom:1px solid #15304d;padding:18px 44px 14px;display:flex;align-items:center;justify-content:space-between;}
+.header-left{display:flex;flex-direction:column;}
+.header h1{font-family:'Lucida Bright','Playfair Display',Georgia,serif;font-size:22px;font-weight:700;color:#fff;}
+.header p{font-size:10px;color:rgba(255,255,255,.6);margin-top:3px;letter-spacing:.06em;text-transform:uppercase;}
+.header-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px;}
+.date-badge{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:6px;padding:5px 12px;font-size:10px;color:rgba(255,255,255,.75);letter-spacing:.04em;}
+.source-tag{font-size:9px;color:rgba(255,255,255,.4);text-align:right;}
+
+/* ── DASHBOARD SHELL ── */
+.dashboard{padding:20px 44px;display:flex;flex-direction:column;gap:18px;}
+
+/* ── SECTION HEADER ── */
+.section-header{display:flex;align-items:center;gap:14px;background:#E2E9F0;margin-left:-44px;margin-right:-44px;padding:9px 44px;}
+.section-label{font-family:'Lucida Bright','Playfair Display',Georgia,serif;font-size:13px;font-weight:600;color:#193C6C;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;}
+.section-line{flex:1;height:1px;background:linear-gradient(90deg,#B8C8D8,transparent);}
+.section-sub{font-size:10px;color:#193C6C;letter-spacing:.04em;opacity:.7;white-space:nowrap;}
+
+/* ── GRID ROWS ── */
+.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+
+/* ── PANEL ── */
+.panel{background:var(--card);border:1px solid var(--border);border-radius:13px;padding:20px 22px;}
+.panel-title{font-family:'Lucida Bright','Playfair Display',Georgia,serif;font-size:14px;font-weight:600;color:var(--accent);margin-bottom:2px;}
+.panel-sub{font-size:10px;color:var(--text-muted);letter-spacing:.05em;text-transform:uppercase;margin-bottom:12px;}
+
+/* ── SIGNAL BADGE ── */
+.sig-badge{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;padding:4px 10px;border-radius:20px;margin-bottom:10px;}
+.sig-badge.green{background:rgba(46,158,107,.1);color:#2e9e6b;border:1px solid rgba(46,158,107,.25);}
+.sig-badge.amber{background:rgba(196,130,10,.1);color:#c4820a;border:1px solid rgba(196,130,10,.3);}
+.sig-badge.red{background:rgba(192,57,43,.1);color:#c0392b;border:1px solid rgba(192,57,43,.25);}
+.sig-badge.blue{background:rgba(46,109,164,.1);color:#2e6da4;border:1px solid rgba(46,109,164,.25);}
+.sig-badge.neutral{background:rgba(102,112,133,.08);color:#667085;border:1px solid rgba(102,112,133,.2);}
+
+/* ── CHART WRAPPER ── */
+.chart-wrap{position:relative;height:170px;}
+.chart-wrap.md{height:200px;}
+.chart-wrap.lg{height:230px;}
+
+/* ── MINI SCORECARD TABLE (below each BLS chart) ── */
+.mini-table{width:100%;border-collapse:collapse;margin-top:12px;font-size:11px;}
+.mini-table th{font-size:9px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);padding:4px 6px;border-bottom:1px solid var(--border);text-align:right;}
+.mini-table th:first-child{text-align:left;}
+.mini-table td{padding:5px 6px;border-bottom:1px solid var(--border-light);text-align:right;color:var(--text-secondary);}
+.mini-table td:first-child{text-align:left;font-weight:500;color:var(--text-muted);font-size:10px;}
+.mini-table tr:last-child td{border-bottom:none;}
+.delta-pos{color:var(--positive);font-weight:600;}
+.delta-neg{color:var(--negative);font-weight:600;}
+.delta-neu{color:var(--amber);font-weight:600;}
+
+/* ── NOTE BULLETS ── */
+.notes{margin-top:10px;padding-top:10px;border-top:1px solid var(--border);}
+.note{font-size:11px;color:var(--text-muted);line-height:1.55;padding-left:12px;position:relative;margin-top:4px;}
+.note::before{content:'·';position:absolute;left:0;}
+
+/* ── VALUATION CURRENT DOT ── */
+.val-tags{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;}
+.vtag{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:600;padding:3px 9px;border-radius:4px;letter-spacing:.02em;}
+.vtag.current{background:#eef4ff;color:#2e6da4;border:1px solid #bdd4f0;}
+.vtag.median{background:#fff3e8;color:#e07820;border:1px solid #f5c992;}
+.vtag.disc{background:#edfaf3;color:#2e9e6b;border:1px solid #9ee0be;}
+.vtag.prem{background:#fef0ee;color:#c0392b;border:1px solid #f0b5ae;}
+
+/* ── DIVIDER ── */
+.divider{height:1px;background:var(--border);margin:14px 0;}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-left">
+    <h1>Rollins (ROL) | Investment Dashboard</h1>
+    <p>Demand Signals · Labor Cost Pressure · Valuation</p>
+  </div>
+  <div class="header-right">
+    <div class="date-badge">Google Trends: weekly · Housing: Jun 2026 · Retail: Jul 2026 · BLS: Jul 2026 · Multiples: Sep 21, 2026</div>
+    <div class="source-tag">Sources: Google Trends · FRED (HOUST, RSAFS) · BLS CES6056171002/003 · Capital IQ (EV/EBITDA NTM, EV/Sales NTM)</div>
+  </div>
+</div>
+
+<div class="dashboard">
+
+<!-- ══════════════════════════════════════════════
+     § 1 — DEMAND SIGNALS
+══════════════════════════════════════════════ -->
+<div class="section-header" style="margin-top:2px;">
+  <div class="section-label">① Demand Signals</div>
+  <div class="section-line"></div>
+  <div class="section-sub">Google Trends (residential) · US Housing Starts (FRED: HOUST) · Advance Retail Sales: Food Services (FRED: RSAFS)</div>
+</div>
+
+<div class="grid-3">
+
+  <!-- Google Trends -->
+  <div class="panel">
+    <div class="panel-title">Google Trends — "pest control near me"</div>
+    <div class="panel-sub">US · Weekly index · Residential demand proxy</div>
+    <div id="trends-badge" class="sig-badge neutral">Loading…</div>
+    <div class="chart-wrap"><canvas id="chartTrends"></canvas></div>
+    <div id="trends-table"></div>
+    <div class="notes" id="trends-notes">
+      <div class="note">Weekly search interest (0–100 index). Values above the 52-wk avg signal above-trend residential demand. Peak: summer months (May–Aug).</div>
+    </div>
+  </div>
+
+  <!-- Housing Starts -->
+  <div class="panel">
+    <div class="panel-title">US Housing Starts</div>
+    <div class="panel-sub">FRED: HOUST · Monthly · Thousands of units · SA · New residential account pipeline</div>
+    <div id="housing-badge" class="sig-badge neutral">Loading…</div>
+    <div class="chart-wrap"><canvas id="chartHousing"></canvas></div>
+    <div id="housing-table"></div>
+    <div class="notes" id="housing-notes">
+      <div class="note">New construction = new homes needing initial pest control. Rollins typically wins contracts within 6–12 months of completion.</div>
+    </div>
+  </div>
+
+  <!-- Restaurant Sales -->
+  <div class="panel">
+    <div class="panel-title">Advance Retail Sales: Food Services</div>
+    <div class="panel-sub">FRED: RSAFS · Monthly · $M · B2B commercial demand proxy</div>
+    <div id="retail-badge" class="sig-badge neutral">Loading…</div>
+    <div class="chart-wrap"><canvas id="chartRetail"></canvas></div>
+    <div id="retail-table"></div>
+    <div class="notes" id="retail-notes">
+      <div class="note">Restaurants are a core commercial client for Rollins. Growth above 3% YoY historically correlates with expanding B2B pest control contracts.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════
+     § 2 — LABOR COST PRESSURE
+══════════════════════════════════════════════ -->
+<div class="section-header">
+  <div class="section-label">② Labor Cost Pressure</div>
+  <div class="section-line"></div>
+  <div class="section-sub">BLS CES6056171002 / CES6056171003 · Monthly SA · Exterminating &amp; Pest Control Services (NAICS 56171) · Jan 2016 – Jul 2026</div>
+</div>
+
+<div class="grid-3">
+
+  <!-- Avg Weekly Hours -->
+  <div class="panel">
+    <div class="panel-title">Avg Weekly Hours</div>
+    <div class="panel-sub">BLS CES6056171002 · SA · Proxy for operational demand &amp; field activity</div>
+    <div class="sig-badge green">▲ Demand signal — hours above prior year</div>
+    <div class="chart-wrap"><canvas id="chartHours"></canvas></div>
+    <table class="mini-table">
+      <thead><tr><th>Period</th><th>Avg hrs/wk</th><th>vs prior</th></tr></thead>
+      <tbody>
+        <tr><td>LTM (Aug 25–Jul 26)</td><td>38.3 h</td><td class="delta-pos">+3.7% YoY</td></tr>
+        <tr><td>LTM−1 (Aug 24–Jul 25)</td><td>36.9 h</td><td class="delta-neu">—</td></tr>
+        <tr><td>Latest (Jul 2026)</td><td>38.4 h</td><td class="delta-pos">↑ vs 36.2h Jul'25</td></tr>
+      </tbody>
+    </table>
+    <div class="notes">
+      <div class="note">Hours ↑ before headcount grows — leading indicator of revenue acceleration.</div>
+      <div class="note">2026 readings at highest level since 2023 peak (38.4h), signaling strong pipeline.</div>
+    </div>
+  </div>
+
+  <!-- Hourly Earnings -->
+  <div class="panel">
+    <div class="panel-title">Avg Hourly Earnings</div>
+    <div class="panel-sub">BLS CES6056171003 · SA · Proxy for labor cost pressure on margins</div>
+    <div class="sig-badge amber">⚠ Wage inflation contained but watch pricing power</div>
+    <div class="chart-wrap"><canvas id="chartEarnings"></canvas></div>
+    <table class="mini-table">
+      <thead><tr><th>Period</th><th>$/hr</th><th>vs prior</th></tr></thead>
+      <tbody>
+        <tr><td>LTM (Aug 25–Jul 26)</td><td>$28.71</td><td class="delta-neu">+0.7% YoY</td></tr>
+        <tr><td>LTM−1 (Aug 24–Jul 25)</td><td>$28.50</td><td class="delta-neu">—</td></tr>
+        <tr><td>Latest (Jul 2026)</td><td>$28.87</td><td class="delta-neu">+1.0% vs Jul'25</td></tr>
+      </tbody>
+    </table>
+    <div class="notes">
+      <div class="note">Wage growth at +0.7% YoY — far below 2020–22 COVID surge (+12% peak).</div>
+      <div class="note">~50% of Rollins cost structure is labor. Manageable if pricing holds above +2%.</div>
+    </div>
+  </div>
+
+  <!-- Unit Labor Cost -->
+  <div class="panel">
+    <div class="panel-title">Unit Labor Cost (Hours × Earnings)</div>
+    <div class="panel-sub">$/week per employee · Combined margin pressure indicator</div>
+    <div class="sig-badge red">▲ ULC +4.5% YoY — hours driving cost up, not wages</div>
+    <div class="chart-wrap"><canvas id="chartULC"></canvas></div>
+    <table class="mini-table">
+      <thead><tr><th>Period</th><th>$/wk per emp.</th><th>vs prior</th></tr></thead>
+      <tbody>
+        <tr><td>LTM (Aug 25–Jul 26)</td><td>$1,099</td><td class="delta-neg">+4.5% YoY</td></tr>
+        <tr><td>LTM−1 (Aug 24–Jul 25)</td><td>$1,052</td><td class="delta-neu">—</td></tr>
+        <tr><td>Latest (Jul 2026)</td><td>$1,109</td><td class="delta-neg">+5.6% vs Jul'25</td></tr>
+      </tbody>
+    </table>
+    <div class="notes">
+      <div class="note">ULC growth (+4.5%) outpaces wage growth (+0.7%) — volume driver, not inflation.</div>
+      <div class="note">Interpretation: more hours per worker = more field activity = cost is demand-driven (benign). Monitor if earnings start rising faster.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════
+     § 3 — VALUATION
+══════════════════════════════════════════════ -->
+<div class="section-header">
+  <div class="section-label">③ Valuation</div>
+  <div class="section-line"></div>
+  <div class="section-sub">Capital IQ · NTM multiples · Monthly · Jan 2010 – Sep 21, 2026 · n=201 observations</div>
+</div>
+
+<div class="grid-2">
+
+  <!-- EV/EBITDA NTM -->
+  <div class="panel">
+    <div class="panel-title">EV/EBITDA NTM — NYSE:ROL</div>
+    <div class="panel-sub">Capital IQ forward multiple · Monthly end-of-period</div>
+    <div class="val-tags">
+      <span class="vtag current">Current (Sep 21, 2026): 17.9x</span>
+      <span class="vtag median">Median (2010–2026): 26.0x</span>
+      <span class="vtag disc">−31.2% discount to median</span>
+    </div>
+    <div class="chart-wrap lg"><canvas id="chartEVEBITDA"></canvas></div>
+    <div class="notes">
+      <div class="note">Current 17.9x is the lowest level since early 2010–2012 range — significant de-rating from 40.7x peak (Sep 2021).</div>
+      <div class="note">Trading at a 31% discount to the 16-year median (26.0x). Historically, readings below 20x have preceded mean-reversion rallies.</div>
+    </div>
+  </div>
+
+  <!-- EV/Sales NTM -->
+  <div class="panel">
+    <div class="panel-title">EV/Sales NTM — NYSE:ROL</div>
+    <div class="panel-sub">Capital IQ forward multiple · Monthly end-of-period</div>
+    <div class="val-tags">
+      <span class="vtag current">Current (Sep 21, 2026): 3.9x</span>
+      <span class="vtag median">Median (2010–2026): 5.6x</span>
+      <span class="vtag disc">−30.4% discount to median</span>
+    </div>
+    <div class="chart-wrap lg"><canvas id="chartEVSales"></canvas></div>
+    <div class="notes">
+      <div class="note">Revenue multiple compressed from 7.7x (Jan 2026) to 3.9x today — a de-rating of 3.8x in 9 months.</div>
+      <div class="note">At 3.9x EV/Sales, ROL trades at its lowest revenue multiple in 10+ years, below the 5.6x 16-year median.</div>
+    </div>
+  </div>
+
+</div>
+
+</div><!-- /dashboard -->
+
+<script>
+// ── CHART GLOBAL DEFAULTS ──────────────────────────────────────────────────
+Chart.defaults.color = '#667085';
+Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
+Chart.defaults.font.size = 10;
+
+const TOOLTIP = {
+  backgroundColor:'#1b3a5c', borderColor:'#2e6da4', borderWidth:1,
+  titleColor:'#94b4d4', bodyColor:'#ffffff', padding:9, cornerRadius:6,
+  titleFont:{size:10}, bodyFont:{size:11}
+};
+
+function baseOpts(yUnit, yMin) {
+  const opts = {
+    responsive:true, maintainAspectRatio:false,
+    animation:{duration:500},
+    plugins:{legend:{display:false}, tooltip:TOOLTIP},
+    scales:{
+      x:{
+        grid:{color:'#f0f2f5', drawTicks:false},
+        ticks:{maxTicksLimit:7, maxRotation:0, color:'#98a2b3', font:{size:9}},
+        border:{color:'#e4e7ec'}
+      },
+      y:{
+        grid:{color:'#f0f2f5', drawTicks:false},
+        ticks:{maxTicksLimit:5, color:'#98a2b3', font:{size:9}},
+        border:{color:'#e4e7ec'}
+      }
+    }
+  };
+  if (yMin !== undefined) opts.scales.y.min = yMin;
+  return opts;
+}
+
+function lineDs(label, data, color, dash=false, width=2) {
+  return {
+    label, data, borderColor:color,
+    backgroundColor: color+'18',
+    borderWidth: width,
+    borderDash: dash ? [5,3] : [],
+    pointRadius:0, pointHoverRadius:4,
+    tension:0.35, fill:false, spanGaps:true
+  };
+}
+
+// ── BLS DATA ───────────────────────────────────────────────────────────────
+const BLS_L = ["Jan 2016","Feb 2016","Mar 2016","Apr 2016","May 2016","Jun 2016","Jul 2016","Aug 2016","Sep 2016","Oct 2016","Nov 2016","Dec 2016","Jan 2017","Feb 2017","Mar 2017","Apr 2017","May 2017","Jun 2017","Jul 2017","Aug 2017","Sep 2017","Oct 2017","Nov 2017","Dec 2017","Jan 2018","Feb 2018","Mar 2018","Apr 2018","May 2018","Jun 2018","Jul 2018","Aug 2018","Sep 2018","Oct 2018","Nov 2018","Dec 2018","Jan 2019","Feb 2019","Mar 2019","Apr 2019","May 2019","Jun 2019","Jul 2019","Aug 2019","Sep 2019","Oct 2019","Nov 2019","Dec 2019","Jan 2020","Feb 2020","Mar 2020","Apr 2020","May 2020","Jun 2020","Jul 2020","Aug 2020","Sep 2020","Oct 2020","Nov 2020","Dec 2020","Jan 2021","Feb 2021","Mar 2021","Apr 2021","May 2021","Jun 2021","Jul 2021","Aug 2021","Sep 2021","Oct 2021","Nov 2021","Dec 2021","Jan 2022","Feb 2022","Mar 2022","Apr 2022","May 2022","Jun 2022","Jul 2022","Aug 2022","Sep 2022","Oct 2022","Nov 2022","Dec 2022","Jan 2023","Feb 2023","Mar 2023","Apr 2023","May 2023","Jun 2023","Jul 2023","Aug 2023","Sep 2023","Oct 2023","Nov 2023","Dec 2023","Jan 2024","Feb 2024","Mar 2024","Apr 2024","May 2024","Jun 2024","Jul 2024","Aug 2024","Sep 2024","Oct 2024","Nov 2024","Dec 2024","Jan 2025","Feb 2025","Mar 2025","Apr 2025","May 2025","Jun 2025","Jul 2025","Aug 2025","Sep 2025","Oct 2025","Nov 2025","Dec 2025","Jan 2026","Feb 2026","Mar 2026","Apr 2026","May 2026","Jun 2026","Jul 2026"];
+const H_D = [37.3,37.8,38.1,38.1,38.4,38.6,38.7,39.0,37.8,37.1,37.4,37.4,37.7,37.8,38.0,37.8,37.5,38.0,37.4,36.9,37.8,38.2,38.3,37.7,36.6,37.6,37.0,37.2,37.5,37.3,37.4,37.1,36.7,36.8,36.5,36.9,37.1,35.8,36.4,37.0,36.3,35.8,35.8,36.1,36.2,36.1,35.8,35.9,37.4,37.0,36.9,36.2,36.1,36.0,37.2,36.4,36.0,35.6,36.2,36.1,35.9,35.8,36.2,36.3,37.2,37.1,37.3,37.2,37.4,37.3,38.1,37.7,37.5,37.3,37.0,37.0,36.9,37.3,37.3,37.5,37.9,38.2,38.2,38.2,38.2,38.4,38.1,38.1,38.1,37.6,37.5,37.5,37.9,37.1,36.5,36.7,36.5,36.5,37.8,37.1,36.5,36.6,36.2,36.6,36.6,37.4,37.3,36.8,36.9,36.8,36.8,37.1,36.9,36.4,37.3,37.1,37.0,37.2,37.2,39.2,38.6,38.7,38.9,39.3,38.9,38.8,38.4];
+const E_D = [22.60,22.62,22.70,22.75,22.97,23.13,23.41,23.03,22.86,22.93,22.78,22.62,22.40,22.31,22.11,22.55,22.14,21.91,22.24,22.11,22.32,22.01,21.92,22.17,22.32,22.42,22.57,22.28,22.47,22.39,22.18,22.35,22.46,22.04,22.36,22.26,22.01,21.96,22.17,21.95,21.87,22.30,21.98,22.30,22.24,22.36,23.15,22.74,22.87,23.25,23.38,23.74,24.52,24.86,25.11,25.35,25.13,25.76,25.64,25.50,26.32,26.41,26.16,26.58,26.91,25.93,26.21,26.29,26.42,26.98,27.13,27.41,27.98,28.06,27.01,27.47,27.69,28.03,28.44,27.84,28.34,28.18,27.70,27.88,27.33,27.26,27.40,27.85,27.77,27.83,28.22,27.60,28.43,27.88,28.39,28.21,27.91,28.08,28.50,28.25,28.59,28.42,28.36,28.77,28.53,28.16,28.33,28.26,28.61,28.83,28.68,28.83,28.60,28.53,27.84,28.93,28.67,29.40,29.26,28.69,28.36,28.05,28.04,28.49,28.78,28.99,28.87];
+const U_D = H_D.map((h,i) => Math.round(h * E_D[i] * 100)/100);
+
+// ── BLS CHARTS ─────────────────────────────────────────────────────────────
+new Chart(document.getElementById('chartHours'), {
+  type:'line',
+  data:{labels:BLS_L, datasets:[lineDs('Avg Weekly Hours', H_D, '#2e6da4')]},
+  options:{...baseOpts('h/wk', 34), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`${c.parsed.y.toFixed(1)} hrs/wk`}}}}
+});
+
+new Chart(document.getElementById('chartEarnings'), {
+  type:'line',
+  data:{labels:BLS_L, datasets:[lineDs('Hourly Earnings', E_D, '#c4820a')]},
+  options:{...baseOpts('$/hr', 20), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`$${c.parsed.y.toFixed(2)}/hr`}}}}
+});
+
+new Chart(document.getElementById('chartULC'), {
+  type:'line',
+  data:{labels:BLS_L, datasets:[lineDs('Unit Labor Cost', U_D, '#c0392b')]},
+  options:{...baseOpts('$/wk', 780), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`$${c.parsed.y.toFixed(0)}/wk`}}}}
+});
+
+// ── MULTIPLES DATA ─────────────────────────────────────────────────────────
+const M_L = ["Jan 2010","Feb 2010","Mar 2010","Apr 2010","May 2010","Jun 2010","Jul 2010","Aug 2010","Sep 2010","Oct 2010","Nov 2010","Dec 2010","Jan 2011","Feb 2011","Mar 2011","Apr 2011","May 2011","Jun 2011","Jul 2011","Aug 2011","Sep 2011","Oct 2011","Nov 2011","Dec 2011","Jan 2012","Feb 2012","Mar 2012","Apr 2012","May 2012","Jun 2012","Jul 2012","Aug 2012","Sep 2012","Oct 2012","Nov 2012","Dec 2012","Jan 2013","Feb 2013","Mar 2013","Apr 2013","May 2013","Jun 2013","Jul 2013","Aug 2013","Sep 2013","Oct 2013","Nov 2013","Dec 2013","Jan 2014","Feb 2014","Mar 2014","Apr 2014","May 2014","Jun 2014","Jul 2014","Aug 2014","Sep 2014","Oct 2014","Nov 2014","Dec 2014","Jan 2015","Feb 2015","Mar 2015","Apr 2015","May 2015","Jun 2015","Jul 2015","Aug 2015","Sep 2015","Oct 2015","Nov 2015","Dec 2015","Jan 2016","Feb 2016","Mar 2016","Apr 2016","May 2016","Jun 2016","Jul 2016","Aug 2016","Sep 2016","Oct 2016","Nov 2016","Dec 2016","Jan 2017","Feb 2017","Mar 2017","Apr 2017","May 2017","Jun 2017","Jul 2017","Aug 2017","Sep 2017","Oct 2017","Nov 2017","Dec 2017","Jan 2018","Feb 2018","Mar 2018","Apr 2018","May 2018","Jun 2018","Jul 2018","Aug 2018","Sep 2018","Oct 2018","Nov 2018","Dec 2018","Jan 2019","Feb 2019","Mar 2019","Apr 2019","May 2019","Jun 2019","Jul 2019","Aug 2019","Sep 2019","Oct 2019","Nov 2019","Dec 2019","Jan 2020","Feb 2020","Mar 2020","Apr 2020","May 2020","Jun 2020","Jul 2020","Aug 2020","Sep 2020","Oct 2020","Nov 2020","Dec 2020","Jan 2021","Feb 2021","Mar 2021","Apr 2021","May 2021","Jun 2021","Jul 2021","Aug 2021","Sep 2021","Oct 2021","Nov 2021","Dec 2021","Jan 2022","Feb 2022","Mar 2022","Apr 2022","May 2022","Jun 2022","Jul 2022","Aug 2022","Sep 2022","Oct 2022","Nov 2022","Dec 2022","Jan 2023","Feb 2023","Mar 2023","Apr 2023","May 2023","Jun 2023","Jul 2023","Aug 2023","Sep 2023","Oct 2023","Nov 2023","Dec 2023","Jan 2024","Feb 2024","Mar 2024","Apr 2024","May 2024","Jun 2024","Jul 2024","Aug 2024","Sep 2024","Oct 2024","Nov 2024","Dec 2024","Jan 2025","Feb 2025","Mar 2025","Apr 2025","May 2025","Jun 2025","Jul 2025","Aug 2025","Sep 2025","Oct 2025","Nov 2025","Dec 2025","Jan 2026","Feb 2026","Mar 2026","Apr 2026","May 2026","Jun 2026","Jul 2026","Aug 2026","Sep 2026"];
+const EB_D = [10.9,11.8,12.0,11.9,11.6,11.3,11.5,10.8,12.4,13.5,14.0,15.4,14.3,14.8,15.3,15.6,14.9,15.1,13.8,15.1,13.5,15.2,15.6,15.5,14.5,13.8,14.5,13.4,13.4,14.5,15.0,14.8,14.9,14.0,14.1,13.8,15.1,15.0,15.1,14.6,15.2,15.6,15.2,14.7,15.7,15.7,16.1,17.3,15.8,16.5,16.8,16.5,16.9,16.5,15.1,15.8,15.3,16.2,16.4,16.6,16.7,17.0,18.5,18.1,18.1,20.9,20.8,19.9,19.1,18.9,19.1,18.2,19.0,19.0,18.7,17.9,19.1,19.7,18.4,18.6,19.1,19.7,20.3,21.4,21.5,22.3,22.7,23.2,25.9,24.4,24.9,25.5,27.0,24.9,26.3,26.4,27.2,27.8,28.2,27.1,27.9,29.4,30.6,33.5,33.8,32.5,34.9,29.7,28.3,30.2,31.8,29.7,28.9,27.7,27.2,26.6,27.5,29.9,28.2,26.1,28.9,29.5,28.0,34.9,36.2,36.6,38.5,40.2,39.6,40.2,39.7,40.7,36.0,33.2,34.5,35.0,32.0,32.1,33.4,33.9,30.3,30.6,28.9,29.7,25.9,27.4,29.4,28.4,30.0,29.6,31.8,27.8,28.7,33.3,32.0,28.9,28.4,26.8,28.6,29.8,27.7,30.2,28.4,27.5,26.0,24.7,26.7,28.6,28.3,28.2,29.7,28.2,28.9,30.8,29.1,30.6,30.7,28.4,30.2,27.6,29.6,30.5,31.4,32.0,32.1,31.7,31.4,31.0,32.1,30.4,32.2,31.4,33.1,31.9,28.1,28.9,24.9,21.9,20.8,19.8,17.9];
+const EV_D = [1.8,1.9,2.0,1.9,1.9,1.8,1.8,1.7,2.0,2.2,2.3,2.5,2.3,2.4,2.5,2.5,2.4,2.5,2.3,2.5,2.2,2.5,2.6,2.6,2.4,2.3,2.4,2.4,2.4,2.5,2.6,2.6,2.6,2.4,2.5,2.4,2.6,2.6,2.6,2.6,2.7,2.7,2.7,2.6,2.8,2.8,2.9,3.1,2.9,3.0,3.0,3.0,3.1,3.0,2.8,2.9,2.9,3.1,3.1,3.2,3.2,3.2,3.6,3.6,3.6,4.1,4.1,3.9,3.8,3.7,3.8,3.6,3.8,3.8,3.7,3.6,3.8,4.0,3.7,3.8,3.9,4.0,4.2,4.4,4.5,4.7,4.8,4.9,5.5,5.2,5.3,5.5,5.7,5.4,5.7,5.7,6.0,6.1,6.2,5.7,5.9,6.2,6.3,6.9,7.0,6.7,7.2,6.1,6.0,6.4,6.7,6.2,6.0,5.8,5.5,5.4,5.6,6.1,5.7,5.3,5.9,6.0,5.7,6.6,6.8,6.9,7.9,8.3,8.2,8.5,8.4,8.6,7.8,7.2,7.4,7.8,7.1,7.2,7.7,7.8,7.0,6.9,6.6,6.7,5.9,6.2,6.7,6.3,6.6,6.5,6.9,6.0,6.2,7.4,7.1,6.4,6.4,6.1,6.5,6.8,6.3,6.9,6.4,6.3,5.9,5.8,6.2,6.7,6.6,6.6,6.9,6.5,6.7,7.1,6.8,7.2,7.2,6.6,7.0,6.5,6.9,7.0,7.3,7.4,7.4,7.3,7.3,7.2,7.4,7.1,7.5,7.3,7.7,7.4,6.5,6.6,5.7,5.0,4.5,4.3,3.9];
+
+const MED_EB = 26.0, MED_EV = 5.6;
+
+// ── VALUATION CHARTS with inline median label plugin ──────────────────────
+function buildValChart(canvasId, labels, data, color, medVal, unit, yMin) {
+  const medArr = labels.map(() => medVal);
+  const lastIdx = data.length - 1;
+  const lastVal = data[lastIdx];
+  const lastLabel = labels[lastIdx];
+
+  // Custom plugin: draw median label on the chart canvas
+  const medianLabelPlugin = {
+    id: 'medianLabel',
+    afterDraw(chart) {
+      const {ctx, scales:{x, y}} = chart;
+      const yPx = y.getPixelForValue(medVal);
+      // small pill tag at left edge
+      const text = `Median ${medVal.toFixed(1)}${unit}`;
+      ctx.save();
+      ctx.font = 'bold 9px "Segoe UI", system-ui, sans-serif';
+      const tw = ctx.measureText(text).width;
+      const px = x.left + 4;
+      const py = yPx - 10;
+      ctx.fillStyle = '#fff3e8';
+      ctx.strokeStyle = '#f5c992';
+      ctx.lineWidth = 1;
+      const pad = 4;
+      ctx.beginPath();
+      ctx.roundRect(px, py, tw + pad*2, 14, 3);
+      ctx.fill(); ctx.stroke();
+      ctx.fillStyle = '#e07820';
+      ctx.fillText(text, px + pad, py + 10);
+      // current dot label at right
+      const dotX = x.getPixelForValue(lastIdx);
+      const dotY = y.getPixelForValue(lastVal);
+      ctx.beginPath();
+      ctx.arc(dotX, dotY, 4, 0, Math.PI*2);
+      ctx.fillStyle = color;
+      ctx.fill();
+      const currText = `${lastLabel}: ${lastVal.toFixed(1)}${unit}`;
+      ctx.font = '9px "Segoe UI", system-ui, sans-serif';
+      const cw = ctx.measureText(currText).width;
+      const cx2 = Math.min(dotX - cw - 8, x.right - cw - 8);
+      ctx.fillStyle = '#eef4ff';
+      ctx.strokeStyle = '#bdd4f0';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.roundRect(cx2, dotY - 10, cw + pad*2, 14, 3);
+      ctx.fill(); ctx.stroke();
+      ctx.fillStyle = '#2e6da4';
+      ctx.fillText(currText, cx2 + pad, dotY);
+      ctx.restore();
+    }
+  };
+
+  new Chart(document.getElementById(canvasId), {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        lineDs('Multiple', data, color, false, 2),
+        {
+          label:`Median ${medVal.toFixed(1)}x`,
+          data: medArr,
+          borderColor: '#e07820',
+          borderWidth: 1.5,
+          borderDash: [6,4],
+          pointRadius: 0,
+          fill: false, tension: 0
+        }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      animation: {duration:500},
+      plugins: {
+        legend: {display:false},
+        tooltip: {
+          ...TOOLTIP,
+          callbacks: {label: c => `${c.dataset.label}: ${c.parsed.y.toFixed(1)}${unit}`}
+        }
+      },
+      scales: {
+        x:{grid:{color:'#f0f2f5',drawTicks:false}, ticks:{maxTicksLimit:8,maxRotation:0,color:'#98a2b3',font:{size:9}}, border:{color:'#e4e7ec'}},
+        y:{min:yMin, grid:{color:'#f0f2f5',drawTicks:false}, ticks:{maxTicksLimit:6,color:'#98a2b3',font:{size:9},callback:v=>v.toFixed(1)+'x'}, border:{color:'#e4e7ec'}}
+      }
+    },
+    plugins: [medianLabelPlugin]
+  });
+}
+
+buildValChart('chartEVEBITDA', M_L, EB_D, '#6B4EAF', MED_EB, 'x', 8);
+buildValChart('chartEVSales',  M_L, EV_D, '#1a7a6e', MED_EV, 'x', 1.5);
+
+// ── DEMAND SIGNALS — load from data.json ──────────────────────────────────
+function miniTable(containerId, rows) {
+  // rows: [{label, curr, yoy, dir}]
+  const t = document.getElementById(containerId);
+  if (!t) return;
+  t.innerHTML = `<table class="mini-table">
+    <thead><tr><th>Metric</th><th>Latest</th><th>YoY Δ</th></tr></thead>
+    <tbody>${rows.map(r=>`<tr>
+      <td>${r.label}</td>
+      <td>${r.curr}</td>
+      <td class="${r.dir==='pos'?'delta-pos':r.dir==='neg'?'delta-neg':'delta-neu'}">${r.yoy}</td>
+    </tr>`).join('')}</tbody>
+  </table>`;
+}
+
+function setBadge(id, cls, text) {
+  const el = document.getElementById(id);
+  el.className = `sig-badge ${cls}`;
+  el.textContent = text;
+}
+
+async function loadDemand() {
+  try {
+    const res = await fetch('data.json');
+    if (!res.ok) throw new Error('no data.json');
+    const d = await res.json();
+
+    // Google Trends
+    if (d.google_trends && d.google_trends.length > 0) {
+      const t = d.google_trends;
+      const labs = t.map(x => x.date);
+      const vals = t.map(x => Number(x.value));
+      const last = vals[vals.length-1];
+      const avg52 = Math.round(vals.slice(-52).reduce((a,b)=>a+b,0) / Math.min(vals.length,52));
+      const avg4  = Math.round(vals.slice(-4).reduce((a,b)=>a+b,0)/4);
+      const prev52 = vals.length >= 104 ? Math.round(vals.slice(-104,-52).reduce((a,b)=>a+b,0)/52) : avg52;
+      const yoyPct = prev52 > 0 ? ((avg52-prev52)/prev52*100).toFixed(1) : 'N/A';
+      const dir = last >= avg52 ? 'pos' : 'neg';
+      const cls = last >= avg52 ? 'green' : 'amber';
+      setBadge('trends-badge', cls, `${last >= avg52 ? '▲' : '▼'} Latest: ${last} · 52-wk avg: ${avg52} · ${last >= avg52 ? 'Above trend — demand seasonally strong' : 'Below trend — watch for softening'}`);
+
+      new Chart(document.getElementById('chartTrends'), {
+        type:'line',
+        data:{labels:labs, datasets:[
+          lineDs('"pest control near me"', vals, '#2e9e6b'),
+          {label:'52-wk avg', data:labs.map(()=>avg52), borderColor:'#c0392b', borderWidth:1.2, borderDash:[5,3], pointRadius:0, fill:false, tension:0}
+        ]},
+        options:{...baseOpts('index',0), plugins:{legend:{display:false}, tooltip:TOOLTIP}}
+      });
+      miniTable('trends-table', [
+        {label:'Latest reading', curr: last, yoy: `vs avg ${avg52}`, dir},
+        {label:'4-wk avg', curr: avg4, yoy: avg4>=avg52?'Above 52-wk avg':'Below 52-wk avg', dir: avg4>=avg52?'pos':'neg'},
+        {label:'52-wk avg (YoY)', curr: avg52, yoy: yoyPct!='N/A'?`${yoyPct>0?'+':''}${yoyPct}%`:'N/A', dir: parseFloat(yoyPct)>=0?'pos':'neg'}
+      ]);
+    } else { placeholderChart('chartTrends', '#2e9e6b'); setBadge('trends-badge','neutral','Connect data.json — Google Trends data will appear here'); }
+
+    // Housing Starts
+    if (d.housing_starts && d.housing_starts.length > 0) {
+      const h = d.housing_starts;
+      const labs = h.map(x => x.date);
+      const vals = h.map(x => Number(x.value));
+      const last = vals[vals.length-1];
+      const prev = vals.length>=13 ? vals[vals.length-13] : null;
+      const yoy = prev ? ((last-prev)/prev*100).toFixed(1) : 'N/A';
+      const dir = parseFloat(yoy) > 0 ? 'pos' : parseFloat(yoy) < -5 ? 'neg' : 'neu';
+      setBadge('housing-badge', dir==='pos'?'green':dir==='neg'?'red':'amber',
+        `${dir==='pos'?'▲':'▼'} Latest: ${last}K units · YoY: ${yoy>0?'+':''}${yoy}%`);
+      new Chart(document.getElementById('chartHousing'), {
+        type:'line',
+        data:{labels:labs, datasets:[lineDs('Housing Starts (K)', vals, '#2e6da4')]},
+        options:{...baseOpts('K units'), plugins:{legend:{display:false}, tooltip:TOOLTIP}}
+      });
+      miniTable('housing-table', [
+        {label:'Latest', curr:`${last}K`, yoy:`${yoy>0?'+':''}${yoy}% YoY`, dir},
+        {label:'12-mo avg', curr:`${Math.round(vals.slice(-12).reduce((a,b)=>a+b,0)/12)}K`, yoy:'trailing', dir:'neu'},
+      ]);
+    } else { placeholderChart('chartHousing','#2e6da4'); setBadge('housing-badge','neutral','Connect data.json — FRED Housing Starts will appear here'); }
+
+    // Restaurant Sales
+    const rsKey = d.restaurant_sales ? 'restaurant_sales' : d.retail_sales ? 'retail_sales' : null;
+    if (rsKey && d[rsKey].length > 0) {
+      const r = d[rsKey];
+      const labs = r.map(x => x.date);
+      const vals = r.map(x => Number(x.value));
+      const last = vals[vals.length-1];
+      const prev = vals.length>=13 ? vals[vals.length-13] : null;
+      const yoy = prev ? ((last-prev)/prev*100).toFixed(1) : 'N/A';
+      const dir = parseFloat(yoy) > 3 ? 'pos' : parseFloat(yoy) < 0 ? 'neg' : 'neu';
+      setBadge('retail-badge', dir==='pos'?'green':dir==='neg'?'red':'amber',
+        `${parseFloat(yoy)>0?'▲':'▼'} Latest: $${(last/1000).toFixed(1)}B · YoY: ${yoy>0?'+':''}${yoy}%`);
+      new Chart(document.getElementById('chartRetail'), {
+        type:'line',
+        data:{labels:labs, datasets:[lineDs('Restaurant Sales ($M)', vals, '#1a7a6e')]},
+        options:{...baseOpts('$M'), plugins:{legend:{display:false}, tooltip:TOOLTIP}}
+      });
+      miniTable('retail-table', [
+        {label:'Latest', curr:`$${(last/1000).toFixed(1)}B`, yoy:`${yoy>0?'+':''}${yoy}% YoY`, dir},
+        {label:'12-mo avg', curr:`$${((vals.slice(-12).reduce((a,b)=>a+b,0)/12)/1000).toFixed(1)}B`, yoy:'trailing', dir:'neu'},
+      ]);
+    } else { placeholderChart('chartRetail','#1a7a6e'); setBadge('retail-badge','neutral','Connect data.json — FRED Retail Sales will appear here'); }
+
+  } catch(e) {
+    console.warn('data.json not available:', e.message);
+    placeholderChart('chartTrends','#2e9e6b');
+    placeholderChart('chartHousing','#2e6da4');
+    placeholderChart('chartRetail','#1a7a6e');
+    setBadge('trends-badge','neutral','Deploy to GitHub Pages to load live Google Trends data');
+    setBadge('housing-badge','neutral','Deploy to GitHub Pages to load live FRED Housing Starts data');
+    setBadge('retail-badge','neutral','Deploy to GitHub Pages to load live FRED Restaurant Sales data');
+  }
+}
+
+function placeholderChart(id, color) {
+  new Chart(document.getElementById(id), {
+    type:'line',
+    data:{labels:['—'], datasets:[{data:[null], borderColor:color, borderWidth:1}]},
+    options:{responsive:true, maintainAspectRatio:false, animation:{duration:0},
+      plugins:{legend:{display:false}, tooltip:{enabled:false}},
+      scales:{x:{display:false}, y:{display:false}}}
+  });
+}
+
+loadDemand();
+</script>
+</body>
+</html>
