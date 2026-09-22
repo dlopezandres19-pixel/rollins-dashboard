@@ -1,0 +1,33 @@
+name: Update Rollins Data
+
+on:
+  schedule:
+    - cron: '0 14 * * 1'  # Every Monday at 9am EST
+  workflow_dispatch:        # Allow manual runs
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run data fetcher
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python fetch_data.py
+
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data.json
+          git commit -m "Update data $(date +'%Y-%m-%d')" || echo "No changes"
+          git push
