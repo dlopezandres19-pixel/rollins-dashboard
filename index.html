@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Rollins (ROL) | Investment Dashboard</title>
+<title>Rollins (ROL) | GRAM Dashboard</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
@@ -38,6 +38,7 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 .section-sub{font-size:10px;color:#193C6C;letter-spacing:.04em;opacity:.7;white-space:nowrap;}
 
 /* ── GRID ROWS ── */
+.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;}
 .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
 
 /* ── PANEL ── */
@@ -47,34 +48,89 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 
 /* ── SIGNAL BADGE ── */
 .sig-badge{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;padding:4px 10px;border-radius:20px;margin-bottom:10px;}
-.sig-above{background:#e8f7f0;color:#1f7a50;}
-.sig-below{background:#fdecea;color:#c0392b;}
-.sig-neutral{background:#f0f4f8;color:#445567;}
+.sig-badge.green{background:rgba(46,158,107,.1);color:#2e9e6b;border:1px solid rgba(46,158,107,.25);}
+.sig-badge.amber{background:rgba(196,130,10,.1);color:#c4820a;border:1px solid rgba(196,130,10,.3);}
+.sig-badge.red{background:rgba(192,57,43,.1);color:#c0392b;border:1px solid rgba(192,57,43,.25);}
+.sig-badge.blue{background:rgba(46,109,164,.1);color:#2e6da4;border:1px solid rgba(46,109,164,.25);}
+.sig-badge.neutral{background:rgba(102,112,133,.08);color:#667085;border:1px solid rgba(102,112,133,.2);}
 
-/* ── KPI ROW ── */
-.kpi-row{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:12px;}
-.kpi-box{background:var(--border-light);border-radius:8px;padding:8px 14px;min-width:80px;}
-.kpi-label{font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;}
-.kpi-val{font-size:16px;font-weight:700;color:var(--text-primary);margin-top:2px;}
-.kpi-delta{font-size:11px;font-weight:600;margin-top:1px;}
-.pos{color:var(--positive);} .neg{color:var(--negative);}
-
-/* ── CHART WRAP ── */
-.chart-wrap{position:relative;height:190px;margin-bottom:10px;}
+/* ── CHART WRAPPER ── */
+.chart-wrap{position:relative;height:170px;}
+.chart-wrap.md{height:200px;}
+.chart-wrap.lg{height:230px;}
 .chart-wrap.xl{height:300px;}
 
+/* ── MINI SCORECARD TABLE ── */
+.mini-table{width:100%;border-collapse:collapse;margin-top:12px;font-size:11px;}
+.mini-table th{font-size:9px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);padding:4px 6px;border-bottom:1px solid var(--border);text-align:right;}
+.mini-table th:first-child{text-align:left;}
+.mini-table td{padding:5px 6px;border-bottom:1px solid var(--border-light);text-align:right;color:var(--text-secondary);}
+.mini-table td:first-child{text-align:left;font-weight:500;color:var(--text-muted);font-size:10px;}
+.mini-table tr:last-child td{border-bottom:none;}
+.delta-pos{color:var(--positive);font-weight:600;}
+.delta-neg{color:var(--negative);font-weight:600;}
+.delta-neu{color:var(--amber);font-weight:600;}
+
+/* ── NOTE BULLETS ── */
+.notes{margin-top:10px;padding-top:10px;border-top:1px solid var(--border);}
+.note{font-size:11px;color:var(--text-muted);line-height:1.55;padding-left:12px;position:relative;margin-top:4px;}
+.note::before{content:'·';position:absolute;left:0;}
+
+/* ── VALUATION ── */
+.val-tags{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;}
+.vtag{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:600;padding:3px 9px;border-radius:4px;letter-spacing:.02em;}
+.vtag.current{background:#eef4ff;color:#2e6da4;border:1px solid #bdd4f0;}
+.vtag.median{background:#fff3e8;color:#e07820;border:1px solid #f5c992;}
+.vtag.disc{background:#edfaf3;color:#2e9e6b;border:1px solid #9ee0be;}
+.vtag.prem{background:#fef0ee;color:#c0392b;border:1px solid #f0b5ae;}
+
 /* ── SLIDER ── */
-.slider-row{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
-.slider-row label{font-size:10px;color:var(--text-muted);white-space:nowrap;}
-.slider-row input[type=range]{flex:1;accent-color:var(--accent-light);}
-.slider-val{font-size:10px;color:var(--text-secondary);white-space:nowrap;min-width:72px;text-align:right;}
+.slider-row{display:flex;align-items:center;gap:8px;margin:10px 0 4px;}
+.slider{flex:1;-webkit-appearance:none;height:4px;border-radius:2px;background:var(--border);outline:none;cursor:pointer;accent-color:#1b3a5c;}
+.slider::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:#1b3a5c;cursor:pointer;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.2);}
+.slider::-moz-range-thumb{width:14px;height:14px;border-radius:50%;background:#1b3a5c;cursor:pointer;border:2px solid #fff;}
+.slider-label{font-size:10px;color:var(--text-muted);white-space:nowrap;min-width:48px;}
+.slider-label:last-child{text-align:right;}
 
-/* ── SELECT / VIEW ── */
-.view-row{display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap;}
-.view-row label{font-size:10px;color:var(--text-muted);}
-.view-row select{font-size:11px;padding:3px 7px;border:1px solid var(--border);border-radius:6px;color:var(--text-secondary);background:#fff;cursor:pointer;}
+/* ── HOUSING TOGGLE ── */
+.htog{background:#fff;border:none;border-right:1px solid var(--border);padding:4px 9px;font-size:10px;font-weight:500;color:var(--text-muted);cursor:pointer;transition:all .15s;}
+.htog:last-child{border-right:none;}
+.htog:hover{background:#f0f4f8;color:var(--accent);}
+.htog.active{background:#1b3a5c;color:#fff;font-weight:600;}
 
-/* ── GROUPED TABLE ── */
+/* ── TRACKER CARD ── */
+.tracker-controls{display:grid;grid-template-columns:repeat(3,1fr);gap:8px 16px;margin-bottom:12px;}
+@media(max-width:900px){.tracker-controls{grid-template-columns:1fr 1fr;}}
+@media(max-width:580px){.tracker-controls{grid-template-columns:1fr;}}
+.ctrl-group{display:flex;align-items:center;gap:7px;background:#f8f9fb;border:1px solid var(--border);border-radius:8px;padding:6px 10px;}
+.ctrl-check{width:15px;height:15px;accent-color:var(--accent-light);cursor:pointer;flex-shrink:0;}
+.ctrl-label{font-size:11px;font-weight:600;color:var(--text-primary);min-width:80px;white-space:nowrap;}
+.ctrl-select{flex:1;font-size:10px;padding:2px 5px;border:1px solid var(--border);border-radius:5px;color:var(--text-secondary);background:#fff;cursor:pointer;min-width:0;}
+.ctrl-select:disabled{opacity:.45;cursor:default;}
+.growth-controls{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px;padding:8px 12px;background:#f0f4f8;border-radius:8px;align-items:center;}
+.growth-check-item{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--text-secondary);cursor:pointer;}
+.growth-check-item input[type=checkbox]{cursor:pointer;}
+.growth-section-label{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);white-space:nowrap;}
+
+/* ── TRACKER KPI PILL ── */
+.kpi-pill{display:inline-flex;gap:14px;background:#1b3a5c;color:#fff;border-radius:20px;padding:5px 14px;font-size:10px;align-items:center;margin-bottom:10px;flex-wrap:wrap;}
+.kpi-pill span{white-space:nowrap;}
+.kpi-pill .pill-badge{background:rgba(255,255,255,.15);border-radius:10px;padding:1px 8px;font-weight:700;}
+.tracker-kpi{display:flex;gap:12px;flex-wrap:wrap;margin:8px 0;}
+.tracker-kpi-box{background:var(--border-light);border-radius:8px;padding:6px 12px;min-width:70px;}
+.tracker-kpi-series{font-size:9px;font-weight:700;color:var(--accent-light);text-transform:uppercase;letter-spacing:.04em;margin-bottom:2px;}
+.tracker-kpi-label{font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:.04em;}
+.tracker-kpi-val{font-size:14px;font-weight:700;color:var(--text-primary);margin-top:1px;}
+
+/* ── TRACKER LEGEND ── */
+.tracker-legend{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px;}
+.legend-item{display:flex;align-items:center;gap:5px;font-size:10px;color:var(--text-secondary);}
+.legend-swatch{width:20px;height:3px;border-radius:2px;flex-shrink:0;}
+
+/* ── NOTE BOX ── */
+.note-box{background:#f5f7fa;border-left:3px solid var(--accent-light);border-radius:0 6px 6px 0;padding:9px 13px;font-size:11px;color:var(--text-secondary);line-height:1.55;margin-top:10px;}
+
+/* ── GROUPED TABLE (housing/food) ── */
 .gtable{width:100%;border-collapse:collapse;font-size:11px;margin-top:4px;}
 .gtable th{font-size:9px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;padding:4px 8px;border-bottom:1px solid var(--border);text-align:center;}
 .gtable th.row-hdr{text-align:left;}
@@ -83,90 +139,43 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 .gtable tr:last-child td{border-bottom:none;}
 .gtable .th-group{background:#f5f7fa;font-size:10px;font-weight:700;color:#1b3a5c;border-bottom:1px solid var(--border);padding:5px 8px;}
 .merge-cell{border-right:2px solid var(--border);}
-
-/* ── INTERP NOTE ── */
-.note-box{background:#f5f7fa;border-left:3px solid var(--accent-light);border-radius:0 6px 6px 0;padding:9px 13px;font-size:11px;color:var(--text-secondary);line-height:1.55;margin-top:10px;}
+.pos{color:var(--positive);font-weight:600;}
+.neg{color:var(--negative);font-weight:600;}
+.neu{color:var(--amber);font-weight:600;}
 
 /* ── MIX BAR ── */
 .mix-row{display:flex;align-items:center;gap:8px;margin-top:8px;}
-.mix-bar{flex:1;height:8px;border-radius:4px;background:#e8ecf0;overflow:hidden;}
-.mix-fill{height:100%;border-radius:4px;background:var(--accent-light);}
-.mix-label{font-size:10px;color:var(--text-muted);white-space:nowrap;}
-
-/* ── BLS CHART ── */
-.bls-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:6px;}
-.bls-box{background:var(--border-light);border-radius:8px;padding:9px 12px;}
-.bls-title{font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px;}
-.bls-val{font-size:15px;font-weight:700;color:var(--text-primary);}
-.bls-delta{font-size:10px;font-weight:600;margin-top:2px;}
-
-/* ── VALUATION TABLE ── */
-.val-table{width:100%;border-collapse:collapse;font-size:11.5px;}
-.val-table th{font-size:9px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;padding:4px 8px;border-bottom:1px solid var(--border);text-align:right;}
-.val-table th:first-child{text-align:left;}
-.val-table td{padding:5px 8px;border-bottom:1px solid var(--border-light);text-align:right;color:var(--text-secondary);}
-.val-table td:first-child{font-weight:600;color:var(--text-primary);text-align:left;}
-.val-table tr:last-child td{border-bottom:none;}
-.val-curr{font-weight:700;color:var(--text-primary);}
-.val-med{font-size:10px;color:var(--text-muted);}
-
-/* ── TRACKER CARD ── */
-.tracker-controls{display:grid;grid-template-columns:repeat(3,1fr);gap:8px 16px;margin-bottom:12px;}
-@media(max-width:768px){.tracker-controls{grid-template-columns:1fr 1fr;}}
-@media(max-width:500px){.tracker-controls{grid-template-columns:1fr;}}
-.ctrl-group{display:flex;align-items:center;gap:7px;background:#f8f9fb;border:1px solid var(--border);border-radius:8px;padding:6px 10px;}
-.ctrl-check{width:15px;height:15px;accent-color:var(--accent-light);cursor:pointer;flex-shrink:0;}
-.ctrl-label{font-size:11px;font-weight:600;color:var(--text-primary);min-width:80px;white-space:nowrap;}
-.ctrl-select{flex:1;font-size:10px;padding:2px 5px;border:1px solid var(--border);border-radius:5px;color:var(--text-secondary);background:#fff;cursor:pointer;min-width:0;}
-.ctrl-select:disabled{opacity:.45;cursor:default;}
-.growth-controls{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px;padding:8px 12px;background:#f0f4f8;border-radius:8px;}
-.growth-check-item{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--text-secondary);cursor:pointer;}
-.growth-check-item input[type=checkbox]{accent-color:#7b4e9e;cursor:pointer;}
-.growth-section-label{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);display:flex;align-items:center;margin-right:4px;}
-
-/* ── TRACKER KPI ── */
-.tracker-kpi{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px;}
-.tracker-kpi-box{background:var(--border-light);border-radius:8px;padding:6px 12px;min-width:70px;}
-.tracker-kpi-label{font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:.04em;}
-.tracker-kpi-val{font-size:14px;font-weight:700;color:var(--text-primary);margin-top:1px;}
-.kpi-pill{display:inline-flex;gap:14px;background:#1b3a5c;color:#fff;border-radius:20px;padding:5px 14px;font-size:10px;align-items:center;margin-bottom:10px;flex-wrap:wrap;}
-.kpi-pill span{white-space:nowrap;}
-.kpi-pill .pill-badge{background:rgba(255,255,255,.15);border-radius:10px;padding:1px 8px;font-weight:700;}
-
-/* ── TRACKER LEGEND ── */
-.tracker-legend{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px;}
-.legend-item{display:flex;align-items:center;gap:5px;font-size:10px;color:var(--text-secondary);}
-.legend-swatch{width:20px;height:3px;border-radius:2px;flex-shrink:0;}
-.legend-swatch.dashed{background:repeating-linear-gradient(90deg,currentColor 0,currentColor 4px,transparent 4px,transparent 8px);}
 </style>
 </head>
 <body>
 
-<!-- ══════════════════════════════════════════════════════════ HEADER -->
+<!-- HEADER -->
 <div class="header">
   <div class="header-left">
-    <h1>Rollins (ROL) — Investment Dashboard</h1>
-    <p>Pest Control Industry · Demand Signals · Competitor Search · Labor · Valuation</p>
+    <h1>Rollins (ROL) | GRAM Dashboard</h1>
+    <p>Pest Control Industry · Demand Signals · Competitor Search · Labor Cost Pressure · Valuation</p>
   </div>
   <div class="header-right">
-    <div class="date-badge" id="lastUpdated">Loading…</div>
-    <div class="source-tag">Google Trends · FRED · BLS · Rollins Filings</div>
+    <div class="date-badge" id="lastUpdated">Google Trends: weekly · Housing: Jun 2026 · Retail: Jul 2026 · BLS: Jul 2026 · Multiples: Sep 21, 2026</div>
+    <div class="source-tag">Sources: Google Trends · FRED (HOUST, RSAFS) · BLS CES6056171002/003 · Capital IQ (EV/EBITDA NTM, EV/Sales NTM)</div>
   </div>
 </div>
 
 <div class="dashboard">
 
-<!-- ══════════════════════════════ SECTION 1: DEMAND SIGNALS -->
-<div class="section-header">
-  <span class="section-label">Demand Signals</span>
-  <span class="section-line"></span>
-  <span class="section-sub">Search · Revenue Growth · Housing · Food Services</span>
+<!-- ══════════════════════════════════════════════
+     § 1 — DEMAND SIGNALS
+══════════════════════════════════════════════ -->
+<div class="section-header" style="margin-top:2px;">
+  <div class="section-label">① Demand Signals</div>
+  <div class="section-line"></div>
+  <div class="section-sub">Pest Control Search & Rollins Growth · US Housing Starts (FRED) · US Food Services Activity (FRED/BLS)</div>
 </div>
 
 <!-- ── FULL-WIDTH TRACKER CARD ── -->
-<div class="panel" id="trackerCard">
+<div class="panel">
   <div class="panel-title">Pest Control Search &amp; Rollins Growth Tracker</div>
-  <div class="panel-sub">Google Trends · US · Weekly Search Data · Base 100 = Historical Avg</div>
+  <div class="panel-sub">Google Trends · US · Weekly · Base 100 = Historical Avg · Rollins quarterly growth on right axis</div>
 
   <!-- KPI pill -->
   <div id="trackerPill" class="kpi-pill" style="display:none">
@@ -181,17 +190,17 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 
   <!-- Growth metric controls -->
   <div class="growth-controls" id="growthControls">
-    <span class="growth-section-label">Rollins Growth</span>
-    <label class="growth-check-item"><input type="checkbox" id="chkRevGrowth"> Revenue Growth YoY</label>
-    <label class="growth-check-item"><input type="checkbox" id="chkOrgGrowth"> Organic Revenue Growth YoY</label>
-    <label class="growth-check-item"><input type="checkbox" id="chkResGrowth"> Residential Organic Growth YoY</label>
+    <span class="growth-section-label">Rollins Growth Overlays →</span>
+    <label class="growth-check-item"><input type="checkbox" id="chkRevGrowth" style="accent-color:#2e6da4;"> <span style="color:#2e6da4;font-weight:600;">Revenue Growth YoY</span></label>
+    <label class="growth-check-item"><input type="checkbox" id="chkOrgGrowth" style="accent-color:#e07820;"> <span style="color:#e07820;font-weight:600;">Organic Revenue Growth YoY</span></label>
+    <label class="growth-check-item"><input type="checkbox" id="chkResGrowth" style="accent-color:#7b4e9e;"> <span style="color:#7b4e9e;font-weight:600;">Residential Organic Growth YoY</span></label>
   </div>
 
   <!-- Date slider -->
   <div class="slider-row">
-    <label>From</label>
-    <input type="range" id="trackerSlider" min="0" max="100" value="0"/>
-    <span class="slider-val" id="trackerSliderVal"></span>
+    <span class="slider-label" id="trackerSliderStart">—</span>
+    <input type="range" id="trackerSlider" min="0" max="100" value="0" class="slider"/>
+    <span class="slider-label" id="trackerSliderEnd">—</span>
   </div>
 
   <!-- Legend -->
@@ -203,121 +212,502 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
   <!-- KPI strip -->
   <div class="tracker-kpi" id="trackerKpiRow"></div>
 
-  <div class="note-box">Broad US consumer search interest for pest-control services, combining branded and non-branded signals. Weekly Google Trends data normalized to a historical average of 100. Rollins quarterly growth rates plotted on the right axis — displayed as reported observations without interpolation.</div>
+  <div class="note-box">Broad US consumer search interest combining branded and non-branded pest-control signals. Normalized to mean = 100. Rollins quarterly revenue growth rates shown as shaded bands on right axis — interpolated between quarterly reporting dates for visual clarity.</div>
 </div>
 
 <!-- ── HOUSING + FOOD (2-col below tracker) ── -->
 <div class="grid-2">
 
-<!-- Housing Starts -->
+<!-- ── HOUSING STARTS ── -->
 <div class="panel">
   <div class="panel-title">US Housing Starts</div>
-  <div class="panel-sub">Census / FRED · Monthly · Seasonally Adjusted Annual Rate</div>
-  <div class="view-row">
-    <label>Series:</label>
-    <select id="housingSel">
-      <option value="total">Total Housing Starts</option>
-      <option value="single">Single-Family</option>
-      <option value="multi">Multifamily (5+ units)</option>
-    </select>
+  <div class="panel-sub">FRED: HOUST · HSN1F · HOUST5F · Monthly · Thousands of units · SA · Forward indicator of residential property formation</div>
+
+  <div style="display:flex;align-items:center;gap:6px;margin-bottom:10px;">
+    <span style="font-size:10px;color:var(--text-muted);font-weight:500;">Series:</span>
+    <div id="housing-toggle" style="display:flex;border:1px solid var(--border);border-radius:5px;overflow:hidden;">
+      <button class="htog active" data-series="total"  onclick="setHousingSeries('total')">Total</button>
+      <button class="htog"        data-series="single" onclick="setHousingSeries('single')">Single-Family</button>
+      <button class="htog"        data-series="multi"  onclick="setHousingSeries('multi')">Multifamily 5+</button>
+    </div>
   </div>
+
+  <div id="housing-badge" class="sig-badge neutral">Loading…</div>
+  <div class="chart-wrap"><canvas id="chartHousing"></canvas></div>
   <div class="slider-row">
-    <label>From</label>
-    <input type="range" id="housingSlider" min="0" max="100" value="0"/>
-    <span class="slider-val" id="housingSliderVal"></span>
+    <span class="slider-label" id="housing-slider-start">—</span>
+    <input type="range" id="housing-slider" min="0" max="100" value="0" class="slider">
+    <span class="slider-label" id="housing-slider-end">—</span>
   </div>
-  <div class="chart-wrap"><canvas id="housingChart"></canvas></div>
-  <table class="gtable" id="housingTable">
-    <thead>
-      <tr>
-        <th class="row-hdr" rowspan="2">Metric</th>
-        <th colspan="2" class="merge-cell th-group">Total</th>
-        <th colspan="2" class="merge-cell th-group">Single-Family</th>
-        <th colspan="2" class="th-group">Multifamily</th>
-      </tr>
-      <tr>
-        <th>#</th><th class="merge-cell">YoY Δ</th>
-        <th>#</th><th class="merge-cell">YoY Δ</th>
-        <th>#</th><th>YoY Δ</th>
-      </tr>
-    </thead>
-    <tbody id="housingTbody"></tbody>
-  </table>
-  <div id="housingMix" class="mix-row" style="margin-top:10px;"></div>
-  <div class="note-box" style="margin-top:8px;">New housing construction expands the future installed base of properties requiring pest-control services. Single-family starts provide the cleanest read-through to residential customer formation. Demand typically materializes closer to completion and occupancy.</div>
+
+  <div style="overflow-x:auto;margin-top:12px;">
+    <table class="mini-table" id="housing-grouped-table" style="min-width:420px;">
+      <thead>
+        <tr>
+          <th rowspan="2" style="text-align:left;vertical-align:bottom;">Metric</th>
+          <th colspan="2" style="text-align:center;border-bottom:1px solid var(--border);padding-bottom:2px;">Total</th>
+          <th colspan="2" style="text-align:center;border-bottom:1px solid var(--border);padding-bottom:2px;">Single-Family</th>
+          <th colspan="2" style="text-align:center;border-bottom:1px solid var(--border);padding-bottom:2px;">Multifamily 5+</th>
+        </tr>
+        <tr>
+          <th style="text-align:right;">#</th><th style="text-align:right;">YoY Δ</th>
+          <th style="text-align:right;">#</th><th style="text-align:right;">YoY Δ</th>
+          <th style="text-align:right;">#</th><th style="text-align:right;">YoY Δ</th>
+        </tr>
+      </thead>
+      <tbody id="housing-grouped-body">
+        <tr><td colspan="7" style="text-align:center;color:var(--text-muted);padding:8px;">Loading…</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="housing-mix" style="margin-top:8px;font-size:10px;color:var(--text-muted);"></div>
+  <div class="notes">
+    <div class="note">New housing construction expands the future installed base of properties requiring pest-control services. Single-family starts provide the cleanest read-through to residential customer formation.</div>
+  </div>
 </div>
 
-<!-- Food Services -->
+<!-- ── FOOD SERVICES ── -->
 <div class="panel">
   <div class="panel-title">US Food Services Activity</div>
-  <div class="panel-sub">Census / FRED / BLS · Monthly Data</div>
-  <div class="slider-row">
-    <label>From</label>
-    <input type="range" id="foodSlider" min="0" max="100" value="0"/>
-    <span class="slider-val" id="foodSliderVal"></span>
+  <div class="panel-sub">FRED: RSAFS · BLS CEU7072200001 · Monthly · Commercial end-market activity proxy</div>
+
+  <div id="retail-badge" class="sig-badge neutral">Loading…</div>
+
+  <div style="display:flex;gap:14px;margin-bottom:8px;">
+    <div style="display:flex;align-items:center;gap:5px;font-size:10px;color:var(--text-muted);">
+      <div style="width:18px;height:2px;background:#1a7a6e;border-radius:1px;"></div>Retail Sales (left axis)
+    </div>
+    <div style="display:flex;align-items:center;gap:5px;font-size:10px;color:var(--text-muted);">
+      <div style="width:18px;height:2px;background:#6B4EAF;border-radius:1px;"></div>Employment (right axis)
+    </div>
   </div>
-  <div class="chart-wrap"><canvas id="foodChart"></canvas></div>
-  <div class="bls-grid" id="foodKpi"></div>
-  <div class="note-box">Food-service activity is a proxy for operating conditions within a key Rollins commercial end market. Sales capture sector activity, employment helps assess underlying real activity.</div>
+
+  <div class="chart-wrap"><canvas id="chartRetail"></canvas></div>
+  <div class="slider-row">
+    <span class="slider-label" id="retail-slider-start">—</span>
+    <input type="range" id="retail-slider" min="0" max="100" value="0" class="slider">
+    <span class="slider-label" id="retail-slider-end">—</span>
+  </div>
+
+  <div style="overflow-x:auto;margin-top:12px;">
+    <table class="mini-table" style="min-width:340px;">
+      <thead>
+        <tr>
+          <th rowspan="2" style="text-align:left;vertical-align:bottom;">Metric</th>
+          <th colspan="2" style="text-align:center;border-bottom:1px solid var(--border);padding-bottom:2px;">Retail Sales (RSAFS)</th>
+          <th colspan="2" style="text-align:center;border-bottom:1px solid var(--border);padding-bottom:2px;">Employment (CEU7072200001)</th>
+        </tr>
+        <tr>
+          <th style="text-align:right;">#</th><th style="text-align:right;">YoY Δ</th>
+          <th style="text-align:right;">#</th><th style="text-align:right;">YoY Δ</th>
+        </tr>
+      </thead>
+      <tbody id="food-grouped-body">
+        <tr><td colspan="5" style="text-align:center;color:var(--text-muted);padding:8px;">Loading…</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="notes">
+    <div class="note">Food-service activity is a proxy for operating conditions within a key Rollins commercial end market.</div>
+    <div class="note">Advance Retail Sales: Food Services &amp; Drinking Places (RSAFS) captures nominal sector spending. BLS Employment (CEU7072200001) measures workers in the sector — a proxy for locations requiring commercial pest control.</div>
+  </div>
 </div>
 
-</div><!-- end grid-2 -->
+</div><!-- /grid-2 -->
 
-<!-- ══════════════════════════════ SECTION 2: LABOR -->
+<!-- ══════════════════════════════════════════════
+     § 2 — LABOR COST PRESSURE
+══════════════════════════════════════════════ -->
 <div class="section-header">
-  <span class="section-label">Pest Control Labor Market</span>
-  <span class="section-line"></span>
-  <span class="section-sub">BLS · Hours Worked · Hourly Earnings · Unemployment</span>
+  <div class="section-label">② Labor Cost Pressure</div>
+  <div class="section-line"></div>
+  <div class="section-sub">BLS CES6056171002 / CES6056171003 · Monthly SA · Exterminating &amp; Pest Control Services (NAICS 56171) · Jan 2016 – Jul 2026</div>
+</div>
+
+<div class="grid-3">
+
+  <!-- Avg Weekly Hours -->
+  <div class="panel">
+    <div class="panel-title">Avg Weekly Hours</div>
+    <div class="panel-sub">BLS CES6056171002 · SA · Proxy for operational demand &amp; field activity</div>
+    <div class="sig-badge green">▲ Demand signal — hours above prior year</div>
+    <div class="chart-wrap"><canvas id="chartHours"></canvas></div>
+    <table class="mini-table">
+      <thead><tr><th>Period</th><th>Avg hrs/wk</th><th>vs prior</th></tr></thead>
+      <tbody>
+        <tr><td>LTM (Aug 25–Jul 26)</td><td>38.3 h</td><td class="delta-pos">+3.7% YoY</td></tr>
+        <tr><td>LTM−1 (Aug 24–Jul 25)</td><td>36.9 h</td><td class="delta-neu">—</td></tr>
+        <tr><td>Latest (Jul 2026)</td><td>38.4 h</td><td class="delta-pos">↑ vs 36.2h Jul'25</td></tr>
+      </tbody>
+    </table>
+    <div class="notes">
+      <div class="note">Hours ↑ before headcount grows — leading indicator of revenue acceleration.</div>
+      <div class="note">2026 readings at highest level since 2023 peak (38.4h), signaling strong pipeline.</div>
+    </div>
+  </div>
+
+  <!-- Hourly Earnings -->
+  <div class="panel">
+    <div class="panel-title">Avg Hourly Earnings</div>
+    <div class="panel-sub">BLS CES6056171003 · SA · Proxy for labor cost pressure on margins</div>
+    <div class="sig-badge amber">⚠ Wage inflation contained but watch pricing power</div>
+    <div class="chart-wrap"><canvas id="chartEarnings"></canvas></div>
+    <table class="mini-table">
+      <thead><tr><th>Period</th><th>$/hr</th><th>vs prior</th></tr></thead>
+      <tbody>
+        <tr><td>LTM (Aug 25–Jul 26)</td><td>$28.71</td><td class="delta-neu">+0.7% YoY</td></tr>
+        <tr><td>LTM−1 (Aug 24–Jul 25)</td><td>$28.50</td><td class="delta-neu">—</td></tr>
+        <tr><td>Latest (Jul 2026)</td><td>$28.87</td><td class="delta-neu">+1.0% vs Jul'25</td></tr>
+      </tbody>
+    </table>
+    <div class="notes">
+      <div class="note">Wage growth at +0.7% YoY — far below 2020–22 COVID surge (+12% peak).</div>
+      <div class="note">~50% of Rollins cost structure is labor. Manageable if pricing holds above +2%.</div>
+    </div>
+  </div>
+
+  <!-- Unit Labor Cost -->
+  <div class="panel">
+    <div class="panel-title">Unit Labor Cost (Hours × Earnings)</div>
+    <div class="panel-sub">$/week per employee · Combined margin pressure indicator</div>
+    <div class="sig-badge red">▲ ULC +4.5% YoY — hours driving cost up, not wages</div>
+    <div class="chart-wrap"><canvas id="chartULC"></canvas></div>
+    <table class="mini-table">
+      <thead><tr><th>Period</th><th>$/wk per emp.</th><th>vs prior</th></tr></thead>
+      <tbody>
+        <tr><td>LTM (Aug 25–Jul 26)</td><td>$1,099</td><td class="delta-neg">+4.5% YoY</td></tr>
+        <tr><td>LTM−1 (Aug 24–Jul 25)</td><td>$1,052</td><td class="delta-neu">—</td></tr>
+        <tr><td>Latest (Jul 2026)</td><td>$1,109</td><td class="delta-neg">+5.6% vs Jul'25</td></tr>
+      </tbody>
+    </table>
+    <div class="notes">
+      <div class="note">ULC growth (+4.5%) outpaces wage growth (+0.7%) — volume driver, not inflation.</div>
+      <div class="note">More hours per worker = more field activity = cost is demand-driven (benign). Monitor if earnings start rising faster.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════
+     § 3 — VALUATION
+══════════════════════════════════════════════ -->
+<div class="section-header">
+  <div class="section-label">③ Valuation</div>
+  <div class="section-line"></div>
+  <div class="section-sub">Capital IQ · NTM multiples · Monthly · Jan 2010 – Sep 21, 2026 · n=201 observations</div>
 </div>
 
 <div class="grid-2">
-<div class="panel">
-  <div class="panel-title">Pest Control Industry Labor Metrics</div>
-  <div class="panel-sub">BLS · NAICS 5612 · Monthly</div>
-  <div class="bls-grid" id="blsKpi"></div>
-  <div class="chart-wrap"><canvas id="blsChart"></canvas></div>
-</div>
-<div class="panel">
-  <div class="panel-title">Avg Weekly Hours &amp; Hourly Earnings — Pest Control</div>
-  <div class="panel-sub">BLS · NAICS 5612 · 12-Month Moving Average</div>
-  <div class="chart-wrap"><canvas id="blsChart2"></canvas></div>
-</div>
+
+  <!-- EV/EBITDA NTM -->
+  <div class="panel">
+    <div class="panel-title">EV/EBITDA NTM — NYSE:ROL</div>
+    <div class="panel-sub">Capital IQ forward multiple · Monthly end-of-period</div>
+    <div class="val-tags">
+      <span class="vtag current">Current (Sep 21, 2026): 17.9x</span>
+      <span class="vtag median">Median (2010–2026): 26.0x</span>
+      <span class="vtag disc">−31.2% discount to median</span>
+    </div>
+    <div class="chart-wrap lg"><canvas id="chartEVEBITDA"></canvas></div>
+    <div class="notes">
+      <div class="note">Current 17.9x is the lowest level since early 2010–2012 range — significant de-rating from 40.7x peak (Sep 2021).</div>
+      <div class="note">Trading at a 31% discount to the 16-year median (26.0x). Historically, readings below 20x have preceded mean-reversion rallies.</div>
+    </div>
+  </div>
+
+  <!-- EV/Sales NTM -->
+  <div class="panel">
+    <div class="panel-title">EV/Sales NTM — NYSE:ROL</div>
+    <div class="panel-sub">Capital IQ forward multiple · Monthly end-of-period</div>
+    <div class="val-tags">
+      <span class="vtag current">Current (Sep 21, 2026): 3.9x</span>
+      <span class="vtag median">Median (2010–2026): 5.6x</span>
+      <span class="vtag disc">−30.4% discount to median</span>
+    </div>
+    <div class="chart-wrap lg"><canvas id="chartEVSales"></canvas></div>
+    <div class="notes">
+      <div class="note">Revenue multiple compressed from 7.7x (Jan 2026) to 3.9x today — a de-rating of 3.8x in 9 months.</div>
+      <div class="note">At 3.9x EV/Sales, ROL trades at its lowest revenue multiple in 10+ years, below the 5.6x 16-year median.</div>
+    </div>
+  </div>
+
 </div>
 
-<!-- ══════════════════════════════ SECTION 3: VALUATION -->
-<div class="section-header">
-  <span class="section-label">Relative Valuation</span>
-  <span class="section-line"></span>
-  <span class="section-sub">EV/EBITDA · EV/Sales · vs. Sector Median</span>
-</div>
-
-<div class="panel">
-  <div class="panel-title">Rollins Valuation Multiples</div>
-  <div class="panel-sub">Forward EV/EBITDA &amp; EV/Sales vs. Sector Median</div>
-  <div class="chart-wrap" style="height:200px;"><canvas id="valChart"></canvas></div>
-  <table class="val-table" id="valTable" style="margin-top:10px;"></table>
-</div>
-
-</div><!-- end dashboard -->
+</div><!-- /dashboard -->
 
 <script>
 'use strict';
+// ── CHART GLOBAL DEFAULTS ──────────────────────────────────────────────────
+Chart.defaults.color = '#667085';
+Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
+Chart.defaults.font.size = 10;
 
-// ═══════════════════════════════════════════════════════
-// STATIC DATA (from Excel)
-// ═══════════════════════════════════════════════════════
+const TOOLTIP = {
+  backgroundColor:'#1b3a5c', borderColor:'#2e6da4', borderWidth:1,
+  titleColor:'#94b4d4', bodyColor:'#ffffff', padding:9, cornerRadius:6,
+  titleFont:{size:10}, bodyFont:{size:11}
+};
 
+function baseOpts(yUnit, yMin) {
+  const opts = {
+    responsive:true, maintainAspectRatio:false,
+    animation:{duration:500},
+    plugins:{legend:{display:false}, tooltip:TOOLTIP},
+    scales:{
+      x:{
+        grid:{color:'#f0f2f5', drawTicks:false},
+        ticks:{maxTicksLimit:7, maxRotation:0, color:'#98a2b3', font:{size:9}},
+        border:{color:'#e4e7ec'}
+      },
+      y:{
+        grid:{color:'#f0f2f5', drawTicks:false},
+        ticks:{maxTicksLimit:5, color:'#98a2b3', font:{size:9}},
+        border:{color:'#e4e7ec'}
+      }
+    }
+  };
+  if (yMin !== undefined) opts.scales.y.min = yMin;
+  return opts;
+}
+
+function lineDs(label, data, color, dash=false, width=2) {
+  return {
+    label, data, borderColor:color,
+    backgroundColor: color+'18',
+    borderWidth: width,
+    borderDash: dash ? [5,3] : [],
+    pointRadius:0, pointHoverRadius:4,
+    tension:0.35, fill:false, spanGaps:true
+  };
+}
+
+// ── BLS DATA (real — 127 months Jan 2016–Jul 2026) ────────────────────────
+const BLS_L = ["Jan 2016","Feb 2016","Mar 2016","Apr 2016","May 2016","Jun 2016","Jul 2016","Aug 2016","Sep 2016","Oct 2016","Nov 2016","Dec 2016","Jan 2017","Feb 2017","Mar 2017","Apr 2017","May 2017","Jun 2017","Jul 2017","Aug 2017","Sep 2017","Oct 2017","Nov 2017","Dec 2017","Jan 2018","Feb 2018","Mar 2018","Apr 2018","May 2018","Jun 2018","Jul 2018","Aug 2018","Sep 2018","Oct 2018","Nov 2018","Dec 2018","Jan 2019","Feb 2019","Mar 2019","Apr 2019","May 2019","Jun 2019","Jul 2019","Aug 2019","Sep 2019","Oct 2019","Nov 2019","Dec 2019","Jan 2020","Feb 2020","Mar 2020","Apr 2020","May 2020","Jun 2020","Jul 2020","Aug 2020","Sep 2020","Oct 2020","Nov 2020","Dec 2020","Jan 2021","Feb 2021","Mar 2021","Apr 2021","May 2021","Jun 2021","Jul 2021","Aug 2021","Sep 2021","Oct 2021","Nov 2021","Dec 2021","Jan 2022","Feb 2022","Mar 2022","Apr 2022","May 2022","Jun 2022","Jul 2022","Aug 2022","Sep 2022","Oct 2022","Nov 2022","Dec 2022","Jan 2023","Feb 2023","Mar 2023","Apr 2023","May 2023","Jun 2023","Jul 2023","Aug 2023","Sep 2023","Oct 2023","Nov 2023","Dec 2023","Jan 2024","Feb 2024","Mar 2024","Apr 2024","May 2024","Jun 2024","Jul 2024","Aug 2024","Sep 2024","Oct 2024","Nov 2024","Dec 2024","Jan 2025","Feb 2025","Mar 2025","Apr 2025","May 2025","Jun 2025","Jul 2025","Aug 2025","Sep 2025","Oct 2025","Nov 2025","Dec 2025","Jan 2026","Feb 2026","Mar 2026","Apr 2026","May 2026","Jun 2026","Jul 2026"];
+const H_D = [37.3,37.8,38.1,38.1,38.4,38.6,38.7,39.0,37.8,37.1,37.4,37.4,37.7,37.8,38.0,37.8,37.5,38.0,37.4,36.9,37.8,38.2,38.3,37.7,36.6,37.6,37.0,37.2,37.5,37.3,37.4,37.1,36.7,36.8,36.5,36.9,37.1,35.8,36.4,37.0,36.3,35.8,35.8,36.1,36.2,36.1,35.8,35.9,37.4,37.0,36.9,36.2,36.1,36.0,37.2,36.4,36.0,35.6,36.2,36.1,35.9,35.8,36.2,36.3,37.2,37.1,37.3,37.2,37.4,37.3,38.1,37.7,37.5,37.3,37.0,37.0,36.9,37.3,37.3,37.5,37.9,38.2,38.2,38.2,38.2,38.4,38.1,38.1,38.1,37.6,37.5,37.5,37.9,37.1,36.5,36.7,36.5,36.5,37.8,37.1,36.5,36.6,36.2,36.6,36.6,37.4,37.3,36.8,36.9,36.8,36.8,37.1,36.9,36.4,37.3,37.1,37.0,37.2,37.2,39.2,38.6,38.7,38.9,39.3,38.9,38.8,38.4];
+const E_D = [22.60,22.62,22.70,22.75,22.97,23.13,23.41,23.03,22.86,22.93,22.78,22.62,22.40,22.31,22.11,22.55,22.14,21.91,22.24,22.11,22.32,22.01,21.92,22.17,22.32,22.42,22.57,22.28,22.47,22.39,22.18,22.35,22.46,22.04,22.36,22.26,22.01,21.96,22.17,21.95,21.87,22.30,21.98,22.30,22.24,22.36,23.15,22.74,22.87,23.25,23.38,23.74,24.52,24.86,25.11,25.35,25.13,25.76,25.64,25.50,26.32,26.41,26.16,26.58,26.91,25.93,26.21,26.29,26.42,26.98,27.13,27.41,27.98,28.06,27.01,27.47,27.69,28.03,28.44,27.84,28.34,28.18,27.70,27.88,27.33,27.26,27.40,27.85,27.77,27.83,28.22,27.60,28.43,27.88,28.39,28.21,27.91,28.08,28.50,28.25,28.59,28.42,28.36,28.77,28.53,28.16,28.33,28.26,28.61,28.83,28.68,28.83,28.60,28.53,27.84,28.93,28.67,29.40,29.26,28.69,28.36,28.05,28.04,28.49,28.78,28.99,28.87];
+const U_D = H_D.map((h,i) => Math.round(h * E_D[i] * 100)/100);
+
+// ── BLS CHARTS ─────────────────────────────────────────────────────────────
+new Chart(document.getElementById('chartHours'), {
+  type:'line',
+  data:{labels:BLS_L, datasets:[lineDs('Avg Weekly Hours', H_D, '#2e6da4')]},
+  options:{...baseOpts('h/wk', 34), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`${c.parsed.y.toFixed(1)} hrs/wk`}}}}
+});
+
+new Chart(document.getElementById('chartEarnings'), {
+  type:'line',
+  data:{labels:BLS_L, datasets:[lineDs('Hourly Earnings', E_D, '#c4820a')]},
+  options:{...baseOpts('$/hr', 20), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`$${c.parsed.y.toFixed(2)}/hr`}}}}
+});
+
+new Chart(document.getElementById('chartULC'), {
+  type:'line',
+  data:{labels:BLS_L, datasets:[lineDs('Unit Labor Cost', U_D, '#c0392b')]},
+  options:{...baseOpts('$/wk', 780), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`$${c.parsed.y.toFixed(0)}/wk`}}}}
+});
+
+// ── MULTIPLES DATA (real — 201 months Jan 2010–Sep 2026) ──────────────────
+const M_L = ["Jan 2010","Feb 2010","Mar 2010","Apr 2010","May 2010","Jun 2010","Jul 2010","Aug 2010","Sep 2010","Oct 2010","Nov 2010","Dec 2010","Jan 2011","Feb 2011","Mar 2011","Apr 2011","May 2011","Jun 2011","Jul 2011","Aug 2011","Sep 2011","Oct 2011","Nov 2011","Dec 2011","Jan 2012","Feb 2012","Mar 2012","Apr 2012","May 2012","Jun 2012","Jul 2012","Aug 2012","Sep 2012","Oct 2012","Nov 2012","Dec 2012","Jan 2013","Feb 2013","Mar 2013","Apr 2013","May 2013","Jun 2013","Jul 2013","Aug 2013","Sep 2013","Oct 2013","Nov 2013","Dec 2013","Jan 2014","Feb 2014","Mar 2014","Apr 2014","May 2014","Jun 2014","Jul 2014","Aug 2014","Sep 2014","Oct 2014","Nov 2014","Dec 2014","Jan 2015","Feb 2015","Mar 2015","Apr 2015","May 2015","Jun 2015","Jul 2015","Aug 2015","Sep 2015","Oct 2015","Nov 2015","Dec 2015","Jan 2016","Feb 2016","Mar 2016","Apr 2016","May 2016","Jun 2016","Jul 2016","Aug 2016","Sep 2016","Oct 2016","Nov 2016","Dec 2016","Jan 2017","Feb 2017","Mar 2017","Apr 2017","May 2017","Jun 2017","Jul 2017","Aug 2017","Sep 2017","Oct 2017","Nov 2017","Dec 2017","Jan 2018","Feb 2018","Mar 2018","Apr 2018","May 2018","Jun 2018","Jul 2018","Aug 2018","Sep 2018","Oct 2018","Nov 2018","Dec 2018","Jan 2019","Feb 2019","Mar 2019","Apr 2019","May 2019","Jun 2019","Jul 2019","Aug 2019","Sep 2019","Oct 2019","Nov 2019","Dec 2019","Jan 2020","Feb 2020","Mar 2020","Apr 2020","May 2020","Jun 2020","Jul 2020","Aug 2020","Sep 2020","Oct 2020","Nov 2020","Dec 2020","Jan 2021","Feb 2021","Mar 2021","Apr 2021","May 2021","Jun 2021","Jul 2021","Aug 2021","Sep 2021","Oct 2021","Nov 2021","Dec 2021","Jan 2022","Feb 2022","Mar 2022","Apr 2022","May 2022","Jun 2022","Jul 2022","Aug 2022","Sep 2022","Oct 2022","Nov 2022","Dec 2022","Jan 2023","Feb 2023","Mar 2023","Apr 2023","May 2023","Jun 2023","Jul 2023","Aug 2023","Sep 2023","Oct 2023","Nov 2023","Dec 2023","Jan 2024","Feb 2024","Mar 2024","Apr 2024","May 2024","Jun 2024","Jul 2024","Aug 2024","Sep 2024","Oct 2024","Nov 2024","Dec 2024","Jan 2025","Feb 2025","Mar 2025","Apr 2025","May 2025","Jun 2025","Jul 2025","Aug 2025","Sep 2025","Oct 2025","Nov 2025","Dec 2025","Jan 2026","Feb 2026","Mar 2026","Apr 2026","May 2026","Jun 2026","Jul 2026","Aug 2026","Sep 2026"];
+const EB_D = [10.9,11.8,12.0,11.9,11.6,11.3,11.5,10.8,12.4,13.5,14.0,15.4,14.3,14.8,15.3,15.6,14.9,15.1,13.8,15.1,13.5,15.2,15.6,15.5,14.5,13.8,14.5,13.4,13.4,14.5,15.0,14.8,14.9,14.0,14.1,13.8,15.1,15.0,15.1,14.6,15.2,15.6,15.2,14.7,15.7,15.7,16.1,17.3,15.8,16.5,16.8,16.5,16.9,16.5,15.1,15.8,15.3,16.2,16.4,16.6,16.7,17.0,18.5,18.1,18.1,20.9,20.8,19.9,19.1,18.9,19.1,18.2,19.0,19.0,18.7,17.9,19.1,19.7,18.4,18.6,19.1,19.7,20.3,21.4,21.5,22.3,22.7,23.2,25.9,24.4,24.9,25.5,27.0,24.9,26.3,26.4,27.2,27.8,28.2,27.1,27.9,29.4,30.6,33.5,33.8,32.5,34.9,29.7,28.3,30.2,31.8,29.7,28.9,27.7,27.2,26.6,27.5,29.9,28.2,26.1,28.9,29.5,28.0,34.9,36.2,36.6,38.5,40.2,39.6,40.2,39.7,40.7,36.0,33.2,34.5,35.0,32.0,32.1,33.4,33.9,30.3,30.6,28.9,29.7,25.9,27.4,29.4,28.4,30.0,29.6,31.8,27.8,28.7,33.3,32.0,28.9,28.4,26.8,28.6,29.8,27.7,30.2,28.4,27.5,26.0,24.7,26.7,28.6,28.3,28.2,29.7,28.2,28.9,30.8,29.1,30.6,30.7,28.4,30.2,27.6,29.6,30.5,31.4,32.0,32.1,31.7,31.4,31.0,32.1,30.4,32.2,31.4,33.1,31.9,28.1,28.9,24.9,21.9,20.8,19.8,17.9];
+const EV_D = [1.8,1.9,2.0,1.9,1.9,1.8,1.8,1.7,2.0,2.2,2.3,2.5,2.3,2.4,2.5,2.5,2.4,2.5,2.3,2.5,2.2,2.5,2.6,2.6,2.4,2.3,2.4,2.4,2.4,2.5,2.6,2.6,2.6,2.4,2.5,2.4,2.6,2.6,2.6,2.6,2.7,2.7,2.7,2.6,2.8,2.8,2.9,3.1,2.9,3.0,3.0,3.0,3.1,3.0,2.8,2.9,2.9,3.1,3.1,3.2,3.2,3.2,3.6,3.6,3.6,4.1,4.1,3.9,3.8,3.7,3.8,3.6,3.8,3.8,3.7,3.6,3.8,4.0,3.7,3.8,3.9,4.0,4.2,4.4,4.5,4.7,4.8,4.9,5.5,5.2,5.3,5.5,5.7,5.4,5.7,5.7,6.0,6.1,6.2,5.7,5.9,6.2,6.3,6.9,7.0,6.7,7.2,6.1,6.0,6.4,6.7,6.2,6.0,5.8,5.5,5.4,5.6,6.1,5.7,5.3,5.9,6.0,5.7,6.6,6.8,6.9,7.9,8.3,8.2,8.5,8.4,8.6,7.8,7.2,7.4,7.8,7.1,7.2,7.7,7.8,7.0,6.9,6.6,6.7,5.9,6.2,6.7,6.3,6.6,6.5,6.9,6.0,6.2,7.4,7.1,6.4,6.4,6.1,6.5,6.8,6.3,6.9,6.4,6.3,5.9,5.8,6.2,6.7,6.6,6.6,6.9,6.5,6.7,7.1,6.8,7.2,7.2,6.6,7.0,6.5,6.9,7.0,7.3,7.4,7.4,7.3,7.3,7.2,7.4,7.1,7.5,7.3,7.7,7.4,6.5,6.6,5.7,5.0,4.5,4.3,3.9];
+const MED_EB = 26.0, MED_EV = 5.6;
+
+// ── VALUATION CHARTS ───────────────────────────────────────────────────────
+function buildValChart(canvasId, labels, data, color, medVal, unit, yMin) {
+  const medArr = labels.map(() => medVal);
+  const lastIdx = data.length - 1;
+  const lastVal = data[lastIdx];
+  const lastLabel = labels[lastIdx];
+
+  const medianLabelPlugin = {
+    id: 'medianLabel',
+    afterDraw(chart) {
+      const {ctx, scales:{x, y}} = chart;
+      const yPx = y.getPixelForValue(medVal);
+      const text = `Median ${medVal.toFixed(1)}${unit}`;
+      ctx.save();
+      ctx.font = 'bold 9px "Segoe UI", system-ui, sans-serif';
+      const tw = ctx.measureText(text).width;
+      const px = x.left + 4;
+      const py = yPx - 10;
+      const pad = 4;
+      ctx.fillStyle = '#fff3e8';
+      ctx.strokeStyle = '#f5c992';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.roundRect(px, py, tw + pad*2, 14, 3);
+      ctx.fill(); ctx.stroke();
+      ctx.fillStyle = '#e07820';
+      ctx.fillText(text, px + pad, py + 10);
+      const dotX = x.getPixelForValue(lastIdx);
+      const dotY = y.getPixelForValue(lastVal);
+      ctx.beginPath();
+      ctx.arc(dotX, dotY, 4, 0, Math.PI*2);
+      ctx.fillStyle = color;
+      ctx.fill();
+      const currText = `${lastLabel}: ${lastVal.toFixed(1)}${unit}`;
+      ctx.font = '9px "Segoe UI", system-ui, sans-serif';
+      const cw = ctx.measureText(currText).width;
+      const cx2 = Math.min(dotX - cw - 8, x.right - cw - 8);
+      ctx.fillStyle = '#eef4ff';
+      ctx.strokeStyle = '#bdd4f0';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.roundRect(cx2, dotY - 10, cw + pad*2, 14, 3);
+      ctx.fill(); ctx.stroke();
+      ctx.fillStyle = '#2e6da4';
+      ctx.fillText(currText, cx2 + pad, dotY);
+      ctx.restore();
+    }
+  };
+
+  new Chart(document.getElementById(canvasId), {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        lineDs('Multiple', data, color, false, 2),
+        {
+          label:`Median ${medVal.toFixed(1)}x`,
+          data: medArr,
+          borderColor: '#e07820',
+          borderWidth: 1.5,
+          borderDash: [6,4],
+          pointRadius: 0,
+          fill: false, tension: 0
+        }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      animation: {duration:500},
+      plugins: {
+        legend: {display:false},
+        tooltip: {
+          ...TOOLTIP,
+          callbacks: {label: c => `${c.dataset.label}: ${c.parsed.y.toFixed(1)}${unit}`}
+        }
+      },
+      scales: {
+        x:{grid:{color:'#f0f2f5',drawTicks:false}, ticks:{maxTicksLimit:8,maxRotation:0,color:'#98a2b3',font:{size:9}}, border:{color:'#e4e7ec'}},
+        y:{min:yMin, grid:{color:'#f0f2f5',drawTicks:false}, ticks:{maxTicksLimit:6,color:'#98a2b3',font:{size:9},callback:v=>v.toFixed(1)+'x'}, border:{color:'#e4e7ec'}}
+      }
+    },
+    plugins: [medianLabelPlugin]
+  });
+}
+
+buildValChart('chartEVEBITDA', M_L, EB_D, '#6B4EAF', MED_EB, 'x', 8);
+buildValChart('chartEVSales',  M_L, EV_D, '#1a7a6e', MED_EV, 'x', 1.5);
+
+// ══════════════════════════════════════════════════════════════════════════
+// UTILITIES
+// ══════════════════════════════════════════════════════════════════════════
+const MO = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function fmtMmmYY(s) {
+  // Input: "2016-01-03" or "2016-01-31"
+  if(!s) return '—';
+  const parts = s.split('-');
+  if(parts.length < 2) return s;
+  return MO[+parts[1]-1] + '-' + parts[0].slice(2);
+}
+function fmtDateLong(s) {
+  if(!s) return '—';
+  const dt = new Date(s + 'T12:00:00Z');
+  return dt.toLocaleDateString('en-US',{month:'short',year:'numeric',timeZone:'UTC'});
+}
+function pd(s){const[y,m,d]=s.split('-').map(Number);return new Date(Date.UTC(y,m-1,d,12));}
+
+function setBadge(id, cls, txt) {
+  const el = document.getElementById(id);
+  if(!el) return;
+  el.className = `sig-badge ${cls}`;
+  el.textContent = txt;
+}
+
+function avg(arr) { const f=arr.filter(v=>v!=null&&isFinite(v)); return f.length ? f.reduce((a,b)=>a+b,0)/f.length : null; }
+function yoyPct(vals, lag=13) {
+  if (vals.length < lag+1) return null;
+  const curr = vals[vals.length-1], prev = vals[vals.length-lag];
+  return ((curr-prev)/prev*100);
+}
+function fmtPct(v, dec=1) {
+  if (v===null||v===undefined||isNaN(v)) return '—';
+  return `${v>=0?'+':''}${v.toFixed(dec)}%`;
+}
+function fmtNum(v, dec=0) {
+  if (v===null||v===undefined||isNaN(v)) return '—';
+  return Number(v.toFixed(dec)).toLocaleString('en-US');
+}
+function dirPct(v, posThreshold=0) {
+  if (v===null||isNaN(v)) return 'neu';
+  return v > posThreshold ? 'pos' : v < -posThreshold ? 'neg' : 'neu';
+}
+function pctDelta(a,b){ if(!a||!b) return null; return (a-b)/Math.abs(b)*100; }
+
+// ── Chart registry ─────────────────────────────────────────────────────────
+const _charts = {};
+function makeChart(id, config) {
+  if (_charts[id]) _charts[id].destroy();
+  const el = document.getElementById(id);
+  if(!el) return null;
+  _charts[id] = new Chart(el, config);
+  return _charts[id];
+}
+
+// ── Slider init (shows Mmm-yy at start) ───────────────────────────────────
+function initSlider(sliderId, startLabelId, endLabelId, dates, onSlide) {
+  const sl = document.getElementById(sliderId);
+  if(!sl || !dates.length) return;
+  sl.min = 0; sl.max = dates.length-1; sl.value = 0;
+  document.getElementById(startLabelId).textContent = fmtMmmYY(dates[0]);
+  document.getElementById(endLabelId).textContent   = fmtMmmYY(dates[dates.length-1]);
+  sl.addEventListener('input', () => {
+    document.getElementById(startLabelId).textContent = fmtMmmYY(dates[+sl.value]);
+    onSlide(+sl.value);
+  });
+}
+
+// ══════════════════════════════════════════════════════════════════════════
+// ADAPTIVE X-AXIS TICKS
+// ══════════════════════════════════════════════════════════════════════════
+function makeXTicks(labels) {
+  if(!labels.length) return {maxTicksLimit:12};
+  const first = pd(labels[0]), last = pd(labels[labels.length-1]);
+  const spanYrs = (last-first)/(1000*60*60*24*365.25);
+  if(spanYrs > 5) return {maxTicksLimit:8};
+  if(spanYrs > 3) return {maxTicksLimit:10};
+  if(spanYrs > 1.5) return {maxTicksLimit:12};
+  return {maxTicksLimit:16};
+}
+
+function makeXTickCallback(labels) {
+  return function(val, idx) {
+    const lbl = labels[idx];
+    if(!lbl) return null;
+    const dt = pd(lbl);
+    const m = dt.getUTCMonth();
+    const y = dt.getUTCFullYear();
+    const first = pd(labels[0]), last = pd(labels[labels.length-1]);
+    const spanYrs = (last-first)/(1000*60*60*24*365.25);
+    if(spanYrs > 4)   return m===0 ? String(y) : null;
+    if(spanYrs > 1.5) return (m===0||m===6) ? (m===0?String(y):'Jul '+String(y).slice(2)) : null;
+    return m%2===0 ? ['Jan','Mar','May','Jul','Sep','Nov'][Math.floor(m/2)]+' '+String(y).slice(2) : null;
+  };
+}
+
+// ══════════════════════════════════════════════════════════════════════════
+// TRACKER — STATIC DATA
+// ══════════════════════════════════════════════════════════════════════════
 const ROLLINS_REV_GROWTH = [{"date":"2015-03-31","value":5.59},{"date":"2015-06-30","value":6.17},{"date":"2015-09-30","value":3.87},{"date":"2015-12-31","value":5.39},{"date":"2016-03-31","value":6.6},{"date":"2016-06-30","value":4.84},{"date":"2016-09-30","value":6.07},{"date":"2016-12-31","value":6.38},{"date":"2017-03-31","value":6.38},{"date":"2017-06-30","value":5.45},{"date":"2017-09-30","value":6.24},{"date":"2017-12-31","value":7.55},{"date":"2018-03-31","value":8.93},{"date":"2018-06-30","value":10.82},{"date":"2018-09-30","value":8.28},{"date":"2018-12-31","value":7.21},{"date":"2019-03-31","value":4.97},{"date":"2019-06-30","value":9.05},{"date":"2019-09-30","value":14.09},{"date":"2019-12-31","value":13.8},{"date":"2020-03-31","value":13.71},{"date":"2020-06-30","value":5.61},{"date":"2020-09-30","value":4.89},{"date":"2020-12-31","value":5.99},{"date":"2021-03-31","value":9.77},{"date":"2021-06-30","value":15.34},{"date":"2021-09-30","value":11.39},{"date":"2021-12-31","value":11.94},{"date":"2022-03-31","value":10.29},{"date":"2022-06-30","value":11.88},{"date":"2022-09-30","value":12.23},{"date":"2022-12-31","value":10.17},{"date":"2023-03-31","value":11.4},{"date":"2023-06-30","value":14.94},{"date":"2023-09-30","value":15.17},{"date":"2023-12-31","value":14.02},{"date":"2024-03-31","value":13.73},{"date":"2024-06-30","value":8.67},{"date":"2024-09-30","value":9.02},{"date":"2024-12-31","value":10.35},{"date":"2025-03-31","value":9.91},{"date":"2025-06-30","value":12.06},{"date":"2025-09-30","value":11.99},{"date":"2025-12-31","value":9.7},{"date":"2026-03-31","value":10.2},{"date":"2026-06-30","value":7.91}];
-
 const ROLLINS_ORG_GROWTH = [{"date":"2021-12-31","value":8.9},{"date":"2022-03-31","value":7.0},{"date":"2022-06-30","value":8.7},{"date":"2022-09-30","value":8.6},{"date":"2022-12-31","value":6.9},{"date":"2023-03-31","value":9.2},{"date":"2023-06-30","value":7.7},{"date":"2023-09-30","value":8.33},{"date":"2023-12-31","value":7.11},{"date":"2024-03-31","value":7.46},{"date":"2024-06-30","value":7.67},{"date":"2024-09-30","value":7.65},{"date":"2024-12-31","value":8.5},{"date":"2025-03-31","value":7.43},{"date":"2025-06-30","value":7.29},{"date":"2025-09-30","value":7.19},{"date":"2025-12-31","value":5.68},{"date":"2026-03-31","value":6.57},{"date":"2026-06-30","value":5.73}];
-
 const ROLLINS_RES_GROWTH = [{"date":"2021-12-31","value":8.4},{"date":"2022-03-31","value":5.9},{"date":"2022-06-30","value":7.0},{"date":"2022-09-30","value":5.3},{"date":"2022-12-31","value":4.2},{"date":"2023-03-31","value":7.1},{"date":"2023-06-30","value":5.6},{"date":"2023-09-30","value":6.94},{"date":"2023-12-31","value":4.14},{"date":"2024-03-31","value":4.21},{"date":"2024-06-30","value":5.4},{"date":"2024-09-30","value":4.82},{"date":"2024-12-31","value":6.55},{"date":"2025-03-31","value":5.65},{"date":"2025-06-30","value":4.91},{"date":"2025-09-30","value":5.22},{"date":"2025-12-31","value":4.43},{"date":"2026-03-31","value":4.22},{"date":"2026-06-30","value":3.56}];
 
-// Brand configuration (from Excel Brands tab, Google Search = Yes)
+// Brand configuration
 const BRAND_GROUPS = {
   market: {
-    label: 'Market',
-    color: '#1b3a5c',
+    label: 'Market', color: '#1b3a5c',
     options: [
       {label:'Composite Index', key:'composite'},
       {label:'Pest Control Near Me', key:'pest control near me'},
@@ -330,8 +720,7 @@ const BRAND_GROUPS = {
     ]
   },
   rollins: {
-    label: 'Rollins',
-    color: '#2e6da4',
+    label: 'Rollins', color: '#2e6da4',
     brands: [
       {brand:'Orkin', keyword:'orkin'},
       {brand:'Clark Pest Control', keyword:'clark pest control'},
@@ -343,8 +732,7 @@ const BRAND_GROUPS = {
     ]
   },
   rentokil: {
-    label: 'Rentokil / Terminix',
-    color: '#e07820',
+    label: 'Rentokil / Terminix', color: '#e07820',
     brands: [
       {brand:'Terminix', keyword:'terminix'},
       {brand:'Rentokil', keyword:'rentokil pest control'},
@@ -357,18 +745,15 @@ const BRAND_GROUPS = {
     ]
   },
   aptive: {
-    label: 'Aptive',
-    color: '#2e9e6b',
+    label: 'Aptive', color: '#2e9e6b',
     brands: [{brand:'Aptive Pest Control', keyword:'aptive pest control'}]
   },
   massey: {
-    label: 'Massey Services',
-    color: '#7b4e9e',
+    label: 'Massey Services', color: '#7b4e9e',
     brands: [{brand:'Massey Services', keyword:'massey services pest control'}]
   },
   anticimex: {
-    label: 'Anticimex',
-    color: '#c0392b',
+    label: 'Anticimex', color: '#c0392b',
     brands: [
       {brand:'Turner Pest Control', keyword:'turner pest control'},
       {brand:'Viking Pest Control', keyword:'viking pest control'},
@@ -380,173 +765,15 @@ const BRAND_GROUPS = {
   }
 };
 
-// Growth series config
 const GROWTH_SERIES = [
-  {id:'rev',  label:'Revenue Growth YoY',               data: ROLLINS_REV_GROWTH, color:'#2e6da4', dash:[]},
-  {id:'org',  label:'Organic Revenue Growth YoY',       data: ROLLINS_ORG_GROWTH, color:'#e07820', dash:[6,3]},
-  {id:'res',  label:'Residential Organic Growth YoY',   data: ROLLINS_RES_GROWTH, color:'#7b4e9e', dash:[3,3]},
+  {id:'rev', label:'Revenue Growth YoY',             data:ROLLINS_REV_GROWTH, color:'#2e6da4', bgColor:'rgba(46,109,164,0.12)'},
+  {id:'org', label:'Organic Revenue Growth YoY',     data:ROLLINS_ORG_GROWTH, color:'#e07820', bgColor:'rgba(224,120,32,0.12)'},
+  {id:'res', label:'Residential Organic Growth YoY', data:ROLLINS_RES_GROWTH, color:'#7b4e9e', bgColor:'rgba(123,78,158,0.12)'},
 ];
 
-// BLS hardcoded (NAICS 5612)
-const BLS_L = ['Jan-23','Feb-23','Mar-23','Apr-23','May-23','Jun-23','Jul-23','Aug-23','Sep-23','Oct-23','Nov-23','Dec-23',
-                'Jan-24','Feb-24','Mar-24','Apr-24','May-24','Jun-24','Jul-24','Aug-24','Sep-24','Oct-24','Nov-24','Dec-24',
-                'Jan-25','Feb-25','Mar-25'];
-const H_D  = [38.1,38.0,38.2,38.4,38.5,38.3,38.2,38.4,38.3,38.1,38.0,37.9,38.2,38.3,38.4,38.5,38.6,38.4,38.3,38.5,38.4,38.2,38.1,38.0,38.3,38.4,38.5];
-const E_D  = [22.10,22.25,22.40,22.55,22.70,22.85,22.95,23.10,23.25,23.40,23.50,23.65,23.80,23.95,24.10,24.25,24.40,24.55,24.65,24.80,24.95,25.10,25.25,25.40,25.55,25.70,25.85];
-const U_D  = [3.4,3.4,3.5,3.4,3.6,3.7,3.5,3.5,3.6,3.7,3.8,3.8,3.7,3.7,3.8,3.6,3.5,3.6,4.2,4.3,4.1,4.2,4.3,4.1,4.1,4.2,4.3];
-
-// Valuation multiples
-const M_L  = ['Q1-22','Q2-22','Q3-22','Q4-22','Q1-23','Q2-23','Q3-23','Q4-23','Q1-24','Q2-24','Q3-24','Q4-24','Q1-25'];
-const EB_D = [38,35,32,30,33,34,36,37,39,38,36,35,34];
-const EV_D = [5.2,4.9,4.6,4.4,4.8,5.0,5.2,5.3,5.5,5.4,5.2,5.0,4.9];
-const MED_EB = 26.0, MED_EV = 5.6;
-
-// ═══════════════════════════════════════════════════════
-// UTILITIES
-// ═══════════════════════════════════════════════════════
-
-const chartRegistry = {};
-function makeChart(id, cfg){
-  if(chartRegistry[id]) chartRegistry[id].destroy();
-  chartRegistry[id] = new Chart(document.getElementById(id).getContext('2d'), cfg);
-  return chartRegistry[id];
-}
-
-function fmt(v,d=1){return v==null?'—':v.toFixed(d);}
-function fmtPct(v){if(v==null)return'—';return(v>0?'+':'')+v.toFixed(1)+'%';}
-
-function pctDelta(a,b){if(!a||!b)return null; return (a-b)/Math.abs(b)*100;}
-
-// Parse date string → Date object (UTC noon to avoid tz issues)
-function pd(s){const[y,m,d]=s.split('-').map(Number);return new Date(Date.UTC(y,m-1,d,12));}
-
-// Format date for display
-function fmtDate(s){
-  const dt=pd(s);
-  return dt.toLocaleDateString('en-US',{month:'short',year:'numeric',timeZone:'UTC'});
-}
-
-// ═══════════════════════════════════════════════════════
-// YEAR SEPARATOR PLUGIN
-// ═══════════════════════════════════════════════════════
-const yearLinesPlugin = {
-  id:'yearLines',
-  beforeDraw(chart){
-    const {ctx,scales,chartArea} = chart;
-    const xScale = scales.x;
-    if(!xScale || !chartArea) return;
-    ctx.save();
-    ctx.strokeStyle = 'rgba(0,0,0,0.06)';
-    ctx.lineWidth = 1;
-    ctx.setLineDash([4,4]);
-    const labels = xScale.ticks.map(t=>xScale.getLabelForValue(t.value));
-    xScale.ticks.forEach((tick,i)=>{
-      const lbl = xScale.getLabelForValue(tick.value);
-      if(lbl && /^Jan|^20\d\d/.test(lbl)){
-        const x = xScale.getPixelForTick(i);
-        if(x >= chartArea.left && x <= chartArea.right){
-          ctx.beginPath();
-          ctx.moveTo(x, chartArea.top);
-          ctx.lineTo(x, chartArea.bottom);
-          ctx.stroke();
-        }
-      }
-    });
-    ctx.restore();
-  }
-};
-
-// ═══════════════════════════════════════════════════════
-// ADAPTIVE X-AXIS TICKS
-// ═══════════════════════════════════════════════════════
-function makeXTicks(labels){
-  const n = labels.length;
-  if(n===0) return {maxTicksLimit:12};
-  // Estimate span in weeks
-  const first = pd(labels[0]), last = pd(labels[n-1]);
-  const spanYrs = (last-first)/(1000*60*60*24*365.25);
-  let maxTicksLimit;
-  if(spanYrs > 5) maxTicksLimit = 8;
-  else if(spanYrs > 3) maxTicksLimit = 10;
-  else if(spanYrs > 1.5) maxTicksLimit = 12;
-  else maxTicksLimit = 16;
-  return {maxTicksLimit};
-}
-
-function makeXTickCallback(labels){
-  return function(val, idx){
-    const lbl = labels[idx];
-    if(!lbl) return null;
-    const dt = pd(lbl);
-    const m = dt.getUTCMonth(); // 0=Jan
-    const y = dt.getUTCFullYear();
-    const n = labels.length;
-    const first = pd(labels[0]), last = pd(labels[n-1]);
-    const spanYrs = (last-first)/(1000*60*60*24*365.25);
-    if(spanYrs > 4){
-      return m===0 ? String(y) : null;
-    } else if(spanYrs > 1.5){
-      return (m===0||m===6) ? (m===0?String(y):'Jul '+String(y).slice(2)) : null;
-    } else {
-      return m%2===0 ? ['Jan','Mar','May','Jul','Sep','Nov'][Math.floor(m/2)]+' '+String(y).slice(2) : null;
-    }
-  };
-}
-
-// ═══════════════════════════════════════════════════════
-// COMPOSITE BUILDER (robust to missing)
-// ═══════════════════════════════════════════════════════
-function buildComposite(seriesArr){
-  // seriesArr: array of [{date,value},...] (already normalized to mean=100)
-  // Returns [{date,value},...] equal-weighted mean of available series per date
-  const dateMap = {};
-  seriesArr.forEach(series=>{
-    series.forEach(({date,value})=>{
-      if(!dateMap[date]) dateMap[date]={sum:0,cnt:0};
-      if(value!=null && isFinite(value) && value>0){
-        dateMap[date].sum += value;
-        dateMap[date].cnt++;
-      }
-    });
-  });
-  return Object.entries(dateMap)
-    .filter(([,v])=>v.cnt>0)
-    .map(([date,{sum,cnt}])=>({date, value:Math.round(sum/cnt*10)/10}))
-    .sort((a,b)=>a.date<b.date?-1:1);
-}
-
-function normalizeSeries(raw){
-  // raw: [{date,value},...] — normalize to mean=100
-  const vals = raw.map(r=>r.value).filter(v=>v>0 && isFinite(v));
-  if(!vals.length) return raw;
-  const mean = vals.reduce((a,b)=>a+b,0)/vals.length;
-  return raw.map(r=>({date:r.date, value:mean>0?Math.round(r.value/mean*1000)/10:r.value}));
-}
-
-// ═══════════════════════════════════════════════════════
-// QUARTERLY ALIGNMENT (no interpolation)
-// ═══════════════════════════════════════════════════════
-function alignQuarterly(weeklyDates, quarterlyData){
-  // Map each quarterly obs to the closest weekly date on or after the quarter-end
-  const qMap = {};
-  quarterlyData.forEach(({date,value})=>{ qMap[date]=value; });
-  return weeklyDates.map(d=>{
-    // Find any quarterly observation whose date matches or is close (±4 weeks)
-    if(qMap[d] !== undefined) return qMap[d];
-    // Try to find a quarterly point within ±4 weeks of this weekly date
-    const dt = pd(d).getTime();
-    for(const [qd,qv] of Object.entries(qMap)){
-      const qdTime = pd(qd).getTime();
-      const diff = Math.abs(dt-qdTime)/(1000*60*60*24);
-      if(diff<=28) return qv;
-    }
-    return null;
-  });
-}
-
-// ═══════════════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════════════════════
 // TRACKER STATE
-// ═══════════════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════════════════════
 const trackerState = {
   groups: {
     market:   {on:true,  sel:'composite'},
@@ -561,46 +788,60 @@ const trackerState = {
   allDates: [],
 };
 
-// Color palette for search series
 const GROUP_COLORS = {
   market:'#1b3a5c', rollins:'#2e6da4', rentokil:'#e07820',
   aptive:'#2e9e6b', massey:'#7b4e9e', anticimex:'#c0392b'
 };
 
-let gData = null; // data.json
+let gData = null;
 
-// ─── Get normalized series data from gData ───────────────
-function getMarketSeries(key){
-  if(!gData || !gData.google_trends) return [];
-  if(key==='composite'){
-    return gData.google_trends.composite || [];
-  }
-  // normalized individual keyword
+// ── Series getters ────────────────────────────────────────────────────────
+function normalizeSeries(raw) {
+  const vals = raw.map(r=>r.value).filter(v=>v>0&&isFinite(v));
+  if(!vals.length) return raw;
+  const mean = vals.reduce((a,b)=>a+b,0)/vals.length;
+  return raw.map(r=>({date:r.date, value:mean>0?Math.round(r.value/mean*1000)/10:r.value}));
+}
+
+function buildComposite(seriesArr) {
+  const dateMap = {};
+  seriesArr.forEach(series=>{
+    series.forEach(({date,value})=>{
+      if(!dateMap[date]) dateMap[date]={sum:0,cnt:0};
+      if(value!=null&&isFinite(value)&&value>0){dateMap[date].sum+=value;dateMap[date].cnt++;}
+    });
+  });
+  return Object.entries(dateMap)
+    .filter(([,v])=>v.cnt>0)
+    .map(([date,{sum,cnt}])=>({date, value:Math.round(sum/cnt*10)/10}))
+    .sort((a,b)=>a.date<b.date?-1:1);
+}
+
+function getMarketSeries(key) {
+  if(!gData||!gData.google_trends) return [];
+  if(key==='composite') return gData.google_trends.composite || [];
   const norm = gData.google_trends.normalized;
-  if(norm && norm[key]) return norm[key];
-  // fallback raw (should already be normalized in data.json)
+  if(norm&&norm[key]) return norm[key];
   return gData.google_trends[key] || [];
 }
 
-function getBrandSeries(keyword){
-  // First check brand_trends (new structure), then normalize on the fly
+function getBrandSeries(keyword) {
   if(!gData) return [];
-  if(gData.brand_trends && gData.brand_trends[keyword]){
-    const raw = gData.brand_trends[keyword];
-    return normalizeSeries(raw);
+  if(gData.brand_trends&&gData.brand_trends[keyword]){
+    return normalizeSeries(gData.brand_trends[keyword]);
   }
   return [];
 }
 
-function getGroupCompositeSeries(groupKey){
+function getGroupCompositeSeries(groupKey) {
   const grp = BRAND_GROUPS[groupKey];
-  if(!grp || !grp.brands) return [];
+  if(!grp||!grp.brands) return [];
   const seriesArr = grp.brands.map(b=>getBrandSeries(b.keyword)).filter(s=>s.length>0);
   if(!seriesArr.length) return [];
   return buildComposite(seriesArr);
 }
 
-function getGroupSeries(groupKey){
+function getGroupSeries(groupKey) {
   const state = trackerState.groups[groupKey];
   if(!state) return [];
   if(groupKey==='market') return getMarketSeries(state.sel);
@@ -608,8 +849,7 @@ function getGroupSeries(groupKey){
   return getBrandSeries(state.sel);
 }
 
-// ─── Build all weekly dates from active search series ───
-function buildAllDates(){
+function buildAllDates() {
   const dateSet = new Set();
   Object.keys(trackerState.groups).forEach(gk=>{
     const s = getGroupSeries(gk);
@@ -618,36 +858,60 @@ function buildAllDates(){
   return Array.from(dateSet).sort();
 }
 
-// ═══════════════════════════════════════════════════════
+// ── Interpolate quarterly data for smooth LVMH-style overlay ─────────────
+function interpolateQuarterly(weeklyDates, quarterlyData) {
+  // Build a map of all quarterly points
+  const qPts = quarterlyData.map(({date,value})=>({t:pd(date).getTime(), value}))
+    .sort((a,b)=>a.t-b.t);
+  if(!qPts.length) return weeklyDates.map(()=>null);
+  return weeklyDates.map(d=>{
+    const t = pd(d).getTime();
+    // Before first point
+    if(t <= qPts[0].t) return qPts[0].value;
+    // After last point
+    if(t >= qPts[qPts.length-1].t) return qPts[qPts.length-1].value;
+    // Linear interpolation between surrounding quarterly points
+    for(let i=0; i<qPts.length-1; i++){
+      if(t >= qPts[i].t && t <= qPts[i+1].t){
+        const frac = (t - qPts[i].t) / (qPts[i+1].t - qPts[i].t);
+        return +(qPts[i].value + frac*(qPts[i+1].value - qPts[i].value)).toFixed(2);
+      }
+    }
+    return null;
+  });
+}
+
+// ══════════════════════════════════════════════════════════════════════════
 // RENDER TRACKER
-// ═══════════════════════════════════════════════════════
-function renderTracker(){
+// ══════════════════════════════════════════════════════════════════════════
+function renderTracker() {
   if(!gData) return;
   const allDates = buildAllDates();
   if(!allDates.length) return;
   trackerState.allDates = allDates;
 
-  // Apply slider
   const sliderIdx = trackerState.sliderIdx;
   const visibleDates = allDates.slice(sliderIdx);
 
-  // Build datasets
   const datasets = [];
   const activeLegend = [];
 
-  // Search series (left axis ySearch)
+  // Search series (left axis)
   const GROUP_ORDER = ['market','rollins','rentokil','aptive','massey','anticimex'];
   GROUP_ORDER.forEach(gk=>{
     const st = trackerState.groups[gk];
     if(!st.on) return;
     const series = getGroupSeries(gk);
-    // Map to visible dates
     const seriesMap = {};
     series.forEach(({date,value})=>seriesMap[date]=value);
+
+    // Note for Massey: low search volume → mostly zero
+    const isMassey = gk==='massey';
+
     const vals = visibleDates.map(d=>seriesMap[d]??null);
     const grpCfg = BRAND_GROUPS[gk];
-    const lbl = grpCfg.label + (st.sel==='composite'?' Composite':
-      (' – '+(grpCfg.brands?.find(b=>b.keyword===st.sel)?.brand || st.sel)));
+    const lbl = grpCfg.label + (st.sel==='composite' ? ' Composite' :
+      (' – '+(grpCfg.brands?.find(b=>b.keyword===st.sel)?.brand||st.sel)));
     datasets.push({
       label: lbl,
       data: vals,
@@ -660,51 +924,51 @@ function renderTracker(){
       yAxisID: 'ySearch',
       _type: 'search',
     });
-    activeLegend.push({label:lbl, color:GROUP_COLORS[gk], dashed:false, type:'search'});
+    activeLegend.push({label:lbl+(isMassey?' ⚠ low volume':''), color:GROUP_COLORS[gk], dashed:false, type:'search'});
   });
 
-  // Growth series (right axis yGrowth)
+  // Growth series (right axis) — LVMH-style shaded area with interpolation
   GROWTH_SERIES.forEach(gs=>{
     if(!trackerState.growth[gs.id]) return;
-    const qAligned = alignQuarterly(visibleDates, gs.data);
+    const interpolated = interpolateQuarterly(visibleDates, gs.data);
     datasets.push({
       label: gs.label,
-      data: qAligned,
+      data: interpolated,
       borderColor: gs.color,
-      backgroundColor: 'transparent',
-      borderWidth: 2.5,
-      borderDash: gs.dash,
-      pointRadius: qAligned.map(v=>v!=null?4:0),
-      pointBackgroundColor: gs.color,
-      tension: 0,
-      spanGaps: false,
+      backgroundColor: gs.bgColor,
+      borderWidth: 1.5,
+      borderDash: [],
+      pointRadius: 0,
+      tension: 0.4,
+      fill: 'origin',  // fill to y=0 (LVMH-style shaded area)
+      spanGaps: true,
       yAxisID: 'yGrowth',
       _type: 'growth',
+      order: 10,  // draw behind search lines
     });
-    activeLegend.push({label:gs.label, color:gs.color, dashed:gs.dash.length>0, type:'growth'});
+    activeLegend.push({label:gs.label, color:gs.color, shaded:true, type:'growth'});
   });
 
-  // Compute y-axis ranges
+  // Y-axis ranges
   const searchVals = datasets.filter(d=>d._type==='search').flatMap(d=>d.data).filter(v=>v!=null);
   const growthVals = datasets.filter(d=>d._type==='growth').flatMap(d=>d.data).filter(v=>v!=null);
   const sMin = searchVals.length ? Math.floor(Math.min(...searchVals)*0.95/10)*10 : 0;
   const sMax = searchVals.length ? Math.ceil(Math.max(...searchVals)*1.05/10)*10 : 200;
-  const gMin = growthVals.length ? Math.floor(Math.min(...growthVals)*1.1) : -5;
-  const gMax = growthVals.length ? Math.ceil(Math.max(...growthVals)*1.1) : 20;
+  const gMin = growthVals.length ? Math.floor(Math.min(...growthVals,0)*1.1) : -5;
+  const gMax = growthVals.length ? Math.ceil(Math.max(...growthVals)*1.15) : 20;
 
   const tickCfg = makeXTicks(visibleDates);
   const tickCb  = makeXTickCallback(visibleDates);
 
-  // Detect year boundaries for grid
+  // Year boundary grid
   const yearBoundarySet = new Set();
   visibleDates.forEach((d,i)=>{
     if(i===0) return;
-    const yr = parseInt(d.slice(0,4));
-    const prYr = parseInt(visibleDates[i-1].slice(0,4));
-    if(yr !== prYr) yearBoundarySet.add(i);
+    if(parseInt(d.slice(0,4)) !== parseInt(visibleDates[i-1].slice(0,4)))
+      yearBoundarySet.add(i);
   });
 
-  const cfg = {
+  makeChart('trackerChart', {
     type:'line',
     data:{labels:visibleDates, datasets},
     options:{
@@ -713,13 +977,14 @@ function renderTracker(){
       plugins:{
         legend:{display:false},
         tooltip:{
+          ...TOOLTIP,
           callbacks:{
-            title(items){return fmtDate(items[0].label);},
+            title(items){return fmtDateLong(items[0].label);},
             label(item){
               if(item.raw==null) return null;
               const ds = item.dataset;
-              if(ds._type==='growth') return ` ${ds.label}: ${fmtPct(item.raw)}`;
-              return ` ${ds.label}: ${fmt(item.raw)}`;
+              if(ds._type==='growth') return ` ${ds.label}: ${item.raw>=0?'+':''}${item.raw.toFixed(1)}%`;
+              return ` ${ds.label}: ${item.raw.toFixed(1)}`;
             }
           },
           filter(item){return item.raw!=null;}
@@ -727,13 +992,9 @@ function renderTracker(){
       },
       scales:{
         x:{
-          ticks:{
-            ...tickCfg,
-            callback: tickCb,
-            maxRotation:0, color:'#667085', font:{size:10}
-          },
+          ticks:{...tickCfg, callback:tickCb, maxRotation:0, color:'#667085', font:{size:10}},
           grid:{
-            color:(ctx)=> yearBoundarySet.has(ctx.index) ? 'rgba(0,0,0,0.06)' : 'transparent',
+            color:(ctx)=> yearBoundarySet.has(ctx.index) ? 'rgba(0,0,0,0.07)' : 'transparent',
             lineWidth:1, drawTicks:false
           },
           border:{display:false}
@@ -755,33 +1016,31 @@ function renderTracker(){
           display: datasets.some(d=>d._type==='growth')
         }
       }
-    },
-    plugins:[yearLinesPlugin]
-  };
+    }
+  });
 
-  makeChart('trackerChart', cfg);
-
-  // Update legend
+  // Legend
   const legEl = document.getElementById('trackerLegend');
   legEl.innerHTML = activeLegend.map(l=>`
     <div class="legend-item">
-      <div class="legend-swatch ${l.dashed?'dashed':''}" style="background:${l.dashed?'transparent':''}; border-top:3px ${l.dashed?'dashed':'solid'} ${l.color};"></div>
-      <span>${l.label}${l.type==='growth'?' (%)':''}</span>
+      ${l.shaded
+        ? `<div style="width:20px;height:10px;border-radius:2px;border:1.5px solid ${l.color};background:${l.color}22;flex-shrink:0;"></div>`
+        : `<div class="legend-swatch" style="border-top:3px solid ${l.color};"></div>`
+      }
+      <span>${l.label}${l.type==='growth'?' (%, right axis)':''}</span>
     </div>`).join('');
 
-  // Update KPI strip + pill
   updateTrackerKPI(visibleDates);
 }
 
-function updateTrackerKPI(visibleDates){
-  // Primary search series: first ON group
+function updateTrackerKPI(visibleDates) {
   const GROUP_ORDER = ['market','rollins','rentokil','aptive','massey','anticimex'];
   let primaryGk = null;
   for(const gk of GROUP_ORDER){
     if(trackerState.groups[gk].on){ primaryGk=gk; break; }
   }
   const kpiRow = document.getElementById('trackerKpiRow');
-  const pill = document.getElementById('trackerPill');
+  const pill   = document.getElementById('trackerPill');
   if(!primaryGk){ kpiRow.innerHTML=''; pill.style.display='none'; return; }
 
   const series = getGroupSeries(primaryGk);
@@ -791,47 +1050,56 @@ function updateTrackerKPI(visibleDates){
   if(!vals.length){ kpiRow.innerHTML=''; pill.style.display='none'; return; }
 
   const latest = vals[vals.length-1];
-  const last52 = vals.slice(-52);
-  const avg52 = last52.reduce((a,b)=>a+b,0)/last52.length;
-  const last4 = vals.slice(-4);
-  const avg4 = last4.reduce((a,b)=>a+b,0)/last4.length;
-  // YoY: compare latest to value 52 weeks ago
+  const avg52  = avg(vals.slice(-52));
+  const avg4   = avg(vals.slice(-4));
   const yoyVal = vals.length>52 ? vals[vals.length-53] : null;
-  const yoy = yoyVal!=null ? latest-yoyVal : null;
+  const yoy    = yoyVal!=null ? latest - yoyVal : null;
 
-  // Pill
   pill.style.display='flex';
   const grpCfg = BRAND_GROUPS[primaryGk];
   const st = trackerState.groups[primaryGk];
   const seriesName = primaryGk==='market' && st.sel==='composite' ? 'Market Composite' :
-    grpCfg.label + (st.sel==='composite'?' Composite':
-      (' – '+(grpCfg.brands?.find(b=>b.keyword===st.sel)?.brand||st.sel)));
+    grpCfg.label + (st.sel==='composite'?' Composite':(' – '+(grpCfg.brands?.find(b=>b.keyword===st.sel)?.brand||st.sel)));
   document.getElementById('pillSeries').textContent = seriesName;
-  document.getElementById('pillLatest').textContent = fmt(latest);
-  document.getElementById('pill52').textContent = fmt(avg52);
-  const trend = avg4 > avg52 ? '▲ Above trend' : avg4 < avg52*0.97 ? '▼ Below trend' : '→ Near trend';
+  document.getElementById('pillLatest').textContent = latest.toFixed(1);
+  document.getElementById('pill52').textContent = avg52!=null ? avg52.toFixed(1) : '—';
+  const trend = avg4!=null && avg52!=null ? (avg4>avg52?'▲ Above trend':avg4<avg52*0.97?'▼ Below trend':'→ Near trend') : '—';
   document.getElementById('pillTrend').textContent = trend;
 
-  // KPI boxes
+  // KPI boxes with clear series label
   kpiRow.innerHTML = `
-    <div class="tracker-kpi-box"><div class="tracker-kpi-label">Latest</div><div class="tracker-kpi-val">${fmt(latest)}</div></div>
-    <div class="tracker-kpi-box"><div class="tracker-kpi-label">4-wk avg</div><div class="tracker-kpi-val">${fmt(avg4)}</div></div>
-    <div class="tracker-kpi-box"><div class="tracker-kpi-label">52-wk avg</div><div class="tracker-kpi-val">${fmt(avg52)}</div></div>
-    <div class="tracker-kpi-box"><div class="tracker-kpi-label">YoY Δ</div><div class="tracker-kpi-val ${yoy==null?'':yoy>=0?'pos':'neg'}">${yoy==null?'—':(yoy>=0?'+':'')+fmt(yoy)}</div></div>
+    <div class="tracker-kpi-box">
+      <div class="tracker-kpi-series">${seriesName}</div>
+      <div class="tracker-kpi-label">Latest</div>
+      <div class="tracker-kpi-val">${latest.toFixed(1)}</div>
+    </div>
+    <div class="tracker-kpi-box">
+      <div class="tracker-kpi-series">${seriesName}</div>
+      <div class="tracker-kpi-label">4-wk avg</div>
+      <div class="tracker-kpi-val">${avg4!=null?avg4.toFixed(1):'—'}</div>
+    </div>
+    <div class="tracker-kpi-box">
+      <div class="tracker-kpi-series">${seriesName}</div>
+      <div class="tracker-kpi-label">52-wk avg</div>
+      <div class="tracker-kpi-val">${avg52!=null?avg52.toFixed(1):'—'}</div>
+    </div>
+    <div class="tracker-kpi-box">
+      <div class="tracker-kpi-series">${seriesName}</div>
+      <div class="tracker-kpi-label">YoY Δ (pts)</div>
+      <div class="tracker-kpi-val ${yoy==null?'':yoy>=0?'delta-pos':'delta-neg'}">${yoy==null?'—':(yoy>=0?'+':'')+yoy.toFixed(1)}</div>
+    </div>
   `;
 }
 
-// ═══════════════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════════════════════
 // WIRE TRACKER CONTROLS
-// ═══════════════════════════════════════════════════════
-function wireTrackerControls(){
-  // Build control HTML
+// ══════════════════════════════════════════════════════════════════════════
+function wireTrackerControls() {
   const ctrlEl = document.getElementById('trackerControls');
   const GROUP_ORDER = ['market','rollins','rentokil','aptive','massey','anticimex'];
   ctrlEl.innerHTML = GROUP_ORDER.map(gk=>{
     const grp = BRAND_GROUPS[gk];
-    const st = trackerState.groups[gk];
-    // Build options
+    const st  = trackerState.groups[gk];
     let opts = '';
     if(gk==='market'){
       opts = grp.options.map(o=>`<option value="${o.key}" ${st.sel===o.key?'selected':''}>${o.label}</option>`).join('');
@@ -841,18 +1109,20 @@ function wireTrackerControls(){
       opts = `<option value="composite" ${st.sel==='composite'?'selected':''}>Composite</option>`;
       opts += grp.brands.map(b=>`<option value="${b.keyword}" ${st.sel===b.keyword?'selected':''}>${b.brand}</option>`).join('');
     }
+    const isMassey = gk==='massey';
     return `
-      <div class="ctrl-group">
-        <input type="checkbox" class="ctrl-check" id="chk_${gk}" ${st.on?'checked':''}>
-        <label class="ctrl-label" for="chk_${gk}">${grp.label}</label>
+      <div class="ctrl-group" title="${isMassey?'⚠ Low Google search volume — data may be sparse':''}">
+        <input type="checkbox" class="ctrl-check" id="chk_${gk}" ${st.on?'checked':''} style="accent-color:${GROUP_COLORS[gk]};">
+        <label class="ctrl-label" for="chk_${gk}" style="color:${st.on?GROUP_COLORS[gk]:'var(--text-muted)'};">${grp.label}${isMassey?' ⚠':''}</label>
         <select class="ctrl-select" id="sel_${gk}" ${!st.on?'disabled':''}>${opts}</select>
       </div>`;
   }).join('');
 
-  // Checkbox events
   GROUP_ORDER.forEach(gk=>{
     document.getElementById('chk_'+gk).addEventListener('change',function(){
       trackerState.groups[gk].on = this.checked;
+      const lbl = document.getElementById('chk_'+gk).nextElementSibling;
+      lbl.style.color = this.checked ? GROUP_COLORS[gk] : 'var(--text-muted)';
       document.getElementById('sel_'+gk).disabled = !this.checked;
       renderTracker();
     });
@@ -862,372 +1132,267 @@ function wireTrackerControls(){
     });
   });
 
-  // Growth checkboxes
   document.getElementById('chkRevGrowth').addEventListener('change',function(){trackerState.growth.rev=this.checked;renderTracker();});
   document.getElementById('chkOrgGrowth').addEventListener('change',function(){trackerState.growth.org=this.checked;renderTracker();});
   document.getElementById('chkResGrowth').addEventListener('change',function(){trackerState.growth.res=this.checked;renderTracker();});
-
-  // Slider
-  const slider = document.getElementById('trackerSlider');
-  const sliderVal = document.getElementById('trackerSliderVal');
-  slider.addEventListener('input',function(){
-    const allDates = trackerState.allDates;
-    if(!allDates.length) return;
-    const idx = Math.round(this.value/100*(allDates.length-1));
-    trackerState.sliderIdx = idx;
-    sliderVal.textContent = fmtDate(allDates[idx]);
-    renderTracker();
-  });
 }
 
-function initTracker(){
+function initTracker() {
   wireTrackerControls();
-  if(!gData || !gData.google_trends) return;
-  // Initialize slider range
+  if(!gData||!gData.google_trends) return;
   const allDates = buildAllDates();
   trackerState.allDates = allDates;
   if(allDates.length){
-    document.getElementById('trackerSliderVal').textContent = fmtDate(allDates[0]);
+    initSlider('trackerSlider','trackerSliderStart','trackerSliderEnd', allDates, idx=>{
+      trackerState.sliderIdx = idx;
+      renderTracker();
+    });
   }
   renderTracker();
 }
 
-// ═══════════════════════════════════════════════════════
+// ══════════════════════════════════════════════════════════════════════════
 // HOUSING STARTS
-// ═══════════════════════════════════════════════════════
-let housingData = {total:[], single:[], multi:[]};
-let housingSliderIdx = 0;
+// ══════════════════════════════════════════════════════════════════════════
+let _housing = { total:[], single:[], multi:[] };
+let _housingSeries = 'total';
+let _housingSliderIdx = 0;
 
-function renderHousing(){
-  const sel = document.getElementById('housingSel').value;
-  const labelMap = {total:'Total Housing Starts',single:'Single-Family',multi:'Multifamily (5+)'};
-  const colorMap  = {total:'#1b3a5c',single:'#2e6da4',multi:'#e07820'};
-  const raw = housingData[sel];
-  const sliced = raw.slice(housingSliderIdx);
-  const labels = sliced.map(d=>d.date);
-  const vals   = sliced.map(d=>d.value);
-  const tickCb = makeXTickCallback(labels);
-  const tickCfg = makeXTicks(labels);
-  makeChart('housingChart',{
-    type:'line',
-    data:{labels, datasets:[{
-      label:labelMap[sel], data:vals,
-      borderColor:colorMap[sel], backgroundColor:colorMap[sel]+'22',
-      borderWidth:2, pointRadius:0, tension:0.3, fill:true
-    }]},
-    options:{
-      responsive:true,maintainAspectRatio:false,animation:{duration:200},
-      plugins:{legend:{display:false},tooltip:{callbacks:{
-        title:i=>fmtDate(i[0].label),
-        label:i=>` ${labelMap[sel]}: ${i.raw!=null?i.raw.toFixed(0):''} k units`
-      }}},
-      scales:{
-        x:{ticks:{...tickCfg,callback:tickCb,maxRotation:0,color:'#667085',font:{size:10}},grid:{color:'rgba(0,0,0,0.04)'},border:{display:false}},
-        y:{ticks:{color:'#667085',font:{size:10}},grid:{color:'rgba(0,0,0,0.04)'},border:{display:false},
-           title:{display:true,text:'Thousands SAAR',color:'#667085',font:{size:10}}}
-      }
-    }, plugins:[yearLinesPlugin]
-  });
-  buildHousingGroupedTable();
-  buildHousingMix();
-}
-
-function buildHousingGroupedTable(){
-  function getMetrics(raw){
-    if(!raw||!raw.length) return {latest:null,yoy:null,avg12:null,latestYoY:null,yoyYoY:null,avg12YoY:null};
-    const latest = raw[raw.length-1].value;
-    const prior12 = raw.length>12 ? raw[raw.length-13].value : null;
-    const latestYoY = prior12!=null ? pctDelta(latest,prior12) : null;
-    const yr = raw.slice(-12).map(d=>d.value);
-    const avg12 = yr.reduce((a,b)=>a+b,0)/yr.length;
-    const prevYr12 = raw.length>24 ? raw.slice(-24,-12).map(d=>d.value) : null;
-    const avg12YoY = prevYr12 ? pctDelta(avg12,prevYr12.reduce((a,b)=>a+b,0)/prevYr12.length) : null;
-    // YoY row = 12 months ago
-    const yoyPt = raw.length>12 ? raw[raw.length-13].value : null;
-    const yoyPrior = raw.length>24 ? raw[raw.length-25].value : null;
-    const yoyYoY = yoyPt&&yoyPrior ? pctDelta(yoyPt,yoyPrior) : null;
-    return {latest,yoy:yoyPt,avg12,latestYoY,yoyYoY,avg12YoY};
-  }
-  const T=getMetrics(housingData.total), S=getMetrics(housingData.single), M=getMetrics(housingData.multi);
-  const rows=[
-    ['Latest', T.latest,T.latestYoY, S.latest,S.latestYoY, M.latest,M.latestYoY],
-    ['YoY',    T.yoy,T.yoyYoY,       S.yoy,S.yoyYoY,       M.yoy,M.yoyYoY],
-    ['12M Avg',T.avg12,T.avg12YoY,   S.avg12,S.avg12YoY,   M.avg12,M.avg12YoY],
-  ];
-  const tbody=document.getElementById('housingTbody');
-  tbody.innerHTML=rows.map(([lbl,...rest])=>`<tr>
-    <td class="row-hdr">${lbl}</td>
-    ${[0,1,2].map(i=>`<td>${rest[i*2]!=null?rest[i*2].toFixed(0):'—'}</td><td class="${i<2?'merge-cell':''}">${rest[i*2+1]!=null?fmtPct(rest[i*2+1]):'—'}</td>`).join('')}
-  </tr>`).join('');
-}
-
-function buildHousingMix(){
-  const T=housingData.total, S=housingData.single, M=housingData.multi;
-  if(!T.length||!S.length||!M.length) return;
-  const tLat=T[T.length-1].value, sLat=S[S.length-1].value, mLat=M[M.length-1].value;
-  const sPct=sLat/tLat*100, mPct=mLat/tLat*100;
-  const mixEl=document.getElementById('housingMix');
-  mixEl.innerHTML=`
-    <div style="font-size:10px;color:#667085;font-weight:600;min-width:140px;">Single-Family vs. 5+ Multifamily</div>
-    <div style="flex:1;">
-      <div style="display:flex;gap:4px;margin-bottom:3px;">
-        <div style="flex:${sPct};height:8px;background:#2e6da4;border-radius:3px 0 0 3px;"></div>
-        <div style="flex:${mPct};height:8px;background:#e07820;border-radius:0 3px 3px 0;"></div>
-      </div>
-      <div style="display:flex;gap:12px;font-size:10px;color:#667085;">
-        <span style="color:#2e6da4;">▮ Single-Family ${sPct.toFixed(0)}%</span>
-        <span style="color:#e07820;">▮ Multifamily ${mPct.toFixed(0)}%</span>
-      </div>
-    </div>`;
-}
-
-function initHousing(){
-  const slider=document.getElementById('housingSlider');
-  const sliderVal=document.getElementById('housingSliderVal');
-  document.getElementById('housingSel').addEventListener('change',()=>renderHousing());
-  slider.addEventListener('input',function(){
-    const raw=housingData[document.getElementById('housingSel').value];
-    if(!raw.length) return;
-    housingSliderIdx=Math.round(this.value/100*(raw.length-1));
-    sliderVal.textContent=fmtDate(raw[housingSliderIdx].date);
-    renderHousing();
-  });
-  renderHousing();
-  const raw=housingData.total;
-  if(raw.length) sliderVal.textContent=fmtDate(raw[0].date);
-}
-
-// ═══════════════════════════════════════════════════════
-// FOOD SERVICES
-// ═══════════════════════════════════════════════════════
-let foodData = {sales:[], employment:[]};
-let foodSliderIdx = 0;
-
-function renderFoodChart(){
-  const raw = foodData.sales.slice(foodSliderIdx);
-  const labels = raw.map(d=>d.date);
-  const vals   = raw.map(d=>d.value);
-  const tickCb = makeXTickCallback(labels);
-  const tickCfg = makeXTicks(labels);
-  makeChart('foodChart',{
-    type:'line',
-    data:{labels, datasets:[{
-      label:'Food Services Sales', data:vals,
-      borderColor:'#2e9e6b', backgroundColor:'#2e9e6b22',
-      borderWidth:2, pointRadius:0, tension:0.3, fill:true
-    }]},
-    options:{
-      responsive:true,maintainAspectRatio:false,animation:{duration:200},
-      plugins:{legend:{display:false},tooltip:{callbacks:{
-        title:i=>fmtDate(i[0].label),
-        label:i=>` Sales: $${i.raw!=null?i.raw.toFixed(0):''}M`
-      }}},
-      scales:{
-        x:{ticks:{...tickCfg,callback:tickCb,maxRotation:0,color:'#667085',font:{size:10}},grid:{color:'rgba(0,0,0,0.04)'},border:{display:false}},
-        y:{ticks:{color:'#667085',font:{size:10}},grid:{color:'rgba(0,0,0,0.04)'},border:{display:false},
-           title:{display:true,text:'$M Monthly',color:'#667085',font:{size:10}}}
-      }
-    }, plugins:[yearLinesPlugin]
-  });
-  buildFoodGroupedTable();
-}
-
-function buildFoodGroupedTable(){
-  const S=foodData.sales, E=foodData.employment;
-  const kpiEl=document.getElementById('foodKpi');
-  function stats(arr){
-    if(!arr||!arr.length) return {latest:null,yoy:null};
-    const latest=arr[arr.length-1].value;
-    const prior=arr.length>12?arr[arr.length-13].value:null;
-    return{latest,yoy:prior!=null?pctDelta(latest,prior):null};
-  }
-  const ss=stats(S),es=stats(E);
-  kpiEl.innerHTML=`
-    <div class="bls-box"><div class="bls-title">Food Svc Sales (Latest)</div><div class="bls-val">$${ss.latest!=null?ss.latest.toFixed(0):'—'}M</div><div class="bls-delta ${ss.yoy>=0?'pos':'neg'}">${fmtPct(ss.yoy)} YoY</div></div>
-    <div class="bls-box"><div class="bls-title">Employment (Latest)</div><div class="bls-val">${es.latest!=null?es.latest.toFixed(0):'—'}k</div><div class="bls-delta ${es.yoy>=0?'pos':'neg'}">${fmtPct(es.yoy)} YoY</div></div>
-    <div class="bls-box"><div class="bls-title">12M Avg Sales</div><div class="bls-val">$${S.length>=12?(S.slice(-12).reduce((a,b)=>a+b.value,0)/12).toFixed(0):'—'}M</div></div>
-  `;
-}
-
-function initFoodServices(){
-  const slider=document.getElementById('foodSlider');
-  const sliderVal=document.getElementById('foodSliderVal');
-  slider.addEventListener('input',function(){
-    const raw=foodData.sales;
-    if(!raw.length) return;
-    foodSliderIdx=Math.round(this.value/100*(raw.length-1));
-    sliderVal.textContent=fmtDate(raw[foodSliderIdx].date);
-    renderFoodChart();
-  });
-  renderFoodChart();
-  if(foodData.sales.length) sliderVal.textContent=fmtDate(foodData.sales[0].date);
-}
-
-// ═══════════════════════════════════════════════════════
-// BLS LABOR CHARTS
-// ═══════════════════════════════════════════════════════
-function initBLS(){
-  // KPI
-  const blsKpi=document.getElementById('blsKpi');
-  const hLat=H_D[H_D.length-1], eLat=E_D[E_D.length-1], uLat=U_D[U_D.length-1];
-  const hYoY=H_D.length>12?pctDelta(hLat,H_D[H_D.length-13]):null;
-  const eYoY=E_D.length>12?pctDelta(eLat,E_D[E_D.length-13]):null;
-  blsKpi.innerHTML=`
-    <div class="bls-box"><div class="bls-title">Avg Wkly Hours</div><div class="bls-val">${hLat.toFixed(1)}</div><div class="bls-delta ${hYoY>=0?'pos':'neg'}">${fmtPct(hYoY)} YoY</div></div>
-    <div class="bls-box"><div class="bls-title">Hourly Earnings</div><div class="bls-val">$${eLat.toFixed(2)}</div><div class="bls-delta ${eYoY>=0?'pos':'neg'}">${fmtPct(eYoY)} YoY</div></div>
-    <div class="bls-box"><div class="bls-title">Unemployment</div><div class="bls-val">${uLat.toFixed(1)}%</div></div>
-  `;
-
-  // Chart 1: Hours + Earnings
-  makeChart('blsChart',{
-    type:'line',
-    data:{labels:BLS_L, datasets:[
-      {label:'Avg Wkly Hours',data:H_D,borderColor:'#2e6da4',backgroundColor:'#2e6da422',borderWidth:2,pointRadius:0,tension:0.3,fill:true,yAxisID:'y'},
-      {label:'Hourly Earnings ($)',data:E_D,borderColor:'#c4820a',backgroundColor:'transparent',borderWidth:2,pointRadius:0,tension:0.3,yAxisID:'y2'},
-    ]},
-    options:{
-      responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:true,labels:{boxWidth:12,font:{size:10}}}},
-      scales:{
-        x:{ticks:{maxRotation:45,color:'#667085',font:{size:9}},grid:{color:'rgba(0,0,0,0.04)'},border:{display:false}},
-        y:{position:'left',ticks:{color:'#667085',font:{size:10}},title:{display:true,text:'Hours',color:'#667085',font:{size:10}}},
-        y2:{position:'right',ticks:{color:'#c4820a',font:{size:10},callback:v=>'$'+v.toFixed(0)},grid:{drawOnChartArea:false},title:{display:true,text:'$/hr',color:'#c4820a',font:{size:10}}}
-      }
-    }
-  });
-
-  // Chart 2: YoY % for hours+earnings (12M MA)
-  function calcYoY(arr){return arr.map((v,i)=>i>=12?pctDelta(v,arr[i-12]):null);}
-  makeChart('blsChart2',{
-    type:'line',
-    data:{labels:BLS_L, datasets:[
-      {label:'Hours WoW YoY%',data:calcYoY(H_D),borderColor:'#2e6da4',backgroundColor:'transparent',borderWidth:2,pointRadius:0,tension:0.3},
-      {label:'Earnings YoY%',data:calcYoY(E_D),borderColor:'#c4820a',backgroundColor:'transparent',borderWidth:2,pointRadius:0,tension:0.3},
-    ]},
-    options:{
-      responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:true,labels:{boxWidth:12,font:{size:10}}},
-        tooltip:{callbacks:{label:i=>` ${i.dataset.label}: ${fmtPct(i.raw)}`}}},
-      scales:{
-        x:{ticks:{maxRotation:45,color:'#667085',font:{size:9}},grid:{color:'rgba(0,0,0,0.04)'},border:{display:false}},
-        y:{ticks:{color:'#667085',font:{size:10},callback:v=>v+'%'},grid:{color:'rgba(0,0,0,0.04)'},
-           title:{display:true,text:'YoY %',color:'#667085',font:{size:10}}}
-      }
-    }
-  });
-}
-
-// ═══════════════════════════════════════════════════════
-// VALUATION CHART
-// ═══════════════════════════════════════════════════════
-const medianLabelPlugin = {
-  id:'medianLabel',
-  afterDraw(chart){
-    const{ctx,scales,chartArea}=chart;
-    if(!scales.y) return;
-    ctx.save();
-    // EBITDA median
-    const y1=scales.y.getPixelForValue(MED_EB);
-    ctx.strokeStyle='rgba(107,78,175,0.4)';ctx.lineWidth=1;ctx.setLineDash([4,4]);
-    ctx.beginPath();ctx.moveTo(chartArea.left,y1);ctx.lineTo(chartArea.right,y1);ctx.stroke();
-    ctx.fillStyle='rgba(107,78,175,0.7)';ctx.font='9px sans-serif';ctx.fillText(`Median EV/EBITDA ${MED_EB}x`,chartArea.left+4,y1-3);
-    ctx.restore();
-  }
+const HOUSING_CFG = {
+  total:  { label:'Total Housing Starts (K, SAAR)',        color:'#2e6da4' },
+  single: { label:'Single-Family Starts (K, SAAR)',        color:'#2e9e6b' },
+  multi:  { label:'Multifamily 5+ Unit Starts (K, SAAR)', color:'#c4820a' },
 };
 
-function buildValChart(){
-  makeChart('valChart',{
-    type:'line',
-    data:{labels:M_L, datasets:[
-      {label:'EV/EBITDA',data:EB_D,borderColor:'#6B4EAF',backgroundColor:'#6B4EAF22',borderWidth:2,pointRadius:3,tension:0.3,fill:false,yAxisID:'y'},
-      {label:'EV/Sales (×10)',data:EV_D.map(v=>v*10),borderColor:'#1a7a6e',backgroundColor:'transparent',borderWidth:2,pointRadius:3,tension:0.3,yAxisID:'y'},
-    ]},
-    options:{
-      responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:true,labels:{boxWidth:12,font:{size:10}}},
-        tooltip:{callbacks:{
-          label:i=>i.datasetIndex===0?` EV/EBITDA: ${i.raw}x`:` EV/Sales: ${(i.raw/10).toFixed(1)}x`
-        }}},
-      scales:{
-        x:{ticks:{color:'#667085',font:{size:10},maxRotation:45},grid:{color:'rgba(0,0,0,0.04)'},border:{display:false}},
-        y:{min:0,max:50,ticks:{color:'#667085',font:{size:10},callback:v=>v+'x'},grid:{color:'rgba(0,0,0,0.04)'},
-           title:{display:true,text:'Multiple (×)',color:'#667085',font:{size:10}}}
-      }
-    },
-    plugins:[medianLabelPlugin]
+function renderHousing(startIdx) {
+  const cfg  = HOUSING_CFG[_housingSeries];
+  const data = _housing[_housingSeries];
+  if(!data.length) return;
+  const allLabs = data.map(x=>x.date);
+  const allVals = data.map(x=>Number(x.value));
+  const sLabs   = allLabs.slice(startIdx);
+  const sVals   = allVals.slice(startIdx);
+  const tickCb  = makeXTickCallback(sLabs);
+  const tickCfg = makeXTicks(sLabs);
+
+  const yearBoundarySet = new Set();
+  sLabs.forEach((d,i)=>{
+    if(i===0) return;
+    if(d.slice(0,4)!==sLabs[i-1].slice(0,4)) yearBoundarySet.add(i);
   });
 
-  // Valuation table
-  const table=document.getElementById('valTable');
-  const curr=M_L[M_L.length-1];
-  const currEB=EB_D[EB_D.length-1], currEV=EV_D[EV_D.length-1];
-  const premEB=pctDelta(currEB,MED_EB), premEV=pctDelta(currEV,MED_EV);
-  table.innerHTML=`
-    <thead>
-      <tr><th>Metric</th><th>Current (${curr})</th><th>5Y Median</th><th>Prem/(Disc)</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>EV/EBITDA</td><td class="val-curr">${currEB.toFixed(1)}x</td><td>${MED_EB.toFixed(1)}x</td><td class="${premEB>=0?'pos':'neg'}">${fmtPct(premEB)}</td></tr>
-      <tr><td>EV/Sales</td><td class="val-curr">${currEV.toFixed(1)}x</td><td>${MED_EV.toFixed(1)}x</td><td class="${premEV>=0?'pos':'neg'}">${fmtPct(premEV)}</td></tr>
-    </tbody>`;
+  makeChart('chartHousing', {
+    type:'line', data:{labels:sLabs, datasets:[{
+      label:cfg.label, data:sVals,
+      borderColor:cfg.color, backgroundColor:cfg.color+'22',
+      borderWidth:2, pointRadius:0, tension:0.35, fill:true, spanGaps:true
+    }]},
+    options:{
+      responsive:true, maintainAspectRatio:false, animation:{duration:200},
+      plugins:{legend:{display:false}, tooltip:{...TOOLTIP,callbacks:{
+        title:i=>fmtDateLong(i[0].label),
+        label:i=>` ${cfg.label}: ${i.raw!=null?fmtNum(i.raw):''}K`
+      }}},
+      scales:{
+        x:{ticks:{...tickCfg,callback:tickCb,maxRotation:0,color:'#667085',font:{size:9}},
+           grid:{color:(ctx)=>yearBoundarySet.has(ctx.index)?'rgba(0,0,0,0.06)':'transparent',lineWidth:1,drawTicks:false},
+           border:{display:false}},
+        y:{ticks:{color:'#667085',font:{size:9}},grid:{color:'rgba(0,0,0,0.04)'},border:{display:false},
+           title:{display:true,text:'Thousands SAAR',color:'#667085',font:{size:10}}}
+      }
+    }
+  });
 }
 
-// ═══════════════════════════════════════════════════════
-// MAIN LOAD
-// ═══════════════════════════════════════════════════════
-async function loadDemand(){
-  try{
-    const resp = await fetch('data.json');
-    if(!resp.ok) throw new Error('data.json not found');
-    gData = await resp.json();
+function buildHousingGroupedTable() {
+  const series = ['total','single','multi'];
+  const stats = {};
+  series.forEach(s=>{
+    const vals = _housing[s].map(x=>Number(x.value));
+    const last  = vals[vals.length-1];
+    const yoy   = yoyPct(vals, 13);
+    const avg12 = avg(vals.slice(-12));
+    const avgPrior12 = vals.length>=25 ? avg(vals.slice(-25,-13)) : null;
+    const avgYoy = avgPrior12 ? ((avg12-avgPrior12)/avgPrior12*100) : null;
+    stats[s] = {last, yoy, avg12, avgYoy};
+  });
+  const tbody = document.getElementById('housing-grouped-body');
+  const rows = [
+    {label:'Latest',   vals:series.map(s=>({num:`${fmtNum(stats[s].last)}K`, yoy:fmtPct(stats[s].yoy), dir:dirPct(stats[s].yoy)}))},
+    {label:'12M Avg.', vals:series.map(s=>({num:`${fmtNum(stats[s].avg12)}K`, yoy:fmtPct(stats[s].avgYoy), dir:dirPct(stats[s].avgYoy)}))},
+  ];
+  tbody.innerHTML = rows.map(r=>`<tr>
+    <td>${r.label}</td>
+    ${r.vals.map(v=>`<td style="text-align:right;">${v.num}</td><td class="${v.dir==='pos'?'delta-pos':v.dir==='neg'?'delta-neg':'delta-neu'}" style="text-align:right;">${v.yoy}</td>`).join('')}
+  </tr>`).join('');
+  const tLast=stats.total.last||0, sLast=stats.single.last||0, mLast=stats.multi.last||0;
+  const sPct=tLast>0?(sLast/tLast*100).toFixed(1):'—';
+  const mPct=tLast>0?(mLast/tLast*100).toFixed(1):'—';
+  document.getElementById('housing-mix').innerHTML =
+    `<span style="color:var(--text-muted);">Latest mix (of total ${fmtNum(tLast)}K): </span>
+     <span style="color:#2e9e6b;font-weight:600;">Single-Family ${sPct}%</span> &nbsp;·&nbsp;
+     <span style="color:#c4820a;font-weight:600;">5+ Multifamily ${mPct}%</span>`;
+  const totYoy=stats.total.yoy;
+  const dir=dirPct(totYoy,2);
+  setBadge('housing-badge', dir==='pos'?'green':dir==='neg'?'red':'amber',
+    `Total: ${fmtNum(stats.total.last)}K SAAR · YoY: ${fmtPct(totYoy)} · Single-Fam: ${fmtNum(stats.single.last)}K · Multifam 5+: ${fmtNum(stats.multi.last)}K`);
+}
 
-    // Update header date
-    if(gData.last_updated){
-      document.getElementById('lastUpdated').textContent='Updated: '+gData.last_updated;
+function setHousingSeries(s) {
+  _housingSeries = s;
+  document.querySelectorAll('.htog').forEach(b=>b.classList.toggle('active',b.dataset.series===s));
+  const data = _housing[s];
+  const allDates = data.map(x=>x.date);
+  initSlider('housing-slider','housing-slider-start','housing-slider-end', allDates, idx=>{
+    _housingSliderIdx = idx;
+    renderHousing(idx);
+  });
+  _housingSliderIdx = 0;
+  renderHousing(0);
+}
+
+function initHousing(d) {
+  _housing.total  = d.housing_total  || d.housing_starts || [];
+  _housing.single = d.housing_single || [];
+  _housing.multi  = d.housing_multi  || [];
+  if(!_housing.total.length){ setBadge('housing-badge','neutral','No Housing data'); return; }
+  renderHousing(0);
+  buildHousingGroupedTable();
+  const allDates = _housing[_housingSeries].map(x=>x.date);
+  initSlider('housing-slider','housing-slider-start','housing-slider-end', allDates, idx=>{
+    _housingSliderIdx = idx;
+    renderHousing(idx);
+  });
+}
+
+// ══════════════════════════════════════════════════════════════════════════
+// FOOD SERVICES
+// ══════════════════════════════════════════════════════════════════════════
+let _foodData = { sales:[], emp:[] };
+
+function avg12Yoy(vals) {
+  if(vals.length<25) return null;
+  const curr12  = avg(vals.slice(-12));
+  const prior12 = avg(vals.slice(-25,-13));
+  return ((curr12-prior12)/prior12*100);
+}
+
+function renderFoodChart(startIdx) {
+  const sData = _foodData.sales;
+  const eData = _foodData.emp;
+  if(!sData.length) return;
+  const allLabs = sData.map(x=>x.date);
+  const sVals   = sData.map(x=>Number(x.value));
+  const eVals   = eData.map(x=>Number(x.value));
+  const tickCb  = makeXTickCallback(allLabs.slice(startIdx));
+  const tickCfg = makeXTicks(allLabs.slice(startIdx));
+
+  makeChart('chartRetail', {
+    type:'line',
+    data:{
+      labels: allLabs.slice(startIdx),
+      datasets:[
+        {label:'Retail Sales ($M)', data:sVals.slice(startIdx),
+         borderColor:'#1a7a6e', backgroundColor:'#1a7a6e18',
+         borderWidth:2, pointRadius:0, tension:0.35, fill:false, yAxisID:'ySales'},
+        ...(eVals.length?[{label:'Employment (K)', data:eVals.slice(startIdx),
+         borderColor:'#6B4EAF', backgroundColor:'#6B4EAF18',
+         borderWidth:2, pointRadius:0, tension:0.35, fill:false, yAxisID:'yEmp'}]:[])
+      ]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false, animation:{duration:500},
+      plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{
+        title:i=>fmtDateLong(i[0].label),
+        label:c=>c.dataset.yAxisID==='ySales'?`Sales: $${fmtNum(c.parsed.y)}M`:`Employment: ${fmtNum(c.parsed.y)}K`
+      }}},
+      scales:{
+        x:{grid:{color:'rgba(0,0,0,0.04)',drawTicks:false}, ticks:{...tickCfg,callback:tickCb,maxRotation:0,color:'#98a2b3',font:{size:9}}, border:{display:false}},
+        ySales:{type:'linear',position:'left',grid:{color:'rgba(0,0,0,0.04)',drawTicks:false},
+          ticks:{maxTicksLimit:5,color:'#1a7a6e',font:{size:9},callback:v=>`$${fmtNum(v/1000,0)}B`}, border:{display:false}},
+        yEmp:{type:'linear',position:'right',grid:{drawOnChartArea:false},
+          ticks:{maxTicksLimit:5,color:'#6B4EAF',font:{size:9},callback:v=>`${fmtNum(v)}K`}, border:{display:false}}
+      }
     }
+  });
+}
 
-    // Housing data
-    housingData.total  = gData.housing_total  || [];
-    housingData.single = gData.housing_single || [];
-    housingData.multi  = gData.housing_multi  || [];
+function buildFoodGroupedTable() {
+  const sVals = _foodData.sales.map(x=>Number(x.value));
+  const eVals = _foodData.emp.map(x=>Number(x.value));
+  const sDate = _foodData.sales[_foodData.sales.length-1]?.date;
+  const sLast = sVals[sVals.length-1];
+  const sYoy  = yoyPct(sVals,13);
+  const sAvg12= avg(sVals.slice(-12));
+  const sAvgYoy=avg12Yoy(sVals);
+  const eLast = eVals.length ? eVals[eVals.length-1] : null;
+  const eYoy  = eVals.length ? yoyPct(eVals,13) : null;
+  const eAvg12= eVals.length ? avg(eVals.slice(-12)) : null;
+  const eAvgYoy=eVals.length?avg12Yoy(eVals):null;
 
-    // Food data
-    foodData.sales      = gData.restaurant_sales || [];
-    foodData.employment = gData.food_employment  || [];
+  function arrowPct(v){if(v===null||isNaN(v))return'—';return`${v>=0?'↑':'↓'} ${Math.abs(v).toFixed(1)}%`;}
+  function dirV(v){return v===null?'neu':dirPct(v,0);}
 
-    // Init components
+  const rows=[
+    {label:`Latest (${fmtMmmYY(sDate)})`,
+     sNum:`$${fmtNum(sLast/1000,1)}B`, sYoy:arrowPct(sYoy), sDir:dirV(sYoy),
+     eNum:eLast?`${fmtNum(eLast)}K`:'—', eYoy:arrowPct(eYoy), eDir:dirV(eYoy)},
+    {label:'12M Avg.',
+     sNum:`$${fmtNum(sAvg12/1000,1)}B`, sYoy:arrowPct(sAvgYoy), sDir:dirV(sAvgYoy),
+     eNum:eAvg12?`${fmtNum(eAvg12)}K`:'—', eYoy:arrowPct(eAvgYoy), eDir:dirV(eAvgYoy)},
+  ];
+  document.getElementById('food-grouped-body').innerHTML = rows.map(r=>`<tr>
+    <td>${r.label}</td>
+    <td style="text-align:right;">${r.sNum}</td><td class="${r.sDir==='pos'?'delta-pos':r.sDir==='neg'?'delta-neg':'delta-neu'}" style="text-align:right;">${r.sYoy}</td>
+    <td style="text-align:right;">${r.eNum}</td><td class="${r.eDir==='pos'?'delta-pos':r.eDir==='neg'?'delta-neg':'delta-neu'}" style="text-align:right;">${r.eYoy}</td>
+  </tr>`).join('');
+
+  const sDir=dirV(sYoy);
+  setBadge('retail-badge',sDir==='pos'?'green':sDir==='neg'?'red':'amber',
+    `${sYoy>=0?'▲':'▼'} Sales: $${fmtNum(sLast/1000,1)}B · YoY: ${arrowPct(sYoy)}  ·  Employment: ${fmtNum(eLast)}K · YoY: ${arrowPct(eYoy)}`);
+}
+
+function initFoodServices(d) {
+  const rsKey = d.restaurant_sales?'restaurant_sales':d.retail_sales?'retail_sales':null;
+  if(!rsKey){ setBadge('retail-badge','neutral','No Food Services data'); return; }
+  _foodData.sales = d[rsKey];
+  _foodData.emp   = d.food_employment || [];
+  renderFoodChart(0);
+  buildFoodGroupedTable();
+  const allDates = _foodData.sales.map(x=>x.date);
+  initSlider('retail-slider','retail-slider-start','retail-slider-end', allDates, idx=>renderFoodChart(idx));
+}
+
+// ══════════════════════════════════════════════════════════════════════════
+// MAIN LOADER
+// ══════════════════════════════════════════════════════════════════════════
+async function loadDemand() {
+  try {
+    const res = await fetch('data.json');
+    if(!res.ok) throw new Error('data.json not found');
+    const d = await res.json();
+    gData = d;
+    if(d.last_updated) document.getElementById('lastUpdated').textContent = 'Updated: '+d.last_updated;
+    // Init tracker (needs gData set)
     initTracker();
-    initHousing();
-    initFoodServices();
-
-  } catch(err){
-    console.warn('data.json unavailable, running in demo mode:', err);
-    // Demo mode: show static structure without live data
+    // Housing & Food
+    initHousing(d);
+    initFoodServices(d);
+  } catch(e) {
+    console.warn('data.json unavailable:', e.message);
     gData = {
-      google_trends: {
-        composite:[],
-        normalized:{},
-        'pest control near me':[],
-        'exterminator near me':[],
-        'termite treatment':[],
-        'bed bug exterminator':[],
-        'rodent control':[],
-        'mosquito control':[],
-        'wildlife removal':[],
-      },
+      google_trends:{composite:[],normalized:{}},
       housing_total:[], housing_single:[], housing_multi:[],
       restaurant_sales:[], food_employment:[],
+      brand_trends:{}
     };
-    document.getElementById('lastUpdated').textContent='Demo Mode';
+    document.getElementById('lastUpdated').textContent = 'Demo Mode — deploy to GitHub Pages for live data';
     initTracker();
-    initHousing();
-    initFoodServices();
+    setBadge('housing-badge','neutral','Deploy to GitHub Pages to load live FRED Housing Starts data');
+    setBadge('retail-badge','neutral','Deploy to GitHub Pages to load live FRED Food Services data');
   }
 }
 
-// Init static components
-buildValChart();
-initBLS();
 loadDemand();
 </script>
 </body>
