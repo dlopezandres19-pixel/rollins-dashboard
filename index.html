@@ -127,6 +127,12 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 .legend-item{display:flex;align-items:center;gap:5px;font-size:10px;color:var(--text-secondary);}
 .legend-swatch{width:20px;height:3px;border-radius:2px;flex-shrink:0;}
 
+/* ── LABOR ZOOM BUTTONS ── */
+.lzoom{background:#fff;border:none;border-right:1px solid var(--border);padding:4px 10px;font-size:10px;font-weight:600;color:var(--text-muted);cursor:pointer;transition:background .15s,color .15s;}
+.lzoom:last-child{border-right:none;}
+.lzoom:hover{background:#f0f4f8;color:var(--accent);}
+.lzoom.active{background:var(--accent);color:#fff;}
+
 /* ── NOTE BOX ── */
 .note-box{background:#f5f7fa;border-left:3px solid var(--accent-light);border-radius:0 6px 6px 0;padding:9px 13px;font-size:11px;color:var(--text-secondary);line-height:1.55;margin-top:10px;}
 
@@ -217,7 +223,7 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
     All <em>Composite (Base 100)</em> series are normalized to a common mean of 100 and are directly comparable across groups (Market, Rollins, Rentokil, Anticimex, Aptive, Massey).
     Aptive and Massey composites each rest on a single keyword, vs. 6–8 keywords for the larger groups — interpret with that in mind.
     <br>The <em>raw Google index</em> options show the un-normalized search value as returned by Google Trends; these are comparable with each other (raw vs. raw) but <strong>not</strong> with composite series.
-    Rollins growth overlays are available from Q4 2021 onward for Organic and Residential metrics, and from 2015 for total Revenue; shaded bands are interpolated between quarterly reporting dates.
+    Rollins growth overlays are available from Q4 2021 onward for Organic and Residential metrics, and from 2015 for total Revenue. <strong>Filled dots (●) mark actual reported quarterly figures</strong>; the shaded band between dots is linearly interpolated for visual continuity only and does not represent reported data.
   </div>
 </div>
 
@@ -331,21 +337,34 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
   <div class="section-sub">BLS CES6056171002 / CES6056171003 · Monthly SA · Exterminating &amp; Pest Control Services (NAICS 56171) · Jan 2016 – Jul 2026</div>
 </div>
 
+<!-- Labor zoom shortcuts + shared slider -->
+<div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap;">
+  <span style="font-size:10px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;">View:</span>
+  <div id="laborZoomBtns" style="display:flex;border:1px solid var(--border);border-radius:6px;overflow:hidden;">
+    <button class="lzoom" data-m="12">L1Y</button>
+    <button class="lzoom active" data-m="24">L2Y</button>
+    <button class="lzoom" data-m="36">L3Y</button>
+    <button class="lzoom" data-m="60">L5Y</button>
+    <button class="lzoom" data-m="0">Full</button>
+  </div>
+  <div style="display:flex;align-items:center;gap:8px;flex:1;min-width:200px;">
+    <span class="slider-label" id="labor-slider-start">—</span>
+    <input type="range" id="labor-slider" min="0" max="100" value="0" class="slider" style="flex:1;">
+    <span class="slider-label" id="labor-slider-end">—</span>
+  </div>
+</div>
+
 <div class="grid-3">
 
   <!-- Avg Weekly Hours -->
   <div class="panel">
     <div class="panel-title">Avg Weekly Hours</div>
     <div class="panel-sub">BLS CES6056171002 · SA · Proxy for operational demand &amp; field activity</div>
-    <div class="sig-badge green">▲ Demand signal — hours above prior year</div>
+    <div id="badge-hours" class="sig-badge green">▲ Demand signal — hours above prior year</div>
     <div class="chart-wrap"><canvas id="chartHours"></canvas></div>
-    <table class="mini-table">
-      <thead><tr><th>Period</th><th>Avg hrs/wk</th><th>vs prior</th></tr></thead>
-      <tbody>
-        <tr><td>LTM (Aug 25–Jul 26)</td><td>38.3 h</td><td class="delta-pos">+3.7% YoY</td></tr>
-        <tr><td>LTM−1 (Aug 24–Jul 25)</td><td>36.9 h</td><td class="delta-neu">—</td></tr>
-        <tr><td>Latest (Jul 2026)</td><td>38.4 h</td><td class="delta-pos">↑ vs 36.2h Jul'25</td></tr>
-      </tbody>
+    <table class="mini-table" id="tbl-hours">
+      <thead><tr><th>Period</th><th>Avg hrs/wk</th><th>Prior period</th><th>Δ %</th></tr></thead>
+      <tbody id="tbl-hours-body"><tr><td colspan="4" style="text-align:center;color:var(--text-muted);">—</td></tr></tbody>
     </table>
     <div class="notes">
       <div class="note">Hours ↑ before headcount grows — leading indicator of revenue acceleration.</div>
@@ -357,15 +376,11 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
   <div class="panel">
     <div class="panel-title">Avg Hourly Earnings</div>
     <div class="panel-sub">BLS CES6056171003 · SA · Proxy for labor cost pressure on margins</div>
-    <div class="sig-badge amber">⚠ Wage inflation contained but watch pricing power</div>
+    <div id="badge-earn" class="sig-badge amber">⚠ Wage inflation contained but watch pricing power</div>
     <div class="chart-wrap"><canvas id="chartEarnings"></canvas></div>
-    <table class="mini-table">
-      <thead><tr><th>Period</th><th>$/hr</th><th>vs prior</th></tr></thead>
-      <tbody>
-        <tr><td>LTM (Aug 25–Jul 26)</td><td>$28.71</td><td class="delta-neu">+0.7% YoY</td></tr>
-        <tr><td>LTM−1 (Aug 24–Jul 25)</td><td>$28.50</td><td class="delta-neu">—</td></tr>
-        <tr><td>Latest (Jul 2026)</td><td>$28.87</td><td class="delta-neu">+1.0% vs Jul'25</td></tr>
-      </tbody>
+    <table class="mini-table" id="tbl-earn">
+      <thead><tr><th>Period</th><th>$/hr</th><th>Prior period</th><th>Δ %</th></tr></thead>
+      <tbody id="tbl-earn-body"><tr><td colspan="4" style="text-align:center;color:var(--text-muted);">—</td></tr></tbody>
     </table>
     <div class="notes">
       <div class="note">Wage growth at +0.7% YoY — far below 2020–22 COVID surge (+12% peak).</div>
@@ -377,18 +392,14 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
   <div class="panel">
     <div class="panel-title">Unit Labor Cost (Hours × Earnings)</div>
     <div class="panel-sub">$/week per employee · Combined margin pressure indicator</div>
-    <div class="sig-badge red">▲ ULC +4.5% YoY — hours driving cost up, not wages</div>
+    <div id="badge-ulc" class="sig-badge red">▲ ULC rising — hours driving cost up</div>
     <div class="chart-wrap"><canvas id="chartULC"></canvas></div>
-    <table class="mini-table">
-      <thead><tr><th>Period</th><th>$/wk per emp.</th><th>vs prior</th></tr></thead>
-      <tbody>
-        <tr><td>LTM (Aug 25–Jul 26)</td><td>$1,099</td><td class="delta-neg">+4.5% YoY</td></tr>
-        <tr><td>LTM−1 (Aug 24–Jul 25)</td><td>$1,052</td><td class="delta-neu">—</td></tr>
-        <tr><td>Latest (Jul 2026)</td><td>$1,109</td><td class="delta-neg">+5.6% vs Jul'25</td></tr>
-      </tbody>
+    <table class="mini-table" id="tbl-ulc">
+      <thead><tr><th>Period</th><th>$/wk per emp.</th><th>Prior period</th><th>Δ %</th></tr></thead>
+      <tbody id="tbl-ulc-body"><tr><td colspan="4" style="text-align:center;color:var(--text-muted);">—</td></tr></tbody>
     </table>
     <div class="notes">
-      <div class="note">ULC growth (+4.5%) outpaces wage growth (+0.7%) — volume driver, not inflation.</div>
+      <div class="note">ULC growth outpaces wage growth — volume driver, not inflation.</div>
       <div class="note">More hours per worker = more field activity = cost is demand-driven (benign). Monitor if earnings start rising faster.</div>
     </div>
   </div>
@@ -494,24 +505,156 @@ const H_D = [37.3,37.8,38.1,38.1,38.4,38.6,38.7,39.0,37.8,37.1,37.4,37.4,37.7,37
 const E_D = [22.60,22.62,22.70,22.75,22.97,23.13,23.41,23.03,22.86,22.93,22.78,22.62,22.40,22.31,22.11,22.55,22.14,21.91,22.24,22.11,22.32,22.01,21.92,22.17,22.32,22.42,22.57,22.28,22.47,22.39,22.18,22.35,22.46,22.04,22.36,22.26,22.01,21.96,22.17,21.95,21.87,22.30,21.98,22.30,22.24,22.36,23.15,22.74,22.87,23.25,23.38,23.74,24.52,24.86,25.11,25.35,25.13,25.76,25.64,25.50,26.32,26.41,26.16,26.58,26.91,25.93,26.21,26.29,26.42,26.98,27.13,27.41,27.98,28.06,27.01,27.47,27.69,28.03,28.44,27.84,28.34,28.18,27.70,27.88,27.33,27.26,27.40,27.85,27.77,27.83,28.22,27.60,28.43,27.88,28.39,28.21,27.91,28.08,28.50,28.25,28.59,28.42,28.36,28.77,28.53,28.16,28.33,28.26,28.61,28.83,28.68,28.83,28.60,28.53,27.84,28.93,28.67,29.40,29.26,28.69,28.36,28.05,28.04,28.49,28.78,28.99,28.87];
 const U_D = H_D.map((h,i) => Math.round(h * E_D[i] * 100)/100);
 
-// ── BLS CHARTS ─────────────────────────────────────────────────────────────
-new Chart(document.getElementById('chartHours'), {
-  type:'line',
-  data:{labels:BLS_L, datasets:[lineDs('Avg Weekly Hours', H_D, '#2e6da4')]},
-  options:{...baseOpts('h/wk', 34), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`${c.parsed.y.toFixed(1)} hrs/wk`}}}}
-});
+// ══════════════════════════════════════════════════════════════════════════
+// LABOR — DYNAMIC CHARTS + TABLES
+// ══════════════════════════════════════════════════════════════════════════
+let _laborSliderIdx = 0;
 
-new Chart(document.getElementById('chartEarnings'), {
-  type:'line',
-  data:{labels:BLS_L, datasets:[lineDs('Hourly Earnings', E_D, '#c4820a')]},
-  options:{...baseOpts('$/hr', 20), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`$${c.parsed.y.toFixed(2)}/hr`}}}}
-});
+// Parse BLS_L labels into sortable dates (format "Mon YYYY")
+const BLS_MO = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function blsLabelToDate(lbl) {
+  const [mon, yr] = lbl.split(' ');
+  return new Date(+yr, BLS_MO.indexOf(mon), 1);
+}
 
-new Chart(document.getElementById('chartULC'), {
-  type:'line',
-  data:{labels:BLS_L, datasets:[lineDs('Unit Labor Cost', U_D, '#c0392b')]},
-  options:{...baseOpts('$/wk', 780), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`$${c.parsed.y.toFixed(0)}/wk`}}}}
-});
+// fmtMmmYY for BLS labels ("Jul 2026" → "Jul-26")
+function fmtBlsMmmYY(lbl) {
+  if(!lbl) return '—';
+  const [mon, yr] = lbl.split(' ');
+  return mon + '-' + yr.slice(2);
+}
+
+// Avg of a data array slice
+function blsAvg(arr, from, to) {
+  // from/to are inclusive indices
+  const slice = arr.slice(from, to+1).filter(v=>v!=null&&isFinite(v));
+  if(!slice.length) return null;
+  return slice.reduce((a,b)=>a+b,0)/slice.length;
+}
+
+// Build labor table rows
+// Periods: Last Value, LTM(12), L2Y(24), L3Y(36), Full
+function buildLaborTable(bodyId, data, fmt, latestLabel) {
+  const n = data.length;
+  if(!n) return;
+  const N = BLS_L.length;
+
+  const rows = [
+    { label: `Last Value (${BLS_L[N-1]})`, months: 1 },
+    { label: 'LTM (12 mo)',                months: 12 },
+    { label: 'L2Y (24 mo)',                months: 24 },
+    { label: 'L3Y (36 mo)',                months: 36 },
+    { label: `Full (${BLS_L[0]}–${BLS_L[N-1]})`, months: 0 },
+  ];
+
+  const tbody = document.getElementById(bodyId);
+  tbody.innerHTML = rows.map(row => {
+    let curr, prior, priorLabel;
+
+    if(row.months === 1) {
+      // Last value vs same month 1 year ago
+      curr = data[N-1];
+      const pyIdx = N - 13; // 12 months back
+      prior = pyIdx >= 0 ? data[pyIdx] : null;
+      priorLabel = pyIdx >= 0 ? BLS_L[pyIdx] : null;
+    } else if(row.months === 0) {
+      // Full series
+      curr = blsAvg(data, 0, N-1);
+      prior = null;
+      priorLabel = null;
+    } else {
+      const m = row.months;
+      const currFrom = Math.max(0, N - m);
+      const currTo   = N - 1;
+      const priorFrom = Math.max(0, N - 2*m);
+      const priorTo   = N - m - 1;
+      curr  = blsAvg(data, currFrom, currTo);
+      prior = priorTo >= priorFrom && priorFrom >= 0 ? blsAvg(data, priorFrom, priorTo) : null;
+      priorLabel = (prior != null) ? `${BLS_L[priorFrom]}–${BLS_L[Math.min(priorTo, N-1)]}` : null;
+    }
+
+    const pct = (curr != null && prior != null && prior !== 0)
+      ? (curr - prior) / prior * 100 : null;
+    const pctCls = pct == null ? '' : pct > 0.5 ? 'delta-pos' : pct < -0.5 ? 'delta-neg' : 'delta-neu';
+    const pctStr = pct == null ? '—' : `${pct>=0?'+':''}${pct.toFixed(1)}%`;
+    const priorStr = prior != null ? fmt(prior) : '—';
+    const priorPeriod = priorLabel ? `<span style="font-size:9px;color:var(--text-muted);display:block;">${priorLabel}</span>${priorStr}` : priorStr;
+
+    return `<tr>
+      <td>${row.label}</td>
+      <td style="font-weight:600;">${curr!=null?fmt(curr):'—'}</td>
+      <td>${priorPeriod}</td>
+      <td class="${pctCls}">${pctStr}</td>
+    </tr>`;
+  }).join('');
+}
+
+function renderLaborCharts(startIdx) {
+  const labels = BLS_L.slice(startIdx);
+  const hd  = H_D.slice(startIdx);
+  const ed  = E_D.slice(startIdx);
+  const ud  = U_D.slice(startIdx);
+
+  makeChart('chartHours', {
+    type:'line',
+    data:{labels, datasets:[lineDs('Avg Weekly Hours', hd, '#2e6da4')]},
+    options:{...baseOpts('h/wk', 34), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`${c.parsed.y.toFixed(1)} hrs/wk`}}}}
+  });
+  makeChart('chartEarnings', {
+    type:'line',
+    data:{labels, datasets:[lineDs('Hourly Earnings', ed, '#c4820a')]},
+    options:{...baseOpts('$/hr', 20), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`$${c.parsed.y.toFixed(2)}/hr`}}}}
+  });
+  makeChart('chartULC', {
+    type:'line',
+    data:{labels, datasets:[lineDs('Unit Labor Cost', ud, '#c0392b')]},
+    options:{...baseOpts('$/wk', 780), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`$${c.parsed.y.toFixed(0)}/wk`}}}}
+  });
+}
+
+function initLaborSection() {
+  const N = BLS_L.length;
+
+  // Init slider
+  const sl = document.getElementById('labor-slider');
+  sl.min = 0; sl.max = N-1; sl.value = 0;
+  document.getElementById('labor-slider-start').textContent = fmtBlsMmmYY(BLS_L[0]);
+  document.getElementById('labor-slider-end').textContent   = fmtBlsMmmYY(BLS_L[N-1]);
+  sl.addEventListener('input', () => {
+    _laborSliderIdx = +sl.value;
+    document.getElementById('labor-slider-start').textContent = fmtBlsMmmYY(BLS_L[_laborSliderIdx]);
+    renderLaborCharts(_laborSliderIdx);
+    // tables always use full series (fixed)
+  });
+
+  // Zoom shortcuts
+  document.querySelectorAll('.lzoom').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.lzoom').forEach(b=>b.classList.remove('active'));
+      this.classList.add('active');
+      const m = +this.dataset.m;
+      const idx = m === 0 ? 0 : Math.max(0, N - m);
+      sl.value = idx;
+      _laborSliderIdx = idx;
+      document.getElementById('labor-slider-start').textContent = fmtBlsMmmYY(BLS_L[idx]);
+      renderLaborCharts(idx);
+    });
+  });
+
+  // Default: L2Y
+  const defaultIdx = Math.max(0, N - 24);
+  sl.value = defaultIdx;
+  _laborSliderIdx = defaultIdx;
+  document.getElementById('labor-slider-start').textContent = fmtBlsMmmYY(BLS_L[defaultIdx]);
+  renderLaborCharts(defaultIdx);
+
+  // Tables always use full series for period calculations
+  buildLaborTable('tbl-hours-body', H_D, v=>`${v.toFixed(1)} h`);
+  buildLaborTable('tbl-earn-body',  E_D, v=>`$${v.toFixed(2)}`);
+  buildLaborTable('tbl-ulc-body',   U_D, v=>`$${Math.round(v).toLocaleString('en-US')}`);
+}
+
+initLaborSection();
 
 // ── MULTIPLES DATA (real — 201 months Jan 2010–Sep 2026) ──────────────────
 const M_L = ["Jan 2010","Feb 2010","Mar 2010","Apr 2010","May 2010","Jun 2010","Jul 2010","Aug 2010","Sep 2010","Oct 2010","Nov 2010","Dec 2010","Jan 2011","Feb 2011","Mar 2011","Apr 2011","May 2011","Jun 2011","Jul 2011","Aug 2011","Sep 2011","Oct 2011","Nov 2011","Dec 2011","Jan 2012","Feb 2012","Mar 2012","Apr 2012","May 2012","Jun 2012","Jul 2012","Aug 2012","Sep 2012","Oct 2012","Nov 2012","Dec 2012","Jan 2013","Feb 2013","Mar 2013","Apr 2013","May 2013","Jun 2013","Jul 2013","Aug 2013","Sep 2013","Oct 2013","Nov 2013","Dec 2013","Jan 2014","Feb 2014","Mar 2014","Apr 2014","May 2014","Jun 2014","Jul 2014","Aug 2014","Sep 2014","Oct 2014","Nov 2014","Dec 2014","Jan 2015","Feb 2015","Mar 2015","Apr 2015","May 2015","Jun 2015","Jul 2015","Aug 2015","Sep 2015","Oct 2015","Nov 2015","Dec 2015","Jan 2016","Feb 2016","Mar 2016","Apr 2016","May 2016","Jun 2016","Jul 2016","Aug 2016","Sep 2016","Oct 2016","Nov 2016","Dec 2016","Jan 2017","Feb 2017","Mar 2017","Apr 2017","May 2017","Jun 2017","Jul 2017","Aug 2017","Sep 2017","Oct 2017","Nov 2017","Dec 2017","Jan 2018","Feb 2018","Mar 2018","Apr 2018","May 2018","Jun 2018","Jul 2018","Aug 2018","Sep 2018","Oct 2018","Nov 2018","Dec 2018","Jan 2019","Feb 2019","Mar 2019","Apr 2019","May 2019","Jun 2019","Jul 2019","Aug 2019","Sep 2019","Oct 2019","Nov 2019","Dec 2019","Jan 2020","Feb 2020","Mar 2020","Apr 2020","May 2020","Jun 2020","Jul 2020","Aug 2020","Sep 2020","Oct 2020","Nov 2020","Dec 2020","Jan 2021","Feb 2021","Mar 2021","Apr 2021","May 2021","Jun 2021","Jul 2021","Aug 2021","Sep 2021","Oct 2021","Nov 2021","Dec 2021","Jan 2022","Feb 2022","Mar 2022","Apr 2022","May 2022","Jun 2022","Jul 2022","Aug 2022","Sep 2022","Oct 2022","Nov 2022","Dec 2022","Jan 2023","Feb 2023","Mar 2023","Apr 2023","May 2023","Jun 2023","Jul 2023","Aug 2023","Sep 2023","Oct 2023","Nov 2023","Dec 2023","Jan 2024","Feb 2024","Mar 2024","Apr 2024","May 2024","Jun 2024","Jul 2024","Aug 2024","Sep 2024","Oct 2024","Nov 2024","Dec 2024","Jan 2025","Feb 2025","Mar 2025","Apr 2025","May 2025","Jun 2025","Jul 2025","Aug 2025","Sep 2025","Oct 2025","Nov 2025","Dec 2025","Jan 2026","Feb 2026","Mar 2026","Apr 2026","May 2026","Jun 2026","Jul 2026","Aug 2026","Sep 2026"];
@@ -953,9 +1096,16 @@ function renderTracker() {
   });
 
   // Growth series (right axis) — LVMH-style shaded area with interpolation
+  // Build a Set of real quarterly date strings (YYYY-MM-DD) for dot rendering
   GROWTH_SERIES.forEach(gs=>{
     if(!trackerState.growth[gs.id]) return;
+    const realDates = new Set(gs.data.map(d=>d.date));
     const interpolated = interpolateQuarterly(visibleDates, gs.data);
+
+    // Per-point radius: dot only on real quarterly dates, 0 elsewhere
+    const ptRadius = visibleDates.map(d => realDates.has(d) ? 4 : 0);
+    const ptHover  = visibleDates.map(d => realDates.has(d) ? 6 : 4);
+
     datasets.push({
       label: gs.label,
       data: interpolated,
@@ -963,13 +1113,17 @@ function renderTracker() {
       backgroundColor: gs.bgColor,
       borderWidth: 1.5,
       borderDash: [],
-      pointRadius: 0,
+      pointRadius: ptRadius,
+      pointHoverRadius: ptHover,
+      pointBackgroundColor: gs.color,
+      pointBorderColor: '#fff',
+      pointBorderWidth: 1.5,
       tension: 0.4,
-      fill: 'origin',  // fill to y=0 (LVMH-style shaded area)
+      fill: 'origin',
       spanGaps: true,
       yAxisID: 'yGrowth',
       _type: 'growth',
-      order: 10,  // draw behind search lines
+      order: 10,
     });
     activeLegend.push({label:gs.label, color:gs.color, shaded:true, type:'growth'});
   });
@@ -1049,10 +1203,13 @@ function renderTracker() {
   legEl.innerHTML = activeLegend.map(l=>`
     <div class="legend-item">
       ${l.shaded
-        ? `<div style="width:20px;height:10px;border-radius:2px;border:1.5px solid ${l.color};background:${l.color}22;flex-shrink:0;"></div>`
+        ? `<div style="display:flex;align-items:center;gap:3px;flex-shrink:0;">
+             <div style="width:16px;height:8px;border-radius:2px;border:1.5px solid ${l.color};background:${l.color}22;"></div>
+             <div style="width:7px;height:7px;border-radius:50%;background:${l.color};border:1.5px solid #fff;box-shadow:0 0 0 1px ${l.color};"></div>
+           </div>`
         : `<div class="legend-swatch" style="border-top:3px solid ${l.color};"></div>`
       }
-      <span>${l.label}${l.type==='growth'?' (%, right axis)':''}</span>
+      <span>${l.label}${l.type==='growth'?' (%, right axis · ● = reported)':''}</span>
     </div>`).join('');
 
   updateTrackerKPI(visibleDates);
