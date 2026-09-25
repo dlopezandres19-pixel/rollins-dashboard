@@ -539,51 +539,63 @@ function buildLaborTable(bodyId, data, fmt, latestLabel) {
   if(!n) return;
   const N = BLS_L.length;
 
-  const rows = [
-    { label: `Last Value (${BLS_L[N-1]})`, months: 1 },
-    { label: 'LTM (12 mo)',                months: 12 },
-    { label: 'L2Y (24 mo)',                months: 24 },
-    { label: 'L3Y (36 mo)',                months: 36 },
-    { label: `Full (${BLS_L[0]}–${BLS_L[N-1]})`, months: 0 },
-  ];
-
   const tbody = document.getElementById(bodyId);
+
+  const rows = [];
+
+  // Last Value row
+  {
+    const curr = data[N-1];
+    const pyIdx = N - 13;
+    const prior = pyIdx >= 0 ? data[pyIdx] : null;
+    const priorLabel = pyIdx >= 0 ? BLS_L[pyIdx] : null;
+    rows.push({
+      periodLabel: `Last Value`,
+      periodSub: BLS_L[N-1],
+      curr, prior, priorLabel
+    });
+  }
+
+  // LTM, L2Y, L3Y rows
+  for(const m of [12, 24, 36]) {
+    const currFrom = Math.max(0, N - m);
+    const currTo   = N - 1;
+    const priorFrom = Math.max(0, N - 2*m);
+    const priorTo   = N - m - 1;
+    const curr  = blsAvg(data, currFrom, currTo);
+    const prior = priorTo >= priorFrom && priorFrom >= 0 ? blsAvg(data, priorFrom, priorTo) : null;
+    const priorLabel = prior != null ? `${BLS_L[priorFrom]}–${BLS_L[Math.min(priorTo, N-1)]}` : null;
+    const yrs = m === 12 ? 'LTM' : `L${m/12}Y`;
+    rows.push({
+      periodLabel: yrs,
+      periodSub: `${BLS_L[currFrom]}–${BLS_L[currTo]}`,
+      curr, prior, priorLabel
+    });
+  }
+
+  // Full row
+  {
+    const curr = blsAvg(data, 0, N-1);
+    rows.push({
+      periodLabel: 'Full',
+      periodSub: `${BLS_L[0]}–${BLS_L[N-1]}`,
+      curr, prior: null, priorLabel: null
+    });
+  }
+
   tbody.innerHTML = rows.map(row => {
-    let curr, prior, priorLabel;
-
-    if(row.months === 1) {
-      // Last value vs same month 1 year ago
-      curr = data[N-1];
-      const pyIdx = N - 13; // 12 months back
-      prior = pyIdx >= 0 ? data[pyIdx] : null;
-      priorLabel = pyIdx >= 0 ? BLS_L[pyIdx] : null;
-    } else if(row.months === 0) {
-      // Full series
-      curr = blsAvg(data, 0, N-1);
-      prior = null;
-      priorLabel = null;
-    } else {
-      const m = row.months;
-      const currFrom = Math.max(0, N - m);
-      const currTo   = N - 1;
-      const priorFrom = Math.max(0, N - 2*m);
-      const priorTo   = N - m - 1;
-      curr  = blsAvg(data, currFrom, currTo);
-      prior = priorTo >= priorFrom && priorFrom >= 0 ? blsAvg(data, priorFrom, priorTo) : null;
-      priorLabel = (prior != null) ? `${BLS_L[priorFrom]}–${BLS_L[Math.min(priorTo, N-1)]}` : null;
-    }
-
+    const { periodLabel, periodSub, curr, prior, priorLabel } = row;
     const pct = (curr != null && prior != null && prior !== 0)
       ? (curr - prior) / prior * 100 : null;
     const pctCls = pct == null ? '' : pct > 0.5 ? 'delta-pos' : pct < -0.5 ? 'delta-neg' : 'delta-neu';
     const pctStr = pct == null ? '—' : `${pct>=0?'+':''}${pct.toFixed(1)}%`;
     const priorStr = prior != null ? fmt(prior) : '—';
-    const priorPeriod = priorLabel ? `<span style="font-size:9px;color:var(--text-muted);display:block;">${priorLabel}</span>${priorStr}` : priorStr;
+    const priorCell = priorStr;
 
     return `<tr>
-      <td>${row.label}</td>
+      <td>${periodLabel}<span style="font-size:9px;color:var(--text-muted);display:block;">${periodSub}</span></td>
       <td style="font-weight:600;">${curr!=null?fmt(curr):'—'}</td>
-      <td>${priorPeriod}</td>
+      <td>${priorCell}</td>
       <td class="${pctCls}">${pctStr}</td>
     </tr>`;
   }).join('');
@@ -840,8 +852,11 @@ function makeXTickCallback(labels) {
     const y = dt.getUTCFullYear();
     const first = pd(labels[0]), last = pd(labels[labels.length-1]);
     const spanYrs = (last-first)/(1000*60*60*24*365.25);
-    if(spanYrs > 4)   return m===0 ? String(y) : null;
-    if(spanYrs > 1.5) return (m===0||m===6) ? (m===0?String(y):'Jul '+String(y).slice(2)) : null;
+    const day = dt.getUTCDate();
+    const isYearStart = (m===0 && day<=7) || (m===11 && day>=29); // first week of year
+    const displayY = m===11 ? y+1 : y;
+    if(spanYrs > 4)   return isYearStart ? String(displayY) : null;
+    if(spanYrs > 1.5) return isYearStart ? String(displayY) : (m===6 ? 'Jul '+String(y).slice(2) : null);
     return m%2===0 ? ['Jan','Mar','May','Jul','Sep','Nov'][Math.floor(m/2)]+' '+String(y).slice(2) : null;
   };
 }
@@ -1096,15 +1111,24 @@ function renderTracker() {
   });
 
   // Growth series (right axis) — LVMH-style shaded area with interpolation
-  // Build a Set of real quarterly date strings (YYYY-MM-DD) for dot rendering
   GROWTH_SERIES.forEach(gs=>{
     if(!trackerState.growth[gs.id]) return;
-    const realDates = new Set(gs.data.map(d=>d.date));
     const interpolated = interpolateQuarterly(visibleDates, gs.data);
 
-    // Per-point radius: dot only on real quarterly dates, 0 elsewhere
-    const ptRadius = visibleDates.map(d => realDates.has(d) ? 4 : 0);
-    const ptHover  = visibleDates.map(d => realDates.has(d) ? 6 : 4);
+    // Mark the weekly date closest to each quarterly report date (within ±10 days)
+    const dotSet = new Set();
+    gs.data.forEach(({date}) => {
+      const qt = pd(date).getTime();
+      let best = null, bestDiff = Infinity;
+      visibleDates.forEach(d => {
+        const diff = Math.abs(pd(d).getTime() - qt);
+        if(diff < bestDiff){ bestDiff = diff; best = d; }
+      });
+      if(best && bestDiff <= 10 * 86400000) dotSet.add(best);
+    });
+
+    const ptRadius = visibleDates.map(d => dotSet.has(d) ? 4 : 0);
+    const ptHover  = visibleDates.map(d => dotSet.has(d) ? 6 : 4);
 
     datasets.push({
       label: gs.label,
@@ -1139,13 +1163,15 @@ function renderTracker() {
   const tickCfg = makeXTicks(visibleDates);
   const tickCb  = makeXTickCallback(visibleDates);
 
-  // Year boundary grid
-  const yearBoundarySet = new Set();
-  visibleDates.forEach((d,i)=>{
-    if(i===0) return;
-    if(parseInt(d.slice(0,4)) !== parseInt(visibleDates[i-1].slice(0,4)))
-      yearBoundarySet.add(i);
-  });
+  // Year boundary grid — compare adjacent labels directly (ctx.index is reliable for category scale)
+  const _vd = visibleDates; // captured for closure
+  function yearBoundaryColor(ctx) {
+    const i = ctx.index;
+    if(!i || i >= _vd.length) return 'transparent';
+    const curY  = _vd[i]  ? _vd[i].slice(0,4)  : null;
+    const prevY = _vd[i-1] ? _vd[i-1].slice(0,4) : null;
+    return (curY && prevY && curY !== prevY) ? 'rgba(0,0,0,0.12)' : 'transparent';
+  }
 
   makeChart('trackerChart', {
     type:'line',
@@ -1171,12 +1197,13 @@ function renderTracker() {
       },
       scales:{
         x:{
-          ticks:{...tickCfg, callback:tickCb, maxRotation:0, color:'#667085', font:{size:10}},
+          ticks:{...tickCfg, callback:tickCb, maxRotation:0, color:'#667085', font:{size:10}, padding:4},
           grid:{
-            color:(ctx)=> yearBoundarySet.has(ctx.index) ? 'rgba(0,0,0,0.07)' : 'transparent',
-            lineWidth:1, drawTicks:false
+            color: yearBoundaryColor,
+            lineWidth:1.5, drawTicks:false
           },
-          border:{display:false}
+          border:{display:false},
+          afterFit(scale){ scale.paddingRight = 12; }
         },
         ySearch:{
           type:'linear', position:'left',
@@ -1359,11 +1386,13 @@ function renderHousing(startIdx) {
   const tickCb  = makeXTickCallback(sLabs);
   const tickCfg = makeXTicks(sLabs);
 
-  const yearBoundarySet = new Set();
-  sLabs.forEach((d,i)=>{
-    if(i===0) return;
-    if(d.slice(0,4)!==sLabs[i-1].slice(0,4)) yearBoundarySet.add(i);
-  });
+  const _sLabs = sLabs;
+  function housingYearBoundaryColor(ctx) {
+    const i = ctx.index;
+    if(!i || i >= _sLabs.length) return 'transparent';
+    return _sLabs[i] && _sLabs[i-1] && _sLabs[i].slice(0,4) !== _sLabs[i-1].slice(0,4)
+      ? 'rgba(0,0,0,0.10)' : 'transparent';
+  }
 
   makeChart('chartHousing', {
     type:'line', data:{labels:sLabs, datasets:[{
@@ -1379,7 +1408,7 @@ function renderHousing(startIdx) {
       }}},
       scales:{
         x:{ticks:{...tickCfg,callback:tickCb,maxRotation:0,color:'#667085',font:{size:9}},
-           grid:{color:(ctx)=>yearBoundarySet.has(ctx.index)?'rgba(0,0,0,0.06)':'transparent',lineWidth:1,drawTicks:false},
+           grid:{color:housingYearBoundaryColor,lineWidth:1.5,drawTicks:false},
            border:{display:false}},
         y:{ticks:{color:'#667085',font:{size:9}},grid:{color:'rgba(0,0,0,0.04)'},border:{display:false},
            title:{display:true,text:'Thousands SAAR',color:'#667085',font:{size:10}}}
