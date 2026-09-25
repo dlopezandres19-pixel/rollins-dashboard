@@ -2,7 +2,7 @@ name: Update Rollins Data
 
 on:
   schedule:
-    - cron: '0 14 * * 1'  # Every Monday at 9am EST
+    - cron: '0 10 * * 1'  # Every Monday at 6am EDT (10:00 UTC)
   workflow_dispatch:        # Allow manual runs
 
 jobs:
