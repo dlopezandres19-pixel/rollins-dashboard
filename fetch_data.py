@@ -61,7 +61,7 @@ BRAND_GROUPS = {
         "aptive pest control",
     ],
     "massey": [
-        "massey services pest control",
+        "massey services",
     ],
     "anticimex": [
         "turner pest control",
