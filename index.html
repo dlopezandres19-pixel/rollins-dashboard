@@ -461,11 +461,14 @@ Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
 Chart.defaults.font.size = 10;
 
 // ── YEAR BOUNDARY PLUGIN ──────────────────────────────────────────────────
-// Draws vertical lines at year boundaries using pixel coordinates directly,
-// bypassing Chart.js grid callback index issues with maxTicksLimit filtering.
+// Draws vertical lines at year boundaries using pixel coordinates directly.
+// Charts that should NOT get year lines set plugin option: yearBoundary:false
+// e.g. options: { plugins: { yearBoundary: false } }
 const yearBoundaryPlugin = {
   id: 'yearBoundary',
   afterDraw(chart) {
+    // Allow individual charts to opt out
+    if(chart.options.plugins && chart.options.plugins.yearBoundary === false) return;
     const labels = chart.data.labels;
     if(!labels || labels.length < 2) return;
     const xScale = chart.scales['x'];
@@ -483,7 +486,6 @@ const yearBoundaryPlugin = {
       const curY  = labels[i]  ? String(labels[i]).slice(0,4)  : null;
       const prevY = labels[i-1] ? String(labels[i-1]).slice(0,4) : null;
       if(curY && prevY && curY !== prevY) {
-        // Place line between the two data points (midpoint in pixel space)
         const x0 = xScale.getPixelForValue(i-1);
         const x1 = xScale.getPixelForValue(i);
         const x  = (x0 + x1) / 2;
@@ -645,21 +647,15 @@ function renderLaborCharts(startIdx) {
   const ed  = E_D.slice(startIdx);
   const ud  = U_D.slice(startIdx);
 
-  makeChart('chartHours', {
-    type:'line',
-    data:{labels, datasets:[lineDs('Avg Weekly Hours', hd, '#2e6da4')]},
-    options:{...baseOpts('h/wk', 34), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`${c.parsed.y.toFixed(1)} hrs/wk`}}}}
-  });
-  makeChart('chartEarnings', {
-    type:'line',
-    data:{labels, datasets:[lineDs('Hourly Earnings', ed, '#c4820a')]},
-    options:{...baseOpts('$/hr', 20), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`$${c.parsed.y.toFixed(2)}/hr`}}}}
-  });
-  makeChart('chartULC', {
-    type:'line',
-    data:{labels, datasets:[lineDs('Unit Labor Cost', ud, '#c0392b')]},
-    options:{...baseOpts('$/wk', 780), plugins:{legend:{display:false}, tooltip:{...TOOLTIP, callbacks:{label:c=>`$${c.parsed.y.toFixed(0)}/wk`}}}}
-  });
+  const laborOpts = (yUnit, yMin, fmtCb) => {
+    const o = baseOpts(yUnit, yMin);
+    o.plugins = {legend:{display:false}, yearBoundary:false, tooltip:{...TOOLTIP, callbacks:{label:fmtCb}}};
+    o.scales.x.grid = {color:'transparent', drawTicks:false};
+    return o;
+  };
+  makeChart('chartHours',   {type:'line', data:{labels, datasets:[lineDs('Avg Weekly Hours', hd, '#2e6da4')]}, options:laborOpts('h/wk', 34,   c=>`${c.parsed.y.toFixed(1)} hrs/wk`)});
+  makeChart('chartEarnings',{type:'line', data:{labels, datasets:[lineDs('Hourly Earnings',  ed, '#c4820a')]}, options:laborOpts('$/hr', 20,   c=>`$${c.parsed.y.toFixed(2)}/hr`)});
+  makeChart('chartULC',     {type:'line', data:{labels, datasets:[lineDs('Unit Labor Cost',  ud, '#c0392b')]}, options:laborOpts('$/wk', 780,  c=>`$${c.parsed.y.toFixed(0)}/wk`)});
 }
 
 function initLaborSection() {
@@ -1263,7 +1259,7 @@ function renderTracker() {
           min:sMin, max:sMax,
           title:{display:true, text:'Search Index (avg=100)', color:'#667085', font:{size:10}},
           ticks:{color:'#667085', font:{size:10}},
-          grid:{color:'rgba(0,0,0,0.04)'},
+          grid:{color:'transparent'},
           display: datasets.some(d=>d._type==='search')
         },
         yGrowth:{
@@ -1565,7 +1561,7 @@ function renderFoodChart(startIdx) {
         label:c=>c.dataset.yAxisID==='ySales'?`Sales: $${fmtNum(c.parsed.y)}M`:`Employment: ${fmtNum(c.parsed.y)}K`
       }}},
       scales:{
-        x:{grid:{color:'rgba(0,0,0,0.04)',drawTicks:false}, ticks:{...tickCfg,callback:tickCb,maxRotation:0,color:'#98a2b3',font:{size:9}}, border:{display:false}},
+        x:{grid:{color:'transparent',drawTicks:false}, ticks:{...tickCfg,callback:tickCb,maxRotation:0,color:'#98a2b3',font:{size:9}}, border:{display:false}},
         ySales:{type:'linear',position:'left',grid:{color:'rgba(0,0,0,0.04)',drawTicks:false},
           ticks:{maxTicksLimit:5,color:'#1a7a6e',font:{size:9},callback:v=>`$${fmtNum(v/1000,0)}B`}, border:{display:false}},
         yEmp:{type:'linear',position:'right',grid:{drawOnChartArea:false},
