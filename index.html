@@ -460,6 +460,44 @@ Chart.defaults.color = '#667085';
 Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
 Chart.defaults.font.size = 10;
 
+// ── YEAR BOUNDARY PLUGIN ──────────────────────────────────────────────────
+// Draws vertical lines at year boundaries using pixel coordinates directly,
+// bypassing Chart.js grid callback index issues with maxTicksLimit filtering.
+const yearBoundaryPlugin = {
+  id: 'yearBoundary',
+  afterDraw(chart) {
+    const labels = chart.data.labels;
+    if(!labels || labels.length < 2) return;
+    const xScale = chart.scales['x'];
+    if(!xScale) return;
+    const ctx = chart.ctx;
+    const top    = chart.chartArea.top;
+    const bottom = chart.chartArea.bottom;
+
+    ctx.save();
+    ctx.strokeStyle = 'rgba(0,0,0,0.10)';
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([]);
+
+    for(let i = 1; i < labels.length; i++) {
+      const curY  = labels[i]  ? String(labels[i]).slice(0,4)  : null;
+      const prevY = labels[i-1] ? String(labels[i-1]).slice(0,4) : null;
+      if(curY && prevY && curY !== prevY) {
+        // Place line between the two data points (midpoint in pixel space)
+        const x0 = xScale.getPixelForValue(i-1);
+        const x1 = xScale.getPixelForValue(i);
+        const x  = (x0 + x1) / 2;
+        ctx.beginPath();
+        ctx.moveTo(x, top);
+        ctx.lineTo(x, bottom);
+        ctx.stroke();
+      }
+    }
+    ctx.restore();
+  }
+};
+Chart.register(yearBoundaryPlugin);
+
 const TOOLTIP = {
   backgroundColor:'#1b3a5c', borderColor:'#2e6da4', borderWidth:1,
   titleColor:'#94b4d4', bodyColor:'#ffffff', padding:9, cornerRadius:6,
@@ -834,30 +872,58 @@ function initSlider(sliderId, startLabelId, endLabelId, dates, onSlide) {
 // ADAPTIVE X-AXIS TICKS
 // ══════════════════════════════════════════════════════════════════════════
 function makeXTicks(labels) {
-  if(!labels.length) return {maxTicksLimit:12};
-  const first = pd(labels[0]), last = pd(labels[labels.length-1]);
-  const spanYrs = (last-first)/(1000*60*60*24*365.25);
-  if(spanYrs > 5) return {maxTicksLimit:8};
-  if(spanYrs > 3) return {maxTicksLimit:10};
-  if(spanYrs > 1.5) return {maxTicksLimit:12};
-  return {maxTicksLimit:16};
+  // maxTicksLimit set high so Chart.js doesn't filter out our carefully chosen tick indices
+  return {maxTicksLimit:500};
 }
 
 function makeXTickCallback(labels) {
+  if(!labels.length) return ()=>null;
+  const first = pd(labels[0]), last = pd(labels[labels.length-1]);
+  const spanYrs = (last-first)/(1000*60*60*24*365.25);
+  const lastYear = last.getUTCFullYear();
+  const MONTHS_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+  // For spans > 1.5yr: show one label per year, placed at the LAST week of that year in the dataset
+  // Label = "Dec YYYY" for completed years, "Mmm YYYY" for the current/last year
+  // Build a map: year -> last index in labels for that year
+  const yearLastIdx = {};
+  labels.forEach((lbl, i) => {
+    const y = pd(lbl).getUTCFullYear();
+    yearLastIdx[y] = i; // keeps overwriting → ends up as the last index for that year
+  });
+
+  // Set of indices that should show a label
+  const tickIndexSet = new Set();
+  const tickLabels   = {};
+
+  if(spanYrs > 1.5) {
+    // One tick per year at year's last data point
+    Object.entries(yearLastIdx).forEach(([yr, idx]) => {
+      const y = Number(yr);
+      const dt = pd(labels[idx]);
+      const m  = dt.getUTCMonth();
+      // If this is the last year in the dataset and it doesn't end in Dec, show actual month
+      const label = (y === lastYear && m < 11)
+        ? `${MONTHS_SHORT[m]} ${y}`
+        : `Dec ${y}`;
+      tickIndexSet.add(idx);
+      tickLabels[idx] = label;
+    });
+  } else {
+    // Short spans: bi-monthly labels
+    labels.forEach((lbl, i) => {
+      const dt = pd(lbl);
+      const m  = dt.getUTCMonth();
+      const y  = dt.getUTCFullYear();
+      if(m % 2 === 0) {
+        tickIndexSet.add(i);
+        tickLabels[i] = `${MONTHS_SHORT[m]} ${String(y).slice(2)}`;
+      }
+    });
+  }
+
   return function(val, idx) {
-    const lbl = labels[idx];
-    if(!lbl) return null;
-    const dt = pd(lbl);
-    const m = dt.getUTCMonth();
-    const y = dt.getUTCFullYear();
-    const first = pd(labels[0]), last = pd(labels[labels.length-1]);
-    const spanYrs = (last-first)/(1000*60*60*24*365.25);
-    const day = dt.getUTCDate();
-    const isYearStart = (m===0 && day<=7) || (m===11 && day>=29); // first week of year
-    const displayY = m===11 ? y+1 : y;
-    if(spanYrs > 4)   return isYearStart ? String(displayY) : null;
-    if(spanYrs > 1.5) return isYearStart ? String(displayY) : (m===6 ? 'Jul '+String(y).slice(2) : null);
-    return m%2===0 ? ['Jan','Mar','May','Jul','Sep','Nov'][Math.floor(m/2)]+' '+String(y).slice(2) : null;
+    return tickIndexSet.has(idx) ? tickLabels[idx] : null;
   };
 }
 
@@ -1163,16 +1229,6 @@ function renderTracker() {
   const tickCfg = makeXTicks(visibleDates);
   const tickCb  = makeXTickCallback(visibleDates);
 
-  // Year boundary grid — compare adjacent labels directly (ctx.index is reliable for category scale)
-  const _vd = visibleDates; // captured for closure
-  function yearBoundaryColor(ctx) {
-    const i = ctx.index;
-    if(!i || i >= _vd.length) return 'transparent';
-    const curY  = _vd[i]  ? _vd[i].slice(0,4)  : null;
-    const prevY = _vd[i-1] ? _vd[i-1].slice(0,4) : null;
-    return (curY && prevY && curY !== prevY) ? 'rgba(0,0,0,0.12)' : 'transparent';
-  }
-
   makeChart('trackerChart', {
     type:'line',
     data:{labels:visibleDates, datasets},
@@ -1198,10 +1254,7 @@ function renderTracker() {
       scales:{
         x:{
           ticks:{...tickCfg, callback:tickCb, maxRotation:0, color:'#667085', font:{size:10}, padding:4},
-          grid:{
-            color: yearBoundaryColor,
-            lineWidth:1.5, drawTicks:false
-          },
+          grid:{color:'transparent', drawTicks:false},
           border:{display:false},
           afterFit(scale){ scale.paddingRight = 12; }
         },
@@ -1386,14 +1439,6 @@ function renderHousing(startIdx) {
   const tickCb  = makeXTickCallback(sLabs);
   const tickCfg = makeXTicks(sLabs);
 
-  const _sLabs = sLabs;
-  function housingYearBoundaryColor(ctx) {
-    const i = ctx.index;
-    if(!i || i >= _sLabs.length) return 'transparent';
-    return _sLabs[i] && _sLabs[i-1] && _sLabs[i].slice(0,4) !== _sLabs[i-1].slice(0,4)
-      ? 'rgba(0,0,0,0.10)' : 'transparent';
-  }
-
   makeChart('chartHousing', {
     type:'line', data:{labels:sLabs, datasets:[{
       label:cfg.label, data:sVals,
@@ -1408,7 +1453,7 @@ function renderHousing(startIdx) {
       }}},
       scales:{
         x:{ticks:{...tickCfg,callback:tickCb,maxRotation:0,color:'#667085',font:{size:9}},
-           grid:{color:housingYearBoundaryColor,lineWidth:1.5,drawTicks:false},
+           grid:{color:'transparent',drawTicks:false},
            border:{display:false}},
         y:{ticks:{color:'#667085',font:{size:9}},grid:{color:'rgba(0,0,0,0.04)'},border:{display:false},
            title:{display:true,text:'Thousands SAAR',color:'#667085',font:{size:10}}}
