@@ -212,7 +212,13 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
   <!-- KPI strip -->
   <div class="tracker-kpi" id="trackerKpiRow"></div>
 
-  <div class="note-box">Broad US consumer search interest combining branded and non-branded pest-control signals. Normalized to mean = 100. Rollins quarterly revenue growth rates shown as shaded bands on right axis — interpolated between quarterly reporting dates for visual clarity.</div>
+  <div class="note-box">
+    <strong>Comparability guide:</strong>
+    All <em>Composite (Base 100)</em> series are normalized to a common mean of 100 and are directly comparable across groups (Market, Rollins, Rentokil, Anticimex, Aptive, Massey).
+    Aptive and Massey composites each rest on a single keyword, vs. 6–8 keywords for the larger groups — interpret with that in mind.
+    <br>The <em>raw Google index</em> options show the un-normalized search value as returned by Google Trends; these are comparable with each other (raw vs. raw) but <strong>not</strong> with composite series.
+    Rollins growth overlays are available from Q4 2021 onward for Organic and Residential metrics, and from 2015 for total Revenue; shaded bands are interpolated between quarterly reporting dates.
+  </div>
 </div>
 
 <!-- ── HOUSING + FOOD (2-col below tracker) ── -->
@@ -746,11 +752,19 @@ const BRAND_GROUPS = {
   },
   aptive: {
     label: 'Aptive', color: '#2e9e6b',
-    brands: [{brand:'Aptive Pest Control', keyword:'aptive pest control'}]
+    brands: [{brand:'Aptive Pest Control', keyword:'aptive pest control'}],
+    options: [
+      {label:'Composite (Base 100)', key:'composite'},
+      {label:'Aptive — raw Google index', key:'aptive pest control__raw'},
+    ]
   },
   massey: {
     label: 'Massey Services', color: '#7b4e9e',
-    brands: [{brand:'Massey Services', keyword:'massey services pest control'}]
+    brands: [{brand:'Massey Services', keyword:'massey services pest control'}],
+    options: [
+      {label:'Composite (Base 100)', key:'composite'},
+      {label:'Massey — raw Google index ⚠', key:'massey services pest control__raw'},
+    ]
   },
   anticimex: {
     label: 'Anticimex', color: '#c0392b',
@@ -779,8 +793,8 @@ const trackerState = {
     market:   {on:true,  sel:'composite'},
     rollins:  {on:true,  sel:'composite'},
     rentokil: {on:false, sel:'composite'},
-    aptive:   {on:false, sel:'aptive pest control'},
-    massey:   {on:false, sel:'massey services pest control'},
+    aptive:   {on:false, sel:'composite'},
+    massey:   {on:false, sel:'composite'},
     anticimex:{on:false, sel:'composite'},
   },
   growth: {rev:false, org:false, res:false},
@@ -833,6 +847,12 @@ function getBrandSeries(keyword) {
   return [];
 }
 
+// Raw brand series WITHOUT client-side re-normalization (values as-is from fetch_data.py)
+function getBrandSeriesRaw(keyword) {
+  if(!gData) return [];
+  return (gData.brand_trends&&gData.brand_trends[keyword]) ? gData.brand_trends[keyword] : [];
+}
+
 function getGroupCompositeSeries(groupKey) {
   const grp = BRAND_GROUPS[groupKey];
   if(!grp||!grp.brands) return [];
@@ -846,6 +866,8 @@ function getGroupSeries(groupKey) {
   if(!state) return [];
   if(groupKey==='market') return getMarketSeries(state.sel);
   if(state.sel==='composite') return getGroupCompositeSeries(groupKey);
+  // 'raw' key = unscaled Google Trends value (comparable with other raw keywords)
+  if(state.sel.endsWith('__raw')) return getBrandSeriesRaw(state.sel.replace('__raw',''));
   return getBrandSeries(state.sel);
 }
 
@@ -866,9 +888,9 @@ function interpolateQuarterly(weeklyDates, quarterlyData) {
   if(!qPts.length) return weeklyDates.map(()=>null);
   return weeklyDates.map(d=>{
     const t = pd(d).getTime();
-    // Before first point
-    if(t <= qPts[0].t) return qPts[0].value;
-    // After last point
+    // Before first data point → no data, leave blank (don't extrapolate backwards)
+    if(t < qPts[0].t) return null;
+    // After last point → hold last known value
     if(t >= qPts[qPts.length-1].t) return qPts[qPts.length-1].value;
     // Linear interpolation between surrounding quarterly points
     for(let i=0; i<qPts.length-1; i++){
@@ -910,8 +932,11 @@ function renderTracker() {
 
     const vals = visibleDates.map(d=>seriesMap[d]??null);
     const grpCfg = BRAND_GROUPS[gk];
-    const lbl = grpCfg.label + (st.sel==='composite' ? ' Composite' :
-      (' – '+(grpCfg.brands?.find(b=>b.keyword===st.sel)?.brand||st.sel)));
+    const selKey = st.sel;
+    const lbl = grpCfg.label + (
+      selKey==='composite' ? ' Composite' :
+      selKey.endsWith('__raw') ? ' – Raw Index' :
+      (' – '+(grpCfg.brands?.find(b=>b.keyword===selKey)?.brand||selKey)));
     datasets.push({
       label: lbl,
       data: vals,
@@ -1058,8 +1083,12 @@ function updateTrackerKPI(visibleDates) {
   pill.style.display='flex';
   const grpCfg = BRAND_GROUPS[primaryGk];
   const st = trackerState.groups[primaryGk];
-  const seriesName = primaryGk==='market' && st.sel==='composite' ? 'Market Composite' :
-    grpCfg.label + (st.sel==='composite'?' Composite':(' – '+(grpCfg.brands?.find(b=>b.keyword===st.sel)?.brand||st.sel)));
+  const selKey2 = st.sel;
+  const seriesName = primaryGk==='market' && selKey2==='composite' ? 'Market Composite' :
+    grpCfg.label + (
+      selKey2==='composite' ? ' Composite' :
+      selKey2.endsWith('__raw') ? ' – Raw Index' :
+      (' – '+(grpCfg.brands?.find(b=>b.keyword===selKey2)?.brand||selKey2)));
   document.getElementById('pillSeries').textContent = seriesName;
   document.getElementById('pillLatest').textContent = latest.toFixed(1);
   document.getElementById('pill52').textContent = avg52!=null ? avg52.toFixed(1) : '—';
@@ -1101,12 +1130,10 @@ function wireTrackerControls() {
     const grp = BRAND_GROUPS[gk];
     const st  = trackerState.groups[gk];
     let opts = '';
-    if(gk==='market'){
+    if(gk==='market' || grp.options){
       opts = grp.options.map(o=>`<option value="${o.key}" ${st.sel===o.key?'selected':''}>${o.label}</option>`).join('');
-    } else if(grp.brands.length===1){
-      opts = `<option value="${grp.brands[0].keyword}">${grp.brands[0].brand}</option>`;
     } else {
-      opts = `<option value="composite" ${st.sel==='composite'?'selected':''}>Composite</option>`;
+      opts = `<option value="composite" ${st.sel==='composite'?'selected':''}>Composite (Base 100)</option>`;
       opts += grp.brands.map(b=>`<option value="${b.keyword}" ${st.sel===b.keyword?'selected':''}>${b.brand}</option>`).join('');
     }
     const isMassey = gk==='massey';
