@@ -129,28 +129,29 @@ def query_anthropic(prompt_text: str) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# Google Gemini
+# Google Gemini  (uses google-genai SDK — the new replacement for google.generativeai)
 # ---------------------------------------------------------------------------
 def query_gemini(prompt_text: str) -> dict:
-    import google.generativeai as genai
+    from google import genai
+    from google.genai import types as genai_types
 
     api_key = os.environ["GEMINI_API_KEY"]
-    model   = os.environ.get("GEMINI_MODEL", "gemini-1.5-flash")
-    genai.configure(api_key=api_key)
-    gm = genai.GenerativeModel(
-        model_name=model,
-        system_instruction=SYSTEM_CONTEXT,
-        generation_config=genai.types.GenerationConfig(
-            temperature=TEMPERATURE,
-            max_output_tokens=MAX_TOKENS,
-        ),
-    )
+    model   = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash-lite")
+    client  = genai.Client(api_key=api_key)
 
     for attempt in range(RETRY_MAX):
         try:
             ts   = _utc_now()
-            resp = gm.generate_content(prompt_text)
-            text = resp.text
+            resp = client.models.generate_content(
+                model=model,
+                contents=prompt_text,
+                config=genai_types.GenerateContentConfig(
+                    system_instruction=SYSTEM_CONTEXT,
+                    temperature=TEMPERATURE,
+                    max_output_tokens=MAX_TOKENS,
+                ),
+            )
+            text  = resp.text
             usage = resp.usage_metadata if hasattr(resp, "usage_metadata") else None
             return {
                 "provider":         "gemini",
@@ -162,7 +163,6 @@ def query_gemini(prompt_text: str) -> dict:
                 "error":            None,
             }
         except Exception as e:
-            # Gemini surfaces rate limits as generic exceptions; check message
             msg = str(e).lower()
             wait = _backoff(attempt)
             if "quota" in msg or "rate" in msg or "429" in msg:
