@@ -179,6 +179,9 @@ def main() -> int:
         logger.info(f"\n── Provider: {provider.upper()} ──────────────────────")
         provider_errors = 0
 
+        # Gemini free tier: 15 requests/minute → wait 5s between calls to stay safe
+        INTER_REQUEST_DELAY = 5.0 if provider == "gemini" else 0.5
+
         for prompt in prompts:
             for rep in range(1, RUNS_PER_PROMPT + 1):
                 try:
@@ -195,6 +198,7 @@ def main() -> int:
                             f"tokens={record.get('completion_tokens', '?')} OK"
                         )
                     all_responses.append(record)
+                    time.sleep(INTER_REQUEST_DELAY)
                 except Exception as e:
                     logger.error(
                         f"  [{provider}] prompt={prompt['id']} rep={rep} "
