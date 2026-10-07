@@ -1,0 +1,12 @@
+# AI Brand Visibility Tracker — Python dependencies
+# Pin minor versions for reproducibility; patch updates are safe.
+
+# LLM provider SDKs
+openai>=1.35,<2.0
+anthropic>=0.29,<1.0
+google-generativeai>=0.7,<1.0
+
+# Data
+pandas>=2.2,<3.0
+openpyxl>=3.1,<4.0
+numpy>=1.26,<3.0
