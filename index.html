@@ -174,6 +174,11 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 .ai-pills.hidden{display:none;}
 .ai-chart-wrap{position:relative;height:210px;}
 .ai-legend{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;}
+.ai-brand-checks{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;}
+.ai-brand-chk{display:flex;align-items:center;gap:5px;font-size:10px;color:var(--text-secondary);cursor:pointer;padding:2px 8px 2px 6px;border-radius:20px;border:1px solid var(--border);background:var(--border-light);transition:opacity .15s;}
+.ai-brand-chk.off{opacity:.4;}
+.ai-brand-chk input{width:11px;height:11px;cursor:pointer;flex-shrink:0;}
+.ai-brand-chk-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
 .ai-context-note{font-size:10px;color:var(--text-light);text-align:center;margin-top:8px;font-style:italic;}
 .ai-disclaimer{margin-top:14px;padding:10px 14px;background:var(--border-light);border-radius:6px;font-size:10px;color:var(--text-muted);line-height:1.6;border-left:3px solid var(--accent-light);}
 .ai-disclaimer strong{color:var(--text-secondary);}
@@ -298,9 +303,9 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
     <!-- RIGHT: Evolutivo line chart -->
     <div>
       <div class="ai-col-label">Weekly Evolutivo</div>
-      <div class="ai-legend" id="aiChartLegend"></div>
+      <div class="ai-brand-checks" id="aiBrandChecks"></div>
       <div class="ai-chart-wrap"><canvas id="aiVisChart"></canvas></div>
-      <div class="ai-context-note" id="aiContextNote">Mention Rate: 7 semanas simuladas + datos reales Oct 7, 2026 · SoV: solo datos reales Oct 7, 2026</div>
+      <div class="ai-context-note" id="aiContextNote">Datos reales desde Oct 7, 2026 · n=60 trial · Full run (n=300) desde Oct 10</div>
     </div>
 
   </div>
@@ -1764,14 +1769,14 @@ const AI_BRANDS = [
 ];
 
 // ── Mention Rate data ───────────────────────────────────────────────────
-// Weeks: 7 simulated + 1 real (Oct 7, 2026)
-const MR_WEEKS = ['Aug 19','Aug 26','Sep 2','Sep 9','Sep 16','Sep 23','Sep 30','Oct 7'];
+// Only real data — Oct 7, 2026 (n=60 trial)
+const MR_WEEKS = ['Oct 7'];
 const MR_WEEKLY = {
-  rollins:   { composite:[95.0,96.7,98.3,97.5,98.3,96.7,98.3,98.3], openai:[95.0,96.7,98.3,98.3,98.3,96.7,98.3,100.0], anthropic:[95.0,96.7,98.3,97.5,98.3,97.5,98.3,100.0], gemini:[95.0,96.7,98.3,96.7,98.3,95.8,98.3,95.0] },
-  rentokil:  { composite:[96.7,95.0,96.7,98.3,97.5,98.3,96.7,98.3], openai:[96.7,95.0,96.7,98.3,97.5,98.3,96.7,100.0], anthropic:[96.7,95.0,96.7,98.3,97.5,98.3,96.7,100.0], gemini:[96.7,95.0,96.7,98.3,97.5,98.3,96.7,95.0] },
-  massey:    { composite:[3.3,5.0,3.3,5.0,5.0,6.7,5.0,5.0],         openai:[3.3,5.0,3.3,6.7,6.7,8.3,5.0,5.0],          anthropic:[3.3,5.0,3.3,5.0,5.0,6.7,5.0,5.0],          gemini:[3.3,5.0,3.3,3.3,3.3,5.0,5.0,5.0]   },
-  anticimex: { composite:[1.7,0.0,1.7,0.0,1.7,0.0,0.0,0.0],         openai:[1.7,0.0,1.7,0.0,1.7,0.0,0.0,0.0],          anthropic:[1.7,0.0,1.7,0.0,1.7,0.0,0.0,0.0],          gemini:[1.7,0.0,1.7,0.0,1.7,0.0,0.0,0.0]  },
-  aptive:    { composite:[0.0,1.7,0.0,0.0,0.0,1.7,0.0,0.0],         openai:[0.0,1.7,0.0,0.0,0.0,3.3,0.0,0.0],          anthropic:[0.0,1.7,0.0,0.0,0.0,1.7,0.0,0.0],          gemini:[0.0,1.7,0.0,0.0,0.0,0.0,0.0,0.0]  },
+  rollins:   { composite:[98.3], openai:[100.0], anthropic:[100.0], gemini:[95.0] },
+  rentokil:  { composite:[98.3], openai:[100.0], anthropic:[100.0], gemini:[95.0] },
+  massey:    { composite:[5.0],  openai:[5.0],   anthropic:[5.0],   gemini:[5.0]  },
+  anticimex: { composite:[0.0],  openai:[0.0],   anthropic:[0.0],   gemini:[0.0]  },
+  aptive:    { composite:[0.0],  openai:[0.0],   anthropic:[0.0],   gemini:[0.0]  },
 };
 // Per-provider breakdown for latest week (used in Composite pills)
 const MR_LATEST = {
@@ -1801,6 +1806,8 @@ const METRIC_LABELS   = {mr:'Mention Rate', sov:'Share of Voice'};
 let _aiMetric   = 'mr';
 let _aiProvider = 'composite';
 let _aiChart    = null;
+// All brands visible by default
+const _aiVisible = Object.fromEntries(AI_BRANDS.map(b => [b.key, true]));
 
 // ── Bar rendering ───────────────────────────────────────────────────────
 function aiRenderBars(metric, provider) {
@@ -1843,6 +1850,23 @@ function aiRenderBars(metric, provider) {
     `Latest Week · ${METRIC_LABELS[metric]} · ${PROVIDER_LABELS[provider]}`;
 }
 
+// ── Dynamic Y axis ──────────────────────────────────────────────────────
+function aiCalcYAxis(metric, provider) {
+  const weekly = metric === 'mr' ? MR_WEEKLY : SOV_WEEKLY;
+  let allVals = [];
+  AI_BRANDS.forEach(b => {
+    if (_aiVisible[b.key]) allVals = allVals.concat(weekly[b.key][provider]);
+  });
+  if (!allVals.length) return { min: 0, max: 100 };
+  const lo = Math.min(...allVals);
+  const hi = Math.max(...allVals);
+  const pad = Math.max(5, (hi - lo) * 0.15);
+  return {
+    min: Math.max(0,   Math.floor(lo - pad)),
+    max: Math.min(100, Math.ceil (hi + pad)),
+  };
+}
+
 // ── Chart rendering ─────────────────────────────────────────────────────
 const AI_TOOLTIP = {
   backgroundColor:'#1b3a5c', borderColor:'#2e6da4', borderWidth:1,
@@ -1855,10 +1879,12 @@ function aiMakeDatasets(metric, provider) {
   const weeks   = metric === 'mr' ? MR_WEEKS  : SOV_WEEKS;
   const lastIdx = weeks.length - 1;
   return AI_BRANDS.map(brand => {
-    const data = weekly[brand.key][provider];
+    const data    = weekly[brand.key][provider];
+    const visible = _aiVisible[brand.key];
     return {
       label: brand.name,
       data,
+      hidden: !visible,
       borderColor: brand.color,
       backgroundColor: brand.color + '18',
       borderWidth: 2,
@@ -1875,16 +1901,7 @@ function aiMakeDatasets(metric, provider) {
 
 function aiInitChart(metric, provider) {
   const weeks = metric === 'mr' ? MR_WEEKS : SOV_WEEKS;
-
-  // Legend
-  document.getElementById('aiChartLegend').innerHTML = AI_BRANDS.map(b => `
-    <div class="legend-item">
-      <div class="legend-swatch" style="background:${b.color}"></div>
-      <span>${b.name}</span>
-    </div>
-  `).join('');
-
-  const yMax = metric === 'mr' ? 105 : 55;
+  const {min, max} = aiCalcYAxis(metric, provider);
 
   _aiChart = new Chart(document.getElementById('aiVisChart'), {
     type: 'line',
@@ -1899,7 +1916,7 @@ function aiInitChart(metric, provider) {
           ...AI_TOOLTIP,
           callbacks:{
             title: items => `${items[0].label}  ·  ${METRIC_LABELS[metric]}  ·  ${PROVIDER_LABELS[provider]}`,
-            label: c => ` ${c.dataset.label}: ${c.parsed.y.toFixed(1)}%`,
+            label: c => c.dataset.hidden ? null : ` ${c.dataset.label}: ${c.parsed.y.toFixed(1)}%`,
           }
         }
       },
@@ -1910,9 +1927,9 @@ function aiInitChart(metric, provider) {
           border:{color:'#e4e7ec'},
         },
         y:{
-          min:0, max:yMax,
+          min, max,
           grid:{color:'rgba(0,0,0,0.04)', drawTicks:false},
-          ticks:{color:'#98a2b3', font:{size:9}, callback:v=>v+'%', stepSize:yMax===105?20:10},
+          ticks:{color:'#98a2b3', font:{size:9}, callback:v=>v+'%'},
           border:{color:'#e4e7ec'},
         }
       }
@@ -1923,21 +1940,49 @@ function aiInitChart(metric, provider) {
 function aiUpdateChart(metric, provider) {
   if (!_aiChart) return;
   const weeks = metric === 'mr' ? MR_WEEKS : SOV_WEEKS;
-  const yMax  = metric === 'mr' ? 105 : 55;
+  const {min, max} = aiCalcYAxis(metric, provider);
   const newDs = aiMakeDatasets(metric, provider);
 
   _aiChart.data.labels = weeks;
   _aiChart.data.datasets.forEach((ds,i) => {
-    ds.data              = newDs[i].data;
-    ds.pointRadius       = newDs[i].pointRadius;
-    ds.pointBorderColor  = newDs[i].pointBorderColor;
-    ds.pointBorderWidth  = newDs[i].pointBorderWidth;
+    ds.data             = newDs[i].data;
+    ds.hidden           = newDs[i].hidden;
+    ds.pointRadius      = newDs[i].pointRadius;
+    ds.pointBorderColor = newDs[i].pointBorderColor;
+    ds.pointBorderWidth = newDs[i].pointBorderWidth;
   });
-  _aiChart.options.scales.y.max = yMax;
-  _aiChart.options.scales.y.ticks.stepSize = yMax === 105 ? 20 : 10;
+  _aiChart.options.scales.y.min = min;
+  _aiChart.options.scales.y.max = max;
   _aiChart.options.plugins.tooltip.callbacks.title =
     items => `${items[0].label}  ·  ${METRIC_LABELS[metric]}  ·  ${PROVIDER_LABELS[provider]}`;
   _aiChart.update('active');
+}
+
+// ── Brand checkboxes ────────────────────────────────────────────────────
+function aiRenderBrandChecks() {
+  const container = document.getElementById('aiBrandChecks');
+  container.innerHTML = AI_BRANDS.map(b => `
+    <label class="ai-brand-chk${_aiVisible[b.key] ? '' : ' off'}" data-key="${b.key}">
+      <input type="checkbox" ${_aiVisible[b.key] ? 'checked' : ''} data-key="${b.key}" style="accent-color:${b.color}">
+      <div class="ai-brand-chk-dot" style="background:${b.color}"></div>
+      <span>${b.name}</span>
+    </label>
+  `).join('');
+
+  container.querySelectorAll('input[type=checkbox]').forEach(chk => {
+    chk.addEventListener('change', () => {
+      const key = chk.dataset.key;
+      // Prevent unchecking the last visible brand
+      const visibleCount = Object.values(_aiVisible).filter(Boolean).length;
+      if (!chk.checked && visibleCount <= 1) { chk.checked = true; return; }
+      _aiVisible[key] = chk.checked;
+      // Update label style
+      chk.closest('.ai-brand-chk').classList.toggle('off', !chk.checked);
+      // Re-render
+      aiRenderBars(_aiMetric, _aiProvider);
+      aiUpdateChart(_aiMetric, _aiProvider);
+    });
+  });
 }
 
 // ── Filter wiring ───────────────────────────────────────────────────────
@@ -1967,6 +2012,7 @@ document.querySelectorAll('.ai-fbtn[data-provider]').forEach(btn => {
 
 // ── Init ────────────────────────────────────────────────────────────────
 aiRenderBars('mr', 'composite');
+aiRenderBrandChecks();
 aiInitChart('mr', 'composite');
 
 })(); // end AI Brand Visibility IIFE
