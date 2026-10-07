@@ -151,6 +151,34 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 
 /* ── MIX BAR ── */
 .mix-row{display:flex;align-items:center;gap:8px;margin-top:8px;}
+
+/* ══ AI BRAND VISIBILITY ══════════════════════════════════ */
+.ai-trial-badge{display:inline-flex;align-items:center;gap:5px;font-size:10px;font-weight:600;padding:3px 9px;border-radius:20px;background:rgba(196,130,10,.1);color:#c4820a;border:1px solid rgba(196,130,10,.3);white-space:nowrap;}
+.ai-filter-row{display:flex;align-items:center;gap:6px;margin:12px 0 14px;flex-wrap:wrap;}
+.ai-filter-label{font-size:10px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;margin-right:2px;}
+.ai-fbtn{font-size:10px;font-weight:600;padding:3px 10px;border-radius:20px;cursor:pointer;border:1px solid var(--border);background:var(--border-light);color:var(--text-muted);transition:all .15s ease;letter-spacing:.02em;white-space:nowrap;}
+.ai-fbtn:hover{border-color:var(--accent-light);color:var(--accent-light);}
+.ai-fbtn.active{background:var(--accent);border-color:var(--accent);color:#fff;}
+.ai-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:18px;align-items:start;}
+@media(max-width:680px){.ai-grid{grid-template-columns:1fr;}}
+.ai-col-label{font-size:10px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px;}
+.ai-bar-list{display:flex;flex-direction:column;gap:10px;margin-top:4px;}
+.ai-bar-row{display:flex;flex-direction:column;gap:3px;}
+.ai-bar-meta{display:flex;justify-content:space-between;align-items:baseline;}
+.ai-bar-label{font-size:11px;font-weight:600;color:var(--text-primary);}
+.ai-bar-value{font-size:12px;font-weight:700;font-variant-numeric:tabular-nums;}
+.ai-bar-track{height:7px;background:var(--border-light);border-radius:4px;overflow:hidden;}
+.ai-bar-fill{height:100%;border-radius:4px;transition:width .45s ease;}
+.ai-pills{display:flex;gap:5px;margin-top:3px;flex-wrap:wrap;}
+.ai-pill{font-size:9px;padding:1px 6px;border-radius:3px;font-variant-numeric:tabular-nums;background:var(--border-light);color:var(--text-muted);}
+.ai-pills.hidden{display:none;}
+.ai-chart-wrap{position:relative;height:210px;}
+.ai-legend{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;}
+.ai-context-note{font-size:10px;color:var(--text-light);text-align:center;margin-top:8px;font-style:italic;}
+.ai-disclaimer{margin-top:14px;padding:10px 14px;background:var(--border-light);border-radius:6px;font-size:10px;color:var(--text-muted);line-height:1.6;border-left:3px solid var(--accent-light);}
+.ai-disclaimer strong{color:var(--text-secondary);}
+.ai-prompts-list{margin:6px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:3px;}
+.ai-prompts-list li::before{content:"›  ";color:var(--accent-light);font-weight:700;}
 </style>
 </head>
 <body>
@@ -175,7 +203,7 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 <div class="section-header" style="margin-top:2px;">
   <div class="section-label">① Demand Signals</div>
   <div class="section-line"></div>
-  <div class="section-sub">Pest Control Search & Rollins Growth · US Housing Starts (FRED) · US Food Services Activity (FRED/BLS)</div>
+  <div class="section-sub">Pest Control Search & Rollins Growth · AI Brand Visibility · US Housing Starts (FRED) · US Food Services Activity (FRED/BLS)</div>
 </div>
 
 <!-- ── FULL-WIDTH TRACKER CARD ── -->
@@ -233,6 +261,69 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
     <br><span style="color:var(--text-secondary);">Massey:</span> massey services
   </div>
 </div>
+
+<!-- ══ AI BRAND VISIBILITY ══════════════════════════════════════════════ -->
+<div class="panel">
+
+  <!-- Header row -->
+  <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+    <div>
+      <div class="panel-title">AI Brand Visibility</div>
+      <div class="panel-sub">OpenAI · Anthropic · Gemini · Weekly · Pest Control Prompts</div>
+    </div>
+    <div class="ai-trial-badge">⚠ 1st trial · n=60 · Full run (n=300) starts Oct 10</div>
+  </div>
+
+  <!-- Dual filter row -->
+  <div class="ai-filter-row">
+    <span class="ai-filter-label">Metric:</span>
+    <button class="ai-fbtn active" data-metric="mr">Mention Rate</button>
+    <button class="ai-fbtn" data-metric="sov">Share of Voice</button>
+    <span style="width:10px;display:inline-block;border-left:1px solid var(--border);height:14px;vertical-align:middle;"></span>
+    <span class="ai-filter-label">Provider:</span>
+    <button class="ai-fbtn active" data-provider="composite">AI Composite</button>
+    <button class="ai-fbtn" data-provider="openai">OpenAI</button>
+    <button class="ai-fbtn" data-provider="anthropic">Anthropic</button>
+    <button class="ai-fbtn" data-provider="gemini">Gemini</button>
+  </div>
+
+  <div class="ai-grid">
+
+    <!-- LEFT: Snapshot bars -->
+    <div>
+      <div class="ai-col-label" id="aiBarColLabel">Latest Week · Mention Rate · AI Composite</div>
+      <div class="ai-bar-list" id="aiBarList"></div>
+    </div>
+
+    <!-- RIGHT: Evolutivo line chart -->
+    <div>
+      <div class="ai-col-label">Weekly Evolutivo</div>
+      <div class="ai-legend" id="aiChartLegend"></div>
+      <div class="ai-chart-wrap"><canvas id="aiVisChart"></canvas></div>
+      <div class="ai-context-note" id="aiContextNote">Mention Rate: 7 semanas simuladas + datos reales Oct 7, 2026 · SoV: solo datos reales Oct 7, 2026</div>
+    </div>
+
+  </div>
+
+  <!-- Methodology -->
+  <div class="ai-disclaimer">
+    <strong>Methodology v1</strong> · <strong>Mention Rate</strong> = % of prompts where brand appeared in AI response (independent per brand, can sum &gt;100%) ·
+    <strong>Share of Voice</strong> = brand's share of total mentions across all responses (sums to 100%) ·
+    20 prompts × 5 reps × 3 providers = 300 responses/week (full run) ·
+    Providers: OpenAI gpt-4o-mini · Anthropic claude-haiku-4-5 · Gemini gemini-1.5-flash ·
+    AI Composite = equal-weighted avg · Brand matching is deterministic (regex, no LLM)
+    <br><br>
+    <strong>Sample prompts</strong> (5 of 20):
+    <ul class="ai-prompts-list">
+      <li>"Which pest control companies operate nationwide in the US?"</li>
+      <li>"Who are the largest residential pest control providers in North America?"</li>
+      <li>"What are the best-known termite treatment companies in the United States?"</li>
+      <li>"Which companies dominate the commercial pest management market?"</li>
+      <li>"What pest control brands are available in Florida?"</li>
+    </ul>
+  </div>
+</div>
+<!-- ══ /AI BRAND VISIBILITY ══════════════════════════════════════════════ -->
 
 <!-- ── HOUSING + FOOD (2-col below tracker) ── -->
 <div class="grid-2">
@@ -1657,6 +1748,228 @@ async function loadDemand() {
 
 initLaborSection();
 loadDemand();
+
+// ══════════════════════════════════════════════════════════════════════════
+// AI BRAND VISIBILITY
+// ══════════════════════════════════════════════════════════════════════════
+(function(){
+'use strict';
+
+const AI_BRANDS = [
+  { name:'Rollins',             color:'#2e6da4', key:'rollins'   },
+  { name:'Rentokil / Terminix', color:'#e07820', key:'rentokil'  },
+  { name:'Massey Services',     color:'#7b4e9e', key:'massey'    },
+  { name:'Anticimex',           color:'#c0392b', key:'anticimex' },
+  { name:'Aptive',              color:'#2e9e6b', key:'aptive'    },
+];
+
+// ── Mention Rate data ───────────────────────────────────────────────────
+// Weeks: 7 simulated + 1 real (Oct 7, 2026)
+const MR_WEEKS = ['Aug 19','Aug 26','Sep 2','Sep 9','Sep 16','Sep 23','Sep 30','Oct 7'];
+const MR_WEEKLY = {
+  rollins:   { composite:[95.0,96.7,98.3,97.5,98.3,96.7,98.3,98.3], openai:[95.0,96.7,98.3,98.3,98.3,96.7,98.3,100.0], anthropic:[95.0,96.7,98.3,97.5,98.3,97.5,98.3,100.0], gemini:[95.0,96.7,98.3,96.7,98.3,95.8,98.3,95.0] },
+  rentokil:  { composite:[96.7,95.0,96.7,98.3,97.5,98.3,96.7,98.3], openai:[96.7,95.0,96.7,98.3,97.5,98.3,96.7,100.0], anthropic:[96.7,95.0,96.7,98.3,97.5,98.3,96.7,100.0], gemini:[96.7,95.0,96.7,98.3,97.5,98.3,96.7,95.0] },
+  massey:    { composite:[3.3,5.0,3.3,5.0,5.0,6.7,5.0,5.0],         openai:[3.3,5.0,3.3,6.7,6.7,8.3,5.0,5.0],          anthropic:[3.3,5.0,3.3,5.0,5.0,6.7,5.0,5.0],          gemini:[3.3,5.0,3.3,3.3,3.3,5.0,5.0,5.0]   },
+  anticimex: { composite:[1.7,0.0,1.7,0.0,1.7,0.0,0.0,0.0],         openai:[1.7,0.0,1.7,0.0,1.7,0.0,0.0,0.0],          anthropic:[1.7,0.0,1.7,0.0,1.7,0.0,0.0,0.0],          gemini:[1.7,0.0,1.7,0.0,1.7,0.0,0.0,0.0]  },
+  aptive:    { composite:[0.0,1.7,0.0,0.0,0.0,1.7,0.0,0.0],         openai:[0.0,1.7,0.0,0.0,0.0,3.3,0.0,0.0],          anthropic:[0.0,1.7,0.0,0.0,0.0,1.7,0.0,0.0],          gemini:[0.0,1.7,0.0,0.0,0.0,0.0,0.0,0.0]  },
+};
+// Per-provider breakdown for latest week (used in Composite pills)
+const MR_LATEST = {
+  rollins:   {openai:100, anthropic:100, gemini:95},
+  rentokil:  {openai:100, anthropic:100, gemini:95},
+  massey:    {openai:5,   anthropic:5,   gemini:5 },
+  anticimex: {openai:0,   anthropic:0,   gemini:0 },
+  aptive:    {openai:0,   anthropic:0,   gemini:0 },
+};
+
+// ── Share of Voice data ─────────────────────────────────────────────────
+// Only 1 real data point: Oct 7, 2026 (n=60 trial)
+// Total mentions composite: 59+59+3+0+0 = 121
+const SOV_WEEKS = ['Oct 7'];
+const SOV_WEEKLY = {
+  rollins:   { composite:[48.8], openai:[50.0], anthropic:[50.0], gemini:[47.5] },
+  rentokil:  { composite:[48.8], openai:[50.0], anthropic:[50.0], gemini:[47.5] },
+  massey:    { composite:[2.5],  openai:[2.5],  anthropic:[2.5],  gemini:[2.5]  },
+  anticimex: { composite:[0.0],  openai:[0.0],  anthropic:[0.0],  gemini:[0.0]  },
+  aptive:    { composite:[0.0],  openai:[0.0],  anthropic:[0.0],  gemini:[0.0]  },
+};
+
+const PROVIDER_LABELS = {composite:'AI Composite', openai:'OpenAI', anthropic:'Anthropic', gemini:'Gemini'};
+const METRIC_LABELS   = {mr:'Mention Rate', sov:'Share of Voice'};
+
+// ── State ───────────────────────────────────────────────────────────────
+let _aiMetric   = 'mr';
+let _aiProvider = 'composite';
+let _aiChart    = null;
+
+// ── Bar rendering ───────────────────────────────────────────────────────
+function aiRenderBars(metric, provider) {
+  const container = document.getElementById('aiBarList');
+  const isComposite = provider === 'composite';
+  const weekly = metric === 'mr' ? MR_WEEKLY : SOV_WEEKLY;
+  const lastIdx = (metric === 'mr' ? MR_WEEKS : SOV_WEEKS).length - 1;
+
+  const sorted = [...AI_BRANDS].sort((a,b) =>
+    weekly[b.key][provider][lastIdx] - weekly[a.key][provider][lastIdx]
+  );
+
+  const maxVal = metric === 'mr' ? 100 : 50; // SoV bar scale at 50 (Rollins ~49%)
+
+  container.innerHTML = sorted.map(brand => {
+    const val = weekly[brand.key][provider][lastIdx];
+    const pct = val.toFixed(1) + '%';
+    const barW = Math.min(100, (val / maxVal) * 100);
+    const pd  = MR_LATEST[brand.key];
+    return `
+      <div class="ai-bar-row">
+        <div class="ai-bar-meta">
+          <span class="ai-bar-label">${brand.name}</span>
+          <span class="ai-bar-value" style="color:${brand.color}">${pct}</span>
+        </div>
+        <div class="ai-bar-track">
+          <div class="ai-bar-fill" style="width:${barW}%;background:${brand.color}"></div>
+        </div>
+        ${metric === 'mr' && isComposite ? `
+        <div class="ai-pills">
+          <span class="ai-pill">OpenAI: ${pd.openai.toFixed(1)}%</span>
+          <span class="ai-pill">Anthropic: ${pd.anthropic.toFixed(1)}%</span>
+          <span class="ai-pill">Gemini: ${pd.gemini.toFixed(1)}%</span>
+        </div>` : ''}
+      </div>
+    `;
+  }).join('');
+
+  document.getElementById('aiBarColLabel').textContent =
+    `Latest Week · ${METRIC_LABELS[metric]} · ${PROVIDER_LABELS[provider]}`;
+}
+
+// ── Chart rendering ─────────────────────────────────────────────────────
+const AI_TOOLTIP = {
+  backgroundColor:'#1b3a5c', borderColor:'#2e6da4', borderWidth:1,
+  titleColor:'#94b4d4', bodyColor:'#ffffff', padding:9, cornerRadius:6,
+  titleFont:{size:10}, bodyFont:{size:11}
+};
+
+function aiMakeDatasets(metric, provider) {
+  const weekly  = metric === 'mr' ? MR_WEEKLY : SOV_WEEKLY;
+  const weeks   = metric === 'mr' ? MR_WEEKS  : SOV_WEEKS;
+  const lastIdx = weeks.length - 1;
+  return AI_BRANDS.map(brand => {
+    const data = weekly[brand.key][provider];
+    return {
+      label: brand.name,
+      data,
+      borderColor: brand.color,
+      backgroundColor: brand.color + '18',
+      borderWidth: 2,
+      tension: 0.3,
+      fill: false,
+      spanGaps: true,
+      pointRadius: data.map((_,i) => i === lastIdx ? 5 : 2.5),
+      pointBorderColor: data.map((_,i) => i === lastIdx ? '#fff' : brand.color),
+      pointBorderWidth: data.map((_,i) => i === lastIdx ? 2 : 1),
+      pointHoverRadius: 5,
+    };
+  });
+}
+
+function aiInitChart(metric, provider) {
+  const weeks = metric === 'mr' ? MR_WEEKS : SOV_WEEKS;
+
+  // Legend
+  document.getElementById('aiChartLegend').innerHTML = AI_BRANDS.map(b => `
+    <div class="legend-item">
+      <div class="legend-swatch" style="background:${b.color}"></div>
+      <span>${b.name}</span>
+    </div>
+  `).join('');
+
+  const yMax = metric === 'mr' ? 105 : 55;
+
+  _aiChart = new Chart(document.getElementById('aiVisChart'), {
+    type: 'line',
+    data: { labels: weeks, datasets: aiMakeDatasets(metric, provider) },
+    options: {
+      responsive:true, maintainAspectRatio:false,
+      animation:{duration:500},
+      interaction:{mode:'index', intersect:false},
+      plugins:{
+        legend:{display:false},
+        tooltip:{
+          ...AI_TOOLTIP,
+          callbacks:{
+            title: items => `${items[0].label}  ·  ${METRIC_LABELS[metric]}  ·  ${PROVIDER_LABELS[provider]}`,
+            label: c => ` ${c.dataset.label}: ${c.parsed.y.toFixed(1)}%`,
+          }
+        }
+      },
+      scales:{
+        x:{
+          grid:{color:'rgba(0,0,0,0.04)', drawTicks:false},
+          ticks:{color:'#98a2b3', font:{size:9}, maxRotation:0},
+          border:{color:'#e4e7ec'},
+        },
+        y:{
+          min:0, max:yMax,
+          grid:{color:'rgba(0,0,0,0.04)', drawTicks:false},
+          ticks:{color:'#98a2b3', font:{size:9}, callback:v=>v+'%', stepSize:yMax===105?20:10},
+          border:{color:'#e4e7ec'},
+        }
+      }
+    }
+  });
+}
+
+function aiUpdateChart(metric, provider) {
+  if (!_aiChart) return;
+  const weeks = metric === 'mr' ? MR_WEEKS : SOV_WEEKS;
+  const yMax  = metric === 'mr' ? 105 : 55;
+  const newDs = aiMakeDatasets(metric, provider);
+
+  _aiChart.data.labels = weeks;
+  _aiChart.data.datasets.forEach((ds,i) => {
+    ds.data              = newDs[i].data;
+    ds.pointRadius       = newDs[i].pointRadius;
+    ds.pointBorderColor  = newDs[i].pointBorderColor;
+    ds.pointBorderWidth  = newDs[i].pointBorderWidth;
+  });
+  _aiChart.options.scales.y.max = yMax;
+  _aiChart.options.scales.y.ticks.stepSize = yMax === 105 ? 20 : 10;
+  _aiChart.options.plugins.tooltip.callbacks.title =
+    items => `${items[0].label}  ·  ${METRIC_LABELS[metric]}  ·  ${PROVIDER_LABELS[provider]}`;
+  _aiChart.update('active');
+}
+
+// ── Filter wiring ───────────────────────────────────────────────────────
+document.querySelectorAll('.ai-fbtn[data-metric]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const metric = btn.dataset.metric;
+    if (metric === _aiMetric) return;
+    _aiMetric = metric;
+    document.querySelectorAll('.ai-fbtn[data-metric]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    aiRenderBars(_aiMetric, _aiProvider);
+    aiUpdateChart(_aiMetric, _aiProvider);
+  });
+});
+
+document.querySelectorAll('.ai-fbtn[data-provider]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const provider = btn.dataset.provider;
+    if (provider === _aiProvider) return;
+    _aiProvider = provider;
+    document.querySelectorAll('.ai-fbtn[data-provider]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    aiRenderBars(_aiMetric, _aiProvider);
+    aiUpdateChart(_aiMetric, _aiProvider);
+  });
+});
+
+// ── Init ────────────────────────────────────────────────────────────────
+aiRenderBars('mr', 'composite');
+aiInitChart('mr', 'composite');
+
+})(); // end AI Brand Visibility IIFE
 </script>
 </body>
 </html>
