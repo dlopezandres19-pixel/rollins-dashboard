@@ -1,0 +1,26 @@
+{
+  "methodology_version": "v1",
+  "system_context": "You are answering a US consumer asking for pest-control recommendations. Answer the question naturally and independently. Do not assume any prior conversation context.",
+  "prompts": [
+    {"id": 1,  "text": "What are the best pest control companies in the US?"},
+    {"id": 2,  "text": "What pest control company would you recommend for a homeowner in the US?"},
+    {"id": 3,  "text": "Which residential pest control companies are the most reputable in the US?"},
+    {"id": 4,  "text": "What are the leading residential pest control companies in the US?"},
+    {"id": 5,  "text": "Which pest control company should I choose for my home?"},
+    {"id": 6,  "text": "What are the best national pest control companies?"},
+    {"id": 7,  "text": "Which pest control companies offer the best overall service for homeowners?"},
+    {"id": 8,  "text": "What are the best pest control companies for termites?"},
+    {"id": 9,  "text": "Which pest control company would you recommend for a termite problem?"},
+    {"id": 10, "text": "What are the best pest control companies for rodents?"},
+    {"id": 11, "text": "Which pest control company would you recommend for mice or rats?"},
+    {"id": 12, "text": "What are the best pest control companies for mosquitoes?"},
+    {"id": 13, "text": "Which pest control company would you recommend for ants and cockroaches?"},
+    {"id": 14, "text": "What are the best pest control companies for recurring home pest prevention?"},
+    {"id": 15, "text": "Which pest control companies offer the best value for homeowners?"},
+    {"id": 16, "text": "Which pest control companies have the best customer reputation?"},
+    {"id": 17, "text": "What pest control companies should I compare before choosing a provider?"},
+    {"id": 18, "text": "What are the main alternatives for residential pest control in the US?"},
+    {"id": 19, "text": "If you were hiring a pest control company for your home, which companies would you consider?"},
+    {"id": 20, "text": "Give me a shortlist of pest control companies a US homeowner should consider."}
+  ]
+}
