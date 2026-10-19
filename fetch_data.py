@@ -317,7 +317,7 @@ def main():
     # ── Section 1C: Housing Starts ────────────────────────────────────────────
     print("\n-- Housing Starts (FRED) --")
     data["housing_total"]  = fetch_fred("HOUST")      # Total SA
-    data["housing_single"] = fetch_fred("HSN1F")      # Single-family SA
+    data["housing_single"] = fetch_fred("HOUST1F")     # Single-family started SA
     data["housing_multi"]  = fetch_fred("HOUST5F")    # 5+ units SA
     print(f"  Total:         {len(data['housing_total'])} obs  | "
           f"latest: {data['housing_total'][-1]['date'] if data['housing_total'] else 'N/A'}")
