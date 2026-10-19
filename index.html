@@ -305,7 +305,7 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
       <div class="ai-col-label">Weekly Evolutivo</div>
       <div class="ai-brand-checks" id="aiBrandChecks"></div>
       <div class="ai-chart-wrap"><canvas id="aiVisChart"></canvas></div>
-      <div class="ai-context-note" id="aiContextNote">Datos reales desde Oct 7, 2026 · n=60 trial · Full run (n=300) desde Oct 10</div>
+      <div class="ai-context-note" id="aiContextNote">Weekly AI brand tracker · n=300/provider · Updated automatically via GitHub Actions</div>
     </div>
 
   </div>
@@ -1831,36 +1831,158 @@ const AI_BRANDS = [
   { name:'Aptive',              color:'#2e9e6b', key:'aptive'    },
 ];
 
-// ── Mention Rate data ───────────────────────────────────────────────────
-// Only real data — Oct 7, 2026 (n=60 trial)
-const MR_WEEKS = ['Oct 7'];
-const MR_WEEKLY = {
-  rollins:   { composite:[98.3], openai:[100.0], anthropic:[100.0], gemini:[95.0] },
-  rentokil:  { composite:[98.3], openai:[100.0], anthropic:[100.0], gemini:[95.0] },
-  massey:    { composite:[5.0],  openai:[5.0],   anthropic:[5.0],   gemini:[5.0]  },
-  anticimex: { composite:[0.0],  openai:[0.0],   anthropic:[0.0],   gemini:[0.0]  },
-  aptive:    { composite:[0.0],  openai:[0.0],   anthropic:[0.0],   gemini:[0.0]  },
-};
-// Per-provider breakdown for latest week (used in Composite pills)
-const MR_LATEST = {
-  rollins:   {openai:100, anthropic:100, gemini:95},
-  rentokil:  {openai:100, anthropic:100, gemini:95},
-  massey:    {openai:5,   anthropic:5,   gemini:5 },
-  anticimex: {openai:0,   anthropic:0,   gemini:0 },
-  aptive:    {openai:0,   anthropic:0,   gemini:0 },
+// ── Company name → brand key mapping ────────────────────────────────────
+// Maps CSV `company` column values to AI_BRANDS keys
+const COMPANY_KEY_MAP = {
+  'Rollins':             'rollins',
+  'Rentokil / Terminix': 'rentokil',
+  'Massey Services':     'massey',
+  'Anticimex':           'anticimex',
+  'Aptive':              'aptive',
 };
 
-// ── Share of Voice data ─────────────────────────────────────────────────
-// Only 1 real data point: Oct 7, 2026 (n=60 trial)
-// Total mentions composite: 59+59+3+0+0 = 121
-const SOV_WEEKS = ['Oct 7'];
-const SOV_WEEKLY = {
-  rollins:   { composite:[48.8], openai:[50.0], anthropic:[50.0], gemini:[47.5] },
-  rentokil:  { composite:[48.8], openai:[50.0], anthropic:[50.0], gemini:[47.5] },
-  massey:    { composite:[2.5],  openai:[2.5],  anthropic:[2.5],  gemini:[2.5]  },
-  anticimex: { composite:[0.0],  openai:[0.0],  anthropic:[0.0],  gemini:[0.0]  },
-  aptive:    { composite:[0.0],  openai:[0.0],  anthropic:[0.0],  gemini:[0.0]  },
+// ── Provider name → data key mapping ────────────────────────────────────
+const PROVIDER_KEY_MAP = {
+  'openai':       'openai',
+  'anthropic':    'anthropic',
+  'gemini':       'gemini',
+  'AI Composite': 'composite',
 };
+
+// ── Live data containers (populated by loadAIData) ───────────────────────
+let MR_WEEKS   = [];
+let MR_WEEKLY  = { rollins:{}, rentokil:{}, massey:{}, anticimex:{}, aptive:{} };
+let MR_LATEST  = { rollins:{openai:0,anthropic:0,gemini:0}, rentokil:{openai:0,anthropic:0,gemini:0},
+                   massey:{openai:0,anthropic:0,gemini:0},  anticimex:{openai:0,anthropic:0,gemini:0},
+                   aptive:{openai:0,anthropic:0,gemini:0} };
+let SOV_WEEKS  = [];
+let SOV_WEEKLY = { rollins:{}, rentokil:{}, massey:{}, anticimex:{}, aptive:{} };
+
+// ── CSV parser ───────────────────────────────────────────────────────────
+function parseCSV(text) {
+  const lines = text.trim().split('\n');
+  if (lines.length < 2) return [];
+  const headers = lines[0].split(',').map(h => h.trim());
+  return lines.slice(1).map(line => {
+    // Handle quoted fields
+    const vals = [];
+    let cur = '', inQ = false;
+    for (let i = 0; i < line.length; i++) {
+      const c = line[i];
+      if (c === '"') { inQ = !inQ; }
+      else if (c === ',' && !inQ) { vals.push(cur.trim()); cur = ''; }
+      else { cur += c; }
+    }
+    vals.push(cur.trim());
+    const obj = {};
+    headers.forEach((h, i) => obj[h] = vals[i] !== undefined ? vals[i] : '');
+    return obj;
+  });
+}
+
+// ── Week label formatter (ISO date → "Mon D") ───────────────────────────
+function fmtWeek(isoDate) {
+  const d = new Date(isoDate + 'T00:00:00');
+  return d.toLocaleDateString('en-US', {month:'short', day:'numeric'});
+}
+
+// ── Build data structures from parsed rows ───────────────────────────────
+function buildAIData(allRows) {
+  // Filter to company-level rows only
+  const rows = allRows.filter(r => r.entity_level === 'company');
+
+  // Collect sorted unique weeks
+  const weekSet = new Set(rows.map(r => r.week));
+  const sortedWeeks = Array.from(weekSet).sort();
+  MR_WEEKS  = sortedWeeks.map(fmtWeek);
+  SOV_WEEKS = sortedWeeks.map(fmtWeek);
+
+  // Init structure
+  const brands = Object.keys(COMPANY_KEY_MAP);
+  const providers = ['composite','openai','anthropic','gemini'];
+  brands.forEach(companyName => {
+    const key = COMPANY_KEY_MAP[companyName];
+    providers.forEach(p => {
+      MR_WEEKLY[key][p]  = sortedWeeks.map(() => 0);
+      SOV_WEEKLY[key][p] = sortedWeeks.map(() => 0);
+    });
+  });
+
+  // Fill from rows
+  rows.forEach(r => {
+    const key      = COMPANY_KEY_MAP[r.company];
+    const provKey  = PROVIDER_KEY_MAP[r.provider];
+    if (!key || !provKey) return;
+    const wIdx = sortedWeeks.indexOf(r.week);
+    if (wIdx < 0) return;
+    const mr  = parseFloat(r.mention_rate)      || 0;
+    const sov = parseFloat(r.share_of_mentions) || 0;
+    MR_WEEKLY[key][provKey][wIdx]  = parseFloat(mr.toFixed(1));
+    SOV_WEEKLY[key][provKey][wIdx] = parseFloat(sov.toFixed(1));
+  });
+
+  // Build MR_LATEST from last week's provider rows
+  const lastWeek = sortedWeeks[sortedWeeks.length - 1];
+  rows.filter(r => r.week === lastWeek && r.provider !== 'AI Composite').forEach(r => {
+    const key     = COMPANY_KEY_MAP[r.company];
+    const provKey = PROVIDER_KEY_MAP[r.provider];
+    if (!key || !provKey) return;
+    MR_LATEST[key][provKey] = parseFloat(r.mention_rate) || 0;
+  });
+}
+
+// ── Load all weekly CSVs via manifest ────────────────────────────────────
+async function loadAIData() {
+  const BASE = 'ai-brand-tracker/data';
+  let files = [];
+
+  try {
+    // manifest.json is generated by the GitHub Actions workflow
+    const mRes = await fetch(`${BASE}/manifest.json`);
+    if (mRes.ok) {
+      const manifest = await mRes.json();
+      files = (manifest.weekly || []).sort();
+    }
+  } catch(e) {
+    console.warn('AI manifest not found:', e.message);
+  }
+
+  if (!files.length) {
+    // Fallback: try loading last 12 weeks by date arithmetic
+    const today = new Date();
+    for (let i = 0; i < 12; i++) {
+      const d = new Date(today);
+      d.setDate(d.getDate() - i * 7);
+      // Round to nearest Thursday (tracker runs Thursdays)
+      const dow = d.getDay();
+      d.setDate(d.getDate() - ((dow + 3) % 7));
+      const iso = d.toISOString().slice(0, 10);
+      files.push(`${iso}_brand_metrics.csv`);
+    }
+  }
+
+  const allRows = [];
+  await Promise.all(files.map(async fname => {
+    try {
+      const r = await fetch(`${BASE}/weekly/${fname}`);
+      if (!r.ok) return;
+      const text = await r.text();
+      allRows.push(...parseCSV(text));
+    } catch(e) { /* file may not exist yet */ }
+  }));
+
+  if (allRows.length > 0) {
+    buildAIData(allRows);
+  }
+  // Re-render with live data (or keep zeros if no data loaded)
+  aiRenderBars(_aiMetric, _aiProvider);
+  aiRenderBrandChecks();
+  if (_aiChart) {
+    aiUpdateChart(_aiMetric, _aiProvider);
+  } else {
+    aiInitChart(_aiMetric, _aiProvider);
+  }
+}
 
 const PROVIDER_LABELS = {composite:'AI Composite', openai:'OpenAI', anthropic:'Anthropic', gemini:'Gemini'};
 const METRIC_LABELS   = {mr:'Mention Rate', sov:'Share of Voice'};
@@ -2074,9 +2196,11 @@ document.querySelectorAll('.ai-fbtn[data-provider]').forEach(btn => {
 });
 
 // ── Init ────────────────────────────────────────────────────────────────
+// Render immediately with empty data (skeleton), then load live CSVs
 aiRenderBars('mr', 'composite');
 aiRenderBrandChecks();
 aiInitChart('mr', 'composite');
+loadAIData(); // async — updates chart/bars when weekly CSVs are loaded
 
 })(); // end AI Brand Visibility IIFE
 </script>
