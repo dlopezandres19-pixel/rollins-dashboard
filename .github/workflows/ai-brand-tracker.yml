@@ -87,17 +87,24 @@ jobs:
         run: |
           python src/run_tracker.py
 
-      # ── 5. Commit new data files back to the repo ────────────────────────
+      # ── 5. Generate data manifest for dashboard ──────────────────────────
+      - name: Generate AI data manifest
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          python ai-brand-tracker/src/generate_manifest.py
+
+      # ── 6. Commit new data files back to the repo ────────────────────────
       - name: Commit weekly data files
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Stage only the data files (never source code or secrets)
+          # Stage data files + manifest
           git add ai-brand-tracker/data/raw/
           git add ai-brand-tracker/data/weekly/
           git add ai-brand-tracker/data/master/
+          git add ai-brand-tracker/data/manifest.json
 
           # Only commit if there is something new
           if git diff --staged --quiet; then
