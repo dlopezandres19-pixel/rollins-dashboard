@@ -1974,13 +1974,19 @@ async function loadAIData() {
   if (allRows.length > 0) {
     buildAIData(allRows);
   }
-  // Re-render with live data (or keep zeros if no data loaded)
-  aiRenderBars(_aiMetric, _aiProvider);
-  aiRenderBrandChecks();
-  if (_aiChart) {
-    aiUpdateChart(_aiMetric, _aiProvider);
+  // Only render if we have at least one week of data
+  if (MR_WEEKS.length > 0) {
+    aiRenderBars(_aiMetric, _aiProvider);
+    aiRenderBrandChecks();
+    if (_aiChart) {
+      aiUpdateChart(_aiMetric, _aiProvider);
+    } else {
+      aiInitChart(_aiMetric, _aiProvider);
+    }
   } else {
-    aiInitChart(_aiMetric, _aiProvider);
+    aiRenderBrandChecks();
+    document.getElementById('aiBarList').innerHTML =
+      '<div style="color:#98a2b3;font-size:12px;padding:16px 0">Loading AI data…</div>';
   }
 }
 
@@ -2196,11 +2202,8 @@ document.querySelectorAll('.ai-fbtn[data-provider]').forEach(btn => {
 });
 
 // ── Init ────────────────────────────────────────────────────────────────
-// Render immediately with empty data (skeleton), then load live CSVs
-aiRenderBars('mr', 'composite');
-aiRenderBrandChecks();
-aiInitChart('mr', 'composite');
-loadAIData(); // async — updates chart/bars when weekly CSVs are loaded
+// Load live CSVs first, then render
+loadAIData(); // async — renders chart/bars after weekly CSVs are loaded
 
 })(); // end AI Brand Visibility IIFE
 </script>
