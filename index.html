@@ -1329,6 +1329,67 @@ function renderTracker() {
   const tickCfg = makeXTicks(visibleDates);
   const tickCb  = makeXTickCallback(visibleDates);
 
+  // ── Quarter boundary plugin (built fresh each render with current visibleDates) ──
+  // Draws subtle vertical separators at Q1/Q2/Q3/Q4 starts; year starts slightly stronger.
+  // Labels Q1–Q4 are rotated 90° at the top of the chart area in a very subtle color.
+  // Indices are relative to visibleDates so the slider is always respected.
+  const trackerQPlugin = {
+    id: 'trackerQuarters',
+    afterDraw(chart) {
+      const { ctx, chartArea, scales: { x } } = chart;
+      if (!x || !chartArea) return;
+      const dates = visibleDates; // closure over current render's dates
+      if (!dates || dates.length < 2) return;
+      ctx.save();
+
+      for (let i = 1; i < dates.length; i++) {
+        const prev = dates[i - 1];
+        const curr = dates[i];
+        const prevMo = parseInt(prev.slice(5, 7), 10);
+        const currMo = parseInt(curr.slice(5, 7), 10);
+        const prevYr = prev.slice(0, 4);
+        const currYr = curr.slice(0, 4);
+
+        // Detect quarter-start: month 1(Q1), 4(Q2), 7(Q3), 10(Q4)
+        const isQStart = (currMo === 1 || currMo === 4 || currMo === 7 || currMo === 10)
+                       && (prevMo !== currMo);
+        if (!isQStart) continue;
+
+        const isYearStart = (currYr !== prevYr);
+
+        // Pixel midpoint between ticks i-1 and i
+        const xPrev = x.getPixelForValue(i - 1);
+        const xCurr = x.getPixelForValue(i);
+        if (xPrev == null || xCurr == null) continue;
+        const px = (xPrev + xCurr) / 2;
+
+        // Draw line
+        ctx.beginPath();
+        ctx.setLineDash(isYearStart ? [4, 3] : [3, 3]);
+        ctx.lineWidth  = isYearStart ? 1.2 : 0.8;
+        ctx.strokeStyle = isYearStart ? 'rgba(27,58,92,0.28)' : 'rgba(27,58,92,0.16)';
+        ctx.moveTo(px, chartArea.top);
+        ctx.lineTo(px, chartArea.bottom);
+        ctx.stroke();
+        ctx.setLineDash([]);
+
+        // Quarter label: Q1 / Q2 / Q3 / Q4 — rotated 90° near top, reading downward
+        // Translate to (px+3, chartArea.top+2), then rotate 90° CW so text reads top→bottom
+        const qNum = Math.ceil(currMo / 3);
+        const qLabel = isYearStart ? `Q${qNum} '${currYr.slice(2)}` : `Q${qNum}`;
+        ctx.save();
+        ctx.font = isYearStart ? `600 9px "Segoe UI",system-ui,sans-serif` : `500 9px "Segoe UI",system-ui,sans-serif`;
+        ctx.fillStyle = isYearStart ? 'rgba(27,58,92,0.44)' : 'rgba(27,58,92,0.30)';
+        ctx.textAlign = 'left';
+        ctx.translate(px + 3, chartArea.top + 3);
+        ctx.rotate(Math.PI / 2); // 90° CW → text reads left-to-right when rotated = top-to-bottom visually
+        ctx.fillText(qLabel, 0, 0);
+        ctx.restore();
+      }
+      ctx.restore();
+    }
+  };
+
   makeChart('trackerChart', {
     type:'line',
     data:{labels:visibleDates, datasets},
@@ -1337,6 +1398,7 @@ function renderTracker() {
       interaction:{mode:'index', intersect:false},
       plugins:{
         legend:{display:false},
+        yearBoundary: false,
         tooltip:{
           ...TOOLTIP,
           callbacks:{
@@ -1375,7 +1437,8 @@ function renderTracker() {
           display: datasets.some(d=>d._type==='growth')
         }
       }
-    }
+    },
+    plugins:[trackerQPlugin]
   });
 
   // Legend
