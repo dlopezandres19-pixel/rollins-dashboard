@@ -2,8 +2,8 @@ name: AI Regional Brand Tracker
 
 on:
   schedule:
-    # Every Wednesday at 06:00 UTC (01:00 Lima time)
-    - cron: "0 6 * * 3"
+    # Every Wednesday at 07:00 UTC (02:00 Lima time)
+    - cron: "0 7 * * 3"
   workflow_dispatch:
     inputs:
       provider:
