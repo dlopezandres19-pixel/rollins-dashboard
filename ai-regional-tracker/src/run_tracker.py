@@ -99,8 +99,9 @@ def run_cell(
     record["mentioned_brands"] = bm.find_mentions(response_text)
     record["first_mentioned"] = bm.find_first_mentioned(response_text)
     record["top3_brands"] = bm.find_top_n(response_text, n=3)
+    record["has_unknown"] = bm.has_unrecognized_mention(response_text)
 
-    mentioned_str = ", ".join(record["mentioned_brands"]) or "(none)"
+    mentioned_str = ", ".join(record["mentioned_brands"]) or ("(local/unknown)" if record["has_unknown"] else "(none)")
     log(f"  ✓ {provider_id} | {region_id} | p{prompt_id} r{rep} → {mentioned_str}")
 
     return record
@@ -148,6 +149,20 @@ def compute_metrics(records: list[dict], brands_list: list[str]) -> list[dict]:
             "top3_rate":    round(top3_hits    / total, 4) if total else 0,
             "rank1_rate":   round(rank1_hits   / total, 4) if total else 0,
         })
+
+    # Synthetic row: Local / Unknown brands
+    local_hits = sum(1 for r in records if r.get("has_unknown") and not r["error"])
+    rows.append({
+        "brand": "__local_unknown__",
+        "mention_hits": local_hits,
+        "top3_hits": 0,  # not trackable without knowing the brand
+        "rank1_hits": 0,
+        "total_responses": total,
+        "mention_rate": round(local_hits / total, 4) if total else 0,
+        "top3_rate":    0,
+        "rank1_rate":   0,
+    })
+
     return rows
 
 
