@@ -1929,12 +1929,17 @@ function fmtWeek(isoDate) {
 
 // ── Raw company name → raw data key (before grouping) ────────────────────
 const RAW_COMPANY_MAP = {
+  // National CSV (entity_level=company)
   'Rollins':             'rollins',
   'Rentokil / Terminix': 'rentokil',
   'Massey Services':     'massey',
   'Anticimex':           'anticimex',
   'Aptive':              'aptive',
   '__local_unknown__':   'local',
+  // Regional CSV (brand column — uses canonical brand names from brand_matcher)
+  'Rollins / Orkin':     'rollins',
+  'Massey':              'massey',
+  // Arrow Exterminators, Truly Nolen, Mosquito Squad, Lawn Doctor → not in display groups, ignored
 };
 
 // ── Build data structures from parsed rows ───────────────────────────────
@@ -2439,7 +2444,7 @@ function buildRegionalData(allRows, regionId) {
     const mr = parseFloat(r.mention_rate) || 0;
     const r1 = parseFloat(r.rank1_rate)   || 0;
     const mh = parseFloat(r.mention_hits) || 0;
-    MHw[rawKey][provKey][wIdx] += mh;
+    if (MHw[rawKey] && MHw[rawKey][provKey] !== undefined) MHw[rawKey][provKey][wIdx] += mh;
     const dispKey = OTHER_SUBKEYS.includes(rawKey) ? 'other' : rawKey;
     if (dispKey === 'local') {
       MRw['local'][provKey][wIdx] = parseFloat(mr.toFixed(1));
@@ -2501,7 +2506,19 @@ function buildRegionalData(allRows, regionId) {
     if(ors.length) MRlatest['other'][p]=parseFloat((ors.reduce((s,r)=>s+(parseFloat(r.mention_rate)||0),0)/ors.length).toFixed(1));
   });
 
-  REG_DATA[regionId] = { MR_WEEKLY:MRw, R1_WEEKLY:R1w, SOV_WEEKLY:SOVw, MR_WEEKS:sortedWeeks.map(fmtWeek), MR_LATEST:MRlatest };
+  // Regional weeks are ISO week strings like "2026-W44" — convert to readable label
+  function fmtISOWeek(wkStr) {
+    // Parse "YYYY-Www" → Monday of that week → "Mon D"
+    const m = wkStr.match(/^(\d{4})-W(\d{2})$/);
+    if (!m) return wkStr;
+    const yr = parseInt(m[1]), wk = parseInt(m[2]);
+    // Jan 4 is always in week 1
+    const jan4 = new Date(Date.UTC(yr, 0, 4));
+    const monday = new Date(jan4);
+    monday.setUTCDate(jan4.getUTCDate() - ((jan4.getUTCDay() || 7) - 1) + (wk - 1) * 7);
+    return monday.toLocaleDateString('en-US', {month:'short', day:'numeric'});
+  }
+  REG_DATA[regionId] = { MR_WEEKLY:MRw, R1_WEEKLY:R1w, SOV_WEEKLY:SOVw, MR_WEEKS:sortedWeeks.map(fmtISOWeek), MR_LATEST:MRlatest };
 }
 
 async function loadRegionalData() {
