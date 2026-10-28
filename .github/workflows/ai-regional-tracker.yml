@@ -2,8 +2,8 @@ name: AI Regional Brand Tracker
 
 on:
   schedule:
-    # Every Monday at 06:00 UTC (01:00 Lima time)
-    - cron: "0 6 * * 1"
+    # Every Wednesday at 06:00 UTC (01:00 Lima time)
+    - cron: "0 6 * * 3"
   workflow_dispatch:
     inputs:
       provider:
@@ -64,6 +64,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           # Show what files were written
           echo "=== Files in data/ ==="
           find ai-regional-tracker/data -type f 2>/dev/null || echo "(none)"
