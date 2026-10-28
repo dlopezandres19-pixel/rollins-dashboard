@@ -308,7 +308,7 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
   <div class="ai-filter-row">
     <span class="ai-filter-label">Metric:</span>
     <button class="ai-fbtn active" data-metric="mr">Mention Rate</button>
-    <button class="ai-fbtn" data-metric="r1">#1 Rec. Rate</button>
+    <!-- #1 Rec. Rate button removed — metric removed from UI -->
     <button class="ai-fbtn" data-metric="sov">Share of Voice</button>
     <span style="width:10px;display:inline-block;border-left:1px solid var(--border);height:14px;vertical-align:middle;"></span>
     <span class="ai-filter-label">Provider:</span>
@@ -1852,7 +1852,7 @@ const AI_BRANDS = [
   { name:'Rollins',             color:'#2e6da4', key:'rollins'  },
   { name:'Rentokil / Terminix', color:'#e07820', key:'rentokil' },
   { name:'Other Brands',        color:'#7b7b9e', key:'other'    },
-  { name:'Local / Unknown',     color:'#b0bec5', key:'local'    },
+  // Local / Unknown excluded from national view (no company-level row in national CSV)
 ];
 
 // ── Company name → brand key mapping ────────────────────────────────────
@@ -1996,52 +1996,45 @@ function buildAIData(allRows) {
     } else {
       MR_WEEKLY[dispKey][provKey][wIdx] = parseFloat(mr.toFixed(1));
       R1_WEEKLY[dispKey][provKey][wIdx] = parseFloat(r1.toFixed(1));
-      // For AI Composite, store share_of_mentions directly (mention_hits is empty in composite rows)
-      if (provKey === 'composite') {
+      // For individual providers, store share_of_mentions (it's pre-computed in the CSV)
+      if (provKey !== 'composite' && !isNaN(som)) {
         SOV_WEEKLY[dispKey][provKey][wIdx] = parseFloat(som.toFixed(1));
       }
     }
   });
 
-  // Average MR, R1, and SOV for 'other' across its sub-brands
+  // Average MR and R1 for 'other' across its sub-brands
   const providerList = ['composite','openai','anthropic','gemini'];
-  providerList.forEach(p => {
+  ['openai','anthropic','gemini'].forEach(p => {
     sortedWeeks.forEach((_, wIdx) => {
-      // Collect rows for this week/provider/other-subkeys
       const otherRows = rows.filter(r =>
         r.week === sortedWeeks[wIdx] &&
         PROVIDER_KEY_MAP[r.provider] === p &&
         OTHER_SUBKEYS.includes(RAW_COMPANY_MAP[r.company])
       );
       if (otherRows.length > 0) {
-        const avgMR  = otherRows.reduce((s, r) => s + (parseFloat(r.mention_rate)    || 0), 0) / otherRows.length;
-        const avgR1  = otherRows.reduce((s, r) => s + (parseFloat(r.number1_rate)    || 0), 0) / otherRows.length;  // fix: number1_rate
+        const avgMR  = otherRows.reduce((s, r) => s + (parseFloat(r.mention_rate)  || 0), 0) / otherRows.length;
+        const avgR1  = otherRows.reduce((s, r) => s + (parseFloat(r.number1_rate)  || 0), 0) / otherRows.length;
+        const avgSOV = otherRows.reduce((s, r) => s + (parseFloat(r.share_of_mentions) || 0), 0) / otherRows.length;
         MR_WEEKLY['other'][p][wIdx]  = parseFloat(avgMR.toFixed(1));
         R1_WEEKLY['other'][p][wIdx]  = parseFloat(avgR1.toFixed(1));
-        // For composite, average share_of_mentions for 'other' group
-        if (p === 'composite') {
-          const avgSOV = otherRows.reduce((s, r) => s + (parseFloat(r.share_of_mentions) || 0), 0) / otherRows.length;
-          SOV_WEEKLY['other'][p][wIdx] = parseFloat(avgSOV.toFixed(1));
-        }
+        SOV_WEEKLY['other'][p][wIdx] = parseFloat(avgSOV.toFixed(1));
       }
     });
   });
 
-  // SOV for openai/anthropic/gemini: compute client-side from mention_hits (populated for non-composite rows)
-  ['openai','anthropic','gemini'].forEach(p => {
-    sortedWeeks.forEach((_, wIdx) => {
-      const total = RAW_KEYS.reduce((s, k) => s + (MH_WEEKLY[k][p][wIdx] || 0), 0);
-      if (total === 0) return;
-      // Rollins and Rentokil direct
-      ['rollins','rentokil'].forEach(k => {
-        SOV_WEEKLY[k][p][wIdx] = parseFloat(((MH_WEEKLY[k][p][wIdx] / total) * 100).toFixed(1));
-      });
-      // Other = sum of sub-brands
-      const otherMH = OTHER_SUBKEYS.reduce((s, k) => s + (MH_WEEKLY[k][p][wIdx] || 0), 0);
-      SOV_WEEKLY['other'][p][wIdx] = parseFloat(((otherMH / total) * 100).toFixed(1));
+  // Composite MR, R1, SOV: average across the three individual providers
+  sortedWeeks.forEach((_, wIdx) => {
+    DISPLAY_KEYS.forEach(k => {
+      const indivProviders = ['openai','anthropic','gemini'];
+      const mrVals  = indivProviders.map(p => MR_WEEKLY[k][p]?.[wIdx]  || 0);
+      const r1Vals  = indivProviders.map(p => R1_WEEKLY[k][p]?.[wIdx]  || 0);
+      const sovVals = indivProviders.map(p => SOV_WEEKLY[k][p]?.[wIdx] || 0);
+      MR_WEEKLY[k]['composite'][wIdx]  = parseFloat((mrVals.reduce((a,b)=>a+b,0)  / indivProviders.length).toFixed(1));
+      R1_WEEKLY[k]['composite'][wIdx]  = parseFloat((r1Vals.reduce((a,b)=>a+b,0)  / indivProviders.length).toFixed(1));
+      SOV_WEEKLY[k]['composite'][wIdx] = parseFloat((sovVals.reduce((a,b)=>a+b,0) / indivProviders.length).toFixed(1));
     });
   });
-  // SOV for composite: already populated above via share_of_mentions — nothing else needed here
 
   // Build MR_LATEST from last week's provider rows (for breakdown table)
   const lastWeek = sortedWeeks[sortedWeeks.length - 1];
@@ -2171,9 +2164,7 @@ function aiRenderBars(metric, provider) {
     const barW = Math.min(100, (val / maxVal) * 100);
     const pd   = MR_LATEST[brand.key] || {};
 
-    // Secondary metric: always show #1 Rate alongside Mention Rate
-    const r1val = (metric === 'mr' && R1_WEEKLY[brand.key] && R1_WEEKLY[brand.key][provider])
-                  ? (R1_WEEKLY[brand.key][provider][lastIdx] || 0) : null;
+    const r1val = null; // #1 Rec. Rate removed from UI
 
     return `
       <div class="ai-bar-row">
@@ -2389,7 +2380,7 @@ function aiRenderDisclaimer(mode) {
     ? `<strong>Methodology v1-regional</strong> · Web search <strong>ON</strong> (OpenAI + Gemini only — Anthropic excluded: no native web search API) · 10 prompts × 3 reps × 4 regions × 2 providers = 240 calls/week · <strong>[REGION]</strong> replaced at runtime per region ·`
     : `<strong>Methodology v1</strong> · Web search <strong>OFF</strong> (measures model prior only) · 20 prompts × 5 reps × 3 providers = 300 responses/week ·`;
 
-  const commonLine = `<strong>Mention Rate</strong> = % of prompts where brand appeared · <strong>#1 Rec. Rate</strong> = % where brand was mentioned first · <strong>Share of Voice</strong> = share of total mention hits (client-side) · <strong>Other Brands</strong> = avg of Aptive, Massey &amp; Anticimex · Brand matching: deterministic regex, no LLM`;
+  const commonLine = `<strong>Mention Rate</strong> = % of prompts where brand appeared · <strong>Share of Voice</strong> = share of total mention hits across tracked brands · <strong>Other Brands</strong> = avg of Aptive, Massey &amp; Anticimex · Brand matching: deterministic regex, no LLM`;
 
   const promptsHtml = prompts.map((p, i) =>
     `<div class="ai-prompt-item"><span>${i+1}.</span>${p}</div>`
@@ -2618,8 +2609,10 @@ function getActiveData() {
 function aiRenderBarsMode(metric, provider) {
   const d = getActiveData();
   if (!d) {
-    document.getElementById('aiBarList').innerHTML =
-      '<div style="color:#98a2b3;font-size:12px;padding:16px 0">Regional data not yet available — run the tracker first.</div>';
+    const isFile = location.protocol === 'file:';
+    document.getElementById('aiBarList').innerHTML = isFile
+      ? '<div style="color:#98a2b3;font-size:12px;padding:16px 0">⚠️ Regional data requires a web server — open this file via GitHub Pages or a local server (not file://).</div>'
+      : '<div style="color:#98a2b3;font-size:12px;padding:16px 0">Regional data not yet available — run the tracker first to generate CSVs.</div>';
     return;
   }
 
@@ -2643,8 +2636,7 @@ function aiRenderBarsMode(metric, provider) {
     const pct  = val.toFixed(1)+'%';
     const barW = Math.min(100,(val/maxVal)*100);
     const pd   = d.MR_LATEST[brand.key]||{};
-    const r1val = (metric==='mr'&&d.R1_WEEKLY[brand.key]&&d.R1_WEEKLY[brand.key][provider])
-                  ? (d.R1_WEEKLY[brand.key][provider][lastIdx]||0) : null;
+    const r1val = null; // #1 Rec. Rate removed from UI
     const pills = _aiMode==='regional'
       ? `<span class="ai-pill">OpenAI: ${(pd.openai||0).toFixed(1)}%</span><span class="ai-pill">Gemini: ${(pd.gemini||0).toFixed(1)}%</span>`
       : `<span class="ai-pill">OpenAI: ${(pd.openai||0).toFixed(1)}%</span><span class="ai-pill">Anthropic: ${(pd.anthropic||0).toFixed(1)}%</span><span class="ai-pill">Gemini: ${(pd.gemini||0).toFixed(1)}%</span>`;
