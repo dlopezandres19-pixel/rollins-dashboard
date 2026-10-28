@@ -183,6 +183,24 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 .ai-disclaimer{margin-top:14px;padding:10px 14px;background:var(--border-light);border-radius:6px;font-size:10px;color:var(--text-muted);line-height:1.6;border-left:3px solid var(--accent-light);}
 .ai-disclaimer strong{color:var(--text-secondary);}
 .ai-prompts-list{margin:6px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:3px;}
+
+/* ── AI Mode toggle (Nacional / Regional) ── */
+.ai-mode-row{display:flex;align-items:center;gap:6px;margin-bottom:10px;}
+.ai-mode-label{font-size:10px;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;margin-right:4px;}
+.ai-mbtn{font-size:11px;font-weight:700;padding:4px 14px;border-radius:20px;cursor:pointer;border:1px solid var(--border);background:var(--border-light);color:var(--text-muted);transition:all .15s ease;letter-spacing:.02em;white-space:nowrap;}
+.ai-mbtn:hover{border-color:var(--accent-light);color:var(--accent-light);}
+.ai-mbtn.active{background:var(--accent);border-color:var(--accent);color:#fff;}
+.ai-mbtn-web{font-size:9px;opacity:.75;margin-left:3px;}
+/* Region filter row */
+.ai-region-row{display:flex;align-items:center;gap:6px;margin:-6px 0 10px;flex-wrap:wrap;}
+/* Disclaimer full-width with prompt columns */
+.ai-disclaimer-full{margin-top:14px;padding:12px 16px;background:var(--border-light);border-radius:6px;font-size:10px;color:var(--text-muted);line-height:1.6;border-left:3px solid var(--accent-light);}
+.ai-disclaimer-full strong{color:var(--text-secondary);}
+.ai-disclaimer-meta{margin-bottom:10px;}
+.ai-prompts-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px 16px;margin-top:8px;}
+@media(max-width:800px){.ai-prompts-grid{grid-template-columns:repeat(2,1fr);}}
+.ai-prompt-item{font-size:10px;color:var(--text-secondary);padding:3px 0;border-bottom:1px solid var(--border);line-height:1.4;}
+.ai-prompt-item span{color:var(--text-muted);font-weight:600;margin-right:4px;}
 .ai-prompts-list li::before{content:"›  ";color:var(--accent-light);font-weight:700;}
 </style>
 </head>
@@ -279,17 +297,35 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
     <div class="ai-trial-badge">⚠ 1st trial · n=60 · Full run (n=300) starts Oct 10</div>
   </div>
 
-  <!-- Dual filter row -->
+  <!-- Fila 1: Modo Nacional / Regional -->
+  <div class="ai-mode-row">
+    <span class="ai-mode-label">Mode:</span>
+    <button class="ai-mbtn active" id="aiModeNacional" data-mode="nacional">Nacional <span class="ai-mbtn-web">web OFF</span></button>
+    <button class="ai-mbtn" id="aiModeRegional" data-mode="regional">Regional <span class="ai-mbtn-web">web ON</span></button>
+  </div>
+
+  <!-- Fila 2: Metric + Provider -->
   <div class="ai-filter-row">
     <span class="ai-filter-label">Metric:</span>
     <button class="ai-fbtn active" data-metric="mr">Mention Rate</button>
+    <button class="ai-fbtn" data-metric="r1">#1 Rec. Rate</button>
     <button class="ai-fbtn" data-metric="sov">Share of Voice</button>
     <span style="width:10px;display:inline-block;border-left:1px solid var(--border);height:14px;vertical-align:middle;"></span>
     <span class="ai-filter-label">Provider:</span>
     <button class="ai-fbtn active" data-provider="composite">AI Composite</button>
     <button class="ai-fbtn" data-provider="openai">OpenAI</button>
-    <button class="ai-fbtn" data-provider="anthropic">Anthropic</button>
+    <button class="ai-fbtn ai-anthropic-btn" data-provider="anthropic">Anthropic</button>
     <button class="ai-fbtn" data-provider="gemini">Gemini</button>
+  </div>
+
+  <!-- Fila 3: Región (solo visible en modo Regional) -->
+  <div class="ai-region-row" id="aiRegionRow" style="display:none;">
+    <span class="ai-filter-label">Region:</span>
+    <button class="ai-fbtn active" data-region="all">All</button>
+    <button class="ai-fbtn" data-region="southeast">Southeast</button>
+    <button class="ai-fbtn" data-region="northeast">Northeast</button>
+    <button class="ai-fbtn" data-region="midwest">Midwest</button>
+    <button class="ai-fbtn" data-region="west">West</button>
   </div>
 
   <div class="ai-grid">
@@ -302,7 +338,7 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 
     <!-- RIGHT: Evolutivo line chart -->
     <div>
-      <div class="ai-col-label">Weekly Evolutivo</div>
+      <div class="ai-col-label" id="aiChartLabel">Weekly Evolutivo</div>
       <div class="ai-brand-checks" id="aiBrandChecks"></div>
       <div class="ai-chart-wrap"><canvas id="aiVisChart"></canvas></div>
       <div class="ai-context-note" id="aiContextNote">Weekly AI brand tracker · n=300/provider · Updated automatically via GitHub Actions</div>
@@ -310,23 +346,11 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
 
   </div>
 
-  <!-- Methodology -->
-  <div class="ai-disclaimer">
-    <strong>Methodology v1</strong> · <strong>Mention Rate</strong> = % of prompts where brand appeared in AI response (independent per brand, can sum &gt;100%) ·
-    <strong>Share of Voice</strong> = brand's share of total mentions across all responses (sums to 100%) ·
-    20 prompts × 5 reps × 3 providers = 300 responses/week (full run) ·
-    Providers: OpenAI gpt-4o-mini · Anthropic claude-haiku-4-5 · Gemini gemini-1.5-flash ·
-    AI Composite = equal-weighted avg · Brand matching is deterministic (regex, no LLM)
-    <br><br>
-    <strong>Sample prompts</strong> (5 of 20):
-    <ul class="ai-prompts-list">
-      <li>"Which pest control companies operate nationwide in the US?"</li>
-      <li>"Who are the largest residential pest control providers in North America?"</li>
-      <li>"What are the best-known termite treatment companies in the United States?"</li>
-      <li>"Which companies dominate the commercial pest management market?"</li>
-      <li>"What pest control brands are available in Florida?"</li>
-    </ul>
+  <!-- Disclaimer full-width con prompts en columnas (dinámico) -->
+  <div class="ai-disclaimer-full" id="aiDisclaimerFull">
+    <!-- renderizado por JS -->
   </div>
+
 </div>
 <!-- ══ /AI BRAND VISIBILITY ══════════════════════════════════════════════ -->
 
@@ -1823,23 +1847,25 @@ loadDemand();
 (function(){
 'use strict';
 
+// Displayed brands: Aptive, Massey, Anticimex are grouped as "Other"
 const AI_BRANDS = [
-  { name:'Rollins',             color:'#2e6da4', key:'rollins'   },
-  { name:'Rentokil / Terminix', color:'#e07820', key:'rentokil'  },
-  { name:'Massey Services',     color:'#7b4e9e', key:'massey'    },
-  { name:'Anticimex',           color:'#c0392b', key:'anticimex' },
-  { name:'Aptive',              color:'#2e9e6b', key:'aptive'    },
+  { name:'Rollins',             color:'#2e6da4', key:'rollins'  },
+  { name:'Rentokil / Terminix', color:'#e07820', key:'rentokil' },
+  { name:'Other Brands',        color:'#7b7b9e', key:'other'    },
+  { name:'Local / Unknown',     color:'#b0bec5', key:'local'    },
 ];
 
 // ── Company name → brand key mapping ────────────────────────────────────
-// Maps CSV `company` column values to AI_BRANDS keys
+// Aptive / Massey / Anticimex → aggregated into 'other'
 const COMPANY_KEY_MAP = {
   'Rollins':             'rollins',
   'Rentokil / Terminix': 'rentokil',
-  'Massey Services':     'massey',
-  'Anticimex':           'anticimex',
-  'Aptive':              'aptive',
+  'Massey Services':     'other',
+  'Anticimex':           'other',
+  'Aptive':              'aptive_raw',   // kept raw for SOV calculation below
 };
+// Raw keys used only for SOV summation; not displayed individually
+const OTHER_KEYS = ['massey', 'anticimex', 'aptive'];
 
 // ── Provider name → data key mapping ────────────────────────────────────
 const PROVIDER_KEY_MAP = {
@@ -1849,14 +1875,29 @@ const PROVIDER_KEY_MAP = {
   'AI Composite': 'composite',
 };
 
-// ── Live data containers (populated by loadAIData) ───────────────────────
+// ── Live data containers (populated by buildAIData) ──────────────────────
+// Displayed keys: rollins, rentokil, other
+// Raw keys for SOV calc: rollins, rentokil, massey, anticimex, aptive
+const DISPLAY_KEYS = ['rollins','rentokil','other','local'];
+const RAW_KEYS     = ['rollins','rentokil','massey','anticimex','aptive'];
+const OTHER_SUBKEYS = ['massey','anticimex','aptive'];
+
 let MR_WEEKS   = [];
-let MR_WEEKLY  = { rollins:{}, rentokil:{}, massey:{}, anticimex:{}, aptive:{} };
-let MR_LATEST  = { rollins:{openai:0,anthropic:0,gemini:0}, rentokil:{openai:0,anthropic:0,gemini:0},
-                   massey:{openai:0,anthropic:0,gemini:0},  anticimex:{openai:0,anthropic:0,gemini:0},
-                   aptive:{openai:0,anthropic:0,gemini:0} };
+// MR_WEEKLY stores per-display-key weekly arrays
+let MR_WEEKLY  = { rollins:{}, rentokil:{}, other:{}, local:{} };
+// R1_WEEKLY — #1 Recommendation Rate (rank1_rate from CSV)
+let R1_WEEKLY  = { rollins:{}, rentokil:{}, other:{}, local:{} };
+// For SOV: we store raw per-company mention_hits and compute SOV client-side
+let MH_WEEKLY  = { rollins:{}, rentokil:{}, massey:{}, anticimex:{}, aptive:{} }; // mention_hits raw
 let SOV_WEEKS  = [];
-let SOV_WEEKLY = { rollins:{}, rentokil:{}, massey:{}, anticimex:{}, aptive:{} };
+let SOV_WEEKLY = { rollins:{}, rentokil:{}, other:{}, local:{} };
+// MR_LATEST used for provider breakdown table (last week, per-provider)
+let MR_LATEST  = {
+  rollins:  {openai:0,anthropic:0,gemini:0},
+  rentokil: {openai:0,anthropic:0,gemini:0},
+  other:    {openai:0,anthropic:0,gemini:0},
+  local:    {openai:0,anthropic:0,gemini:0},
+};
 
 // ── CSV parser ───────────────────────────────────────────────────────────
 function parseCSV(text) {
@@ -1886,6 +1927,16 @@ function fmtWeek(isoDate) {
   return d.toLocaleDateString('en-US', {month:'short', day:'numeric'});
 }
 
+// ── Raw company name → raw data key (before grouping) ────────────────────
+const RAW_COMPANY_MAP = {
+  'Rollins':             'rollins',
+  'Rentokil / Terminix': 'rentokil',
+  'Massey Services':     'massey',
+  'Anticimex':           'anticimex',
+  'Aptive':              'aptive',
+  '__local_unknown__':   'local',
+};
+
 // ── Build data structures from parsed rows ───────────────────────────────
 function buildAIData(allRows) {
   // Filter to company-level rows only
@@ -1896,38 +1947,119 @@ function buildAIData(allRows) {
   const sortedWeeks = Array.from(weekSet).sort();
   MR_WEEKS  = sortedWeeks.map(fmtWeek);
   SOV_WEEKS = sortedWeeks.map(fmtWeek);
+  const n = sortedWeeks.length;
 
-  // Init structure
-  const brands = Object.keys(COMPANY_KEY_MAP);
   const providers = ['composite','openai','anthropic','gemini'];
-  brands.forEach(companyName => {
-    const key = COMPANY_KEY_MAP[companyName];
+
+  // Init display structures
+  DISPLAY_KEYS.forEach(key => {
     providers.forEach(p => {
-      MR_WEEKLY[key][p]  = sortedWeeks.map(() => 0);
-      SOV_WEEKLY[key][p] = sortedWeeks.map(() => 0);
+      MR_WEEKLY[key][p]  = Array(n).fill(0);
+      R1_WEEKLY[key][p]  = Array(n).fill(0);
+      SOV_WEEKLY[key][p] = Array(n).fill(0);
     });
   });
 
-  // Fill from rows
-  rows.forEach(r => {
-    const key      = COMPANY_KEY_MAP[r.company];
-    const provKey  = PROVIDER_KEY_MAP[r.provider];
-    if (!key || !provKey) return;
-    const wIdx = sortedWeeks.indexOf(r.week);
-    if (wIdx < 0) return;
-    const mr  = parseFloat(r.mention_rate)      || 0;
-    const sov = parseFloat(r.share_of_mentions) || 0;
-    MR_WEEKLY[key][provKey][wIdx]  = parseFloat(mr.toFixed(1));
-    SOV_WEEKLY[key][provKey][wIdx] = parseFloat(sov.toFixed(1));
+  // Init raw mention-hits accumulators (for client-side SOV)
+  RAW_KEYS.forEach(key => {
+    providers.forEach(p => {
+      MH_WEEKLY[key][p] = Array(n).fill(0);
+    });
   });
 
-  // Build MR_LATEST from last week's provider rows
+  // Fill raw data from rows
+  rows.forEach(r => {
+    const rawKey  = RAW_COMPANY_MAP[r.company];
+    const provKey = PROVIDER_KEY_MAP[r.provider];
+    if (!rawKey || !provKey) return;
+    const wIdx = sortedWeeks.indexOf(r.week);
+    if (wIdx < 0) return;
+
+    const mr  = parseFloat(r.mention_rate)  || 0;
+    const r1  = parseFloat(r.rank1_rate)    || 0;
+    const mh  = parseFloat(r.mention_hits)  || 0;
+
+    // Accumulate mention-hits for SOV (raw per company)
+    MH_WEEKLY[rawKey][provKey][wIdx] += mh;
+
+    // Map to display key
+    const dispKey = OTHER_SUBKEYS.includes(rawKey) ? 'other' : rawKey;
+
+    // Mention Rate — average for 'other' (computed after loop), direct for others
+    if (dispKey === 'other') {
+      // Averaged over OTHER_SUBKEYS after the loop — skip here
+    } else if (dispKey === 'local') {
+      // __local_unknown__ — direct mention_rate (% responses with unrecognized company)
+      MR_WEEKLY['local'][provKey][wIdx] = parseFloat(mr.toFixed(1));
+      R1_WEEKLY['local'][provKey][wIdx] = 0; // not trackable
+    } else {
+      MR_WEEKLY[dispKey][provKey][wIdx] = parseFloat(mr.toFixed(1));
+      R1_WEEKLY[dispKey][provKey][wIdx] = parseFloat(r1.toFixed(1));
+    }
+  });
+
+  // Average MR and R1 for 'other' across its sub-brands
+  const providerList = ['composite','openai','anthropic','gemini'];
+  providerList.forEach(p => {
+    sortedWeeks.forEach((_, wIdx) => {
+      // Collect MR values from raw rows for this week/provider/other-subkeys
+      const otherRows = rows.filter(r =>
+        r.week === sortedWeeks[wIdx] &&
+        PROVIDER_KEY_MAP[r.provider] === p &&
+        OTHER_SUBKEYS.includes(RAW_COMPANY_MAP[r.company])
+      );
+      if (otherRows.length > 0) {
+        const avgMR = otherRows.reduce((s, r) => s + (parseFloat(r.mention_rate) || 0), 0) / otherRows.length;
+        const avgR1 = otherRows.reduce((s, r) => s + (parseFloat(r.rank1_rate)   || 0), 0) / otherRows.length;
+        MR_WEEKLY['other'][p][wIdx] = parseFloat(avgMR.toFixed(1));
+        R1_WEEKLY['other'][p][wIdx] = parseFloat(avgR1.toFixed(1));
+      }
+    });
+  });
+
+  // Client-side SOV: sum all mention_hits per (provider, week) → compute share
+  providerList.forEach(p => {
+    sortedWeeks.forEach((_, wIdx) => {
+      const total = RAW_KEYS.reduce((s, k) => s + (MH_WEEKLY[k][p][wIdx] || 0), 0);
+      if (total === 0) return;
+      // Rollins and Rentokil direct
+      ['rollins','rentokil'].forEach(k => {
+        SOV_WEEKLY[k][p][wIdx] = parseFloat(((MH_WEEKLY[k][p][wIdx] / total) * 100).toFixed(1));
+      });
+      // Other = sum of sub-brands
+      const otherMH = OTHER_SUBKEYS.reduce((s, k) => s + (MH_WEEKLY[k][p][wIdx] || 0), 0);
+      SOV_WEEKLY['other'][p][wIdx] = parseFloat(((otherMH / total) * 100).toFixed(1));
+    });
+  });
+
+  // Build MR_LATEST from last week's provider rows (for breakdown table)
   const lastWeek = sortedWeeks[sortedWeeks.length - 1];
   rows.filter(r => r.week === lastWeek && r.provider !== 'AI Composite').forEach(r => {
-    const key     = COMPANY_KEY_MAP[r.company];
+    const rawKey  = RAW_COMPANY_MAP[r.company];
     const provKey = PROVIDER_KEY_MAP[r.provider];
-    if (!key || !provKey) return;
-    MR_LATEST[key][provKey] = parseFloat(r.mention_rate) || 0;
+    if (!rawKey || !provKey) return;
+    const dispKey = OTHER_SUBKEYS.includes(rawKey) ? 'other' : rawKey;
+    // For 'other' we accumulate and average below; local and named brands direct
+    if (dispKey !== 'other') {
+      MR_LATEST[dispKey][provKey] = parseFloat(r.mention_rate) || 0;
+    }
+  });
+  // Average MR_LATEST for 'other'
+  ['openai','anthropic','gemini'].forEach(p => {
+    const otherRows = rows.filter(r =>
+      r.week === lastWeek &&
+      PROVIDER_KEY_MAP[r.provider] === p &&
+      OTHER_SUBKEYS.includes(RAW_COMPANY_MAP[r.company])
+    );
+    if (otherRows.length > 0) {
+      MR_LATEST['other'][p] = parseFloat(
+        (otherRows.reduce((s,r) => s+(parseFloat(r.mention_rate)||0),0) / otherRows.length).toFixed(1)
+      );
+    }
+  });
+  // SOV for local stays 0 (no per-hit data for unknown brands)
+  providerList.forEach(p => {
+    sortedWeeks.forEach((_, wIdx) => { SOV_WEEKLY['local'][p][wIdx] = 0; });
   });
 }
 
@@ -1976,12 +2108,16 @@ async function loadAIData() {
   }
   // Only render if we have at least one week of data
   if (MR_WEEKS.length > 0) {
-    aiRenderBars(_aiMetric, _aiProvider);
-    aiRenderBrandChecks();
-    if (_aiChart) {
-      aiUpdateChart(_aiMetric, _aiProvider);
+    if (window._aiPostLoad) {
+      window._aiPostLoad();
     } else {
-      aiInitChart(_aiMetric, _aiProvider);
+      aiRenderBars(_aiMetric, _aiProvider);
+      aiRenderBrandChecks();
+      if (_aiChart) {
+        aiUpdateChart(_aiMetric, _aiProvider);
+      } else {
+        aiInitChart(_aiMetric, _aiProvider);
+      }
     }
   } else {
     aiRenderBrandChecks();
@@ -1991,7 +2127,7 @@ async function loadAIData() {
 }
 
 const PROVIDER_LABELS = {composite:'AI Composite', openai:'OpenAI', anthropic:'Anthropic', gemini:'Gemini'};
-const METRIC_LABELS   = {mr:'Mention Rate', sov:'Share of Voice'};
+const METRIC_LABELS   = {mr:'Mention Rate', sov:'Share of Voice', r1:'#1 Rec. Rate'};
 
 // ── State ───────────────────────────────────────────────────────────────
 let _aiMetric   = 'mr';
@@ -2004,34 +2140,45 @@ const _aiVisible = Object.fromEntries(AI_BRANDS.map(b => [b.key, true]));
 function aiRenderBars(metric, provider) {
   const container = document.getElementById('aiBarList');
   const isComposite = provider === 'composite';
-  const weekly = metric === 'mr' ? MR_WEEKLY : SOV_WEEKLY;
-  const lastIdx = (metric === 'mr' ? MR_WEEKS : SOV_WEEKS).length - 1;
+
+  // Pick the right weekly data structure
+  const weekly = metric === 'sov' ? SOV_WEEKLY
+               : metric === 'r1'  ? R1_WEEKLY
+               : MR_WEEKLY;
+  const weeks  = metric === 'sov' ? SOV_WEEKS : MR_WEEKS;
+  const lastIdx = weeks.length - 1;
 
   const sorted = [...AI_BRANDS].sort((a,b) =>
-    weekly[b.key][provider][lastIdx] - weekly[a.key][provider][lastIdx]
+    (weekly[b.key][provider][lastIdx]||0) - (weekly[a.key][provider][lastIdx]||0)
   );
 
-  const maxVal = metric === 'mr' ? 100 : 50; // SoV bar scale at 50 (Rollins ~49%)
+  const maxVal = metric === 'sov' ? 60 : 100;
 
   container.innerHTML = sorted.map(brand => {
-    const val = weekly[brand.key][provider][lastIdx];
-    const pct = val.toFixed(1) + '%';
+    const val  = weekly[brand.key][provider] ? (weekly[brand.key][provider][lastIdx] || 0) : 0;
+    const pct  = val.toFixed(1) + '%';
     const barW = Math.min(100, (val / maxVal) * 100);
-    const pd  = MR_LATEST[brand.key];
+    const pd   = MR_LATEST[brand.key] || {};
+
+    // Secondary metric: always show #1 Rate alongside Mention Rate
+    const r1val = (metric === 'mr' && R1_WEEKLY[brand.key] && R1_WEEKLY[brand.key][provider])
+                  ? (R1_WEEKLY[brand.key][provider][lastIdx] || 0) : null;
+
     return `
       <div class="ai-bar-row">
         <div class="ai-bar-meta">
           <span class="ai-bar-label">${brand.name}</span>
           <span class="ai-bar-value" style="color:${brand.color}">${pct}</span>
+          ${r1val !== null ? `<span style="font-size:10px;color:#667085;margin-left:6px;">#1: ${r1val.toFixed(1)}%</span>` : ''}
         </div>
         <div class="ai-bar-track">
           <div class="ai-bar-fill" style="width:${barW}%;background:${brand.color}"></div>
         </div>
         ${metric === 'mr' && isComposite ? `
         <div class="ai-pills">
-          <span class="ai-pill">OpenAI: ${pd.openai.toFixed(1)}%</span>
-          <span class="ai-pill">Anthropic: ${pd.anthropic.toFixed(1)}%</span>
-          <span class="ai-pill">Gemini: ${pd.gemini.toFixed(1)}%</span>
+          <span class="ai-pill">OpenAI: ${(pd.openai||0).toFixed(1)}%</span>
+          <span class="ai-pill">Anthropic: ${(pd.anthropic||0).toFixed(1)}%</span>
+          <span class="ai-pill">Gemini: ${(pd.gemini||0).toFixed(1)}%</span>
         </div>` : ''}
       </div>
     `;
@@ -2043,10 +2190,11 @@ function aiRenderBars(metric, provider) {
 
 // ── Dynamic Y axis ──────────────────────────────────────────────────────
 function aiCalcYAxis(metric, provider) {
-  const weekly = metric === 'mr' ? MR_WEEKLY : SOV_WEEKLY;
+  const weekly = metric === 'sov' ? SOV_WEEKLY : metric === 'r1' ? R1_WEEKLY : MR_WEEKLY;
   let allVals = [];
   AI_BRANDS.forEach(b => {
-    if (_aiVisible[b.key]) allVals = allVals.concat(weekly[b.key][provider]);
+    if (_aiVisible[b.key] && weekly[b.key] && weekly[b.key][provider])
+      allVals = allVals.concat(weekly[b.key][provider]);
   });
   if (!allVals.length) return { min: 0, max: 100 };
   const lo = Math.min(...allVals);
@@ -2066,11 +2214,11 @@ const AI_TOOLTIP = {
 };
 
 function aiMakeDatasets(metric, provider) {
-  const weekly  = metric === 'mr' ? MR_WEEKLY : SOV_WEEKLY;
-  const weeks   = metric === 'mr' ? MR_WEEKS  : SOV_WEEKS;
+  const weekly  = metric === 'sov' ? SOV_WEEKLY : metric === 'r1' ? R1_WEEKLY : MR_WEEKLY;
+  const weeks   = metric === 'sov' ? SOV_WEEKS  : MR_WEEKS;
   const lastIdx = weeks.length - 1;
   return AI_BRANDS.map(brand => {
-    const data    = weekly[brand.key][provider];
+    const data    = (weekly[brand.key] && weekly[brand.key][provider]) || Array(weeks.length).fill(0);
     const visible = _aiVisible[brand.key];
     return {
       label: brand.name,
@@ -2091,7 +2239,9 @@ function aiMakeDatasets(metric, provider) {
 }
 
 function aiInitChart(metric, provider) {
-  const weeks = metric === 'mr' ? MR_WEEKS : SOV_WEEKS;
+  // Use active data (nacional or regional) for initial render
+  const d = (typeof getActiveData === 'function') ? getActiveData() : null;
+  const weeks = d ? (d.MR_WEEKS || []) : (metric === 'sov' ? SOV_WEEKS : MR_WEEKS);
   const {min, max} = aiCalcYAxis(metric, provider);
 
   _aiChart = new Chart(document.getElementById('aiVisChart'), {
@@ -2126,11 +2276,15 @@ function aiInitChart(metric, provider) {
       }
     }
   });
+  // If in regional mode and mode-aware updater is available, sync immediately
+  if (typeof aiUpdateChartMode === 'function' && typeof _aiMode !== 'undefined' && _aiMode !== 'nacional') {
+    aiUpdateChartMode(metric, provider);
+  }
 }
 
 function aiUpdateChart(metric, provider) {
   if (!_aiChart) return;
-  const weeks = metric === 'mr' ? MR_WEEKS : SOV_WEEKS;
+  const weeks = metric === 'sov' ? SOV_WEEKS : MR_WEEKS;
   const {min, max} = aiCalcYAxis(metric, provider);
   const newDs = aiMakeDatasets(metric, provider);
 
@@ -2176,16 +2330,414 @@ function aiRenderBrandChecks() {
   });
 }
 
-// ── Filter wiring ───────────────────────────────────────────────────────
+// ── Prompts data ─────────────────────────────────────────────────────────
+const PROMPTS_NACIONAL = [
+  "Which pest control companies operate nationwide in the US?",
+  "Who are the largest residential pest control providers in North America?",
+  "What are the best-known termite treatment companies in the United States?",
+  "Which companies dominate the commercial pest management market?",
+  "What pest control brands are available in Florida?",
+  "Who are the top-rated pest control companies for homeowners?",
+  "Which pest control companies have the widest coverage across the US?",
+  "What are the most recognized pest control brands in America?",
+  "Which companies provide both residential and commercial pest control nationally?",
+  "Who are the main competitors in the US pest control industry?",
+  "What pest control companies would you recommend for a large home?",
+  "Which national pest control companies offer mosquito treatment services?",
+  "What are the best companies for bed bug treatment in the US?",
+  "Which pest control brands are most trusted by consumers?",
+  "What companies offer pest control subscription plans in the US?",
+  "Which pest control companies have been around the longest?",
+  "What are the leading pest control companies for ant infestations?",
+  "Which national pest control brands offer same-day service?",
+  "What pest control companies cover rural areas in the United States?",
+  "Which companies are considered industry leaders in pest management?",
+];
+
+const PROMPTS_REGIONAL = [
+  "What are the best pest control companies in [REGION]?",
+  "What pest control company would you recommend for a homeowner in [REGION]?",
+  "Which residential pest control companies are the most reputable in [REGION]?",
+  "What are the leading residential pest control companies in [REGION]?",
+  "Which pest control company should I choose for my home in [REGION]?",
+  "What are the best national pest control companies operating in [REGION]?",
+  "Which pest control companies offer the best overall service for homeowners in [REGION]?",
+  "What pest control companies should I compare before choosing a provider in [REGION]?",
+  "What are the main options for residential pest control in [REGION]?",
+  "Give me a shortlist of pest control companies a homeowner in [REGION] should consider.",
+];
+
+// ── Disclaimer renderer ──────────────────────────────────────────────────
+function aiRenderDisclaimer(mode) {
+  const el = document.getElementById('aiDisclaimerFull');
+  if (!el) return;
+
+  const isRegional = mode === 'regional';
+  const prompts    = isRegional ? PROMPTS_REGIONAL : PROMPTS_NACIONAL;
+  const methodLine = isRegional
+    ? `<strong>Methodology v1-regional</strong> · Web search <strong>ON</strong> (OpenAI + Gemini only — Anthropic excluded: no native web search API) · 10 prompts × 3 reps × 4 regions × 2 providers = 240 calls/week · <strong>[REGION]</strong> replaced at runtime per region ·`
+    : `<strong>Methodology v1</strong> · Web search <strong>OFF</strong> (measures model prior only) · 20 prompts × 5 reps × 3 providers = 300 responses/week ·`;
+
+  const commonLine = `<strong>Mention Rate</strong> = % of prompts where brand appeared · <strong>#1 Rec. Rate</strong> = % where brand was mentioned first · <strong>Share of Voice</strong> = share of total mention hits (client-side) · <strong>Other Brands</strong> = avg of Aptive, Massey &amp; Anticimex · Brand matching: deterministic regex, no LLM`;
+
+  const promptsHtml = prompts.map((p, i) =>
+    `<div class="ai-prompt-item"><span>${i+1}.</span>${p}</div>`
+  ).join('');
+
+  el.innerHTML = `
+    <div class="ai-disclaimer-meta">${methodLine}<br>${commonLine}</div>
+    <strong style="font-size:10px;color:var(--text-secondary);">All prompts${isRegional ? ' (<code>[REGION]</code> = region label at runtime)' : ''}:</strong>
+    <div class="ai-prompts-grid">${promptsHtml}</div>
+  `;
+}
+
+// ── Regional data structures ──────────────────────────────────────────────
+const REGIONS = [
+  { id:'southeast', label:'Southeast', promptLabel:'the Southeast US (FL, GA, TX)' },
+  { id:'northeast', label:'Northeast', promptLabel:'the Northeast US (NY, NJ, PA)' },
+  { id:'midwest',   label:'Midwest',   promptLabel:'the Midwest US (IL, OH, MI)'   },
+  { id:'west',      label:'West',       promptLabel:'the West US (CA, WA, AZ)'     },
+];
+
+// Regional data: keyed by region id → same structure as national (MR_WEEKLY etc.)
+const REG_DATA = {}; // REG_DATA[regionId] = { MR_WEEKLY, R1_WEEKLY, SOV_WEEKLY, MH_WEEKLY, MR_WEEKS }
+let _regLoaded = false;
+
+function buildRegionalData(allRows, regionId) {
+  const rows = allRows.filter(r => r.entity_level === 'company' || !r.entity_level);
+  const weekSet = new Set(rows.map(r => r.week));
+  const sortedWeeks = Array.from(weekSet).sort();
+  const n = sortedWeeks.length;
+  const providers = ['composite','openai','gemini']; // no anthropic in regional
+
+  const MRw  = { rollins:{}, rentokil:{}, other:{}, local:{} };
+  const R1w  = { rollins:{}, rentokil:{}, other:{}, local:{} };
+  const SOVw = { rollins:{}, rentokil:{}, other:{}, local:{} };
+  const MHw  = { rollins:{}, rentokil:{}, massey:{}, anticimex:{}, aptive:{} };
+  const MRlatest = { rollins:{openai:0,gemini:0}, rentokil:{openai:0,gemini:0}, other:{openai:0,gemini:0}, local:{openai:0,gemini:0} };
+
+  providers.forEach(p => {
+    DISPLAY_KEYS.forEach(k => {
+      MRw[k][p]  = Array(n).fill(0);
+      R1w[k][p]  = Array(n).fill(0);
+      SOVw[k][p] = Array(n).fill(0);
+    });
+    RAW_KEYS.forEach(k => { MHw[k][p] = Array(n).fill(0); });
+  });
+
+  // Regional CSVs use provider values 'openai' / 'gemini' directly (no 'AI Composite' row)
+  const REG_PROVIDER_MAP = { openai:'openai', gemini:'gemini' };
+
+  rows.forEach(r => {
+    const rawKey  = RAW_COMPANY_MAP[r.brand] || RAW_COMPANY_MAP[r.company];
+    const provKey = REG_PROVIDER_MAP[r.provider];
+    if (!rawKey || !provKey) return;
+    const wIdx = sortedWeeks.indexOf(r.week);
+    if (wIdx < 0) return;
+    const mr = parseFloat(r.mention_rate) || 0;
+    const r1 = parseFloat(r.rank1_rate)   || 0;
+    const mh = parseFloat(r.mention_hits) || 0;
+    MHw[rawKey][provKey][wIdx] += mh;
+    const dispKey = OTHER_SUBKEYS.includes(rawKey) ? 'other' : rawKey;
+    if (dispKey === 'local') {
+      MRw['local'][provKey][wIdx] = parseFloat(mr.toFixed(1));
+      R1w['local'][provKey][wIdx] = 0;
+    } else if (dispKey !== 'other') {
+      MRw[dispKey][provKey][wIdx]  = parseFloat(mr.toFixed(1));
+      R1w[dispKey][provKey][wIdx]  = parseFloat(r1.toFixed(1));
+    }
+  });
+
+  // Average 'other' MR and R1
+  ['openai','gemini'].forEach(p => {
+    sortedWeeks.forEach((wk, wIdx) => {
+      const otherRows = rows.filter(r =>
+        r.week === wk &&
+        REG_PROVIDER_MAP[r.provider] === p &&
+        OTHER_SUBKEYS.includes(RAW_COMPANY_MAP[r.brand] || RAW_COMPANY_MAP[r.company])
+      );
+      if (otherRows.length) {
+        MRw['other'][p][wIdx]  = parseFloat((otherRows.reduce((s,r)=>s+(parseFloat(r.mention_rate)||0),0)/otherRows.length).toFixed(1));
+        R1w['other'][p][wIdx]  = parseFloat((otherRows.reduce((s,r)=>s+(parseFloat(r.rank1_rate)||0),0)/otherRows.length).toFixed(1));
+      }
+    });
+  });
+
+  // Client-side SOV
+  ['openai','gemini'].forEach(p => {
+    sortedWeeks.forEach((_,wIdx) => {
+      const total = RAW_KEYS.reduce((s,k)=>s+(MHw[k][p][wIdx]||0),0);
+      if (!total) return;
+      ['rollins','rentokil'].forEach(k => {
+        SOVw[k][p][wIdx] = parseFloat(((MHw[k][p][wIdx]/total)*100).toFixed(1));
+      });
+      const otherMH = OTHER_SUBKEYS.reduce((s,k)=>s+(MHw[k][p][wIdx]||0),0);
+      SOVw['other'][p][wIdx] = parseFloat(((otherMH/total)*100).toFixed(1));
+    });
+  });
+
+  // Composite = avg openai + gemini
+  DISPLAY_KEYS.forEach(k => {
+    sortedWeeks.forEach((_,wIdx) => {
+      MRw[k]['composite'][wIdx]  = parseFloat(((MRw[k]['openai'][wIdx]+MRw[k]['gemini'][wIdx])/2).toFixed(1));
+      R1w[k]['composite'][wIdx]  = parseFloat(((R1w[k]['openai'][wIdx]+R1w[k]['gemini'][wIdx])/2).toFixed(1));
+      SOVw[k]['composite'][wIdx] = parseFloat(((SOVw[k]['openai'][wIdx]+SOVw[k]['gemini'][wIdx])/2).toFixed(1));
+    });
+  });
+
+  // MR_LATEST for pills
+  const lastWk = sortedWeeks[sortedWeeks.length-1];
+  rows.filter(r=>r.week===lastWk).forEach(r=>{
+    const rawKey = RAW_COMPANY_MAP[r.brand]||RAW_COMPANY_MAP[r.company];
+    const provKey = REG_PROVIDER_MAP[r.provider];
+    if(!rawKey||!provKey) return;
+    const dispKey = OTHER_SUBKEYS.includes(rawKey)?'other':rawKey;
+    if(dispKey!=='other') MRlatest[dispKey][provKey]=parseFloat(r.mention_rate)||0;
+  });
+  ['openai','gemini'].forEach(p=>{
+    const ors=rows.filter(r=>r.week===lastWk&&REG_PROVIDER_MAP[r.provider]===p&&OTHER_SUBKEYS.includes(RAW_COMPANY_MAP[r.brand]||RAW_COMPANY_MAP[r.company]));
+    if(ors.length) MRlatest['other'][p]=parseFloat((ors.reduce((s,r)=>s+(parseFloat(r.mention_rate)||0),0)/ors.length).toFixed(1));
+  });
+
+  REG_DATA[regionId] = { MR_WEEKLY:MRw, R1_WEEKLY:R1w, SOV_WEEKLY:SOVw, MR_WEEKS:sortedWeeks.map(fmtWeek), MR_LATEST:MRlatest };
+}
+
+async function loadRegionalData() {
+  const BASE = 'ai-regional-tracker/data/weekly';
+  const providers = ['openai','gemini'];
+  const allRowsByRegion = {};
+  REGIONS.forEach(reg => allRowsByRegion[reg.id] = []);
+
+  await Promise.all(
+    providers.flatMap(prov =>
+      REGIONS.map(async reg => {
+        // Try last 8 weeks
+        const today = new Date();
+        for (let i=0; i<8; i++) {
+          const d = new Date(today);
+          d.setDate(d.getDate() - i*7);
+          const iso = d.toISOString().slice(0,10);
+          const yr  = d.getFullYear();
+          const wk  = getISOWeek(d);
+          const fname = `${prov}_${reg.id}_${yr}-W${String(wk).padStart(2,'0')}_metrics.csv`;
+          try {
+            const res = await fetch(`${BASE}/${prov}/${reg.id}/${fname}`);
+            if (!res.ok) continue;
+            const text = await res.text();
+            const rows = parseCSV(text).map(r=>({...r, provider:prov}));
+            allRowsByRegion[reg.id].push(...rows);
+          } catch(e) { /* not yet */ }
+        }
+      })
+    )
+  );
+
+  REGIONS.forEach(reg => {
+    if (allRowsByRegion[reg.id].length > 0) {
+      buildRegionalData(allRowsByRegion[reg.id], reg.id);
+    }
+  });
+
+  // Build 'all' as average across regions that have data
+  const regionsWithData = REGIONS.filter(r => REG_DATA[r.id]);
+  if (regionsWithData.length > 0) {
+    // Use weeks from first region with data
+    const refWeeks = REG_DATA[regionsWithData[0].id].MR_WEEKS;
+    const n = refWeeks.length;
+    const providers3 = ['composite','openai','gemini'];
+    const allMRw  = { rollins:{}, rentokil:{}, other:{} };
+    const allR1w  = { rollins:{}, rentokil:{}, other:{} };
+    const allSOVw = { rollins:{}, rentokil:{}, other:{} };
+    const allMRl  = { rollins:{openai:0,gemini:0}, rentokil:{openai:0,gemini:0}, other:{openai:0,gemini:0} };
+    DISPLAY_KEYS.forEach(k => {
+      providers3.forEach(p => {
+        allMRw[k][p]  = Array(n).fill(0);
+        allR1w[k][p]  = Array(n).fill(0);
+        allSOVw[k][p] = Array(n).fill(0);
+      });
+    });
+    regionsWithData.forEach(reg => {
+      const d = REG_DATA[reg.id];
+      DISPLAY_KEYS.forEach(k => {
+        providers3.forEach(p => {
+          for(let i=0;i<n;i++){
+            allMRw[k][p][i]  += (d.MR_WEEKLY[k][p][i]||0)/regionsWithData.length;
+            allR1w[k][p][i]  += (d.R1_WEEKLY[k][p][i]||0)/regionsWithData.length;
+            allSOVw[k][p][i] += (d.SOV_WEEKLY[k][p][i]||0)/regionsWithData.length;
+          }
+        });
+        ['openai','gemini'].forEach(p=>{
+          allMRl[k][p] += (d.MR_LATEST[k][p]||0)/regionsWithData.length;
+        });
+      });
+    });
+    // Round
+    DISPLAY_KEYS.forEach(k=>providers3.forEach(p=>{
+      for(let i=0;i<n;i++){
+        allMRw[k][p][i]=parseFloat(allMRw[k][p][i].toFixed(1));
+        allR1w[k][p][i]=parseFloat(allR1w[k][p][i].toFixed(1));
+        allSOVw[k][p][i]=parseFloat(allSOVw[k][p][i].toFixed(1));
+      }
+    }));
+    REG_DATA['all'] = { MR_WEEKLY:allMRw, R1_WEEKLY:allR1w, SOV_WEEKLY:allSOVw, MR_WEEKS:refWeeks, MR_LATEST:allMRl };
+  }
+
+  _regLoaded = true;
+}
+
+function getISOWeek(d) {
+  const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+  date.setUTCDate(date.getUTCDate() + 4 - (date.getUTCDay()||7));
+  const yearStart = new Date(Date.UTC(date.getUTCFullYear(),0,1));
+  return Math.ceil((((date - yearStart) / 86400000) + 1)/7);
+}
+
+// ── Mode state ────────────────────────────────────────────────────────────
+let _aiMode   = 'nacional'; // 'nacional' | 'regional'
+let _aiRegion = 'all';
+
+function getActiveData() {
+  if (_aiMode === 'regional') {
+    return REG_DATA[_aiRegion] || null;
+  }
+  return { MR_WEEKLY, R1_WEEKLY, SOV_WEEKLY, MR_WEEKS, MR_LATEST };
+}
+
+// Override render functions to use getActiveData()
+function aiRenderBarsMode(metric, provider) {
+  const d = getActiveData();
+  if (!d) {
+    document.getElementById('aiBarList').innerHTML =
+      '<div style="color:#98a2b3;font-size:12px;padding:16px 0">Regional data not yet available — run the tracker first.</div>';
+    return;
+  }
+
+  const container = document.getElementById('aiBarList');
+  const isComposite = provider === 'composite';
+  const weekly  = metric === 'sov' ? d.SOV_WEEKLY : metric === 'r1' ? d.R1_WEEKLY : d.MR_WEEKLY;
+  const lastIdx = (d.MR_WEEKS||[]).length - 1;
+  if (lastIdx < 0) {
+    container.innerHTML = '<div style="color:#98a2b3;font-size:12px;padding:16px 0">No data yet for this region.</div>';
+    return;
+  }
+
+  const sorted = [...AI_BRANDS].sort((a,b)=>
+    ((weekly[b.key]&&weekly[b.key][provider]&&weekly[b.key][provider][lastIdx])||0) -
+    ((weekly[a.key]&&weekly[a.key][provider]&&weekly[a.key][provider][lastIdx])||0)
+  );
+  const maxVal = metric === 'sov' ? 60 : 100;
+
+  container.innerHTML = sorted.map(brand => {
+    const val  = (weekly[brand.key]&&weekly[brand.key][provider]) ? (weekly[brand.key][provider][lastIdx]||0) : 0;
+    const pct  = val.toFixed(1)+'%';
+    const barW = Math.min(100,(val/maxVal)*100);
+    const pd   = d.MR_LATEST[brand.key]||{};
+    const r1val = (metric==='mr'&&d.R1_WEEKLY[brand.key]&&d.R1_WEEKLY[brand.key][provider])
+                  ? (d.R1_WEEKLY[brand.key][provider][lastIdx]||0) : null;
+    const pills = _aiMode==='regional'
+      ? `<span class="ai-pill">OpenAI: ${(pd.openai||0).toFixed(1)}%</span><span class="ai-pill">Gemini: ${(pd.gemini||0).toFixed(1)}%</span>`
+      : `<span class="ai-pill">OpenAI: ${(pd.openai||0).toFixed(1)}%</span><span class="ai-pill">Anthropic: ${(pd.anthropic||0).toFixed(1)}%</span><span class="ai-pill">Gemini: ${(pd.gemini||0).toFixed(1)}%</span>`;
+    return `
+      <div class="ai-bar-row">
+        <div class="ai-bar-meta">
+          <span class="ai-bar-label">${brand.name}</span>
+          <span class="ai-bar-value" style="color:${brand.color}">${pct}</span>
+          ${r1val!==null?`<span style="font-size:10px;color:#667085;margin-left:6px;">#1: ${r1val.toFixed(1)}%</span>`:''}
+        </div>
+        <div class="ai-bar-track"><div class="ai-bar-fill" style="width:${barW}%;background:${brand.color}"></div></div>
+        ${metric==='mr'&&isComposite?`<div class="ai-pills">${pills}</div>`:''}
+      </div>`;
+  }).join('');
+
+  const regionLabel = _aiMode==='regional'
+    ? ` · ${REGIONS.find(r=>r.id===_aiRegion)?.label||'All Regions'}`
+    : '';
+  document.getElementById('aiBarColLabel').textContent =
+    `Latest Week · ${METRIC_LABELS[metric]} · ${PROVIDER_LABELS[provider]}${regionLabel}`;
+}
+
+function aiUpdateChartMode(metric, provider) {
+  const d = getActiveData();
+  if (!_aiChart || !d) return;
+  const weekly  = metric==='sov'?d.SOV_WEEKLY:metric==='r1'?d.R1_WEEKLY:d.MR_WEEKLY;
+  const weeks   = d.MR_WEEKS||[];
+  const lastIdx = weeks.length-1;
+  const {min,max} = (() => {
+    let allVals=[];
+    AI_BRANDS.forEach(b=>{if(_aiVisible[b.key]&&weekly[b.key]&&weekly[b.key][provider])allVals=allVals.concat(weekly[b.key][provider]);});
+    if(!allVals.length) return {min:0,max:100};
+    const lo=Math.min(...allVals),hi=Math.max(...allVals),pad=Math.max(5,(hi-lo)*.15);
+    return {min:Math.max(0,Math.floor(lo-pad)),max:Math.min(100,Math.ceil(hi+pad))};
+  })();
+  const newDs = AI_BRANDS.map(brand=>{
+    const data=(weekly[brand.key]&&weekly[brand.key][provider])||Array(weeks.length).fill(0);
+    return {
+      label:brand.name, data, hidden:!_aiVisible[brand.key],
+      borderColor:brand.color, backgroundColor:brand.color+'18',
+      borderWidth:2, tension:0.3, fill:false, spanGaps:true,
+      pointRadius:data.map((_,i)=>i===lastIdx?5:2.5),
+      pointBorderColor:data.map((_,i)=>i===lastIdx?'#fff':brand.color),
+      pointBorderWidth:data.map((_,i)=>i===lastIdx?2:1),
+      pointHoverRadius:5,
+    };
+  });
+  _aiChart.data.labels=weeks;
+  _aiChart.data.datasets.forEach((ds,i)=>Object.assign(ds,newDs[i]));
+  _aiChart.options.scales.y.min=min;
+  _aiChart.options.scales.y.max=max;
+  _aiChart.options.plugins.tooltip.callbacks.title=
+    items=>`${items[0].label}  ·  ${METRIC_LABELS[metric]}  ·  ${PROVIDER_LABELS[provider]}`;
+  _aiChart.update('active');
+}
+
+// ── Mode switch ───────────────────────────────────────────────────────────
+function switchMode(mode) {
+  _aiMode = mode;
+  // Toggle buttons
+  document.querySelectorAll('.ai-mbtn').forEach(b=>b.classList.toggle('active', b.dataset.mode===mode));
+  // Region row visibility
+  document.getElementById('aiRegionRow').style.display = mode==='regional' ? 'flex' : 'none';
+  // Anthropic button visibility
+  document.querySelectorAll('.ai-anthropic-btn').forEach(b=>{
+    b.style.display = mode==='regional' ? 'none' : '';
+    if (mode==='regional' && _aiProvider==='anthropic') {
+      _aiProvider='composite';
+      document.querySelectorAll('.ai-fbtn[data-provider]').forEach(b2=>b2.classList.toggle('active',b2.dataset.provider==='composite'));
+    }
+  });
+  // Chart label
+  const note = mode==='regional'
+    ? 'Regional AI tracker · web search ON · OpenAI + Gemini · n=240/week · Updated automatically via GitHub Actions'
+    : 'National AI brand tracker · web search OFF (prior only) · n=300/week · Updated automatically via GitHub Actions';
+  document.getElementById('aiContextNote').textContent = note;
+  // Re-render
+  aiRenderBarsMode(_aiMetric, _aiProvider);
+  if (_aiChart) aiUpdateChartMode(_aiMetric, _aiProvider);
+  else aiInitChart(_aiMetric, _aiProvider);
+  aiRenderDisclaimer(mode);
+}
+
+// ── Filter wiring ────────────────────────────────────────────────────────
+document.querySelectorAll('.ai-mbtn[data-mode]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (btn.dataset.mode === _aiMode) return;
+    if (btn.dataset.mode==='regional' && !_regLoaded) {
+      loadRegionalData().then(()=>switchMode('regional'));
+    } else {
+      switchMode(btn.dataset.mode);
+    }
+  });
+});
+
 document.querySelectorAll('.ai-fbtn[data-metric]').forEach(btn => {
   btn.addEventListener('click', () => {
     const metric = btn.dataset.metric;
     if (metric === _aiMetric) return;
     _aiMetric = metric;
-    document.querySelectorAll('.ai-fbtn[data-metric]').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.ai-fbtn[data-metric]').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
-    aiRenderBars(_aiMetric, _aiProvider);
-    aiUpdateChart(_aiMetric, _aiProvider);
+    aiRenderBarsMode(_aiMetric, _aiProvider);
+    aiUpdateChartMode(_aiMetric, _aiProvider);
   });
 });
 
@@ -2194,16 +2746,40 @@ document.querySelectorAll('.ai-fbtn[data-provider]').forEach(btn => {
     const provider = btn.dataset.provider;
     if (provider === _aiProvider) return;
     _aiProvider = provider;
-    document.querySelectorAll('.ai-fbtn[data-provider]').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.ai-fbtn[data-provider]').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
-    aiRenderBars(_aiMetric, _aiProvider);
-    aiUpdateChart(_aiMetric, _aiProvider);
+    aiRenderBarsMode(_aiMetric, _aiProvider);
+    aiUpdateChartMode(_aiMetric, _aiProvider);
   });
 });
 
-// ── Init ────────────────────────────────────────────────────────────────
-// Load live CSVs first, then render
-loadAIData(); // async — renders chart/bars after weekly CSVs are loaded
+document.querySelectorAll('.ai-fbtn[data-region]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const region = btn.dataset.region;
+    if (region === _aiRegion) return;
+    _aiRegion = region;
+    document.querySelectorAll('.ai-fbtn[data-region]').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    aiRenderBarsMode(_aiMetric, _aiProvider);
+    aiUpdateChartMode(_aiMetric, _aiProvider);
+  });
+});
+
+// ── Init ─────────────────────────────────────────────────────────────────
+// Render nacional disclaimer on load
+aiRenderDisclaimer('nacional');
+
+// Set mode-aware post-load hook before calling loadAIData (loadAIData is
+// async so the hook will be set on window before its awaits resolve)
+window._aiPostLoad = function() {
+  aiRenderBarsMode(_aiMetric, _aiProvider);
+  aiRenderBrandChecks();
+  if (_aiChart) aiUpdateChartMode(_aiMetric, _aiProvider);
+  else aiInitChart(_aiMetric, _aiProvider);
+};
+
+// Load nacional data, then post-load hook renders bars + chart
+loadAIData();
 
 })(); // end AI Brand Visibility IIFE
 </script>
