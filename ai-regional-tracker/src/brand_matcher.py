@@ -19,10 +19,23 @@ BRANDS: dict[str, list[str]] = {
     "Rollins / Orkin": [
         r"\brollins\b",
         r"\borkin\b",
+        r"\bclark\s+pest\b",
+        r"\bfox\s+pest\b",
+        r"\bhometeam\s+pest\b",
+        r"\bhome\s+team\s+pest\b",
+        r"\bnorthwest\s+exterminating\b",
+        r"\bramex\b",
+        r"\bsaela\b",
     ],
     "Rentokil / Terminix": [
         r"\brentokil\b",
         r"\bterminix\b",
+        r"\behrlich\b",
+        r"\bwestern\s+exterminator\b",
+        r"\bflorida\s+pest\s+control\b",
+        r"\bhometown\s+pest\b",
+        r"\bbug\s+out\b",
+        r"\bheron\s+home\b",
     ],
     "Aptive": [
         r"\baptive\b",
@@ -33,25 +46,12 @@ BRANDS: dict[str, list[str]] = {
     "Anticimex": [
         r"\banticimex\b",
     ],
-    "HomeTeam": [
-        r"\bhometeam\b",
-        r"\bhome\s+team\b",
-    ],
-    "Fox Pest Control": [
-        r"\bfox\s+pest\b",
-    ],
     "Arrow Exterminators": [
         r"\barrow\s+exter",
         r"\barrow\s+pest",
     ],
     "Truly Nolen": [
         r"\btruly\s+nolen\b",
-    ],
-    "Western Exterminator": [
-        r"\bwestern\s+exter",
-    ],
-    "Ehrlich": [
-        r"\behrlich\b",
     ],
     "Presto-X": [
         r"\bpresto[\s\-]x\b",
@@ -61,9 +61,6 @@ BRANDS: dict[str, list[str]] = {
     ],
     "Lawn Doctor": [
         r"\blawn\s+doctor\b",
-    ],
-    "Northwest Exterminating": [
-        r"\bnorthwest\s+exter",
     ],
 }
 
