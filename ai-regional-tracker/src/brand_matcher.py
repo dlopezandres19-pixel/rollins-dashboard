@@ -95,11 +95,6 @@ def has_unrecognized_mention(text: str) -> bool:
     not already matched by find_mentions(). This is intentionally
     conservative — we flag the response, not try to name the company.
     """
-    # If any known brand is mentioned the response is already covered
-    if find_mentions(text):
-        # Still check if there are ADDITIONAL unknown mentions alongside known ones
-        pass  # fall through to heuristic
-
     # Patterns that suggest a pest control company name is nearby
     _PEST_CONTEXT = re.compile(
         r'(?:pest\s+control|exterminator|termite|fumigation|mosquito\s+(?:control|treatment)|'
@@ -109,15 +104,49 @@ def has_unrecognized_mention(text: str) -> bool:
     if not _PEST_CONTEXT.search(text):
         return False  # no pest context at all — don't flag
 
+    # Common prepositions/articles that start a sentence and get captured as part of a phrase
+    _LEAD_WORDS: frozenset[str] = frozenset({
+        "in", "at", "on", "of", "the", "a", "an", "for", "by", "to",
+        "from", "with", "near", "across", "throughout", "within",
+    })
+
+    # Common non-company Title Case phrases to ignore (geographic, generic, etc.)
+    # Matched after stripping leading prepositions/articles.
+    _STOPWORDS: frozenset[str] = frozenset({
+        # Geographic / directional
+        "united states", "southeast", "northeast", "midwest", "northwest",
+        "southwest", "west coast", "east coast", "north america",
+        "new york", "new jersey", "new england", "los angeles", "san francisco",
+        "las vegas", "san diego", "north carolina", "south carolina",
+        "west virginia", "new mexico", "new hampshire", "southeast united states",
+        "northeast united states", "midwest united states",
+        # Generic descriptors that appear as Title Case in model responses
+        "pest control", "pest management", "home services", "home depot",
+        "lawn care", "lawn service", "wildlife control", "bed bug",
+        "local companies", "local providers", "national companies",
+        "service area", "customer service", "better business",
+        "better business bureau", "consumer reports",
+    })
+
     # Look for capitalized company-like names (2+ words, Title Case) not in known brands
     _COMPANY_LIKE = re.compile(r'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)\b')
-    known_text = text.lower()
-    # Flatten all known brand patterns into one set of strings to exclude
     known_lower = {b.lower() for b in BRANDS}
     for m in _COMPANY_LIKE.finditer(text):
-        candidate = m.group(1).lower()
-        if not any(k in candidate or candidate in k for k in known_lower):
-            return True  # found a plausible unknown company name
+        raw = m.group(1).lower()
+        # Strip leading common prepositions/articles (sentence-start capitalization artifact)
+        parts = raw.split()
+        while parts and parts[0] in _LEAD_WORDS:
+            parts = parts[1:]
+        candidate = " ".join(parts)
+        if not candidate:
+            continue
+        # Skip known brands
+        if any(k in candidate or candidate in k for k in known_lower):
+            continue
+        # Skip exact geographic / generic stopwords
+        if candidate in _STOPWORDS:
+            continue
+        return True  # found a plausible unknown company name
 
     return False
 
