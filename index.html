@@ -1885,7 +1885,7 @@ const OTHER_SUBKEYS = ['massey','anticimex','aptive'];
 let MR_WEEKS   = [];
 // MR_WEEKLY stores per-display-key weekly arrays
 let MR_WEEKLY  = { rollins:{}, rentokil:{}, other:{}, local:{} };
-// R1_WEEKLY — #1 Recommendation Rate (rank1_rate from CSV)
+// R1_WEEKLY — #1 Recommendation Rate (number1_rate from CSV)
 let R1_WEEKLY  = { rollins:{}, rentokil:{}, other:{}, local:{} };
 // For SOV: we store raw per-company mention_hits and compute SOV client-side
 let MH_WEEKLY  = { rollins:{}, rentokil:{}, massey:{}, anticimex:{}, aptive:{} }; // mention_hits raw
@@ -1975,11 +1975,12 @@ function buildAIData(allRows) {
     const wIdx = sortedWeeks.indexOf(r.week);
     if (wIdx < 0) return;
 
-    const mr  = parseFloat(r.mention_rate)  || 0;
-    const r1  = parseFloat(r.rank1_rate)    || 0;
-    const mh  = parseFloat(r.mention_hits)  || 0;
+    const mr  = parseFloat(r.mention_rate)   || 0;
+    const r1  = parseFloat(r.number1_rate)   || 0;  // fix: CSV column is number1_rate
+    const mh  = parseFloat(r.mention_hits)   || 0;
+    const som = parseFloat(r.share_of_mentions) || 0; // pre-computed; populated for AI Composite
 
-    // Accumulate mention-hits for SOV (raw per company)
+    // Accumulate mention-hits for SOV (raw per company; empty for AI Composite — handled separately below)
     MH_WEEKLY[rawKey][provKey][wIdx] += mh;
 
     // Map to display key
@@ -1995,30 +1996,39 @@ function buildAIData(allRows) {
     } else {
       MR_WEEKLY[dispKey][provKey][wIdx] = parseFloat(mr.toFixed(1));
       R1_WEEKLY[dispKey][provKey][wIdx] = parseFloat(r1.toFixed(1));
+      // For AI Composite, store share_of_mentions directly (mention_hits is empty in composite rows)
+      if (provKey === 'composite') {
+        SOV_WEEKLY[dispKey][provKey][wIdx] = parseFloat(som.toFixed(1));
+      }
     }
   });
 
-  // Average MR and R1 for 'other' across its sub-brands
+  // Average MR, R1, and SOV for 'other' across its sub-brands
   const providerList = ['composite','openai','anthropic','gemini'];
   providerList.forEach(p => {
     sortedWeeks.forEach((_, wIdx) => {
-      // Collect MR values from raw rows for this week/provider/other-subkeys
+      // Collect rows for this week/provider/other-subkeys
       const otherRows = rows.filter(r =>
         r.week === sortedWeeks[wIdx] &&
         PROVIDER_KEY_MAP[r.provider] === p &&
         OTHER_SUBKEYS.includes(RAW_COMPANY_MAP[r.company])
       );
       if (otherRows.length > 0) {
-        const avgMR = otherRows.reduce((s, r) => s + (parseFloat(r.mention_rate) || 0), 0) / otherRows.length;
-        const avgR1 = otherRows.reduce((s, r) => s + (parseFloat(r.rank1_rate)   || 0), 0) / otherRows.length;
-        MR_WEEKLY['other'][p][wIdx] = parseFloat(avgMR.toFixed(1));
-        R1_WEEKLY['other'][p][wIdx] = parseFloat(avgR1.toFixed(1));
+        const avgMR  = otherRows.reduce((s, r) => s + (parseFloat(r.mention_rate)    || 0), 0) / otherRows.length;
+        const avgR1  = otherRows.reduce((s, r) => s + (parseFloat(r.number1_rate)    || 0), 0) / otherRows.length;  // fix: number1_rate
+        MR_WEEKLY['other'][p][wIdx]  = parseFloat(avgMR.toFixed(1));
+        R1_WEEKLY['other'][p][wIdx]  = parseFloat(avgR1.toFixed(1));
+        // For composite, average share_of_mentions for 'other' group
+        if (p === 'composite') {
+          const avgSOV = otherRows.reduce((s, r) => s + (parseFloat(r.share_of_mentions) || 0), 0) / otherRows.length;
+          SOV_WEEKLY['other'][p][wIdx] = parseFloat(avgSOV.toFixed(1));
+        }
       }
     });
   });
 
-  // Client-side SOV: sum all mention_hits per (provider, week) → compute share
-  providerList.forEach(p => {
+  // SOV for openai/anthropic/gemini: compute client-side from mention_hits (populated for non-composite rows)
+  ['openai','anthropic','gemini'].forEach(p => {
     sortedWeeks.forEach((_, wIdx) => {
       const total = RAW_KEYS.reduce((s, k) => s + (MH_WEEKLY[k][p][wIdx] || 0), 0);
       if (total === 0) return;
@@ -2031,6 +2041,7 @@ function buildAIData(allRows) {
       SOV_WEEKLY['other'][p][wIdx] = parseFloat(((otherMH / total) * 100).toFixed(1));
     });
   });
+  // SOV for composite: already populated above via share_of_mentions — nothing else needed here
 
   // Build MR_LATEST from last week's provider rows (for breakdown table)
   const lastWeek = sortedWeeks[sortedWeeks.length - 1];
