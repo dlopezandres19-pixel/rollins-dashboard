@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast (Florida, Georgia, and Texas), pest control isn't just a seasonal service—the heat and humidity create year-round pressure from subterranean termites (especially destructive Formosan varieties), roaches (\"palmetto bugs\"), fire ants, and mosquitoes. \n\nBecause regional presence matters significantly in the South, your best choice depends on whether you prefer a regional powerhouse, a state-specific leader, or a national brand. Here are the top companies to consider:\n\n---\n\n### 1. The Best Regional Leaders (Top Recommendations)\n\n* **Arrow Exterminators (Georgia, Florida, Texas)**\n  * **Best For:** Overall customer satisfaction, comprehensive pest management, and termite protection.\n  * **Why them:** Headquartered in Atlanta, Arrow is one of the largest family-owned companies in the country with a massive footprint across GA, FL, and TX. They are widely praised for well-trained technicians and less aggressive sales tactics than national brands. They use the Sentricon termite system and offer eco-friendly Integrated Pest Management (IPM).\n* **Massey Services (Especially Florida, plus GA & TX)**\n  * **Best For:** Florida homeowners, and those who want bundled pest + lawn care.\n  * **Why them:** Headquartered in Maitland, Florida, Massey is built specifically around the challenges of the Florida climate. In addition to",
+  "mentioned_brands": [
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:02:35+00:00",
+  "has_unknown": true
+}

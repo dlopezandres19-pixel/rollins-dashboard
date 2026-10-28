@@ -1,0 +1,18 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Southeast (Florida, Georgia, and Texas), pest control requires more than standard bug spraying. The warm, humid climate creates intense pressure from subterranean and Formosan termites,",
+  "mentioned_brands": [],
+  "first_mentioned": null,
+  "top3_brands": [],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:03:39+00:00",
+  "has_unknown": false
+}

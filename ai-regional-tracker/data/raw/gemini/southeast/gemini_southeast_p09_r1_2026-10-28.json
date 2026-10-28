@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In Florida, Georgia, and Texas, the warm, humid climate means residential pest control is typically a year-round necessity rather than a seasonal project. Homeowners in this region deal with specific high-pressure threats, including subterranean and Formosan termites, American cockroaches (\"palmetto bugs\"), fire ants, and heavy mosquito populations.\n\nWhen looking for residential pest control in these states, your main options fall into three categories: large regional specialists, national providers, and local independent operators.\n\n---\n\n### 1. Major Regional Providers (Strongest Southeast Footprint)\nThese companies are headquartered in the South, understand the regional pest biology exceptionally well, and often rival or beat national brands in customer satisfaction:\n\n* **Massey Services (Florida, Georgia, Texas, and beyond):**",
+  "mentioned_brands": [
+    "Massey"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:04:46+00:00",
+  "has_unknown": true
+}

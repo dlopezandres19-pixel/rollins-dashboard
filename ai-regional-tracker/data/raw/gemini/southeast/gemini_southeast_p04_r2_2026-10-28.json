@@ -1,0 +1,18 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast and Gulf Coast states (Florida, Georgia, and Texas), warm and humid climates create year-round pest pressures—particularly from subterranean termites (including invasive Formosan termites), American cockroaches (\"palmetto bugs\"), fire ants, and mosquitoes. \n\nBecause of this, several major regional providers have",
+  "mentioned_brands": [],
+  "first_mentioned": null,
+  "top3_brands": [],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:01:49+00:00",
+  "has_unknown": true
+}

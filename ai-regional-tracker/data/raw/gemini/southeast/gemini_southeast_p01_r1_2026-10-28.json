@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "Because the Southeast—especially Florida, Georgia, and Texas—faces distinct pest pressures like Formosan termites, American cockroaches (palmetto bugs), fire ants, and heavy mosquito activity, choosing a company with deep regional expertise is essential.\n\nThe best pest control companies operating in this region span established regional powerhouses and top-rated national providers:\n\n---\n\n### 1. Top Regional Powerhouses (Best for Southeast Pests)\n\n*   **Massey Services (FL, GA, TX)**\n    *   **Best for:** Florida homeowners & combined pest/lawn care.\n    *   **Why they stand out:** Headquartered in Orlando, Massey is one of the dominant providers across Florida and has major operations in Georgia and Texas. Beyond standard pest control, they specialize in termite prevention and comprehensive turf/landscape pest management, which is ideal for southern lawns prone to chinch",
+  "mentioned_brands": [
+    "Massey"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T04:59:53+00:00",
+  "has_unknown": true
+}

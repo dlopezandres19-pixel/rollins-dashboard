@@ -1,0 +1,18 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "Homeowners in Florida, Georgia, and Texas face unique, high-intensity pest pressures—ranging from Formosan subterranean termites and palmetto bugs (American cockroaches) to fire ants and year-round mosquitoes",
+  "mentioned_brands": [],
+  "first_mentioned": null,
+  "top3_brands": [],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:03:53+00:00",
+  "has_unknown": false
+}

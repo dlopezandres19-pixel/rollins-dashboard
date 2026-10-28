@@ -1,0 +1,17 @@
+week,provider,region_id,brand,mention_hits,top3_hits,rank1_hits,total_responses,mention_rate,top3_rate,rank1_rate
+2026-W44,gemini,southeast,Rollins / Orkin,4,4,4,30,0.1333,0.1333,0.1333
+2026-W44,gemini,southeast,Rentokil / Terminix,1,1,0,30,0.0333,0.0333,0.0
+2026-W44,gemini,southeast,Aptive,0,0,0,30,0.0,0.0,0.0
+2026-W44,gemini,southeast,Massey,15,15,7,30,0.5,0.5,0.2333
+2026-W44,gemini,southeast,Anticimex,0,0,0,30,0.0,0.0,0.0
+2026-W44,gemini,southeast,HomeTeam,0,0,0,30,0.0,0.0,0.0
+2026-W44,gemini,southeast,Fox Pest Control,0,0,0,30,0.0,0.0,0.0
+2026-W44,gemini,southeast,Arrow Exterminators,13,13,12,30,0.4333,0.4333,0.4
+2026-W44,gemini,southeast,Truly Nolen,0,0,0,30,0.0,0.0,0.0
+2026-W44,gemini,southeast,Western Exterminator,0,0,0,30,0.0,0.0,0.0
+2026-W44,gemini,southeast,Ehrlich,0,0,0,30,0.0,0.0,0.0
+2026-W44,gemini,southeast,Presto-X,0,0,0,30,0.0,0.0,0.0
+2026-W44,gemini,southeast,Mosquito Squad,0,0,0,30,0.0,0.0,0.0
+2026-W44,gemini,southeast,Lawn Doctor,0,0,0,30,0.0,0.0,0.0
+2026-W44,gemini,southeast,Northwest Exterminating,0,0,0,30,0.0,0.0,0.0
+2026-W44,gemini,southeast,__local_unknown__,26,0,0,30,0.8667,0,0

@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control provider in the Southeast—especially across Florida, Georgia, and Texas—you are dealing with unique pest pressures like aggressive subterranean and Formosan termites, year-round roaches (palmetto bugs), fire ants, and heavy mosquito seasons. \n\nBecause of this, the best shortlist includes a mix of massive national providers, major Southeast-born powerhouses, and Texas-specific giants. Here are the top companies you should compare:\n\n---\n\n### 1. The Southeast Regional Giants\nThese companies often offer better local responsiveness than national chains while still having the size, fleet, and warranties of a major corporation.\n\n*   **Arrow Exterminators**\n    *   **Headquarters/Footprint:** Based in Atlanta, GA, with extensive coverage across Georgia, Florida, and Texas.\n    *   **Best for:** Comprehensive termite protection and eco-friendly options.\n    *   **Why compare them:** Arrow is one of the largest privately held pest control companies in the country. They are particularly well-regarded in the Southeast for their \"STEPS\" environmentally friendly",
+  "mentioned_brands": [
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:04:20+00:00",
+  "has_unknown": true
+}

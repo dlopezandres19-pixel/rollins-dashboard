@@ -1,0 +1,18 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When dealing with pest control in the Southeast and Gulf Coast (Florida, Georgia, and Texas), the challenges are unique: high humidity, sandy soil, year-round warm weather, and aggressive pests like Formosan subterranean termites, German cockroaches, palmetto bugs, fire ants, and mosquitoes. \n\nThe top pest control companies operating across this",
+  "mentioned_brands": [],
+  "first_mentioned": null,
+  "top3_brands": [],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:00:06+00:00",
+  "has_unknown": true
+}

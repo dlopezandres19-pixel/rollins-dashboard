@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast—particularly across Florida, Georgia, and Texas—pest control needs are distinct due to high humidity, year-round warmth, and specific pests like subterranean and Formosan termites, American cockroaches (\"palmetto bugs\"), fire ants, and heavy mosquito populations. \n\nHere are the best pest control companies serving these states, broken down by regional powerhouses, national leaders, and top state-specific providers:\n\n---\n\n### 1. Top Regional Powerhouses (Best Overall for the Southeast)\n\n* **Arrow Exterminators**",
+  "mentioned_brands": [
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:00:18+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "When dealing with the high humidity, termites, and year-round bug pressure of the Southeast, choosing a company with strong local expertise and reliable warranties is essential. \n\nThe most reputable residential pest control companies operating across Florida, Georgia, and Texas break down into top regional leaders, dominant local favorites, and reliable national brands:\n\n---\n\n### 1. The Top Regional Powerhouses (Best Overall Reputation)\n\n* **Massey Services**\n  * **Headquarters:** Orlando, FL  \n  * **Coverage:** Dominant across Florida, with a large and growing presence in Georgia and Texas.\n  * **Reputation:** Massey is one of the most respected names in the Southeast. Unlike many general exterminators, they specialize in integrated home and yard care—offering pest control, subterranean/drywood termite treatment, mosquito prevention, and lawn/irrigation maintenance. Their focus on exterior preventative barriers rather than indoor pesticide spraying is well-regarded by homeowners with pets and",
+  "mentioned_brands": [
+    "Massey"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:01:03+00:00",
+  "has_unknown": true
+}

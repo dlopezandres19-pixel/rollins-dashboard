@@ -1,0 +1,18 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast—particularly across Florida, Georgia, and Texas—the warm, humid climate makes pest control an ongoing necessity rather than an occasional fix. Year-round pressure from subterranean termites (including destructive Formosan termites), American cockroaches (\"palmetto bugs\"), fire ants, mosquitoes, and roof rats requires specific approaches.\n\nHere is a breakdown of the main options for residential pest control across these states, covering top providers, common service models, and key regional considerations.\n\n---\n\n### 1. Major Pest Control Providers\n\nDepending on whether you prefer large national networks or established",
+  "mentioned_brands": [],
+  "first_mentioned": null,
+  "top3_brands": [],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:04:58+00:00",
+  "has_unknown": true
+}

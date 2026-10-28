@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Southeast US (Florida, Georgia, Texas) should consider.",
+  "rep": 1,
+  "response_text": "For homeowners in the Southeast (Florida, Georgia, and Texas), pest control is rarely a \"one-and-done\" service. Between high humidity, mild winters, and heavy pressure from subterranean (and Formosan) termites, fire ants, mosquitoes, and palmetto bugs, choosing a provider with deep regional expertise is essential.\n\nHere is a shortlist of the top pest control companies to consider across these states, covering regional specialists and national leaders:\n\n---\n\n### 1. Arrow Exterminators\n* **Best for:** Termite protection and overall customer service in the Southeast.\n* **Footprint:** Headquartered in Atlanta, Georgia, with extensive operations across Georgia, Florida, and Texas.\n* **Why consider them:** Arrow is one of the largest privately held pest control companies in the country, but it maintains a strong regional reputation. They are particularly well-regarded for their **STEPS Total Protection System** and termite control (Sentricon bait systems and liquid treatments), which are vital in the Southeast’s high-termite-risk zones.\n\n### 2. Massey Services\n* **Best for:** Integrated pest management bundled with lawn and irrigation care (especially in Florida and Georgia).\n* **Footprint:** Headquartered in Orlando, Florida; heavy presence in Florida and Georgia, with a growing footprint in Texas (Dallas–Fort Worth, Austin, Houston).\n* **Why consider them:** Massey specializes in exterior-focused, environmentally responsible pest prevention. Because Southeastern pests often originate in the yard, Massey’s ability to combine pest control with lawn fertilization, weed control, and mosquito reduction makes them a convenient all-in-one provider.\n\n### 3. ABC Home & Commercial Services\n* **Best for:** Texas homeowners looking for trusted, full-service home care.\n* **Footprint:** Primarily Texas (Austin, San Antonio, Dallas–Fort Worth, Houston), with select operations in Florida.\n* **Why consider them:** If you are in Texas, ABC is an institution. Family-owned and",
+  "mentioned_brands": [
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:05:25+00:00",
+  "has_unknown": true
+}

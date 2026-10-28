@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control provider in the Southeast (Florida, Georgia, and Texas), you are dealing with distinct regional pest pressures—such as Formosan subterranean termites, American cockroaches (palmetto bugs), fire ants, and heavy mosquito activity. \n\nBecause service quality can vary by branch, it’s best to compare a mix of strong regional operators and established national brands. Here are the top companies to evaluate:\n\n---\n\n### 1. Prominent Regional Specialists\nThese companies were founded in the South, understand the regional climate and pest biology intimately, and often receive higher customer service marks than the largest national conglomerates.\n\n* **Arrow Exterminators**\n  * **Footprint:** Massive presence across Georgia (headquartered in Atlanta), Florida, and Texas.\n  * **Best For:** Termite defense, comprehensive recurring pest control, and eco-minded treatments.\n  * **Why compare them:** Arrow is one of the largest family-owned pest companies in the nation. They offer their \"STEPS\" (Sustainability Through Environmental Pest Solutions) program, which minimizes chemical use around children and pets, and have an exceptional reputation for termite warranties.\n\n* **Massey Services**\n  * **Footprint:** Headquartered in Orlando, Florida, with widespread operations across Florida, Georgia, and Texas.\n  * **Best For:** Bundled home care (pest control + termite protection + lawn care/irrigation).\n  ",
+  "mentioned_brands": [
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:04:06+00:00",
+  "has_unknown": true
+}

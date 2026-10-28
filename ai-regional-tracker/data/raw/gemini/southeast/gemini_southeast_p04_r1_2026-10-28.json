@@ -1,0 +1,18 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast and Sunbelt states like Florida, Georgia, and Texas, pest control is practically a necessity due to the warm climate, high humidity, and aggressive pest populations (such as Formosan termites, palmetto bugs, fire ants, and mosquitoes). \n\nWhen choosing a residential pest control provider in this region, homeowners generally look at a mix of large regional powerhouses with deep Southern roots and top national brands. Here are the leading companies serving Florida, Georgia, and Texas:\n\n---\n\n### 1. Leading Regional Powerhouses\n\nThese companies are headquartered in or primarily serve",
+  "mentioned_brands": [],
+  "first_mentioned": null,
+  "top3_brands": [],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:01:39+00:00",
+  "has_unknown": true
+}

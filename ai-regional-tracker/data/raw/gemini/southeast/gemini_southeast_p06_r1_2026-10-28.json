@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "Because of the warm, humid climate in Florida, Georgia, and Texas, homeowners in the Southeast face aggressive pest pressures—particularly **subterranean and Formosan termites, American cockroaches (palmetto bugs), fire ants, and mosquitoes**. \n\nHere are the best national and large regional pest control companies that have an established, reliable footprint in all three states:\n\n---\n\n### 1. **Orkin**\n* **Best For:** Overall reliability, complex infestations, and technician training.\n* **Why They Stand Out:** Headquartered in Atlanta, Georgia, Orkin has deep roots in the Southeast. Their technicians undergo rigorous, entomologist-backed training, making them particularly skilled at diagnosing difficult pest problems.\n* **Strengths:** \n  * Comprehensive coverage for common Southern",
+  "mentioned_brands": [
+    "Rollins / Orkin"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:02:49+00:00",
+  "has_unknown": true
+}

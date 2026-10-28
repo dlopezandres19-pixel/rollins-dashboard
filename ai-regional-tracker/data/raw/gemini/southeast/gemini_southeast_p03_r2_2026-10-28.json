@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast—particularly across Florida, Georgia, and Texas—pest pressures are unique due to high humidity, year-round heat, and intense termite activity (especially subterranean and Formosan termites). \n\nThe most reputable residential pest control companies operating in this region fall into two categories: **deeply rooted regional leaders** (which often earn higher customer satisfaction marks) and **national powerhouses** (which offer broad coverage and standardized warranties).\n\n---\n\n### 1. Top Regional & Deep-South Powerhouses (Often Rated Highest for Service)\n\nThese companies have massive operations in FL, GA, and TX, but maintain regional headquarters and strong community reputations:\n\n*   **Arrow Exterminators** *(",
+  "mentioned_brands": [
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T05:01:15+00:00",
+  "has_unknown": true
+}
