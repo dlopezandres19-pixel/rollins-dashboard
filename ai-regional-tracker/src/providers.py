@@ -84,46 +84,45 @@ def call_gemini(
     system_prompt: str,
     user_prompt: str,
     *,
-    model: str = "gemini-2.0-flash-001",
+    model: str = "gemini-2.0-flash",
     max_tokens: int = 1024,
     temperature: float = 0.7,
     retries: int = 3,
     backoff: float = 5.0,
 ) -> Optional[str]:
     """
-    Call Gemini with google_search grounding enabled.
+    Call Gemini with Google Search grounding enabled.
+    Uses the new google-genai SDK (pip install google-genai).
     Returns the text of the response, or None on failure.
     """
     try:
-        import google.generativeai as genai
+        from google import genai
+        from google.genai import types
     except ImportError:
         raise ImportError(
-            "google-generativeai package not installed. "
-            "Run: pip install google-generativeai"
+            "google-genai package not installed. "
+            "Run: pip install google-genai"
         )
 
     api_key = require_env("GEMINI_API_KEY")
-    genai.configure(api_key=api_key)
+    client = genai.Client(api_key=api_key)
 
-    generation_config = {
-        "max_output_tokens": max_tokens,
-        "temperature": temperature,
-    }
-
-    # google_search tool enables grounding with live web results
-    tools = [{"google_search": {}}]
-
-    full_prompt = f"{system_prompt}\n\n{user_prompt}"
+    # Google Search grounding — new SDK syntax
+    grounding_tool = types.Tool(google_search=types.GoogleSearch())
+    config = types.GenerateContentConfig(
+        system_instruction=system_prompt,
+        tools=[grounding_tool],
+        max_output_tokens=max_tokens,
+        temperature=temperature,
+    )
 
     for attempt in range(1, retries + 1):
         try:
-            model_obj = genai.GenerativeModel(
-                model_name=model,
-                generation_config=generation_config,
-                tools=tools,
-                system_instruction=system_prompt,
+            response = client.models.generate_content(
+                model=model,
+                contents=user_prompt,
+                config=config,
             )
-            response = model_obj.generate_content(user_prompt)
             if response.text:
                 return response.text
             log(f"[Gemini] Empty response (attempt {attempt})")
@@ -145,5 +144,5 @@ PROVIDERS: dict[str, callable] = {
 
 PROVIDER_MODELS: dict[str, str] = {
     "openai": "gpt-4o",
-    "gemini": "gemini-2.0-flash-001",
+    "gemini": "gemini-2.0-flash",
 }
