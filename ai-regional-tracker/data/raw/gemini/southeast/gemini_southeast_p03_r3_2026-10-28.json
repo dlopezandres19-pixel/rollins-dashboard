@@ -8,17 +8,21 @@
   "prompt_id": 3,
   "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
   "rep": 3,
-  "response_text": "In the Southeast—where warm, humid climates make pest and termite pressure intense year-round—a mix of large national brands and prominent regional powerhouses lead the market. While mega-chains like Orkin and Terminix have the largest footprints, several regional providers based in Georgia,",
+  "response_text": "When dealing with the high humidity, subterranean and Formosan termites, fire ants, and persistent insects across the Southeast (Florida, Georgia, and Texas), regional providers often hold a better reputation than generic national chains because of their localized training and biology-specific treatments.\n\nHere are the most reputable residential pest control companies operating across Florida, Georgia, and Texas, broken down by regional powerhouses, state-specific standouts, and the best national option.\n\n---\n\n### 1. Top Regional Powerhouses (Operating Across FL, GA, and TX)\n\n* **Arrow Exterminators**\n  * **Headquarters:** Atlanta, GA\n  * **Footprint:** Massive presence in Georgia, Florida, and Texas.\n  * **Reputation:** Arrow consistently ranks among the top-rated privately held pest control companies in the South. They are known for family-friendly customer service and their \"STEPS Total Protection System\" (an Integrated Pest Management approach).\n  * **Best For:** Comprehensive termite coverage (especially subterranean and Formosan termites common to the Gulf/South Atlantic coasts) and routine residential quarterly prevention.\n\n* **Massey Services**\n  * **Headquarters:** Orlando, FL\n  * **Footprint:** Dominant in Florida, with extensive branches throughout Georgia and Texas.\n  * **Reputation:** Massey is one of the most recognized names in the Southeast. Unlike many competitors who focus solely on indoor spraying, Massey emphasizes exterior perimeter barriers and holistic property care.\n  * **Best For:** Homeowners who want bundled services—pest control, termite protection, mosquito suppression, and lawn/irrigation care under a single provider.\n\n---\n\n### 2. Best State-Specific Standouts\n\nIf you are looking for local operators with exceptionally high customer satisfaction within their specific state boundaries:\n\n* **Texas: ABC Home & Commercial Services**\n  * **Coverage:** Major Texas metros (Austin, Dallas-Fort Worth, Houston, San Antonio, Bryan-College Station).\n  * **Reputation:** A Texas institution run by the Jenkins family for generations. They are widely regarded as the premier local choice in the state, known for reliable technicians who understand Texas-specific issues like scorpions, carpenter ants, and brutal summer flea/tick surges.\n\n* **Georgia: Northwest Exterminating**\n  * **Coverage:** Georgia and neighboring Southeastern pockets.\n  * **Reputation:** Now part of the Rollins family of brands, Northwest has maintained its community-first identity. They were early pioneers in green/eco-friendly pest control in Georgia and have an outstanding reputation for prompt retreatments and polite, thorough technicians.\n\n* **Florida: Hulett Environmental Services**\n  * **Coverage:** Primarily South and Central Florida.\n  * **Reputation:** A family-owned business for over 50 years, Hulett has a sterling local reputation for high-end residential communities. They specialize in the harsh tropical insect pressures unique to the Florida peninsula, including drywood termite tenting and \"no-tent\" solutions.\n\n---\n\n### 3. Best National Brand with Deep Southern Roots\n\n* **Orkin**\n  * **Headquarters:** Atlanta, GA\n  * **Reputation:** While nationwide chains can vary somewhat by local franchise management, Orkin’s training facility in Atlanta is considered the industry benchmark for entomology training. Across GA, FL, and TX, Orkin generally maintains stronger ratings than its direct national competitors (like Terminix/Aptive) due to rigid technician protocols.\n  * **Best For:** Severe, active structural infestations (like bed bugs or aggressive subterranean termite colonies) where heavy corporate backing and extensive treatment warranties are essential.\n\n---\n\n### Tips for Hiring in the Southeast\n\n1. **Ask for Formosan Termite Coverage:** Standard termite bonds sometimes exclude Formosan termites (which are widespread in coastal GA, FL, and the TX Gulf Coast). Ensure your termite agreement explicitly covers both Eastern subterranean and Formosan species.\n2. **Prioritize Perimeter (Exterior) Defense:** In warm, humid states, indoor spraying every month is rarely necessary. Look for companies (like Massey, Arrow, or ABC) that focus on treating the exterior perimeter, eaves, weep holes, and mulch beds to stop pests before they enter.\n3. **Check the Retreatment Policy:** Reliable companies will stipulate in writing that if pests return between scheduled quarterly visits, they will return and re-treat the home at no additional charge.",
   "mentioned_brands": [
     "Rollins / Orkin",
-    "Rentokil / Terminix"
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators"
   ],
-  "first_mentioned": "Rollins / Orkin",
+  "first_mentioned": "Arrow Exterminators",
   "top3_brands": [
-    "Rollins / Orkin",
-    "Rentokil / Terminix"
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
   ],
   "error": null,
-  "timestamp_utc": "2026-10-28T05:01:27+00:00",
-  "has_unknown": false
+  "timestamp_utc": "2026-10-28T06:06:03+00:00",
+  "has_unknown": true
 }
