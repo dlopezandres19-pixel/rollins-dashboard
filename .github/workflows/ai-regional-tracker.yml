@@ -64,10 +64,19 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Show what files were written
+          echo "=== Files in data/ ==="
+          find ai-regional-tracker/data -type f 2>/dev/null || echo "(none)"
           # Only add data/ if it exists (dry-run produces no files)
           if [ -d "ai-regional-tracker/data" ]; then
             git add ai-regional-tracker/data/
           fi
-          # Only commit if there are staged changes
-          git diff --cached --quiet || git commit -m "chore: regional tracker run $(date -u +%Y-%m-%d)"
-          git diff --cached --quiet || git push
+          echo "=== Staged changes ==="
+          git status --short
+          # Commit if there are staged changes, then push
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: regional tracker run $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No new data to commit."
+          fi
