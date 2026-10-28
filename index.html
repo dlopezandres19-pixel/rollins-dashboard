@@ -2564,11 +2564,12 @@ async function loadRegionalData() {
     const refWeeks = REG_DATA[regionsWithData[0].id].MR_WEEKS;
     const n = refWeeks.length;
     const providers3 = ['composite','openai','gemini'];
+    const REG_KEYS = ['rollins','rentokil','other']; // regional has no 'local' display key
     const allMRw  = { rollins:{}, rentokil:{}, other:{} };
     const allR1w  = { rollins:{}, rentokil:{}, other:{} };
     const allSOVw = { rollins:{}, rentokil:{}, other:{} };
     const allMRl  = { rollins:{openai:0,gemini:0}, rentokil:{openai:0,gemini:0}, other:{openai:0,gemini:0} };
-    DISPLAY_KEYS.forEach(k => {
+    REG_KEYS.forEach(k => {
       providers3.forEach(p => {
         allMRw[k][p]  = Array(n).fill(0);
         allR1w[k][p]  = Array(n).fill(0);
@@ -2577,21 +2578,21 @@ async function loadRegionalData() {
     });
     regionsWithData.forEach(reg => {
       const d = REG_DATA[reg.id];
-      DISPLAY_KEYS.forEach(k => {
+      REG_KEYS.forEach(k => {
         providers3.forEach(p => {
           for(let i=0;i<n;i++){
-            allMRw[k][p][i]  += (d.MR_WEEKLY[k][p][i]||0)/regionsWithData.length;
-            allR1w[k][p][i]  += (d.R1_WEEKLY[k][p][i]||0)/regionsWithData.length;
-            allSOVw[k][p][i] += (d.SOV_WEEKLY[k][p][i]||0)/regionsWithData.length;
+            allMRw[k][p][i]  += (d.MR_WEEKLY[k]?.[p]?.[i]||0)/regionsWithData.length;
+            allR1w[k][p][i]  += (d.R1_WEEKLY[k]?.[p]?.[i]||0)/regionsWithData.length;
+            allSOVw[k][p][i] += (d.SOV_WEEKLY[k]?.[p]?.[i]||0)/regionsWithData.length;
           }
         });
         ['openai','gemini'].forEach(p=>{
-          allMRl[k][p] += (d.MR_LATEST[k][p]||0)/regionsWithData.length;
+          allMRl[k][p] += (d.MR_LATEST[k]?.[p]||0)/regionsWithData.length;
         });
       });
     });
     // Round
-    DISPLAY_KEYS.forEach(k=>providers3.forEach(p=>{
+    REG_KEYS.forEach(k=>providers3.forEach(p=>{
       for(let i=0;i<n;i++){
         allMRw[k][p][i]=parseFloat(allMRw[k][p][i].toFixed(1));
         allR1w[k][p][i]=parseFloat(allR1w[k][p][i].toFixed(1));
