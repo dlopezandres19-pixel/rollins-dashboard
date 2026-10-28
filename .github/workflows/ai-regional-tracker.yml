@@ -25,10 +25,14 @@ jobs:
     name: Run regional tracker
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -64,17 +68,19 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Pull latest so we don't conflict with manual uploads
           git pull --rebase origin main
-          # Show what files were written
-          echo "=== Files in data/ ==="
-          find ai-regional-tracker/data -type f 2>/dev/null || echo "(none)"
-          # Only add data/ if it exists (dry-run produces no files)
+
+          # Stage new data files
           if [ -d "ai-regional-tracker/data" ]; then
             git add ai-regional-tracker/data/
           fi
+
           echo "=== Staged changes ==="
           git status --short
-          # Commit if there are staged changes, then push
+
+          # Commit and push only if there are staged changes
           if ! git diff --cached --quiet; then
             git commit -m "chore: regional tracker run $(date -u +%Y-%m-%d)"
             git push
