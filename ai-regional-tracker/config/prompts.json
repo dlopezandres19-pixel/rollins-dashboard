@@ -1,0 +1,17 @@
+{
+  "methodology_version": "v1-regional",
+  "methodology_note": "Regional variant of the national AI brand tracker. Web search is enabled (OpenAI and Gemini only). [REGION] is replaced at runtime with each region's label. Brand matching is deterministic regex — no LLM used for matching. Results measure AI visibility with live web retrieval, not model prior alone.",
+  "system_context": "You are answering a US consumer asking for pest-control recommendations in a specific area. Answer the question naturally and independently. Do not assume any prior conversation context.",
+  "prompts": [
+    {"id": 1,  "text": "What are the best pest control companies in [REGION]?"},
+    {"id": 2,  "text": "What pest control company would you recommend for a homeowner in [REGION]?"},
+    {"id": 3,  "text": "Which residential pest control companies are the most reputable in [REGION]?"},
+    {"id": 4,  "text": "What are the leading residential pest control companies in [REGION]?"},
+    {"id": 5,  "text": "Which pest control company should I choose for my home in [REGION]?"},
+    {"id": 6,  "text": "What are the best national pest control companies operating in [REGION]?"},
+    {"id": 7,  "text": "Which pest control companies offer the best overall service for homeowners in [REGION]?"},
+    {"id": 8,  "text": "What pest control companies should I compare before choosing a provider in [REGION]?"},
+    {"id": 9,  "text": "What are the main options for residential pest control in [REGION]?"},
+    {"id": 10, "text": "Give me a shortlist of pest control companies a homeowner in [REGION] should consider."}
+  ]
+}
