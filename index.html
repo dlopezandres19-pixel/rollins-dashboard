@@ -307,9 +307,9 @@ body{background:var(--bg);color:var(--text-primary);font-family:'Segoe UI',syste
   <!-- Fila 2: Metric + Provider -->
   <div class="ai-filter-row">
     <span class="ai-filter-label">Metric:</span>
-    <button class="ai-fbtn active" data-metric="mr">Mention Rate</button>
+    <button class="ai-fbtn" data-metric="mr">Mention Rate</button>
     <!-- #1 Rec. Rate button removed — metric removed from UI -->
-    <button class="ai-fbtn" data-metric="sov">Share of Voice</button>
+    <button class="ai-fbtn active" data-metric="sov">Share of Voice</button>
     <span style="width:10px;display:inline-block;border-left:1px solid var(--border);height:14px;vertical-align:middle;"></span>
     <span class="ai-filter-label">Provider:</span>
     <button class="ai-fbtn active" data-provider="composite">AI Composite</button>
@@ -1881,8 +1881,8 @@ const PROVIDER_KEY_MAP = {
 const DISPLAY_KEYS = ['rollins','rentokil','other','local'];
 const RAW_KEYS      = ['rollins','rentokil','massey','anticimex','aptive'];          // national CSV brands
 const OTHER_SUBKEYS = ['massey','anticimex','aptive'];                                // national "other" group
-const REG_RAW_KEYS      = ['rollins','rentokil','massey','anticimex','aptive','other_arrow','other_trulynolen','other_mosquitosquad','other_lawndoctor'];
-const REG_OTHER_SUBKEYS = ['massey','anticimex','aptive','other_arrow','other_trulynolen','other_mosquitosquad','other_lawndoctor'];
+const REG_RAW_KEYS      = ['rollins','rentokil','massey','anticimex','aptive','other_arrow','other_trulynolen','other_mosquitosquad','other_lawndoctor','local'];
+const REG_OTHER_SUBKEYS = ['massey','anticimex','aptive','other_arrow','other_trulynolen','other_mosquitosquad','other_lawndoctor','local'];
 
 let MR_WEEKS   = [];
 // MR_WEEKLY stores per-display-key weekly arrays
@@ -2147,7 +2147,7 @@ const PROVIDER_LABELS = {composite:'AI Composite', openai:'OpenAI', anthropic:'A
 const METRIC_LABELS   = {mr:'Mention Rate', sov:'Share of Voice', r1:'#1 Rec. Rate'};
 
 // ── State ───────────────────────────────────────────────────────────────
-let _aiMetric   = 'mr';
+let _aiMetric   = 'sov';
 let _aiProvider = 'composite';
 let _aiChart    = null;
 // All brands visible by default
@@ -2393,7 +2393,9 @@ function aiRenderDisclaimer(mode) {
     ? `<strong>Methodology v1-regional</strong> · Web search <strong>ON</strong> (OpenAI + Gemini only — Anthropic excluded: no native web search API) · 10 prompts × 3 reps × 4 regions × 2 providers = 240 calls/week · <strong>[REGION]</strong> replaced at runtime per region ·`
     : `<strong>Methodology v1</strong> · Web search <strong>OFF</strong> (measures model prior only) · 20 prompts × 5 reps × 3 providers = 300 responses/week ·`;
 
-  const commonLine = `<strong>Mention Rate</strong> = % of prompts where brand appeared · <strong>Share of Voice</strong> = share of total mention hits across tracked brands · <strong>Other Brands</strong> = avg of Aptive, Massey &amp; Anticimex · Brand matching: deterministic regex, no LLM`;
+  const commonLine = isRegional
+    ? `<strong>Mention Rate</strong> = % of prompts where brand appeared · <strong>Share of Voice</strong> = share of total mention hits across tracked brands · <strong>Other Brands MR</strong> = average of individual mention rates per tracked competitor (Massey, Aptive, Anticimex, Arrow Exterminators, Truly Nolen, Mosquito Squad, Lawn Doctor + unrecognized local brands) — not equivalent to "at least one other brand mentioned"; use Share of Voice to gauge competitive weight · Brand matching: deterministic regex, no LLM`
+    : `<strong>Mention Rate</strong> = % of prompts where brand appeared · <strong>Share of Voice</strong> = share of total mention hits across tracked brands · <strong>Other Brands</strong> = avg of Aptive, Massey &amp; Anticimex · Brand matching: deterministic regex, no LLM`;
 
   const promptsHtml = prompts.map((p, i) =>
     `<div class="ai-prompt-item"><span>${i+1}.</span>${p}</div>`
@@ -2454,17 +2456,16 @@ function buildRegionalData(allRows, regionId) {
     const r1 = (parseFloat(r.rank1_rate)   || 0) * 100;
     const mh = parseFloat(r.mention_hits) || 0;
     if (MHw[rawKey] && MHw[rawKey][provKey] !== undefined) MHw[rawKey][provKey][wIdx] += mh;
+    // In regional mode, __local_unknown__ counts as 'other' (unrecognized local brands)
     const dispKey = REG_OTHER_SUBKEYS.includes(rawKey) ? 'other' : rawKey;
-    if (dispKey === 'local') {
-      MRw['local'][provKey][wIdx] = parseFloat(mr.toFixed(1));
-      R1w['local'][provKey][wIdx] = 0;
-    } else if (dispKey !== 'other') {
+    if (dispKey !== 'other') {
       MRw[dispKey][provKey][wIdx]  = parseFloat(mr.toFixed(1));
       R1w[dispKey][provKey][wIdx]  = parseFloat(r1.toFixed(1));
     }
   });
 
-  // Average 'other' MR and R1
+  // 'Other Brands' MR = max mention_rate among group (= "at least one other brand was mentioned")
+  // R1 = max rank1_rate among group (best-case #1 pick from other)
   ['openai','gemini'].forEach(p => {
     sortedWeeks.forEach((wk, wIdx) => {
       const otherRows = rows.filter(r =>
@@ -2474,8 +2475,8 @@ function buildRegionalData(allRows, regionId) {
       );
       if (otherRows.length) {
         // mention_rate is decimal in regional CSV → * 100
-        MRw['other'][p][wIdx]  = parseFloat((otherRows.reduce((s,r)=>s+(parseFloat(r.mention_rate)||0)*100,0)/otherRows.length).toFixed(1));
-        R1w['other'][p][wIdx]  = parseFloat((otherRows.reduce((s,r)=>s+(parseFloat(r.rank1_rate)||0)*100,0)/otherRows.length).toFixed(1));
+        MRw['other'][p][wIdx]  = parseFloat(Math.max(...otherRows.map(r=>(parseFloat(r.mention_rate)||0)*100)).toFixed(1));
+        R1w['other'][p][wIdx]  = parseFloat(Math.max(...otherRows.map(r=>(parseFloat(r.rank1_rate)||0)*100)).toFixed(1));
       }
     });
   });
@@ -2508,13 +2509,14 @@ function buildRegionalData(allRows, regionId) {
     const rawKey = RAW_COMPANY_MAP[r.brand]||RAW_COMPANY_MAP[r.company];
     const provKey = REG_PROVIDER_MAP[r.provider];
     if(!rawKey||!provKey) return;
+    // In regional mode, local_unknown → 'other'; REG_OTHER_SUBKEYS already includes 'local'
     const dispKey = REG_OTHER_SUBKEYS.includes(rawKey)?'other':rawKey;
     // mention_rate is decimal in regional CSV → * 100
     if(dispKey!=='other') MRlatest[dispKey][provKey]=(parseFloat(r.mention_rate)||0)*100;
   });
   ['openai','gemini'].forEach(p=>{
     const ors=rows.filter(r=>r.week===lastWk&&REG_PROVIDER_MAP[r.provider]===p&&REG_OTHER_SUBKEYS.includes(RAW_COMPANY_MAP[r.brand]||RAW_COMPANY_MAP[r.company]));
-    if(ors.length) MRlatest['other'][p]=parseFloat((ors.reduce((s,r)=>s+(parseFloat(r.mention_rate)||0)*100,0)/ors.length).toFixed(1));
+    if(ors.length) MRlatest['other'][p]=parseFloat(Math.max(...ors.map(r=>(parseFloat(r.mention_rate)||0)*100)).toFixed(1));
   });
 
   // Regional weeks are ISO week strings like "2026-W44" — convert to readable label
