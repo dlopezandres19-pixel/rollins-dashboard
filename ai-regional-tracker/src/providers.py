@@ -84,7 +84,7 @@ def call_gemini(
     system_prompt: str,
     user_prompt: str,
     *,
-    model: str = "gemini-2.0-flash",
+    model: str = "gemini-3.8-flash",
     max_tokens: int = 1024,
     temperature: float = 0.7,
     retries: int = 3,
@@ -144,5 +144,5 @@ PROVIDERS: dict[str, callable] = {
 
 PROVIDER_MODELS: dict[str, str] = {
     "openai": "gpt-4o",
-    "gemini": "gemini-2.0-flash",
+    "gemini": "gemini-3.8-flash",
 }
