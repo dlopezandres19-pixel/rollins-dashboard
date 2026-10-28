@@ -46,6 +46,9 @@ jobs:
           pip install --upgrade pip
           pip install -r ai-regional-tracker/requirements.txt
 
+      - name: Pull latest
+        run: git pull --rebase origin main
+
       - name: Run tracker
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -68,9 +71,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Pull latest so we don't conflict with manual uploads
-          git pull --rebase origin main
 
           # Stage new data files
           if [ -d "ai-regional-tracker/data" ]; then
