@@ -85,6 +85,43 @@ def find_mentions(text: str) -> list[str]:
     return found
 
 
+def has_unrecognized_mention(text: str) -> bool:
+    """
+    Return True if *text* appears to mention a pest control company
+    that is NOT in our brand registry.
+
+    Heuristic: look for phrases like "pest control", "exterminator",
+    "termite", "mosquito" etc. near a capitalized proper noun that is
+    not already matched by find_mentions(). This is intentionally
+    conservative — we flag the response, not try to name the company.
+    """
+    # If any known brand is mentioned the response is already covered
+    if find_mentions(text):
+        # Still check if there are ADDITIONAL unknown mentions alongside known ones
+        pass  # fall through to heuristic
+
+    # Patterns that suggest a pest control company name is nearby
+    _PEST_CONTEXT = re.compile(
+        r'(?:pest\s+control|exterminator|termite|fumigation|mosquito\s+(?:control|treatment)|'
+        r'bed\s+bug|rodent\s+control|wildlife\s+removal)',
+        re.IGNORECASE,
+    )
+    if not _PEST_CONTEXT.search(text):
+        return False  # no pest context at all — don't flag
+
+    # Look for capitalized company-like names (2+ words, Title Case) not in known brands
+    _COMPANY_LIKE = re.compile(r'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)\b')
+    known_text = text.lower()
+    # Flatten all known brand patterns into one set of strings to exclude
+    known_lower = {b.lower() for b in BRANDS}
+    for m in _COMPANY_LIKE.finditer(text):
+        candidate = m.group(1).lower()
+        if not any(k in candidate or candidate in k for k in known_lower):
+            return True  # found a plausible unknown company name
+
+    return False
+
+
 def find_first_mentioned(text: str) -> Optional[str]:
     """Return the canonical brand name that appears earliest in *text*, or None."""
     earliest_pos: int = len(text) + 1
