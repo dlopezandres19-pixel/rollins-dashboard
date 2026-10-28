@@ -1,0 +1,28 @@
+{
+  "regions": [
+    {
+      "id": "southeast",
+      "label": "Southeast",
+      "prompt_label": "the Southeast US (Florida, Georgia, Texas)",
+      "states": ["FL", "GA", "TX"]
+    },
+    {
+      "id": "northeast",
+      "label": "Northeast",
+      "prompt_label": "the Northeast US (New York, New Jersey, Pennsylvania)",
+      "states": ["NY", "NJ", "PA"]
+    },
+    {
+      "id": "midwest",
+      "label": "Midwest",
+      "prompt_label": "the Midwest US (Illinois, Ohio, Michigan)",
+      "states": ["IL", "OH", "MI"]
+    },
+    {
+      "id": "west",
+      "label": "West",
+      "prompt_label": "the West US (California, Washington, Arizona)",
+      "states": ["CA", "WA", "AZ"]
+    }
+  ]
+}
