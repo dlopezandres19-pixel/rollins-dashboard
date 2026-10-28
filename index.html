@@ -1879,8 +1879,10 @@ const PROVIDER_KEY_MAP = {
 // Displayed keys: rollins, rentokil, other
 // Raw keys for SOV calc: rollins, rentokil, massey, anticimex, aptive
 const DISPLAY_KEYS = ['rollins','rentokil','other','local'];
-const RAW_KEYS     = ['rollins','rentokil','massey','anticimex','aptive','other_arrow','other_trulynolen','other_mosquitosquad','other_lawndoctor'];
-const OTHER_SUBKEYS = ['massey','anticimex','aptive','other_arrow','other_trulynolen','other_mosquitosquad','other_lawndoctor'];
+const RAW_KEYS      = ['rollins','rentokil','massey','anticimex','aptive'];          // national CSV brands
+const OTHER_SUBKEYS = ['massey','anticimex','aptive'];                                // national "other" group
+const REG_RAW_KEYS      = ['rollins','rentokil','massey','anticimex','aptive','other_arrow','other_trulynolen','other_mosquitosquad','other_lawndoctor'];
+const REG_OTHER_SUBKEYS = ['massey','anticimex','aptive','other_arrow','other_trulynolen','other_mosquitosquad','other_lawndoctor'];
 
 let MR_WEEKS   = [];
 // MR_WEEKLY stores per-display-key weekly arrays
@@ -2426,7 +2428,7 @@ function buildRegionalData(allRows, regionId) {
   const MRw  = { rollins:{}, rentokil:{}, other:{}, local:{} };
   const R1w  = { rollins:{}, rentokil:{}, other:{}, local:{} };
   const SOVw = { rollins:{}, rentokil:{}, other:{}, local:{} };
-  const MHw  = Object.fromEntries(RAW_KEYS.map(k=>[k,{}])); // one entry per RAW_KEY
+  const MHw  = Object.fromEntries(REG_RAW_KEYS.map(k=>[k,{}])); // one entry per REG_RAW_KEY
   const MRlatest = { rollins:{openai:0,gemini:0}, rentokil:{openai:0,gemini:0}, other:{openai:0,gemini:0}, local:{openai:0,gemini:0} };
 
   providers.forEach(p => {
@@ -2435,7 +2437,7 @@ function buildRegionalData(allRows, regionId) {
       R1w[k][p]  = Array(n).fill(0);
       SOVw[k][p] = Array(n).fill(0);
     });
-    RAW_KEYS.forEach(k => { MHw[k][p] = Array(n).fill(0); });
+    REG_RAW_KEYS.forEach(k => { MHw[k][p] = Array(n).fill(0); });
   });
 
   // Regional CSVs use provider values 'openai' / 'gemini' directly (no 'AI Composite' row)
@@ -2452,7 +2454,7 @@ function buildRegionalData(allRows, regionId) {
     const r1 = (parseFloat(r.rank1_rate)   || 0) * 100;
     const mh = parseFloat(r.mention_hits) || 0;
     if (MHw[rawKey] && MHw[rawKey][provKey] !== undefined) MHw[rawKey][provKey][wIdx] += mh;
-    const dispKey = OTHER_SUBKEYS.includes(rawKey) ? 'other' : rawKey;
+    const dispKey = REG_OTHER_SUBKEYS.includes(rawKey) ? 'other' : rawKey;
     if (dispKey === 'local') {
       MRw['local'][provKey][wIdx] = parseFloat(mr.toFixed(1));
       R1w['local'][provKey][wIdx] = 0;
@@ -2468,7 +2470,7 @@ function buildRegionalData(allRows, regionId) {
       const otherRows = rows.filter(r =>
         r.week === wk &&
         REG_PROVIDER_MAP[r.provider] === p &&
-        OTHER_SUBKEYS.includes(RAW_COMPANY_MAP[r.brand] || RAW_COMPANY_MAP[r.company])
+        REG_OTHER_SUBKEYS.includes(RAW_COMPANY_MAP[r.brand] || RAW_COMPANY_MAP[r.company])
       );
       if (otherRows.length) {
         // mention_rate is decimal in regional CSV → * 100
@@ -2481,12 +2483,12 @@ function buildRegionalData(allRows, regionId) {
   // Client-side SOV
   ['openai','gemini'].forEach(p => {
     sortedWeeks.forEach((_,wIdx) => {
-      const total = RAW_KEYS.reduce((s,k)=>s+(MHw[k][p][wIdx]||0),0);
+      const total = REG_RAW_KEYS.reduce((s,k)=>s+(MHw[k][p][wIdx]||0),0);
       if (!total) return;
       ['rollins','rentokil'].forEach(k => {
         SOVw[k][p][wIdx] = parseFloat(((MHw[k][p][wIdx]/total)*100).toFixed(1));
       });
-      const otherMH = OTHER_SUBKEYS.reduce((s,k)=>s+(MHw[k][p][wIdx]||0),0);
+      const otherMH = REG_OTHER_SUBKEYS.reduce((s,k)=>s+(MHw[k][p][wIdx]||0),0);
       SOVw['other'][p][wIdx] = parseFloat(((otherMH/total)*100).toFixed(1));
     });
   });
@@ -2506,12 +2508,12 @@ function buildRegionalData(allRows, regionId) {
     const rawKey = RAW_COMPANY_MAP[r.brand]||RAW_COMPANY_MAP[r.company];
     const provKey = REG_PROVIDER_MAP[r.provider];
     if(!rawKey||!provKey) return;
-    const dispKey = OTHER_SUBKEYS.includes(rawKey)?'other':rawKey;
+    const dispKey = REG_OTHER_SUBKEYS.includes(rawKey)?'other':rawKey;
     // mention_rate is decimal in regional CSV → * 100
     if(dispKey!=='other') MRlatest[dispKey][provKey]=(parseFloat(r.mention_rate)||0)*100;
   });
   ['openai','gemini'].forEach(p=>{
-    const ors=rows.filter(r=>r.week===lastWk&&REG_PROVIDER_MAP[r.provider]===p&&OTHER_SUBKEYS.includes(RAW_COMPANY_MAP[r.brand]||RAW_COMPANY_MAP[r.company]));
+    const ors=rows.filter(r=>r.week===lastWk&&REG_PROVIDER_MAP[r.provider]===p&&REG_OTHER_SUBKEYS.includes(RAW_COMPANY_MAP[r.brand]||RAW_COMPANY_MAP[r.company]));
     if(ors.length) MRlatest['other'][p]=parseFloat((ors.reduce((s,r)=>s+(parseFloat(r.mention_rate)||0)*100,0)/ors.length).toFixed(1));
   });
 
