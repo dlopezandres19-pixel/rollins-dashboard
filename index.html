@@ -2390,7 +2390,7 @@ function aiRenderDisclaimer(mode) {
   const isRegional = mode === 'regional';
   const prompts    = isRegional ? PROMPTS_REGIONAL : PROMPTS_NACIONAL;
   const methodLine = isRegional
-    ? `<strong>Methodology v1-regional</strong> · Web search <strong>ON</strong> (OpenAI + Gemini only — Anthropic excluded: no native web search API) · 10 prompts × 3 reps × 4 regions × 2 providers = 240 calls/week · <strong>[REGION]</strong> replaced at runtime per region ·`
+    ? `<strong>Methodology v1-regional</strong> · Web search <strong>ON</strong> (OpenAI + Gemini only — Anthropic excluded: no native web search API) · 10 prompts × 3 reps × 4 regions × 2 providers = 240 calls/week · Regions: Southeast (FL, GA, TX) · Northeast (NY, NJ, PA) · Midwest (IL, OH, MI) · West (CA, WA, AZ) ·`
     : `<strong>Methodology v1</strong> · Web search <strong>OFF</strong> (measures model prior only) · 20 prompts × 5 reps × 3 providers = 300 responses/week ·`;
 
   const commonLine = isRegional
