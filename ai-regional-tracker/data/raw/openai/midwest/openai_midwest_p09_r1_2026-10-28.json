@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "In the Midwest US, particularly in states like Illinois, Ohio, and Michigan, there are several options for residential pest control. Here are some common options:\n\n1. **Professional Pest Control Services:**\n   - **Orkin:** Offers comprehensive services for various pests, including termites, rodents, and insects.\n   - **Terminix:** Known for dealing with termites, bed bugs, and other pests, with tailored plans for each problem.\n   - **Ehrlich Pest Control:** Provides customized pest management solutions, focusing on prevention and control.\n   - **TruGreen:** Offers pest control services alongside lawn care, focusing on outdoor pest prevention.\n\n2. **Local Pest Control Companies:**\n   - Many areas have local businesses that provide personalized services. It's worth checking reviews and asking for recommendations from neighbors.\n\n3. **Do-It-Yourself (DIY) Solutions:**\n   - **Natural Repellents:** Using essential oils, vinegar, or diatomaceous earth to deter pests.\n   - **Traps and Baits:** Available for rodents and insects; these can be effective for minor infestations.\n\n4. **Integrated Pest Management (IPM):**\n   - A holistic approach focusing on long-term prevention through a combination of techniques such as habitat modification, biological control, and regular monitoring.\n\n5. **Preventive Measures:**\n   - Sealing entry points, maintaining cleanliness, and managing moisture around the home can reduce pest attraction.\n\nWhen choosing a pest control option, consider factors like the type of pest, the severity of the infestation, your budget, and any environmental concerns. It's often beneficial to consult with a professional to assess the situation and recommend the most effective solution.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:44:32+00:00",
+  "has_unknown": true
+}

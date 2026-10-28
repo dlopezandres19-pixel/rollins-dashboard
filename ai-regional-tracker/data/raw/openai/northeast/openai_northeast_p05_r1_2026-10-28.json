@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "Choosing a pest control company in the Northeast US can depend on several factors like the specific pest issue, budget, and customer reviews. Here are a few reputable companies you might consider:\n\n1. **Terminix**: Known for comprehensive pest management services and a wide range of treatment options. They offer services for termites, bed bugs, rodents, and more.\n\n2. **Orkin**: Offers a science-based approach and has extensive experience. They provide services for both residential and commercial properties.\n\n3. **Ehrlich Pest Control**: Specializes in environmentally friendly pest control solutions and offers services across the Northeast.\n\n4. **Arrow Exterminating**: A family-owned business with a strong presence in New York and New Jersey, known for personalized service.\n\n5. **Viking Pest Control**: Serves New Jersey and parts of New York and Pennsylvania. They are known for their effective and eco-friendly solutions.\n\nWhen selecting a company, consider the following:\n\n- **Customer Reviews**: Look at reviews on platforms like Google or Yelp to see what other customers have experienced.\n- **Certifications and Licenses**: Ensure the company is licensed and certified to operate in your state.\n- **Service Guarantees**: Check if they offer any guarantees or follow-up services.\n- **Consultation and Inspection**: A good company will usually offer a free consultation or inspection to assess your specific situation.\n\nIt’s a good idea to contact a few companies for quotes and compare their services before making a decision.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:41:12+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "Here are some highly regarded pest control companies in the Western US, including California, Washington, and Arizona:\n\n1. **Orkin**: Known for its comprehensive pest control services and long-standing reputation, Orkin operates across the Western US with tailored solutions for various pests.\n\n2. **Terminix**: With a wide range of services, Terminix is another well-known company offering effective pest control solutions. They have a strong presence in California, Washington, and Arizona.\n\n3. **Ecola Termite and Pest Control**: Based in California, Ecola specializes in eco-friendly pest control solutions and offers a variety of services to tackle common pest issues.\n\n4. **Western Exterminator**: A popular choice in the West, Western Exterminator is known for its quality service and expertise in handling pest problems efficiently.\n\n5. **Truly Nolen**: Operating in Arizona and other states, Truly Nolen provides innovative and environmentally friendly pest control solutions.\n\n6. **Insight Pest Solutions**: With operations in Washington and other states, Insight Pest Solutions offers customer-focused services and effective pest management strategies.\n\n7. **Clark Pest Control**: Serving California, Clark Pest Control provides a range of services and has a strong reputation for customer satisfaction and effective pest management.\n\nEach of these companies has its strengths, so it may be helpful to contact them for quotes and to inquire about specific services tailored to your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:44:58+00:00",
+  "has_unknown": true
+}

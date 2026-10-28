@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control company in the Northeast (New York, New Jersey, and Pennsylvania), you have a mix of excellent regional specialists with deep local expertise and reliable national brands. \n\nHere are the top-rated pest control companies serving the NY–NJ–PA region, broken down by regional leaders, national providers, and specialized picks:\n\n---\n\n### 1. Top Regional Leaders (Best Local Expertise)\n\nThese companies were founded in the Northeast and specialize in local seasonal pests (such as deer ticks, subterranean termites, carpenter ants, and spotted lanternflies):\n\n* **Western Pest Services** *(NY, NJ, PA, DE, CT)*\n  * **Best for:** Overall residential and commercial coverage in the Tri-State area.\n  * **Highlights:** Founded in New Jersey in 1928, Western is one of the most recognized names in the Northeast. They understand the climate, older housing stock, and regional pests thoroughly. They offer comprehensive home protection plans and strong satisfaction guarantees.\n* **Ehrlich Pest Control (Rentokil)** *(PA, NJ, NY)*\n  * **Best for:** Pennsylvania and suburban NJ/NY homeowners.\n  * **Highlights:** Founded in Reading, PA in 1928, Ehrlich is deeply rooted in Pennsylvania and has widespread service throughout NJ and NY. Their signature *PestFree365+* plan protects against over 30 common pests year-round, including bed bugs and seasonal invaders.\n* **Viking Pest Control** *(NJ, PA, NY, DE)*\n  * **Best for:** Tech-forward solutions and eco-conscious treatments.\n  * **Highlights:** Based in New Jersey, Viking is known for adopting modern pest-tech like the Anticimex SMART system (non-toxic, digital rodent monitoring). They offer effective tick/mosquito seasonal packages and targeted treatments for invasive species like the spotted lanternfly.\n\n---\n\n### 2. Best National Providers (Best Availability & Guarantees)\n\nIf you live in a rural area or want the backing of a large national 24/7 network, these two are the industry standard:\n\n* **Orkin**\n  * **Best for:** Fast response times, rigorous technician training, and termite/bed bug control.\n  * **Highlights:** Orkin has numerous branches across NY, NJ, and PA. Their technicians undergo extensive training, and they offer a 30-day money-back guarantee. If pests return between scheduled quarterly visits, they provide complimentary re-treatments.\n* **Terminix**\n  * **Best for:** Termite coverage and integrated pest management packages.\n  * **Highlights:** Strong presence throughout the region, offering the *Nix Pest Guarantee*. They are particularly strong if you suspect subterranean termites or require extensive attic insulation/exclusion work against rodents.\n\n---\n\n### 3. Best for Specific Needs & Metro Areas\n\n* **MMPC (Metro/NYC Area):** If you are in New York City or the immediate metro area dealing with bed bugs, mice, or roaches, MMPC is consistently ranked as one of the best eco-friendly, IPM (Integrated Pest Management) certified exterminators in the city.\n* **Cooper Pest Solutions (NJ & Eastern PA):** Known for specialized bed bug elimination without throwing away furniture, as well as proactive stinging insect and stink bug programs.\n\n---\n\n### Tips for Choosing in the Northeast:\n\n1. **Verify Licensing & Certifications:** Look for companies certified as **QualityPro** (awarded by the National Pest Management Association) or state-certified by the NYS Department of Environmental Conservation (DEC), NJ Department of Environmental Protection (DEP), or PA Department of Agriculture.\n2. **Inquire About Region-Specific Threats:** \n   * **Suburbs/Rural:** Make sure the company offers targeted seasonal coverage for **blacklegged (deer) ticks** and **carpenter ants**, which thrive in the damp, wooded Northeast climate.\n   * **Urban Areas:** Ask about rodent-proofing (exclusion services) rather than just bait traps.\n3. **Check the Retreatment Policy:** Seasonal shifts in the Northeast bring different waves of pests (ants in spring, mosquitoes/ticks in summer, rodents/stink bugs in fall). Ensure your maintenance contract covers free visits between quarters if pests reappear.\n4. **Get Multiple Free Estimates:** Most reputable providers will conduct a free or low-cost initial walkthrough to assess your property's specific vulnerabilities before quoting a contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:59:39+00:00",
+  "has_unknown": true
+}

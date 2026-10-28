@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast US, including states like Florida, Georgia, and Texas, residents have several options for residential pest control. Here are some of the main approaches:\n\n1. **Professional Pest Control Services:**\n   - Many companies offer comprehensive pest control services, including both preventative and responsive treatments. Popular companies include Orkin, Terminix, and Truly Nolen.\n   - Local companies might also offer specialized knowledge of regional pests.\n\n2. **Integrated Pest Management (IPM):**\n   - This approach focuses on long-term prevention and management through a combination of techniques such as biological control, habitat manipulation, and use of resistant varieties. It minimizes the use of chemical pesticides.\n\n3. **DIY Options:**\n   - Homeowners can use over-the-counter products such as sprays, traps, and baits for common pests like ants, roaches, and rodents.\n   - Natural remedies, such as essential oils or diatomaceous earth, can also be effective for some pests.\n\n4. **Preventative Measures:**\n   - Regular maintenance, such as sealing cracks, maintaining clean environments, and removing standing water, can help prevent infestations.\n\n5. **Eco-friendly Solutions:**\n   - Some companies offer green pest control options using environmentally friendly products and methods.\n\nEach option has its pros and cons depending on the specific pest problem, the size of the infestation, budget, and personal preferences regarding chemical use. Consulting with a local pest control expert can help determine the best approach for your specific situation.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:39:55+00:00",
+  "has_unknown": true
+}

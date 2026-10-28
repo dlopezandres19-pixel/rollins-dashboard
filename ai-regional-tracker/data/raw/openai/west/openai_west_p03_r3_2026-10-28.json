@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "In the Western U.S., including states like California, Washington, and Arizona, several pest control companies are known for their reputation and quality of service. Here are some of the most reputable ones:\n\n1. **Orkin**: Known nationwide, Orkin offers comprehensive pest control services and has a solid reputation for dealing with a variety of pests.\n\n2. **Terminix**: Another national company, Terminix is well-regarded for its effective treatments and customer service. They offer both residential and commercial pest control.\n\n3. **Western Exterminator**: Particularly popular in California, Western Exterminator has been in business for nearly 100 years and is known for its thorough approach and customer satisfaction.\n\n4. **Clark Pest Control**: Based in California, Clark Pest Control offers a wide range of pest management services and is praised for its knowledgeable technicians.\n\n5. **EcoShield Pest Solutions**: Operating in several Western states, EcoShield is noted for using environmentally friendly products and techniques.\n\n6. **Green Pest Solutions**: This company focuses on eco-friendly pest control methods and is appreciated for its commitment to sustainable practices.\n\n7. **Sprague Pest Solutions**: With a strong presence in Washington, Sprague is known for its commercial and residential services and its commitment to integrated pest management.\n\nWhen selecting a pest control company, consider factors like the specific pest issues you're facing, the company's approach to treatment, and customer reviews. It's also a good idea to get quotes from multiple companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:45:36+00:00",
+  "has_unknown": true
+}

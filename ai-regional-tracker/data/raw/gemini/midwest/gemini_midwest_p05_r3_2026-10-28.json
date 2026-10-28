@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "For a home in the Midwest (Illinois, Ohio, Michigan), the right pest control company largely depends on whether you prefer an established regional provider with deep local roots or a large national brand with 24/7 support and standardized guarantees. \n\nHere are the best choices broken down by category:\n\n---\n\n### 1. Best Overall Regional Choice: **Rose Pest Solutions**\n* **Service Area:** Strong presence throughout Michigan, Ohio, and parts of Illinois/Indiana (they are the oldest pest control company in the U.S., founded in 1860).\n* **Why Choose Them:** Regional providers often outperform national chains in customer service retention and technician consistency. Rose specifically understands seasonal Midwest pest patterns—such as boxelder bugs, brown marmorated stink bugs, carpenter ants, and autumn rodent migrations into basements.\n* **Best For:** Homeowners who want a long-term, community-rooted preventative service without the aggressive sales tactics common among larger corporate franchises.\n\n---\n\n### 2. Best National Brand for Major Infestations: **Orkin**\n* **Service Area:** Ubiquitous across Illinois, Ohio, and Michigan.\n* **Why Choose Them:** Orkin invests heavily in entomologist-designed training for its technicians. If you are dealing with a severe active infestation—such as bed bugs, wood-destroying carpenter ants, or subterranean termites—Orkin's diagnostic protocols and treatment plans are among the most thorough in the industry.\n* **Best For:** Fast response times, 30-day money-back guarantees, and complex or severe infestations.\n\n---\n\n### 3. Best for Termites & Standard Perimeter Plans: **Terminix**\n* **Service Area:** Widespread across all three states.\n* **Why Choose Them:** Terminix offers some of the most comprehensive termite inspection and warranty plans (the Nix Pest Guarantee). If your home has subterranean termite vulnerability—common in older wood-framed Midwest homes and damp soil regions—their bait station systems and repair guarantees provide solid peace of mind.\n* **Best For:** Termite prevention/remediation and homeowners who value managing appointments and payments via a robust online portal.\n\n---\n\n### 4. Strong Local & State-Specific Alternatives\nIf you prefer smaller or sub-regional operators, look into these top-rated options depending on your exact state:\n\n* **Illinois:** \n  * **Anderson Pest Solutions:** A dominant force across the Chicagoland and northern Illinois area. Now part of Rentokil, they maintain strong local knowledge for urban/suburban insect and rodent exclusion.\n* **Ohio:** \n  * **ScherZinger Pest Control:** A premier choice if you are in Southwestern/Central Ohio (Cincinnati, Dayton, Columbus), known for great customer service.\n  * **Varment Guard:** Excellent throughout central and northern Ohio, particularly if you have wildlife issues (raccoons, bats, squirrels) in addition to common bugs.\n* **Michigan:** \n  * **Griffin Pest Solutions:** Covers Southwest and Central Michigan, offering great seasonal protection packages and humane wildlife removal.\n\n---\n\n### Tips for Choosing in the Midwest:\n1. **Target Midwest-Specific Pests:** Ask specifically how their plan treats **mice/rats** entering foundations in October/November, and whether their barrier treatments cover **stink bugs, boxelder bugs, and Asian lady beetles**, which plague Midwest siding and attics in the fall.\n2. **Watch Out for Door-to-Door Contracts:** Companies like Aptive Environmental operate heavily in Midwest suburbs during the spring/summer via door-to-door sales. While their perimeter treatments can be effective, read the fine print closely—their cancellation fees and multi-year contract terms are often much stricter than Rose or Orkin.\n3. **Verify the Free Inspection:** Any reputable company should inspect your crawlspace, basement, and exterior foundation for free before quoting a yearly contract. Always compare quotes from one regional company (e.g., Rose) and one national chain (e.g., Orkin) before signing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:15:28+00:00",
+  "has_unknown": true
+}

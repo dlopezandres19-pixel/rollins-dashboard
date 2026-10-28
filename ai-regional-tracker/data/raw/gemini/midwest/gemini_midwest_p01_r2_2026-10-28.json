@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control provider in the Midwest (specifically Illinois, Ohio, and Michigan), you generally have a choice between **strong regional providers**—which often have the deepest familiarity with local Midwest pest patterns and better localized customer service—and **national giants**, which offer 24/7 hotlines, standardized training, and broad service guarantees.\n\nHere are the best pest control companies serving the region:\n\n---\n\n### 1. Best Overall Regional Providers\n\n*   **Rose Pest Solutions (IL, OH, MI, IN)**\n    *   **Best for:** Comprehensive residential protection and historical reliability.\n    *   **Overview:** Founded in 1860, Rose is one of the oldest pest management companies in the nation and is headquartered in the Midwest. They have dedicated branches across Illinois, Michigan, and Ohio. They are known for thorough inspections, low technician turnover, and effective integrated pest management (IPM) that targets pests without overusing chemicals.\n*   **Anderson Pest Solutions (Illinois)**\n    *   **Best for:** Chicagoland and northern/central Illinois.\n    *   **Overview:** Anderson is a staple in Illinois and northwest Indiana. Their \"Natural Choice Home Protection\" plan is especially popular for homeowners who want quarterly protection covering common Midwest pests (spiders, ants, rodents, and wasps) using environmentally sensitive methods.\n*   **Griffin Pest Solutions (Michigan)**\n    *   **Best for:** Michigan homeowners (statewide coverage).\n    *   **Overview:** Headquartered in Michigan, Griffin has been serving the state for decades. They excel at seasonal Midwest pest issues, including heavy carpenter ant infestations in wooded areas and overwintering pests like boxelder bugs and stink bugs.\n*   **Varment Guard / Plunkett’s Pest Control (Ohio)**\n    *   **Best for:** Ohio (particularly Columbus, Cleveland, and Cincinnati areas) and wildlife removal.\n    *   **Overview:** Varment Guard partnered with Plunkett’s Pest Control (a major Upper Midwest brand). They stand out because they specialize not only in general insects and rodents, but also in humane wildlife management (raccoons, bats, squirrels), which is a frequent problem in Ohio's older neighborhoods and wooded suburbs.\n\n---\n\n### 2. Best National Providers (Broad Coverage & Guarantees)\n\nIf you live in a rural area or prefer a large company with 24/7 emergency dispatch and transferable warranties, these are the top national options:\n\n*   **Orkin**\n    *   **Best for:** Emergency response and specialized treatments (bed bugs, termites).\n    *   **Overview:** Orkin has strong branch coverage across Chicago, Detroit, Grand Rapids, Columbus, Cleveland, and Cincinnati. Their technicians undergo rigorous, entomologist-led training, and they offer a 30-day money-back guarantee.\n*   **Terminix**\n    *   **Best for:** Subterranean termite protection and package discounts.\n    *   **Overview:** Like Orkin, Terminix has branches throughout all three states. If you are dealing with termite risk—particularly in the southern halves of Illinois and Ohio—their specialized termite inspection and baiting/trenching warranties are among the strongest in the business.\n*   **Aptive Environmental**\n    *   **Best for:** Eco-conscious routine perimeter maintenance.\n    *   **Overview:** Aptive is widely available across suburban Midwest markets. Their plans focus heavily on exterior barrier treatments (using pyrethrin-derived products from chrysanthemum flowers) with free re-services between scheduled visits if bugs break the perimeter.\n\n---\n\n### What to Look for in the Midwest\n\nWhen getting quotes, keep these regional realities in mind:\n\n1.  **Fall Invaders & Rodent Exclusion:** Midwest winters drive field mice, Norway rats, boxelder bugs, and brown marmorated stink bugs indoors starting in late September. Ensure the company offers physical **exclusion services** (caulking, door sweeps, sealing entry points) rather than just leaving bait traps.\n2.  **Carpenter Ants vs. Termites:** In Michigan and northern Illinois/Ohio, moisture-damaged wood frequently attracts carpenter ants, whereas subterranean termites become more prevalent the further south you go. Make sure your provider does free structural pest identification.\n3.  **Free Re-treatment Clauses:** Seasonal weather shifts in the Midwest can wash away exterior perimeter sprays quickly. Always choose a plan that guarantees free service calls between quarterly visits.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:10:52+00:00",
+  "has_unknown": true
+}

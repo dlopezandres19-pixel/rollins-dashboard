@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control service in the West, you will find a mix of well-established regional giants and top-rated local providers. Because the pest challenges differ significantly between the Pacific Northwest (dampness, rodents, carpenter ants), California (drywood termites, Argentine ants), and Arizona (scorpions, desert termites, venomous spiders), local expertise matters.\n\nHere are the most reputable residential pest control companies across California, Washington, and Arizona.\n\n---\n\n### 1. Best Multi-State & Regional Brands (West Coast Footprint)\n\n*   **Western Exterminator (Part of Rentokil)**\n    *   **Where they operate:** California, Arizona, Washington, and across the West.\n    *   **Reputation:** Recognized by their yellow trucks and iconic \"Little Man\" mascot, Western Exterminator has been a West Coast staple for over a century. They are known for comprehensive termite programs, Integrated Pest Management (IPM), and strong customer service guarantees.\n*   **Orkin**\n    *   **Where they operate:** Widespread coverage across CA, WA, and AZ.\n    *   **Reputation:** Orkin stands out for its rigorous technician training (Orkin Certified) and a solid 30-day money-back guarantee. They are particularly reliable for serious structural infestations (termites, bed bugs, and wood-destroying organisms).\n*   **Aptive Environmental**\n    *   **Where they operate:** Active in major metro areas across all three states (e.g., Seattle, Bay Area, Los Angeles, Phoenix).\n    *   **Reputation:** Aptive focuses primarily on general quarterly residential maintenance using pyrethrin-based, eco-friendlier formulations. They are popular for perimeter protection, though they generally do not handle major termite or wildlife removal services.\n\n---\n\n### 2. Top-Rated State-Specific Providers\n\nLocal and regional companies often outperform national chains in localized pest biology (like desert scorpions in Phoenix or dampwood termites in Puget Sound).\n\n#### **California**\n*   **Clark Pest Control:** One of the largest and most trusted family-founded brands in California (now part of the Rollins family). They cover Northern and Central California extensively down into Southern California, offering exceptional termite inspections, lawn care, and rodent exclusion.\n*   **Lloyd Pest Control:** The premier choice in Southern California (San Diego, Orange County, Riverside, and Los Angeles). They have operated since the 1930s and carry an excellent reputation for termite fumigation, heat treatments, and eco-friendly options.\n\n#### **Washington**\n*   **Eastside Exterminators:** Based in the Greater Seattle / Eastside area, they are especially renowned for their 4-step rodent control process (rodents are one of the Pacific Northwest’s largest residential pest threats) and structural exclusion work.\n*   **Cascade Pest Control:** Serving the Puget Sound region, Cascade is a standout for environmentally conscious pest control. They specialize in carpenter ants, spider control, and rodent management with minimal chemical disruption.\n\n#### **Arizona**\n*   **Burns Pest Elimination:** Highly reputable across Phoenix and Tucson (as well as Las Vegas). They are widely praised for customized service plans that tackle native desert pests like bark scorpions, pigeon control, and subterranean termites.\n*   **Blue Sky Pest Control:** A top-rated Phoenix-area provider known for transparent pricing, in-depth background-checked technicians, and specialized, high-barrier scorpion treatments designed to withstand extreme desert heat.\n*   **Responsible Pest & Scorpion Control:** A localized favorite across the Valley and Tucson, specializing specifically in scorpion sealing, perimeter barriers, and desert termite elimination.\n\n---\n\n### Tips for Choosing the Right One\n\n1.  **Confirm the Target Pest:** If you are dealing with **termites or scorpions**, make sure the company uses specific treatments (e.g., Termidor liquid barriers, tent fumigation, or scorpion blacklight inspections) rather than a generic exterior spray.\n2.  **Ask About the Free Re-Service Policy:** Reputable companies (like Clark, Western Exterminator, or Blue Sky) provide free touch-up visits between regular appointments if pests return.\n3.  **Watch the Contract Terms:** Many quarterly subscription services (like Aptive) require a 12-month commitment with early cancellation fees. If you only have a seasonal or one-time issue, request a one-time treatment quote.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Aptive",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:23:39+00:00",
+  "has_unknown": true
+}

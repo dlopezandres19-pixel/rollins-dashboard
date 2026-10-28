@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "In the Northeast US, including New York, New Jersey, and Pennsylvania, several pest control companies are well-regarded for their services. Here are some of the top options:\n\n1. **Terminix**: A well-known national brand with extensive coverage and a variety of pest control solutions. They offer services for termites, bed bugs, rodents, and more.\n\n2. **Orkin**: Another national leader in pest control, Orkin provides comprehensive services and has a solid reputation for customer service and effective solutions.\n\n3. **Ehrlich Pest Control**: Known for their environmentally responsible approach, Ehrlich offers a range of pest control services and has a strong presence in the Northeast.\n\n4. **Western Pest Services**: Operating primarily in the Northeast, Western Pest Services is noted for its effective pest management strategies, including residential and commercial services.\n\n5. **Viking Pest Control**: Based in New Jersey, Viking offers services across the region with a focus on integrated pest management, providing eco-friendly options.\n\n6. **Arrow Pest Control**: A family-owned business with a good reputation in New Jersey, they offer personalized service and a wide range of pest control options.\n\nWhen choosing a pest control company, consider factors like the specific pests you’re dealing with, the company’s reputation, customer reviews, and whether they offer eco-friendly solutions. It’s also a good idea to get quotes from multiple companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:40:11+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "For a homeowner in the Northeast (New York, New Jersey, and Pennsylvania), the best choice depends on whether you prefer a **regional specialist** with deep roots in local pest cycles or a **large national brand** with round-the-clock customer support. \n\nHere are the top recommendations broken down by category:\n\n---\n\n### 1. Best Overall Regional Providers (Top Pick for the Northeast)\n\nBecause the Northeast has distinct seasonal challenges (harsh winters driving rodents indoors, humid summers bringing heavy tick and mosquito activity, and older home foundations), regional companies often have the best localized knowledge.\n\n* **Ehrlich Pest Control**\n  * **Coverage:** Extensive throughout PA, NJ, and NY.\n  * **Best For:** Comprehensive year-round home protection.\n  * **Why Recommend:** Ehrlich originated in Pennsylvania and has operated in the Mid-Atlantic and Northeast for nearly a century (now backed by Rentokil). Their **PestFree365+** plan is well-tailored to the Northeast, covering 36+ common pests, including seasonal invaders like mice, stink bugs, carpenter ants, and wasps.\n* **Western Pest Services**\n  * **Coverage:** Dominant in NJ, Eastern PA, and NY (including Long Island and NYC metro).\n  * **Best For:** Fast response times and knowledgeable local technicians.\n  * **Why Recommend:** Western is a household name in the Tri-State area. They are known for thorough inspections and technicians who understand the region’s specific structural types—from older stone and timber homes in PA to row homes and split-levels in NY and NJ.\n\n---\n\n### 2. Best National Providers (Best for Standardized Guarantees)\n\nIf you live in a more rural area where regional specialists might not have a branch, or if you prefer a company with centralized digital scheduling and robust money-back guarantees:\n\n* **Orkin**\n  * **Best For:** Severe, specialized infestations (termites, bed bugs, stubborn rodent issues).\n  * **Why Recommend:** Orkin has one of the most rigorous technician training programs in the industry. They offer a strong 30-day money-back guarantee, free retreatments between scheduled visits, and extensive branch coverage across all three states.\n* **Terminix**\n  * **Best For:** Termite monitoring and bundled recurring maintenance.\n  * **Why Recommend:** If your primary concern is subterranean termites—a common issue in older Northeast properties—Terminix offers competitive proprietary baiting systems (the Nix Pest Guarantee) and comprehensive damage repair plans.\n\n---\n\n### 3. What to Check Specifically for the Northeast\n\nWhen getting quotes from any of these providers, confirm they address the specific pest threats common to NY, NJ, and PA:\n\n1. **Rodent Exclusion (Fall/Winter):** Field mice and Norway rats frequently enter basements and crawl spaces when temperatures drop in October/November. Make sure the plan includes **exclusion work** (caulking, steel wool, sealing access points), not just placing poison traps.\n2. **Ticks & Mosquitoes (Spring/Summer):** NY, NJ, and PA are the epicenter for Lyme disease and deer ticks. If you have a wooded lot or children/pets, ask if tick perimeter spraying is bundled into your outdoor plan.\n3. **Carpenter Ants vs. Termites:** The Northeast has heavy tree cover, making moisture-seeking carpenter ants just as destructive as subterranean termites. Ensure your provider can identify and treat both.\n4. **Spotted Lanternflies:** If you live in PA, NJ, or southern/eastern NY, ask whether your provider offers egg-mass destruction or systemic treatments for trees during late summer and fall.\n\n### Recommendation:\n* Call **Ehrlich** or **Western Pest Services** first to get a **free on-site inspection** and quote. \n* Compare their proposal with **Orkin**. \n* Look closely at the **re-treatment guarantee**: a good contract should state that if covered pests return between scheduled quarterly visits, the technician comes back out at zero extra charge.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:01:03+00:00",
+  "has_unknown": true
+}

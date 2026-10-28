@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control provider in the Northeast US, specifically in New York, New Jersey, and Pennsylvania, you might want to compare the following companies:\n\n1. **Orkin**: Known for its comprehensive pest control services and strong national presence. They offer a variety of solutions for different pests.\n\n2. **Terminix**: Offers a wide range of pest control services with a good reputation for customer service and effective treatments.\n\n3. **Ehrlich Pest Control**: Provides pest control services specifically tailored to the Northeast region, with a focus on environmentally friendly solutions.\n\n4. **Truly Nolen**: Offers innovative pest control solutions and eco-friendly options. They have a strong reputation in the industry.\n\n5. **Arrow Pest Control**: A regional provider with a strong presence in New Jersey and surrounding areas. Known for personalized service and effective treatments.\n\n6. **Viking Pest Control**: Serves New Jersey, New York, and Pennsylvania, offering comprehensive pest management and prevention services.\n\n7. **Cooper Pest Solutions**: Based in New Jersey, they are known for their scientific approach to pest control and excellent customer service.\n\nWhen comparing these companies, consider factors such as:\n\n- **Service Offerings**: Make sure they handle the specific pests you are dealing with.\n- **Pricing**: Compare pricing plans and ensure they fit within your budget.\n- **Reputation**: Look for customer reviews and ratings to gauge reliability and effectiveness.\n- **Guarantees**: Check if they offer satisfaction guarantees or free follow-up services.\n- **Safety**: Consider their approach to environmentally friendly and safe pest control methods.\n\nIt's also a good idea to request quotes and consultations from a few providers to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:41:56+00:00",
+  "has_unknown": true
+}

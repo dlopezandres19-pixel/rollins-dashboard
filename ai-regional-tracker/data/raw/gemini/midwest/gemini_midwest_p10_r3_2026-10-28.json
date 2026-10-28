@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Midwest US (Illinois, Ohio, Michigan) should consider.",
+  "rep": 3,
+  "response_text": "For homeowners in Illinois, Ohio, and Michigan, the pest profile changes drastically with the seasons—from spring carpenter ants and subterranean termites to late-summer yellowjackets and late-fall rodent or stink bug intrusions. \n\nHere is a shortlist of the top pest control companies to consider, covering trusted regional specialists and reliable national providers:\n\n---\n\n### 1. Best Overall Midwest Legacy: **Rose Pest Solutions**\n* **Service Area:** Strong presence throughout Illinois, Michigan, Ohio, and Indiana.\n* **Why Consider Them:** Founded in 1860, Rose is the oldest pest management company in the United States and has an exceptional reputation tailored specifically to Midwest homes. They are heavily experienced in regional issues like seasonal boxelder bugs, cluster flies, mice, and carpenter ants.\n* **Best For:** Homeowners who prefer a deep-rooted regional brand over a massive national conglomerate.\n\n---\n\n### 2. Best for Rodents & Wildlife: **Varment Guard / Plunkett’s Pest Control**\n* **Service Area:** Widespread across Ohio, Michigan, Illinois, and neighboring states.\n* **Why Consider Them:** Plunkett’s and its specialty wildlife division, Varment Guard, are Upper Midwest staples. In addition to treating common insects, they excel at live-trapping, bat exclusion, raccoon/squirrel removal, and rodent proofing (crucial for Midwest winters when rodents push into basements and attics).\n* **Best For:** Homes near woods, water, or older neighborhoods with frequent rodent or animal intrusions.\n\n---\n\n### 3. Best for Chicagoland & Northern Illinois: **Anderson Pest Solutions**\n* **Service Area:** Illinois (especially greater Chicago, Rockford, and Peoria) and Northwest Indiana.\n* **Why Consider Them:** Anderson has served the Chicagoland and northern Illinois corridor for over a century. They are known for their \"Natural Choice Home Protection\" program, emphasizing Integrated Pest Management (IPM) to minimize chemical use indoors while maintaining strong exterior barriers.\n* **Best For:** Homeowners in the greater Chicago/Illinois metro area looking for reliable quarterly perimeter defense.\n\n---\n\n### 4. Best National Provider for Strict Training: **Orkin**\n* **Service Area:** Ubiquitous across Illinois, Ohio, and Michigan (both metro and rural areas).\n* **Why Consider Them:** Orkin is consistently rated among the best for technician training (technicians undergo extensive simulation training before field work). They offer a reliable 30-day money-back guarantee, free re-treatments between scheduled visits, and standard 24/7 customer service.\n* **Best For:** Complex infestations (bed bugs, aggressive termite colonies, severe carpenter ant damage) where rigorous protocols and standardized guarantees matter.\n\n---\n\n### 5. Best for Termites & Widespread Coverage: **Terminix**\n* **Service Area:** Broad coverage throughout the Midwest with dozens of branch offices.\n* **Why Consider Them:** While termites are not quite as pervasive in the Upper Midwest as in the Deep South, eastern subterranean termites still cause significant structural damage in OH, IL, and southern MI. Terminix has the most mature termite monitoring and repair warranty programs in the industry.\n* **Best For:** Homeowners needing termite inspections, termite bait systems, and comprehensive whole-home damage guarantees.\n\n---\n\n### Tips for Midwest Homeowners Before Hiring:\n* **Ask About Overwintering Pests:** In late August through October, Midwest homes get hit with brown marmorated stink bugs, western conifer seed bugs, and boxelder bugs trying to hibernate in walls. Make sure your exterior barrier plan includes eaves, soffits, and window frames before the first freeze.\n* **Verify Free Re-Services:** Most quarterly recurring plans (typically $100–$150/quarter) include a guarantee: if pests return between visits, the technician comes back out for free. Ensure this clause is in writing.\n* **Don't Overlook Local Independents:** If you live outside a major metro, get a quote from a local, family-owned exterminator in your county alongside one from this list—local operators often offer competitive annual contracts and know your township's specific seasonal trends.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:20:53+00:00",
+  "has_unknown": true
+}

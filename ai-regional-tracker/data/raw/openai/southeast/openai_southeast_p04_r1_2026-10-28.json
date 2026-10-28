@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several leading residential pest control companies are well-regarded for their services. Here are some of the top options:\n\n1. **Terminix**: A national leader in pest control, Terminix offers comprehensive services including termite, mosquito, and general pest control. They have a strong presence in the Southeast.\n\n2. **Orkin**: Another major national company, Orkin provides a wide range of pest control solutions and is known for its extensive expertise and customer satisfaction.\n\n3. **Massey Services**: Based in Florida, Massey Services is a regional powerhouse offering pest prevention, termite protection, and landscape services.\n\n4. **Arrow Exterminators**: Headquartered in Georgia, Arrow Exterminators provides a variety of pest and termite control services, focusing on eco-friendly solutions.\n\n5. **Truly Nolen**: With locations throughout the Southeast, Truly Nolen offers pest and termite control, as well as lawn care services.\n\n6. **Aptive Environmental**: Known for its environmentally-friendly approach, Aptive provides innovative pest control services and is expanding rapidly across the region.\n\nThese companies are recognized for their expertise, range of services, and customer service. It's a good idea to contact them for quotes and assessments to find the best fit for your specific needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:38:38+00:00",
+  "has_unknown": false
+}

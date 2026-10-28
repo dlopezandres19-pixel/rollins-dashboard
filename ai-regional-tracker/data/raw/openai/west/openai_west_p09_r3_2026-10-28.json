@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "In the western United States, including California, Washington, and Arizona, there are several options for residential pest control. Here are some of the main approaches:\n\n1. **Professional Pest Control Services**:\n   - **Terminix** and **Orkin**: These national companies offer comprehensive pest control services, including treatment for termites, ants, rodents, and more.\n   - **Local Companies**: Look for reputable local providers that may offer specialized services tailored to the specific pests common in your area.\n\n2. **DIY Methods**:\n   - **Traps and Baits**: For rodents and insects, various traps and baits are available at home improvement stores.\n   - **Natural Remedies**: Essential oils, diatomaceous earth, and vinegar solutions can be effective for minor infestations.\n\n3. **Integrated Pest Management (IPM)**:\n   - This is a holistic approach focusing on long-term prevention and control through a combination of techniques, including cultural, mechanical, biological, and chemical methods.\n\n4. **Specialized Treatments**:\n   - For specific issues like termites or bed bugs, specialized treatments such as fumigation or heat treatment might be necessary.\n\n5. **Preventive Measures**:\n   - Regular home maintenance, sealing entry points, and reducing clutter can help prevent infestations.\n\nMake sure to check reviews and credentials of any service provider, and consider getting multiple quotes to compare services and prices.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:47:06+00:00",
+  "has_unknown": true
+}

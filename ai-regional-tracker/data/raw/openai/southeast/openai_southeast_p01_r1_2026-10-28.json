@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "When looking for top pest control companies in the Southeast US, including Florida, Georgia, and Texas, consider the following options:\n\n1. **Terminix**\n   - Offers comprehensive pest control services.\n   - Known for effective termite control solutions.\n\n2. **Orkin**\n   - Provides a wide range of pest control services.\n   - Has a strong reputation and extensive resources.\n\n3. **Truly Nolen**\n   - Family-owned with a unique approach to pest management.\n   - Offers eco-friendly solutions.\n\n4. **Massey Services**\n   - Operates primarily in Florida and Georgia.\n   - Known for personalized service and prevention methods.\n\n5. **Arrow Exterminators**\n   - Based in the Southeast, offering extensive pest control options.\n   - Focus on green pest control techniques.\n\n6. **Aptive Environmental**\n   - Known for environmentally responsible practices.\n   - Offers customized pest control plans.\n\nWhen choosing a pest control company, consider their specific offerings, customer reviews, and the particular pest issues you're facing. It's also helpful to get quotes from multiple companies to compare services and prices.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:37:50+00:00",
+  "has_unknown": false
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "The best pest control company for your home in the New York, New Jersey, and Pennsylvania area depends on whether you prefer an established regional specialist with deep local expertise or a large national brand with standardized guarantees.\n\nHere are the top-rated providers in the Northeast, broken down by their strengths:\n\n---\n\n### 1. Best Regional Specialists (Top Choice for NY, NJ, PA)\n\nRegional providers often have better local knowledge of Northeast-specific pests (such as deer ticks, subterranean termites, carpenter ants, and spotted lanternflies) compared to national call centers.\n\n*   **Western Pest Services**\n    *   **Best for:** Overall reliability and local reputation.\n    *   **Service Area:** Comprehensive coverage across NJ, eastern PA, and NY (including NYC, Long Island, and Hudson Valley).\n    *   **Why choose them:** Founded in NJ in 1928, Western is one of the most trusted names in the Tri-State area. They employ board-certified entomologists, offer responsive customer service, and provide strong warranties on recurring quarterly plans.\n*   **J.C. Ehrlich (part of Rentokil)**\n    *   **Best for:** Pennsylvania and suburban NJ/NY homeowners.\n    *   **Service Area:** Extremely dense presence in PA, with wide coverage in NJ and NY.\n    *   **Why choose them:** Originating in Pennsylvania, Ehrlich has spent nearly a century treating Mid-Atlantic/Northeast pests. Their \"PestFree365\" plan covers over 30 common household pests and includes preventative protection against spotted lanternflies, ticks, and stinging insects.\n\n---\n\n### 2. Best National Providers (Widest Availability & Standardized Guarantees)\n\nIf you live in a rural area or prefer the backing of a massive national network with 24/7 phone support and easy online portals:\n\n*   **Orkin**\n    *   **Best for:** Rigorous technician training and complex infestations (like bed bugs or aggressive rodent activity).\n    *   **Why choose them:** Orkin technicians undergo hundreds of hours of hands-on training, and the company offers a robust 30-day money-back guarantee. If pests return between scheduled quarterly visits, they re-treat at no extra charge.\n*   **Terminix**\n    *   **Best for:** Termite prevention and large-scale insect barriers.\n    *   **Why choose them:** They offer some of the industry’s best termite monitoring and baiting systems (the Nix Pest Guarantee). If your home is in a high-risk subterranean termite zone—common in older wooded suburbs throughout PA and NJ—Terminix is a standard go-to.\n\n---\n\n### 3. Best for Specific Needs\n\n*   **For Urban Homes / Apartments (NYC & Northern NJ):**\n    *   **MMPC:** A top-rated, eco-friendly pest management firm based in NYC. They specialize in high-density urban pest challenges—particularly bed bugs, German roaches, and rodents—using IPM (Integrated Pest Management) methods that minimize pesticide exposure.\n*   **For Tick and Mosquito Defense:**\n    *   Because the Northeast has some of the highest Lyme disease rates in the nation, look into dedicated yard-barrier services like **Mosquito Squad** or **Mosquito Joe**, or add seasonal tick/mosquito packages to a general service plan from Western or Ehrlich.\n\n---\n\n### Checklist: How to Decide\n\nBefore signing a contract, keep these regional factors in mind:\n\n1.  **Check What’s Covered:** A standard general pest plan usually covers common ants, mice, roaches, and spiders. However, **wood-destroying insects (carpenter ants, termites)** and **bed bugs** typically require a separate or upgraded tier.\n2.  **Ask About Spotted Lanternflies and Ticks:** If you have wooded property in PA or NJ, verify whether outdoor barrier sprays cover ticks and lanternflies.\n3.  **Insist on an On-Site Inspection:** Reputable companies should offer a thorough inspection before locking you into a long-term plan. Beware of companies that quote a price strictly over the phone without seeing your crawl space, basement, or foundation.\n4.  **Confirm the Re-Service Policy:** Make sure the agreement explicitly states that off-cycle return visits are free if pests reappear between quarterly treatments.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Mosquito Squad"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Mosquito Squad"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:03:58+00:00",
+  "has_unknown": true
+}

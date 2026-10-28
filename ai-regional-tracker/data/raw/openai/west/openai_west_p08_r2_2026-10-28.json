@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control provider in the Western U.S., it's beneficial to compare a few well-known companies to ensure you get the best service for your needs. Here are some reputable options to consider:\n\n1. **Terminix**\n   - Nationwide presence with a range of services for different pests.\n   - Offers customized plans and guarantees.\n\n2. **Orkin**\n   - Long-standing reputation with comprehensive pest control services.\n   - Provides free inspections and customized treatment plans.\n\n3. **Ehrlich Pest Control**\n   - Known for eco-friendly solutions and a variety of pest management options.\n   - Offers both residential and commercial services.\n\n4. **Western Exterminator**\n   - Specializes in pest control for the Western U.S.\n   - Known for reliable service and integrated pest management.\n\n5. **Truly Nolen**\n   - Offers a holistic approach to pest control with a focus on prevention.\n   - Family-owned and known for customer service.\n\n6. **Clark Pest Control**\n   - Based in California with a strong local presence.\n   - Provides both residential and commercial services and uses environmentally responsible treatments.\n\n7. **Massey Services**\n   - Offers pest prevention and control, as well as landscaping services.\n   - Known for innovative solutions and excellent customer service.\n\nWhen comparing these companies, consider factors such as the types of pests you need to control, the company's reputation, customer reviews, pricing, and the specifics of their service guarantees. It’s also a good idea to get quotes from a few providers and inquire about any ongoing promotions or discounts.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:46:43+00:00",
+  "has_unknown": true
+}

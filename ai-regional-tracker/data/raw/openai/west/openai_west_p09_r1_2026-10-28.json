@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "In the Western U.S., including states like California, Washington, and Arizona, you have a variety of options for residential pest control. Here are some of the main approaches:\n\n### Professional Pest Control Services\n1. **Terminix**: Offers comprehensive pest control services with customized plans for common pests like ants, roaches, and rodents.\n2. **Orkin**: Known for its science-based approach, Orkin provides tailored solutions for a wide range of pests.\n3. **Ecolab**: Specializes in both residential and commercial pest control, focusing on environmentally friendly solutions.\n4. **Local Companies**: Each state has numerous local companies that might offer more personalized services. Look for well-reviewed services in your specific area.\n\n### DIY Pest Control\n1. **Pest Control Products**: Stores like Home Depot and Lowe’s sell a variety of sprays, traps, and baits for DIY pest control.\n2. **Natural Solutions**: Essential oils (like peppermint for spiders), diatomaceous earth, and vinegar sprays can be effective for minor infestations.\n\n### Integrated Pest Management (IPM)\nThis approach focuses on long-term prevention through a combination of techniques:\n- **Habitat Modification**: Sealing entry points, reducing clutter, and maintaining cleanliness.\n- **Biological Controls**: Introducing natural predators of pests.\n- **Mechanical Controls**: Using traps and barriers.\n\n### Considerations\n- **Climate**: Different pests thrive in different climates. California, for instance, might have more issues with termites, while Arizona might face more scorpions.\n- **Cost**: Professional services can be more costly but are often more effective for severe infestations.\n- **Safety**: Consider chemical use, especially if you have pets or small children.\n\n### Recommendations\n- **Get Inspections**: Many companies offer free inspections, which can help identify the specific pests and extent of the problem.\n- **Check Reviews**: Look for companies with good reviews and ratings on platforms like Yelp or Google.\n- **Ask for Guarantees**: Some services provide guarantees or return visits if the problem isn’t resolved.\n\nChoosing the right option depends on your specific needs, budget, and the severity of the pest problem.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:46:53+00:00",
+  "has_unknown": true
+}

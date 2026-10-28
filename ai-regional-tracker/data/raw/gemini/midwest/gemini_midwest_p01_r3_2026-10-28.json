@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When looking for pest control across the Midwest—specifically in Illinois, Ohio, and Michigan—the best options include a mix of established regional specialists with deep knowledge of Midwest pest patterns and reliable national providers.\n\n---\n\n### Top Regional Specialists (Best for Local Climate & Pest Expertise)\n\n1. **Rose Pest Solutions**\n   * **Where they operate:** Michigan, Ohio, and parts of Indiana/Illinois. (One of the oldest pest management companies in North America).\n   * **Best for:** General residential maintenance, carpenter ants, and seasonal invaders (boxelder bugs, stink bugs, mice).\n   * **Why they stand out:** Because they are Midwest-centric, their technicians understand local seasonal cycles (like fall rodent migration and spring carpenter ant activity) exceptionally well. They emphasize Integrated Pest Management (IPM), aiming to solve the root entry problems rather than just spraying chemicals.\n\n2. **Anderson Pest Solutions**\n   * **Where they operate:** Primarily Illinois (especially Greater Chicago, Rockford, and suburbs) and Northern Indiana.\n   * **Best for:** Urban and suburban residential pest issues, bed bugs, and multi-family properties.\n   * **Why they stand out:** They hold a **QualityPro** certification (earned by fewer than 3% of pest companies in the nation) and offer an all-inclusive seasonal protection program that covers over 30 common Midwest pests with free return visits.\n\n3. **Griffin Pest Solutions**\n   * **Where they operate:** Michigan (statewide) and Northern Ohio/Indiana borders.\n   * **Best for:** Lake-area homes, summer spiders/mosquitoes, and winter rodent exclusion.\n   * **Why they stand out:** Excellent reputation in Michigan for handling structural pests (like carpenter ants) and lakefront-specific pest problems. They have very strong customer ratings for transparent pricing and punctual service.\n\n---\n\n### Top National Providers (Best for Widespread Availability & Guarantees)\n\n1. **Orkin**\n   * **Where they operate:** Extensive coverage across Illinois, Ohio, and Michigan (rural, suburban, and urban).\n   * **Best for:** Emergency infestations, complex pest identification, and rapid response.\n   * **Why they stand out:** Orkin technicians undergo rigorous training, and their 30-day money-back guarantee is among the most reliable in the industry. If you have an active infestation of a tricky pest (like German cockroaches or aggressive stinging insects), Orkin has the resources to handle it quickly.\n\n2. **Terminix**\n   * **Where they operate:** Widespread presence throughout the entire Midwest.\n   * **Best for:** Subterranean termites, severe bed bug infestations, and full-home exclusion/insulation services.\n   * **Why they stand out:** If structural damage from subterranean termites or wood-destroying insects is a concern (common in older Midwest homes), Terminix’s **Nix Guarantee** and annual inspection warranties offer strong long-term peace of mind.\n\n3. **Aptive Environmental**\n   * **Where they operate:** Major metro suburbs (Chicago, Detroit, Columbus, Cleveland, Cincinnati, Indianapolis).\n   * **Best for:** Routine, preventative exterior perimeter treatments and eco-conscious formulas.\n   * **Why they stand out:** Aptive focuses primarily on outdoor barrier treatments using pyrethrin-derived products, which keep spiders, ants, and outdoor pests from entering. They offer free retreatments between regular quarterly visits if pests reappear.\n\n---\n\n### Summary Recommendation by Need\n\n| Need | Recommended Provider |\n| :--- | :--- |\n| **Best Overall in Illinois** | **Anderson Pest Solutions** (Regional) or **Orkin** |\n| **Best Overall in Michigan** | **Rose Pest Solutions** or **Griffin Pest Solutions** |\n| **Best Overall in Ohio** | **Rose Pest Solutions** or **Orkin** |\n| **Termites & Structural Protection** | **Terminix** |\n| **Quarterly Outdoor Maintenance** | **Aptive Environmental** |\n\n---\n\n### Tips for Hiring in the Midwest\n\n* **Check the seasonal guarantee:** In the Midwest, pests change dramatically by season (ants/wasps in spring and summer; boxelder bugs, stink bugs, and mice in late fall/winter). Ensure any annual contract covers both warm-weather insects and winter rodent exclusion.\n* **Ask for branch-specific reviews:** With national brands like Orkin and Terminix, service quality can vary significantly from one local branch to another. Check Google or BBB ratings for the specific branch servicing your ZIP code.\n* **Confirm free re-service:** Look for companies that guarantee free return visits between scheduled treatments if pests return.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:11:11+00:00",
+  "has_unknown": true
+}

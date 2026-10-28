@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "When choosing a pest control provider in the western U.S., including California, Washington, and Arizona, you might want to compare the following companies. These are well-regarded and offer a range of services:\n\n1. **Orkin**: Known for its extensive experience and comprehensive pest control plans for residential and commercial properties.\n\n2. **Terminix**: Offers a wide variety of pest control services, including termite and bed bug treatments, with a strong reputation for customer service.\n\n3. **Ehrlich**: Provides integrated pest management solutions and is known for employing environmentally friendly techniques.\n\n4. **TruGreen**: Although primarily a lawn care company, TruGreen offers pest control services targeting mosquitoes and ticks.\n\n5. **Western Exterminator**: Offers local expertise, especially in California, with personalized pest control plans.\n\n6. **Rentokil**: Provides a broad range of pest management services and specializes in both residential and commercial services.\n\n7. **Green Pest Solutions**: Focuses on eco-friendly pest control methods, which might be preferable if you are environmentally conscious.\n\n8. **Moxie Pest Control**: Known for its customer service and flexible treatment plans.\n\nWhen comparing these companies, consider factors such as service offerings, customer reviews, pricing, treatment methods, and any guarantees or warranties they provide. It’s also a good idea to get quotes from multiple providers to compare costs and services.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:46:48+00:00",
+  "has_unknown": true
+}

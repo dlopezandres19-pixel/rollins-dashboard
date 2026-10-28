@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "For a homeowner in the Midwest (Illinois, Ohio, and Michigan), you will generally get the best results by choosing either a **reputable regional specialist** with deep knowledge of Midwest seasonal pest cycles, or a **major national brand** with strong guarantees and fast emergency response.\n\nHere are the top recommended pest control companies for this region:\n\n---\n\n### 1. Best Overall Regional Choice: **Rose Pest Solutions**\n* **Service Area:** Strong, long-standing footprint across Michigan, Ohio, Illinois, and Indiana.\n* **Why it’s recommended:** Founded in the 1860s, Rose is the oldest pest management company in the country and is practically an institution in the Midwest. Because they focus primarily on the Great Lakes/Midwest region, their technicians are intimately familiar with local, seasonal pest pressures—such as fall invaders (boxelder bugs, brown marmorated stink bugs, western conifer seed bugs), carpenter ants, and winter rodent intrusions.\n* **Best for:** Homeowners wanting a regional company with local accountability, certified entomologists on staff, and customized ongoing maintenance plans (like their Healthy Home program).\n\n---\n\n### 2. Best for Rodent & Wildlife Control: **Varment Guard (Plunkett’s Pest Control)**\n* **Service Area:** Ohio, Michigan, and throughout the broader upper Midwest.\n* **Why it’s recommended:** While many pest companies only spray for insects, Varment Guard specializes heavily in nuisance wildlife management (raccoons, bats, squirrels, skunks) alongside traditional insect and rodent pest control. They excel at **exclusion work**—identifying and sealing the entry points around your home’s roofline, foundation, and vents so pests can’t return.\n* **Best for:** Homes with attic activity, crawl space issues, or severe mouse/rat problems in wooded or suburban Midwest neighborhoods.\n\n---\n\n### 3. Best National Brand for Reliability: **Orkin**\n* **Service Area:** Comprehensive coverage across all three states (Chicago metro, Cleveland, Columbus, Detroit, Grand Rapids, and rural pockets).\n* **Why it’s recommended:** Orkin’s technician training program is widely considered the gold standard among national providers (requiring ~160 hours of hands-on training). They offer a reliable 30-day money-back guarantee, quick response times, and off-schedule re-treatments at no extra charge if pests reappear between visits.\n* **Best for:** Homeowners who prioritize brand reliability, round-the-clock customer support, and fast emergency response for active infestations (like bed bugs or termites).\n\n---\n\n### 4. Best for Chicagoland / Northern Illinois: **Anderson Pest Solutions**\n* **Service Area:** Illinois (especially greater Chicago, Rockford, Peoria) and bordering areas.\n* **Why it’s recommended:** Anderson is a premier local player in Illinois with an environmentally conscious approach (Natural Choice program). They emphasize Integrated Pest Management (IPM), targeting the root cause of infestations rather than simply applying routine broad-spectrum chemicals.\n* **Best for:** Illinois residents looking for eco-friendly, family- and pet-conscious pest control.\n\n---\n\n### Midwest-Specific Tips Before Hiring:\n* **Check for Winter Rodent Inclusions:** Because Midwest winters push mice and rats indoors, ensure whatever routine maintenance plan you choose includes interior and exterior rodent monitoring, baiting, and basic entry sealing.\n* **Ask About \"Fall Invaders\":** Exterior perimeter sprays in late August through October are critical in IL, OH, and MI to stop stink bugs, lady beetles, and boxelder bugs from overwintering inside your siding and attic.\n* **Get at Least Two Quotes:** Regional companies (like Rose or Varment Guard) often provide more flexible contract terms than national giants like Terminix or Orkin, but prices can vary widely based on your home's square footage and yard size. Look for plans with a **free re-service guarantee** between scheduled visits.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:11:32+00:00",
+  "has_unknown": true
+}

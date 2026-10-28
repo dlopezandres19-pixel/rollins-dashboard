@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "For pest control in the Midwest, including Illinois, Ohio, and Michigan, you have several good options. Here are a few well-regarded companies to consider:\n\n1. **Orkin**: Known for its comprehensive pest control services, Orkin offers customized plans and has a strong presence across the Midwest.\n\n2. **Terminix**: With a wide range of services and a strong reputation, Terminix is another reliable choice for dealing with various pests.\n\n3. **TruGreen**: Although primarily known for lawn care, TruGreen also offers pest control services, particularly for outdoor pests.\n\n4. **Local Companies**: Consider looking into local providers, as they often have specialized knowledge of regional pests. \n\n5. **Ehrlich Pest Control**: Operates in the Midwest and offers tailored solutions for both residential and commercial properties.\n\nWhen choosing a company, consider factors such as customer reviews, the range of services offered, guarantees, and pricing. It might also be helpful to request a free inspection or consultation for a more accurate estimate.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:43:44+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "Choosing a pest control company in the Western US, including states like California, Washington, and Arizona, involves considering several factors to ensure you get reliable and effective service. Here are some recommendations:\n\n1. **Terminix**\n   - **Services**: Offers a wide range of pest control services, including termite control, bed bug treatment, and mosquito control.\n   - **Coverage**: Extensive presence across the Western US.\n\n2. **Orkin**\n   - **Services**: Provides comprehensive pest management solutions for common pests like ants, roaches, and rodents.\n   - **Experience**: Known for their expertise and detailed pest control plans.\n\n3. **Ehrlich Pest Control (Western Exterminator)**\n   - **Services**: Specializes in pest and termite control with customized solutions.\n   - **Local Expertise**: Strong presence in California and the West Coast.\n\n4. **Truly Nolen**\n   - **Services**: Offers environmentally friendly pest control options.\n   - **Features**: Known for innovative solutions and a unique four seasons approach.\n\n5. **Clark Pest Control**\n   - **Location**: Primarily serves California.\n   - **Services**: Provides a full range of pest control services, including integrated pest management.\n\n6. **Local Companies**\n   - **Recommendation**: Look for local providers in your specific area, as they often offer personalized services and have knowledge about local pest issues.\n\n**Tips for Choosing a Pest Control Company:**\n\n- **Check Reviews**: Look for customer reviews and ratings online to gauge satisfaction.\n- **Ask for Quotes**: Get multiple quotes to compare pricing and services.\n- **Verify Licensing**: Ensure the company is properly licensed and insured.\n- **Eco-Friendly Options**: If important to you, inquire about environmentally friendly pest control methods.\n\nEach of these companies offers various services, so it’s a good idea to contact them directly to discuss your specific needs and get an estimate.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:46:01+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Northeast US (New York, New Jersey, Pennsylvania) should consider.",
+  "rep": 2,
+  "response_text": "For homeowners in the Northeast—particularly across New York, New Jersey, and Pennsylvania—pest control needs often focus on seasonal rodent pressure (mice entering in fall/winter), carpenter ants, termites, ticks, and urban/suburban challenges like bed bugs or spotted lanternflies.\n\nHere is a shortlist of reputable companies to consider, categorized by their strengths and regional presence:\n\n---\n\n### 1. Ehrlich Pest Control (A Rentokil Company)\n* **Best for:** Deep historical regional expertise and whole-home pest protection.\n* **Coverage:** Extremely strong throughout Pennsylvania (where it was founded in Reading, PA), New Jersey, and New York.\n* **Why consider them:** Ehrlich is arguably the most recognizable legacy name in the Mid-Atlantic. Because it is part of the global Rentokil family, it combines local branch expertise with deep corporate resources. Their **PestFree365+** plan protects against dozens of pests year-round, including ticks, bed bugs, and rodents.\n\n### 2. Viking Pest Control\n* **Best for:** Sustainable, modern technology and localized Tri-State service.\n* **Coverage:** New Jersey, Pennsylvania, New York, Maryland, and Delaware.\n* **Why consider them:** Viking is a premier regional provider (under the Anticimex umbrella) well-regarded for customer satisfaction. They offer **Anticimex SMART**, a 24/7 digital, non-toxic rodent monitoring system ideal for keeping mice and rats out of attics and basements without using dangerous snap traps or poison baits near pets.\n\n### 3. Cooper Pest Solutions\n* **Best for:** Scientific entomology-backed treatments and stubborn infestations (bed bugs, stink bugs).\n* **Coverage:** Primarily New Jersey and Eastern/Southeastern Pennsylvania.\n* **Why consider them:** Founded by entomologists and based in Lawrenceville, NJ, Cooper is famous for developing targeted research-backed treatments for pests that frequently plague the Northeast, such as stink bugs, bed bugs, and carpenter bees. Their Home Traditional and Home Intensive programs are very popular for recurring prevention.\n\n### 4. Fox Pest Control\n* **Best for:** Upstate/Central New York, Hudson Valley, and suburban PA/NJ.\n* **Coverage:** Multiple service branches across NY (Albany, Rochester, Syracuse, Buffalo, Rockland/Westchester), PA, and NJ.\n* **Why consider them:** Fox has built a strong reputation for customer communication and reliable recurring maintenance (their Home Protection Plan). They offer free same-day or next-day service calls if pests reappear between quarterly treatments.\n\n### 5. Orkin\n* **Best for:** Widespread availability, standardized training, and termite defense.\n* **Coverage:** Nationwide, with multiple branches in every county across NY, NJ, and PA.\n* **Why consider them:** If you live in an area outside the service radius of regional specialists, Orkin is one of the most reliable national brands. Their technicians undergo rigorous, entomologist-led training, and they back their work with a 30-day money-back guarantee. They are particularly effective for structural pest problems like subterranean termites and carpenter ants.\n\n---\n\n### Honorable Mention (NYC Metro Specific):\n* **MMPC (Metro Metro Pest Control):** If your home is in the five boroughs, Long Island, or parts of Westchester/North Jersey, MMPC is one of the top-rated eco-friendly pest control specialists, especially renowned for bed bug canine inspections and integrated pest management (IPM).\n\n---\n\n### Tips When Getting Quotes:\n1. **Request Free On-Site Inspections:** Most reputable pest companies will inspect your crawlspace, attic, and perimeter at no cost to identify entry points before quoting.\n2. **Inquire About Specific Regional Pests:** If you have heavy brush near your property, ask whether their quarterly perimeter treatment covers **deer ticks** and **wood roaches/carpenter ants**, which are common in the Northeast.\n3. **Check the Guarantee Terms:** Make sure your contract includes **free re-treatments between scheduled visits** if pests return inside the home.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:09:48+00:00",
+  "has_unknown": true
+}

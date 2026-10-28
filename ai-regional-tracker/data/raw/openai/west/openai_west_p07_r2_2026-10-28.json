@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When looking for top pest control companies in the Western U.S., including California, Washington, and Arizona, several options are known for their comprehensive services and strong reputations:\n\n1. **Orkin**: Known for extensive experience and nationwide coverage, Orkin offers a variety of pest control services, including termite, rodent, and insect control. They provide customized plans and have a strong reputation for customer service.\n\n2. **Terminix**: Another large national company, Terminix provides services for a wide range of pests and offers specific treatments for termites and bed bugs. They also offer guarantees for their services.\n\n3. **Ehrlich Pest Control**: Known for their integrated pest management approach, they offer eco-friendly options and personalized service plans. They have a strong presence in California.\n\n4. **Western Exterminator**: Specifically prominent in California, Western Exterminator offers comprehensive pest control services with a focus on customer satisfaction. They also provide green pest control options.\n\n5. **Truly Nolen**: Offering a unique approach with a four-season pest control program, Truly Nolen is well-regarded in Arizona for their innovative techniques and commitment to environmentally friendly practices.\n\n6. **Aptive Environmental**: Known for eco-friendly pest control services, Aptive is a newer company but has quickly gained a strong reputation for their customer service and effective pest control solutions.\n\nWhen choosing a pest control service, consider factors such as the specific pests you’re dealing with, customer reviews in your area, guarantees offered, and any eco-friendly options they provide. It’s also a good idea to get quotes from a few companies to compare services and prices.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:46:28+00:00",
+  "has_unknown": true
+}

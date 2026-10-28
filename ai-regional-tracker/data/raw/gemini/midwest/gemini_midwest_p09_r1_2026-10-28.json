@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When choosing residential pest control in the Midwest (Illinois, Ohio, and Michigan), you generally have three main avenues: **established regional providers**, **national chains**, and **specialty/wildlife services**. \n\nBecause Midwestern weather brings distinct seasonal pest cycles—like spring ants and termites, summer mosquitoes and stinging insects, and autumn rodents seeking winter shelter—most companies offer seasonal subscription plans alongside one-time eradication treatments.\n\nHere are the main options across Illinois, Ohio, and Michigan:\n\n---\n\n### 1. Prominent Regional Midwest Providers\nRegional companies often offer the best balance of local expertise and responsive customer service, as their technicians specialize specifically in Great Lakes and Midwestern climates.\n\n* **Rose Pest Solutions (IL, OH, MI):** One of the oldest pest management companies in the country, with heavy coverage across all three states. They handle common insects, rodents, termites, and bed bugs with customizable recurring home protection plans.\n* **Anderson Pest Solutions (Primarily IL):** A staple in the Chicagoland and northern Illinois area, known for their \"Natural Choice Home Protection\" recurring service program.\n* **ScherZinger Pest Control (OH):** A major family-owned player covering central and southwest Ohio (Columbus, Cincinnati, Dayton) with strong quarterly prevention programs.\n* **Griffin Pest Solutions (MI):** Widely used across Michigan’s Lower Peninsula, offering seasonal residential pest maintenance and targeted wood-destroying insect treatments.\n* **Greenix Pest Control (IL, OH, MI):** Very active across Midwestern suburbs, focusing on a multi-step perimeter treatment plan using environmentally conscious and low-toxicity products.\n\n---\n\n### 2. Large National Companies\nIf you live in an outlying area, prefer 24/7 call centers, or want standardized national guarantees, the major corporate providers have broad branch networks throughout all three states:\n\n* **Orkin:** Known for rigorous technician training and detailed treatment plans. They offer solid service guarantees (free re-treatments between scheduled visits if pests return).\n* **Terminix:** Especially well-regarded for termite detection/monitoring (BaitDefend systems), bed bug treatments, and comprehensive whole-home exclusion work.\n* **Aptive Environmental:** Popular in Midwest suburban neighborhoods, primarily focusing on general exterior perimeter sprays and seasonal quarterly subscriptions (note: they generally do not handle wood-destroying insects like termites).\n\n---\n\n### 3. Wildlife & Exclusion Specialists\nIn the Midwest, residential \"pests\" often include larger animals like raccoons, bats, squirrels, and skunks that damage attics or crawlspaces. Standard insect exterminators often do not handle live trapping or structural exclusion:\n\n* **Critter Control (IL, OH, MI):** The largest dedicated wildlife service in the region for humanely trapping, removing, and repairing entry points for mammals and birds.\n* **Varment Guard (OH, parts of MI/IL):** Affiliated with Plunkett’s Pest Control, they are particularly prominent in Ohio for live trapping, attic remediation, and animal-proofing.\n\n---\n\n### Key Things to Check Before Signing\n\n1. **State Licensing:** Pest control technicians must be certified and licensed by the state department of agriculture:\n   * **Illinois:** Illinois Department of Public Health (IDPH) & Department of Agriculture\n   * **Ohio:** Ohio Department of Agriculture (ODA)\n   * **Michigan:** Michigan Department of Agriculture and Rural Development (MDARD)\n2. **Re-Service Guarantees:** For quarterly plans, ensure the contract explicitly states that they will return to re-treat your home **for free** between scheduled visits if pests reappear.\n3. **Contract Flexibility:** Many companies push annual auto-renewing contracts with cancellation fees. Ask if they offer month-to-month options or a free cancellation window after the initial treatment series.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:19:11+00:00",
+  "has_unknown": true
+}

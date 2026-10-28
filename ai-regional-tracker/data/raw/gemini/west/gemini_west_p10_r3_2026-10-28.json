@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the West US (California, Washington, Arizona) should consider.",
+  "rep": 3,
+  "response_text": "When choosing pest control in the Western United States, it helps to balance large national providers (which offer consistent warranties and 24/7 support) with regional specialists who understand the distinct pest pressures of the West—from desert bark scorpions in Arizona to carpenter ants in Washington and drywood termites in California.\n\nHere is a shortlist of the top pest control companies to consider:\n\n---\n\n### 1. The Best Multi-State West Coast Specialist: **Western Exterminator**\n* **Coverage:** California, Washington, Arizona, and neighboring western states (operates under the Rentokil family).\n* **Best For:** Homeowners who want a company built specifically around Western ecology.\n* **Why Consider Them:** Western Exterminator has operated in the West since 1921. Because their regional footprint covers coastal, desert, and PNW microclimates, their technicians are deeply trained in regional threats (such as roof rats along the coast, drywood termites in Southern California, and scorpions in the desert). Their **PestFree365+** plan covers over 35 common pests year-round.\n\n---\n\n### 2. The California Powerhouse: **Clark Pest Control**\n* **Coverage:** Throughout California (and parts of northern Nevada).\n* **Best For:** California homeowners looking for comprehensive residential pest and lawn defense.\n* **Why Consider Them:** Clark is one of the largest and most respected pest control names in California. They offer Integrated Pest Management (IPM), targeting the source of infestations with minimal pesticide use. They are particularly well-regarded for termite inspections (vital for California home sales), bed bugs, and seasonal exterior barrier treatments.\n\n---\n\n### 3. The Desert Pest Authority (Arizona): **Burns Pest Elimination**\n* **Coverage:** Arizona (Phoenix metro, Tucson) and Las Vegas.\n* **Best For:** Arizona homeowners dealing with extreme desert pests.\n* **Why Consider Them:** Desert pests require specialized knowledge. Burns is widely regarded as one of the premier choices in Arizona for handling bark scorpions, pigeon abatement, pack rats, and subterranean termites. They offer scorpion-specific sealing and inspections, plus eco-sensible treatment options suited to hot climates.\n\n---\n\n### 4. The Pacific Northwest Green Specialist (Washington): **Cascade Pest Control**\n* **Coverage:** Greater Seattle, Puget Sound, and Western Washington.\n* **Best For:** Washington homeowners prioritizing eco-friendly methods and rodent/ant control.\n* **Why Consider Them:** Western Washington's cool, damp climate creates unique pest challenges—primarily carpenter ants, moisture ants, and persistent rodent populations. Cascade specializes in targeted, low-toxicity, and environmentally responsible pest management tailored to PNW homes. \n\n---\n\n### 5. The Top National Providers: **Orkin** and **Terminix**\n* **Coverage:** Extensive coverage across California, Washington, and Arizona.\n* **Best For:** Standardized service, 24/7 customer support, and termite guarantees.\n* **Why Consider Them:**\n  * **Orkin:** Widely praised for having some of the most rigorous technician training in the industry. If you have an urgent or unusual infestation, Orkin’s \"Points of Service\" protocol and 30-day money-back guarantee make them a reliable, low-risk choice.\n  * **Terminix:** A leader in termite defense (especially subterranean termites in AZ/CA and dampwood termites in WA). Their Nix Pest Guarantee and bundled termite/pest plans often provide good value for larger suburban homes.\n\n---\n\n### Key Questions to Ask Before Hiring:\n1. **Targeted Pests:** Does their standard quarterly plan cover the specific pests native to your zip code (e.g., scorpions in Arizona, carpenter ants in Washington, or Argentine ants in California)?\n2. **Re-treatment Policy:** If pests return between scheduled quarterly visits, will they come back and spray/treat inside and outside for free? (Most top-tier companies include this).\n3. **Termites vs. General Pests:** Termite control is almost always a separate contract from general pest control. If your home has wood-to-ground contact or is in an active termite zone, ask for an inspection and separate quote.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:31:40+00:00",
+  "has_unknown": true
+}

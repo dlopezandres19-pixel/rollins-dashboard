@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "In the western US states like California, Washington, and Arizona, there are several options for residential pest control. Here are some of the main ones:\n\n1. **Professional Pest Control Services:**\n   - **Orkin:** A well-known national provider offering services for a wide range of pests.\n   - **Terminix:** Another large company with comprehensive pest control services.\n   - **Ecolab Pest Elimination:** Focuses on environmentally-friendly pest management.\n   - **Local Companies:** Each state has local businesses that might offer more personalized services. Checking reviews and local recommendations can be beneficial.\n\n2. **DIY Pest Control Products:**\n   - **Sprays and Traps:** Available at home improvement stores like Home Depot or Lowe's.\n   - **Natural Remedies:** Such as diatomaceous earth or essential oils, which can deter certain pests.\n\n3. **Integrated Pest Management (IPM):**\n   - A holistic approach that combines prevention, monitoring, and control strategies to minimize environmental impact.\n\n4. **Organic and Eco-Friendly Services:**\n   - Some companies specialize in non-toxic, organic pest control solutions which are particularly popular in environmentally conscious areas like California.\n\nWhen choosing a pest control option, consider factors like the type of pest, severity of the infestation, environmental impact, and budget. Always check for licensing and insurance when hiring a professional service.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:47:00+00:00",
+  "has_unknown": true
+}

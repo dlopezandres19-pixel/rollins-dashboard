@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control company in the Western US, consider the following well-rated options:\n\n1. **Orkin**: Known for comprehensive pest control services and strong customer service. They offer customized solutions for various pests.\n\n2. **Terminix**: Offers a wide range of pest control services and has a good reputation for dealing with termites and other common household pests.\n\n3. **Ecola Termite and Pest Control**: Based in California, they specialize in eco-friendly pest control solutions.\n\n4. **Western Exterminator**: Provides pest control services tailored to the specific needs of the Western US, with a focus on customer satisfaction.\n\n5. **Green Home Pest Control**: A good option in Arizona, known for environmentally friendly practices.\n\n6. **EcoShield Pest Solutions**: Offers eco-friendly options and is available in several Western states.\n\nWhen selecting a company, consider factors such as:\n\n- **Reputation and Reviews**: Check online reviews and ask for recommendations.\n- **Services Offered**: Ensure they offer solutions for the specific pests you're dealing with.\n- **Eco-Friendly Options**: If sustainability is important to you, ask about eco-friendly practices.\n- **Pricing and Contracts**: Compare pricing and look for any contract requirements.\n\nIt's also helpful to get quotes from a few companies to compare services and prices.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:45:56+00:00",
+  "has_unknown": true
+}

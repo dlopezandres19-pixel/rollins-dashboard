@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "Here are some of the top national pest control companies operating in the Western U.S., including California, Washington, and Arizona:\n\n1. **Orkin**: Known for its comprehensive pest control services, Orkin has a strong presence in the West. They offer solutions for a wide range of pests and have a reputation for effective treatments and excellent customer service.\n\n2. **Terminix**: Another well-known name in pest control, Terminix provides services for both residential and commercial properties. They offer termite control, bed bug removal, and general pest management.\n\n3. **Ehrlich**: Operating under the Rentokil brand, Ehrlich offers a full range of pest control services. They are known for their integrated pest management approach and environmentally friendly options.\n\n4. **Truly Nolen**: This company offers pest control solutions for various pests and prides itself on innovative and eco-friendly methods. They are well-regarded for their customer service and comprehensive protection plans.\n\n5. **Massey Services**: Though primarily based in the Southeast, Massey has expanded its services to the Western states, offering a range of pest control services with a focus on prevention and environmentally responsible practices.\n\nThese companies are known for their reliability, scope of services, and customer support. It's a good idea to contact them directly for quotes and to discuss specific pest control needs in your area.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:46:14+00:00",
+  "has_unknown": false
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Midwest US (Illinois, Ohio, Michigan) should consider.",
+  "rep": 1,
+  "response_text": "When shopping for pest control in the Midwest (Illinois, Ohio, and Michigan), you’ll find the best results by looking at a mix of well-established regional mainstays and dependable national carriers. Midwest homes face distinct seasonal pest issues—from spring carpenter ants and summer mosquitoes to fall rodent invasions seeking warmth—so choosing a company with strong local branch technicians is key.\n\nHere is a shortlist of top pest control providers to consider across Illinois, Ohio, and Michigan:\n\n---\n\n### 1. Best Regional Specialist: **Rose Pest Solutions**\n* **Service Area:** Strong, historic footprint across Michigan, Ohio, and Illinois (as well as Indiana and Wisconsin).\n* **Best For:** Homeowners who prefer a regional brand with deep local roots rather than a mega-corporation.\n* **Why Consider Them:** Founded in the 1800s, Rose is one of the oldest pest management companies in the country. They understand regional Midwest pest pressures intimately (especially seasonal rodent entry and wood-destroying carpenter ants). They offer seasonal residential protection programs that include free callbacks between scheduled visits if pests return.\n\n---\n\n### 2. Best for Integrated Wildlife & General Pest: **Plunkett’s Pest Control / Varment Guard**\n* **Service Area:** Plunkett’s covers Illinois and the upper Midwest; their sister brand, **Varment Guard**, has deep coverage across Ohio and Michigan.\n* **Best For:** Homes dealing with both insect issues and wildlife intrusions (bats, raccoons, squirrels, or heavy rodent infestations).\n* **Why Consider Them:** Many standard exterminators only handle bugs and mice. Plunkett’s/Varment Guard excels at full-home exclusion, attic restoration, and humane wildlife removal alongside traditional recurring insect treatments.\n\n---\n\n### 3. Best Overall National Provider: **Orkin**\n* **Service Area:** Ubiquitous across every major metro and mid-sized market in IL (Chicago, Rockford, Peoria), OH (Columbus, Cleveland, Cincinnati), and MI (Detroit, Grand Rapids, Lansing).\n* **Best For:** Fast response times, strict technician training, and reliable guarantees.\n* **Why Consider Them:** Orkin invests heavily in entomologist-backed training for its technicians. If you have an active, stubborn infestation (like bed bugs or aggressive rodent activity), their 30-day money-back guarantee and fast dispatch make them one of the most reliable national options.\n\n---\n\n### 4. Best for Termites & Structural Protection: **Terminix**\n* **Service Area:** Extensive branch network across all three states.\n* **Best For:** Termite defense, structural warranties, and whole-home perimeter protection.\n* **Why Consider Them:** While subterranean termites are less aggressive in northern Michigan than in the deep South, they remain a serious threat in southern/central Illinois and across Ohio. Terminix offers some of the most comprehensive termite monitoring systems (Bait systems/Sentricon) and structural repair guarantees in the industry.\n\n---\n\n### 5. Best for Suburban Perimeter Maintenance: **Aptive Environmental**\n* **Service Area:** Active across suburban Chicago, Columbus, Cleveland, Detroit, and Grand Rapids.\n* **Best For:** Hands-off, exterior-focused seasonal maintenance plans for crawling pests.\n* **Why Consider Them:** Aptive specializes in recurring four-season perimeter treatments that target common Midwest invaders like spiders, ants, earwigs, and wasps. They focus heavily on low-toxicity, pyrethrin-based products and offer free re-treatments between quarterly visits if pests break the barrier.\n\n---\n\n### Tips for Midwestern Homeowners Before Booking:\n\n1. **Ask about Winter Rodent Exclusion:** In IL, OH, and MI, mice and rats move indoors as soon as temperatures drop in October/November. Make sure the plan includes inspecting entry points (foundations, garage doors, utility penetrations), not just throwing down bait boxes outside.\n2. **Check the Guarantee:** Look for plans with a **free re-service guarantee** between quarterly visits. Midwest seasonal swings mean a sudden heatwave or wet spring can trigger pest spikes between scheduled appointments.\n3. **Compare Quotes on Site:** Most reputable companies provide free in-person or remote quotes. It’s always worth getting a quote from one regional provider (like Rose or Varment Guard) and one national provider (like Orkin) to compare inspection thoroughness and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:20:15+00:00",
+  "has_unknown": true
+}

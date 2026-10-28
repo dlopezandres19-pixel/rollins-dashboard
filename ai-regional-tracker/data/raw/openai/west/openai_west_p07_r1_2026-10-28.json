@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When looking for pest control services in the western US, including California, Washington, and Arizona, several companies are known for their comprehensive services and customer satisfaction:\n\n1. **Orkin**: Known for its extensive experience and comprehensive pest management plans, Orkin offers services for termites, rodents, insects, and more. They have a strong presence across the West and are well-regarded for their technicians' expertise and guarantee policies.\n\n2. **Terminix**: Another industry leader, Terminix provides a wide range of services including termite and pest control, mosquito control, and bed bug treatment. They offer customized plans and have a strong reputation for customer service.\n\n3. **Ecolab Pest Elimination**: Specializing in environmentally friendly solutions, Ecolab offers comprehensive pest control services that focus on integrated pest management. They’re a good choice for those looking for sustainable options.\n\n4. **Western Exterminator**: Particularly strong in California, they offer localized and personalized service. They’re known for their thorough inspections and effective treatment plans.\n\n5. **Truly Nolen**: Known for their innovative approaches and eco-friendly options, Truly Nolen provides services across the West and offers unique solutions like their Four Seasons approach to pest control.\n\n6. **Green Pest Solutions**: If you're looking for environmentally conscious options, Green Pest Solutions is known for using green products and methods.\n\nWhen choosing a pest control company, consider factors such as the specific pests you’re dealing with, the company’s service guarantees, customer reviews, and whether they offer eco-friendly options. It’s also often beneficial to get quotes from a few companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:46:23+00:00",
+  "has_unknown": true
+}

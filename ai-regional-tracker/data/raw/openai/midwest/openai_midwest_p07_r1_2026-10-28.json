@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "For homeowners in the Midwest, including Illinois, Ohio, and Michigan, several pest control companies are well-regarded for their services:\n\n1. **Orkin**: Known for its comprehensive pest management and prevention services, Orkin offers customized plans and has a strong presence in the Midwest.\n\n2. **Terminix**: With a wide range of services, Terminix is well-known for its effective treatments and customer satisfaction guarantees.\n\n3. **Ehrlich Pest Control**: Ehrlich provides a variety of pest control solutions and is praised for its environmentally responsible methods.\n\n4. **TruGreen**: Although primarily a lawn care company, TruGreen offers pest control services that integrate well with its lawn treatments.\n\n5. **Rose Pest Solutions**: A regional company with a long history, Rose Pest Solutions is known for personalized service and expertise in dealing with local pests.\n\n6. **Critter Control**: Specializing in wildlife removal as well as traditional pest control, Critter Control is a good option for those dealing with larger pest issues.\n\nEach of these companies offers various plans and services, so it’s a good idea to contact them directly to discuss your specific needs and get quotes. Additionally, checking online reviews and asking for recommendations from neighbors can provide further insights into their reliability and effectiveness in your area.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:44:05+00:00",
+  "has_unknown": true
+}

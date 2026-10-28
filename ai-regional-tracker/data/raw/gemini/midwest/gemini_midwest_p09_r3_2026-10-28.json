@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When choosing residential pest control in the Midwest (Illinois, Ohio, and Michigan), you generally have a choice between **established regional companies** that specialize in the local climate and pests, **large national providers** with broad availability, and **local independent operators**. \n\nHere is a breakdown of the main options, what they offer, and what to consider for the Midwest climate.\n\n---\n\n### 1. Prominent Regional Midwest Providers\nRegional providers often have decades of experience dealing specifically with Great Lakes/Midwest weather patterns, architecture (e.g., older basements, crawlspaces), and seasonal infestations.\n\n* **Rose Pest Solutions (IL, OH, MI):** One of the oldest pest management companies in the country, Rose has a massive footprint across Illinois, Michigan, and Ohio. They are known for residential quarterly maintenance programs and handling everything from rodents to termites.\n* **Anderson Pest Solutions (Primarily IL):** Very well-established in the Chicago metro area and northern Illinois. They use an Integrated Pest Management (IPM) approach aimed at reducing heavy pesticide use inside the home.\n* **ScherZinger Pest Control (OH):** A trusted family-owned staple in Ohio, particularly strong in the Cincinnati, Dayton, and Columbus markets for general pests, termites, and bed bugs.\n* **Greenix Pest Control (IL, OH, MI):** An increasingly popular multi-state provider focused on sustainable, eco-conscious perimeter treatments targeting common Midwest pests like spiders, wasps, ticks, and rodents.\n\n---\n\n### 2. Major National Brands\nNational companies have the widest coverage, especially if you live in smaller cities or outer suburbs. They typically offer 24/7 call centers, standardized guarantees, and easy digital account management.\n\n* **Orkin:** Operates extensive branch networks across all three states (Chicago, Peoria, Cleveland, Columbus, Cincinnati, Detroit, Grand Rapids, etc.). They are known for rigorous technician training and offer strong guarantees (free re-treatments between scheduled visits if pests return).\n* **Terminix:** Wide availability across the Midwest with specialized services for subterranean termites (a significant risk in central/southern Illinois and Ohio) and rodent exclusion.\n* **Aptive Environmental:** Highly visible in Midwest suburban neighborhoods. They primarily focus on quarterly exterior perimeter barriers targeting general insects (ants, spiders, crickets, wasps), though they typically do not handle specialized issues like wildlife or termites.\n\n---\n\n### 3. Local Independents & Wildlife Specialists\nIn the Midwest, residential pest control frequently overlaps with **nuisance wildlife removal**. If your issue involves animals in the attic or crawlspace (raccoons, bats, squirrels, or opossums), standard bug exterminators may refer you out.\n* Look for local firms certified in **nuisance wildlife trapping and exclusion** (preventing re-entry by sealing rooflines, soffits, and vents).\n* Local operators often provide more flexible contract terms (e.g., one-time treatments rather than mandatory annual agreements).\n\n---\n\n### Common Midwest Pest Challenges to Consider\nBecause the Midwest experiences freezing winters and humid summers, pests move on a predictable seasonal cycle:\n* **Fall & Winter:** Rodents (field mice, house mice, Norway rats) looking for warmth, alongside overwintering insects like boxelder bugs, brown marmorated stink bugs, and Asian lady beetles.\n* **Spring:** Subterranean termites swarming, carpenter ants emerging from damp wood, and pavement ants invading kitchens.\n* **Summer:** Mosquitoes, ticks, stinging insects (yellowjackets and hornets building nests in eaves and siding).\n\n---\n\n### Tips for Choosing a Provider\n1. **Check State Licensing:** Verify that the company’s technicians are licensed by your state’s regulatory body:\n   * **Illinois:** Illinois Department of Public Health (IDPH)\n   * **Ohio:** Ohio Department of Agriculture (ODA)\n   * **Michigan:** Michigan Department of Agriculture and Rural Development (MDARD)\n2. **Review the Service Guarantee:** For ongoing quarterly plans, make sure free retreatments between scheduled visits are included if pests reappear inside.\n3. **Ask About Rodent Exclusion:** If mice are your primary concern, ask whether the company just sets traps/bait stations or actually identifies and seals exterior entry holes (exclusion work is essential for a permanent fix).",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:19:53+00:00",
+  "has_unknown": true
+}

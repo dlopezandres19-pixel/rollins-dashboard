@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When dealing with common Midwest pest issues—such as seasonal rodent invasions in the fall, carpenter ants, spiders, wasps, and subterranean termites—several reputable national pest control companies have extensive coverage and strong branch networks across Illinois, Ohio, and Michigan.\n\nHere are the top national pest control providers operating in these states, along with what each does best:\n\n---\n\n### 1. **Orkin**\n* **Best For:** Overall expertise, severe infestations, and technician training\n* **Midwest Coverage:** Broad presence in major metros (Chicago, Detroit, Cleveland, Columbus, Cincinnati) as well as medium-sized and rural communities.\n* **Why Choose Them:** Orkin is widely regarded for having some of the most rigorous training programs in the industry. They specialize in identifying entry points and structural vulnerabilities, which is critical in older Midwestern homes prone to mice and rat intrusion during the winter freeze.\n* **Key Offerings:** General pest management, rodent exclusion, bed bug heat/chemical treatments, termite monitoring and baiting, and wildlife removal (select branches).\n\n### 2. **Terminix**\n* **Best For:** Termite management and bundled service packages\n* **Midwest Coverage:** Ubiquitous across Illinois, Ohio, and Michigan.\n* **Why Choose Them:** While they handle general household pests, Terminix made its name in termite defense. Subterranean termites are common in central and southern Illinois and Ohio, and Terminix offers robust termite inspection, baiting (Sentricon), and warranty/damage-repair plans (The Nix Guarantee).\n* **Key Offerings:** Comprehensive annual pest plans, termite eradication, mosquito/tick control, attic insulation, and crawlspace moisture control (crucial for humid Great Lakes summers).\n\n### 3. **Rentokil** (including regional subsidiaries like **Anderson Pest Solutions**)\n* **Best For:** Integrated pest management and deep local roots\n* **Midwest Coverage:** Extensive. In the Midwest, Rentokil acquired legacy regional brands—most notably **Anderson Pest Solutions**, which has been a staple in the greater Chicago and northern Illinois area for decades.\n* **Why Choose Them:** Rentokil combines the resources of a global pest management leader with the localized knowledge of long-standing regional companies. They emphasize Integrated Pest Management (IPM), targeting the root causes of pest activity rather than just spraying chemicals.\n* **Key Offerings:** Residential recurring plans, commercial-grade rodent control, bird mitigation, and bed bug treatments.\n\n### 4. **Aptive Environmental**\n* **Best For:** Eco-conscious perimeter defense and suburban homes\n* **Midwest Coverage:** Strong presence in suburban subdivisions around Chicago, Detroit, Grand Rapids, Columbus, and Cleveland.\n* **Why Choose Them:** Aptive uses pyrethrin-derived solutions (derived from chrysanthemums), making them a popular choice for homeowners with young children, gardens, or pets. Their plans focus heavily on exterior barrier treatments that keep seasonal pests (ants, spiders, crickets, wasps) from entering the home.\n* **Consideration:** Aptive primarily handles general pests and exterior perimeter defense; they generally do not handle wood-destroying organisms like termites or complex wildlife removal.\n\n---\n\n### How to Choose the Right One for Your Home\n\n* **For fall/winter rodent issues:** Go with **Orkin** or **Rentokil/Anderson**. Their technicians generally excel at physical exclusion work (identifying and sealing foundation gaps, roofline voids, and crawlspace vents).\n* **For structural wood damage (Termites/Carpenter Ants):** Call **Terminix** or **Orkin**, as both offer formalized re-treatment guarantees and structural damage repair warranties depending on the plan.\n* **For routine summer exterior bugs (Spiders, Wasps, Ants):** **Aptive** or **Terminix** provide cost-effective perimeter barriers with free re-treatments between scheduled visits.\n\n### Tips Before You Sign a Contract:\n1. **Check the Local Branch Reviews:** A national brand is only as reliable as the local franchise or branch handling your route. Look up the specific branch servicing your ZIP code on Google Maps or the Better Business Bureau.\n2. **Review the Re-treatment Guarantee:** Ensure the recurring plan includes free touch-up visits between regular quarterly treatments if pests return.\n3. **Ask About Winter Services:** Midwest pest control changes drastically from July to January. Make sure their winter service focuses on indoor inspections, attics, basements, and rodent baiting rather than just spraying the snow-covered exterior.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:15:49+00:00",
+  "has_unknown": true
+}

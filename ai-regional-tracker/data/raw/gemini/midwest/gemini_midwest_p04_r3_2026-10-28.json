@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When choosing residential pest control in Illinois, Ohio, and Michigan, you have two main options: **established Midwest regional specialists** (who often have decades of experience with localized climate and seasonal pests) and **major national brands** (which offer expansive branch networks and standardized guarantees).\n\nHere are the leading residential pest control companies across these three states:\n\n---\n\n### 1. Top Regional Midwest Leaders\nRegional companies often rank highest for customer satisfaction in the Great Lakes region because their treatment plans are tailored to Midwest freeze-thaw cycles, subterranean termites, carpenter ants, stink bugs, and winter rodent intrusions.\n\n*   **Rose Pest Solutions**\n    *   **Coverage:** Extensive footprint across **Michigan, Ohio, Illinois**, and Indiana (headquartered in Troy, MI, with historic roots in Chicago).\n    *   **Reputation:** Recognized as the oldest pest control company in the country. They are widely regarded for residential quarterly protection plans (*Healthy Home Care*), bed bug treatments, and winter rodent exclusion.\n*   **Plunkett’s Pest Control (and Varment Guard)**\n    *   **Coverage:** Covers **Illinois, Michigan, and Ohio** (its sister brand, Varment Guard, is especially prominent in central and northern Ohio).\n    *   **Reputation:** Family-owned, operating across the Midwest for over a century. Known for transparent pricing, comprehensive general pest plans, and specialized wildlife/nuisance animal removal.\n*   **Anderson Pest Solutions**\n    *   **Coverage:** Primarily **Illinois** (Greater Chicago, Rockford, Peoria) and parts of neighboring states.\n    *   **Reputation:** Known for its signature *Natural Choice* home protection programs and integrated pest management (IPM) that minimizes broad chemical spraying.\n*   **Griffin Pest Solutions**\n    *   **Coverage:** Primarily **Michigan** (Grand Rapids, Kalamazoo, Detroit metro, Lansing).\n    *   **Reputation:** A standout choice in Lower Michigan with a long local history, specializing in perimeter defense against seasonal lakefront pests, spiders, and carpenter ants.\n*   **ScherZinger Pest Control**\n    *   **Coverage:** **Ohio** (Greater Cincinnati, Dayton, Columbus).\n    *   **Reputation:** A multi-generational, Ohio-based provider known for reliable preventive programs (*Guardian Plan*) and responsive local customer service.\n\n---\n\n### 2. Major National Providers (Widely Available in All Three States)\nIf you live in an outlying suburb, exurb, or rural area where regional providers might not have a local depot, national companies offer the widest coverage:\n\n*   **Orkin**\n    *   **Best for:** Highly trained technicians and specific infestations (bed bugs, termites, stinging insects).\n    *   **Why choose them:** Orkin is QualityPro-certified with branches across virtually every metropolitan and mid-sized market in IL, OH, and MI. Their *Orkin Guarantee* includes free retreatments between scheduled visits.\n*   **Terminix**\n    *   **Best for:** Termite monitoring/prevention and rodent exclusion.\n    *   **Why choose them:** Extensive availability throughout the Midwest, robust termite coverage plans, and bundle options (general pest + mosquitoes + wildlife exclusion).\n*   **Ehrlich (Rentokil)**\n    *   **Best for:** Comprehensive residential maintenance plans (*PestFree365*).\n    *   **Why choose them:** Strong presence across the Rust Belt and Great Lakes region with year-round preventative packages covering common Midwest pests.\n*   **Aptive Environmental**\n    *   **Best for:** Exterior-focused general pest maintenance.\n    *   **Why choose them:** Focuses heavily on exterior barrier sprays using synthetic pyrethroid treatments (derived from chrysanthemum flowers). Popular in suburban developments across all three states for routine ant, spider, and perimeter bug control.\n\n---\n\n### Tips for Homeowners in the Midwest\n\n1. **Ask About Season-Specific Coverage:** The Midwest requires different approaches by season—mud daubers and wasps in summer, cluster flies and stink bugs in autumn, and mice or rats seeking indoor warmth in winter. Ensure your contract includes fall exterior barrier treatments and rodent monitoring.\n2. **Look for \"QualityPro\" Accreditation:** Awarded by the National Pest Management Association (NPMA), this certification indicates strict background checks, environmental safety standards, and technician training.\n3. **Compare Free Retreatment Policies:** If an ongoing quarterly plan is chosen, verify that the company will return to address re-emerging pests between scheduled visits at no additional charge.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:14:22+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When seeking top pest control services in the Midwest, particularly in Illinois, Ohio, and Michigan, several reputable companies stand out:\n\n**Illinois:**\n\n- **Orkin Pest Control**: Recognized for comprehensive pest management solutions, Orkin has a strong presence in Illinois. ([consumeraffairs.com](https://www.consumeraffairs.com/homeowners/pest-control-chicago.html?utm_source=openai))\n\n- **Terminix**: Offering a range of services including termite and pest control, Terminix operates multiple locations across Illinois. ([staysafe.org](https://staysafe.org/Terminix/Michigan/?utm_source=openai))\n\n**Ohio:**\n\n- **Rose Pest Solutions**: Serving Ohio, Michigan, and Indiana, Rose Pest Solutions boasts over 160 years of experience and maintains a high customer satisfaction rating. ([rosepestsolutions.com](https://www.rosepestsolutions.com/?utm_source=openai))\n\n- **Frame's Pest Control**: With over 50 years in the industry, Frame's offers comprehensive pest control services in Northern Ohio and Southeastern Michigan, including same-day and Saturday appointments. ([framespestcontrol.com](https://www.framespestcontrol.com/?utm_source=openai))\n\n- **Delving Pest Control**: Specializing in discreet pest control solutions, Delving serves Northwest Ohio and Southeastern Michigan, focusing on bed bugs, insects, and rodents. ([delvingpest.com](https://www.delvingpest.com/?utm_source=openai))\n\n**Michigan:**\n\n- **Abell Pest Control**: Providing year-round pest protection for residential and commercial properties, Abell serves various Michigan communities, including Ann Arbor, Detroit, and Grand Rapids. ([abellpestcontrol.com](https://www.abellpestcontrol.com/en-us/locations/michigan?utm_source=openai))\n\n- **proof. Pest Control**: Based in Ann Arbor, proof. Pest Control holds a 4.9-star rating from over 1,000 reviews, indicating high customer satisfaction. ([ratingsnearme.com](https://ratingsnearme.com/ann-arbor-mi/pest-control?utm_source=openai))\n\n- **EcoShield Pest Solutions**: Serving the Ann Arbor area, EcoShield has a 4.8-star rating from over 7,700 reviews, reflecting strong customer approval. ([ratingsnearme.com](https://ratingsnearme.com/ann-arbor-mi/pest-control?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and availability to ensure they meet your specific needs. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:42:44+00:00",
+  "has_unknown": true
+}

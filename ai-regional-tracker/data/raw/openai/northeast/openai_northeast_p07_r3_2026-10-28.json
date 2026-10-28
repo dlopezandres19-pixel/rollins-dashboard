@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "For homeowners in the Northeast US, including New York, New Jersey, and Pennsylvania, several pest control companies are known for their reliable service. Here are some of the top options:\n\n1. **Terminix**: Offers comprehensive pest control services and is well-known for its extensive experience and expertise. They provide customized plans and have a strong presence across the Northeast.\n\n2. **Orkin**: Known for their science-based approach and highly trained technicians, Orkin provides a variety of pest control solutions and excellent customer service.\n\n3. **Ehrlich Pest Control**: With a strong regional presence, Ehrlich offers personalized pest control services and has a reputation for effective and prompt service.\n\n4. **Truly Nolen**: Offers environmentally friendly pest control solutions and has a strong customer satisfaction record.\n\n5. **Arrow Pest Control**: A local favorite in New Jersey, Arrow provides customized pest management plans and is known for its customer-focused approach.\n\nWhen choosing a pest control company, consider factors such as the types of pests you’re dealing with, the company’s reputation, and any specific services or guarantees they offer. It’s also a good idea to read customer reviews and get quotes from multiple providers to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:41:46+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several pest control companies are known for providing excellent service to homeowners. Here are some of the top options:\n\n1. **Orkin**: Known for its comprehensive pest control services, Orkin offers customized plans and has a strong presence across the Southeast. They provide treatments for a wide range of pests and are known for their effective termite control.\n\n2. **Terminix**: With a long-standing reputation, Terminix offers a variety of pest control services, including termite and mosquito control. They provide tailored solutions and have a satisfaction guarantee.\n\n3. **Massey Services**: Particularly popular in Florida, Massey Services focuses on preventive pest control and environmentally friendly solutions. They offer pest, termite, and lawn services.\n\n4. **Arrow Exterminators**: Headquartered in Atlanta, Georgia, Arrow Exterminators is a family-owned company offering comprehensive pest control solutions. They emphasize eco-friendly practices and provide a range of services, including wildlife control.\n\n5. **Truly Nolen**: Known for their distinctive yellow cars, Truly Nolen offers pest and termite control services with a focus on integrated pest management. They have a strong presence in Florida and other parts of the Southeast.\n\n6. **Ehrlich Pest Control**: Part of the Rentokil family, Ehrlich offers personalized pest management solutions and is known for its customer service and satisfaction.\n\nWhen choosing a pest control company, consider factors like the specific pests you need to control, the company’s reputation, guarantees, and eco-friendly practices. Reading customer reviews and getting quotes from multiple companies can also help you make an informed decision.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:39:28+00:00",
+  "has_unknown": true
+}

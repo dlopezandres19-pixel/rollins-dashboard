@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When seeking reputable residential pest control services in the Midwest, particularly in Illinois, Ohio, and Michigan, consider the following companies known for their professionalism and effectiveness:\n\n**1. Rose Pest Solutions**\n\nWith over 160 years of experience, Rose Pest Solutions is a family-owned company serving Michigan, Ohio, and Indiana. They offer comprehensive pest control services for both residential and commercial clients. Their 16 local offices ensure prompt and reliable service across the region. ([rosepestsolutions.com](https://www.rosepestsolutions.com/?utm_source=openai))\n\n**2. Ehrlich Pest Control**\n\nOperating since 1928, Ehrlich provides pest control services in Michigan, including cities like Detroit, Grand Rapids, and Ann Arbor. They offer the PestFree365+ plan, which provides year-round protection against 36 common pests. Their technicians are state-certified and licensed, ensuring high-quality service. ([pests.net](https://pests.net/ehrlich/Michigan.html?utm_source=openai))\n\n**3. Abell Pest Control**\n\nAbell offers pest control services throughout Michigan, serving areas such as Ann Arbor, Battle Creek, Detroit, and Grand Rapids. They provide affordable, year-round pest protection for both residential and commercial properties, with licensed technicians ready to assist. ([abellpestcontrol.com](https://www.abellpestcontrol.com/en-us/locations/michigan?utm_source=openai))\n\n**4. Frame's Pest Control, Inc.**\n\nServing Northern Ohio and Southeast Michigan since 1972, Frame's Pest Control offers professional pest control services for homes and businesses. They provide same-day, next-day, and Saturday appointments, ensuring flexibility for their clients. ([framespestcontrol.com](https://www.framespestcontrol.com/?utm_source=openai))\n\n**5. Delving Pest Control**\n\nDelving Pest Control has been serving Northern Ohio and Southeastern Michigan for over 25 years. They offer expert pest control, rodent remediation, and bed bug treatment with discreet one-time treatments and no-contract ongoing plans. ([delvingpest.com](https://www.delvingpest.com/pest-control-services/?utm_source=openai))\n\n**6. True Results Pest & Rodent Control**\n\nA family-owned and operated company, True Results serves Northwest Ohio and Southeast Michigan. They offer one-time services and monthly pest control maintenance plans, with a 100% satisfaction guarantee on all residential and commercial services. ([trueresultspest.com](https://trueresultspest.com/?utm_source=openai))\n\n**7. BTR Pest Control**\n\nServing Livingston County, Michigan, BTR Pest Control provides professional, eco-friendly pest control solutions. They offer same-day service and a 90-day warranty, ensuring customer satisfaction. ([btrpestcontrol.com](https://btrpestcontrol.com/livingston-county/?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and service guarantees. It's advisable to contact these companies directly to discuss your specific needs and ensure they can effectively address your pest concerns. ",
+  "mentioned_brands": [
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:43:20+00:00",
+  "has_unknown": true
+}

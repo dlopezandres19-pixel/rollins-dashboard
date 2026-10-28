@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When looking for pest control companies in the Southeast US, particularly in Florida, Georgia, and Texas, consider comparing the following providers:\n\n1. **Orkin**: A well-known company with a strong presence across the Southeast. They offer a variety of pest control services and have a good reputation for customer service.\n\n2. **Terminix**: Another major player in the pest control industry, Terminix provides services for a wide range of pests and offers customized plans.\n\n3. **Truly Nolen**: Known for their eco-friendly approach, they offer comprehensive pest control services and have locations throughout the Southeast.\n\n4. **Massey Services**: Based in Florida, Massey Services offers pest prevention and control with a focus on environmentally responsible solutions.\n\n5. **Arrow Exterminators**: With a strong presence in Georgia and other parts of the Southeast, Arrow Exterminators provides a range of pest management services.\n\n6. **Ehrlich Pest Control**: They offer personalized pest control solutions and have a solid reputation for quality service.\n\n7. **Bugs Burger Bug Killers**: Specializing in commercial pest control, they have a strong presence in Florida and Texas.\n\nWhen comparing these companies, consider factors such as customer reviews, service guarantees, pricing, and any eco-friendly options. It's also a good idea to get quotes from multiple providers to ensure you're getting the best service for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:39:37+00:00",
+  "has_unknown": true
+}

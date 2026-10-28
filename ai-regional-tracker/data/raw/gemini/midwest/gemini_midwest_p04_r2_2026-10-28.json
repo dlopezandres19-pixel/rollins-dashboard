@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When choosing residential pest control in the Midwest—particularly across Illinois, Ohio, and Michigan—homeowners typically choose between well-established regional mainstays (often praised for better customer service and local knowledge) and large national providers (which offer 24/7 hotlines and broad coverage).\n\n---\n\n### Top Regional Providers (Best Local Expertise)\n\n1. **Rose Pest Solutions** *(IL, MI, OH)*\n   * **Reputation:** Recognized as the oldest pest control company in the nation (founded in 1860). They have widespread regional coverage throughout Illinois, Michigan, and northern Ohio.\n   * **Best For:** Year-round residential defense plans, termite inspections, and general household pests. Their long history in the Great Lakes region means their technicians are intimately familiar with regional seasonal shifts (like fall rodent intrusions and boxelder bugs).\n\n2. **Griffin Pest Solutions** *(Michigan)*\n   * **Reputation:** One of Michigan’s most established independent pest control companies, covering major hubs like Detroit, Grand Rapids, Ann Arbor, and Kalamazoo. \n   * **Best For:** Homeowners in Michigan looking for pest elimination with a strong local focus, seasonal mosquito/tick treatments, and crawlspace moisture control.\n\n3. **ScherZinger Pest Control** *(Ohio)*\n   * **Reputation:** A family-owned regional leader serving Greater Cincinnati, Dayton, and Columbus for over 80 years.\n   * **Best For:** Targeted residential programs (such as their Guardian program), bed bug thermal heat treatments, and termite monitoring in southwestern and central Ohio.\n\n4. **Anderson Pest Solutions** *(Illinois)*\n   * **Reputation:** A major presence across the Chicago metropolitan area and northern Illinois (now part of the Rentokil family, but operates with local branding and technicians).\n   * **Best For:** Urban and suburban pest management, multi-pest perimeter defense plans (Natural Choice Home Protection), and stinging insect control.\n\n5. **Varment Guard** *(Ohio / Midwest)*\n   * **Reputation:** Based in Ohio (part of Plunkett’s Pest Control), they are especially well-regarded for handling pests and larger nuisance wildlife.\n   * **Best For:** Integrated pest management that includes wildlife removal and exclusion (bats, raccoons, squirrels) alongside conventional pest control (rodents, ants, spiders).\n\n---\n\n### Top National Providers (Widest Coverage & Tech Integration)\n\n1. **Orkin**\n   * **Coverage:** Extensive branch network across every major metro in IL, OH, and MI.\n   * **Pros:** Highly regarded employee training program (Orkin Institute), strong 30-day money-back guarantee, and solid response times for urgent infestations.\n   * **Best For:** Complex or aggressive infestations (like German cockroaches or termites) where specialized protocol is critical.\n\n2. **Terminix**\n   * **Coverage:** Nearly universal coverage across all three states, including semi-rural areas.\n   * **Pros:** Industry-leading termite baiting and monitoring systems (critical in parts of the Ohio Valley and southern Illinois where subterranean termites are prevalent), along with standard quarterly general pest services.\n\n3. **Aptive Environmental**\n   * **Coverage:** Very active in suburban neighborhoods across Chicago, Detroit, Cleveland, and Columbus.\n   * **Pros:** Specializes in seasonal, eco-forward exterior perimeter treatments. Their plans generally cover common crawling insects and spiders without requiring harsh indoor chemical broadcast treatments.\n\n---\n\n### Tips for Midwestern Homeowners\n\n* **Check for Seasonal Pests:** Midwest homes frequently battle \"overwintering\" pests that invade in September and October—such as boxelder bugs, brown marmorated stink bugs, Asian lady beetles, and field mice. Ask prospective companies if their late-summer/fall exterior treatments cover these invaders.\n* **Inquire About Wildlife Licensing:** Because raccoons, bats, and squirrels frequently target Midwestern attics, confirm whether the company holds a nuisance wildlife control permit if your issue involves animal noises in walls or eaves.\n* **Get Written Guarantees:** Ensure the contract includes a free re-service policy between scheduled visits if pests return.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:14:03+00:00",
+  "has_unknown": true
+}

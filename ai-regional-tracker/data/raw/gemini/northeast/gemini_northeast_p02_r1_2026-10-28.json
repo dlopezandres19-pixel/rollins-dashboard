@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "For homeowners in New York, New Jersey, and Pennsylvania, pest control needs often revolve around distinct regional challenges: older housing stock prone to rodents, high humidity driving carpenter ants and subterranean termites, heavy tick seasons (Lyme disease risk), and invasive pests like spotted lanternflies and brown marmorated stink bugs.\n\nThe most recommended companies for this region—categorized by regional specialists and major national providers—include:\n\n---\n\n### 1. Top Regional Specialists (Best Local Expertise)\n\n* **Ehrlich Pest Control**\n  * **Best For:** Overall coverage across PA, NJ, and NY; seasonal pest programs.\n  * **Why them:** Originally founded in Reading, Pennsylvania, Ehrlich (now part of Rentokil) has a massive footprint across the Northeast. Their technicians understand local climate shifts, from winter rodent migrations to summer tick surges and spotted lanternfly management.\n  * **Key Offerings:** Their *PestFree365+* plan covers over 30 common household pests year-round with unlimited service calls between scheduled visits.\n\n* **Western Pest Services**\n  * **Best For:** Mid-Atlantic/Tri-State residential coverage, integrated pest management.\n  * **Why them:** Founded in New Jersey in 1928, Western is one of the most recognized pest control brands in the NY-NJ-PA corridor. They have deep institutional knowledge regarding local pests, particularly termites, carpenter ants, and suburban wildlife/rodent exclusion.\n  * **Key Offerings:** Tailored seasonal homeowner protection plans, dedicated termite monitoring and baiting systems, and tick/mosquito yard treatments.\n\n---\n\n### 2. Top National Providers (Best for Widespread Availability & Guarantees)\n\n* **Orkin**\n  * **Best For:** Complex infestations (bed bugs, heavy termite pressure, severe rodent infestations).\n  * **Why them:** Orkin has strong branch density throughout all three states (from rural PA to suburban Long Island and North Jersey). Their technicians complete extensive initial and continuing education, which shows in their diagnostic thoroughness.\n  * **Key Offerings:** A strict 30-day money-back guarantee, detailed digital service reports, and thorough pest-proofing (exclusion) services.\n\n* **Terminix**\n  * **Best For:** Bundled pest + termite control plans.\n  * **Why them:** If your property has signs of subterranean termites—which are common throughout PA, NJ, and lower NY—Terminix offers some of the strongest termite protection warranties (Nix Pest Guarantee).\n  * **Key Offerings:** Convenient quarterly maintenance plans, crawl-space encapsulation, and whole-home exclusion barriers.\n\n---\n\n### 3. Highly Rated Metro & Local Options\n\n* **For the NYC Metro / Long Island / Northern NJ:**\n  * **MMPC:** An independent, highly rated provider based in NYC. Excellent choice if you prefer an **eco-friendly/integrated pest management (IPM)** approach, particularly for apartment/townhome bed bug inspections (including certified canine scent detection) and humane rodent management.\n* **For Central/South Jersey & Eastern PA:**\n  * **Cooper Pest Solutions:** Renowned for targeting specific seasonal invaders like stink bugs, boxelder bugs, and carpenter bees.\n  * **Arrow Pest Control:** A multi-generation, family-owned provider serving central and northern New Jersey with very high customer satisfaction ratings for residential preventative plans.\n\n---\n\n### What to Ask Before You Sign:\n1. **Does the plan include free re-treatments?** The Northeast experiences erratic spring and fall weather; make sure the company guarantees return visits at no charge if pests break through between scheduled visits.\n2. **Do they handle exclusion?** Simply spraying chemicals won't solve rodent or bat problems in older Northeast homes; ask if they seal small foundation entry points, weep holes, and roofline gaps.\n3. **What is their policy on spotted lanternflies and ticks?** Many standard perimeter sprays cover ants, spiders, and roaches, but outdoor yard treatments for ticks and invasive tree pests often require an add-on or specialty rider.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:00:20+00:00",
+  "has_unknown": true
+}

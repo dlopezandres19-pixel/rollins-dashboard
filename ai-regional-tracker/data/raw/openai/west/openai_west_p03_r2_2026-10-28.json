@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When selecting a reputable residential pest control company in the Western United States—specifically in California, Washington, and Arizona—it's essential to consider providers with a strong track record, comprehensive services, and positive customer feedback. Here are some notable companies operating in these states:\n\n**1. Western Exterminator**\n\nWith nearly a century of experience, Western Exterminator serves most metro areas in Washington, Oregon, California, Idaho, Nevada, and Arizona. They offer green treatment options for both residential and commercial pest control and provide free inspections without requiring annual contracts. ([pests.org](https://www.pests.org/top-5-pest-control-companies/?utm_source=openai))\n\n**2. Orkin**\n\nOperating nationwide, including Arizona, Orkin offers personalized pest control solutions tailored to specific regional challenges. They provide same-day and next-day services, backed by over 125 years of experience. ([orkin.com](https://www.orkin.com/locations/arizona-az?utm_source=openai))\n\n**3. Clark Pest Control**\n\nServing California and Nevada, Clark Pest Control has been protecting homes since 1950. They offer a range of services, including termite control, ant control, rodent control, and more, with a satisfaction guarantee on every job. ([clarkpest.com](https://www.clarkpest.com/pest-control?utm_source=openai))\n\n**4. Brooks Pest Control**\n\nBrooks Pest Control operates in California, Oregon, and Washington, offering fast, eco-friendly, same-day services with a 100% satisfaction guarantee. They handle a variety of pests, including ants, mosquitoes, and cockroaches. ([brookspest.com](https://www.brookspest.com/?utm_source=openai))\n\n**5. Truly Nolen**\n\nAs one of the world's largest family-owned pest control companies, Truly Nolen has over 70 corporate locations in the United States and operates in over 65 countries. They are known for their distinctive yellow mouse cars and comprehensive pest control services. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Truly_Nolen?utm_source=openai))\n\n**6. Patriot Pest Control**\n\nServing Washington, Idaho, Oregon, and Arizona, Patriot Pest Control offers eco-friendly solutions tailored to various climates. They provide comprehensive pest control services for both residential and commercial properties. ([patriotpest.pro](https://patriotpest.pro/services.html?utm_source=openai))\n\nWhen choosing a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and their approach to safety and environmental responsibility. It's also advisable to contact the companies directly to discuss your specific needs and obtain quotes. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:45:30+00:00",
+  "has_unknown": true
+}

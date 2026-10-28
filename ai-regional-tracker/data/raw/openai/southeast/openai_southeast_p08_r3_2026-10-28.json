@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "When choosing a pest control provider in the Southeast US, including Florida, Georgia, and Texas, consider comparing the following companies, which are well-known and have a strong presence in these states:\n\n1. **Terminix**\n   - Offers comprehensive pest control services.\n   - Known for termite control and guarantees.\n\n2. **Orkin**\n   - Provides a wide range of pest control solutions.\n   - Offers personalized plans and has a long-standing reputation.\n\n3. **Truly Nolen**\n   - Family-owned business with innovative pest control methods.\n   - Offers eco-friendly options.\n\n4. **Arrow Exterminators**\n   - Provides services specifically tailored to Southern climates.\n   - Offers both residential and commercial solutions.\n\n5. **Massey Services**\n   - Known for their environmentally responsible services.\n   - Offers preventive pest control and lawn care.\n\n6. **Aptive Environmental**\n   - Focuses on eco-friendly pest control practices.\n   - Provides seasonal services to address specific pest issues.\n\nWhen comparing these companies, consider factors such as their treatment methods, customer reviews, pricing, guarantees, and any eco-friendly options they offer. It's also a good idea to get quotes from multiple providers to find the best fit for your specific needs and budget.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:39:42+00:00",
+  "has_unknown": false
+}

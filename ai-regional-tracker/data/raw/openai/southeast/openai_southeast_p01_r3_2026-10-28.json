@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "Here are some top pest control companies in the Southeast U.S., including Florida, Georgia, and Texas:\n\n1. **Orkin**: Known for its extensive coverage and comprehensive pest control services. They offer solutions for various pests and have a strong presence in the Southeast.\n\n2. **Terminix**: Another major provider with a wide range of services, including termite and bed bug treatments. They have locations throughout the Southeast.\n\n3. **Truly Nolen**: Offers pest and termite control services with a focus on environmentally friendly methods. They are well-regarded in Florida and other Southeastern states.\n\n4. **Massey Services**: Based in Florida, Massey provides pest prevention services and is known for its customer satisfaction and customized treatment plans.\n\n5. **Arrow Exterminators**: Headquartered in Georgia, Arrow offers comprehensive pest control services, including wildlife control, and has a strong regional presence.\n\n6. **Aptive Environmental**: Focuses on eco-friendly pest control solutions and provides services in several Southeastern states.\n\nWhen choosing a pest control company, consider factors such as customer reviews, the services offered, and any guarantees or warranties. It's also beneficial to get quotes from multiple companies to compare pricing and service offerings.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:38:03+00:00",
+  "has_unknown": false
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "When choosing a residential pest control service in the Northeast—specifically across New York, New Jersey, and Pennsylvania—homeowners generally choose between **established regional powerhouses** (which have decades of experience with local pest patterns and older home construction) and **major national brands** (which offer standard scheduling and widespread branch networks).\n\nHere are the leading residential pest control companies operating across NY, NJ, and PA:\n\n---\n\n### 1. Top Regional Specialists (Deep Northeast Roots)\n\n* **Western Pest Services**\n  * **Service Area:** New Jersey, Pennsylvania, New York, Delaware, and Connecticut.\n  * **Profile:** Founded in New Jersey in 1928, Western is one of the most recognized names in the Mid-Atlantic. They excel in general quarterly maintenance, seasonal invaders, termite treatments, and bed bug control. Homeowners often favor them for their deep familiarity with older Northeast housing stock and local pest pressures.\n* **Ehrlich Pest Control (A Rentokil Company)**\n  * **Service Area:** Extensive footprint across Pennsylvania, New York, and New Jersey.\n  * **Profile:** Founded in Reading, PA, Ehrlich is a staple of Pennsylvania and the surrounding states. Their signature \"PestFree365\" plan covers over 30 common pests year-round. Because of their PA origins, they are especially adept at regional challenges like ticks, cluster flies, carpenter ants, and spotted lanternflies.\n* **Viking Pest Control (An Anticimex Company)**\n  * **Service Area:** New Jersey, Pennsylvania, Delaware, and the Eastern Shore of Maryland.\n  * **Profile:** Known for its strong presence in Central and Northern New Jersey and Eastern PA, Viking is an industry leader in modern, eco-conscious pest control. They offer \"SMART\" rodent control—digital, non-toxic monitoring systems installed in homes to detect mice before an infestation spreads.\n* **Cooper Pest Solutions**\n  * **Service Area:** Central/Southern New Jersey and Eastern Pennsylvania (Greater Philadelphia & Bucks County).\n  * **Profile:** Renowned for their entomologist-led approach, Cooper has built a strong reputation for scientific treatment plans. They are especially popular for difficult-to-treat pests like bed bugs, stink bugs, and carpenter bees.\n* **JP McHale Pest Management**\n  * **Service Area:** New York (Westchester, NYC, Long Island, Hudson Valley) and Northern New Jersey.\n  * **Profile:** A premier regional choice for the NYC suburbs and Hudson Valley, JP McHale focuses heavily on Integrated Pest Management (IPM), offering plant-based and low-impact treatments that appeal to homeowners concerned about children, pets, or nearby waterways.\n\n---\n\n### 2. Leading National Providers\n\n* **Orkin**\n  * **Service Area:** Ubiquitous across NY, NJ, and PA (both urban centers and rural areas).\n  * **Profile:** Known for rigorous employee training and entomologist-backed protocols. They offer a strong 30-day money-back guarantee and free return visits between scheduled treatments if pests reappear.\n* **Terminix**\n  * **Service Area:** Widespread across all three states.\n  * **Profile:** An industry giant best known for subterranean termite detection and defense (using baiting systems and liquid barriers), as well as whole-home pest protection plans and wildlife/rodent exclusion.\n\n---\n\n### What to Look For in NY, NJ, and PA\n\nWhen requesting quotes, keep these regional considerations in mind:\n\n1. **Local Invasive & Seasonal Pests:** The Northeast experiences intense seasonal shifts. Make sure your provider offers coverage or targeted treatments for:\n   * **Ticks and Mosquitoes:** High risk for Lyme disease in suburban/wooded areas across all three states.\n   * **Spotted Lanternflies:** Extremely prevalent in PA and NJ, spreading through NY; require targeted seasonal management.\n   * **Overwintering Pests:** Mice, brown marmorated stink bugs, and lady beetles trying to enter basements and attics as temperatures drop in October/November.\n   * **Wood-Destroying Insects:** Subterranean termites and carpenter ants are widespread across the region.\n2. **State Licensing:** Verify that technicians are licensed by their respective state agencies:\n   * New York: **NY Department of Environmental Conservation (DEC)**\n   * New Jersey: **NJ Department of Environmental Protection (DEP)**\n   * Pennsylvania: **PA Department of Agriculture**\n3. **Reservice Guarantee:** Look for companies that provide **free retreatments between visits** if pests return during an active annual maintenance plan.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:03:17+00:00",
+  "has_unknown": true
+}

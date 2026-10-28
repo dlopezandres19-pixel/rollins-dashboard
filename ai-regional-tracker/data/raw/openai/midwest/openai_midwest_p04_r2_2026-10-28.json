@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "In the Midwest US, including Illinois, Ohio, and Michigan, several pest control companies are well-regarded for their residential services. Here are a few leading ones:\n\n1. **Orkin**: A nationally recognized company with extensive experience in pest control, offering services for a variety of pests and boasting a strong local presence.\n\n2. **Terminix**: Another major player in the pest control industry, Terminix provides comprehensive pest management solutions and has a wide network across the Midwest.\n\n3. **TruGreen**: Known primarily for lawn care, TruGreen also offers pest control services to manage outdoor pests that can affect home environments.\n\n4. **Rose Pest Solutions**: A regional company with a strong reputation in the Midwest, Rose Pest Solutions has been in business for over 150 years and offers customized pest control plans.\n\n5. **McCloud Services**: Specializing in both residential and commercial pest control, McCloud Services is known for its innovative approaches and customer-centric service in the Midwest.\n\n6. **Plunkett’s Pest Control**: A family-owned business that focuses on environmentally responsible pest management, offering services throughout the Midwest.\n\nThese companies typically offer a range of services, including treatment for insects, rodents, and other common household pests. It's a good idea to compare their services, customer reviews, and pricing to find the best fit for your specific needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:43:31+00:00",
+  "has_unknown": true
+}

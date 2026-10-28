@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, several pest control companies are well-regarded for their service quality. Here are some of the best options for homeowners in Florida, Georgia, and Texas:\n\n1. **Terminix**: Known for its comprehensive pest control services, including termite, mosquito, and wildlife control. They offer customized plans and have a strong presence throughout the Southeast.\n\n2. **Orkin**: With over a century of experience, Orkin provides a wide range of pest control services. They focus on prevention and use environmentally friendly methods.\n\n3. **Truly Nolen**: Famous for their distinctive yellow mouse cars, Truly Nolen offers pest and termite control along with lawn care services. They emphasize integrated pest management.\n\n4. **Arrow Exterminators**: A family-owned company with a strong reputation in the Southeast, Arrow offers termite, mosquito, and general pest control services, as well as handyman services.\n\n5. **Massey Services**: Focused on preventative pest control, Massey Services offers a satisfaction guarantee and provides services for pest, termite, and lawn care.\n\n6. **Ehrlich**: They provide specialized pest control services and have a strong focus on customer education and sustainable practices.\n\nWhen choosing a pest control company, consider factors such as the specific pests you’re dealing with, the company’s reputation, service guarantees, and pricing. It's also a good idea to read customer reviews and ask for quotes to compare services.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:39:19+00:00",
+  "has_unknown": false
+}

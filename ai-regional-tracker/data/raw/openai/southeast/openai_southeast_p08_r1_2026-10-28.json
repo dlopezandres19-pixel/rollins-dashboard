@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control provider in the Southeast US, including Florida, Georgia, and Texas, consider comparing the following companies:\n\n1. **Orkin**: A well-known national brand with extensive experience in handling various pests. They offer customized plans and a satisfaction guarantee.\n\n2. **Terminix**: Another national provider, Terminix offers comprehensive pest control services with a focus on termite control and prevention.\n\n3. **Massey Services**: Based in Florida, Massey provides pest prevention, termite protection, and landscape services with a focus on eco-friendly solutions.\n\n4. **Arrow Exterminators**: Headquartered in Atlanta, Georgia, Arrow offers a wide range of services including pest, termite, and mosquito control.\n\n5. **Truly Nolen**: Known for their distinctive yellow vehicles, Truly Nolen offers residential and commercial pest control services with innovative techniques.\n\n6. **Ehrlich Pest Control**: Part of the Rentokil family, they offer comprehensive pest management solutions with a strong emphasis on customer service.\n\n7. **Aptive Environmental**: Focuses on environmentally responsible pest control methods and is known for excellent customer service.\n\nWhen comparing these companies, consider factors like service offerings, pricing, customer reviews, guarantees, and eco-friendly practices to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:39:33+00:00",
+  "has_unknown": true
+}

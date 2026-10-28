@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "In the Northeast US, including New York, New Jersey, and Pennsylvania, there are several options for residential pest control. Here are some common methods and companies:\n\n### Pest Control Methods\n\n1. **Professional Extermination Services:**\n   - Hiring a professional pest control company can ensure effective treatment for various pests like termites, ants, rodents, and bed bugs.\n   - Many companies offer eco-friendly or organic options.\n\n2. **DIY Methods:**\n   - Over-the-counter sprays, traps, and baits are available for minor infestations.\n   - Natural remedies, such as diatomaceous earth or essential oils, can be used for less severe issues.\n\n3. **Integrated Pest Management (IPM):**\n   - This approach combines multiple methods to manage pests with minimal environmental impact.\n   - Focuses on prevention and monitoring before resorting to chemicals.\n\n### Notable Pest Control Companies\n\n1. **Terminix:**\n   - Offers comprehensive pest control services for various pests.\n   - Known for their expertise in termite and bed bug control.\n\n2. **Orkin:**\n   - Provides customized pest control solutions with a focus on prevention.\n   - Uses science-based methods and offers eco-friendly options.\n\n3. **Ehrlich Pest Control:**\n   - Offers both residential and commercial services.\n   - Known for a personalized approach and focus on customer education.\n\n4. **TruGreen:**\n   - While primarily a lawn care company, they offer pest control services that can help with mosquitoes, ticks, and other outdoor pests.\n\n5. **Local Companies:**\n   - Many local businesses offer specialized services tailored to regional pests and conditions.\n   - Often provide more personalized service with a focus on community relationships.\n\n### Considerations\n\n- **Reputation and Reviews:** Look for companies with good customer reviews and a strong reputation.\n- **Licensing and Certification:** Ensure the company is licensed and certified to operate in your state.\n- **Guarantees and Follow-ups:** Choose companies that offer guarantees and follow-up services to ensure the problem is completely resolved.\n\n### Tips\n\n- Regular maintenance and inspections can prevent infestations.\n- Sealing entry points and maintaining cleanliness can minimize pest attraction.\n- Consider seasonal treatments for pests prevalent during certain times of the year.\n\nFor specific recommendations, it's often helpful to consult local resources or neighbors to find a provider that is well-regarded in your area.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:42:15+00:00",
+  "has_unknown": true
+}

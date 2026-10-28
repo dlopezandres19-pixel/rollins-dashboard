@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Some of the best national pest control companies operating in the Western U.S., including California, Washington, and Arizona, are:\n\n1. **Orkin**: Known for its comprehensive pest control services, Orkin offers solutions for a wide range of pests and has a strong presence across the West.\n\n2. **Terminix**: Offers extensive pest control services, including termite and bed bug treatment, with a reputation for reliability and effectiveness.\n\n3. **Ehrlich (Western Exterminator)**: Known for excellent customer service and a focus on integrated pest management, they provide tailored solutions to pest problems.\n\n4. **Rentokil**: Offers a wide range of pest control services with an emphasis on sustainable and environmentally friendly solutions.\n\n5. **Truly Nolen**: Provides pest and termite control services with unique treatment methods and a focus on customer satisfaction.\n\nThese companies are well-regarded for their expertise, customer service, and comprehensive treatment plans. It's always a good idea to get quotes and read reviews to find the best fit for your specific needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:46:19+00:00",
+  "has_unknown": true
+}

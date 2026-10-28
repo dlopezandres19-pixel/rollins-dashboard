@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "When seeking reputable residential pest control services in the Southeastern U.S., particularly in Florida, Georgia, and Texas, several companies stand out for their exceptional service and customer satisfaction:\n\n**Florida:**\n\n- **All U Need Pest Control**: Serving Jacksonville, this company specializes in treating and preventing infestations of rats, cockroaches, ants, spiders, and termites. They maintain a 5/5 customer rating across over 4,200 reviews. ([pestbridge.com](https://pestbridge.com/best-pest-control-in-jacksonville?utm_source=openai))\n\n- **Truly Nolen**: As one of the world's largest family-owned pest control companies, Truly Nolen operates extensively in Florida, offering comprehensive pest management solutions. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Truly_Nolen?utm_source=openai))\n\n**Georgia:**\n\n- **Zone Home Solutions**: Offering both pest control and HVAC services, Zone Home Solutions has received 117 reviews across four different verified review sites, with an average rating of 5.00 stars. They have earned a Rating Score™ of 99.00 and have been recognized as the top award winner for pest control companies in Georgia for five consecutive years. ([topratedlocal.com](https://www.topratedlocal.com/blog/tag/pest-control-reviews/?utm_source=openai))\n\n- **Nextgen Pest Solutions**: Serving multiple locations in Georgia, Nextgen Pest Solutions has a 5.0 rating based on 932 reviews, with only 0.4% being one or two-star ratings. They offer 24-hour service and specialize in treating ants, wildlife, and cockroaches. ([exterminatorguild.com](https://exterminatorguild.com/us/ga?utm_source=openai))\n\n**Texas:**\n\n- **Romex Pest & Termite Control**: Based in Arlington, Romex boasts a 5.0 rating from over 4,300 reviews, with only 0.7% being one or two-star ratings. They specialize in treating wasps, spiders, and ants. ([exterminatorguild.com](https://exterminatorguild.com/us/tx?utm_source=openai))\n\n- **Urbanex Pest Control**: Serving Fort Worth, Urbanex holds a 5.0 rating from over 2,600 reviews, with 1.0% being one or two-star ratings. Their services focus on ants, wasps, and spiders. ([exterminatorguild.com](https://exterminatorguild.com/us/tx?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and any guarantees offered. It's also advisable to contact the companies directly to discuss your specific needs and ensure they can provide the appropriate solutions for your home. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Truly Nolen",
+  "top3_brands": [
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:38:31+00:00",
+  "has_unknown": true
+}

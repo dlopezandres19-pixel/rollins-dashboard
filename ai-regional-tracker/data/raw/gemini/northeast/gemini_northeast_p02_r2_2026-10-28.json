@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "For homeowners in New York, New Jersey, and Pennsylvania, regional pest control companies often provide the best balance of local expertise and reliable service. The Northeast has specific pest pressures—such as heavy winter rodent intrusions, carpenter ants, subterranean termites, deer ticks, and invasive spotted lanternflies—making local experience especially valuable.\n\nHere are the most reputable companies to consider across the NY/NJ/PA tri-state area:\n\n---\n\n### 1. Top Regional Recommendations\n\n* **Viking Pest Control**\n  * **Best For:** Comprehensive year-round protection and modern/eco-conscious options.\n  * **Service Area:** Extensive coverage throughout New Jersey, Eastern Pennsylvania, and downstate/suburban New York.\n  * **Why They Stand Out:** Viking is well-regarded for its \"Home Protection Plans\" and use of Anticimex SMART digital rodent monitoring (non-toxic sensors and traps that alert technicians automatically). They also have specific protocols for spotted lanternflies, ticks, and mosquitoes.\n\n* **Western Pest Services**\n  * **Best For:** Proven reliability and tough infestations (termites, bed bugs, carpenter ants).\n  * **Service Area:** Founded in New Jersey; heavy coverage across NJ, southeastern PA, NYC, Long Island, and the Hudson Valley.\n  * **Why They Stand Out:** Operating since 1928, Western has deep local roots. Their technicians are generally thorough with structural inspections (critical for older Northeast foundations and wood rot issues) and offer clear re-treatment guarantees.\n\n* **Ehrlich Pest Control (Rentokil)**\n  * **Best For:** Broad coverage, particularly in Central and Western Pennsylvania, as well as Upstate NY.\n  * **Service Area:** Strong footprint across Pennsylvania (where it was founded), New York, and New Jersey.\n  * **Why They Stand Out:** Their **PestFree365+** plan is one of the most comprehensive standard preventive plans in the industry, covering over 35 common pests (including mice, ants, and bed bugs) with scheduled seasonal visits and free off-schedule call-backs.\n\n* **JP McHale Pest Management**\n  * **Best For:** Homeowners in the greater NYC metro, Westchester, Hudson Valley, and Northern NJ.\n  * **Service Area:** NYC suburbs, Westchester, Rockland, Putnam, Long Island, and parts of Northern NJ.\n  * **Why They Stand Out:** Known for premium customer service, biological controls, and integrated pest management (IPM) that minimizes unnecessary chemical use inside the home.\n\n---\n\n### 2. Best National Option\n\n* **Orkin**\n  * **Best For:** Consistent technician training and reliable 30-day money-back/re-treatment guarantees.\n  * **Why They Stand Out:** If you live outside the service perimeter of the regional providers, Orkin maintains well-staffed branches across all three states. Their technicians undergo rigorous, standardized training, and they respond quickly for active emergencies like wasps, wildlife, or acute rodent problems.\n\n---\n\n### Tips for Hiring in the Northeast\n\n1. **Ask About Wood-Destroying Organisms:** In this region, **carpenter ants** are just as common as subterranean termites due to damp crawl spaces and older framing. Ensure your service plan specifically includes carpenter ants (many basic plans exclude them).\n2. **Seasonal Add-ons:** If you live near wooded or brushy areas, ask whether their quarterly plans include **tick reduction** and **spotted lanternfly** treatments, as these are major regional issues.\n3. **Verify the Re-Service Policy:** With seasonal pests (mice moving indoors during October/November, pavement ants emerging in spring), ensure the agreement includes **free call-backs between scheduled quarterly visits** if pests return.\n4. **Get 2–3 Free Quotes:** Most of these companies offer free initial inspections for general pests and termites; comparing quotes and technician professionalism during the walkthrough will give you the clearest picture of local service quality.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Anticimex",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:00:42+00:00",
+  "has_unknown": true
+}

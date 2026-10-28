@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, including states like Florida, Georgia, and Texas, there are several options for residential pest control. Here are the main ones:\n\n1. **Professional Pest Control Services:**\n   - **Orkin:** Offers comprehensive pest control services including termite, mosquito, and bed bug control.\n   - **Terminix:** Provides a wide range of services such as termite protection and pest extermination.\n   - **Ehrlich Pest Control:** Known for customized pest management plans and eco-friendly options.\n   - **Truly Nolen:** Offers pest control solutions with a focus on environmentally friendly practices.\n\n2. **DIY Pest Control:**\n   - **Store-bought Solutions:** Products like sprays, traps, and baits available at home improvement stores.\n   - **Natural Remedies:** Using essential oils, diatomaceous earth, and homemade traps to manage pests.\n\n3. **Integrated Pest Management (IPM):**\n   - A holistic approach that combines prevention, monitoring, and control tactics to reduce pest populations.\n\n4. **Local Pest Control Companies:**\n   - Many areas have local companies that offer personalized services and may have specific knowledge about regional pests.\n\n5. **Preventive Measures:**\n   - Regular home maintenance, sealing entry points, and keeping the home and yard clean to deter pests.\n\nChoosing the right option depends on the specific pest issue, budget, and personal preference for chemical versus natural solutions. Always ensure that any professional service is licensed and reputable.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:39:46+00:00",
+  "has_unknown": true
+}

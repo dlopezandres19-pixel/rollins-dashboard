@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast US, including states like Florida, Georgia, and Texas, there are several options for residential pest control. Here are the main ones:\n\n1. **Professional Pest Control Services**:\n   - Companies like Orkin, Terminix, and Rentokil offer comprehensive pest management services. They handle a variety of pests like termites, ants, mosquitoes, and rodents.\n   - Local companies often provide specialized services tailored to the specific pest issues in the region.\n\n2. **DIY Pest Control Products**:\n   - Homeowners can use products like sprays, traps, and baits available at hardware or home improvement stores.\n   - Popular brands include Raid, Ortho, and Spectracide.\n\n3. **Natural and Organic Solutions**:\n   - Options include essential oils like peppermint or citronella, diatomaceous earth, and vinegar-based solutions.\n   - These are particularly useful for those looking to avoid chemical pesticides.\n\n4. **Integrated Pest Management (IPM)**:\n   - This approach combines monitoring, prevention, and control strategies to manage pests with minimal environmental impact.\n   - It often involves sealing entry points, reducing clutter, and maintaining a clean home environment.\n\n5. **Preventative Measures**:\n   - Regular maintenance like sealing cracks, proper waste management, and ensuring good drainage can prevent pest infestations.\n   - Installing screens on windows and doors and keeping vegetation trimmed also helps.\n\nFor specific needs or severe infestations, consulting a professional service is often the most effective option.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:39:50+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When choosing a pest control company in the Midwest (Illinois, Ohio, Michigan), consider the following reputable options:\n\n1. **Orkin**: Known for comprehensive pest control services and a strong presence nationwide, including the Midwest. They offer customized plans and have a good reputation for customer service.\n\n2. **Terminix**: Offers a wide range of pest control services with a focus on prevention and treatment. They have local branches in the Midwest and provide guarantees for their services.\n\n3. **TruGreen**: While primarily known for lawn care, TruGreen also offers pest control services in the Midwest. They focus on outdoor pest prevention, which can complement indoor treatments.\n\n4. **Ehrlich Pest Control**: Provides eco-friendly options and has a strong presence in the Midwest. They are known for their knowledgeable technicians and effective pest management strategies.\n\n5. **Local Companies**: Consider local companies with good reviews and a strong understanding of the specific pest challenges in your area. Local businesses often provide personalized service and have in-depth knowledge of regional pest issues.\n\nWhen choosing a company, look for:\n\n- **Certifications and Licenses**: Ensure they are certified and licensed to operate in your state.\n- **Customer Reviews**: Check online reviews and ask for references.\n- **Guarantees**: Look for companies that offer satisfaction guarantees or free follow-up services if pests return.\n- **Eco-Friendly Options**: If important to you, ask about environmentally friendly pest control methods.\n\nGet quotes from a few companies to compare services and prices before making a decision.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:43:48+00:00",
+  "has_unknown": true
+}

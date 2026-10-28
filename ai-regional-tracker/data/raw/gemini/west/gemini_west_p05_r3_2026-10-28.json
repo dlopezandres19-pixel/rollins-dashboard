@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Because pest issues in the Western U.S. vary dramatically—ranging from bark scorpions and desert termites in Arizona to Argentine ants in California and carpenter ants or roof rats in Washington—the best pest control company often depends on your specific state and pest problem.\n\nHere are the top-recommended pest control providers for the Western U.S., broken down by overall performance and regional strengths:\n\n---\n\n### Top Overall Recommendations for the West\n\n#### 1. Western Exterminator (Rentokil) – *Best Overall for the Western Region*\n* **Where they operate:** Extensive coverage across California, Arizona, Washington, Oregon, and Nevada.\n* **Why choose them:** Western Exterminator was founded specifically to handle Western ecosystems. They have deep expertise in the distinct pests of the Pacific Northwest and Southwest. They use Integrated Pest Management (IPM), which minimizes chemical use around kids and pets while targeting entry points and nesting areas.\n* **Best for:** General year-round pest defense, rodents, and termites.\n\n#### 2. Truly Nolen Pest Control – *Best for Arizona & Desert Pests*\n* **Where they operate:** Headquartered in Tucson, AZ, with heavy branch networks throughout Arizona and California.\n* **Why choose them:** If you are in Arizona or Southern California dealing with desert pests (bark scorpions, black widows, roof rats, and desert termites), Truly Nolen is one of the most experienced. Their \"Four Seasons\" approach adjusts treatments based on seasonal pest lifecycles common to warmer climates.\n* **Best for:** Scorpions, desert rodents, and recurring residential maintenance in hot, arid zones.\n\n#### 3. Clark Pest Control – *Best for California*\n* **Where they operate:** Primarily California and Northern Nevada.\n* **Why choose them:** Clark is one of the largest regional pest control companies in California (operating under the Rollins network). Because California has strict pesticide and environmental regulations, Clark is uniquely tailored to state compliance while maintaining effective treatment for notoriously persistent Argentine ants, bed bugs, and drywood termites.\n* **Best for:** California homeowners wanting strong local response times and localized pest expertise.\n\n#### 4. Orkin – *Best for Serious Infestations & Termite Guarantees*\n* **Where they operate:** Widespread coverage across WA, CA, and AZ.\n* **Why choose them:** Orkin is consistently ranked highest for technician training. If you have an active, aggressive infestation (like subterranean termites, German cockroaches, or a severe bed bug issue), Orkin’s targeted treatments and solid 30-day money-back guarantee make them a reliable national choice.\n* **Best for:** Emergency interventions, termite treatments, and homeowners who want strict quality guarantees.\n\n---\n\n### Regional Picks by State\n\n* **California:**\n  * **Top picks:** **Clark Pest Control** or **Western Exterminator**.\n  * *Common issues:* Drywood and subterranean termites, Argentine ants, black widows, roof rats.\n* **Arizona:**\n  * **Top picks:** **Truly Nolen** or strong regional specialists like **Blue Sky Pest Control** (Phoenix metro).\n  * *Common issues:* Bark scorpions, subterranean termites, pigeon mitigation, crickets, and roof rats.\n* **Washington (Pacific Northwest):**\n  * **Top picks:** **Western Exterminator** or regional specialists like **Eden Advanced Pest Technologies** / **Senske**.\n  * *Common issues:* Moisture-loving pests, carpenter ants, dampwood termites, mice, and rats.\n\n---\n\n### How to Choose the Right One for Your Home\n\n1. **Ask about free inspections:** National brands (like Orkin and Terminix) and major regional brands (like Clark and Truly Nolen) typically offer free on-site inspections for termites or general pests before quoting.\n2. **Beware of strict annual contracts:** Many pest companies push recurring quarterly contracts. If you only have a one-off issue (like a seasonal wasp nest or single rodent entry), ask explicitly for a **one-time service quote** rather than signing an auto-renewing contract.\n3. **Verify the re-treatment guarantee:** In the West, pests like ants and scorpions often require follow-ups. Ensure your contract includes **free re-treatments between scheduled visits** if pests return.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:26:08+00:00",
+  "has_unknown": true
+}

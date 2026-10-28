@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "When looking for residential pest control across New York, New Jersey, and Pennsylvania, homeowners generally choose between **large regional specialists** with deep roots in the Northeast, **national providers**, and **specialized local operators**. \n\nThe main providers and options include:\n\n---\n\n### 1. Prominent Regional Specialists\nBecause the Northeast has unique housing stock (older foundations, basements, dense framing) and specific pest pressures (ticks, spotted lanternflies, carpenter ants), several large regional companies dominate this market:\n\n* **Ehrlich Pest Control:** Originally founded in Pennsylvania, Ehrlich is one of the most recognizable names in the Northeast (now part of the Rentokil family). They offer comprehensive quarterly maintenance plans (the *PestFree365* program) and are well-versed in subterranean termites, bed bugs, and seasonal home invasions.\n* **Western Pest Services:** Based out of New Jersey and serving NY, NJ, PA, and Delaware since 1928. Western is known for reliable residential service, integrated pest management (IPM), and strong customer support across the suburbs and metro areas.\n* **Viking Pest Control:** A major presence across NJ, PA, DE, and parts of NY. Viking is particularly popular for modern, tech-forward solutions (such as Anticimex SMART non-toxic rodent monitoring) and tailored seasonal plans for suburban properties.\n* **Cooper Pest Solutions:** Highly regarded across New Jersey and eastern Pennsylvania. They are known for strict, science-backed IPM techniques, strong guarantees, and specialized services for mosquitoes, ticks, and stink bugs.\n\n---\n\n### 2. Major National Providers\nIf you prefer a large national network with 24/7 customer service and standardized mobile apps for scheduling, the primary national options include:\n\n* **Orkin:** Widely available across NY, NJ, and PA. Known for extensive employee training and reliable, targeted treatments. Best for aggressive, fast-acting interventions (e.g., severe bed bug or termite infestations).\n* **Terminix:** Offers extensive branch coverage throughout the tri-state area. Their standout offerings are termite-baiting systems (such as the Sentricon system) and comprehensive home perimeter pest packages.\n* **Aptive Environmental:** A fast-growing national brand focused primarily on exterior quarterly perimeter treatments for ants, spiders, wasps, and crickets. They emphasize more natural/pyrethrin-based barrier treatments, though they do not typically handle deep interior structural issues (like termites or wildlife).\n\n---\n\n### 3. Specialized & Urban Providers (NYC & Philly Metros)\nIf you live in high-density urban settings (like New York City or Philadelphia proper), row homes and apartment buildings often face distinct challenges—particularly bed bugs, German roaches, and rodents.\n* **MMPC (Metropolitan Multidisciplinary Pest Control):** Highly rated in the NYC metro area, known for eco-friendly practices, K-9 bed bug inspections, and LEED-certified pest management.\n* **Knockout Pest Control:** A prominent provider across Long Island, NYC, and Westchester, known for fast bed bug heat treatments and heavy rodent exclusion.\n\n---\n\n### Common Service Models\nWhen hiring a company in the Northeast, you’ll typically choose between two types of service:\n1. **Quarterly/Annual Subscription (Perimeter Defense):** \n   * A technician visits 3–4 times a year to treat the exterior foundation and manage seasonal shifts (spring ants/bees, summer ticks/mosquitoes, fall/winter mice). Re-treatments between visits are usually free.\n2. **Targeted One-Time Treatments:**\n   * Used for specific acute problems, such as a localized hornet nest, a sudden bed bug outbreak, or wildlife exclusion (raccoons, squirrels, or bats in an attic).\n\n---\n\n### Key Things to Look for in the Northeast:\n* **Tick & Mosquito Coverage:** Because the NY/NJ/PA corridor is the epicenter for Lyme disease, verify whether tick spraying (typically conducted April–October) is bundled into your plan or treated as a separate add-on.\n* **Rodent Exclusion (Not Just Trapping):** In older homes, exterminators should inspect the foundation, crawlspace, and roofline to seal entry points (exclusion) rather than simply throwing down poison bait stations.\n* **Spotted Lanternfly Experience:** If you have tree-heavy acreage in PA or NJ, check if the provider offers tree injections or banding for invasive lanternflies.\n* **Eco/Pet Safety:** Look for companies certified by **GreenPro** or that adhere to strict **Integrated Pest Management (IPM)** standards, which focus on targeted treatments rather than wide-scale interior chemical sprays.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:09:01+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "In the Midwest US, including Illinois, Ohio, and Michigan, several leading residential pest control companies are well-regarded for their services. Here are some of them:\n\n1. **Terminix**: Known for comprehensive pest control services, including termite and bed bug treatments, with customizable plans.\n\n2. **Orkin**: Offers extensive pest management services with a focus on prevention and ongoing maintenance.\n\n3. **TruGreen**: While primarily a lawn care company, they offer pest control services that focus on lawn and perimeter treatments.\n\n4. **Ehrlich Pest Control**: Provides targeted solutions for a variety of pests with a focus on environmentally responsible methods.\n\n5. **Rose Pest Solutions**: A local favorite in the Midwest, known for effective and eco-friendly pest control options.\n\n6. **Massey Services**: Offers a range of pest prevention programs and is known for their customer service and satisfaction guarantee.\n\nWhen selecting a pest control company, consider factors like service guarantees, eco-friendly options, and customer reviews to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:43:35+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "For a homeowner in the Midwest (Illinois, Ohio, and Michigan), pest needs change drastically with the seasons—from spring carpenter ants and summer mosquitoes to fall stink bugs and winter rodent intrusions. \n\nHere are the top pest control recommendations, categorized by regional expertise and broad national reliability:\n\n---\n\n### 1. Top Regional Recommendation: **Rose Pest Solutions**\n* **Best for:** Deep local knowledge of Midwest pest biology and seasonal behavior.\n* **Coverage:** Extensive across Michigan, Ohio, and Illinois.\n* **Why recommend them:** Founded in the 1860s, Rose Pest Solutions is the nation’s oldest pest management company and has dedicated Midwest branches tailored specifically to Great Lakes climates. They specialize in multi-season perimeter defenses against invasive boxelder bugs, brown marmorated stink bugs, Asian lady beetles, mice, and carpenter ants. Their technicians are typically QualityPro-certified and have a strong reputation for customer service compared to massive nationwide conglomerates.\n\n---\n\n### 2. Top Illinois / Chicagoland Specialist: **Anderson Pest Solutions**\n* **Best for:** Illinois homeowners (especially Northern Illinois/Chicago metro).\n* **Coverage:** Illinois, Northwest Indiana, and Southern Wisconsin.\n* **Why recommend them:** Anderson has operated in Illinois for over a century (now under the Rentokil family). They offer the **Natural Choice Home Protection** program, which provides year-round quarterly visits targeting regional pests using environmentally responsible methods. If you are dealing with common Midwest urban/suburban issues (rats, mice, roaches, or seasonal stinging insects), their local response times are among the best in the state.\n\n---\n\n### 3. Top National Provider for Reliability & Training: **Orkin**\n* **Best for:** Fast response times, rigorous technician training, and reliable guarantees.\n* **Coverage:** Comprehensive coverage throughout IL, OH, and MI.\n* **Why recommend them:** Orkin is consistently rated top-tier for technician education (every technician undergoes extensive entomology and chemical safety training). If you have an active infestation (such as bed bugs, subterranean termites, or a sudden mouse problem in early winter), Orkin offers a **30-day money-back guarantee** and will return between scheduled visits for free if the pests reappear.\n\n---\n\n### 4. Best for Termites & Bundled Plans: **Terminix**\n* **Best for:** Homes with subterranean termite pressure or large wooded lots.\n* **Coverage:** Widespread across all three states.\n* **Why recommend them:** The Midwest has significant subterranean termite activity—particularly in older homes, moist basements, and forested neighborhoods across southern Michigan, Ohio, and central/southern Illinois. Terminix’s **Nix Pest Guarantee** and specialized bait station/barrier systems (like the Terminite/Sentricon systems) are among the industry standards for wood-destroying organisms.\n\n---\n\n### What to Ask Before Hiring in the Midwest\n\nWhen getting quotes, keep these Midwest-specific factors in mind:\n\n1. **Winter Rodent Exclusions:** In late fall, mice aggressively seek warmth in Midwest basements and attics. Ask whether their plan includes basic **exclusion work** (caulking small gaps, sealing weep holes, and checking crawl spaces) or if they only place bait traps.\n2. **Fall Invaders:** Ask if their exterior perimeter treatments cover seasonal nuisance pests like boxelder bugs, cluster flies, and stink bugs before they enter wall voids in September/October.\n3. **QualityPro Accreditation:** Look for companies accredited by the National Pest Management Association (NPMA) as **QualityPro**, which ensures criminal background checks, drug testing, and standardized technician credentials.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:11:51+00:00",
+  "has_unknown": true
+}

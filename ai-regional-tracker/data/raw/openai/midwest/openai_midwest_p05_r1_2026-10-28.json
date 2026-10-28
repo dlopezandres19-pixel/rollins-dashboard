@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control company in the Midwest (Illinois, Ohio, Michigan), consider the following reputable options:\n\n1. **Orkin**: Known for its comprehensive service and experienced technicians, Orkin offers solutions for a wide range of pests. They have a strong presence across the Midwest.\n\n2. **Terminix**: Another well-established company, Terminix provides various pest control services with guarantees and tailored plans.\n\n3. **TruGreen**: While primarily known for lawn care, TruGreen also offers pest control services, focusing on outdoor pests that can affect lawns and gardens.\n\n4. **Ehrlich Pest Control**: They offer personalized pest control plans and are known for their customer service and effective treatments.\n\n5. **Local Companies**: Consider checking local businesses for personalized services. Many local companies have deep knowledge of regional pests and often provide excellent customer service.\n\nWhen choosing a company, check for:\n\n- **Licensing and Certification**: Ensure the company is licensed and certified in your state.\n- **Reviews and References**: Look for reviews online and ask for references.\n- **Guarantees**: See if they offer service guarantees or free follow-ups.\n- **Inspection and Consultation**: A good company will offer a free inspection and consultation to evaluate your needs.\n\nIt's a good idea to get quotes from a few companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:43:40+00:00",
+  "has_unknown": true
+}

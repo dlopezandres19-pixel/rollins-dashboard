@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When seeking reputable residential pest control services in the Midwest, particularly in Illinois, Ohio, and Michigan, consider the following companies:\n\n**1. Rose Pest Solutions**\n\nWith over 160 years of experience, Rose Pest Solutions is a family-owned company serving Michigan, Ohio, and Indiana. They offer comprehensive pest control services for both residential and commercial clients. Their 16 local offices ensure prompt and reliable service across the region. ([rosepestsolutions.com](https://www.rosepestsolutions.com/?utm_source=openai))\n\n**2. Frame's Pest Control, Inc.**\n\nEstablished in 1972, Frame's Pest Control provides professional services in Northern Ohio and Southeast Michigan. They offer treatments for various pests, including bed bugs, mosquitoes, rodents, and termites. Their licensed exterminators use advanced methods and EPA-approved products safe for children and pets. ([framespestcontrol.com](https://www.framespestcontrol.com/pest-control/?utm_source=openai))\n\n**3. Delving Pest Control**\n\nServing Northern Ohio and Southeastern Michigan for over 25 years, Delving Pest Control specializes in bed bugs, insects, and rodents. They offer discreet one-time treatments and no-contract ongoing plans for residential, commercial, and industrial clients. ([delvingpest.com](https://www.delvingpest.com/?utm_source=openai))\n\n**4. Ehrlich Pest Control**\n\nOperating since 1928, Ehrlich provides pest control services in Michigan, including cities like Detroit, Grand Rapids, and Ann Arbor. They offer year-round protection against common pests and have state-certified and licensed technicians. ([pests.net](https://pests.net/ehrlich/Michigan.html?utm_source=openai))\n\n**5. Abell Pest Control**\n\nWith over 32 years in business, Abell offers pest control services across Michigan, including Ann Arbor, Detroit, and Grand Rapids. They provide affordable, year-round protection for both residential and commercial properties. ([abellpestcontrol.com](https://www.abellpestcontrol.com/en-us/locations/michigan?utm_source=openai))\n\n**6. Terminix**\n\nAs one of the largest pest control companies globally, Terminix operates in 47 U.S. states, including Illinois, Ohio, and Michigan. They offer services for termites, mosquitoes, bed bugs, and more. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Terminix?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and the safety of their treatment methods. It's advisable to contact multiple providers to compare services and pricing to find the best fit for your specific needs. ",
+  "mentioned_brands": [
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:43:06+00:00",
+  "has_unknown": true
+}

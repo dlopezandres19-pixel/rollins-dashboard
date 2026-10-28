@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Southeast US (Florida, Georgia, Texas) should consider.",
+  "rep": 3,
+  "response_text": "Here are some reputable pest control companies you might consider in the Southeast US, including Florida, Georgia, and Texas:\n\n1. **Orkin**  \n   - Known for comprehensive pest control services, including termite treatments and bed bug removal.\n   - Offers customized plans and has a strong presence in the Southeast.\n\n2. **Terminix**  \n   - Provides a wide range of services, from termite control to wildlife removal.\n   - Offers guarantees and has extensive experience in the region.\n\n3. **Massey Services**  \n   - Based in Florida, they offer pest prevention, termite protection, and landscape services.\n   - Known for their environmentally friendly practices.\n\n4. **Truly Nolen**  \n   - Offers pest control, termite protection, and lawn care services.\n   - Known for innovative solutions and a strong presence in the Southeast.\n\n5. **Arrow Exterminators**  \n   - Offers services including pest control, termite protection, and wildlife control.\n   - Family-owned and operated, with a focus on customer service.\n\n6. **Ehrlich Pest Control (also known as Florida Pest Control)**  \n   - Offers residential and commercial pest control services.\n   - Known for tailored solutions and long-standing expertise.\n\nBefore choosing a company, it's a good idea to get quotes and read reviews to ensure they meet your specific needs and expectations.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:40:06+00:00",
+  "has_unknown": true
+}

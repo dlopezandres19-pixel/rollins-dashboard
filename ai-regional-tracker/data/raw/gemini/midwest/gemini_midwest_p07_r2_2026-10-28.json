@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Midwest (specifically Illinois, Ohio, and Michigan), pest control needs are unique. Homes in this region frequently face seasonal rodent influxes during freezing winters, subterranean termites, carpenter ants, and seasonal invaders like boxelder bugs and stink bugs. \n\nThe best options include a mix of top-tier national providers and trusted regional legacy brands:\n\n---\n\n### 1. Best Overall: **Orkin**\n* **Availability:** Widespread throughout IL, OH, and MI.\n* **Why it stands out:** Orkin ranks consistently at the top for technician training and scientific backing (many protocols are developed in partnership with Midwest agricultural universities like Purdue). \n* **Key Strengths:**\n  * Handles virtually every residential pest, including termites, bed bugs, rodents, and wildlife.\n  * Their **\"Orkin Guarantee\"** includes 30-day money-back satisfaction and complimentary off-schedule return visits if pests come back between scheduled services.\n  * Strong 24/7 customer service and rapid response times.\n\n---\n\n### 2. Best Midwest Regional Provider: **Rose Pest Solutions**\n* **Availability:** Extensive coverage across Michigan, Ohio, northern Indiana, and eastern Illinois.\n* **Why it stands out:** Founded in 1860, Rose is the oldest pest management company in the United States and has deep, multi-generational roots in the Great Lakes region.\n* **Key Strengths:**\n  * Unmatched familiarity with local Midwest climate patterns and how sudden temperature drops trigger rodent and insect migrations indoors.\n  * Focuses heavily on Integrated Pest Management (IPM), targeting the root cause and entry points rather than simply spraying pesticides.\n  * Highly rated for customer service compared to large multinational conglomerates, offering flexible, no-nonsense residential maintenance plans (*Healthy Home Maintenance Program*).\n\n---\n\n### 3. Best for Termite Protection & Bundled Packages: **Terminix**\n* **Availability:** Ubiquitous across all major Midwest metros (Chicago, Detroit, Columbus, Cleveland, Cincinnati, etc.).\n* **Why it stands out:** If your primary concern is wood-destroying organisms (subterranean termites or carpenter ants, which thrive in Midwest timber and older housing stock), Terminix has some of the strongest specialized programs.\n* **Key Strengths:**\n  * The **Nix Pest Guarantee** covers termites with bait stations and liquid barrier systems, often paired with structural damage repair guarantees on qualifying homes.\n  * Frequently runs competitive bundling promotions (combining general pest control with termite monitoring and mosquito reduction).\n\n---\n\n### 4. Best for the Chicagoland & Upper Midwest Area: **Anderson Pest Solutions**\n* **Availability:** Illinois (especially greater Chicago/Rockford) and parts of neighboring states (now under the Rentokil family).\n* **Why it stands out:** Anderson is an institution in northern Illinois, known for their *Natural Choice Home Protection* program.\n* **Key Strengths:**\n  * EPA \"PestWise\" partner, emphasizing environmentally responsible methods that are safe for homes with pets and small children.\n  * Highly experienced in urban/suburban pest issues unique to older homes in northern Illinois.\n\n---\n\n### How to Choose the Right One for Your Home\n\nWhen getting quotes, consider these regional-specific factors:\n\n1. **Ask about Overwintering Pests & Rodent Exclusion:** In MI, OH, and IL, mice and rats seek crawlspaces and basements starting in October/November. Make sure the provider's quarterly plan includes proactive exterior baiting and entry-point inspections, not just interior spraying.\n2. **Check the Guarantee:** Ensure the contract clearly states that **re-treatments are free between regular visits** if pests reappear.\n3. **Compare Free Inspections:** Most reputable companies (including Orkin, Terminix, and Rose) will provide a free on-site estimate or pest identification. Avoid companies that require a locked-in annual contract before conducting an inspection.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:17:19+00:00",
+  "has_unknown": true
+}

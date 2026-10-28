@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "For homeowners in the western US, including California, Washington, and Arizona, there are several reputable pest control companies you might consider:\n\n1. **Orkin**: Well-known nationwide, Orkin offers comprehensive pest management services and has a strong presence in the western states. They provide solutions for termites, rodents, insects, and more.\n\n2. **Terminix**: Another national leader, Terminix offers a wide range of pest control services, including termite protection and bed bug treatments. They have local branches that understand regional pest issues.\n\n3. **Clark Pest Control**: Based in California, Clark Pest Control is well-regarded for its customized pest management services and eco-friendly options. They cater to a variety of pests common in the West.\n\n4. **Western Exterminator**: Known for their reliable service and expertise in the West Coast region, Western Exterminator offers both residential and commercial pest control services.\n\n5. **Green Pest Solutions**: Focused on environmentally friendly practices, they offer services in several western states and specialize in sustainable pest management.\n\nWhen choosing a pest control company, consider factors such as the specific pest issue, the company’s reputation, customer reviews, and whether they offer eco-friendly options. It can also be helpful to get quotes from a few companies to compare services and prices.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:45:20+00:00",
+  "has_unknown": true
+}

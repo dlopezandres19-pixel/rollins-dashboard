@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control provider in the Midwest, it's a good idea to compare several companies to find the best fit for your needs. Here are some reputable pest control companies you might consider:\n\n1. **Orkin**: Known for their extensive experience and comprehensive pest control services. They offer tailored solutions for various pest issues.\n\n2. **Terminix**: Offers a wide range of services and has a strong presence across the Midwest. They provide customized treatment plans and preventive measures.\n\n3. **TruGreen**: While primarily known for lawn care, TruGreen also offers pest control services, particularly for outdoor pest management.\n\n4. **Ehrlich Pest Control**: Provides residential and commercial pest control services with a focus on environmentally responsible practices.\n\n5. **Aptive Environmental**: Offers eco-friendly solutions and is known for their customer service. They focus on sustainable pest control methods.\n\n6. **Presto-X**: Part of the Rentokil family, Presto-X offers tailored pest management solutions and has a strong reputation for customer satisfaction.\n\n7. **Local Providers**: Consider local companies that may offer personalized service and local expertise. Check reviews and ask for recommendations from neighbors or community groups.\n\nWhen comparing these companies, consider factors like the types of pests they treat, their treatment methods, customer reviews, pricing, and any guarantees they offer. It's also a good idea to get quotes from multiple providers to ensure you're getting a fair price.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Aptive",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:44:18+00:00",
+  "has_unknown": true
+}

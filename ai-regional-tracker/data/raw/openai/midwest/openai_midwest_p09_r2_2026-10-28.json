@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "In the Midwest US, including states like Illinois, Ohio, and Michigan, you have several options for residential pest control. Here are some of the main ones:\n\n1. **Professional Pest Control Services:**\n   - **Orkin:** Known for comprehensive pest control services, including termite and bed bug treatments.\n   - **Terminix:** Offers customized plans for various pests and provides termite and mosquito control.\n   - **TruGreen:** While primarily a lawn care company, they offer pest control services, especially for outdoor pests.\n   - **Local Companies:** Many local businesses provide personalized services tailored to the specific pest challenges in your area.\n\n2. **DIY Pest Control:**\n   - **Store-Bought Products:** You can find sprays, traps, and baits for common pests like ants, roaches, and rodents at home improvement stores.\n   - **Natural Remedies:** Vinegar, essential oils, and diatomaceous earth can be effective against some pests.\n\n3. **Integrated Pest Management (IPM):**\n   - This approach focuses on long-term prevention through a combination of techniques such as habitat manipulation, biological control, and the use of resistant varieties.\n\n4. **Seasonal Treatments:**\n   - Many companies offer seasonal services to prevent infestations of specific pests that are more active during certain times of the year, like mosquitoes in the summer.\n\nWhen choosing a pest control option, consider the type of pests you’re dealing with, the severity of the infestation, budget, and personal preferences regarding chemical use. Always check customer reviews and ensure the company is licensed and insured.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:44:36+00:00",
+  "has_unknown": true
+}

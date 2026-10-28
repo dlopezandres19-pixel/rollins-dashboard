@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When choosing a residential pest control service in Illinois, Ohio, and Michigan, regional providers with deep roots in the Midwest often receive higher marks for customer service than giant national brands—though a few national companies remain solid options depending on your location.\n\nHere are the most reputable residential pest control companies across these three states, broken down by regional powerhouses, state-specific leaders, and national options.\n\n---\n\n### 1. The Top Regional Pick (Operates Across IL, OH, and MI)\n* **Rose Pest Solutions**\n  * **Coverage:** Illinois, Michigan, Ohio, and Indiana.\n  * **Reputation:** Established in 1860, Rose is the oldest pest control company in the United States. Because they have remained focused on the Great Lakes/Midwest region, they are widely considered one of the most reliable companies in the area. \n  * **Best For:** Homeowners who want the resources of a large company paired with local technicians who understand Midwest-specific seasonal pests (boxelder bugs, stink bugs, carpenter ants, and mice).\n\n---\n\n### 2. Highly Reputable State & Sub-Regional Leaders\n\n#### **Illinois**\n* **Anderson Pest Solutions:** Long-standing authority in the Chicagoland area, Northern Illinois, and Northwest Indiana. They are recognized for their \"Natural Choice\" environmentally responsible programs and strong technician retention.\n* **Pointe Pest Control:** Operates heavily in the northern and western suburbs of Chicago. They carry high customer-satisfaction ratings for prompt response times and general preventative pest barriers.\n\n#### **Ohio**\n* **Scherzinger Pest Control:** A family-owned institution serving Greater Cincinnati, Dayton, and Columbus. They have an excellent local reputation, transparent pricing, and offer quarterly preventative programs tailored to Ohio river valley pests.\n* **Varment Guard (Plunkett’s Pest Control):** Excellent coverage in Central and Northern Ohio. In addition to standard insect and rodent control, they are particularly renowned for humane nuisance wildlife removal (raccoons, bats, squirrels, and skunks).\n\n#### **Michigan**\n* **Griffin Pest Solutions:** Headquartered in Kalamazoo and servicing much of Western, Central, and Northern Michigan. They are a QualityPro-certified provider known for non-pushy service and comprehensive seasonal protection.\n* **Presidio Pest Management:** Highly rated independent provider serving Metro Detroit, Ann Arbor, and Southeast Michigan, frequently praised for bed bug and residential rodent eradication.\n\n---\n\n### 3. Best National Chains (Broadest Availability)\nIf you live in a rural area or outside the service footprint of the regional providers, these national chains have the largest infrastructure:\n\n* **Orkin:** Generally ranks as the most reliable of the massive national providers. Their technicians undergo rigorous, university-partnered training (often developed with Purdue University entomologists), and their 30-day money-back guarantee is strictly honored.\n* **Terminix:** Offers extensive coverage across all three states. While service quality can vary depending on the local franchise branch, they are especially capable when handling complex subterranean termite infestations or crawl space encasements.\n\n---\n\n### Tips for Choosing in the Midwest\n1. **Look for QualityPro Certification:** Administered by the National Pest Management Association (NPMA), this credential requires rigorous employee background checks, drug screening, and continuous training. (Rose, Griffin, and Anderson hold this).\n2. **Watch for Seasonality Guarantees:** In the Midwest, pest pressures shift drastically (ants/wasps in spring and summer; rodents and overwintering beetles in fall). Ensure your contract covers free callbacks between scheduled visits if pests reappear.\n3. **Beware of Door-to-Door Canvassers:** In suburban Midwest neighborhoods, companies like Aptive often send seasonal door-to-door sales teams. While legitimate, their contracts often have hefty cancellation fees and aggressive renewal clauses compared to traditional local operators.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:12:56+00:00",
+  "has_unknown": true
+}

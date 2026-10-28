@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the West US (California, Washington, Arizona) should consider.",
+  "rep": 2,
+  "response_text": "Here are some reputable pest control companies that homeowners in the Western US, including California, Washington, and Arizona, might consider:\n\n1. **Orkin Pest Control**\n   - Nationwide presence with local branches.\n   - Offers a variety of pest control services and free estimates.\n\n2. **Terminix**\n   - Extensive coverage and a wide range of pest control solutions.\n   - Known for their expertise and guarantee policies.\n\n3. **Truly Nolen**\n   - Offers both residential and commercial pest control.\n   - Known for environmentally friendly practices.\n\n4. **Western Exterminator**\n   - Strong presence in California and the West Coast.\n   - Provides comprehensive pest management services.\n\n5. **Ecola Termite and Pest Control**\n   - Specializes in eco-friendly pest control solutions.\n   - Offers services across California with a focus on termite control.\n\n6. **Bulwark Exterminating**\n   - Family-owned business with a strong presence in Arizona.\n   - Known for personalized customer service and effective treatments.\n\n7. **EcoShield Pest Solutions**\n   - Offers green pest control options.\n   - Serves various locations across the Western US.\n\nWhen choosing a pest control company, consider factors such as the specific services offered, customer reviews, pricing, and any guarantees or warranties they provide.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:47:14+00:00",
+  "has_unknown": true
+}

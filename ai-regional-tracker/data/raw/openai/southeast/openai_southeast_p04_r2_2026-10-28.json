@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast US, some leading residential pest control companies include:\n\n1. **Terminix**: With a strong presence in Florida, Georgia, and Texas, Terminix offers comprehensive pest control services tailored to local needs.\n\n2. **Orkin**: Known for its extensive experience and effective pest management strategies, Orkin operates widely across the Southeast.\n\n3. **Massey Services**: A Florida-based company, Massey Services provides pest prevention and control with a focus on environmentally responsible practices.\n\n4. **Arrow Exterminators**: Headquartered in Atlanta, Georgia, Arrow offers a range of pest control solutions and is well-regarded in the region.\n\n5. **Truly Nolen**: Truly Nolen provides innovative pest control services and has a significant presence in Florida and other Southeastern states.\n\n6. **Ehrlich Pest Control (part of Rentokil)**: Offers customized pest management solutions and operates in various locations throughout the Southeast.\n\nThese companies are known for their experience, effective solutions, and customer service. It's a good idea to read reviews and compare services to find the best fit for your specific needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:38:42+00:00",
+  "has_unknown": true
+}

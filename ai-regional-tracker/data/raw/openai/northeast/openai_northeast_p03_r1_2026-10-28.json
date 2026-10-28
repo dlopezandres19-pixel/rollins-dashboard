@@ -1,0 +1,18 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "When selecting a reputable residential pest control company in the Northeast U.S., particularly in New York, New Jersey, and Pennsylvania, consider the following options:\n\n**[All Platinum Termite & Pest Control](https://www.google.com/maps/search/All+Platinum+Termite+%26+Pest+Control%2C+New+York%2C+NY?utm_source=openai)**\n_New York, NY_\nFamily-owned and operated, serving all five NYC boroughs and New Jersey with over 25 years of experience. They offer eco-friendly treatments for various pests, including termites, bed bugs, and rodents.\n\n**[Viking Pest Control](https://www.google.com/maps/search/Viking+Pest+Control%2C+Basking+Ridge%2C+NJ?utm_source=openai)**\n_Basking Ridge, NJ_\nWith over 45 years of experience, Viking provides licensed pest control services across New Jersey, Pennsylvania, Delaware, and Maryland. They offer eco-friendly, science-backed treatments for a wide range of pests.\n\n**[Majestic Pest Control](https://www.google.com/maps/search/Majestic+Pest+Control%2C+Long+Island%2C+NY?utm_source=openai)**\n_Long Island, NY_\nServing NYC, Long Island, and New Jersey for over 40 years, Majestic offers same-day and emergency appointments. They specialize in integrated pest management for homes, restaurants, and schools.\n\n**[Nature Plus Pest Control](https://www.google.com/maps/search/Nature+Plus+Pest+Control%2C+Brooklyn%2C+NY?utm_source=openai)**\n_Brooklyn, NY_\nLicensed and insured professionals providing pest and termite control services across New York, New Jersey, Pennsylvania, and Delaware. They emphasize transparent pricing and quality guarantees.\n\n**[Helena Pest Control & Cleaning](https://www.google.com/maps/search/Helena+Pest+Control+%26+Cleaning%2C+Newark%2C+NJ?utm_source=openai)**\n_Newark, NJ_\nOffers verified pest control and cleaning services for homes and businesses across New Jersey and New York. They provide company-assigned, trained professionals with photo proof on every job.\n\n**[Sleep-Easy Pest Solutions](https://www.google.com/maps/search/Sleep-Easy+Pest+Solutions%2C+Lumberton+Township%2C+NJ?utm_source=openai)**\n_Lumberton Township, NJ_\nLicensed in NJ, PA, NY, and DE, they offer premium protection plans and same-day inspections. Their services cover a broad spectrum of pests, ensuring 100% pest-free living.\n\n**[Safety First Pest Control](https://www.google.com/maps/search/Safety+First+Pest+Control%2C+Howard+Beach%2C+NY?utm_source=openai)**\n_Howard Beach, NY_\nFamily-owned and operated for over 45 years, they provide safe, fast, and affordable pest control for homes, apartments, and businesses in New York and Northern New Jersey.\n\n**[All National Termite & Pest Control](https://www.google.com/maps/search/All+National+Termite+%26+Pest+Control%2C+Staten+Island%2C+NY?utm_source=openai)**\n_Staten Island, NY_\nWith over 25 years of experience, they offer safe, effective, and affordable pest control solutions across all five NYC boroughs and New Jersey.\n\nWhen choosing a pest control service, consider factors such as the company's experience, range of services, eco-friendliness, and customer reviews to ensure they meet your specific needs. ",
+  "mentioned_brands": [],
+  "first_mentioned": null,
+  "top3_brands": [],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:40:36+00:00",
+  "has_unknown": true
+}

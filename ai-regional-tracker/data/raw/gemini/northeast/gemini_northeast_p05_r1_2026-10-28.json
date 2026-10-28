@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control company in the Northeast (New York, New Jersey, and Pennsylvania), you have a mix of well-established **regional specialists**—who often have the deepest familiarity with local pests like carpenter ants, ticks, subterranean termites, and spotted lanternflies—as well as **major national providers** with round-the-clock support and extensive service guarantees.\n\nHere are the top recommendations broken down by category:\n\n---\n\n### 1. Best Regional Specialists (Often the Best Fit for the Northeast)\n\nBecause pest pressures in the Northeast vary significantly from dense urban centers to heavily wooded suburbs, local and regional companies often outperform national chains in expertise:\n\n*   **Western Pest Services** *(Best Overall Regional Choice)*\n    *   **Coverage:** Extensive across NJ, PA, NY, and DE.\n    *   **Strengths:** Founded in New Jersey over 90 years ago, Western is practically an institution in the Tri-State area. They excel in seasonal preventative plans, carpenter ant remediation, and commercial/residential integrated pest management (IPM).\n*   **Ehrlich Pest Control** *(Best for Pennsylvania & New Jersey)*\n    *   **Coverage:** Deep coverage across PA (founded in Reading, PA), NJ, and NY (part of the Rentokil family).\n    *   **Strengths:** Excellent general home protection plans (PestFree365+), which cover dozens of pests, including bed bugs and stinging insects. Their technicians are widely known for strong technical training and termite monitoring.\n*   **Viking Pest Control** *(Best for Eco-Friendly / Smart Tech Options)*\n    *   **Coverage:** NJ, PA, DE, and parts of NY.\n    *   **Strengths:** They offer modern approaches like digital rodent monitoring (SMART systems) that detect mice inside walls without poison traps. They are also known for targeting regional invasives like the spotted lanternfly and aggressive tick/mosquito treatments in suburban yards.\n*   **JP McHale Pest Management** *(Best for NY Metro, Westchester, and Hudson Valley)*\n    *   **Coverage:** Primarily Greater NYC, Westchester, Long Island, and Northern NJ.\n    *   **Strengths:** Premium service with high-end customer support, specialized biological treatments, and tailored suburban estate/home protection programs.\n\n---\n\n### 2. Best National Providers (Best for Widespread Availability & Guarantees)\n\nIf you live in a more rural pocket or prefer a national company with extensive warranty backing:\n\n*   **Orkin**\n    *   **Best for:** Specific, urgent infestations (bed bugs, roaches, severe rodent problems) and strong re-treatment guarantees.\n    *   **Why choose them:** Orkin technicians undergo rigorous training, and their 30-day money-back guarantee is among the most reliable in the industry. If pests return between scheduled quarterly visits, they return at no extra charge.\n*   **Terminix**\n    *   **Best for:** Subterranean termites and home exclusion services.\n    *   **Why choose them:** The Northeast deals heavily with subterranean termites, and Terminix offers some of the most comprehensive termite warranty and damage-repair guarantees in the business.\n\n---\n\n### Which Should You Choose Based on Your Specific Issue?\n\n| If your primary issue is... | Consider starting with... |\n| :--- | :--- |\n| **Wooded Suburbs / Ticks, Ants, Mice** | **Western Pest Services** or **Viking Pest Control** |\n| **Pennsylvania / Lehigh Valley / Philly Metro** | **Ehrlich** or **Western** |\n| **NYC Metro / Westchester / Long Island** | **JP McHale** or **Orkin** |\n| **Severe Termite Concerns** | **Terminix** or **Ehrlich** |\n| **Acute Emergency (Bed Bugs, Wasps)** | **Orkin** (fastest dispatch in many zip codes) |\n\n---\n\n### Tips Before You Sign a Contract\n\n1. **Ask for an On-Site Inspection First:** Avoid companies that pressure you into a multi-year contract over the phone without having a technician inspect your attic, crawlspace, or perimeter.\n2. **Clarify the \"Free Callback\" Policy:** Make sure their recurring plan covers free return visits if pests reappear between quarterly treatments.\n3. **Ask About Carpenter Ants:** In the Northeast, carpenter ants cause nearly as much structural damage as termites. Ensure carpenter ants are explicitly included in any general pest plan.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:03:37+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When seeking top pest control services in the Midwest, particularly in Illinois, Ohio, and Michigan, several reputable companies stand out:\n\n**Illinois:**\n\n- **Orkin Pest Control**: Recognized for comprehensive pest management solutions, Orkin has a strong presence in Chicago and surrounding areas. ([consumeraffairs.com](https://www.consumeraffairs.com/homeowners/pest-control-chicago.html?utm_source=openai))\n\n- **Terminix**: With multiple locations across Illinois, Terminix offers specialized services in pest and termite control, backed by decades of experience. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Terminix?utm_source=openai))\n\n**Ohio:**\n\n- **Frame's Pest Control, Inc.**: Serving Northern Ohio and Southeastern Michigan since 1972, Frame's offers comprehensive pest control services with flexible scheduling, including same-day and Saturday appointments. ([framespestcontrol.com](https://www.framespestcontrol.com/?utm_source=openai))\n\n- **Delving Pest Control**: Specializing in discreet and effective pest control solutions, Delving serves Northwest Ohio and Southeastern Michigan, offering both one-time treatments and ongoing prevention plans without requiring contracts. ([delvingpest.com](https://www.delvingpest.com/?utm_source=openai))\n\n**Michigan:**\n\n- **Rose Pest Solutions**: A family-owned company with over 160 years of experience, Rose Pest Solutions serves Michigan, Ohio, and Indiana, offering fast and reliable pest control services. ([rosepestsolutions.com](https://www.rosepestsolutions.com/?utm_source=openai))\n\n- **Abell Pest Control**: Providing affordable, year-round pest protection for both residential and commercial properties across Michigan, Abell is recognized for delivering fast, effective, and tailored solutions. ([abellpestcontrol.com](https://www.abellpestcontrol.com/en-us/locations/michigan?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and any guarantees offered. It's advisable to contact these companies directly to discuss your specific needs and obtain quotes. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:42:38+00:00",
+  "has_unknown": true
+}

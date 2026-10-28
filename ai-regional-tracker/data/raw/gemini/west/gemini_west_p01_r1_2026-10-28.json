@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control provider in the Western United States, you have a mix of massive national brands with deep western roots and highly rated regional/local specialists. Because pest challenges differ drastically between the Pacific Northwest rain and the Sonoran Desert, local expertise matters.\n\nHere are the best pest control companies serving California, Washington, and Arizona:\n\n---\n\n### 1. Best Overall Multi-State Western Providers\n\n* **Western Exterminator (a Rentokil company)**\n  * **Coverage:** California, Arizona, and the Pacific Northwest.\n  * **Best For:** Comprehensive coverage and specialized regional pest knowledge.\n  * **Why They Stand Out:** Western Exterminator has been an iconic Western brand for a century. They excel at handling regional-specific issues—from roof rats and Argentine ants in California to bark scorpions in Arizona. They offer strong termite warranties and customizable residential plans.\n* **Orkin**\n  * **Coverage:** Extensive across CA, WA, and AZ.\n  * **Best For:** Specialized infestations (bed bugs, complex termite treatments) and rigorous technician training.\n  * **Why They Stand Out:** Orkin technicians undergo extensive training in pest biology. If you are dealing with severe structural pests (like subterranean or drywood termites) or difficult-to-eradicate pests, Orkin is one of the most reliable multi-state options.\n* **Aptive Environmental**\n  * **Coverage:** Wide suburban footprint across all three states.\n  * **Best For:** Routine perimeter maintenance and recurring general pest prevention.\n  * **Why They Stand Out:** Aptive specializes in seasonal, exterior-focused barrier treatments targeting common perimeter pests (spiders, ants, wasps). They offer free re-services between scheduled visits if pests return.\n\n---\n\n### 2. Best by State\n\n#### **California**\n* **Clark Pest Control:** One of the largest and most trusted names in California (with widespread coverage from the Bay Area and Central Valley to Southern California). They handle everything from standard bugs to burrowing rodents, termites, and lawn care.\n* **Lloyd Pest Control:** A Southern California staple (San Diego, Orange County, Riverside). Highly rated for customer service, heat treatments for drywood termites, and rodent proofing.\n* **Hearts Pest Management:** Top choice in Southern California if you prefer certified green/organic Integrated Pest Management (IPM) to minimize chemical exposure around pets and gardens.\n\n#### **Washington**\n* **Cascade Pest Control:** Serving the greater Seattle/Puget Sound area. Washington homes struggle heavily with moisture pests (carpenter ants, moisture ants) and rodents (roof rats, Norway rats). Cascade is widely regarded for rodent exclusion (proofing) and eco-friendly practices that protect local waterways.\n* **Eastside Exterminators:** Another top-rated Pacific Northwest specialist focused on total rodent exclusion, insulation repair, and carpenter ant control in King and Snohomish counties.\n* **Sprague Pest Solutions:** Deep Pacific Northwest roots; while heavily commercial, they are renowned for technical expertise in tough structural pest control across Washington.\n\n#### **Arizona**\n* **Truly Nolen Pest & Termite:** Headquartered in Tucson, Arizona, Truly Nolen understands desert pests better than almost anyone. Their programs are specifically designed for Arizona challenges, including desert subterranean termites, scorpions, and pack rats.\n* **Blue Sky Pest Control:** A standout local favorite in the Phoenix metro area. They have an exceptional reputation for scorpion control (using specialized dusting, barrier treatments, and home sealing) and do not cut corners on product concentrations in extreme desert heat.\n* **Burns Pest Elimination:** Another premier local choice serving Phoenix and Tucson, offering effective scorpion, bird/pigeon, and desert weed/pest elimination.\n\n---\n\n### How to Choose for Your Specific Needs\n\n* **For Scorpions (AZ):** Look for companies that offer **home sealing/exclusion** (like Blue Sky or Truly Nolen). Chemical sprays alone rarely solve a scorpion infestation; physical exclusion is crucial.\n* **For Rodents & Moisture Pests (WA):** Ensure the quote includes **attic/crawlspace inspection and exclusion repair** (like Cascade or Eastside), not just setting bait stations.\n* **For Termites (CA & AZ):** Ask whether your property has **subterranean** or **drywood** termites. Drywood termites (common in CA) often require localized heat treatments or whole-house fumigation, whereas subterranean termites require soil treatments or bait systems (like Sentricon).\n* **Contracts & Guarantees:** Always clarify the **re-service guarantee**. Most quality quarterly plans in the West include free call-backs if pests reappear between scheduled service intervals.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T14:21:15+00:00",
+  "has_unknown": true
+}

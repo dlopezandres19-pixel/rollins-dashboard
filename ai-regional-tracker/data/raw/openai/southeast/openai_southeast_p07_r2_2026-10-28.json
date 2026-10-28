@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-10-28",
+  "iso_week": "2026-W44",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When it comes to pest control services in the Southeast US, including Florida, Georgia, and Texas, several companies are known for their high-quality service and customer satisfaction:\n\n1. **Orkin**: Orkin is one of the most well-known pest control companies in the country. They offer comprehensive pest management services, including termite and bed bug control. They have a strong presence in the Southeast and are known for their effective solutions and excellent customer service.\n\n2. **Terminix**: Another major player, Terminix offers a wide range of pest control services, including treatments for termites, mosquitoes, and rodents. They have extensive experience and provide guarantees on their services.\n\n3. **Massey Services**: Particularly strong in Florida and Georgia, Massey Services is known for its environmentally responsible pest prevention and lawn care services. They focus on customized solutions and preventive measures.\n\n4. **Arrow Exterminators**: Based in Atlanta, Georgia, Arrow Exterminators provides comprehensive pest control services across the Southeast. They emphasize eco-friendly solutions and offer specialized services for various pests.\n\n5. **Truly Nolen**: Known for their distinctive yellow vehicles, Truly Nolen offers a range of pest control solutions, including termite and rodent control. They focus on both preventive measures and effective treatments.\n\n6. **Ehrlich Pest Control**: Ehrlich, part of the Rentokil family, provides pest control services with a focus on integrated pest management. They offer tailored solutions to address specific pest problems.\n\nWhen choosing a pest control company, consider factors such as specific pest issues, service guarantees, eco-friendly options, and customer reviews. It's also a good idea to get quotes from a few companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-10-28T13:39:24+00:00",
+  "has_unknown": true
+}
