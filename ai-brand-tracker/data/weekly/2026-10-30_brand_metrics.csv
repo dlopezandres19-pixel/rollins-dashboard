@@ -1,0 +1,261 @@
+week,run_date,provider,model,entity_level,company,brand,parent_ambiguous,methodology_version,total_runs,mention_hits,mention_rate,top3_hits,top3_rate,number1_hits,number1_rate,avg_position,share_of_mentions
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,All Florida Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,American Pest,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Aptive,Aptive Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Arrow Environmental Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Assured Environments,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Bug Out,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,Bugco,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Capelouto Termite & Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Certified Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Clark Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,Clark's Termite & Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Cooper Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,Corky's Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Crane Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Critter Control,False,v1,100,1,1.0,0,0.0,0,0.0,5.0,0.35
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,Eastside Exterminators,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Ehrlich Pest Control,False,v1,100,2,2.0,0,0.0,0,0.0,4.0,0.69
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,EnviroPest,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Florida Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Fox Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,General Pest Control,False,v1,100,1,1.0,1,1.0,1,1.0,1.0,0.35
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Gregory Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Heron Home & Outdoor,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Holder's Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,HomeTeam Pest Defense,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Hometown Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Industrial Fumigant Company (IFC),False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Inspect-All Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,JP McHale Pest Management,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,Killingsworth Environmental,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Massey Services,Massey Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,McCall Pest & Wildlife,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,McCloud Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,MissQuito,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,Modern Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Northwest Exterminating,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,O'Connor Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,OPC Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,Official Pest Prevention,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Orkin,False,v1,100,95,95.0,91,91.0,0,0.0,2.0,32.87
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,Peachtree Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,PermaTreat,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Pestech Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Presto-X,False,v1,100,1,1.0,1,1.0,0,0.0,3.0,0.35
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Rentokil,False,v1,100,90,90.0,86,86.0,0,0.0,3.0,31.14
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Romex Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,SOS Exterminating,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Saela Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Schendel Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Seitz Brothers Exterminating,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Terminix,False,v1,100,95,95.0,91,91.0,91,91.0,1.0,32.87
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,The Killers,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Trutech Wildlife Service,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,Turner Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,Viking Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Waltham Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Anticimex,Waynes,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Western Exterminator,False,v1,100,4,4.0,3,3.0,0,0.0,4.0,1.38
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rollins,Western Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,brand,Rentokil / Terminix,Wil-Kil Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,company,Anticimex,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,company,Aptive,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,company,Massey Services,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,company,Rentokil / Terminix,,False,v1,100,95,95.0,91,91.0,91,91.0,1.0,50.0
+2026-10-26,2026-10-30,openai,gpt-4o-mini-2024-07-18,company,Rollins,,False,v1,100,95,95.0,91,91.0,0,0.0,2.0,50.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,All Florida Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,American Pest,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Aptive,Aptive Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Arrow Environmental Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Assured Environments,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Bug Out,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,Bugco,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Capelouto Termite & Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Certified Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Clark Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,Clark's Termite & Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Cooper Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,Corky's Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Crane Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Critter Control,False,v1,100,1,1.0,0,0.0,0,0.0,,0.36
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,Eastside Exterminators,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Ehrlich Pest Control,False,v1,100,59,59.0,0,0.0,0,0.0,,21.15
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,EnviroPest,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Florida Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Fox Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,General Pest Control,False,v1,100,5,5.0,0,0.0,0,0.0,,1.79
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Gregory Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Heron Home & Outdoor,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Holder's Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,HomeTeam Pest Defense,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Hometown Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Industrial Fumigant Company (IFC),False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Inspect-All Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,JP McHale Pest Management,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,Killingsworth Environmental,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Massey Services,Massey Services,False,v1,100,14,14.0,0,0.0,0,0.0,,5.02
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,McCall Pest & Wildlife,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,McCloud Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,MissQuito,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,Modern Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Northwest Exterminating,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,O'Connor Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,OPC Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,Official Pest Prevention,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Orkin,False,v1,100,98,98.0,0,0.0,0,0.0,,35.13
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,Peachtree Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,PermaTreat,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Pestech Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Presto-X,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Rentokil,False,v1,100,4,4.0,0,0.0,0,0.0,,1.43
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Romex Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,SOS Exterminating,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Saela Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Schendel Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Seitz Brothers Exterminating,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Terminix,False,v1,100,98,98.0,0,0.0,0,0.0,,35.13
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,The Killers,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Trutech Wildlife Service,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,Turner Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,Viking Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Waltham Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Anticimex,Waynes,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Western Exterminator,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rollins,Western Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,brand,Rentokil / Terminix,Wil-Kil Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,company,Anticimex,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,company,Aptive,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,company,Massey Services,,False,v1,100,14,14.0,0,0.0,0,0.0,,6.67
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,company,Rentokil / Terminix,,False,v1,100,98,98.0,0,0.0,0,0.0,,46.67
+2026-10-26,2026-10-30,anthropic,claude-haiku-4-5-20251001,company,Rollins,,False,v1,100,98,98.0,0,0.0,0,0.0,,46.67
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,All Florida Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,American Pest,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Aptive,Aptive Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Arrow Environmental Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Assured Environments,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Bug Out,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,Bugco,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Capelouto Termite & Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Certified Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Clark Pest Control,False,v1,100,2,2.0,0,0.0,0,0.0,,0.68
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,Clark's Termite & Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Cooper Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,Corky's Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Crane Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Critter Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,Eastside Exterminators,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Ehrlich Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,EnviroPest,False,v1,100,1,1.0,0,0.0,0,0.0,,0.34
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Florida Pest Control,False,v1,100,2,2.0,0,0.0,0,0.0,,0.68
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Fox Pest Control,False,v1,100,1,1.0,0,0.0,0,0.0,,0.34
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,General Pest Control,False,v1,100,38,38.0,0,0.0,0,0.0,,12.97
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Gregory Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Heron Home & Outdoor,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Holder's Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,HomeTeam Pest Defense,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Hometown Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Industrial Fumigant Company (IFC),False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Inspect-All Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,JP McHale Pest Management,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,Killingsworth Environmental,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Massey Services,Massey Services,False,v1,100,1,1.0,0,0.0,0,0.0,,0.34
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,McCall Pest & Wildlife,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,McCloud Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,MissQuito,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,Modern Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Northwest Exterminating,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,O'Connor Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,OPC Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,Official Pest Prevention,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Orkin,False,v1,100,99,99.0,6,6.0,0,0.0,2.17,33.79
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,Peachtree Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,PermaTreat,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Pestech Pest Solutions,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Presto-X,False,v1,100,10,10.0,0,0.0,0,0.0,,3.41
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Rentokil,False,v1,100,22,22.0,1,1.0,0,0.0,3.0,7.51
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Romex Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,SOS Exterminating,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Saela Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Schendel Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Seitz Brothers Exterminating,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Terminix,False,v1,100,99,99.0,6,6.0,4,4.0,1.5,33.79
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,The Killers,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Trutech Wildlife Service,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,Turner Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,Viking Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Waltham Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Anticimex,Waynes,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Western Exterminator,False,v1,100,18,18.0,0,0.0,0,0.0,,6.14
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rollins,Western Pest Services,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,brand,Rentokil / Terminix,Wil-Kil Pest Control,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,company,Anticimex,,False,v1,100,1,1.0,0,0.0,0,0.0,,0.5
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,company,Aptive,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,company,Massey Services,,False,v1,100,1,1.0,0,0.0,0,0.0,,0.5
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,company,Rentokil / Terminix,,False,v1,100,99,99.0,6,6.0,4,4.0,1.5,49.5
+2026-10-26,2026-10-30,gemini,gemini-3.5-flash-lite,company,Rollins,,False,v1,100,99,99.0,6,6.0,0,0.0,2.17,49.5
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,American Pest,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,Bugco,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,Clark's Termite & Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,Corky's Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,Eastside Exterminators,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,EnviroPest,False,v1,,,0.33,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,JP McHale Pest Management,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,Killingsworth Environmental,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,Modern Pest Services,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,Official Pest Prevention,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,Peachtree Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,The Killers,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,Turner Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,Viking Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Anticimex,Waynes,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Aptive,Aptive Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Massey Services,Massey Services,False,v1,,,5.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,All Florida Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Arrow Environmental Services,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Assured Environments,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Bug Out,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Capelouto Termite & Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Certified Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Cooper Pest Solutions,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Ehrlich Pest Control,False,v1,,,20.33,,0.0,,0.0,4.0,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Florida Pest Control,False,v1,,,0.67,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,General Pest Control,False,v1,,,14.67,,0.33,,0.33,1.0,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Gregory Pest Solutions,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Heron Home & Outdoor,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Holder's Pest Solutions,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Hometown Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Inspect-All Pest Services,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,McCloud Services,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,O'Connor Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Pestech Pest Solutions,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Presto-X,False,v1,,,3.67,,0.33,,0.0,3.0,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Rentokil,False,v1,,,38.67,,29.0,,0.0,3.0,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,SOS Exterminating,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Schendel Pest Services,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Seitz Brothers Exterminating,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Terminix,False,v1,,,97.33,,32.33,,31.67,1.25,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Western Exterminator,False,v1,,,7.33,,1.0,,0.0,4.0,
+2026-10-26,2026-10-30,AI Composite,,brand,Rentokil / Terminix,Wil-Kil Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Clark Pest Control,False,v1,,,0.67,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Crane Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Critter Control,False,v1,,,0.67,,0.0,,0.0,5.0,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Fox Pest Control,False,v1,,,0.33,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,HomeTeam Pest Defense,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Industrial Fumigant Company (IFC),False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,McCall Pest & Wildlife,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,MissQuito,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Northwest Exterminating,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,OPC Pest Services,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Orkin,False,v1,,,97.33,,32.33,,0.0,2.08,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,PermaTreat,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Romex Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Saela Pest Control,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Trutech Wildlife Service,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Waltham Services,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,brand,Rollins,Western Pest Services,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,company,Anticimex,,False,v1,,,0.33,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,company,Aptive,,False,v1,,,0.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,company,Massey Services,,False,v1,,,5.0,,0.0,,0.0,,
+2026-10-26,2026-10-30,AI Composite,,company,Rentokil / Terminix,,False,v1,,,97.33,,32.33,,31.67,1.25,
+2026-10-26,2026-10-30,AI Composite,,company,Rollins,,False,v1,,,97.33,,32.33,,0.0,2.08,
