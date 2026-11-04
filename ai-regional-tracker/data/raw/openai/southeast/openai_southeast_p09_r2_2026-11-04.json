@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, homeowners have several options for residential pest control. Here are some of the main methods:\n\n1. **Professional Pest Control Services**:\n   - **Terminix**: Offers comprehensive pest control services, including termite and mosquito treatments.\n   - **Orkin**: Provides customized plans for common pests like ants, roaches, and rodents.\n   - **Massey Services**: Known for environmentally friendly options and specialized termite control.\n   - **Arrow Exterminators**: Family-owned business offering a wide range of pest control solutions.\n\n2. **DIY Pest Control**:\n   - **Traps and Baits**: Effective for rodents and insects; available at home improvement stores.\n   - **Insect Sprays and Powders**: Over-the-counter solutions for various pests.\n   - **Natural Remedies**: Using essential oils like peppermint or diatomaceous earth for eco-friendly pest deterrence.\n\n3. **Integrated Pest Management (IPM)**:\n   - A holistic approach that combines preventive measures, monitoring, and targeted treatments to manage pest populations with minimal environmental impact.\n\n4. **Preventive Measures**:\n   - **Home Maintenance**: Sealing cracks, fixing leaks, and proper waste management can prevent infestations.\n   - **Landscaping Practices**: Reducing moisture and trimming plants away from the house can deter pests.\n\n5. **Seasonal Treatments**:\n   - Regular treatments, especially in warmer months, to control mosquitoes and other seasonal pests.\n\nChoosing the right option depends on the specific pests you’re dealing with, your budget, and your preference for professional versus DIY methods. Always consider a combination of approaches for the best results.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:57:35+00:00",
+  "has_unknown": true
+}

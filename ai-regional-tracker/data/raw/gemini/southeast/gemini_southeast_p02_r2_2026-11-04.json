@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Southeast (Florida, Georgia, and Texas), pest control isn’t just about the occasional bug—it’s about managing aggressive, year-round pressures like subterranean and Formosan termites, palmetto bugs (American cockroaches), fire ants, mosquitoes, and lawn pests.\n\nBecause of the unique regional climate, several top pest control companies consistently stand out in these states depending on your specific needs:\n\n---\n\n### 1. Best Overall for the Southeast: **Arrow Exterminators**\n* **Service Area:** Deep footprint across Georgia and Florida, with an expanding presence in Texas.\n* **Why Recommend Them:** Headquartered in Atlanta, Arrow is one of the largest family-owned pest control companies in the country. They combine the resources and warranty backing of a massive corporation with customer service that often beats the big conglomerates.\n* **Best For:** Termite defense and whole-home pest protection. They are one of the top authorized operators for the **Sentricon® System** (the industry-standard termite baiting system) and offer a comprehensive \"STEPS\" (Sustainability Through Environmental Pest Solutions) approach that minimizes unnecessary indoor pesticide spraying.\n\n### 2. Best for Bundled Pest & Lawn Care: **Massey Services**\n* **Service Area:** Heavily established in Florida (headquartered in Orlando), with strong coverage across Georgia and major Texas metros (Dallas-Fort Worth, Houston, Austin, San Antonio).\n* **Why Recommend Them:** In Florida and Texas especially, pests often start in the yard (chinch bugs, mole crickets, fire ants, grubs). Massey is uniquely built to treat your home's exterior perimeter, lawn, landscaping, and irrigation system together under one umbrella.\n* **Best For:** Homeowners who want a single provider to handle general indoor/outdoor pests, termite bonds, mosquito reduction, and turf/lawn health.\n\n### 3. Best for Serious Infestations & Ubiquitous Coverage: **Orkin**\n* **Service Area:** Available in virtually every zip code across FL, GA, and TX.\n* **Why Recommend Them:** Orkin invests heavily in entomology and technician training. If you have an active, severe problem—such as wood-destroying insects, stubborn German cockroach infestations, or rodent issues in an attic—their technical protocols are among the most thorough.\n* **Best For:** Guaranteed response times, strict technician training protocols, and properties in smaller or rural towns where regional providers might not operate.\n\n### 4. Strong Contenders Worth a Look\n* **Northwest Exterminating (Primarily Georgia & parts of the Southeast):** Owned by Rollins (Orkin's parent company) but run under its own brand, Northwest is known for its \"green\" pest control solutions and excellent customer satisfaction across Georgia.\n* **Truly Nolen (Florida & Texas):** Very prominent in Sunbelt states. Their quarterly 4-Season protocol targets pest life cycles specifically tailored to warm Southern weather.\n\n---\n\n### What to Ask Before Signing a Contract in the Southeast:\n\n1. **Termite Warranty (\"Bond\") Details:** \n   In FL, GA, and TX, a termite plan is practically mandatory. Ask whether their termite agreement offers a **repair guarantee** (they pay for structural damage caused if termites breach the barrier) or simply a **retreatment guarantee** (they just come spray again, leaving you with repair costs).\n2. **Re-treatment Policy:** \n   Ensure free re-services are included between scheduled visits if pests return before your next quarterly treatment.\n3. **Exterior Focus:** \n   The most modern, eco-friendly pest control focuses on establishing a strong exterior perimeter barrier and clearing out eaves/soffits, only treating the inside when strictly necessary. Make sure their standard service includes de-webbing eaves and treating ant mounds in the yard.\n\n**Recommendation:** Get free initial inspections/quotes from **Arrow** (or **Massey** if you want lawn care included) and one reputable local, independent operator in your specific city, as branch management and individual technician quality often make the biggest difference.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:08:15+00:00",
+  "has_unknown": true
+}

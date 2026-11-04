@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "In the western United States, including California, Washington, and Arizona, there are several options for residential pest control. Here are some popular choices:\n\n### Professional Pest Control Services\n1. **Orkin**: Offers comprehensive pest control services with customized plans for different types of pests.\n\n2. **Terminix**: Known for its extensive network and expertise in dealing with a wide variety of pests.\n\n3. **Ecolab**: Provides eco-friendly pest solutions and is known for its use of innovative technology.\n\n4. **Western Exterminator**: Offers local expertise, particularly in California, with a focus on environmentally responsible treatments.\n\n5. **Truly Nolen**: Offers pest control solutions that include a combination of prevention and treatment methods.\n\n### DIY Pest Control\n1. **Natural Remedies**: Use of essential oils, vinegar, or diatomaceous earth to deter pests naturally.\n\n2. **Traps and Baits**: Available at home improvement stores for pests like rodents and insects.\n\n3. **Pest Control Products**: Sprays, powders, and granules for DIY use, focusing on specific pests.\n\n### Integrated Pest Management (IPM)\n- **Prevention**: Sealing entry points, fixing leaks, and maintaining cleanliness to deter pests.\n- **Monitoring**: Regular inspections to catch pest problems early.\n- **Control**: Using a combination of methods, including minimal chemical use, to manage pests effectively.\n\n### Local Providers\nEach state has local pest control companies that often have specific expertise in dealing with regional pests. It's worth checking reviews and asking for recommendations from neighbors.\n\n### Considerations\n- **Environmental Impact**: Consider eco-friendly options that minimize harm to the environment.\n- **Cost**: Compare quotes and services to find a solution that fits your budget.\n- **Pest Type**: Ensure the provider has experience with the specific pests troubling your home.\n\nResearching and reading reviews about local companies can also help you find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:06:15+00:00",
+  "has_unknown": true
+}

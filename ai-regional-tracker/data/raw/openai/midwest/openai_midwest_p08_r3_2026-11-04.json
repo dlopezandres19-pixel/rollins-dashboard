@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When considering pest control companies in the Midwest—specifically in Illinois, Ohio, and Michigan—it's a good idea to compare a few well-established providers. Here are some options to consider:\n\n1. **Terminix**: Known for their comprehensive services and nationwide presence, Terminix offers a variety of pest control solutions and has local branches throughout the Midwest.\n\n2. **Orkin**: Another major player in the pest control industry, Orkin provides customized treatment plans and has a strong reputation for effective service.\n\n3. **TruGreen**: While primarily known for lawn care, TruGreen also offers pest control services, including mosquito and tick control, which might be beneficial for residential properties.\n\n4. **Rose Pest Solutions**: This regional company has been serving the Midwest for over a century, offering personalized pest management plans and a strong focus on customer service.\n\n5. **Ehrlich Pest Control**: With a long history in the industry, Ehrlich offers a wide range of pest control services and is known for its integrated pest management approach.\n\n6. **Plunkett's Pest Control**: A family-owned business with a strong presence in the Midwest, Plunkett’s is known for its thorough and environmentally responsible pest control services.\n\nWhen comparing these companies, consider factors like customer reviews, service guarantees, treatment methods, pricing, and whether they offer eco-friendly options. It's also a good idea to get quotes and have consultations to better understand what each provider can offer for your specific pest issues.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:03:05+00:00",
+  "has_unknown": true
+}

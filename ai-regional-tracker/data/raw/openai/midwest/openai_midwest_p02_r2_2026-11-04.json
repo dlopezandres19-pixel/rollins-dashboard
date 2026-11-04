@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Midwest US, including Illinois, Ohio, and Michigan, here are a few well-regarded pest control companies you might consider:\n\n1. **Orkin**: Known for their comprehensive pest control services, Orkin has a strong presence in the Midwest and offers solutions for a wide range of pests.\n\n2. **Terminix**: Another large, reputable company offering extensive pest control services, Terminix has local branches throughout the Midwest and provides customized plans.\n\n3. **Truly Nolen**: Offering both residential and commercial pest control, Truly Nolen is known for their environmentally friendly approach and innovative solutions.\n\n4. **Rose Pest Solutions**: A regional company with a long history in the Midwest, Rose Pest Solutions offers personalized services and has expertise in local pest issues.\n\n5. **Critter Control**: Specializing in wildlife management and pest control, Critter Control can be a great choice if you’re dealing with larger pests like raccoons or squirrels.\n\nIt’s a good idea to contact a few companies for quotes and to discuss their specific services and guarantees. Make sure to check reviews and ensure that the company is licensed and insured.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:01:16+00:00",
+  "has_unknown": true
+}

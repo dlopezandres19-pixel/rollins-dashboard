@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "In the Midwest US, including Illinois, Ohio, and Michigan, several pest control companies are well-regarded for their services. Here are some of the top options:\n\n1. **Orkin**: Known for its comprehensive pest control services, Orkin offers customized solutions and has a strong presence in the Midwest. They provide services for common pests like ants, termites, and rodents.\n\n2. **Terminix**: Another leading provider, Terminix offers a wide range of pest control services and is known for its termite control solutions. They have extensive experience and offer guarantees on their work.\n\n3. **Truly Nolen**: Truly Nolen is praised for its eco-friendly pest control methods. They offer services for a variety of pests and have a strong customer service reputation.\n\n4. **Ehrlich Pest Control**: Part of the Rentokil family, Ehrlich provides detailed pest management plans and is well-regarded for its professional service and effective solutions.\n\n5. **Local Companies**: Depending on your specific location, smaller local companies may also offer excellent service with more personalized attention. Look for companies with strong customer reviews and accreditations.\n\nWhen choosing a pest control service, consider factors such as the types of services offered, customer reviews, pricing, and any guarantees or warranties. It's also a good idea to get multiple quotes to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Truly Nolen",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:02:43+00:00",
+  "has_unknown": true
+}

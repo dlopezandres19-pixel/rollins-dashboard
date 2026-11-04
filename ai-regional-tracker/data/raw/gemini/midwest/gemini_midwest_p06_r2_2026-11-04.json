@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When dealing with common Midwest pest challenges—such as carpenter ants, overwintering rodents, subterranean termites, and seasonal invaders like stink bugs and boxelder bugs—several top-tier national pest control companies have an extensive footprint across **Illinois, Ohio, and Michigan**.\n\nHere are the best national pest control companies operating throughout these states, along with how they compare:\n\n---\n\n### 1. **Orkin** *(Best Overall)*\n* **Footprint in IL, OH, MI:** High density in both major metros (Chicago, Cleveland, Columbus, Detroit, Grand Rapids) and mid-sized/suburban areas.\n* **Why They’re a Top Pick:** Orkin is widely regarded as the industry standard for technician training. Their technicians complete hundreds of hours of hands-on simulation before heading into the field, making them exceptionally skilled at diagnosing difficult structural infestations (like mice nesting in basements during Midwest winters or carpenter ant colonies).\n* **Key Offerings:** General perimeter defense, termite treatments, rodent exclusion, bed bug heat/chemical treatments, and mosquito control.\n* **Guarantee:** 30-day money-back guarantee with free re-treatments between scheduled visits if pests return.\n\n---\n\n### 2. **Terminix** *(Best for Termites, Bed Bugs & Wildlife)*\n* **Footprint in IL, OH, MI:** Widespread branch network covering almost every county across all three states.\n* **Why They’re a Top Pick:** Terminix is especially strong when it comes to specialized infestations. In Ohio and southern/central Illinois, subterranean termites can cause major foundation damage; Terminix’s proprietary baiting systems (like the *Nix Pest Guarantee* plans) and termite monitoring are among the most robust in the country. They also handle wildlife exclusion (raccoons, bats, squirrels) better than most general pest services.\n* **Key Offerings:** Comprehensive Termite Protection Plan, Bed Bug eradication, wildlife exclusion, rodent control, and *Nix Pest* seasonal recurring plans.\n* **Guarantee:** Will re-service between regular visits at no charge, plus structural damage repair coverage options for termite plans.\n\n---\n\n### 3. **Ehrlich Pest Control (A Rentokil Company)** *(Best for Year-Round Regional Defense)*\n* **Footprint in IL, OH, MI:** Heavy presence across the Great Lakes and Midwest corridor.\n* **Why They’re a Top Pick:** Although part of Rentokil (the global parent company that also owns Terminix), Ehrlich maintains its own brand identity and local branch heritage. Their **PestFree365+** plan covers over 30 common household pests year-round—including bed bugs, which many standard national plans charge extra for. \n* **Key Offerings:** Preventive exterior barriers, overwintering pest barriers (stink bugs, cluster flies), de-webbing, rodent stations, and proactive seasonal checks.\n* **Guarantee:** Unlimited free emergency call-outs between scheduled quarterly maintenance.\n\n---\n\n### 4. **Aptive Environmental** *(Best for General Perimeter Pest Defense & Eco-Conscious Treatments)*\n* **Footprint in IL, OH, MI:** Concentrated around primary suburban markets (suburban Chicago, Metro Detroit, Columbus/Cincinnati/Dayton suburbs).\n* **Why They’re a Top Pick:** Aptive focuses primarily on exterior perimeter management using treatments derived from naturally occurring compounds (like pyrethrins). They are great for standard seasonal suburban pests—ants, spiders, wasps, crickets, and outdoor invaders.\n* **Keep in Mind:** Aptive typically requires an annual contract and does **not** treat for termites, bed bugs, or larger wildlife.\n\n---\n\n### How to Choose the Right One for Your Home\n\n1. **Target the Specific Pest Problem:**\n   * If you suspect **termites, carpenter ants, or wildlife (raccoons/bats)**: Call **Terminix** or **Orkin**.\n   * If you want a **hands-off, four-season preventative perimeter defense**: **Ehrlich** or **Orkin** excel at adjusting formulas between Midwest summer bugs and winter rodent pressure.\n2. **Read Branch-Specific Reviews:**\n   * National pest control companies are only as good as the local technicians managing your route. Always search Google or Yelp for the specific branch servicing your zip code (e.g., *\"Orkin Schaumburg, IL\"* or *\"Terminix Akron, OH\"*).\n3. **Ask About the Re-Treatment Policy:**\n   * In the Midwest, heavy rain in the spring or sudden freezes in the fall can disrupt treatments. Ensure your service agreement clearly states that **in-between touch-ups and re-treatments are free of charge**.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:34:38+00:00",
+  "has_unknown": true
+}

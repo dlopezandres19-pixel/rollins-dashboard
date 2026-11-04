@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "When choosing a national pest control provider in New York, New Jersey, and Pennsylvania, you want a company equipped to handle the Northeast’s specific pest pressures—including heavy rodent activity in the winter, ticks and mosquitoes in the warmer months, subterranean termites, and urban bed bug infestations.\n\nThe following national pest control companies have the strongest reputations, branch networks, and service track records in the Tri-State area:\n\n---\n\n### 1. Ehrlich Pest Control (A Rentokil Company)\n* **Best for:** Overall Northeast expertise with national backing\n* **Overview:** While Rentokil is a global brand, Ehrlich is its flagship nameplate in the Mid-Atlantic and Northeast, having originally been founded in Reading, Pennsylvania. Because of its deep roots in the region, Ehrlich operates with the local know-how of a regional provider combined with the technology and resources of a massive parent company.\n* **Key Strengths:**\n  * Highly familiar with Northeast-specific pests (carpenter ants, ticks, deer mice, and stink bugs).\n  * Their **PestFree365+** plan covers over 30 common pests year-round.\n  * Comprehensive commercial and residential services across all three states.\n\n---\n\n### 2. Orkin\n* **Best for:** Immediate response, heavy infestations, and technician training\n* **Overview:** Orkin is widely regarded as the gold standard for staff training; every technician undergoes an intensive certification program before working in the field. They have a massive branch network across suburban and urban areas in NY, NJ, and PA.\n* **Key Strengths:**\n  * **30-Day Money-Back Guarantee:** If pests return between treatments, they re-treat at no extra charge or refund your last payment.\n  * Excellent for stubborn, high-stakes infestations such as bed bugs (especially in Philadelphia and New York City apartments/brownstones) and subterranean termites.\n  * Strong emphasis on IPM (Integrated Pest Management), focusing on exclusion and entry-point sealing rather than just spraying chemicals.\n\n---\n\n### 3. Terminix\n* **Best for:** Termite monitoring, rodent exclusion, and customer portal tools\n* **Overview:** Terminix is one of the largest pest control brands in the country and has dense coverage across the Northeast corridor. They are particularly well-known for their specialized termite plans and high-tech monitoring solutions.\n* **Key Strengths:**\n  * **The Nix Guarantee:** Comprehensive ongoing maintenance plans with complimentary retreatments between scheduled visits.\n  * Proprietary termite baiting systems and advanced perimeter barriers tailored to high-moisture Northeast soils.\n  * User-friendly digital platform for scheduling, billing, and tracking technician reports.\n\n---\n\n### 4. Aptive Environmental\n* **Best for:** Eco-conscious perimeter defense in suburban communities\n* **Overview:** Aptive is a rapidly growing national provider popular in the suburbs of New Jersey, Eastern Pennsylvania, and Long Island/Westchester. They focus primarily on outdoor perimeter defense using pyrethrin-based products derived from chrysanthemum flowers.\n* **Key Strengths:**\n  * Family- and pet-friendly formulations aimed at preventative maintenance.\n  * Covers common seasonal nuisances like wasps, spiders, ants, and outdoor rodents.\n  * *Note:* Aptive is primarily focused on general perimeter defense; they typically do not handle specialized structural infestations like termites or wildlife/trapping.\n\n---\n\n### Notable \"Super-Regional\" Alternatives\nWhile not strictly national brands, two large multi-state providers operate with national-level capacity and are heavily dominant in NY, NJ, and PA:\n\n* **Western Pest Services:** Owned by Rollins (the parent company of Orkin), Western is a longstanding fixture in the Mid-Atlantic. They specialize heavily in both residential and high-density commercial/multi-family properties.\n* **Viking Pest Control:** Part of the Anticimex group, Viking has wide coverage across NJ, PA, NY, and DE, and is known for modern, non-toxic SMART rodent monitoring systems.\n\n---\n\n### Tips for Hiring in the Northeast:\n1. **Confirm Free Inspections:** Most reputable providers (Orkin, Terminix, Ehrlich) offer free on-site inspections for specialized issues like termites or bed bugs. Avoid companies that require sight-unseen contracts for structural pests.\n2. **Target Your Specific Threat:** If your issue is ticks and mosquitoes near wooded property lines, ask about targeted yard barriers. If your issue is rodents in older foundations/basements, make sure exclusion (sealing entry holes) is included in the quote.\n3. **Check the Guarantee:** Always ask how quickly a technician will return if pests reappear between quarterly visits, and ensure those re-treatments are 100% free under your agreement.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Aptive",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:22:58+00:00",
+  "has_unknown": true
+}

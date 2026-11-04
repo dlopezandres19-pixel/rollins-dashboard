@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "For a homeowner in Illinois, Ohio, or Michigan, the best choice depends on whether you prefer a deeply rooted regional specialist or a large national brand with extensive coverage and guarantees. \n\nHere are the top recommendations across the Midwest:\n\n---\n\n### 1. Best Overall Regional Pick: **Rose Pest Solutions**\n* **Best for:** Homeowners who want local expertise and long-standing Midwest credibility.\n* **Why them:** Founded in 1860, Rose is one of the oldest pest management companies in the nation and is specifically headquartered and focused on the Great Lakes/Midwest region (heavily serving **Illinois, Michigan, and Ohio**). \n* **Strengths:** \n  * Their technicians are trained specifically on Midwest pest pressures—such as fall rodent migrations, boxelder bugs, brown marmorated stink bugs, and carpenter ants.\n  * They generally have higher customer retention and lower aggressive door-to-door sales tactics compared to newer national startups.\n  * Good balance between environmentally responsible products and effectiveness.\n\n---\n\n### 2. Best for Severe Infestations & Training: **Orkin**\n* **Best for:** Fast response times, difficult infestations (bed bugs, complex termite setups), and strict technician training.\n* **Why them:** Orkin has strong, well-staffed branches in all major Midwest metros (Chicago, Detroit, Grand Rapids, Columbus, Cleveland, Cincinnati).\n* **Strengths:**\n  * Orkin has some of the most rigorous entomology-backed training programs in the industry.\n  * Their **Orkin Guarantee** includes free re-treatments between scheduled visits, and they offer a 30-day money-back guarantee if you are not satisfied.\n  * Excellent digital reporting showing where baits and traps were checked around your home.\n\n---\n\n### 3. Best for Termites & Standard Home Plans: **Terminix**\n* **Best for:** Subterranean termites and bundled quarterly home protection.\n* **Why them:** Subterranean termites are common in central/southern Illinois and Ohio, and present in parts of lower Michigan. Terminix specializes heavily in baiting systems (Sentricon) and liquid perimeter barriers.\n* **Strengths:**\n  * Comprehensive home plans that bundle general pests (spiders, ants, mice) with termite monitoring.\n  * Offers strong repair guarantees if termites cause damage while under their active warranty plan.\n\n---\n\n### 4. Notable Mentions for Specific Needs\n* **Greenix Pest Control:** Very active across suburban Ohio and Michigan. They focus on eco-friendly, multi-layer perimeter protection (treating the foundation, eaves, and perimeter lawn) and are a good option for routine seasonal bug defense.\n* **Varment Guard / Plunkett's:** If your issue leans heavily toward wildlife (raccoons, bats, squirrels in the attic) alongside standard bugs, Varment Guard (prominent in Ohio) and its parent company Plunkett’s (Illinois/Upper Midwest) excel at physical exclusion and trapping.\n\n---\n\n### Tips for Midwest Homeowners Before Booking:\n1. **Focus on the Fall Rodent Rush:** In the Midwest, the biggest pest surge is mice and rats looking for shelter as temperatures drop in October and November. Make sure whatever plan you choose includes **exclusion checks** (inspecting foundation gaps, door sweeps, and pipe entries), not just setting down bait traps.\n2. **Watch Out for Overwintering Pests:** If you get swarmed by boxelder bugs, Asian lady beetles, or stink bugs, ask about a late-summer/early-fall exterior repellent spray. Once they get inside wall voids for the winter, sprays become far less effective.\n3. **Check Branch-Specific Reviews:** Large pest control companies operate via local branches. Service quality can vary between a branch in suburban Cleveland vs. downstate Illinois. Always check the specific Google/Yelp rating for the branch servicing your zip code.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:29:45+00:00",
+  "has_unknown": true
+}

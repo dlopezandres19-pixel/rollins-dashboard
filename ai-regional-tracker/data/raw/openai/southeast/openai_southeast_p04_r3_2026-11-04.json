@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several leading residential pest control companies are well-regarded for their services:\n\n1. **Terminix**: A nationwide provider with a strong presence in the Southeast, known for comprehensive pest control services and termite protection.\n\n2. **Orkin**: Another major national company, Orkin offers a wide range of services including termite control, bed bug treatment, and mosquito management.\n\n3. **Truly Nolen**: Known for its eco-friendly approach, Truly Nolen offers various pest control solutions and has a strong presence in Florida and other Southeastern states.\n\n4. **Arrow Exterminators**: Based in Atlanta, Georgia, Arrow provides a variety of pest control services with a focus on family-friendly and environmentally safe practices.\n\n5. **Florida Pest Control**: Primarily operating in Florida, this company specializes in local pest issues and offers personalized service.\n\n6. **Massey Services**: Headquartered in Florida, Massey offers pest prevention, termite protection, and lawn care services with a focus on integrated pest management.\n\nThese companies are recognized for their experience, customer service, and effective pest control solutions. Be sure to check for customer reviews and specific service offerings in your area.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:56:21+00:00",
+  "has_unknown": true
+}

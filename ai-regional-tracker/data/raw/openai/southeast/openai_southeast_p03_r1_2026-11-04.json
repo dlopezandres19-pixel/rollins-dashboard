@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several reputable pest control companies are well-regarded for their residential services. Here are some of the top options:\n\n1. **Orkin**: With a long-standing reputation, Orkin offers comprehensive pest control services, including termite and mosquito control. They have a strong presence across the Southeast.\n\n2. **Terminix**: Known for their termite and pest control solutions, Terminix provides a wide range of services tailored to residential needs. They have a robust presence in Florida, Georgia, and Texas.\n\n3. **Truly Nolen**: This company offers environmentally friendly pest control options and has a strong focus on customer satisfaction. They are particularly well-known in Florida.\n\n4. **Arrow Exterminators**: Based in Atlanta, Georgia, they offer comprehensive pest control services with a focus on eco-friendly solutions.\n\n5. **HomeTeam Pest Defense**: They provide innovative pest management solutions and are especially prominent in Texas.\n\n6. **Massey Services**: A Florida-based company known for its effective pest prevention programs and customer service.\n\nWhen choosing a pest control service, it's a good idea to check online reviews, ask for recommendations from friends or neighbors, and ensure the company is licensed and insured.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:55:54+00:00",
+  "has_unknown": false
+}

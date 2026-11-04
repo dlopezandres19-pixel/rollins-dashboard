@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "For a homeowner in Illinois, Ohio, or Michigan, the best choice depends on whether you prefer an established regional provider with deep local roots or a major national brand with wide coverage and standardized guarantees.\n\nHere are the top recommendations:\n\n---\n\n### 1. Top Regional Pick: **Rose Pest Solutions**\n* **Best for:** Midwestern expertise, customer service, and year-round preventative maintenance.\n* **Why them:** Founded in the Midwest in 1860, Rose is one of the oldest and most respected regional pest management companies in the country, with comprehensive coverage across **Illinois, Michigan, and Ohio** (as well as Indiana and Kentucky). \n* **Midwest strength:** Because their entire operation is centered around the Great Lakes and Midwest climates, their technicians are particularly knowledgeable about seasonal Midwest pests—such as boxelder bugs, brown marmorated stink bugs, carpenter ants, and fall/winter mouse invasions.\n* **Service style:** They offer their “Healthy Home Maintenance Program” (quarterly visits with free re-treatments between visits if pests return), which fits well with the Midwest’s distinct four-season pest cycles.\n\n---\n\n### 2. Top National Pick for Consistency: **Orkin**\n* **Best for:** Dependable technicians, broad availability, and strong guarantees.\n* **Why them:** Orkin has strong branch coverage across all three states (from major metros like Chicago, Cleveland, and Detroit down to mid-sized markets like Peoria, Akron, and Grand Rapids).\n* **Midwest strength:** Orkin’s training program (in partnership with universities and entomologists) is widely considered the best among national chains. If you are dealing with a complex issue like bed bugs, severe roach infestations, or aggressive rodent nesting in older Midwestern basements and crawlspaces, Orkin’s targeted treatments are very reliable.\n* **Guarantee:** Their 30-day money-back guarantee and complimentary return visits between scheduled treatments are consistently honored.\n\n---\n\n### 3. Top Pick for Termites & Structural Protection: **Terminix**\n* **Best for:** Termite infestations and extensive moisture/crawlspace mitigation.\n* **Why them:** While Eastern subterranean termites are more prevalent in southern Illinois and Ohio than in northern Michigan, they remain a real risk for wood-framed homes across the region. Terminix specializes heavily in termite baiting systems (Sentricon), liquid barrier treatments, and structural repair warranties.\n* **Note:** Customer experience with general insect treatments can vary significantly branch-by-branch compared to Orkin or regional players, so checking local branch reviews is essential.\n\n---\n\n### What to Consider for Midwest Homes:\n\n1. **Seasonal Pest Swings:** A good Midwest plan should address distinct seasonal phases:\n   * **Spring:** Emerging carpenter ants, wasps, and subterranean termites.\n   * **Summer:** Mosquitos, ticks, spiders, and stinging insects.\n   * **Fall:** Overwintering invaders (boxelder bugs, stink bugs, cluster flies) looking for warmth on the south- and west-facing walls of your home.\n   * **Winter:** Field mice and Norway rats seeking shelter in crawlspaces, basements, and attics.\n2. **Contract vs. One-Time:** Beware of companies (especially door-to-door sales common in the Midwest during late spring) that lock you into aggressive multi-year auto-renewing contracts. Ask specifically about cancellation policies and whether re-treatments between quarterly visits are free.\n3. **Check Local Independent Options:** In addition to Rose or Orkin, check for highly rated family-owned operators in your immediate county. Local operators often provide more customized perimeter treatments and attic/crawlspace inspections at a lower price point than national chains. \n\n**Summary Recommendation:** Contact **Rose Pest Solutions** first for a quote if you want a provider built specifically for the Midwest climate. If they don't service your specific ZIP code, **Orkin** is the most consistent and well-trained alternative.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:30:16+00:00",
+  "has_unknown": true
+}

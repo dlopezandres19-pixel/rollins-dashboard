@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Northeast US (New York, New Jersey, Pennsylvania) should consider.",
+  "rep": 3,
+  "response_text": "For homeowners in the Northeast—particularly New York, New Jersey, and Pennsylvania—it often pays to look at strong regional providers alongside the major national brands. Older housing stock, harsh winters that drive rodents indoors, and regional nuisances like deer ticks, subterranean termites, and spotted lanternflies require technicians familiar with local conditions.\n\nHere is a shortlist of reputable pest control companies to consider:\n\n---\n\n### **Top Regional Specialists (Deep Northeast Roots)**\n\n#### 1. **Viking Pest Control**\n* **Service Area:** New Jersey, Pennsylvania, Delaware, and Eastern Maryland.\n* **Best For:** Cutting-edge rodent monitoring and suburban pest management.\n* **Why Consider Them:** Viking has been operating in the Mid-Atlantic for over 40 years. They are part of the Anticimex family, meaning they offer **SMART pest control**—an innovative, non-toxic, electronic sensor network that detects and traps mice in basements, crawlspaces, and attics before an infestation takes hold. They are also well-equipped for seasonal Northeast pests like ticks, mosquitoes, and spotted lanternflies.\n\n#### 2. **Western Pest Services**\n* **Service Area:** New Jersey, New York, Pennsylvania, Delaware, and Connecticut.\n* **Best For:** Comprehensive residential coverage with long-standing local experience.\n* **Why Consider Them:** Founded in New Jersey in 1928, Western has nearly a century of experience dealing with the specific construction types and climate conditions of the Tri-State area. They offer strong year-round maintenance plans, prompt emergency response, and certified entomologists on staff.\n\n#### 3. **Ehrlich Pest Control**\n* **Service Area:** Strongest in Pennsylvania (where they originated in Reading in 1928), with wide coverage across New York and New Jersey (part of the Rentokil family).\n* **Best For:** Year-round preventative maintenance and termite protection.\n* **Why Consider Them:** Ehrlich’s signature **PestFree365+** plan is one of the most comprehensive preventative maintenance packages on the market, covering dozens of common regional pests, including bed bugs and stinging insects. Because of their PA heritage, they are particularly adept at handling problems in older stone foundations, basements, and rural properties.\n\n#### 4. **MMPC (Metro Pest Control)** *(Best for NYC Metro / Northern NJ)*\n* **Service Area:** New York City (all five boroughs), Long Island, and parts of Northern New Jersey/Westchester.\n* **Best For:** Urban pests, bed bug detection, and eco-friendly/green treatments.\n* **Why Consider Them:** If you live in an urban or dense suburban environment (e.g., brownstones, townhomes, or high-density neighborhoods), MMPC is consistently ranked as one of the top independent providers. They specialize in certified K9 bed bug scent inspections, integrated pest management (IPM), and low-toxicity methods.\n\n---\n\n### **Top National Providers (Widest Availability & Warranties)**\n\n#### 5. **Orkin**\n* **Service Area:** Ubiquitous across NY, NJ, and PA.\n* **Best For:** Reliable training standards, fast emergency dispatch, and targeted treatments.\n* **Why Consider Them:** Orkin invests heavily in technician training and entomological education. If you live in an area outside the service zones of the regional companies above, Orkin is usually the most consistent national option. They offer a 30-day money-back guarantee and clear, written service reports after every visit.\n\n#### 6. **Terminix**\n* **Service Area:** Comprehensive coverage across all three states.\n* **Best For:** Subterranean termite bonds and moisture control in basements/crawlspaces.\n* **Why Consider Them:** Subterranean termites are a significant risk throughout PA, NJ, and Southern NY. Terminix built its name on termite control and offers strong termite damage repair guarantees with qualifying monitoring and baiting systems.\n\n---\n\n### **Tips for Homeowners in NY, NJ, and PA**\n* **Ask about Ticks and Lanternflies:** If you have wooded property or live in PA/NJ, ask whether your perimeter plan includes tick suppression (crucial in Lyme disease territory) or spotted lanternfly treatments.\n* **Check the Warranty/Re-service Policy:** Northeast winters inevitably drive mice and squirrels indoors. Ensure your seasonal contract includes **free re-treatments between scheduled visits** if pests return.\n* **Get Multiple Inspections for Termites:** Termite treatment contracts vary significantly in price and warranty coverage. Always get at least two on-site evaluations before signing an annual termite agreement.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Anticimex",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:28:19+00:00",
+  "has_unknown": true
+}

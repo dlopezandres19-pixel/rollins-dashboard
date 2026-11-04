@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When looking for reputable residential pest control in the Midwest—specifically across **Illinois, Ohio, and Michigan**—homeowners generally have the best experience choosing between top-rated regional powerhouses (which specialize in Midwest-specific pest cycles) and established national providers.\n\n---\n\n### 1. Top Regional & Midwest-Specific Companies\nRegional companies often earn higher customer satisfaction ratings than mega-chains because their technicians are deeply familiar with local climate pressures (like fall rodent migrations, spring carpenter ants, and overwintering boxelder bugs or stink bugs).\n\n*   **Rose Pest Solutions (MI, OH, IL)**\n    *   *Reputation:* Founded in 1860, Rose is the oldest pest management company in the United States and has an exceptional reputation across the Great Lakes region. \n    *   *Where they shine:* General seasonal home protection, carpenter ants, bed bugs, and rodents. They emphasize Integrated Pest Management (IPM), aiming to solve the root entry points rather than just spraying chemicals. *(Note: Michigan/Ohio and Illinois operate under historically distinct branches of the founding family, but both share top-tier local ratings.)*\n*   **Varment Guard / Plunkett’s Pest Control (OH, MI, IL)**\n    *   *Reputation:* Plunkett’s is a premier Upper Midwest provider that owns Varment Guard, which is particularly dominant and highly rated across Ohio (Columbus, Cleveland, Cincinnati) and parts of Michigan.\n    *   *Where they shine:* While they handle all standard insect and pest issues, they are arguably the best in the region if your issue crosses over into wildlife management (bats, raccoons, squirrels in attics, moles).\n*   **Anderson Pest Solutions (IL, expanding into southern WI/NW IN)**\n    *   *Reputation:* One of the most recognized and trusted names in the greater Chicagoland area and northern Illinois.\n    *   *Where they shine:* Their \"Natural Choice Home Protection\" program provides scheduled seasonal perimeter defenses tailored to urban and suburban Midwest homes.\n\n---\n\n### 2. Top National Providers with Strong Midwest Footprints\nIf you live in a more rural area or prefer the security of larger nationwide guarantees, these two are the most dependable:\n\n*   **Orkin**\n    *   *Reputation:* Widely considered the gold standard among national brands for technician training. Their technicians undergo rigorous, standardized instruction at their central academy.\n    *   *Where they shine:* Fast response times and strict adherence to protocol. If a treatment doesn’t work, their 30-day money-back guarantee and free return visits are consistently honored.\n*   **Ehrlich Pest Control (a Rentokil company)**\n    *   *Reputation:* Rentokil operates under the Ehrlich brand across much of Ohio and neighboring areas. Ehrlich has a longstanding, dependable reputation in the eastern half of the Midwest.\n    *   *Where they shine:* Year-round preventative maintenance plans (\"PestFree365+\") that cover dozens of common pests, including stinging insects, which are a major seasonal issue in the Midwest.\n\n---\n\n### Key Questions to Ask Before Hiring\n1.  **Are between-visit callbacks free?** Midwestern weather fluctuations can cause sudden surges (e.g., mice seeking warmth after the first hard freeze, or subterranean termites swarming in wet springs). Reliable companies will re-treat between quarterly visits at no charge.\n2.  **Is wildlife covered, or just insects and rodents?** If you have skunks, raccoons, or bats, standard pest contracts usually do not apply, and you will need a company certified in nuisance wildlife removal (such as Varment Guard or Critter Control).\n3.  **Do they require a multi-year contract?** Reputable companies usually offer seasonal programs with standard 1-year agreements, but they should allow you to cancel with reasonable notice if you are dissatisfied.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:31:00+00:00",
+  "has_unknown": true
+}

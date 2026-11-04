@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "For homeowners in the Northeast—specifically New York, New Jersey, and Pennsylvania—the best pest control company often depends on whether you prefer a large national brand or a well-established regional provider that specializes in the climate and pests unique to the Mid-Atlantic/Tri-State area (such as carpenter ants, winter mice intrusion, ticks, and spotted lanternflies).\n\nHere are the top recommendations broken down by category:\n\n---\n\n### 1. Best Regional Providers (Strongest Local Expertise)\n\nRegional companies often outperform national chains in the Northeast because their technicians are deeply familiar with regional housing styles (e.g., older fieldstone foundations, rowhomes, brownstones) and local pest pressures.\n\n*   **Ehrlich Pest Control (A Rentokil Company)**\n    *   **Best for:** Comprehensive coverage across PA, NJ, and NY.\n    *   **Why choose them:** Ehrlich was founded in Reading, Pennsylvania, in 1928 and remains one of the most trusted names throughout the Commonwealth and neighboring states. Their year-round **PestFree365+** plan covers over 35 common pests (including bed bugs in many plans, which is rare). \n*   **Western Pest Services**\n    *   **Best for:** Tri-State heritage and commercial/residential crossover expertise.\n    *   **Why choose them:** Headquartered in New Jersey and serving the NY/NJ/PA metro regions since 1928, Western has a sterling local reputation. They are particularly skilled with termite control, rodent exclusion, and handling urban/suburban border pests.\n*   **Viking Pest Control**\n    *   **Best for:** Modern, eco-friendly technology and digital pest monitoring.\n    *   **Why choose them:** Viking operates heavily across NJ, PA, and parts of NY. They offer **Anticimex SMART** digital rodent control (sensor-based traps that alert technicians 24/7 without poisons) and specialized treatments for local issues like spotted lanternflies, ticks, and mosquitoes.\n\n---\n\n### 2. Best for Specialized Needs\n\n*   **Best for Urban Living & Bed Bugs (NYC Metro): MMPC (Metropolitan Pest Control)**\n    *   If you are in New York City or the immediate surrounding suburbs, MMPC is consistently ranked as one of the best independent providers. They specialize in eco-friendly pest control, non-chemical thermal bed bug eradication, and certified K9 bed bug inspections.\n*   **Best for Suburban NJ/Eastern PA: Cooper Pest Solutions**\n    *   Cooper is widely known in New Jersey and Eastern Pennsylvania for its strong entomology-backed approach. They excel in proactive mosquito, tick, and bed bug prevention programs.\n\n---\n\n### 3. Best National Chains (Broadest Availability & Quickest Scheduling)\n\nIf you live in a rural or outer-ring suburban area where regional companies might have limited routes, the major national players are reliable defaults:\n\n*   **Orkin**\n    *   **Strengths:** Industry-leading technician training program (accredited through Purdue University) and consistent 30-day money-back guarantee. They are typically faster to respond for emergency wildlife/rodent issues than smaller firms.\n*   **Terminix**\n    *   **Strengths:** Excellent, comprehensive termite protection plans (Nix Pest Guarantee). Highly competitive recurring quarterly maintenance pricing.\n\n---\n\n### How to Decide for Your Home\n\nWhen getting quotes, consider these Northeast-specific factors:\n\n1. **Winter Rodent Exclusion:** In NY, NJ, and PA, field mice and rats head indoors from October through December. Ask if the company provides physical **exclusion work** (sealing entry points with copper mesh, sheet metal, or silicone), not just bait boxes.\n2. **Tick & Mosquito Add-Ons:** If you have property near wooded areas (especially in PA and NJ, the epicenter for Lyme disease), look for bundled tick/yard barrier treatments from May through October.\n3. **Free Reservice Guarantee:** Make sure your contract states that if pests return between scheduled quarterly visits, the technician comes back to treat at **no extra cost**.\n4. **State Licensing:** Verify licensing through your respective state regulator (NY Department of Environmental Conservation, NJ Department of Environmental Protection, or PA Department of Agriculture).\n\n**Bottom Line Recommendation:** \nStart by getting quotes from **Ehrlich** or **Western Pest Services** alongside a national option like **Orkin**. Compare their quarterly service guarantees and make sure exclusion/entry sealing is addressed if rodents are your main concern.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:22:36+00:00",
+  "has_unknown": true
+}

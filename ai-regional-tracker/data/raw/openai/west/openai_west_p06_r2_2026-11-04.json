@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "Here are some of the best national pest control companies operating in the Western US, including California, Washington, and Arizona:\n\n1. **Terminix**: Known for its comprehensive pest control solutions, Terminix offers services for termites, bed bugs, mosquitoes, and more. They have a strong presence across the West.\n\n2. **Orkin**: With over a century of experience, Orkin provides pest control for a variety of pests including termites, rodents, and insects. They are well-regarded for their customer service and expertise.\n\n3. **Ehrlich Pest Control (part of Rentokil)**: While primarily known in the East, they have expanded services to the Western states, offering effective solutions for residential and commercial properties.\n\n4. **Truly Nolen**: A family-owned company that offers environmentally friendly pest control services. They cover a wide range of pests and have a strong presence in the West.\n\n5. **Aptive Environmental**: Known for its eco-friendly approach, Aptive offers pest control services that focus on minimizing environmental impact while effectively controlling pests.\n\n6. **Massey Services**: Though primarily known in the Southeast, Massey Services has expanded into some Western markets, providing a range of pest control services.\n\nEach company has its strengths, so it might be worth considering your specific pest issues, budget, and preferences for environmentally friendly solutions when making a choice.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:05:24+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "In the Midwest, including Illinois, Ohio, and Michigan, you have several options for residential pest control:\n\n1. **Professional Pest Control Services**: \n   - Companies like Orkin, Terminix, and Rentokil offer comprehensive pest control services. They provide customized plans based on the type of pest and the extent of the infestation.\n\n2. **Local Pest Control Companies**:\n   - Many local businesses specialize in pest control and may offer more personalized services. Look for companies with good reviews and experience in your particular area.\n\n3. **Do-It-Yourself Products**:\n   - Hardware and home improvement stores sell a variety of DIY pest control products, such as sprays, traps, and bait stations. Brands like Raid and Ortho are popular.\n\n4. **Natural and Eco-Friendly Solutions**:\n   - Some companies and products focus on environmentally friendly pest control, using natural ingredients that are safer for children and pets.\n\n5. **Integrated Pest Management (IPM)**:\n   - This approach combines different management strategies and practices to control pests in an environmentally and economically sound way. It often involves monitoring and preventive measures.\n\nWhen choosing a pest control option, consider factors like the type of pest, the severity of the problem, budget, and any environmental concerns. It can also be helpful to check reviews and ratings for any service providers you are considering.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:03:10+00:00",
+  "has_unknown": true
+}

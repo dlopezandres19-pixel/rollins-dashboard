@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "When choosing a pest control company in the Northeast (New York, New Jersey, and Pennsylvania), you have a choice between **established regional companies** that specialize in the local climate, housing stock, and pest profiles (like ticks, spotted lanternflies, brown marmorated stink bugs, and brown recluse/black widow presence), and **national brands** with round-the-clock customer support.\n\nHere are the top-rated pest control companies serving the Tri-State and Mid-Atlantic region:\n\n---\n\n### 1. Top Regional Providers (Best Local Expertise)\n\n*   **Viking Pest Control**\n    *   **Coverage:** New Jersey, Pennsylvania, Delaware, and parts of New York.\n    *   **Best for:** Tech-driven solutions and suburban homes.\n    *   **Why they stand out:** Viking is an Anticimex company known for using cutting-edge, non-toxic technology (such as \"SMART\" electronic rodent monitoring systems). They specialize in common regional threats like ticks, spotted lanternflies, carpenter ants, and termites, offering targeted seasonal service plans.\n*   **Western Pest Services**\n    *   **Coverage:** New Jersey, New York, Pennsylvania, Delaware, and Connecticut.\n    *   **Best for:** Fast response times, general residential maintenance, and commercial properties.\n    *   **Why they stand out:** Founded in New Jersey in 1928, Western is one of the most recognizable and dependable names in the Mid-Atlantic. Their technicians are known for thorough inspections and understanding older housing stock (e.g., stone basements, older row homes, and brownstones).\n*   **Ehrlich Pest Control**\n    *   **Coverage:** Extensive across Pennsylvania (founded in Reading, PA), New York, and New Jersey.\n    *   **Best for:** Year-round pest prevention and severe infestations.\n    *   **Why they stand out:** Ehrlich (part of the Rentokil family) has deep roots in Pennsylvania and neighboring states. Their signature \"PestFree365+\" plan covers dozens of common pests year-round with unlimited service calls if pests return between visits.\n*   **MMPC (Metro Multishield Pest Control)**\n    *   **Coverage:** New York City Metro area (Five Boroughs, Long Island, Westchester) and parts of Northern New Jersey.\n    *   **Best for:** Eco-friendly treatments, urban apartments, and bed bugs.\n    *   **Why they stand out:** If you live in NYC or close suburbs, MMPC is consistently ranked among the best independent services. They specialize in certified K9 bed bug inspections, heat treatments, and integrated pest management (IPM) techniques compliant with strict local housing and environmental standards.\n\n---\n\n### 2. Top National Providers (Best Availability & Guarantees)\n\n*   **Orkin**\n    *   **Best for:** Fast scheduling, emergency infestations, and rigorous technician training.\n    *   **Why they stand out:** Orkin has dozens of branch offices throughout NY, NJ, and PA. Technicians undergo extensive training that emphasizes targeted Integrated Pest Management (IPM). They back their service with a 30-day money-back guarantee and free return visits.\n*   **Terminix**\n    *   **Best for:** Termite monitoring/treatments and bundled home services.\n    *   **Why they stand out:** A household name with broad coverage across suburban PA, upstate NY, and throughout NJ. Their proprietary termite baiting systems and customizable annual plans make them an easy choice if wood-destroying insects are your primary concern.\n\n---\n\n### How to Choose the Right Company for Your Area\n\n1.  **Identify Your Specific Pest Threat:**\n    *   **Suburban NY/NJ/PA:** Prioritize companies with proven mosquito, tick, and spotted lanternfly programs.\n    *   **Urban Centers (NYC, Newark, Philadelphia):** Look for specialists in bed bugs, German cockroaches, and rat/mouse exclusion (companies with K9 bed bug detection or thermal heat treatment capabilities).\n2.  **Ask About the Re-Treatment Guarantee:**\n    *   Make sure your contract specifies that **interim service calls are free** if pests reappear between quarterly or bi-monthly visits.\n3.  **Check Licensing:**\n    *   Ensure the provider is certified by your specific state regulatory board:\n        *   **New York:** Department of Environmental Conservation (DEC)\n        *   **New Jersey:** Department of Environmental Protection (NJDEP)\n        *   **Pennsylvania:** Department of Agriculture (Pesticide Division)\n4.  **Get Multiple Quotes:**\n    *   Most companies (especially Ehrlich, Viking, and Orkin) will perform a free or low-cost initial inspection to give you a customized quote. Compare costs for one-time treatments versus an annual recurring plan.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Anticimex",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:18:13+00:00",
+  "has_unknown": true
+}

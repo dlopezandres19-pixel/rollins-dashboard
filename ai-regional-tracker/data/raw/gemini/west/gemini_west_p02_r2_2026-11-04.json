@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control service in the Western United States (California, Washington, and Arizona), the best option often depends on whether you prefer a large national brand with standardized guarantees or an established regional company tailored to local climate issues (such as scorpions in Arizona, drywood termites in California, or moisture/carpenter ants in Washington).\n\nHere are the top recommended pest control companies for homeowners across these states:\n\n---\n\n### 1. Best Overall for the West: **Western Exterminator**\n* **Coverage:** Dominant in California and Arizona; sister brands operate throughout Washington under the Rentokil umbrella.\n* **Best For:** Comprehensive home protection, termites, and rodents.\n* **Why Recommend Them:** Western Exterminator has served the West Coast and Southwest for over a century. Because their technicians are specifically trained for western microclimates, they excel at tackling regional challenges like desert pests in Arizona, roof rats in urban California, and localized termite species. They offer their **PestFree365+** plan, which covers dozens of pests year-round with free re-treatments.\n\n---\n\n### 2. Best for Arizona & Desert Pests: **Truly Nolen**\n* **Coverage:** Headquartered in Tucson, Arizona, with widespread operations across AZ and California.\n* **Best For:** Desert-specific pests (scorpions, desert spiders), pack rats, and termites.\n* **Why Recommend Them:** Truly Nolen designed its treatment programs specifically around the seasonal rhythms of the arid Southwest. Their \"Four Seasons Approach\" alters the chemical and physical barrier methods based on shifting pest biology throughout the year. If you are dealing with scorpions, black widows, or subterranean termites in Arizona or Southern California, they are among the most experienced.\n\n---\n\n### 3. Best for California: **Clark Pest Control**\n* **Coverage:** Extensive throughout Northern, Central, and Southern California (as well as Nevada).\n* **Best For:** Termite inspections/clearances, burrowing rodents, and general insect prevention.\n* **Why Recommend Them:** Clark is one of the largest and most well-regarded pest control operations in California. They have deep expertise in California-specific regulations and environmental requirements, and they provide thorough real estate termite inspections (WDO reports), drywood termite fumigation, and routine perimeter defense against Argentine ants and spiders.\n\n---\n\n### 4. Best National Options (Consistent in CA, WA, and AZ): **Orkin & Terminix**\nIf you want guaranteed coverage across all three states with round-the-clock customer support:\n* **Orkin:** Known for some of the most rigorous entomology training programs in the industry. They back their services with a solid 30-day money-back guarantee and provide clear digital inspection reports showing exactly where entry points were sealed and treated.\n* **Terminix:** The industry leader in wood-destroying insect control. If your primary concern is termites—whether dampwood/carpenter ants in Western Washington or drywood/subterranean termites in California and Arizona—Terminix offers proprietary baiting systems (Sentricon) and specialized repair guarantees.\n\n---\n\n### 5. Notable State & Regional Specialists Worth Checking\n\n* **Washington:** \n  * **Cascade Pest Control:** Renowned in the Puget Sound area for eco-friendly, green pest management, especially for carpenter ants and rodent control.\n  * **Eden Pest (Rentokil):** Strong presence throughout Western and Central Washington.\n* **Arizona:**\n  * **Bulwark Exterminating:** Highly rated in the Phoenix and Tucson metro areas for scorpion barriers and spider control with guaranteed free callbacks.\n\n---\n\n### How to Choose for Your Home:\n1. **Target the specific pest:** General perimeter spraying (ants, spiders) can be handled by almost any subscription service (like Aptive, Orkin, or Western). However, specialized pests—such as scorpions (AZ), subterranean/drywood termites (CA/AZ), or carpenter ants (WA)—require companies with dedicated treatment warranties.\n2. **Check the re-treatment policy:** Ensure the contract includes **free re-treatments** between quarterly visits if pests return.\n3. **Compare branch reviews:** Pest control quality is highly dependent on the local branch manager and individual route technician. Always verify the Google or Better Business Bureau rating of your specific local office before signing an annual agreement.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:41:33+00:00",
+  "has_unknown": true
+}

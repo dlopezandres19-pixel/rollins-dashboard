@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "When choosing a residential pest control service in the Western U.S., the most reputable companies generally fall into two categories: **well-established regional powerhouses** that understand local ecosystems (often the preferred choice) and **vetted national brands** with reliable service guarantees.\n\nHere are the most reputable residential pest control companies operating in California, Washington, and Arizona:\n\n---\n\n### 1. Top Regional Powerhouses (Best Local Expertise)\n\n#### **California**\n*   **Western Exterminator:** One of the most recognized and trusted pest control names across the West Coast (now part of Rentokil). They have deep roots in California, offering excellent coverage for everything from Argentine ants to drywood termites, rodents, and bed bugs.\n*   **Clark Pest Control:** A California institution (particularly strong in Northern and Central California). Clark is widely praised for its customer service, reliable seasonal maintenance plans, and specialized termite control.\n*   **Lloyd Pest Control (Southern California):** If you are in San Diego, Orange County, or Los Angeles, Lloyd has operated since the 1930s and is known for honest evaluations and high ratings for structural pest management.\n\n#### **Washington**\n*   **Cascade Pest Control:** Best known throughout the greater Seattle and Puget Sound region. They specialize in eco-conscious, low-toxicity pest and rodent management—critical for the Pacific Northwest's persistent rat, mouse, and carpenter ant problems.\n*   **Eastside Exterminators:** A premier family-owned service serving Western Washington. They are especially famous for their specialized four-step rodent protection process (inspection, exclusion, trapping, and sanitation/repair).\n*   **Senske Services:** A trusted option in Eastern Washington (Spokane, Tri-Cities, Yakima) offering combined pest, weed, and lawn protection suited for the drier, inland climate.\n\n#### **Arizona**\n*   **Burns Pest Elimination:** Headquartered in Arizona and operating extensively across Phoenix and Tucson. They have an outstanding reputation for tackling desert-specific pests—particularly bark scorpions, black widows, roof rats, and subterranean termites.\n*   **Truly Nolen Pest Control:** Headquartered in Tucson, Truly Nolen is a national brand that feels local in Arizona. Their \"Four Seasons\" approach adjusts treatments based on desert pest behavior, and they have some of the highest-rated service branches in the state.\n*   **Blue Sky Pest Control:** A Phoenix-area favorite that routinely ranks high in local customer satisfaction surveys. They use targeted, reduced-toxicity products designed specifically to withstand harsh desert heat.\n\n---\n\n### 2. Top National Providers (Available Across All Three States)\n\nIf you live in a more rural area or want the backing of a large corporation with 24/7 support:\n\n*   **Orkin:** Consistently rated the best overall national provider. Orkin requires rigorous entomology training for its technicians and offers a 30-day money-back guarantee with free re-treatments between scheduled visits. They handle the distinct pest profiles of CA, WA, and AZ equally well.\n*   **Terminix:** Best suited if you suspect wood-destroying insects (like dampwood termites in WA or drywood/subterranean termites in CA and AZ). They offer some of the strongest termite warranties in the industry.\n\n---\n\n### What to Look for Based on Your State:\n\n*   **In Arizona:** Ask specifically about **scorpions and heat degradation**. Standard pesticide sprays break down rapidly in 100°F+ temperatures; reputable AZ companies use micro-encapsulated formulas that resist UV/heat breakdown.\n*   **In Washington:** Prioritize **exclusion and moisture management**. The primary residential issues in the PNW are rodents (roof rats and Norway rats) and carpenter ants. Look for a company that seals entry points rather than just placing bait boxes outside.\n*   **In California:** Verify **licensing through the California Structural Pest Control Board (SPCB)**. Also, ask about their approach to Argentine ants—over-the-counter or improper chemical sprays cause these colonies to \"bud\" (split into multiple nests), making infestations worse. Reputable providers use specialized slow-acting non-repellent baits.\n\n### Consumer Tip\nBefore signing a 12-month contract, request an **on-site inspection and quote**. Ensure the agreement includes **free reservice guarantee visits** between regularly scheduled quarterly or bi-monthly appointments if pests reappear.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:43:07+00:00",
+  "has_unknown": true
+}

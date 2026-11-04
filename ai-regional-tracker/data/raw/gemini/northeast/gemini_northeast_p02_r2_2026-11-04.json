@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Northeast—specifically New York, New Jersey, and Pennsylvania—the best pest control company often depends on whether you prefer an established regional provider with deep local experience or a large national chain. \n\nThe Northeast faces distinct pest issues—such as heavy tick and mosquito pressure in the warmer months, carpenter ants, and seasonal rodent intrusions in the fall/winter—making local know-how critical.\n\n---\n\n### Top Regional Picks (Often the Best Balance of Quality and Local Knowledge)\n\n1. **Western Pest Services (NY, NJ, PA, DE, CT)**\n   * **Best For:** Overall regional expertise and long-standing reputation.\n   * **Why Recommend:** Founded in New Jersey in 1928, Western is one of the most respected regional names in the Mid-Atlantic and Northeast. They understand local structural styles, older home vulnerabilities, and regional pest cycles (from spotted lanternflies to carpenter ants).\n   * **What to know:** They offer comprehensive residential protection plans that include free re-treatments between scheduled visits.\n\n2. **Viking Pest Control (NJ, PA, DE, Eastern MD)**\n   * **Best For:** Modern/eco-friendly pest control and smart rodent prevention.\n   * **Why Recommend:** Viking is a standout in New Jersey and Pennsylvania. They are known for utilizing Integrated Pest Management (IPM) and modern Anticimex SMART technology—electronic, non-toxic rodent monitoring systems that alert technicians to rodent activity before an infestation takes hold inside your walls.\n   * **What to know:** Great tick and mosquito programs for suburban properties backed by woods.\n\n3. **Ehrlich Pest Control (Part of Rentokil)**\n   * **Best For:** Pennsylvania homeowners and larger property coverage.\n   * **Why Recommend:** Ehrlich was founded in Reading, PA, and has an immense footprint throughout Pennsylvania, upstate New York, and New Jersey. Their \"PestFree365\" plan covers over 30 common pests, including stinging insects, bed bugs, and rodents.\n   * **What to know:** They have extensive resources for structural pests like termites and wood-destroying beetles.\n\n---\n\n### Top National Chains (Best for Broad Availability and Strong Guarantees)\n\n4. **Orkin**\n   * **Best For:** Thorough inspections, rigorous technician training, and rapid response.\n   * **Why Recommend:** Orkin has strong branch coverage across all three states. Their technicians undergo rigorous training, and their 30-day money-back guarantee makes them a reliable option if you have an active, aggressive infestation (e.g., bed bugs, termites, or German roaches).\n\n5. **Terminix**\n   * **Best For:** Termite treatments and comprehensive annual service plans.\n   * **Why Recommend:** If your primary concern is subterranean termites (very prevalent in NJ, PA, and downstate NY), Terminix has some of the strongest termite damage-repair guarantees in the industry.\n\n---\n\n### Special Mention for NYC / Metro Areas\n* **MMPC (Metropolitan Multi-Pest Control):** If you are in the NYC 5-borough area, Long Island, or Westchester, MMPC is consistently ranked at the top for eco-friendly, green pest management, particularly for bed bugs, mice, and apartment/brownstone pestproofing.\n\n---\n\n### Recommendations for Choosing:\n\n* **Ask about specific Northeast threats:** Make sure their plan covers **carpenter ants** (often excluded from standard base plans) and offers options for **tick/mosquito yard suppression** if you live near wooded or brushy areas.\n* **Look at the branch level:** Pest control quality comes down to the individual technician who visits your home. Look up the specific Google or Yelp reviews for the local branch office serving your town or county.\n* **Get at least 2 quotes:** Most of these companies offer free home inspections and estimates. Comparing two local estimates will help you gauge pricing and ensure you aren’t being pushed into unnecessary upsells.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:18:52+00:00",
+  "has_unknown": true
+}

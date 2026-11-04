@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the West US (California, Washington, Arizona) should consider.",
+  "rep": 3,
+  "response_text": "When hiring a pest control provider in the West—whether dealing with scorpions in Arizona, carpenter ants and rodents in Washington, or persistent Argentine ants and termites in California—it helps to look at a mix of reliable national providers and dominant regional specialists. \n\nHere is a shortlist of top pest control companies to consider across these states:\n\n---\n\n### 1. Best Overall Multi-State Providers (CA, WA, AZ)\n\n*   **Orkin**\n    *   **Best for:** Severe infestations, comprehensive inspections, and specialized treatments (termites, bed bugs).\n    *   **Why consider them:** Orkin is widely regarded for having some of the most rigorous technician training in the industry. They use Integrated Pest Management (IPM), targeting the root causes and entry points rather than just spraying chemicals. They back their services with a 30-day money-back guarantee and free re-treatments between scheduled visits.\n*   **Western Exterminator (Rentokil-Terminix)**\n    *   **Best for:** Proven Western track record, particularly in California and Arizona.\n    *   **Why consider them:** A household name in the West for over a century, Western Exterminator has deep local knowledge of Western pest biology (from desert spiders to coastal subterranean termites). They offer their comprehensive “PestFree365+” plan, which covers up to 39 common household pests year-round.\n*   **Aptive Environmental**\n    *   **Best for:** Routine perimeter maintenance and eco-conscious treatments.\n    *   **Why consider them:** Aptive operates heavily across suburban neighborhoods in CA, WA, and AZ. Their business model revolves around seasonal exterior quarterly treatments using naturally derived pyrethrins. While they generally do not handle wood-destroying organisms (termites) or wildlife trapping, they are great for routine management of spiders, ants, wasps, and crickets.\n\n---\n\n### 2. Standout State & Regional Specialists\n\nIf you prefer companies with deep roots in local ecosystems, these regional powerhouses often outperform national chains in customer service:\n\n#### **California: Clark Pest Control**\n*   **Where they operate:** Throughout Northern, Central, and Southern California (and parts of Northern Nevada).\n*   **Why consider them:** Clark is one of the largest regional pest control companies in the country. Because California has strict environmental and pesticide regulations, Clark excels in IPM and offers robust \"Year-Round Pest-Away\" plans, as well as specialized services for drywood termites, lawn care, and burrowing pests (gophers and moles).\n\n#### **Arizona: Truly Nolen Pest Control**\n*   **Where they operate:** Headquartered in Tucson, with extensive coverage across Phoenix, Tucson, and statewide.\n*   **Why consider them:** Desert pest control requires specific expertise—especially for bark scorpions, black widows, roof rats, and desert subterranean termites. Truly Nolen’s \"Four Seasons\" approach adjusts formulations based on the extreme desert weather cycles, and their technicians are especially skilled at scorpion sealing (home exclusion). \n*   *Runner-up in AZ:* **Burns Pest Elimination** (widely praised for responsive local customer support in Phoenix/Tucson).\n\n#### **Washington: Cascade Pest Control**\n*   **Where they operate:** Greater Seattle, Puget Sound, and Western Washington.\n*   **Why consider them:** The Pacific Northwest faces unique pest challenges tied to high moisture—primarily destructive carpenter ants, sugar ants, and rampant rat/mouse populations. Cascade is an award-winning local leader in non-toxic, eco-safe treatments and rodent exclusion work that holds up against rainy PNW winters.\n*   *Runner-up in WA:* **Eastside Exterminators** (renowned for structural rodent proofing and attic restoration).\n\n---\n\n### Key Questions to Ask Before Signing a Contract\n\n1.  **Is re-treatment free between scheduled visits?** Most quarterly plans include free callbacks if pests reappear between cycles.\n2.  **Does the plan cover local problem pests?** Standard contracts often exclude wood-destroying insects (termites), scorpions, bed bugs, or burrowing rodents unless an add-on is purchased.\n3.  **What does the initial inspection include?** Reputable companies should inspect your crawl space, attic, and foundation perimeter before quoting a recurring plan.\n4.  **Are the treatments pet- and pollinator-safe?** Ask how they treat near eaves (for bees/wasps) and inside homes with dogs or cats.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:51:16+00:00",
+  "has_unknown": true
+}

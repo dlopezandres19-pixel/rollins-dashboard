@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When selecting a pest control company in the Southeastern United States—specifically in Florida, Georgia, and Texas—it's essential to consider reputable providers with a strong presence in these regions. Here are some notable options:\n\n**1. Orkin**\n\nFounded in 1901, Orkin is a well-established pest control company with over 400 locations nationwide, including extensive coverage in Florida, Georgia, and Texas. They offer a comprehensive range of services, including termite control, mosquito treatment, and general pest management. Orkin employs an \"A.I.M.\" approach—Assess, Implement, Monitor—to ensure effective pest control solutions. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Orkin?utm_source=openai))\n\n**2. Terminix**\n\nEstablished in 1927, Terminix operates in 47 states and over 70 countries, providing services such as termite and pest control, mosquito treatments, and bed bug management. Their extensive network ensures availability in Florida, Georgia, and Texas. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Terminix?utm_source=openai))\n\n**3. Truly Nolen**\n\nTruly Nolen is a family-owned pest control company with over 70 corporate locations in the U.S., including Florida and Texas. They offer a variety of services targeting pests like ants, bed bugs, cockroaches, and termites. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Truly_Nolen?utm_source=openai))\n\n**4. Astro Exterminating Services**\n\nServing Georgia and Florida since 1969, Astro Exterminating Services is a family-owned company offering residential and commercial pest control solutions. Their services include treatments for ants, bed bugs, hornets, wasps, cockroaches, fleas, ticks, mosquitoes, scorpions, and termites. They also provide real estate inspections, lawn treatments, and fumigation services. ([astroexterminating.com](https://www.astroexterminating.com/?utm_source=openai))\n\n**5. Dixon Pest Services**\n\nOperating since 1964, Dixon Pest Services offers pest control solutions in Georgia and Florida. Their services encompass residential and commercial pest management, including treatments for mosquitoes, fire ants, bed bugs, rodents, and termites. They provide inspection-based, customized integrated pest management plans. ([dixonpest.com](https://dixonpest.com/?utm_source=openai))\n\n**6. Green Team Pest**\n\nGreen Team Pest provides pest control services in Texas and Florida, focusing on family and pet-safe treatments. Their services include mosquito, ant, termite, flea, tick, rodent, wasp, roach, silverfish, and spider control. They offer targeted protection plans tailored to local pest conditions. ([greenteampest.com](https://www.greenteampest.com/?utm_source=openai))\n\n**7. ABC Home & Commercial Services**\n\nABC offers residential pest control services across Texas and Central Florida. Their trained specialists help homeowners identify, treat, and prevent problems involving common household pests, termites, mosquitoes, rodents, and other unwanted intruders. Available services and treatment plans vary by market. ([abchomeandcommercial.com](https://www.abchomeandcommercial.com/service-by-location/pest-control-near-you?utm_source=openai))\n\n**8. Northwest Exterminating**\n\nWith service centers across Georgia, Alabama, Florida, North Carolina, South Carolina, and Tennessee, Northwest Exterminating offers pest control, termite protection, mosquito control, wildlife services, and complete home protection. Their local teams provide expert pest control backed by decades of trusted experience. ([callnorthwest.com](https://www.callnorthwest.com/locations/?utm_source=openai))\n\nWhen choosing a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and their approach to safety and environmental responsibility. It's advisable to contact multiple companies to discuss your specific needs and obtain quotes before making a decision. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:55:25+00:00",
+  "has_unknown": true
+}

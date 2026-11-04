@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "For homeowners across the Southeast—particularly in **Florida, Georgia, and Texas**—pest control needs are heavily dictated by high humidity, long warm seasons, and aggressive pests like subterranean/Formosan termites, palmetto bugs (American cockroaches), fire ants, and mosquitoes.\n\nThe top recommendations depending on your specific needs include:\n\n---\n\n### 1. Best Overall for the Region: **Massey Services**\n* **Best for:** Bundled pest, lawn, and termite care.\n* **Why them:** Headquartered in Orlando, Florida, Massey has deep roots in the Southeast and a massive footprint across FL, GA, and TX. Unlike many standard pest companies, Massey treats pest control from an integrated standpoint—combining general pest control, lawn/turf care, mosquito suppression, and termite defense. \n* **Pros:** Great for Southern turf issues (chinch bugs, grubs, fire ants) alongside interior pest control; focuses on exterior perimeter treatments so technicians rarely need to come inside.\n* **Cons:** Pricing can be higher than local independent exterminators, especially if bundled.\n\n---\n\n### 2. Best for Customer Service & Termite Bonds: **Arrow Exterminators**\n* **Best for:** Reliable customer care, whole-home protection, and termite warranties.\n* **Why them:** Headquartered in Atlanta, Georgia, Arrow is one of the largest family-owned pest companies in the country, with substantial coverage across Georgia, Florida, and Texas. They use the **Sentricon** termite baiting system (the gold standard in the Southeast) and have an eco-conscious service model (STEPS).\n* **Pros:** Consistently rates higher for customer satisfaction than the mega-national chains; very thorough termite retreat-and-repair warranties.\n* **Cons:** Pricing can vary significantly by branch and home square footage.\n\n---\n\n### 3. Best for Serious Infestations & Brand Reach: **Orkin**\n* **Best for:** Difficult, active infestations (bed bugs, German roaches, heavy termite damage).\n* **Why them:** Also based out of Atlanta, Orkin has extensive reach in nearly every zip code across FL, GA, and TX. Orkin’s technician training program is widely regarded as the most rigorous in the industry, backed by entomologists.\n* **Pros:** High accountability, 30-day money-back guarantee, fast response times for unexpected callbacks.\n* **Cons:** Often among the most expensive providers; door-to-door or upsell pressure can depend on the local branch.\n\n---\n\n### 4. Check Your Walls First: **HomeTeam Pest Defense**\n* **Best for:** Newer homes (built within the last 15–20 years).\n* **Why them:** Across suburban Texas, Georgia, and Florida, many modern homebuilders install the **Taexx® \"Tubes in the Wall\"** system during construction. HomeTeam is typically the authorized service provider for this system.\n* **Pros:** Technicians treat your home from a locked port on the exterior wall without setting foot inside your house.\n* **Cons:** Less competitive if your home does not already have built-in tubing installed.\n\n---\n\n### What to Look for in the Southeast Before Signing:\n1. **Termite Protection (Retreat vs. Repair):** In FL, GA, and TX, subterranean and Formosan termites cause billions in damage. Check your contract: a **\"Re-treatment Only\"** bond simply means they spray again if termites return. A **\"Repair\"** warranty covers structural damage repairs if they fail to protect the house.\n2. **Exterior-Focused Subscriptions:** A good Southern pest program should treat bi-monthly or quarterly around the exterior perimeter, eaves, and weep screeds, keeping chemicals largely outside your living space.\n3. **Free Callbacks:** Ensure your contract guarantees free re-treatments in between scheduled visits if ants or roaches break the barrier.\n\n**Recommendation:** If you want a full-property solution (lawn + home), start with a quote from **Massey**. If you want a top-rated termite bond and standard home pest defense, get a quote from **Arrow** and compare it with a local, highly rated independent provider in your specific city, as branch quality can vary.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:08:35+00:00",
+  "has_unknown": true
+}

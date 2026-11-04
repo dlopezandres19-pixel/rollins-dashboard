@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "For homeowners and renters in New York, New Jersey, and Pennsylvania, pest challenges range widely—from urban rat and bed bug pressures in Philadelphia and the NYC metro area to deer ticks, carpenter ants, and subterranean termites throughout the suburbs and rural areas.\n\nHere are the best national (and nationally backed) pest control companies operating throughout NY, NJ, and PA, broken down by what they do best:\n\n---\n\n### 1. **Ehrlich Pest Control (A Rentokil Company)**\n* **Best For:** Regional expertise with national backing; all-inclusive yearly plans\n* **Coverage:** Massive presence across PA (where it was originally founded), NJ, and NY.\n* **Why They Stand Out:** While Ehrlich operates with deep local knowledge in the Mid-Atlantic and Northeast, it is owned by **Rentokil**, one of the largest pest control conglomerates in the world. \n* **Key Strengths:**\n  * Their signature **PestFree365+** plan is among the most comprehensive in the industry, covering 36 common pests—including bed bugs and stinging insects, which many other companies exclude or charge extra to treat.\n  * Excellent for seasonal Northeast pests like stink bugs, carpenter bees, mice, and spotted lanternflies.\n\n---\n\n### 2. **Orkin**\n* **Best For:** Severe infestations (bed bugs, rodents, cockroaches) & technician training\n* **Coverage:** Extensive across all three states, from dense urban centers (NYC boroughs, Philly, Pittsburgh) to suburban and rural counties.\n* **Why They Stand Out:** Orkin is widely regarded for having the most rigorous technician training program in the industry (certified through Purdue University). If you are dealing with an aggressive, hard-to-eradicate issue like German cockroaches or bed bugs, Orkin is often the most reliable option.\n* **Key Strengths:**\n  * Robust **30-day money-back guarantee** and free re-treatments between scheduled visits.\n  * Strong integrated pest management (IPM) practices, focusing on identifying entry points rather than simply spraying baseboards.\n\n---\n\n### 3. **Terminix**\n* **Best For:** Termite prevention, moisture control, and wildlife exclusion\n* **Coverage:** Ubiquitous across NY, NJ, and PA.\n* **Why They Stand Out:** Terminix is the national standard for subterranean termite protection, which is a major issue in older wood-framed homes across the Mid-Atlantic.\n* **Key Strengths:**\n  * **The Nix Pest Guarantee:** If covered pests come back between treatments, they return at no extra charge.\n  * Beyond insects, Terminix has strong **wildlife exclusion** services (raccoons, bats, squirrels, and mice in attics or crawlspaces), as well as attic insulation and crawlspace encapsulation services to eliminate pest-attracting moisture.\n\n---\n\n### 4. **Western Pest Services (A Rollins Company)**\n* **Best For:** High-touch service tailored specifically to the Tri-State area\n* **Coverage:** Dedicated focus exclusively on NJ, NY, PA, Delaware, and Connecticut.\n* **Why They Stand Out:** Western Pest Services operates as a regional powerhouse backed by the national infrastructure of **Rollins, Inc.** (the parent company of Orkin). \n* **Key Strengths:**\n  * Highly regarded in New Jersey and the NYC commuter belt for both residential and commercial services.\n  * Very familiar with local municipal codes, older housing structures, and specific Mid-Atlantic threats (like wood-destroying insects and overwintering rodents).\n\n---\n\n### 5. **Aptive Environmental**\n* **Best For:** General suburban exterior barrier treatments & eco-friendly options\n* **Coverage:** Strong presence in suburban areas (Long Island, Westchester/Rockland, North/Central/South Jersey, and the Philadelphia suburbs).\n* **Why They Stand Out:** Aptive focuses almost entirely on quarterly perimeter defense using treatments based on natural pyrethrins (derived from chrysanthemums).\n* **Key Strengths:**\n  * Easy-to-use digital account management and responsive customer service for between-visit touch-ups.\n  * **Note on limitations:** Aptive generally does **not** treat for termites, bed bugs, or heavy wildlife issues. They are best",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:23:20+00:00",
+  "has_unknown": true
+}

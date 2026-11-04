@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast—particularly in Florida, Georgia, and Texas—warm climates, high humidity, and long growing seasons create high pest pressure year-round. Homeowners in these states deal heavily with subterranean and Formosan termites, American cockroaches (\"palmetto bugs\"), fire ants, mosquitoes, and roof rats.\n\nHere is a breakdown of the main residential pest control providers and service models available in this region.\n\n---\n\n### 1. Top Regional & National Providers\n\n#### **Large Southeastern Powerhouses**\n* **Arrow Exterminators:** Headquartered in Atlanta, Arrow is one of the largest and most reputable regional operators across Georgia, Florida, and Texas. They offer comprehensive pest control, termite defense (often using the Sentricon system), and wildlife exclusion, with a strong reputation for customer service.\n* **Massey Services:** Headquartered in Central Florida, Massey has a massive footprint across Florida, Georgia, and Texas. They are especially popular for homeowners looking to bundle **indoor pest control, termite protection, and lawn/landscape care** (including weed, fungus, and turf pest prevention).\n* **HomeTeam Pest Defense:** Widely prevalent across new-construction master-planned communities in Texas, Florida, and Georgia. If your home has a **tubes-in-the-wall system (Taexx)** installed during construction, HomeTeam is typically the primary provider equipped to inject pest treatments directly into exterior ports.\n\n#### **Texas-Specific Leader**\n* **ABC Home & Commercial Services:** A household name across Texas (Austin, Dallas-Fort Worth, Houston, San Antonio). Like Massey in Florida, ABC offers multi-service bundles covering general pest, termite, mosquito, lawn maintenance, and HVAC.\n\n#### **National Giants with Extensive Southern Networks**\n* **Orkin:** Headquartered in Georgia, Orkin has deep roots and dense branch networks across FL, GA, and TX. They are known for rigorous technician training, strong retreatment guarantees, and comprehensive targeted plans for hard-to-treat pests like bed bugs and German roaches.\n* **Terminix:** Highly visible across all three states, Terminix is historically best known for extensive termite protection options (liquid treatments and baiting systems) and quarterly general pest maintenance contracts.\n\n---\n\n### 2. Common Service Types & Models\n\nPest control companies in the South typically offer three distinct service approaches:\n\n* **Quarterly or Bi-Monthly Perimeter Defense:** \n  Most general pest maintenance in this region focuses on the exterior foundation, eaves, doors, and windows to stop insects before they enter. Technicians treat the exterior regularly and only treat the interior upon request if an outbreak occurs.\n* **Termite Protection Agreements (\"Termite Bonds\"):** \n  In the Southeast, standard home insurance almost never covers termite damage, making a termite contract essential. Providers typically offer either **liquid soil barriers** (e.g., Termidor) or **baiting stations** (e.g., Sentricon) around the home’s perimeter, accompanied by annual inspections and repair/re-treatment warranties.\n* **Seasonal Add-Ons (Mosquitoes & Fire Ants):** \n  From March through October, mosquito reduction (fogging or biological traps like In2Care) and broadcast yard treatments for fire ants are frequently added to general maintenance packages.\n\n---\n\n### 3. Key Southeast-Specific Considerations\n\nWhen getting quotes from providers in Florida, Georgia, or Texas, keep the following in mind:\n\n1. **Check for Formosan Termite Coverage:** \n   Formosan subterranean termites are prevalent along the Gulf Coast, Central/South Florida, and coastal Georgia/Texas. They are significantly more aggressive than native subterranean termites. Always verify whether a provider's termite warranty specifically covers Formosan damage.\n2. **Review Inclusions and Exclusions:** \n   Basic residential contracts often exclude German cockroaches, bed bugs, fleas, and brown recluse spiders. If you suspect any of these, ask about targeted add-ons.\n3. **Compare Local Independents vs. Corporate Chains:** \n   In addition to regional giants like Arrow and Massey, almost every metro area (such as Atlanta, Tampa, Orlando, Houston, or Dallas) has long-standing, locally owned family operators that often offer more flexible contract terms or lower cancellation fees than national brands.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:15:50+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Choosing the right pest control company in the Western U.S. depends on your specific needs and preferences. Here are a few reputable options to consider in California, Washington, and Arizona:\n\n1. **Orkin**: A nationally recognized company with a strong presence in the West. They offer comprehensive pest control services and are known for their reliable customer service.\n\n2. **Terminix**: Another national provider with extensive experience. They offer a wide range of pest control solutions and have a solid reputation for effectiveness and professionalism.\n\n3. **Western Exterminator**: Known for its localized expertise in the Western U.S., Western Exterminator provides customized solutions and has a strong track record in residential pest control.\n\n4. **Ecola Termite and Pest Control**: Based in California, Ecola offers eco-friendly pest control options and is known for its commitment to green practices.\n\n5. **Green Pest Solutions**: Available in some parts of the West, they focus on environmentally friendly pest control methods and provide personalized service.\n\n6. **Truly Nolen**: With locations in California and Arizona, they offer a holistic approach to pest control, focusing on both prevention and treatment.\n\nWhen choosing a company, consider:\n\n- **Reputation**: Check online reviews and ask for recommendations from neighbors.\n- **Services Offered**: Ensure they handle the specific pests you're dealing with.\n- **Certifications and Licensing**: Verify that the company is properly licensed and certified.\n- **Environmental Impact**: If this is a priority, look for companies that use eco-friendly methods.\n- **Pricing**: Get quotes from multiple companies to compare costs.\n\nAlways ask for a detailed plan and guarantee before proceeding with any services.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:05:12+00:00",
+  "has_unknown": true
+}

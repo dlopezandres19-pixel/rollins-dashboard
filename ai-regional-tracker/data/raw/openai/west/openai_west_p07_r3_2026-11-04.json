@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "When looking for top pest control companies in the Western U.S., several companies are known for their reliable service across California, Washington, and Arizona. Here are some of the best options:\n\n1. **Orkin**: Known for comprehensive pest control services, Orkin offers customized plans and employs well-trained technicians. They have a strong presence in California, Washington, and Arizona.\n\n2. **Terminix**: Offers a wide range of services including termite, bed bug, and general pest control. They are praised for their effective solutions and satisfaction guarantees.\n\n3. **Ecolab**: Focuses on environmentally friendly pest control solutions. They are a good choice for those looking for sustainable options.\n\n4. **Western Exterminator**: Particularly strong in California, they offer personalized service and are known for their customer-friendly approach.\n\n5. **Truly Nolen**: Offers a variety of pest control services with a focus on innovative solutions. They operate across several Western states.\n\n6. **HomeTeam Pest Defense**: Known for their convenient and effective service, they offer unique services like the Taexx built-in pest control system for new homes.\n\nWhen choosing a pest control company, consider factors such as customer reviews, pricing, and any specific pest issues you have. It's also a good idea to get quotes from a few different companies to compare services and prices.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:05:51+00:00",
+  "has_unknown": true
+}

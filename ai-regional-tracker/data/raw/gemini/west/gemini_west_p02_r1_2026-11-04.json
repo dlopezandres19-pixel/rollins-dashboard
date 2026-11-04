@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "For a homeowner living across the Western United States (California, Washington, and Arizona), pest pressures vary dramatically—from bark scorpions in the Sonoran Desert to carpenter ants and roof rats in the Pacific Northwest, to drywood termites in California.\n\nHere are the most reputable pest control companies to consider, broken down by best overall, regional specialists, and state-specific standouts:\n\n---\n\n### 1. Best Overall for the Western U.S.: **Western Exterminator**\n* **Coverage:** California, Washington, Arizona, and neighboring western states.\n* **Why it’s recommended:** Recognizable by their iconic \"Little Man\" mascot, Western Exterminator is part of the Rentokil family and was built specifically around the pest ecosystems of the American West.\n* **Strengths:** \n  * Technicians are trained in micro-climate pests specific to these states (e.g., dampwood termites in WA, subterranean and drywood termites in CA, desert roaches and scorpions in AZ).\n  * Offers their **PestFree365+** plan, which covers dozens of common pests year-round with free follow-up visits between scheduled treatments if pests return.\n\n---\n\n### 2. Best Nationwide Standouts (Reliable Availability & Guarantees)\n\n* **Orkin**\n  * **Best for:** Fast response times and strict technician training.\n  * **Why it’s recommended:** Orkin has one of the highest customer satisfaction ratings among national brands and offers a strict 30-day money-back guarantee. Their technicians complete intensive training accredited by the Entomological Society of America, making them great at properly identifying localized western pests.\n* **Terminix**\n  * **Best for:** Termite infestations and bundled services.\n  * **Why it’s recommended:** Termites are a massive issue throughout California and Arizona. Terminix’s **Nix Guarantee** and specialized bait/monitoring systems (like the Defend System) make them one of the strongest choices if wood-destroying organisms are your primary concern.\n\n---\n\n### 3. Best for Eco-Conscious Suburban Homes: **Aptive Environmental**\n* **Coverage:** Heavy presence in suburban metro areas across CA, AZ, and WA.\n* **Best for:** General exterior perimeter pest control using low-toxicity solutions.\n* **Why it’s recommended:** Aptive focuses primarily on exterior seasonal treatments using pyrethrin-derived products (derived from chrysanthemum flowers). They are a great fit if you have pets or young children and want routine perimeter protection against ants, spiders, wasps, and crickets, though they typically do **not** handle termites or major wildlife removals.\n\n---\n\n### 4. Top Regional & State-Specific Picks\nSometimes a company rooted exclusively in your state will provide better pricing and localized service than a massive national chain:\n\n* **In California: Clark Pest Control**\n  * Now part of the Rollins family, Clark is a northern/central California staple with an exceptional local reputation. They handle everything from bed bugs and termites to burrowing rodents (gophers and ground squirrels), which are common problems on California properties.\n* **In Arizona: Blue Sky Pest Control or Responsible Pest & Scorpion Control**\n  * Arizona requires specialized pest plans because standard pest treatments don't always kill **bark scorpions**. Both of these companies formulate their barriers specifically to target scorpions and roof rats (a huge issue in Phoenix and Tucson neighborhoods).\n* **In Washington: Cascade Pest Control or Eden Advanced Pest Technologies**\n  * In the wet Pacific Northwest climate, carpenter ants, moisture ants, spiders, and Norway/roof rats thrive. Cascade has won environmental awards for targeted, low-impact applications designed for sensitive PNW watersheds.\n\n---\n\n### Recommendations for Choosing:\n\n1. **Match the company to the pest:** \n   * If you suspect **termites**, call **Terminix**, **Orkin**, or **Clark**.\n   * If you live in AZ and see **scorpions**, choose a local specialist like **Blue Sky** or confirm the company uses scorpion-grade microencapsulated products.\n   * If you are in WA dealing with **carpenter ants or moisture pests**, choose **Cascade** or **Western Exterminator**.\n2. **Always ask for a free inspection:** Almost every major provider in these states offers a free initial termite or whole-home inspection before quoting.\n3. **Check the re-service policy:** Ensure your recurring contract includes **free touch-up visits between scheduled quarterly services** if pests reappear indoors.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Aptive",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:41:11+00:00",
+  "has_unknown": true
+}

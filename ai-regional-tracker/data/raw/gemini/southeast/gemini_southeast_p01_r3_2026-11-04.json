@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "Because heat and humidity create year-round pest pressure in the Southeast, choosing a company with strong local expertise—particularly in handling subterranean and Formosan termites, mosquitoes, and roaches—is essential. \n\nHere are the best pest control companies serving Florida, Georgia, and Texas, broken down by regional reach and standout state-specific providers.\n\n---\n\n### Best Overall Across the Southeast (FL, GA, TX)\n\n#### 1. Arrow Exterminators\n* **Best for:** Customer service, integrated pest management, and termite control.\n* **Presence:** Headquartered in Atlanta, GA, with extensive branches throughout Georgia, Florida, and Texas.\n* **Why they stand out:** Arrow is one of the largest family-owned pest control companies in the nation. They use an approach called \"STEPS\" (Sustainable Technology & Environmental Pest Solutions), focusing on minimizing chemical exposure around children and pets. They are particularly renowned for their comprehensive termite warranties (Sentricon system) and responsive customer support.\n\n#### 2. Massey Services\n* **Best for:** Bundled outdoor services (Pest + Lawn + Termite).\n* **Presence:** Headquartered in Maitland, FL, with widespread coverage across Florida, Georgia, and major Texas metros.\n* **Why they stand out:** Massey excels at exterior-focused prevention, targeting pests before they get inside. In the Southeast, lawn health directly affects pest activity, and Massey allows homeowners to bundle general pest control, termite protection, mosquito abatement, and lawn care under one provider.\n\n#### 3. Orkin\n* **Best for:** Technical expertise, severe infestations, and reliability.\n* **Presence:** Headquartered in Atlanta, GA, with massive networks across all three states.\n* **Why they stand out:** Orkin is backed by some of the most rigorous training programs in the pest industry (partnering with university entomology departments). If you are dealing with aggressive wood-destroying organisms or persistent infestations in older homes, Orkin’s targeted treatment plans and 30-day money-back guarantee make them a very safe bet.\n\n#### 4. Terminix\n* **Best for:** Termite protection plans and widespread availability.\n* **Presence:** Deep footprint across FL, GA, and TX.\n* **Why they stand out:** Given the threat of Formosan and subterranean termites throughout the Gulf Coast and coastal Georgia/Florida, Terminix’s specialized termite inspection, baiting (Nix Pest Guarantee), and damage-repair guarantees remain among the strongest in the market.\n\n---\n\n### Top State-Specific Standouts\n\nIf you prefer local specialists over large multi-state chains, these companies earn consistently top marks in their respective states:\n\n#### Texas Standout: ABC Home & Commercial Services\n* **Where:** Austin, Houston, Dallas-Fort Worth, San Antonio, Bryan-College Station.\n* **Why:** A Texas institution. Family-owned for generations, ABC is widely considered the gold standard in the Lone Star State. They understand specific regional challenges—like scorpions in the Hill Country and intense summer mosquito bursts in Houston—and offer bundled home maintenance options.\n\n#### Florida Standout: Truly Nolen\n* **Where:** Ubiquitous across Central and South Florida (also present in Texas).\n* **Why:** Known for their distinctive \"mouse cars,\" Truly Nolen has extensive specialized protocols tailored specifically to Florida's sub-tropical climate. Their Four Seasons program adjusts chemicals and application styles according to the humidity and seasonal bug cycles unique to the state.\n\n#### Georgia Standout: Northwest Exterminating / Breda Pest Management\n* **Northwest Exterminating:** Massive across Georgia with an emphasis on \"green\" and low-toxicity solutions.\n* **Breda Pest Management (Metro Atlanta):** A regional favorite known for using infrared camera technology during inspections to locate hidden termite and wildlife colonies inside walls without invasive drilling.\n\n---\n\n### What to Ask Before Hiring in the Southeast:\n\n1. **Does the termite warranty cover Formosan termites?** Formosan termites are aggressive and widespread in coastal and southern parts of TX, GA, and FL. Some basic termite plans only cover native subterranean species.\n2. **What is the re-treatment policy?** Summer rains wash away exterior barrier treatments quickly. Ensure the company offers free touch-up visits between regular quarterly or bi-monthly services.\n3. **Is an interior or exterior-focused plan better for your home?** Most modern pest services focus heavily on the exterior perimeter to prevent bugs from entering, reducing pesticide use indoors. Verify whether they offer interior treatments as-needed at no extra cost.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:07:35+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast—particularly in Florida, Georgia, and Texas—pest control is typically a year-round necessity due to the warm, humid climate. Homeowners in this region face heavy pressure from subterranean and Formosan termites, American cockroaches (\"palmetto bugs\"), fire ants, mosquitoes, and roof rats.\n\nWhen choosing a residential pest control service, the main options generally fall into two categories: **major regional powerhouses** (often favored for their deep understanding of local pest ecology) and **large national providers**.\n\n---\n\n### 1. Top Regional Providers (Southeast Focus)\n\nThese companies are headquartered in or built around the southern climate, often offering integrated services that include lawn care and wildlife removal:\n\n*   **Massey Services** *(Heavy presence in Florida, Georgia, and Texas)*\n    *   **Best for:** Bundled pest, termite, and lawn/irrigation care.\n    *   **Overview:** Headquartered in Orlando, Massey is one of the dominant players in Florida and has a large footprint in Georgia and Texas. They emphasize preventive, exterior-focused treatments so technicians rarely need to spray chemicals inside your home.\n*   **Arrow Exterminators** *(Headquartered in Georgia; extensive presence in Florida and Texas)*\n    *   **Best for:** Termite protection and whole-home pest management.\n    *   **Overview:** Based in Atlanta, Arrow is one of the largest family-owned pest control companies in the country. They are particularly well-known for their **Sentricon** termite baiting systems and wildlife exclusion services.\n*   **ABC Home & Commercial Services** *(Dominant in Texas; expanding presence)*\n    *   **Best for:** Texas homeowners looking for an all-in-one home service provider.\n    *   **Overview:** A Texas institution (especially in Central and South Texas, including Austin, San Antonio, Houston, and DFW). In addition to general pest and termite control, they handle lawn care, pool service, and HVAC, making them a popular single-vendor choice.\n*   **Cook’s Pest Control** *(Strong in Georgia and Northern Florida)*\n    *   **Best for:** Customer service and traditional residential perimeter care.\n    *   **Overview:** Headquartered in Alabama, Cook's has a strong reputation throughout Georgia and the Florida panhandle. They frequently rank near the top for customer satisfaction in independent surveys.\n\n---\n\n### 2. Major National Providers\n\nNational companies offer large fleets, standard mobile app tracking, 24/7 call centers, and standardized guarantees:\n\n*   **Orkin**\n    *   **Best for:** Targeted, difficult infestations (bed bugs, German roaches) and thorough technician training.\n    *   **Overview:** Headquartered in Atlanta, Orkin has branches across virtually every metro area in FL, GA, and TX. They are known for strict training protocols and strong service guarantees (free re-treatments between scheduled visits).\n*   **Terminix**\n    *   **Best for:** Comprehensive termite bonds and widespread branch availability.\n    *   **Overview:** One of the most established names in termite control. In the Southeast, their termite monitoring and liquid barrier treatments are standard options for real estate transactions and ongoing home defense.\n\n---\n\n### 3. Key Services to Look for in the Southeast\n\nWhen evaluating plans from any of these providers, prioritize the following:\n\n1.  **A Subterranean Termite Bond:** In FL, GA, and TX, termites are a matter of *when*, not *if*. Make sure the provider offers a clear termite contract. Check whether it covers **retreat-only** or **retreat and repair** (the latter covers structural damage if termites get past their system).\n2.  **Exterior-First Perimeter Maintenance:** Most modern services visit bi-monthly or quarterly to treat the foundation, eaves, and yard perimeter. Interior treatments should be included on-demand for free if an issue arises.\n3.  **Fire Ant & Mosquito Add-Ons:** Because the outdoor season spans 8 to 12 months in this region, look for companies that offer seasonal mosquito treatments (or automated misting systems) and broadcast fire ant treatments (such as TopChoice), which can keep a yard ant-free for up to a year.\n\n### How to Decide\n*   **Get 2–3 Quotes:** Most will perform a free initial inspection. Pricing for basic quarterly pest control in the Southeast typically runs between **$35 to $60 per month**, while termite protection plans usually run an initial installation fee plus **$250 to $400 annually** for the renewal/warranty.\n*   **Ask Neighbors:** Because franchise and branch quality can vary significantly by city, checking hyper-local recommendations (like local neighborhood groups) for the specific branch manager or technician in your ZIP code is often the best tie-breaker.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:15:28+00:00",
+  "has_unknown": true
+}

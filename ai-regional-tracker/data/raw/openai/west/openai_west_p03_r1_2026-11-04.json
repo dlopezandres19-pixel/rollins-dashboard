@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When seeking reputable residential pest control services in the western United States—specifically in California, Washington, and Arizona—several companies stand out for their quality service and customer satisfaction:\n\n**Western Exterminator**\n\nWith nearly a century of experience, Western Exterminator operates extensively across California, Washington, and Arizona. They offer eco-friendly pest control solutions for both residential and commercial clients, employing Integrated Pest Management (IPM) techniques to address issues with minimal intrusion. Their services cover common pests such as rodents, bed bugs, ants, and spiders, as well as less common ones like bats and birds. Notably, they provide free inspections and do not require annual contracts. ([consumersadvocate.org](https://www.consumersadvocate.org/termite-control/c/western-exterminator-nw-pest-control-review?utm_source=openai))\n\n**Terminix**\n\nAs one of the largest pest control companies globally, Terminix serves 47 states, including California, Washington, and Arizona. They offer comprehensive pest control services, including treatments for termites, mosquitoes, and bed bugs. Terminix provides free inspections and customizable plans, backed by a service guarantee against re-infestation within the first 30 days. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Terminix?utm_source=openai))\n\n**Orkin**\n\nWith over a century in the industry, Orkin operates more than 400 locations across the U.S., including in California, Washington, and Arizona. They offer same-day service for most locations if contacted before noon and utilize Integrated Pest Management (IPM) services to minimize environmental impact. Orkin provides targeted treatments for pests like termites and bed bugs. ([mypmp.net](https://www.mypmp.net/cbs-picks-top-pest-control-companies-of-2023/?utm_source=openai))\n\n**Blue Sky Pest Control**\n\nBased in Arizona, Blue Sky Pest Control has been recognized as the top pest control company in the state for multiple years. They offer a range of services, including general pest control, termite control, rodent control, bed bug control, bee control, and exclusion services. Their clientele includes residential customers and various commercial sectors. ([azbigmedia.com](https://azbigmedia.com/business/ranking-arizona-top-10-pest-control-companies-for-2026/?utm_source=openai))\n\n**Truly Nolen**\n\nTruly Nolen is a family-owned pest control company with a significant presence in the western U.S., including California and Arizona. They are known for their environmentally friendly treatments and offer comprehensive year-round service bundles. Truly Nolen provides a 30-day or 90-day money-back guarantee, depending on the service requested. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Truly_Nolen?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the specific pests you need to address, the company's service guarantees, eco-friendly practices, and customer reviews. It's advisable to contact these companies directly to discuss your needs and obtain quotes tailored to your situation. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:04:21+00:00",
+  "has_unknown": true
+}

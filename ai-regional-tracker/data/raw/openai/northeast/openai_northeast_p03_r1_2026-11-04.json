@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "When seeking reputable residential pest control services in the Northeast U.S., particularly in New York, New Jersey, and Pennsylvania, consider the following companies:\n\n**Rest Easy Pest Control**\n\nServing New York, New Jersey, and Pennsylvania since 2012, Rest Easy Pest Control offers comprehensive residential services. They are licensed, insured, and provide same-day service. With over 2,500 Google reviews averaging 4.9 stars, they have a strong reputation for reliability and effectiveness. ([resteasypestcontrol.com](https://resteasypestcontrol.com/?utm_source=openai))\n\n**Cooper Pest Solutions**\n\nOperating since 1955, Cooper Pest Solutions serves New Jersey and Pennsylvania. They offer both one-time services and year-round pest prevention plans. Their team includes staff entomologists and provides a 100% satisfaction guarantee. They are known for using fewer pesticides and delivering exceptional customer service. ([cooperpest.com](https://www.cooperpest.com/?utm_source=openai))\n\n**BHB Pest Elimination**\n\nFamily-owned since 1969, BHB Pest Elimination operates in New York City and Northern New Jersey. They emphasize thorough inspections and customized treatment plans, focusing on identifying the root causes of pest issues. Their treatments are kid and pet-friendly, and they hold QualityPro accreditation from the National Pest Management Association. ([bhbpest.com](https://www.bhbpest.com/?utm_source=openai))\n\n**Horizon Pest Control**\n\nServing New Jersey and New York since 1970, Horizon Pest Control offers personalized residential services. Their Home Guard Program covers over 40 common household pests with seasonally scheduled services. They invest significantly in staff training and have received the Angie’s List Super Service award since 2009. ([horizonpestcontrol.com](https://horizonpestcontrol.com/residential/?utm_source=openai))\n\n**Western Pest Services**\n\nEstablished in 1928, Western Pest Services operates throughout New Jersey, New York, Connecticut, Pennsylvania, and Delaware. They offer both residential and commercial pest control services and are a subsidiary of Rollins Inc., ensuring a broad range of resources and expertise. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Western_Pest_Services?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and any guarantees offered. It's advisable to contact multiple providers to discuss your specific needs and obtain quotes before making a decision. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:58:30+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "In the Northeast US, including New York, New Jersey, and Pennsylvania, there are several options for residential pest control. Here are some of the main ones:\n\n1. **Professional Pest Control Services**:\n   - **Orkin**: Known for comprehensive pest management solutions and eco-friendly options.\n   - **Terminix**: Offers a wide range of pest control services and preventative measures.\n   - **Ehrlich**: Provides local expertise with customized pest control plans.\n   - **Local Companies**: Each state has local companies that might offer competitive pricing and personalized services.\n\n2. **DIY Pest Control Products**:\n   - **Baits and Traps**: Available at hardware stores for common pests like ants, mice, and roaches.\n   - **Sprays and Repellents**: For immediate action against visible pests.\n   - **Natural Remedies**: Options like diatomaceous earth, essential oils, and vinegar can be effective for minor issues.\n\n3. **Integrated Pest Management (IPM)**:\n   - Focuses on long-term prevention and control using a combination of techniques such as habitat manipulation, biological control, and use of resistant varieties.\n\n4. **Preventative Measures**:\n   - Regular home maintenance, sealing entry points, and proper sanitation can prevent pest infestations.\n\n5. **Seasonal Treatments**:\n   - Some companies offer seasonal treatments to target specific pests prevalent in different times of the year, such as mosquitoes in summer or rodents in winter.\n\nFor the best results, consider the severity of your pest problem, budget, and personal preferences when choosing a pest control method. Consulting with a professional can also help tailor a plan specific to your home's needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:00:07+00:00",
+  "has_unknown": true
+}

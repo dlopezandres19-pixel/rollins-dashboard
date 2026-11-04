@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, there are several options for residential pest control. Here are some of the main approaches:\n\n1. **Professional Pest Control Services:**\n   - **Terminix** and **Orkin**: National companies that offer comprehensive pest control services including termites, ants, roaches, and rodents.\n   - **Local Companies**: Each state has local pest control companies that may offer more personalized services. Look for companies with good reviews and check for certifications and licenses.\n\n2. **DIY Pest Control Products:**\n   - **Sprays and Baits**: Available at home improvement stores like Home Depot or Lowe’s. Brands like Raid, Hot Shot, and Terro are popular.\n   - **Natural Remedies**: Diatomaceous earth, essential oils, and vinegar solutions can be effective for minor infestations.\n\n3. **Integrated Pest Management (IPM):**\n   - This approach combines various methods for long-term control, focusing on prevention, monitoring, and control. It often involves collaboration with a professional to tailor solutions.\n\n4. **Preventive Measures:**\n   - Sealing entry points, maintaining cleanliness, and proper landscaping can reduce the chance of infestations.\n   - Regular inspections and maintenance by professionals can help catch issues early.\n\n5. **Specialized Services:**\n   - For specific pests like termites, mosquitoes, or bed bugs, look for companies that specialize in those areas, as they will have targeted treatments.\n\nWhen choosing a pest control option, consider the specific pests you are dealing with, your budget, and whether you prefer chemical or natural methods. Always ensure that any professional service is properly licensed and insured.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:57:41+00:00",
+  "has_unknown": true
+}

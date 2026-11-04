@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Southeast US (Florida, Georgia, Texas) should consider.",
+  "rep": 3,
+  "response_text": "Here are some reputable pest control companies you might consider in the Southeast US, covering Florida, Georgia, and Texas:\n\n1. **Terminix**\n   - Offers a wide range of pest control services and has a strong presence across the Southeast.\n\n2. **Orkin**\n   - Known for comprehensive pest management solutions and has local branches throughout the region.\n\n3. **TruGreen**\n   - Provides specialized pest control services, focusing on lawn protection as well.\n\n4. **Arrow Exterminators**\n   - A family-owned business offering pest and termite control services in the Southeast.\n\n5. **Massey Services**\n   - Offers a variety of pest prevention services, with a strong presence in Florida and neighboring states.\n\n6. **Ehrlich Pest Control**\n   - Provides pest, termite, and bed bug control with environmentally friendly options.\n\nThese companies generally offer free inspections and customized plans, so it might be worthwhile to contact a few for quotes and service comparisons.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:57:57+00:00",
+  "has_unknown": true
+}

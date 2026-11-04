@@ -1,0 +1,11 @@
+week,provider,region_id,brand,mention_hits,top3_hits,rank1_hits,total_responses,mention_rate,top3_rate,rank1_rate
+2026-W45,gemini,midwest,Rollins / Orkin,30,30,20,30,1.0,1.0,0.6667
+2026-W45,gemini,midwest,Rentokil / Terminix,30,30,10,30,1.0,1.0,0.3333
+2026-W45,gemini,midwest,Aptive,11,11,0,30,0.3667,0.3667,0.0
+2026-W45,gemini,midwest,Massey,0,0,0,30,0.0,0.0,0.0
+2026-W45,gemini,midwest,Anticimex,0,0,0,30,0.0,0.0,0.0
+2026-W45,gemini,midwest,Arrow Exterminators,0,0,0,30,0.0,0.0,0.0
+2026-W45,gemini,midwest,Truly Nolen,0,0,0,30,0.0,0.0,0.0
+2026-W45,gemini,midwest,Mosquito Squad,0,0,0,30,0.0,0.0,0.0
+2026-W45,gemini,midwest,Lawn Doctor,0,0,0,30,0.0,0.0,0.0
+2026-W45,gemini,midwest,__local_unknown__,30,0,0,30,1.0,0,0

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "In the western U.S., including California, Washington, and Arizona, there are several options for residential pest control. Here are some common methods and companies you might consider:\n\n### Common Methods\n\n1. **Preventive Measures**: \n   - Sealing entry points, maintaining cleanliness, and proper waste disposal can help prevent infestations.\n\n2. **Chemical Treatments**: \n   - Use of pesticides and insecticides to eliminate pests. Ensure they're applied by professionals to minimize risks.\n\n3. **Integrated Pest Management (IPM)**: \n   - Combines various methods such as biological control, habitat manipulation, and use of resistant varieties. Focuses on long-term prevention.\n\n4. **Natural and Organic Solutions**: \n   - Use of natural repellents and organic materials that are environmentally friendly.\n\n5. **Traps and Baits**: \n   - Effective for rodents and insects like ants and cockroaches.\n\n### Popular Companies\n\n1. **Orkin**: \n   - Offers comprehensive pest control services, including termite and bed bug treatments. Known for their extensive network and expertise.\n\n2. **Terminix**: \n   - Provides a wide range of services with a focus on both prevention and treatment. Offers eco-friendly options as well.\n\n3. **Ehrlich Pest Control** (part of Rentokil):\n   - Known for their IPM approach and tailored solutions.\n\n4. **Truly Nolen**: \n   - Offers innovative solutions and has a strong presence in the southwestern U.S.\n\n5. **Western Exterminator**: \n   - Offers personalized service with a focus on eco-friendly practices. Well-regarded in California and nearby regions.\n\n### Local Options\n\n- **California**: Clark Pest Control is a popular choice, known for their comprehensive service and customer satisfaction.\n  \n- **Washington**: EcoShield Pest Solutions offers eco-friendly options tailored to the local climate and pest challenges.\n\n- **Arizona**: Blue Sky Pest Control is well-regarded for their customer service and effective treatments in desert climates.\n\n### Considerations\n\n- **Climate and Pest Type**: Different pests thrive in different climates, so ensure the service is tailored to your specific needs.\n- **Licensing and Certification**: Ensure the company is licensed and certified in your state.\n- **Customer Reviews**: Look up reviews and ratings to gauge service quality and effectiveness.\n\nAlways consult with a professional to customize a plan that best suits your home and pest situation.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:06:28+00:00",
+  "has_unknown": true
+}

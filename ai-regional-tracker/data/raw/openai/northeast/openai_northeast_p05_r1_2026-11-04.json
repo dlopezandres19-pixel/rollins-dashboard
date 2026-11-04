@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "For pest control in the Northeast US, including New York, New Jersey, and Pennsylvania, here are some reputable companies you might consider:\n\n1. **Terminix**: Known for comprehensive services and a strong presence in the Northeast, Terminix offers solutions for a wide range of pests and provides ongoing maintenance plans.\n\n2. **Orkin**: Another well-known national company, Orkin offers extensive experience in pest control and customized treatment plans.\n\n3. **Ehrlich**: With a strong regional presence, Ehrlich provides pest control services tailored to local pest issues, which can be especially beneficial for homeowners.\n\n4. **Western Pest Services**: Operating primarily in the Northeast, Western Pest Services offers specialized services and environmentally friendly options.\n\n5. **Arrow Pest Control**: Based in New Jersey, Arrow Pest Control is a family-owned business offering personalized service and a variety of treatment options.\n\nWhen choosing a pest control company, consider factors like customer reviews, the specific pests you’re dealing with, pricing, and whether the company offers eco-friendly solutions. It might also be helpful to request quotes from a few companies to compare services and costs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:59:02+00:00",
+  "has_unknown": true
+}

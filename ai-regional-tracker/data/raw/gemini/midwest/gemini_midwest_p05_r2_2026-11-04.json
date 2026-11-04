@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "Choosing the best pest control company in the Midwest depends on whether you prefer a large national brand with standardized guarantees or a regional provider with deep expertise in Great Lakes climate conditions (such as cold-weather rodent intrusions, boxelder bugs, and carpenter ants).\n\nHere are the top recommendations across Illinois, Ohio, and Michigan:\n\n---\n\n### 1. Top Regional Providers (Best Local Expertise)\n\nRegional companies often provide more consistent service, lower turnover among technicians, and tailored approaches to Midwest-specific seasonal pest shifts.\n\n* **Rose Pest Solutions (Best Overall for Michigan & Ohio)**\n  * **Where they operate:** Widespread coverage across Michigan, Ohio, and northern Indiana.\n  * **Why choose them:** One of the oldest pest management companies in the country. They excel in seasonal treatments tailored to the Great Lakes region—especially for overwintering pests (boxelder bugs, stink bugs, mice) and carpenter ants. Their customer service reputation typically outscores national chains.\n* **Anderson Pest Solutions (Best for Illinois / Chicago Metro)**\n  * **Where they operate:** Primarily Illinois (especially Chicagoland and northern IL) and Northwest Indiana.\n  * **Why choose them:** A staple in Illinois, Anderson offers an all-inclusive quarterly program (“Natural Choice Home Protection”) that covers dozens of common home pests with environmentally responsible treatments.\n* **Plunkett’s Pest Control / Varment Guard (Best for Broader Midwest Coverage & Wildlife)**\n  * **Where they operate:** Illinois, Ohio, and Michigan.\n  * **Why choose them:** Plunkett’s and its wildlife division, Varment Guard, are family-owned and operate across the Upper Midwest. They are an excellent pick if your problem extends beyond insects to raccoons, bats, squirrels, or heavy rodent infestations.\n\n---\n\n### 2. Top National Providers (Best for Widespread Availability & Guarantees)\n\nIf you live in an exurban or rural area where regional providers don't service, or you want 24/7 customer support and standardized mobile scheduling:\n\n* **Orkin (Best for Active Infestations & Carpenter Ants)**\n  * **Pros:** Industry-leading technician training and thorough inspection protocols. Orkin is particularly effective for stubborn, active infestations (bed bugs, carpenter ants, German roaches).\n  * **Cons:** Often priced slightly higher than local competitors.\n  * **Guarantee:** 30-day money-back guarantee with complimentary return visits between scheduled treatments.\n* **Terminix (Best for Termite & Combined Bundles)**\n  * **Pros:** Termite baiting systems (Nix Pest / Sentricon) and standard pest protection bundled together can be very cost-effective. They have branch offices in nearly every medium-to-large city across IL, OH, and MI.\n  * **Cons:** Customer service responsiveness can vary heavily depending on the local branch.\n\n---\n\n### How to Decide for Your Home\n\n| If your primary concern is... | Best Choice |\n| :--- | :--- |\n| **Living in MI or OH and wanting personalized service** | **Rose Pest Solutions** |\n| **Living in IL and wanting a dependable quarterly plan** | **Anderson Pest Solutions** |\n| **Wildlife or attic intruders (bats, squirrels, mice)** | **Plunkett’s / Varment Guard** |\n| **A severe, active insect problem needing quick triage** | **Orkin** |\n| **Subterranean termites** | **Terminix or Orkin** |\n\n---\n\n### Questions to Ask Before Signing a Contract\n\n1. **Does the quarterly plan include free return visits?**  \n   In the Midwest, pests change dramatically by season (ants in spring, wasps/mosquitoes in summer, rodents/stink bugs in late fall). Ensure your contract covers free retreatments between regular visits if pests reappear.\n2. **What is the cancellation policy?**  \n   Many companies offer lower initial treatment rates in exchange for a mandatory 1-year auto-renewing contract. Make sure there are no steep early-termination fees.\n3. **Does the inspection include attics, basements, and crawlspaces?**  \n   Midwest homes commonly have basements and crawlspaces where subterranean termites, moisture bugs (silverfish, centipedes), and mice establish nests. The technician should inspect these areas, not just spray around the baseboards.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:33:35+00:00",
+  "has_unknown": true
+}

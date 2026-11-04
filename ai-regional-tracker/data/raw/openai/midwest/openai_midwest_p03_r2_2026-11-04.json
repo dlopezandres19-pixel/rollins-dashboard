@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "In the Midwest, several reputable pest control companies operate across Illinois, Ohio, and Michigan. Here are some well-regarded options:\n\n1. **Orkin**: Known nationwide, Orkin offers comprehensive pest control services with a strong focus on customer service and effective treatments.\n\n2. **Terminix**: Another national leader, Terminix provides extensive pest management solutions, including termite and bed bug treatments.\n\n3. **TruGreen**: While primarily known for lawn services, TruGreen also offers pest control, focusing on outdoor pest management to protect lawns and gardens.\n\n4. **Rose Pest Solutions**: Operating in the Midwest region, Rose Pest Solutions offers a range of services for residential and commercial properties with a strong emphasis on integrated pest management.\n\n5. **Varment Guard**: With a presence in Ohio and neighboring states, Varment Guard specializes in wildlife and pest control, providing humane and effective solutions.\n\n6. **Wil-Kil Pest Control**: Serving the Midwest, Wil-Kil is known for its customized pest management plans and eco-friendly approach.\n\nWhen choosing a pest control service, it's important to check customer reviews, verify licenses and certifications, and consider the company's approach to environmentally friendly practices. It's also helpful to get estimates from multiple companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:01:35+00:00",
+  "has_unknown": true
+}

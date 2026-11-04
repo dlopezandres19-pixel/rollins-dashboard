@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "Because the Southeast deals with unique pest pressures—such as high humidity, year-round roach and ant activity, and aggressive subterranean/Formosan termites—the most reputable companies in Florida, Georgia, and Texas are a mix of strong regional giants and top-tier national brands. \n\nThe following residential pest control companies are consistently rated highest for reliability, technician training, and customer service in this region:\n\n---\n\n### 1. Top Regional Giants (Best Overall Customer Satisfaction)\n\n* **Arrow Exterminators** *(Strongest in: Georgia, Florida, Texas)*\n  * **Headquarters:** Atlanta, GA\n  * **Why they are reputable:** Despite being one of the largest pest control providers in the nation, Arrow still operates with a strong regional, customer-first culture. They are particularly well-regarded in Georgia and Florida for their comprehensive pest management and **\"Stealth\" termite protection**, which utilizes Sentricon baiting systems. \n  * **Best for:** Termite bonds, whole-home pest protection, and responsive regional customer service.\n\n* **Massey Services** *(Strongest in: Florida, Georgia, Texas)*\n  * **Headquarters:** Orlando, FL\n  * **Why they are reputable:** Massey is an institution across Florida and has expanded significantly throughout Georgia and major Texas metros (Dallas-Fort Worth, Houston, Austin). They specialize in environmentally responsible Integrated Pest Management (IPM), targeting the exterior perimeter to minimize indoor chemical use. \n  * **Best for:** Florida and coastal living, especially if you want to bundle residential pest control with **lawn and landscape care** (targeting lawn pests like chinch bugs and sod webworms).\n\n* **ABC Home & Commercial Services** *(Strongest in: Texas)*\n  * **Headquarters:** Austin, TX\n  * **Why they are reputable:** If you are located in Texas (Austin, San Antonio, Houston, Dallas, Corpus Christi), ABC is often considered the gold standard for local reputation. Family-owned for generations, they have a massive presence and consistently high customer retention rates.\n  * **Best for:** Texas homeowners looking for established local expertise in scorpions, fire ants, native termites, and seasonal mosquito control.\n\n---\n\n### 2. Top National Providers with Deep Southeastern Infrastructure\n\n* **Orkin** *(Strong across: Florida, Georgia, and Texas)*\n  * **Headquarters:** Atlanta, GA\n  * **Why they are reputable:** Orkin’s corporate roots and primary training academy are in Atlanta, meaning their Southeastern footprint is massive. They have some of the most rigorous training standards in the industry, backed by board-certified entomologists. Their 30-day money-back guarantee and free re-treatments between visits are strictly honored.\n  * **Best for:** Complex infestations (bed bugs, severe termite damage) and homeowners who prefer a standardized, data-driven treatment protocol.\n\n* **Terminix** *(Strong across: Florida, Georgia, and Texas)*\n  * **Headquarters:** Memphis, TN (Part of Rentokil Terminix)\n  * **Why they are reputable:** Given their origins in the American South, Terminix essentially built its brand on combating Southern termite species. They have dense branch coverage across every major city and rural pocket in FL, GA, and TX, making scheduling and emergency calls fast.\n  * **Best for:** Termite coverage options (bait stations, liquid barriers, and damage repair guarantees).\n\n---\n\n### 3. Notable Mentions Worth Checking Locally\n\n* **Truly Nolen Pest Control:** Especially strong in Florida and Texas. Known for their \"Four Seasons\" approach, adjusting treatment chemistries based on seasonal pest lifecycles (ants in spring, roaches in summer, rodents in fall).\n* **Northwest Exterminating:** Very popular across Georgia and expanding into neighboring states. They are known for their \"green,\" family-and-pet-friendly formulas.\n\n---\n\n### Key Tips for Hiring in the Southeast:\n1. **Always Check the Termite Bond:** In FL, GA, and TX, subterranean and Formosan termites are a constant threat. If signing a contract, confirm whether it is a **Retreatment-Only** warranty or a **Repair/Damage Guarantee** (which covers structural damage repairs if termites breach the barrier).\n2. **Focus on Perimeter Defenses:** Because roaches (\"palmetto bugs\") and ants thrive outdoors in Southern heat, look for companies that emphasize exterior barrier sprays, granule applications, and eave de-webbing to stop pests before they enter.\n3. **Look for QualityPro Accreditation:** When comparing smaller local companies against regional providers, check if they are certified by the National Pest Management Association (NPMA) as **QualityPro**, which mandates strict background checks, drug testing, and professional standards.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:09:18+00:00",
+  "has_unknown": true
+}

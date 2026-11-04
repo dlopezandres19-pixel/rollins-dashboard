@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "For homeowners in the Midwest—specifically Illinois, Ohio, and Michigan—the best pest control company depends on whether you prefer an established regional specialist with deep knowledge of Midwest climates or a large national brand with 24/7 scheduling. \n\nHere are the top recommendations broken down by category:\n\n---\n\n### 1. Best Overall Regional Choice: **Rose Pest Solutions**\n* **Service Area:** Strong coverage across Michigan, Ohio, Illinois, and Indiana.\n* **Why Choose Them:** Founded in 1860, Rose is one of the oldest and most respected pest management companies in the country. Because they operate specifically in the Great Lakes/Midwest region, their board-certified entomologists tailor their treatments to the local climate cycle (such as spring carpenter ants, late-summer wasps, and fall rodent/stink bug migrations).\n* **Best For:** Homeowners who want high-touch customer service, eco-conscious treatment plans, and technicians who know local pest patterns inside and out.\n\n---\n\n### 2. Best for Combined Pest & Wildlife Issues: **Plunkett’s Pest Control / Varment Guard**\n* **Service Area:** Illinois, Michigan, and Ohio (often operating under the **Varment Guard** brand in Ohio and parts of Michigan).\n* **Why Choose Them:** Midwest winters drive pests indoors, and that includes wildlife like raccoons, bats, and squirrels, alongside mice and rats. Varment Guard/Plunkett’s excels at integrated pest management (IPM) that pairs traditional insect control with structural exclusion and humane wildlife trapping.\n* **Best For:** Homes with attic activity, crawl space intrusions, or properties backing up to woods/lakes where wildlife and insects overlap.\n\n---\n\n### 3. Best National Chains (Wide Availability & 24/7 Response)\n\nIf you live in a rural area or want the backing of a large national warranty, two providers stand out:\n\n* **Orkin:**\n  * **Strengths:** Widely recognized for rigorous technician training and consistent protocols. They offer a reliable 30-day money-back guarantee and strong coverage for difficult infestations (like German cockroaches, bed bugs, and carpenter ants).\n  * **Best For:** Fast emergency response, 24/7 customer service, and severe insect infestations.\n* **Terminix:**\n  * **Strengths:** Excellent for subterranean termites (common in southern/central Illinois and parts of Ohio) and perimeter barrier protection. Their **Nix Pest Guarantee** covers free re-treatments between scheduled visits.\n  * **Best For:** Termite monitoring/prevention systems and bundling pest control with moisture/insulation management.\n\n---\n\n### 4. Strong State-Specific Alternatives\nIf you prefer a smaller, community-focused company, consider these highly rated local providers:\n* **Ohio:** **ScherZinger Pest Control** (family-owned, serving Cincinnati, Dayton, and Columbus since 1934).\n* **Michigan:** **Griffin Pest Solutions** (now part of Rentokil, but heavily established across Kalamazoo, Grand Rapids, Detroit, and Ann Arbor).\n* **Illinois:** **Anderson Pest Solutions** (part of Rentokil, very prominent throughout Chicagoland and northern Illinois).\n\n---\n\n### Key Midwest Considerations Before You Sign\n1. **Seasonal Pest Needs:** The Midwest faces distinct seasonal waves:\n   * **Spring:** Subterranean termites, carpenter ants, and pavement ants.\n   * **Summer:** Mosquitoes, ticks, wasps, and hornets.\n   * **Fall:** Brown marmorated stink bugs, boxelder bugs, Asian lady beetles, and mice seeking warm foundations.\n   * *Make sure your contract includes seasonal perimeter sweeps to stop overwintering pests before they enter the siding.*\n2. **Re-treatment Guarantee:** Always confirm that free re-treatments are included between scheduled visits if pests return.\n3. **Check Branch-Specific Reviews:** While brands like Orkin, Terminix, or Rose have strong reputations generally, service quality depends on the local branch manager and technicians. Check the specific branch's Google and Better Business Bureau ratings before signing an annual contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:33:56+00:00",
+  "has_unknown": true
+}

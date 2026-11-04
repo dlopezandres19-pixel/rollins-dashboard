@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "In the Midwest, including Illinois, Ohio, and Michigan, homeowners have several options for residential pest control:\n\n1. **Professional Pest Control Services**:\n   - **Orkin**: Known for comprehensive pest management solutions.\n   - **Terminix**: Offers a wide range of services including termite and mosquito control.\n   - **Ehrlich Pest Control**: Provides pest prevention and removal services.\n   - **Local Companies**: Many areas have local pest control businesses that may offer more personalized service. \n\n2. **DIY Pest Control**:\n   - **Baits and Traps**: Available at hardware stores; useful for ants, rodents, and cockroaches.\n   - **Insecticides**: Sprays and powders for common pests like ants and spiders.\n   - **Natural Solutions**: Using essential oils or diatomaceous earth as deterrents.\n\n3. **Preventive Measures**:\n   - **Sealing Entry Points**: Close gaps in doors, windows, and foundations.\n   - **Regular Cleaning**: Reduces attractants like food debris.\n   - **Yard Maintenance**: Keeping the lawn trimmed and removing standing water to deter pests like mosquitoes.\n\n4. **Integrated Pest Management (IPM)**:\n   - A holistic approach combining monitoring, prevention, and control methods to manage pests with minimal environmental impact.\n\nChoosing the right option often depends on the specific pest issue, budget, and personal preference for professional versus DIY solutions.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:03:16+00:00",
+  "has_unknown": true
+}

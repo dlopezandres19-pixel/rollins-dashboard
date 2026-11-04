@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control company in the Southeast US, including Florida, Georgia, and Texas, consider comparing the following providers:\n\n1. **Orkin**: Known for its comprehensive pest management services and extensive experience. They offer customized plans and have a strong reputation.\n\n2. **Terminix**: Offers a wide range of services and has a national presence. They provide both residential and commercial pest control solutions.\n\n3. **Truly Nolen**: Offers unique, environmentally friendly pest control options. They are known for their innovative techniques.\n\n4. **Arrow Exterminators**: A family-owned company that provides a variety of pest control services, focusing on eco-friendly solutions.\n\n5. **Massey Services**: Based in Florida, they offer specialized services tailored to the climate and pest issues common in the Southeast.\n\n6. **Ehrlich Pest Control**: Known for their customer service and tailored pest control plans. They also offer green pest control options.\n\n7. **Aptive Environmental**: Focuses on environmentally responsible approaches, offering year-round protection plans.\n\nWhen comparing these companies, consider factors such as pricing, service plans, customer reviews, and any guarantees they offer. It’s also helpful to check if they have specific expertise in dealing with the pests common in your area.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:57:20+00:00",
+  "has_unknown": true
+}

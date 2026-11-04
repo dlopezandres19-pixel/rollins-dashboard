@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "When choosing a residential pest control provider in Florida, Georgia, and Texas, homeowners generally divide their options between large regional providers that specialize in the humid, pest-heavy Southern climate and nationwide brands with extensive local branches.\n\n---\n\n### 1. Top Regional Powerhouses (Deep Roots in the Southeast & Texas)\n\n* **Massey Services**\n  * **Strongest in:** Florida (headquartered in Orlando), with heavy operations in Georgia and Texas.\n  * **Best for:** Bundled home services (pest control, termite protection, mosquito suppression, and lawn care/irrigation).\n  * **Reputation:** Massey is one of the largest privately held service companies in the region. They emphasize preventive, exterior-focused treatments so technicians rarely need to spray chemicals inside your living spaces.\n* **Arrow Exterminators**\n  * **Strongest in:** Georgia (headquartered in Atlanta), Florida, and Texas.\n  * **Best for:** Termite defense and whole-home pest protection (STEPS program).\n  * **Reputation:** Arrow has grown into one of the largest family-owned pest control companies in the country. They are particularly well regarded for termite warranties and environmentally conscious Integrated Pest Management (IPM).\n* **ABC Home & Commercial Services**\n  * **Strongest in:** Texas (major branches in Austin, Houston, DFW, San Antonio), with a growing presence in nearby states.\n  * **Best for:** Full-service exterior care (pests, termites, lawn, pool, and AC).\n  * **Reputation:** A household name across Texas. If you live anywhere in the Texas triangle, ABC is typically one of the highest-rated providers for customer service and technician training.\n* **HomeTeam Pest Defense**\n  * **Strongest in:** Texas and Florida (especially in newer subdivisions).\n  * **Best for:** Built-in pest defense (Taexx system).\n  * **Reputation:** HomeTeam partners heavily with homebuilders across the Sunbelt. If your home was built in the last 15–20 years and has small locked utility ports on the outside walls with tubing inside the drywall, HomeTeam is the primary provider equipped to service that system.\n\n---\n\n### 2. Leading National Brands with Deep Local Footprints\n\n* **Orkin**\n  * **Coverage:** Ubiquitous across Florida, Georgia, and Texas (headquartered in Atlanta, GA).\n  * **Best for:** Serious, immediate infestations (bed bugs, aggressive roach populations, rodents).\n  * **Reputation:** Orkin is known for having some of the most rigorous technician training programs in the industry. While their pricing is often on the higher end, their 30-day money-back guarantee and fast response times make them a reliable benchmark.\n* **Terminix**\n  * **Coverage:** Dense branch network throughout all three states.\n  * **Best for:** Termite monitoring, baiting (Sentricon), and warranty bonds.\n  * **Reputation:** Given the severe risk of Formosan and subterranean termites across the Gulf Coast and Southeast, Terminix is one of the most widely used providers for termite real-estate inspections and long-term protection bonds.\n* **Truly Nolen**\n  * **Strongest in:** Florida and Texas.\n  * **Best for:** Four-season routine pest protection and rodent exclusion.\n  * **Reputation:** Easily recognized by their \"mouse cars,\" Truly Nolen designs its quarterly service schedule around weather and pest breeding cycles, which fits the extended warm seasons in FL and TX well.\n\n---\n\n### Tips for Homeowners in FL, GA, and TX\n\n1. **Prioritize Termite Coverage:** The Southeast has intense pressure from Eastern subterranean, drywood, and destructive Formosan termites. Always ask whether a provider's termite contract is a **treatment-only** guarantee or a **repair/damage** guarantee (which pays to fix structural damage if termites return).\n2. **Bundle Lawn & Pest:** In warm, humid states, lawn pests (like chinch bugs, armyworms, and fire ants) often bridge directly into house pests. Providers like **Massey** and **ABC** offer bundles that treat turf, perimeter, and interior together.\n3. **Check Local Branch Reviews:** National and multi-state brands vary by branch. Check Google and neighborhood forums (like Nextdoor) for the specific branch servicing your ZIP code, as technician turnover and responsiveness can differ by office.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:10:47+00:00",
+  "has_unknown": true
+}

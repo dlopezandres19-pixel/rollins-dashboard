@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Midwest (Illinois, Ohio, and Michigan), pest control needs are heavily dictated by changing seasons—spring carpenter ants, summer stinging insects and mosquitoes, fall invaders like stink bugs and boxelder bugs, and winter rodent intrusions. \n\nHere are the best pest control companies serving the region, broken down by category:\n\n---\n\n### 1. Best Regional Specialist: **Rose Pest Solutions**\n* **Best for:** Homeowners who prefer a dedicated Midwest company over a giant national conglomerate.\n* **Why they stand out:** Established in 1860, Rose is one of the oldest pest control companies in the nation and is headquartered in the Midwest, with extensive branch networks across Illinois, Michigan, Ohio, and Indiana. Their technicians have a nuanced understanding of regional housing types (from Chicago brick bungalows to Michigan lakefront properties).\n* **Services:** Residential recurring plans, bed bugs, carpenter ants, termites, and seasonal perimeter defense.\n* **Pros:** Highly rated local customer service, certified entomologists on staff, and customized seasonal scheduling.\n\n---\n\n### 2. Best Overall National Provider: **Orkin**\n* **Best for:** Consistent reliability, emergency response, and highly trained technicians.\n* **Why they stand out:** Orkin has an extensive branch presence throughout all three states (major metros like Chicago, Cleveland, Columbus, Detroit, and Grand Rapids, as well as rural areas). Orkin’s training program (in partnership with university entomology departments) is widely considered the industry standard.\n* **Services:** General pest plans, termite baiting/treatment, bed bugs, mice/rats, and tick/mosquito yard treatments.\n* **Pros:** Strict 30-day money-back guarantee, free re-treatments between visits if pests return, and detailed technician inspection reports.\n* **Cons:** Generally higher pricing than smaller local operations.\n\n---\n\n### 3. Best for Termites & Multi-Pest Bundles: **Terminix**\n* **Best for:** Homes with severe wood-destroying insect risks or those wanting bundled service (pests + termite protection + attic insulation).\n* **Why they stand out:** Like Orkin, Terminix has broad coverage across IL, OH, and MI. Their standout offering is the **Termix Promise** and their termite baiting/liquid barrier treatments, which are vital if your home has older crawl spaces or damp basements common in the Midwest.\n* **Services:** Termite protection, general quarterly pest plans, wildlife trapping/exclusion, crawl space encapsulation.\n* **Pros:** 24/7 customer service line, user-friendly digital account management, and strong termite warranty options.\n\n---\n\n### 4. Best for Wildlife & Attic Intrusions: **Varment Guard** (by Plunkett’s)\n* **Best for:** Raccoons, bats, squirrels, and birds.\n* **Why they stand out:** In Ohio and southern Michigan, nuisance wildlife often requires specialized trapping and exclusion services that standard bug-spraying companies do not handle well. Varment Guard specializes specifically in humane trapping, physical home exclusion (sealing entry points), and damage remediation.\n* **Pros:** Solves structural and attic problems that standard chemical pest control won't touch.\n\n---\n\n### 5. Best for Modern, Eco-Minded Maintenance: **Aptive Environmental**\n* **Best for:** Suburban homeowners seeking perimeter-only, recurring preventative maintenance.\n* **Why they stand out:** Aptive operates heavily in the suburban corridors of Chicago, Detroit, and Columbus. They focus primarily on the exterior perimeter using treatments derived from natural pyrethrins (chrysanthemum flowers). \n* **Pros:** Clean, paperless communication and complimentary re-services.\n* **Cons:** They do not treat termites, bed bugs, or wildlife.\n\n---\n\n### Tips for Midwest Homeowners Before Booking\n\n1. **Ask About Winter Coverage:** A proper Midwest plan should focus heavily on the **exterior in late summer/fall** (to stop mice, boxelder bugs, and Asian lady beetles from entering walls) and focus on the **interior/basement in winter**.\n2. **Prioritize Free Re-Services:** Ensure your agreement specifies that if covered pests (like ants or mice) reappear between scheduled quarterly visits, the company will return at no charge.\n3. **Get Free Inspections:** Orkin, Terminix, and Rose generally provide free initial home inspections for complex issues like termites or bed bugs—always compare at least two written quotes before signing a contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:35:48+00:00",
+  "has_unknown": true
+}

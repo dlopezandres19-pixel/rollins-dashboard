@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control provider in the Southeast—especially across Florida, Georgia, and Texas—you are dealing with high humidity, dense mosquito populations, aggressive roaches (palmetto bugs), fire ants, and severe subterranean and Formosan termite pressure. \n\nTo find the best balance of price, service quality, and guarantees, here are the top regional powerhouses and national providers you should compare:\n\n---\n\n### 1. Major Regional Champions (Often the Best Balance of Service & Scale)\n\n*   **Massey Services** *(Strongest in FL, GA, and TX)*\n    *   **Best For:** All-in-one exterior care (pest, termite, lawn, and irrigation).\n    *   **Why Consider Them:** Headquartered in Florida, Massey was built specifically for humid, Southern climates. They emphasize perimeter treatments to keep pests out without filling your home with chemicals, and they are one of the most reliable options if you want to bundle pest control with turf and shrub care.\n*   **Arrow Exterminators** *(Extensive footprint in GA, FL, and TX)*\n    *   **Best For:** Termite defense and top-tier customer service ratings.\n    *   **Why Consider Them:** Based in Atlanta, Arrow is one of the largest privately held pest control companies in the country. They frequently outscore national mega-chains in customer satisfaction. They specialize in Whole-Home environmental defense (including wildlife removal) and have robust Sentricon termite programs.\n*   **ABC Home & Commercial Services** *(Essential to compare if you are in Texas; select presence in FL)*\n    *   **Best For:** Texas homeowners wanting comprehensive home services.\n    *   **Why Consider Them:** A household name across Texas (Austin, Houston, Dallas-Fort Worth, San Antonio). Like Massey in Florida, ABC offers pest control alongside AC repair, lawn care, and handyman services. They have a deep understanding of Texas-specific pests like scorpions, carpenter ants, and drywood termites.\n\n---\n\n### 2. The Major National Brands (Best for Wide Availability & Rapid Scheduling)\n\n*   **Orkin**\n    *   **Best For:** Targeted pest elimination, rigorous technician training, and strict guarantees.\n    *   **Why Consider Them:** Headquartered in Atlanta, Orkin has an extensive branch network across every corner of GA, FL, and TX. Their technicians undergo rigorous entomology-backed training. While their recurring service contracts can be on the pricier side, their 30-day money-back guarantee and fast response times make them a strong benchmark to quote against.\n*   **Terminix**\n    *   **Best For:** Comprehensive termite warranties and proprietary baiting systems.\n    *   **Why Consider Them:** Termites are a massive structural risk in the Southeast. Terminix is famous for its termite protection plans, which often cover future damage repairs up to a high limit (check your specific contract details). They also run frequent promotional discounts on general pest and mosquito treatments.\n\n---\n\n### 3. Specialty / Niche Providers Worth Checking\n\n*   **HomeTeam Pest Defense** *(Massive presence in new-build communities in TX and FL)*\n    *   **Check them if:** Your home was built within the last 15–20 years. HomeTeam installs the **Taexx system** (tubes in the wall) found in many modern subdivisions. If your house has the small service port on the exterior wall, HomeTeam can service your home without ever needing to come indoors.\n*   **Truly Nolen** *(Strong presence in FL and TX)*\n    *   **Best For:** Pet-friendly/botanical blends and four-season scheduling tailored to southern climate shifts.\n\n---\n\n### Key Questions to Ask Before Signing a Contract\n\n1.  **How is your termite warranty structured?** In FL, GA, and TX, a termite plan is practically mandatory. Ask if the warranty is a *treatment-only* warranty or a *damage repair* warranty (which pays to fix wood damage if termites appear after treatment). Also, ask if the warranty is transferable if you sell your home.\n2.  **What does the re-service policy cover?** If you spot palmetto bugs or ants between your bi-monthly or quarterly visits, will they come back out for free? How quickly?\n3.  **Is interior treatment included automatically, or on-demand?** Modern pest control heavily focuses on exterior perimeter treatments. Ensure interior service is included at no extra cost whenever you request it.\n4.  **Are you locked into an annual contract?** Some companies enforce a 12-month contract with cancellation penalties, while others operate month-to-month or per-service after an initial setup.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:14:47+00:00",
+  "has_unknown": true
+}

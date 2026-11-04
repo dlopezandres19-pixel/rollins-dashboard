@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "Here are some top pest control companies that operate in the Western U.S., specifically in California, Washington, and Arizona:\n\n1. **Orkin**: Known for its comprehensive pest management services, Orkin has a strong presence in all three states. They offer treatments for termites, rodents, ants, and more.\n\n2. **Terminix**: Another well-known company, Terminix provides a wide range of pest control services including termite protection, bed bug removal, and mosquito control.\n\n3. **Ecolab Pest Control**: Ideal for both residential and commercial properties, Ecolab offers eco-friendly solutions and is highly rated for effective pest management.\n\n4. **Western Exterminator**: Operating mostly in California, they are recognized for their reliable customer service and comprehensive pest control solutions.\n\n5. **Truly Nolen**: Available in Arizona, Truly Nolen offers innovative pest control solutions with a focus on environmentally responsible practices.\n\n6. **HomeTeam Pest Defense**: Known for their use of advanced technology and tailored pest control plans, they serve many areas across the Western states.\n\nWhen choosing a pest control company, consider factors such as the specific pest issue, customer reviews, service guarantees, and eco-friendly options. It’s also a good idea to get quotes from multiple companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:03:47+00:00",
+  "has_unknown": true
+}

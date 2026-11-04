@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "For a home in Illinois, Ohio, or Michigan, the best pest control company depends on whether you prefer a **deeply established Midwest regional provider** or a **large national brand with 24/7 support**. \n\nMidwest homes face distinct seasonal challenges—such as mice and boxelder bugs seeking warmth in the fall, carpenter ants and subterranean termites emerging in the spring, and heavy mosquito/tick activity in humid summers.\n\nHere are the top recommendations broken down by category:\n\n---\n\n### 1. Best Overall Regional Choice: **Rose Pest Solutions**\n* **Best for:** Localized expertise and long-standing Midwest reputation.\n* **Why choose them:** Operating since the mid-1800s, Rose is one of the oldest pest management companies in the country and is headquartered specifically to serve the Midwest (with extensive branch networks across Illinois, Michigan, and Ohio). \n* **Pros:** Their technicians are deeply familiar with regional housing styles (older basements, crawlspaces, brick foundation gaps) and seasonal pest cycles. Customer service tends to feel more personal than the giant national chains.\n\n---\n\n### 2. Best for Emergency Infestations & Pests of Concern: **Orkin**\n* **Best for:** Bed bugs, severe infestations, and consistent technician training.\n* **Why choose them:** Orkin has strong franchise and corporate coverage across Chicago, Detroit, Cleveland, Columbus, and mid-sized cities in all three states. \n* **Pros:** Their training program is considered the gold standard in the industry. If you have an aggressive wood-destroying insect problem, bed bugs, or a stubborn rodent invasion, Orkin’s diagnostic protocols and standard 30-day money-back guarantee are among the most reliable.\n\n---\n\n### 3. Best for Termites & Budget Packages: **Terminix**\n* **Best for:** Termite baiting/monitoring systems and whole-home prevention plans.\n* **Why choose them:** Terminix has dozens of service centers across IL, OH, and MI. Their general pest subscription covers standard household pests (spiders, ants, mice, roaches) with free re-treatments between quarterly visits under the “Nix Pest Guarantee.”\n* **Pros:** Strong digital tools/app, aggressive pricing promotions, and specialized subterranean termite warranties that cover future treatment and potential structural repair (depending on the plan tier).\n\n---\n\n### 4. Best Regional Alternative (Ohio / Parts of MI & IN): **Varment Guard**\n* **Best for:** Wildlife control and standard pest management combined.\n* **Why choose them:** Particularly strong in Ohio, Varment Guard handles general pests like spiders, wasps, and ants, but specializes heavily in nuisance wildlife (raccoons, bats, squirrels, and skunks), which frequently affect Midwest homes surrounded by woods or older trees.\n\n---\n\n### How to Decide for Your Home\n\n1. **Target the specific issue:**\n   * If you have **wildlife in the attic or crawlspace** (bats, raccoons, squirrels), choose a company with an exclusion/wildlife license like **Varment Guard** or a local critter-removal specialist.\n   * If you want **year-round perimeter protection** against mice, ants, and spiders, **Rose Pest Solutions** or **Terminix** quarterly plans are ideal.\n2. **Always demand a free on-site quote:** Pest pricing varies significantly by square footage and foundation type. Never sign up over the phone without having a tech inspect your foundation, attic, and exterior line.\n3. **Check the re-service clause:** In the Midwest, weather swings can cause pests to spike unexpectedly. Ensure your contract guarantees **free touch-up visits** between scheduled seasonal services if pests reappear inside.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:33:14+00:00",
+  "has_unknown": true
+}

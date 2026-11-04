@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Southeast US (Florida, Georgia, Texas) should consider.",
+  "rep": 1,
+  "response_text": "For homeowners in the Southeast—especially across Florida, Georgia, and Texas—pest control needs are unique. The region’s heat and humidity create year-round pressure from subterranean and drywood termites, palmetto bugs (American cockroaches), fire ants, and mosquitoes. \n\nHere is a shortlist of reputable pest control companies with deep roots and widespread service across the Southeast:\n\n---\n\n### 1. **Arrow Exterminators** *(Best Overall Regional Specialist)*\n* **Headquarters:** Atlanta, GA  \n* **Coverage:** Massive footprint across Georgia and Florida, with an expanding presence in Texas and the broader South.\n* **Why Consider Them:** Arrow is one of the largest privately held pest control companies in the country, yet it retains a local, family-owned feel. They are well known for their **Stark Exterminators** brand in certain markets and offer full-service packages, including integrated pest management, whole-home termite protection, wildlife exclusion, and lawn care.\n\n### 2. **Massey Services** *(Best for Integrated Pest & Lawn Care)*\n* **Headquarters:** Maitland (Orlando), FL  \n* **Coverage:** Dominant across Florida, with extensive operations throughout Georgia and Texas.\n* **Why Consider Them:** If you want a single vendor for both interior pest control and exterior landscape/turf health, Massey is tough to beat. They specialize in environmental-first pest control and are experts in region-specific challenges like Florida subterranean termites, lawn-destroying chinch bugs, and fire ant prevention.\n\n### 3. **ABC Home & Commercial Services** *(Best Texas-Focused Provider)*\n* **Headquarters:** Austin, TX  \n* **Coverage:** Primarily Texas (Austin, DFW, Houston, San Antonio, and surrounding areas), with selected locations in Florida.\n* **Why Consider Them:** If your home is in Texas, ABC is an iconic, family-owned provider known for exceptional customer service. Beyond standard residential pest and termite defense, they offer a wide suite of home services, including mosquito misting systems, pool service, and HVAC, making them a true one-stop shop.\n\n### 4. **Orkin** *(Best for Technician Training & Tough Infestations)*\n* **Headquarters:** Atlanta, GA  \n* **Coverage:** Virtually all major and mid-sized markets across FL, GA, and TX.\n* **Why Consider Them:** Orkin is based in the South and has more than a century of experience dealing with the region’s pest profiles. Their technicians go through extensive, science-backed training at their Atlanta facility. They are especially reliable if you suspect a complex or active infestation (such as bed bugs or heavy rodent intrusion).\n\n### 5. **Terminix** *(Best for Termite Defense & Guarantees)*\n* **Headquarters:** Memphis, TN  \n* **Coverage:** Ubiquitous across FL, GA, and TX.\n* **Why Consider Them:** Given the Southeast’s heavy termite risks, Terminix remains an industry standard for termite warranties (such as the Ultimate Protection Guarantee). They utilize both baiting systems (Sentricon) and liquid perimeter treatments, along with quarterly general pest maintenance plans.\n\n---\n\n### What to Ask Before You Sign:\n* **Termite Coverage:** Clarify whether a quote covers **subterranean** termites (most common), **Formosan** termites (especially prevalent along the Gulf Coast and coastal GA/FL), or **drywood** termites, and whether the plan includes a damage repair guarantee or just re-treatment.\n* **Free Re-treatments:** Ensure your quarterly or bi-monthly contract includes free return visits between scheduled treatments if pests return.\n* **Exterior-Only Service:** Most Southeastern providers now focus on maintaining an exterior barrier around the home, only treating the inside upon request. Ask if indoor visits are included at no extra charge.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:16:30+00:00",
+  "has_unknown": true
+}

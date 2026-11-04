@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Because the climate and pest pressures vary significantly between California, Washington, and Arizona—ranging from coastal dampness and wood-destroying insects in the Pacific Northwest to desert scorpions in the Southwest—the right company often depends on whether you prefer a large national brand with broad guarantees or a regional specialist familiar with local ecosystems.\n\nHere are the top recommendations for homeowners in the West:\n\n---\n\n### 1. Best Overall for the Western Region: **Western Exterminator** (Rentokil)\n* **Where they operate:** California, Washington, and Arizona (as well as Oregon, Nevada, and Idaho).\n* **Best for:** Homeowners who want a large company with dedicated West Coast experience.\n* **Why choose them:** Western Exterminator has been operating in the Western US for over a century. Because their technicians are based in the region, they are specifically trained to handle West Coast pest profiles—from bark scorpions in Arizona to moisture ants and roof rats in Washington. They offer their **PestFree365+** plan, which provides preventative seasonal visits and covers dozens of common household pests with free re-treatments between visits.\n\n---\n\n### 2. Best for Complex Infestations & Termites: **Orkin**\n* **Where they operate:** Across CA, WA, and AZ.\n* **Best for:** Termites, bed bugs, and stubborn recurring infestations.\n* **Why choose them:** Orkin has one of the industry's most rigorous training programs, and their branch entomologists are among the best in the business. If you are dealing with aggressive subterranean termites in Arizona, drywood termites in Southern California, or heavy rodent activity in the Puget Sound, Orkin’s targeted treatments and solid money-back guarantees make them a safe, reliable choice.\n\n---\n\n### 3. Best State-Specific & Regional Specialists\n\n#### **For Arizona: Truly Nolen or Burns Pest Elimination**\n* **Truly Nolen:** Headquartered in Tucson, Arizona, Truly Nolen is practically a household name in the Southwest. Their \"Four Seasons\" pest program is designed specifically around desert pest life cycles (targeting scorpions, black widows, pack rats, and subterranean termites). \n* **Burns Pest Elimination:** A top-rated Arizona-local company serving the Phoenix and Tucson metros. They specialize heavily in desert pest management, bird control, and scorpion exclusion.\n\n#### **For California: Clark Pest Control**\n* **Clark Pest Control:** One of the largest pest control brands in California, with deep roots in the Central Valley, the Bay Area, and Southern California. \n* **Why choose them:** They are exceptionally knowledgeable about California-specific issues, including pervasive Argentine ants, drywood termite tenting, and perimeter rodent management for agricultural-adjacent suburban neighborhoods.\n\n#### **For Washington: Cascade Pest Control or Eastside Exterminators**\n* **Cascade Pest Control:** Excellent reputation across the Greater Seattle/Puget Sound area. They emphasize eco-friendly and low-toxicity methods, which appeal to many Pacific Northwest homeowners. They specialize heavily in carpenter ants, moisture ants, and rodent control.\n* **Eastside Exterminators:** Known as the premier rodent exclusion company in Western Washington. If your issue is rats or mice getting into crawlspaces or attics due to wet PNW weather, their structural exclusion and crawlspace restoration services are hard to beat.\n\n---\n\n### Tips Before Hiring:\n1. **Ask about free re-treatments:** Any recurring quarterly plan should include free call-backs if pests reappear between scheduled visits.\n2. **Watch the contract terms:** National providers like Aptive or Terminix often push 12- to 24-month contracts with cancellation fees. Clarify the cancellation policy before signing.\n3. **Get a specialized inspection for wood-destroying pests:** In CA and AZ, drywood and subterranean termites cause widespread structural damage, while in WA, carpenter ants and dampwood termites are the main culprits. Always ask if termite/WDO coverage is bundled or extra.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:41:55+00:00",
+  "has_unknown": true
+}

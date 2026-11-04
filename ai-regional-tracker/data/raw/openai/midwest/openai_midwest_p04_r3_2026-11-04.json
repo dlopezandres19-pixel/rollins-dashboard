@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "In the Midwest US, including Illinois, Ohio, and Michigan, several leading residential pest control companies are well-regarded for their services:\n\n1. **Orkin**: Known for their comprehensive pest control services and a long history in the industry. They offer treatments for a wide range of pests, including termites, rodents, and insects.\n\n2. **Terminix**: Offers extensive pest control solutions and is well-known for its termite treatment plans. They provide customized pest control plans for residential customers.\n\n3. **Truly Nolen**: A family-owned company with innovative pest control solutions, including environmentally friendly options.\n\n4. **Ehrlich Pest Control**: Offers specialized pest management services and is known for their focus on integrated pest management techniques.\n\n5. **Rose Pest Solutions**: Headquartered in the Midwest, Rose Pest Solutions has been providing pest control services for over 150 years, making them one of the oldest and most experienced in the region.\n\n6. **Aptive Environmental**: Known for eco-friendly pest control services using environmentally responsible products.\n\n7. **Orkin**: Offers a range of pest control services and has a strong presence in the Midwest.\n\nWhen choosing a pest control service, consider factors like the specific pest issue, the company's reputation, customer reviews, and the type of treatments they offer. It's also a good idea to get quotes from a few different companies to compare services and prices.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:02:00+00:00",
+  "has_unknown": true
+}

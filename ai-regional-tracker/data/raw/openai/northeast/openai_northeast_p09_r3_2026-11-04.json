@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "In the Northeast US, including New York, New Jersey, and Pennsylvania, there are several options for residential pest control. Here are the main ones:\n\n### 1. **Professional Pest Control Services:**\n   - **Orkin:** Offers comprehensive pest control solutions for a variety of pests including termites, ants, rodents, and more.\n   - **Terminix:** Known for its termite and bed bug treatments, along with general pest control.\n   - **Ehrlich Pest Control:** Provides services for both common pests and specialized treatments for harder-to-control infestations.\n   - **Western Pest Services:** Offers environmentally responsible pest control solutions.\n\n### 2. **Local Pest Control Companies:**\n   - Many local companies offer personalized services and may be more familiar with regional pest issues. Examples include:\n     - **Assured Environments (NY):** Specializes in bed bug management and other pest control services.\n     - **Horizon Pest Control (NJ):** Provides a range of pest control services, including eco-friendly options.\n     - **Cooper Pest Solutions (NJ):** Known for innovative pest management solutions.\n\n### 3. **DIY Pest Control:**\n   - **Products:** Homeowners can purchase products like sprays, traps, and bait stations from home improvement stores.\n   - **Natural Remedies:** Essential oils, diatomaceous earth, and vinegar are popular for minor infestations.\n\n### 4. **Integrated Pest Management (IPM):**\n   - Combines multiple strategies to manage pests in an environmentally sensitive manner. This can include habitat modification, biological control, and regular monitoring.\n\n### Considerations:\n   - **Type of Pest:** Different pests require different treatments. Identifying the pest is crucial.\n   - **Environmental Impact:** Consider eco-friendly or organic options if this is a concern.\n   - **Cost:** Compare the costs of professional services versus DIY methods.\n   - **Severity of Infestation:** Severe infestations often require professional intervention.\n\nConsulting with a professional can help determine the most effective treatment plan for your specific situation.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:00:26+00:00",
+  "has_unknown": true
+}

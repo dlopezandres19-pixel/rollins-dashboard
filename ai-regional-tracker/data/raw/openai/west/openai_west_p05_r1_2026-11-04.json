@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control company in the Western US, including California, Washington, and Arizona, consider the following reputable options:\n\n1. **Orkin**: Known for its extensive experience and comprehensive pest control services. They offer customized solutions for various pests and have a strong presence in the Western US.\n\n2. **Terminix**: Offers a wide range of services with a focus on innovative solutions. They have a good reputation for their customer service and effectiveness in pest control.\n\n3. **Ehrlich Pest Control (Western Exterminator)**: Particularly active in California, they are known for their tailored services and environmentally friendly approaches.\n\n4. **Truly Nolen**: Offers both residential and commercial pest control services, known for their distinctive yellow mouse cars and comprehensive pest management plans.\n\n5. **Local Companies**: Depending on your specific location, local companies may also provide excellent service with a more personalized touch. Look for those with good reviews and ratings on platforms like Yelp or Angie's List.\n\nWhen choosing a company, consider factors like their specific services, customer reviews, pricing, and any guarantees they offer. It's also helpful to get a few quotes and ask about their methods, especially if you're concerned about environmentally friendly or pet-safe options.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:04:59+00:00",
+  "has_unknown": true
+}

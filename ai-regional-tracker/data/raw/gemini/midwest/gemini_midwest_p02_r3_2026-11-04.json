@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "For homeowners in the Midwest (Illinois, Ohio, and Michigan), you generally have two main routes: **well-established regional companies** that specialize specifically in Midwest climates and pest behaviors, and **major national providers** that offer broad coverage, robust guarantees, and 24/7 service.\n\nHere are the top recommendations:\n\n---\n\n### 1. Top Regional Picks (Often the Best Customer Service)\n\n* **Rose Pest Solutions** *(Best Overall Regional)*\n  * **Coverage:** Illinois, Michigan, Ohio, Indiana, and Wisconsin.\n  * **Why them:** Rose is one of the oldest and most respected pest management companies in the country. Because they are based in and focused strictly on the Great Lakes/Midwest region, their technicians are deeply familiar with seasonal Midwest pest patterns (such as overwintering boxelder bugs, stink bugs, and mice migrating indoors in October/November). They emphasize Integrated Pest Management (IPM), which minimizes chemical use inside living spaces.\n* **Plunkett’s Pest Control / Varment Guard** *(Best for Wildlife & General Pest)*\n  * **Coverage:** Widespread across Ohio, Michigan, Illinois, and the upper Midwest.\n  * **Why them:** Plunkett’s is a family-owned upper-Midwest staple that acquired **Varment Guard** (a major Ohio/Michigan brand). They are exceptional not only for standard insects and rodents, but also for nuisance wildlife (raccoons, bats, squirrels, and skunks), which is a frequent issue for suburban and rural homeowners in the Midwest.\n\n---\n\n### 2. Top National Providers (Best for Guarantees & Termites)\n\n* **Orkin** *(Best for Comprehensive General Pest Control)*\n  * **Coverage:** Ubiquitous across all three states (Chicago, Detroit, Columbus, Cleveland, and most secondary markets).\n  * **Why them:** Orkin invests heavily in technician training and standard operating procedures. They offer a reliable **30-day money-back guarantee** and will return to retreat between scheduled visits at no extra cost. They are especially strong if you are dealing with a severe active infestation (bed bugs, roaches, or heavy rodent pressure) that needs immediate, aggressive treatment.\n* **Terminix** *(Best for Termites & Moisture Issues)*\n  * **Coverage:** Extensive throughout Illinois, Ohio, and Michigan.\n  * **Why them:** If your primary concern is subterranean termites—which are common in the central/southern portions of Illinois and Ohio, and parts of lower Michigan—Terminix offers some of the strongest termite warranties (the Nix Pest Guarantee) and baiting systems (Sentricon) in the industry.\n\n---\n\n### Midwest-Specific Factors to Keep in Mind\n\nWhen choosing a service for homes in IL, OH, or MI, look for plans that account for the region's seasonal extremes:\n\n1. **Fall Exclusion Work:** A good Midwest plan should include exterior sealing and baiting in late summer/early fall to prevent mice, rats, and overwintering insects (like stink bugs, boxelder bugs, and Asian lady beetles) from penetrating the foundation or attic.\n2. **Carpenter Ant Experience:** With high humidity, mature trees, and older wooden structures in the Great Lakes region, carpenter ants are common. Make sure the company specializes in finding the exterior satellite nests rather than just spraying interior baseboards.\n3. **Contracts vs. One-Time Visits:** Most companies push a quarterly subscription. If you only deal with an occasional hornet nest or seasonal mice, ask if they offer a one-time targeted treatment with a 30- to 60-day warranty before signing a 12-month agreement.\n\n### Recommendation\nIf available in your specific zip code, start by calling **Rose Pest Solutions** or **Plunkett’s/Varment Guard** for a local quote, and compare it against **Orkin**. Regional providers often provide more consistent technician assignments (the same person visiting your home each quarter), while national brands can be easier to schedule on short notice.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:30:37+00:00",
+  "has_unknown": true
+}

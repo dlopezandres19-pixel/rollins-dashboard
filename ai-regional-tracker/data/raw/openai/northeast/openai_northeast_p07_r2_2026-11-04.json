@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "In the Northeast US, several pest control companies are known for providing excellent service to homeowners. Here are some of the top options:\n\n1. **Terminix**\n   - Offers comprehensive pest control services.\n   - Known for their expertise in dealing with termites and bed bugs.\n   - Provides customized plans and guarantees.\n\n2. **Orkin**\n   - Highly reputable with extensive experience.\n   - Uses integrated pest management techniques.\n   - Offers a satisfaction guarantee and regular follow-ups.\n\n3. **Ehrlich Pest Control**\n   - Offers a wide range of pest control services.\n   - Known for environmentally friendly methods.\n   - Provides personalized service and prevention advice.\n\n4. **Western Pest Services**\n   - Serves the Northeast with a strong local focus.\n   - Offers both residential and commercial services.\n   - Known for customer service and effective pest management.\n\n5. **Mosquito Joe**\n   - Specializes in mosquito, tick, and flea control.\n   - Offers barrier sprays and natural treatments.\n   - Known for seasonal plans and satisfaction guarantees.\n\nWhen choosing a pest control company, consider factors such as the specific pests you are dealing with, your budget, and the company's reputation and customer reviews in your area.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:59:39+00:00",
+  "has_unknown": true
+}

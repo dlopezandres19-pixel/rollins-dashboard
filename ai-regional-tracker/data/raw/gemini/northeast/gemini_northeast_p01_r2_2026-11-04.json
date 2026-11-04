@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control service in New York, New Jersey, and Pennsylvania, regional providers with deep local experience often outperform national brands, though both have their strengths. The Northeast presents specific pest pressures—such as heavy rodent populations in urban centers, deer ticks, subterranean termites, and invasive species like spotted lanternflies.\n\nHere are the best pest control companies serving the NY–NJ–PA region, broken down by their strengths:\n\n---\n\n### 1. Best Overall Regional Providers\n\n* **Western Pest Services** *(NY, NJ, PA, CT, DE)*\n  * **Best for:** Reliable all-around coverage, fast emergency dispatch, and long-standing regional reputation.\n  * **Why them:** Founded in New Jersey in 1928, Western is one of the most recognized and trusted pest companies in the Mid-Atlantic/Northeast. They handle residential and commercial pest control, including seasonal treatments for ticks, mosquitoes, termites, and rodents. Their technicians have extensive training tailored specifically to regional home architecture and seasonal pest cycles.\n\n* **Ehrlich Pest Control** *(PA, NJ, NY – part of Rentokil)*\n  * **Best for:** Pennsylvania coverage, termite treatment, and invasive pests.\n  * **Why them:** Ehrlich was founded in Reading, PA, in 1928 and remains one of the dominant providers across Pennsylvania and surrounding states. They offer their signature **PestFree365+** plan, which covers dozens of common pests year-round. They are particularly skilled at handling regional seasonal pests like spotted lanternflies, ticks, and stink bugs.\n\n* **Cooper Pest Solutions** *(NJ & Eastern PA)*\n  * **Best for:** Scientific approach, bed bugs, and seasonal prevention.\n  * **Why them:** Based in Lawrenceville, NJ, Cooper is renowned for having an on-staff entomology team. They specialize in proactive seasonal programs (like their \"Home Traditional\" and \"Home Intensive\" services) and are widely considered an authority on difficult-to-treat pests like bed bugs, carpenter ants, and stink bugs.\n\n---\n\n### 2. Best for NYC & Urban Tri-State\n\n* **MMPC (Metropolitan Multinational Pest Control)** *(NYC & Northern NJ)*\n  * **Best for:** Eco-friendly treatments, apartment/brownstone pest issues, and bed bug detection.\n  * **Why them:** If you live in an apartment, condo, or brownstone in the NYC metro area, MMPC consistently ranks at the top. They specialize in Integrated Pest Management (IPM), low-toxicity/green treatments, and certified canine bed bug inspections. They are adept at handling dense-living rodent and roach issues without relying purely on heavy chemical sprays.\n\n---\n\n### 3. Best National Providers (Widespread Availability)\n\n* **Orkin**\n  * **Best for:** Standardized training, reliable guarantees, and broad rural/suburban coverage.\n  * **Why them:** Orkin technicians undergo rigorous training, and the company offers a solid 30-day money-back guarantee. If you live in more rural parts of Upstate NY or Central/Western PA where smaller regional companies might not offer full route service, Orkin is a dependable choice.\n\n* **Terminix**\n  * **Best for:** Subterranean termites and wildlife/rodent exclusion.\n  * **Why them:** Termite damage is a significant risk in the Northeast's older housing stock. Terminix offers some of the strongest termite warranties in the industry (including the Nix Guarantee), alongside full wildlife exclusion (sealing crawlspaces, attics, and entry points).\n\n---\n\n### What to Look for in the Northeast:\n\n1. **Integrated Pest Management (IPM):** Look for companies that focus on sealing entry points, sanitation, and monitoring rather than just spraying chemicals, especially if you live in row homes or multi-family buildings.\n2. **Spotted Lanternfly Experience:** If you have outdoor property in PA, NJ, or lower NY, ask if their tree/yard treatments cover lanternflies.\n3. **Tick & Mosquito Add-ons:** Lyme disease is prevalent throughout the Northeast; ensure your plan includes seasonal barrier sprays or tick tubes if you live near wooded areas.\n4. **Free Inspections & Guarantees:** Reputable companies (like Western, Ehrlich, or Orkin) generally offer free initial quotes and a commitment to return at no charge if pests reappear between scheduled visits.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:17:52+00:00",
+  "has_unknown": true
+}

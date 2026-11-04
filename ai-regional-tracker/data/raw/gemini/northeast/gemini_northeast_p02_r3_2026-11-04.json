@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "For a homeowner in the Northeast (New York, New Jersey, and Pennsylvania), the best pest control company often depends on whether you prefer a deeply rooted regional provider or a large national brand with standardized guarantees. \n\nHere are the top recommendations based on regional expertise, service quality, and reliability:\n\n---\n\n### 1. Top Regional Specialists (Best Overall for the Tri-State Area)\n\n*   **Ehrlich Pest Control**\n    *   **Best for:** Pennsylvania and Upstate/Western New York homeowners.\n    *   **Why they stand out:** Founded in Reading, PA, Ehrlich has served the Mid-Atlantic and Northeast for nearly a century (now under the Rentokil family). They know the region’s specific challenges intimately—such as stink bugs, spotted lanternflies, ticks, and older-home rodent entry. Their **PestFree365+** plan covers over 30 common pests with year-round inspections and unlimited call-backs.\n*   **Western Pest Services**\n    *   **Best for:** New Jersey, Eastern Pennsylvania, and the New York Metro area.\n    *   **Why they stand out:** Western Pest Services originated in New Jersey and is one of the most recognizable and trusted names in the mid-Atlantic. They excel at carpenter ant treatments (very common in Northeast wooded suburbs), termite control, and winter rodent exclusion. Their technicians are typically known for thorough inspections rather than quick \"spray-and-go\" visits.\n*   **Cooper Pest Solutions**\n    *   **Best for:** Central/South Jersey and Eastern PA (Bucks, Montgomery, and Philadelphia counties).\n    *   **Why they stand out:** Cooper has a strong reputation for scientific, eco-conscious Integrated Pest Management (IPM). They are particularly well-regarded for difficult-to-treat pests like bed bugs and stink bugs, and their residential preventive plans are among the most transparent in pricing.\n\n---\n\n### 2. Best Large National Providers (Best for Termites & Strong Warranties)\n\n*   **Orkin**\n    *   **Best for:** Fast response times and aggressive infestations.\n    *   **Why they stand out:** Orkin has strong branch coverage across all three states. Their technicians undergo rigorous, centralized training, making their service quality more consistent than most competitors. They offer a 30-day money-back guarantee and will return between scheduled visits at no extra cost if pests reappear.\n*   **Terminix**\n    *   **Best for:** Termite coverage and extensive home exclusion services.\n    *   **Why they stand out:** Northeast homes—especially older wood-frame properties in NY, PA, and NJ—are prone to subterranean termites. Terminix’s **Nix Pest Guarantee** and specialized baiting/monitoring systems are industry-leading for long-term termite protection.\n\n---\n\n### 3. Best for the NYC Metro Area\n\n*   **MMPC (Metro Multi-Pest Control)**\n    *   **Best for:** NYC five boroughs and Long Island.\n    *   **Why they stand out:** Consistently ranked among the top independent exterminators in New York City. They specialize in eco-friendly pest control, canine bed bug inspections, and handling tight urban residential dwellings without relying heavily on harsh chemical sprays.\n\n---\n\n### What to Ask Before Hiring in the Northeast\n\nBecause the Northeast experiences distinct four-season pest patterns, make sure to ask:\n\n1.  **Do they cover regional nuisance pests?** Make sure their maintenance plan covers **carpenter ants, ticks, mice/rats, and spotted lanternflies** (which are heavily active in PA, NJ, and NY).\n2.  **What is the free re-treatment policy?** In the fall, rodents commonly push into basements and attics as temperatures drop. Ensure the plan includes free winter call-backs if mice return between quarterly visits.\n3.  **Is exclusion work included?** Chemical treatments alone won't stop rodents in older Northeast homes; ask if they seal small foundation cracks, pipe penetrations, and weep holes.\n\n**The Bottom Line:** If you want a company with deep regional roots that understands local architecture and pest behaviors, start with a quote from **Western Pest Services** (if you're closer to NJ/NY) or **Ehrlich** (especially in PA). If you prefer a major national warranty, **Orkin** is the most reliable baseline.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:19:11+00:00",
+  "has_unknown": true
+}

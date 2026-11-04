@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When choosing residential pest control in the Western United States, homeowners have a mix of massive national providers, major West Coast regional powerhouses, and top-rated state specialists. \n\nThe leading residential pest control companies across **California, Washington, and Arizona** are grouped below by regional footprint and state-specific reputation:\n\n---\n\n### 1. Top Multi-State & Regional Leaders\n\n* **Western Exterminator**\n  * **Where they operate:** California, Arizona, and parts of the Pacific Northwest (part of the Rentokil family).\n  * **Best for:** Broad pest coverage, subterranean/drywood termites, and general quarterly maintenance.\n  * **Why them:** Recognized by their iconic \"Little Man\" mascot, Western Exterminator has been a West Coast staple for over a century. They have deep institutional knowledge of regional pests, from desert invaders to coastal wood-destroying insects.\n\n* **Aptive Environmental**\n  * **Where they operate:** Active in major metro suburbs across CA, WA, and AZ.\n  * **Best for:** General residential perimeter protection and quarterly maintenance plans.\n  * **Why them:** Aptive focuses heavily on neighborhood residential subscriptions. They use customized, environmentally conscious treatment plans (largely pyrethrin-derived products) and offer free retreatments between scheduled visits. Note that they do not typically treat for termites or bed bugs.\n\n* **Orkin & Terminix**\n  * **Where they operate:** Widespread coverage across all three states.\n  * **Best for:** Specialized treatments (termites, bed bugs, severe wildlife exclusions) and fast availability.\n  * **Why them:** Both national giants have substantial field infrastructure in every major Western metro. If you need specialized structural termite fumigation, bond warranties, or emergency response, their extensive resources make them reliable default choices.\n\n---\n\n### 2. Leading Companies by State\n\n#### **California**\n* **Clark Pest Control:** One of the largest pest control brands in the state, Clark covers Northern and Central California extensively as well as parts of Southern California. They excel in general household pests, lawn care, and termite inspections for real estate transactions.\n* **Lloyd Pest Control:** A major regional favorite in Southern California (San Diego, Orange County, Los Angeles, and Riverside). They are especially well-regarded for termite heat treatments and tent fumigations.\n\n#### **Washington**\n* **Senske Services:** A well-known Pacific Northwest fixture offering year-round pest defense along with lawn care. Excellent for addressing common PNW issues like moisture ants, carpenter ants, and perimeter spiders.\n* **Eden Pest Control:** Established across Western Washington and the Puget Sound region, Eden emphasizes Integrated Pest Management (IPM), targeting damp-wood insects, rodents (rats/mice seeking shelter from winter rain), and wasps with low-toxicity methods.\n* **Interstate Pest Management:** A family-owned regional specialist serving SW Washington and the greater Portland/Vancouver area, recognized for eco-friendly, green-certified pest elimination.\n\n#### **Arizona**\n* **Truly Nolen Pest & Termite:** Headquartered in Tucson, Truly Nolen is one of the most prominent pest controllers in the Southwest. Their \"Four Seasons\" program is tailored specifically to desert insect breeding cycles, and they are experts in desert subterranean termites and bark scorpions.\n* **Burns Pest Elimination:** A locally dominant, family-founded company serving the Phoenix and Tucson metros as well as Las Vegas. They are known for responsive customer service and aggressive scorpion barrier treatments.\n* **Blue Sky Pest Control:** A perennial top-rated local choice in the Phoenix metro area. They are widely praised for thoroughly dusting block-wall fencing and weep screeds to keep scorpions, crickets, and black widows out of homes.\n\n---\n\n### What to Look for Based on Your Region\n* **Desert Southwest (Arizona):** Look for providers that specialize in **bark scorpions** and **desert subterranean termites**. Standard surface sprays don't always kill scorpions, so ensure the company dusts block walls, seals weep screeds, and uses products labeled specifically for arachnids.\n* **Pacific Northwest (Washington):** Target companies that focus heavily on **moisture management, carpenter ants, and rodent exclusion**. The wet PNW winters frequently drive Norway rats, roof rats, and mice indoors.\n* **California:** Ensure the provider has a dedicated **structural termite license** (Branch 3 in California) if you own a home, as drywood termites and subterranean termites are common across both coastal and inland areas.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Aptive",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:43:30+00:00",
+  "has_unknown": true
+}

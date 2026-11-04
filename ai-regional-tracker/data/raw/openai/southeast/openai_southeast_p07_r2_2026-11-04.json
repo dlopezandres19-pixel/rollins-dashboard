@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Southeast US, including Florida, Georgia, and Texas, several pest control companies are known for their reliable services:\n\n1. **Orkin**:\n   - **Overview**: Orkin is one of the largest pest control companies in the United States and has a strong presence in the Southeast.\n   - **Services**: They offer comprehensive pest control solutions, including termite control, bed bug treatments, and general pest management.\n   - **Benefits**: Orkin provides customized plans and has a satisfaction guarantee.\n\n2. **Terminix**:\n   - **Overview**: Terminix is another leading pest control provider with extensive coverage in the Southeast.\n   - **Services**: They specialize in termite control, mosquito services, and general pest control.\n   - **Benefits**: They offer a range of plans and have strong customer support.\n\n3. **Truly Nolen**:\n   - **Overview**: Known for their innovative techniques, Truly Nolen offers pest control across the Southeast.\n   - **Services**: They provide solutions for termites, rodents, and other pests.\n   - **Benefits**: Truly Nolen is known for eco-friendly options and comprehensive pest management.\n\n4. **Massey Services**:\n   - **Overview**: Massey Services is a well-regarded, family-owned company with a strong presence in Florida and Georgia.\n   - **Services**: They offer pest prevention, termite protection, and landscape services.\n   - **Benefits**: Known for excellent customer service and preventative approaches.\n\n5. **Arrow Exterminators**:\n   - **Overview**: Arrow Exterminators provides services in Georgia and other parts of the Southeast.\n   - **Services**: They focus on termite protection, mosquito control, and wildlife management.\n   - **Benefits**: They are appreciated for their comprehensive services and family-friendly approach.\n\nWhen choosing a pest control company, consider factors like the specific pests you are dealing with, customer reviews, service guarantees, and any eco-friendly options they offer. It's also a good idea to request quotes from multiple providers to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:57:03+00:00",
+  "has_unknown": false
+}

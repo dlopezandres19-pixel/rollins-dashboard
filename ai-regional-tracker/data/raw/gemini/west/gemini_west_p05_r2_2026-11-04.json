@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control company in the Western U.S., the best option often depends on which state you live in, because pest pressures vary drastically between the Pacific Northwest, coastal California, and the Sonoran Desert. \n\nHere are the top recommendations broken down by region, pest specialty, and overall reliability.\n\n---\n\n### 1. Best State & Regional Specialists\n\nRegional providers often outperform national chains because their technicians deal exclusively with local climate conditions and native pests.\n\n* **Arizona (Best for Scorpions & Desert Pests):**\n  * **Truly Nolen:** Headquartered in Tucson, they are deeply experienced with Arizona-specific pests—especially bark scorpions, pack rats, and subterranean termites. Their quarterly service accounts for desert seasonal cycles.\n  * **Burns Pest Elimination / Blue Sky Pest Control (Phoenix & Tucson metros):** Both are top-rated local companies known for customized scorpion-sealing and aggressive barrier treatments that national companies sometimes generalize.\n* **California (Best for Termites & Urban/Suburban Pests):**\n  * **Western Exterminator:** A legendary West Coast brand (now part of Rentokil). They excel at drywood and subterranean termite control, Argentine ants, and roof rats.\n  * **Clark Pest Control (Central & Northern CA):** One of the largest and most trusted providers across the Central Valley and Bay Area, offering integrated pest management (IPM) that balances effectiveness with eco-friendly practices.\n  * **Lloyd Pest Control (Southern CA):** Highly rated specifically in San Diego and Orange County for residential termite tenting and localized treatments.\n* **Washington (Best for Moisture Pests & Rodents):**\n  * **Cascade Pest Control (Seattle/Puget Sound):** Specializes in Pacific Northwest challenges—primarily carpenter ants, dampwood termites, and winter rodent exclusion—with a strong emphasis on eco-friendly, low-toxicity applications.\n  * **Eden Advanced Pest Technologies:** A solid Northwest option offering natural and traditional pest control solutions suited for damp climates.\n\n---\n\n### 2. Best Multi-State / National Options (Available Across CA, WA, and AZ)\n\nIf you prefer an established national company with 24/7 customer service and broad coverage:\n\n* **Orkin (Best Overall for Active Infestations):** \n  * Orkin has high standards for technician training and entomologist-backed protocols. \n  * They are an excellent pick if you have a current, aggressive infestation (e.g., bed bugs, German roaches, heavy rodent activity) anywhere across the Western states.\n* **Terminix (Best for Termite Defense):**\n  * California and Arizona are prone to severe subterranean and drywood termite activity. Terminix offers some of the most robust ongoing termite monitoring plans and repair warranties (The Nix Guarantee).\n\n---\n\n### Which Should You Pick Based on Your Specific Problem?\n\n| Target Pest / Need | Best Choice | Why |\n| :--- | :--- | :--- |\n| **Bark Scorpions (AZ)** | **Truly Nolen** or **Burns Pest Elimination** | Standard perimeter sprays don't deter scorpions; you need micro-encapsulated products and physical home sealing. |\n| **Carpenter Ants / Moisture Pests (WA)** | **Cascade Pest Control** or **Orkin** | PNW carpenter ants bore into structural wood; local specialists know how to locate satellite nests in damp wood. |\n| **Termites (CA & AZ)** | **Western Exterminator** or **Terminix** | Experienced in both tent fumigation (drywood) and soil trenching/baiting (subterranean). |\n| **Routine Exterior Prevention (All States)** | **Aptive Environmental** or **Clark Pest Control** | Good for recurring seasonal perimeter sprays against spiders, general ants, and wasps. |\n\n---\n\n### Tips Before You Sign a Contract:\n\n1. **Ask About Free Re-treatments:** Ensure your quarterly contract includes free visits between regular services if pests return.\n2. **Watch for Hidden Exclusion Fees:** If you have roof rats (common in both Phoenix citrus trees and Seattle attics), chemical treatment isn't enough. Make sure their quote includes *rodent exclusion* (patching entry points with wire mesh/sealant), or find out if that costs extra.\n3. **Get At Least Two Quotes:** Pest pricing in the West varies widely. Most providers offer free home inspections—have two companies walk the property before committing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Truly Nolen",
+  "top3_brands": [
+    "Truly Nolen",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:44:54+00:00",
+  "has_unknown": true
+}

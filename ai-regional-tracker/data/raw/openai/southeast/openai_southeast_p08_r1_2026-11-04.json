@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control company in the Southeast US, including Florida, Georgia, and Texas, consider comparing the following reputable companies:\n\n1. **Orkin**\n   - Nationwide presence with extensive experience.\n   - Offers a wide range of services, including termite and mosquito control.\n\n2. **Terminix**\n   - Known for comprehensive pest management solutions.\n   - Specializes in termite and bed bug treatments.\n\n3. **Truly Nolen**\n   - Family-owned with a strong presence in the Southeast.\n   - Eco-friendly pest control options available.\n\n4. **Arrow Exterminators**\n   - Based in Georgia with a focus on the Southeast.\n   - Offers both residential and commercial pest control services.\n\n5. **Massey Services**\n   - Headquartered in Florida, well-suited for the regional climate.\n   - Provides pest prevention and landscape services.\n\n6. **Aptive Environmental**\n   - Focuses on environmentally friendly pest control methods.\n   - Offers seasonal service plans.\n\n7. **Ehrlich Pest Control**\n   - Part of the Rentokil family, with a long-standing reputation.\n   - Provides customized pest management plans.\n\nWhen comparing these companies, consider factors such as service offerings, pricing, customer reviews, and any guarantees they provide. It's also a good idea to get quotes from a few companies and ask for referrals or testimonials from past customers.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Truly Nolen",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T14:57:15+00:00",
+  "has_unknown": true
+}

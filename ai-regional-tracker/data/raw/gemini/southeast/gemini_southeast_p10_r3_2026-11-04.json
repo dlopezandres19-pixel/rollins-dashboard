@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Southeast US (Florida, Georgia, Texas) should consider.",
+  "rep": 3,
+  "response_text": "For homeowners in the Southeast (Florida, Georgia, and Texas), pest control needs are unique due to the warm, humid climate, which fosters year-round pressure from subterranean and Formosan termites, American cockroaches (palmetto bugs), fire ants, and mosquitoes. \n\nHere is a curated shortlist of top pest control companies to consider, divided between regional powerhouses that specialize in the Southeast and reliable national providers.\n\n---\n\n### 1. Premier Regional Powerhouses (Best Local Expertise)\n\n*   **Arrow Exterminators** *(Strongest in GA, with large footprints in FL & TX)*\n    *   **Why them:** Headquartered in Atlanta, Arrow is one of the largest family-owned pest control companies in the country. They are especially renowned for their **STEPS (Sustainability Through Environmental Pest Solutions)** program and comprehensive termite protection.\n    *   **Best for:** Homeowners who want high-touch customer service, eco-friendlier treatment options, and robust subterranean termite bonds.\n*   **Massey Services** *(Strongest in FL, expanding heavily across GA & TX)*\n    *   **Why them:** Headquartered near Orlando, Massey was built specifically around the Florida climate and landscape. Unlike most pure pest companies, they specialize in an integrated approach that covers general pest control, termite prevention, lawn care, and irrigation maintenance.\n    *   **Best for:** Homeowners (especially in Florida) looking to bundle indoor pest defense with lawn fertilization and turf pest management (chinch bugs, sod webworms).\n*   **ABC Home & Commercial Services** *(Top choice for Texas)*\n    *   **Why them:** If you are in Texas (Austin, Dallas-Fort Worth, Houston, San Antonio), ABC is widely considered the gold standard for regional service. Family-run for generations, they understand Texas-specific pest pressures (scorpions, fire ants, roaches, and termites).\n    *   **Best for:** Texas homeowners wanting an established, highly rated local operator that can also handle handyman, pool, and AC/lawn services.\n\n---\n\n### 2. Top National Providers (Widest Coverage & Termite Guarantees)\n\n*   **Orkin** *(Headquartered in Atlanta, GA; ubiquitous across FL, GA, and TX)*\n    *   **Why them:** Orkin puts its technicians through one of the most rigorous training regimens in the industry (overseen by board-certified entomologists). Because they are based in the South, their regional protocols for heat- and moisture-loving pests are proven.\n    *   **Best for:** Complex infestations, aggressive quarterly prevention plans, and reliable money-back guarantees.\n*   **Terminix** *(Ubiquitous coverage across FL, GA, and TX)*\n    *   **Why them:** Given that the Southeast is the most termite-prone region in the country, Terminix remains a primary contender due to its specialized termite systems (using bait stations like Sentricon as well as liquid barriers).\n    *   **Best for:** Comprehensive termite bonds, real estate termite clearance letters (WDO inspections), and seamless online account management.\n*   **Truly Nolen Pest Control** *(Strong footprint in Florida & Texas)*\n    *   **Why them:** Best known for their mouse-eared cars, Truly Nolen has deep roots in Florida and the Sunbelt. Their \"Four Seasons\" pest program adapts chemical barriers and bait types to match Southern seasonal insect behavior.\n    *   **Best for:** Preventive quarterly maintenance and localized rodent exclusion.\n\n---\n\n### What to Ask Before Signing a Contract in the Southeast:\n\n1. **Does the quote include a Termite Bond?** \n   General pest plans typically *exclude* termites. In FL, GA, and TX, subterranean termites cause significant structural damage. Ask if they offer a **repair guarantee** (they pay for structural repairs if termites return) rather than just a **re-treatment guarantee** (they simply spray again).\n2. **Is outdoor perimeter defense standard?**\n   In the South, the best pest control keeps bugs from getting inside in the first place. Ensure quarterly visits include sweeping eaves for spider/wasp nests and treating a 3-to-5-foot barrier around your foundation.\n3. **What is the free re-service policy?**\n   Because pest pressure is relentless in warm climates, verify that the company will return to re-treat your home at no extra cost if pests reappear between scheduled visits.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:17:09+00:00",
+  "has_unknown": true
+}

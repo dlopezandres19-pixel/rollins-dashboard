@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "When looking for residential pest control in California, Washington, and Arizona, you have a choice between **established Western regional brands** (which often have deeper familiarity with local microclimates and desert/coastal pests) and **major national providers**. \n\nHere are the leading residential pest control companies across these three states:\n\n---\n\n### 1. The Leading Regional Powerhouses\n\nThese companies specialize in Western ecosystems, ranging from Pacific Northwest moisture-loving pests to Sonoran Desert scorpions.\n\n*   **Western Exterminator (CA, WA, AZ):**  \n    Recognizable by its yellow trucks and “Little Man” mascot, Western Exterminator is one of the most prominent regional players on the West Coast. Now part of the Rentokil family, they have extensive coverage in California, Arizona, and Washington, handling everything from general pests to bed bugs and severe termite infestations.\n*   **Clark Pest Control (California & Reno/Tahoe):**  \n    One of the largest pest control brands in California (now part of Rollins/Orkin family but operated locally). They are widely praised for customer service and eco-friendly Integrated Pest Management (IPM) solutions covering California’s Central Valley, Bay Area, and Southern California.\n*   **Truly Nolen Pest Control (Arizona & California):**  \n    Headquartered in Tucson, Arizona, Truly Nolen is legendary in the Southwest for desert pest control—specifically subterranean termites, bark scorpions, and pack rats. They also operate widely in California and other sunbelt areas.\n*   **Burns Pest Elimination (Arizona):**  \n    One of the most trusted names in the Phoenix, Tucson, and Las Vegas corridors. Because Arizona has unique pest issues (especially bark scorpions and aggressive desert termites), Burns is a top local pick for specialized desert perimeter defense.\n*   **Lloyd Pest Control (Southern California):**  \n    If you live in San Diego, Orange County, Riverside, or Los Angeles, Lloyd has been a Southern California staple for nearly a century, known particularly for whole-home fumigation, termite heat treatments, and rodent exclusion.\n*   **Senske Services / Eden Pest (Washington):**  \n    A dominant Pacific Northwest provider handling Washington’s common pests, including carpenter ants, spiders, and damp-loving rodents.\n\n---\n\n### 2. Major National Providers (Uniform Coverage in CA, WA, and AZ)\n\nIf you live in an outlying suburb or want a standardized national guarantee, these brands operate extensive branch networks in all three states:\n\n*   **Orkin:**  \n    Best-in-class technician training and strong warranties. Orkin is especially reliable if you need rapid termite inspections, bed bug treatment, or urgent rodent exclusion. \n*   **Terminix:**  \n    A household name with widespread availability in all three states. They specialize heavily in termite monitoring systems, liquid barrier treatments, and crawlspace/attic insulation services.\n*   **Aptive Environmental:**  \n    One of the fastest-growing residential providers in Western metro areas (Seattle, Phoenix, Sacramento, Los Angeles). Aptive focuses on routine exterior perimeter defense and quarterly general pest maintenance with non-toxic, eco-focused products. *(Note: They typically do not specialize in whole-home termite fumigation or wildlife exclusion).*\n\n---\n\n### State-Specific Recommendations: What to Ask For\n\n*   **Arizona:** Ask specifically about **bark scorpion treatments** (not all general insecticides work well on scorpions; look for micro-encapsulated formulas) and **subterranean termite warranties**.\n*   **California:** Termites are a major threat across coastal and inland regions. Verify whether the company offers both **drywood termite** (fumigation or spot/heat treatment) and **subterranean termite** controls, and confirm they are licensed through the *California Structural Pest Control Board (SPCB)*.\n*   **Washington:** The humid climate makes **carpenter ants, moisture ants, and rats** the primary concern. Ask prospective providers about exterior entry-point sealing (exclusion work) rather than just chemical spraying.\n\n### How to Choose\n1. **Get multiple free inspections:** Most of these companies offer free initial inspections, especially for termites and rodents.\n2. **Review the re-service guarantee:** Ensure the company guarantees free touch-up visits between regular quarterly or bi-monthly appointments if pests reappear.\n3. **Check for state licenses:** Confirm your branch technicians are certified by their respective state regulators (e.g., California SPCB, Arizona Department of Agriculture’s Pest Management Division, or the Washington State Department of Agriculture).",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:44:12+00:00",
+  "has_unknown": true
+}

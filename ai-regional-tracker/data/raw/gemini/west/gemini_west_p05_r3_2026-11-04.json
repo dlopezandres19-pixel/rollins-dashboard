@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Choosing the right pest control company in the Western United States depends on whether you prefer a regional specialist that knows local ecosystems or a large national brand with standardized guarantees. \n\nBecause pest pressures vary significantly between the damp climate of Washington (carpenter ants, rats, moisture pests) and the arid conditions of Arizona and California (scorpions, roof rats, subterranean and drywood termites), here are the top recommendations:\n\n---\n\n### 1. Best Overall for the Western US: **Western Exterminator**\n* **Service Area:** California, Washington, Arizona, Nevada, Oregon, and Idaho.\n* **Why Choose Them:** Western Exterminator (part of the Rentokil family) is arguably the most recognized regional brand in the West. Because they operate specifically in this corridor, their technicians are deeply trained in regional pests—from desert bark scorpions in Phoenix to dampwood termites and rodents in Seattle.\n* **Best For:** Homeowners who want a company with deep regional roots backed by large corporate resources and strong satisfaction guarantees.\n\n---\n\n### 2. Best for State-Specific Needs\n\n#### **California: Clark Pest Control**\n* **Why Choose Them:** Clark is one of the largest pest control providers in California. They have an exceptional reputation across the Central Valley, Bay Area, and Southern California.\n* **Specialty:** Termites (both drywood and subterranean, which are pervasive in CA), lawn care integration, and general perimeter defense.\n\n#### **Arizona: Burns Pest Elimination**\n* **Why Choose Them:** Burns is an Arizona staple (serving Phoenix and Tucson). Desert pest control requires specific expertise—especially for **bark scorpions**, black widows, and pack rats. Standard bug sprays don’t deter scorpions, and Burns specializes in scorpion-sealing and specialized dusting treatments.\n* **Specialty:** Desert pests, scorpions, and eco-sensitive desert applications.\n\n#### **Washington: Cascade Pest Control or Eden Advanced Pest Technologies**\n* **Why Choose Them:** Western Washington has unique pest profiles centered around heavy moisture: carpenter ants, silverfish, spiders, and Norway rats. Local Pacific Northwest companies like Cascade Pest Control specialize in non-spray, targeted treatments and eco-friendly rodent proofing.\n* **Specialty:** Moisture-loving insects, carpenter ants, and rodent exclusion.\n\n---\n\n### 3. Best National Chains (CA, WA & AZ)\n\nIf you live in a rural area or prefer working with a nationwide brand that offers easy app management and strict service guarantees:\n\n* **Orkin (Best for Immediate Infestations):** Orkin is known for having some of the most rigorous technician training in the industry. They are ideal if you have an active, difficult infestation (such as bed bugs, German roaches, or an active rodent issue) rather than just needing routine spraying.\n* **Terminix (Best for Termite Protection):** If your primary concern is termites (especially in California and Arizona), Terminix offers some of the strongest termite damage repair warranties in the business (The Nix Guarantee).\n\n---\n\n### How to Decide Between Them:\n\n1. **Ask About Target Pests:** \n   * If you are in **Arizona**, ensure the provider specifically guarantees **scorpion control** (many standard base packages exclude them).\n   * If you are in **Washington**, ensure they do **exclusion work** (sealing entry holes) for rodents, rather than just laying poison bait stations.\n   * If you are in **California**, ask if they do **termite inspections**, as wood-destroying organisms are the biggest threat to home equity there.\n2. **Check the Retreatment Policy:** Any reputable company should offer free re-treatments between scheduled quarterly visits if pests return.\n3. **Beware of Long-Term Contracts:** Many door-to-door sales companies in these states push 12-to-24-month contracts with high cancellation fees. Always ask for the cancellation policy in writing before signing up for a quarterly plan.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:45:19+00:00",
+  "has_unknown": true
+}

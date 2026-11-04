@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When looking for top pest control companies in the Western U.S., including California, Washington, and Arizona, several options are known for their comprehensive service and customer satisfaction. Here are a few highly regarded companies:\n\n1. **Orkin**: Known for their extensive experience and strong reputation, Orkin offers comprehensive pest control services. They provide customized plans and use environmentally friendly methods.\n\n2. **Terminix**: Offers a wide range of pest control services including termite control, bed bug treatments, and wildlife removal. They have a strong presence in the Western states and provide guaranteed solutions.\n\n3. **Ehrlich Pest Control**: While more prominent on the East Coast, they have a solid presence in the West as well, offering quality services for residential pest issues.\n\n4. **Western Exterminator**: Particularly well-known in California, they offer personalized pest management solutions and emphasize local expertise and environmentally responsible practices.\n\n5. **Truly Nolen**: Known for their innovative pest control techniques, they offer a range of services and have a strong presence in Arizona and California.\n\n6. **Clark Pest Control**: Based in California, they provide services tailored to the local climate and pest challenges, with a focus on integrated pest management.\n\nWhen choosing a pest control company, consider factors such as:\n\n- **Reputation and Reviews**: Look for customer reviews and ratings to gauge satisfaction.\n- **Services Offered**: Ensure they cover the specific pests you're concerned about.\n- **Guarantees**: Check if they offer service guarantees or free return visits if the problem persists.\n- **Environmentally Friendly Practices**: If this is important to you, inquire about their use of eco-friendly products and methods.\n\nIt's also a good idea to get quotes from a few companies to compare prices and services before making a decision.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:05:37+00:00",
+  "has_unknown": true
+}

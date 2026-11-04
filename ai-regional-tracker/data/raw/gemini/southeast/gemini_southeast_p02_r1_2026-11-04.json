@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-04",
+  "iso_week": "2026-W45",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "Because the Southeast (Florida, Georgia, and Texas) shares unique pest pressures—such as high humidity, year-round mosquito activity, palmetto bugs/cockroaches, and heavy subterranean/Formosan termite risk—homeowners generally get the best results from companies with deep southern roots and strong termite programs.\n\nHere are the top pest control companies recommended for this region, broken down by their strengths:\n\n---\n\n### 1. Arrow Exterminators (Best Overall Regional Choice)\n* **Footprint:** Based in Atlanta, GA, with extensive coverage across Georgia, Florida, and Texas.\n* **Why they stand out:** Arrow is one of the largest family-owned pest control companies in the country. They consistently score higher for customer service and technician retention than national mega-corporations.\n* **Best for:** Homeowners who want a regional provider with corporate-level resources. Their \"STEPS Total Protection System\" covers general pests, wildlife exclusion, and termite control using Sentricon baiting systems.\n\n---\n\n### 2. Massey Services (Best for Combined Pest & Lawn Care)\n* **Footprint:** Headquartered in Orlando, FL, with widespread branches throughout Florida, Georgia, and Texas.\n* **Why they stand out:** In the South, exterior yard conditions directly dictate indoor pest pressure (especially for chinch bugs, sod webworms, ticks, and fire ants). Massey excels at bundling perimeter pest prevention, termite protection, and lawn/irrigation maintenance under one service contract.\n* **Best for:** Homeowners looking for comprehensive exterior management, environmental perimeter treatments, and specialized Florida/Gulf Coast landscape protection.\n\n---\n\n### 3. Orkin (Best for Severe Infestations & Training Standards)\n* **Footprint:** Nationwide, but headquartered in Atlanta, GA, with dense coverage across every major metro and rural market in FL, GA, and TX.\n* **Why they stand out:** Orkin’s technician onboarding and ongoing education programs are widely regarded as the gold standard in the pest control industry. They specialize in identifying entry points, moisture issues, and specific species biology.\n* **Best for:** Tackling active, entrenched infestations (like German cockroaches or aggressive rodent problems) and homeowners who prefer a well-established brand with a responsive 30-day money-back guarantee.\n\n---\n\n### 4. Terminix (Best for Termite Warranties)\n* **Footprint:** Nationwide, with heavy saturation across the entire southern corridor.\n* **Why they stand out:** Termites are a catastrophic threat to homes in Georgia, Florida, and Texas. Terminix was built around termite defense and offers some of the most comprehensive termite inspection, baiting, and liquid barrier treatments available.\n* **Best for:** Homeowners primarily focused on securing a transferable termite warranty or \"termite bond\" (often required when buying or selling a home in the Southeast).\n\n---\n\n### Key Southeast-Specific Buying Tips\n\nBefore signing a contract with any company, keep these regional factors in mind:\n\n1. **Scrutinize the Termite Agreement:** In Florida and coastal Georgia/Texas, ask whether the termite plan covers **Formosan subterranean termites** (an invasive, highly destructive species). Verify if the contract offers a **repair guarantee** (the company pays for structural damage if termites return) or only a **re-treatment guarantee** (they simply spray again).\n2. **Prioritize Perimeter Defense:** Good southern pest control focuses 90% on the exterior perimeter, eaves, weep holes (especially common in Texas brick homes), and crawl spaces (common in older GA/FL homes) to stop pests before they enter.\n3. **Re-Service Guarantees:** Ensure the standard recurring plan includes free interior touch-ups between scheduled quarterly visits if pests break through.\n4. **Get Multiple Quotes:** Pricing in the Southeast varies widely by home square footage and lot size. Get on-site quotes from one large regional player (like Arrow or Massey) and one top-rated local independent company before committing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-04T15:07:55+00:00",
+  "has_unknown": true
+}
