@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "In the West US, including states like California, Washington, and Arizona, you have several options for residential pest control. Here are the main types:\n\n1. **Professional Pest Control Services**:\n   - Companies like Orkin, Terminix, and Rentokil offer comprehensive pest management solutions. They handle a wide range of pests, including termites, rodents, and insects.\n   - Local companies often provide personalized services and may have better regional expertise.\n\n2. **DIY Pest Control**:\n   - Many homeowners opt for DIY methods using products from home improvement stores. Common items include sprays, traps, and baits.\n   - Natural remedies, such as essential oils or diatomaceous earth, are popular for those looking for non-chemical solutions.\n\n3. **Eco-Friendly and Organic Solutions**:\n   - Companies like Green Pest Solutions focus on environmentally-friendly methods, utilizing organic and low-toxicity products.\n   - Integrated Pest Management (IPM) strategies are used to minimize environmental impact.\n\n4. **Preventative Measures**:\n   - Regular maintenance, such as sealing entry points and proper waste management, can help prevent infestations.\n   - Landscaping choices, like keeping plants away from the house, can also be effective.\n\n5. **Specialized Services**:\n   - For specific pests such as termites or bed bugs, specialized services offer targeted treatments like heat or fumigation.\n\nWhen choosing a pest control option, consider factors like the type of pest, severity of the problem, environmental impact, and cost. Always check reviews and ensure the provider is licensed and insured.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:55:35+00:00",
+  "has_unknown": true
+}

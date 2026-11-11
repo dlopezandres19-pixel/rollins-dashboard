@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When seeking reputable residential pest control services in the Midwest, particularly in Illinois, Ohio, and Michigan, consider the following companies:\n\n**Rose Pest Solutions**  \nEstablished in 1860, Rose Pest Solutions is the nation's oldest pest control company. They offer comprehensive residential pest management services across Michigan, Ohio, and Indiana, addressing issues with ants, bed bugs, cockroaches, mosquitoes, rodents, stinging insects, termites, and wildlife. With 16 local offices, they ensure prompt and personalized service. Their technicians are licensed, insured, and undergo rigorous training. Rose Pest Solutions has received an average rating of 4.8 out of 5 stars from 7,998 reviews. ([rosepestsolutions.com](https://www.rosepestsolutions.com/?utm_source=openai))\n\n**Smithereen Pest Management Services**  \nServing the Midwest since 1888, Smithereen offers integrated pest management solutions for both residential and commercial clients. They operate in Illinois, Indiana, Iowa, Kansas, Kentucky, Michigan, Missouri, Tennessee, and Wisconsin. Their services include bed bug removal, wildlife and bird removal, and general pest control. Smithereen was the first Green Shield Certified pest management company in Illinois, emphasizing environmentally friendly practices. ([smithereen.com](https://www.smithereen.com/?utm_source=openai))\n\n**Franklin Pest Solutions**  \nWith a history dating back to 1929, Franklin Pest Solutions provides pest control services in Illinois and Indiana. They offer year-round protection plans, including four home visits per year, to keep homes pest-free. Their approach focuses on safe, effective, and sustainable pest management, aiming to protect both health and the environment. ([franklin.us](https://franklin.us/?utm_source=openai))\n\n**Delving Pest Control**  \nOperating for over 25 years, Delving Pest Control serves Northern Ohio and Southeastern Michigan. They offer expert pest control, rodent remediation, and bed bug treatment services. Their discreet one-time treatments and no-contract ongoing plans are designed to provide lasting protection for homes and businesses. ([delvingpest.com](https://www.delvingpest.com/pest-control-services/?utm_source=openai))\n\n**Frame's Pest Control, Inc.**  \nSince 1972, Frame's Pest Control has been serving Northern Ohio and Southeast Michigan. They offer professional pest control services for both residential and commercial clients, using advanced methods and targeted treatments to eliminate unwanted pests. As a family-owned company, they use EPA-approved products that are safe for children and pets. ([framespestcontrol.com](https://www.framespestcontrol.com/pest-control/?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and commitment to safety and environmental responsibility. It's advisable to contact these companies directly to discuss your specific needs and ensure they can provide the appropriate services for your location. ",
+  "mentioned_brands": [
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:51:44+00:00",
+  "has_unknown": true
+}

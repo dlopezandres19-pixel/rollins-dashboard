@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "For homeowners in the Northeast (New York, New Jersey, and Pennsylvania), pest control needs often revolve around seasonal shifts—especially subterranean termites, carpenter ants, ticks/mosquitoes (due to high Lyme disease rates), rodents seeking winter shelter, and nuisance invaders like the spotted lanternfly or stink bugs.\n\nThe best options fall into top regional specialists with deep local knowledge, as well as trusted national providers:\n\n---\n\n### 1. Top Regional Providers (Best Local Expertise)\n\n*   **Ehrlich Pest Control (Rentokil)**\n    *   **Best for:** Comprehensive general pest control and heritage in the Mid-Atlantic.\n    *   **Why choose them:** Ehrlich was founded in Reading, PA, and has one of the deepest footprints across Pennsylvania, New York, and New Jersey. They offer a seasonal pest protection plan (*PestFree365+*) that covers over 30 common pests, including bed bugs and mice, with year-round preventative visits.\n*   **Western Pest Services**\n    *   **Best for:** Customized local plans and prompt service across NY, NJ, and PA.\n    *   **Why choose them:** Western is a Mid-Atlantic staple with decades of experience dealing specifically with Northeast pests (especially carpenter ants, termites, and ticks). Their technicians generally have strong regional knowledge, and they use Integrated Pest Management (IPM) techniques to minimize chemical use.\n*   **Viking Pest Control**\n    *   **Best for:** Eco-friendly treatments and modern rodent tech (especially in NJ, Eastern PA, and Lower NY).\n    *   **Why choose them:** Viking is known for adopting *Anticimex SMART* technology—electronic, non-toxic rodent monitoring that alerts technicians the moment activity is detected in basements, attics, or crawlspaces. They are also GreenPro-certified for low-toxicity treatments.\n\n---\n\n### 2. Best National Providers (Best for Widespread Availability & Guarantees)\n\n*   **Orkin**\n    *   **Best for:** Complex infestations (termites, bed bugs) and rigorous technician training.\n    *   **Why choose them:** Orkin maintains high training standards (technicians undergo extensive coursework overseen by board-certified entomologists). Their 30-day money-back guarantee and strong customer service support make them a reliable default, especially in suburban and rural areas.\n*   **Terminix**\n    *   **Best for:** Termite defense and bundled packages.\n    *   **Why choose them:** Termites cause significant structural damage across the Tri-State area. Terminix’s *Nix Pest Guarantee* and specialized baiting systems (like Sentricon) are among the best in the industry for subterranean termite prevention and monitoring.\n\n---\n\n### What to Ask Before Hiring\n\nWhen getting quotes, consider these questions tailored to the Northeast climate:\n\n1.  **Do they cover spotted lanternflies, ticks, and stink bugs?** Many standard pest plans only cover baseline insects (ants, roaches, spiders). In NY, NJ, and PA, outdoor tick and lanternfly treatments often require an add-on or seasonal package.\n2.  **Are return visits free between scheduled services?** Quality recurring plans (quarterly or bi-monthly) should include free service calls if pests reappear between visits.\n3.  **Is winter rodent exclusion included?** Mice and rats are a major issue in the Northeast from October through March. Ask whether the technician simply sets traps or actually identifies and seals entry points around foundations and crawlspaces (exclusion work).\n4.  **Are they GreenPro or QualityPro certified?** If you have pets, small children, or well water, ask for Integrated Pest Management (IPM) methods that prioritize exclusion, monitoring, and targeted low-toxicity applications.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:08:34+00:00",
+  "has_unknown": true
+}

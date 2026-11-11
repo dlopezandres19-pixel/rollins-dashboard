@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "In the Midwest, including Illinois, Ohio, and Michigan, several reputable pest control companies have established a strong presence. Here are some of the most well-regarded options:\n\n1. **Orkin**: Known for their comprehensive pest control services and strong customer service, Orkin is a nationwide company with local branches in many Midwestern cities.\n\n2. **Terminix**: Another large national company, Terminix offers extensive pest control services and has a good reputation for handling various pest issues.\n\n3. **TruGreen**: While primarily known for lawn care, TruGreen also provides pest control services in many areas across the Midwest.\n\n4. **Rose Pest Solutions**: As one of the oldest pest management companies, Rose Pest Solutions has a strong focus on environmentally responsible methods and is well-regarded in the Midwest.\n\n5. **Critter Control**: Specializing in humane wildlife removal, Critter Control has several locations throughout the Midwest and offers a wide range of pest control services.\n\n6. **Plunkett’s Pest Control**: A family-owned business with a strong presence in the Midwest, Plunkett’s is known for its reliable and effective pest management services.\n\nWhen choosing a pest control company, consider factors such as the specific services they offer, their approach to pest control (e.g., eco-friendly options), customer reviews, and any guarantees they provide. It's also a good idea to get quotes from a few different companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:51:39+00:00",
+  "has_unknown": true
+}

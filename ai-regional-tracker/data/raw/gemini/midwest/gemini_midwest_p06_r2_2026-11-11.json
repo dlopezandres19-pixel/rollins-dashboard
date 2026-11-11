@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When dealing with seasonal pests, winter rodent intrusion, or wood-destroying insects in the Midwest (Illinois, Ohio, and Michigan), several major national pest control companies stand out for their reliability, reach, and regional experience. \n\nHere are the best national pest control companies operating throughout the Great Lakes and Midwest region:\n\n---\n\n### 1. **Orkin** *(Best Overall & Most Thorough Training)*\n* **Availability:** Heavy coverage across Chicago/suburbs, downstate Illinois, Detroit metro, Grand Rapids, Cleveland, Columbus, Cincinnati, and beyond.\n* **Why Choose Them:** Orkin is widely regarded as the gold standard for technician training. Their technicians complete intensive coursework developed alongside entomologists, making them particularly skilled at diagnosing complex infestations (like carpenter ants or subterranean termites common to the humid Midwest).\n* **Services:** Full-spectrum control, including termites, bed bugs, rodents, mosquitoes, stinging insects, and general pest management.\n* **Guarantee:** 30-day money-back guarantee with free retreatment visits between scheduled services if pests return.\n\n### 2. **Terminix** *(Best for Termite & Comprehensive Year-Round Coverage)*\n* **Availability:** Widespread presence with service centers throughout all major cities and mid-sized markets in IL, OH, and MI.\n* **Why Choose Them:** As the name implies, Terminix built its reputation on wood-destroying pest management, but their **PestFree365** plan is one of the most comprehensive residential maintenance plans on the market. It covers dozens of common pests year-round, including seasonal shifts (like mice entering homes in the late fall or wasps in the summer).\n* **Services:** Termite baiting/liquid treatments, wildlife exclusion, rodent control, bed bugs, and general perimeter defense.\n* **Guarantee:** The \"Nix Pest Guarantee\" provides free re-treatments between scheduled visits.\n\n### 3. **Ehrlich Pest Control (A Rentokil Company)** *(Best Mid-Atlantic/Midwest Presence)*\n* **Availability:** Especially strong in Ohio, with expanding service through Rentokil’s network into Michigan and Illinois.\n* **Why Choose Them:** Ehrlich combines the local feel of a regional brand with the backing and resources of Rentokil (one of the largest pest control conglomerates in the world). They are known for responsive customer service and their **PestFree365+** plan, which covers over 35 common household pests, including bed bugs and spotted lanternflies.\n* **Services:** General pest control, eco-friendly exclusion services, crawlspace encapsulation, and termite management.\n\n### 4. **Aptive Environmental** *(Best for Eco-Forward Perimeter Control)*\n* **Availability:** Rapidly growing across Midwest metro suburbs (Greater Detroit, Columbus, Cleveland, and Chicagoland).\n* **Why Choose Them:** Aptive specializes in exterior perimeter defense using pyrethrin-derived, EPA-reduced-risk treatments that are safer around children and pets. Their quarterly plan is popular in newer suburban subdivisions dealing with seasonal exterior pests like ants, spiders, wasps, and crickets.\n* **Caveat:** Unlike Orkin or Terminix, Aptive **does not** typically handle termites, bed bugs, or large wildlife/rodent remediation. They are strictly a general/nuisance pest provider.\n\n---\n\n### A Regional Alternative Worth Noting: **Rose Pest Solutions**\nWhile you asked for national companies, it is worth knowing about **Rose Pest Solutions**. Founded in the Midwest in 1860, Rose is one of the oldest pest management providers in the country and specifically blankets **Illinois, Michigan, and Ohio** (along with parts of Indiana and Wisconsin). They operate with the scale and equipment of a national company while maintaining deep, generational familiarity with Midwest-specific pest cycles (boxelder bugs, stink bugs, carpenter ants, and lake-area spider infestations).\n\n---\n\n### Tips for Hiring in the Midwest:\n1. **Factor in the Seasons:** A good Midwest plan should address **exterior perimeter barriers** in spring/summer (for ants, wasps, and spiders) and **rodent exclusion/baiting** in October/November when field mice seek warmth inside basements and attics.\n2. **Clarify the Guarantee:** Confirm that the company offers free callback service between scheduled visits. If you see ants or mice 3 weeks after a treatment, they should come back out at no charge.\n3. **Get Multiple On-Site Quotes:** For major issues (like termites or wildlife exclusion), prices can vary by hundreds of dollars. Both Orkin and Terminix typically offer free inspections and quotes for specialized issues.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:22:55+00:00",
+  "has_unknown": true
+}

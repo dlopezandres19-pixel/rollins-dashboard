@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "When dealing with pests in the Northeast—particularly New York, New Jersey, and Pennsylvania—the best company often depends on whether you're dealing with urban challenges (like bed bugs and rats in dense multi-family buildings) or suburban/rural issues (like ticks, carpenter ants, mice, and subterranean termites).\n\nHere are the top-rated pest control companies in the NY/NJ/PA region, categorized by regional specialists and national providers:\n\n---\n\n### Top Regional Specialists (Best for Local Expertise)\n\n1. **Western Pest Services** *(NY, NJ, PA, CT, DE)*\n   * **Best For:** Overall reliability and suburban/commercial pest management.\n   * **Why Choose Them:** Founded in New Jersey in 1928, Western is a household name in the Tri-State area. They have deep institutional knowledge of Northeast pest patterns (especially seasonal invaders like stink bugs, mice, and carpenter ants) and offer comprehensive year-round protection plans.\n\n2. **Viking Pest Control** *(NJ, Eastern PA, DE, MD)*\n   * **Best For:** Modern, tech-forward rodent prevention and eco-friendly treatments.\n   * **Why Choose Them:** Viking is one of the most prominent providers in New Jersey and Pennsylvania. They are known for their \"SMART\" digital rodent monitoring systems (non-toxic traps with wireless sensors) and strong Integrated Pest Management (IPM) practices designed to minimize chemical use around children and pets.\n\n3. **Ehrlich Pest Control** *(PA, NY, NJ)*\n   * **Best For:** Pennsylvania homeowners and comprehensive year-round maintenance.\n   * **Why Choose Them:** Originating in Reading, Pennsylvania, Ehrlich has a massive footprint throughout PA and upstate/downstate NY. Their \"PestFree365+\" plan covers dozens of regional pests, including bed bugs and stinging insects, with free retreatments between scheduled visits.\n\n4. **Cooper Pest Solutions** *(NJ, Eastern PA)*\n   * **Best For:** Bed bug extermination and science-based pest prevention.\n   * **Why Choose Them:** Founded by an entomologist and based in Lawrenceville, NJ, Cooper is widely regarded as one of the best technical teams for difficult infestations, particularly bed bugs, stink bugs, and carpenter bees.\n\n5. **MMPC (Metropolitan Model Pest Control)** *(NYC Metro, Long Island, Northern NJ)*\n   * **Best For:** NYC apartment dwellers and eco-friendly/K-9 inspections.\n   * **Why Choose Them:** MMPC is routinely ranked as one of the best boutique pest services in the NYC area. They specialize in eco-friendly treatments and certified canine scent detection for bed bugs, which is crucial for co-ops, condos, and townhouses.\n\n---\n\n### Top National Providers (Best for Standardized Guarantees)\n\n1. **Orkin**\n   * **Best For:** Fast dispatch, rigorous technician training, and strict money-back guarantees.\n   * **Why Choose Them:** Orkin has dozens of branches across NY, NJ, and PA. Their technicians undergo extensive training in regional biology, and they offer a 30-day money-back guarantee with complimentary retreatments if pests return between services.\n\n2. **Terminix**\n   * **Best For:** Termite treatments and wildlife exclusion.\n   * **Why Choose Them:** If your primary concern is subterranean termites (very common in older wood-frame homes in PA and NJ) or larger attic intruders (squirrels, raccoons, bats), Terminix has some of the strongest specialized warranties and exclusion teams in the country.\n\n---\n\n### How to Choose the Right One for Your Home\n\n* **For NYC/Urban Apartments:** Look for companies experienced with shared-wall buildings (like **MMPC** or **Western**). In an apartment, you need a company that seals entry points rather than just spraying chemicals.\n* **For Suburban NJ/PA Yards (Ticks & Mosquitoes):** If you live near wooded areas, ask specifically about seasonal perimeter treatments and tick control (both **Viking** and **Ehrlich** offer specialized yard shields).\n* **Always Check the Guarantee:** The Northeast undergoes drastic seasonal shifts; make sure your contract includes **free touch-ups between scheduled visits** if pests return during the winter (rodents) or spring (ants/termites).",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:07:32+00:00",
+  "has_unknown": true
+}

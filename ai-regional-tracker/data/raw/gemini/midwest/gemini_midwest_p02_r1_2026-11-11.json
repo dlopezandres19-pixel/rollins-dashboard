@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "For homeowners in Illinois, Ohio, and Michigan, the best pest control company often depends on whether you prefer an established regional provider with deep local roots or a major national chain with 24/7 customer support and extensive service guarantees.\n\nHere are the top recommendations broken down by category:\n\n---\n\n### 1. Top Regional Picks (Often the Best Local Reputation)\n\nRegional companies often offer better customer service, fewer high-pressure sales tactics, and technicians who have spent decades dealing specifically with Midwest seasonal pest patterns.\n\n*   **Rose Pest Solutions** *(Best Overall for MI & OH)*\n    *   **Coverage:** Extensively covers Michigan, Ohio, and parts of Indiana/Illinois.\n    *   **Why them:** Founded in the 1860s, Rose is one of the oldest pest control companies in the country. They have an excellent reputation across the lower peninsula of Michigan and throughout Ohio for residential quarterly protection plans. They are especially effective for seasonal invaders like boxelder bugs, mice, and carpenter ants.\n*   **Anderson Pest Solutions** *(Best Overall for Illinois)*\n    *   **Coverage:** Dominant in the Chicago area, northern/central Illinois, and northwest Indiana.\n    *   **Why them:** Now part of the Rentokil family, Anderson has maintained strong local operations. Their \"Natural Choice Home Protection\" plan emphasizes Integrated Pest Management (IPM), using targeted treatments rather than just spraying chemicals around the perimeter.\n\n---\n\n### 2. Best National Providers (Best for Warranties & Availability)\n\nIf you live in a rural area or want the backing of a large corporation with 24/7 call centers and straightforward retreatment guarantees:\n\n*   **Orkin** *(Best for Intensive Infestations & Bed Bugs)*\n    *   **Coverage:** Extensive across IL, OH, and MI.\n    *   **Why them:** Orkin technicians undergo rigorous, university-certified training. If you have an active, severe issue—such as bed bugs, German roaches, or a heavy subterranean termite issue—Orkin’s targeted treatments and 30-day money-back guarantee are among the strongest in the industry.\n*   **Terminix** *(Best for Termite Protection)*\n    *   **Coverage:** Broad coverage across all three states.\n    *   **Why them:** If your primary concern is termites (especially relevant in southern Illinois and southern/central Ohio), Terminix offers some of the most comprehensive termite inspection and damage-repair warranty programs (the Nix Pest Guarantee).\n\n---\n\n### 3. Best for Wildlife & Exclusion Work\n\nIn the Midwest, standard pest control companies often do not handle attic and crawlspace wildlife (raccoons, bats, squirrels, skunks):\n\n*   **Varment Guard / Plunkett's Pest Control:** A major Upper Midwest brand with deep presence across Ohio and Michigan, well known for both general pest control and humane wildlife removal/exclusion.\n*   **Critter Control:** A national specialist with strong franchises throughout Chicago, Detroit, Cleveland, and Columbus. They specialize in trapping, evicting wildlife, and sealing entry points (fascia boards, ridge vents, soffits).\n\n---\n\n### Tips for Midwest Homeowners\n\nWhen booking, keep these regional factors in mind:\n\n1.  **Look for Fall/Winter Rodent Exclusion:** In IL, OH, and MI, winter freezes drive mice and rats into attics and basements. Make sure any quarterly plan includes routine crawlspace/attic inspections and minor sealing (exclusion work), not just outdoor poison bait boxes.\n2.  **Ask About Fall Invaders:** The Midwest sees massive surges of brown marmorated stink bugs, boxelder bugs, and Asian lady beetles every September and October. Ask if their exterior barrier spray covers these insects before they squeeze into your siding.\n3.  **Check the Specific Branch:** National companies (like Terminix, Orkin, or Aptive) vary significantly by local branch management. Check the Google reviews for your specific city’s branch before signing an annual contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:18:25+00:00",
+  "has_unknown": true
+}

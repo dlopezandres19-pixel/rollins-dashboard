@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "In the western United States, including California, Washington, and Arizona, there are several options for residential pest control. Here are some of the main ones:\n\n1. **Professional Pest Control Services**:\n   - **Terminix**: Offers a variety of services for common pests like termites, bed bugs, and rodents.\n   - **Orkin**: Provides pest control solutions with customized plans based on the specific needs of your home.\n   - **Ecolab**: Known for environmentally friendly pest control methods.\n\n2. **Local Pest Control Companies**:\n   - Each state has numerous local companies that might offer more personalized services. Examples include Clark Pest Control in California and Arizona Pest Control in Arizona.\n\n3. **DIY Pest Control Products**:\n   - Home improvement stores like Home Depot or Lowe's offer a range of DIY pest control products, including sprays, traps, and baits.\n\n4. **Natural and Organic Solutions**:\n   - Many companies offer organic pest control services using natural ingredients, which can be a good option for those concerned about chemical use.\n\n5. **Integrated Pest Management (IPM)**:\n   - This approach focuses on long-term prevention and combines various methods such as biological control, habitat manipulation, and use of resistant varieties.\n\nWhen choosing a pest control option, consider factors like the type of pest, level of infestation, budget, and any environmental concerns you may have. It's also helpful to read reviews and ask for recommendations from neighbors or local community groups.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:55:26+00:00",
+  "has_unknown": true
+}

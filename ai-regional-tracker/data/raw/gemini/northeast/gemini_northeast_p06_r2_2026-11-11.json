@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "When choosing a national pest control company in New York, New Jersey, and Pennsylvania, you want a provider that pairs large-scale resources and guarantees with technicians who understand the region's specific challenges—such as high-density rodent pressure in urban areas, carpenter ants and ticks in suburban/wooded zones, and seasonal pests like stink bugs and subterranean termites.\n\nHere are the top national and nationally backed pest control companies operating throughout the Northeast:\n\n---\n\n### 1. **Orkin**\n* **Best For:** Overall service quality, aggressive treatments, and technician training\n* **Why They Stand Out:** Orkin is consistently rated among the best national providers because of its rigorous technician training program. They handle nearly every major pest problem, including stubborn infestations like bed bugs, subterranean termites, rodents, and wildlife.\n* **Coverage in NY/NJ/PA:** Extensive presence in major metropolitan areas (NYC, Philadelphia, Pittsburgh) as well as broad suburban and rural coverage.\n* **Guarantees:** Offers a 30-day money-back guarantee, including complimentary return visits between scheduled treatments if pests return.\n\n### 2. **Terminix**\n* **Best For:** Termite management, bed bugs, and online account convenience\n* **Why They Stand Out:** Terminix is one of the largest pest control brands in the country. They are particularly well known for their proprietary termite monitoring and baiting systems, as well as specialized bed bug eradication methods (including heat treatments), which are essential in high-density areas across the Tri-State.\n* **Coverage in NY/NJ/PA:** Widespread availability across all three states with numerous local service branches.\n* **Guarantees:** The \"Nix Pest Guarantee\" covers free re-treatments between scheduled services for ongoing plan holders.\n\n### 3. **Ehrlich Pest Control (A Rentokil Company)**\n* **Best For:** Deep Northeast roots backed by global resources\n* **Why They Stand Out:** While technically part of Rentokil (one of the largest commercial and residential pest companies in the world), Ehrlich was founded in Reading, Pennsylvania, in 1928. Because of this, their service protocols are specifically tailored to the Northeast climate (e.g., tick suppression, overwintering pests, spotted lanternflies, and carpenter ants).\n* **Coverage in NY/NJ/PA:** Deeply embedded across Pennsylvania, Upstate New York, and New Jersey.\n* **Plan Highlight:** Their *PestFree365+* program covers over 35 common household pests, including bed bugs and stinging insects, which many basic national plans exclude.\n\n### 4. **Western Pest Services (A Rentokil Company)**\n* **Best For:** Metro/suburban Mid-Atlantic expertise (NY/NJ/PA focus)\n* **Why They Stand Out:** Also operating under the Rentokil umbrella, Western Pest Services has specialized in the New York, New Jersey, and Pennsylvania corridor for nearly a century. They have deep expertise in dealing with structural pests in older Northeast housing stock and multi-family brownstones.\n* **Coverage in NY/NJ/PA:** Primarily focused on the Tri-State, Philadelphia metro, and surrounding counties.\n\n### 5. **Aptive Environmental**\n* **Best For:** Routine perimeter insect control and eco-conscious treatments\n* **Why They Stand Out:** If your primary concern is common seasonal pests around the exterior—such as ants, spiders, wasps, and crickets—Aptive offers targeted perimeter defense using pyrethrin-derived products. \n* **Important Caveat:** Aptive generally **does not** handle wood-destroying organisms (termites, carpenter ants), bed bugs, or advanced wildlife trapping. If you have structural or indoor infestation issues, Orkin, Terminix, or Ehrlich are better suited.\n\n---\n\n### What to Keep in Mind Before Signing a Contract\n\n1. **Branch-Level Reviews Matter Most:** Large national companies operate through local branch offices. A branch in Northern New Jersey or Long Island might have fantastic ratings, while another branch 30 miles away could have slower dispatch times. Always check Google Reviews for your specific local branch or zip code.\n2. **Bed Bugs & Termites Require Inspections:** Be wary of flat phone quotes for bed bugs or termites. A reputable provider will send an inspector to evaluate the property and assess the extent of the activity before quoting a price.\n3. **Ask About Winter Coverage:** In the Northeast, pest activity shifts indoors from November through March (especially mice and rats). Make sure any recurring plan includes interior rodent exclusion and bait station maintenance, not just warm-weather exterior perimeter sprays.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:12:27+00:00",
+  "has_unknown": true
+}

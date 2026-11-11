@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "In the Western US, several pest control companies are known for their reputation and service quality. Here are a few well-regarded options:\n\n1. **Orkin**: With a long history in pest control, Orkin offers comprehensive services and has a strong presence throughout California, Washington, and Arizona. They are known for their trained technicians and effective treatment plans.\n\n2. **Terminix**: Another nationwide company, Terminix provides a wide range of pest control services and has a good reputation for customer service and protection plans.\n\n3. **Clark Pest Control**: Based in California, Clark Pest Control is a regional favorite with a strong reputation for effective pest management and excellent customer service.\n\n4. **Western Exterminator**: Known for their expertise and reliability, Western Exterminator operates in several Western states and offers customized pest control solutions.\n\n5. **Green Pest Solutions**: Offering environmentally friendly options, Green Pest Solutions is a good choice for those looking for eco-conscious pest control.\n\n6. **Ecola Termite and Pest Control**: Also based in California, Ecola offers innovative and green pest control solutions, specializing in termite treatments.\n\nWhen choosing a pest control company, consider checking online reviews, asking for recommendations, and comparing quotes to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:53:55+00:00",
+  "has_unknown": true
+}

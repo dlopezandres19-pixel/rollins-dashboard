@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "In the Midwest, including Illinois, Ohio, and Michigan, you have several options for residential pest control. Here are some main approaches:\n\n1. **Professional Pest Control Services**:\n   - **Orkin**: Offers comprehensive pest control solutions and is widely available.\n   - **Terminix**: Provides services for a broad range of pests with tailored plans.\n   - **TruGreen**: Known for lawn care but also offers pest control services.\n   - **Local Companies**: Consider local providers as they often have specific knowledge about regional pests.\n\n2. **DIY Pest Control**:\n   - **Over-the-Counter Products**: You can purchase sprays, traps, and baits from home improvement stores.\n   - **Natural Remedies**: Use essential oils, vinegar, and diatomaceous earth for a more natural approach.\n\n3. **Preventative Measures**:\n   - **Sealing Entry Points**: Ensure windows, doors, and foundations are sealed to prevent entry.\n   - **Regular Cleaning**: Keep your home clean and free of food scraps.\n   - **Yard Maintenance**: Regularly trim bushes and maintain a tidy yard to reduce pest habitats.\n\n4. **Integrated Pest Management (IPM)**:\n   - A combination of techniques focusing on long-term prevention through biological control, habitat manipulation, and use of resistant varieties.\n\nAlways assess the severity of your pest issue and consider consulting with professionals if the problem is extensive.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:53:04+00:00",
+  "has_unknown": true
+}

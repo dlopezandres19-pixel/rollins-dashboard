@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, you have several options for residential pest control. Here are some common methods and companies you might consider:\n\n### Pest Control Options:\n\n1. **Professional Pest Control Services:**\n   - **Terminix:** Offers comprehensive pest control services, including treatments for termites, ants, cockroaches, and more.\n   - **Orkin:** Provides pest control solutions with a focus on tailored plans and preventative measures.\n   - **Ehrlich Pest Control:** Known for eco-friendly solutions and integrated pest management strategies.\n   - **Massey Services:** Offers pest prevention and lawn care services, focusing on long-term prevention.\n\n2. **DIY Solutions:**\n   - **Chemical Sprays:** Available at home improvement stores for treating specific pests like ants, roaches, and spiders.\n   - **Boric Acid and Diatomaceous Earth:** Effective for cockroach and ant control when applied in cracks and crevices.\n   - **Natural Remedies:** Essential oils like peppermint and citrus can repel certain pests.\n\n3. **Integrated Pest Management (IPM):**\n   - Combines monitoring, prevention, and control strategies to minimize pest populations while reducing the use of chemicals.\n\n4. **Preventative Measures:**\n   - Seal cracks and crevices to prevent entry.\n   - Maintain cleanliness in and around your home to reduce attractants.\n   - Regularly inspect and maintain your property to prevent infestations.\n\n### Considerations:\n\n- **Climate Suitability:** The humid climate in these states can lead to specific pest problems like termites and mosquitoes, so ensure the service you choose is experienced in handling local issues.\n- **Eco-Friendly Options:** Many companies offer green or organic pest control solutions if you're concerned about chemicals.\n- **Customer Reviews:** Check reviews and testimonials for reliability and effectiveness.\n- **Local Regulations:** Be aware that some pest control methods may be subject to state regulations.\n\nIt's a good idea to consult with a professional to assess your specific situation and recommend the best course of action.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:48:14+00:00",
+  "has_unknown": true
+}

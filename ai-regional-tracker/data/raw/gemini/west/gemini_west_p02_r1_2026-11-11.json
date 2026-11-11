@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "Because pest challenges vary significantly between the arid deserts of Arizona, coastal and valley regions of California, and the damp climate of Washington, the best pest control company depends on whether you want a large national provider with strong guarantees or a regional specialist tailored to local pests.\n\nHere are the top recommendations for homeowners in the West:\n\n---\n\n### 1. Best Overall for the Western US: **Western Exterminator** (Rentokil)\n* **Coverage:** California, Washington, Arizona, Oregon, and Nevada.\n* **Best For:** Homeowners who want a company built specifically around Western pest ecosystems.\n* **Why Choose Them:** Western Exterminator is an iconic West Coast brand (known for the \"Little Man\" logo) backed by Rentokil’s nationwide resources. Because they focus specifically on the West, their technicians are well-versed in the region's diverse pests:\n  * **Arizona:** Bark scorpions, roof rats, and desert termites.\n  * **California:** Drywood and subterranean termites, Argentine ants, and black widows.\n  * **Washington:** Carpenter ants, dampwood termites, and silverfish.\n* **Perks:** They offer their **PestFree365+** plan, which covers dozens of common pests year-round with unlimited call-backs if pests return between scheduled visits.\n\n---\n\n### 2. Best for Emergency & Severe Infestations: **Orkin**\n* **Coverage:** Comprehensive across California, Washington, and Arizona.\n* **Best For:** Termite damage, bed bugs, and fast emergency response.\n* **Why Choose Them:** Orkin is consistently rated at the top nationwide for technician training. Every technician goes through rigorous entomology coursework and hands-on simulation training. \n* **Perks:** \n  * 30-day money-back guarantee.\n  * Complimentary re-treatments between scheduled visits.\n  * Transparent reporting and strong structural exclusion work (sealing entry points against rodents and outdoor pests).\n\n---\n\n### 3. Best State-Specific Picks\n\nIf you prefer companies with deep roots in a single state:\n\n#### **In Arizona: Truly Nolen**\n* **Headquarters:** Tucson, AZ.\n* **Why:** Because they were founded in the Sonoran Desert, Truly Nolen understands desert pests better than almost anyone. They have specialized protocols for bark scorpions, black widows, roof rats, and desert subterranean termites. Their four-season plan adjusts treatment methods based on pest behavior shifts throughout extreme desert weather cycles.\n\n#### **In California: Clark Pest Control**\n* **Footprint:** Massive across Northern, Central, and Southern California.\n* **Why:** Clark is one of the largest and most well-regarded pest control brands in California. They excel at termite inspections (essential for California real estate), rodent exclusion, and outdoor yard treatments for stubborn Argentine ant super-colonies.\n\n#### **In Washington: Cascade Pest Control or Western Exterminator**\n* **Why:** In the Pacific Northwest, moisture-loving pests dominate. Local providers like **Cascade Pest Control** (Puget Sound area) or regional teams like **Western Exterminator** specialize in green/eco-conscious treatments, crawl space rodent exclusion, and carpenter ant treatments—which are notoriously difficult to eradicate in damp evergreen environments.\n\n---\n\n### Summary Checklist for Western Homeowners:\n* **For a single company that covers all three states seamlessly:** Call **Western Exterminator** or **Orkin**.\n* **For desert pests in AZ (scorpions/pack rats):** Look at **Truly Nolen**.\n* **For termite inspections/clearance in CA:** Look at **Clark Pest Control** or **Terminix**.\n* **For damp/wood-destroying insects in WA:** Look at **Western Exterminator** or a local specialist like **Cascade Pest Control**.\n\n*Tip:* Always ask for a **free initial home inspection** and ensure their ongoing maintenance contract includes **free re-treatments** if pests reappear between quarterly services.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:28:54+00:00",
+  "has_unknown": true
+}

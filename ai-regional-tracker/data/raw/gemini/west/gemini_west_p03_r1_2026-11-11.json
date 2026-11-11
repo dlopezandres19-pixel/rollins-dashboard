@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control service in the West, regional and local companies often have a stronger reputation and deeper expertise with local pests (like scorpions in Arizona, carpenter ants and rats in the Pacific Northwest, or drywood termites in California) compared to one-size-fits-all national chains. \n\nHere are the most reputable residential pest control companies across **California, Washington, and Arizona**, broken down by regional powerhouses, state-specific favorites, and top national options.\n\n---\n\n### 1. Top Regional Powerhouses (Multi-State West)\n\n* **Western Exterminator (a Rentokil brand)**\n  * **Coverage:** California, Arizona, and parts of the Pacific Northwest.\n  * **Reputation:** Recognizable by their iconic \"Little Man\" mascot, Western Exterminator has served the West Coast for over a century. They are widely regarded for thorough residential inspections, effective Integrated Pest Management (IPM), and strong customer satisfaction guarantees.\n  * **Best for:** General pest maintenance, termite treatments, and bed bugs.\n\n* **Truly Nolen Pest Control**\n  * **Coverage:** Arizona and California (along with nationwide locations).\n  * **Reputation:** Headquartered in Tucson, Arizona, Truly Nolen is an institution in the Southwest. They are especially renowned for their four-season pest treatment plans, pet-friendly products, and specialized desert pest knowledge (scorpions, desert termites, and pack rats).\n  * **Best for:** Southwest-specific pests, scorpions, and year-round preventative barriers.\n\n---\n\n### 2. Top State-Specific Standouts\n\n#### **California**\n* **Clark Pest Control:** One of the largest and most trusted providers in Northern and Central California (now also serving Southern California). Clark is known for exceptional customer service, paperless digital reports, and green, low-impact treatment options.\n* **Lloyd Pest Control:** A dominant, highly reviewed player throughout Southern California (San Diego, Orange County, and Los Angeles). They are particularly trusted for whole-home termite eradication (including heat treatments and fumigation) and rodent exclusion.\n\n#### **Washington**\n* **Cascade Pest Control:** Serving the Puget Sound area (Seattle, Bellevue, Tacoma, Snohomish) since 1979. They specialize in eco-friendly pest and rodent management, with an emphasis on minimizing environmental impact near waterways.\n* **Eastside Exterminators:** A premier family-owned choice in Western Washington, particularly famous for their thorough \"4-step rodent management\" (inspection, exclusion/repair, clean-up/sanitization, and trapping).\n\n#### **Arizona**\n* **Burns Pest Elimination:** Operating extensively across the Phoenix and Tucson metro areas. They are known for responsive technician communication, flexible plans without high-pressure contracts, and strong warranties.\n* **Blue Sky Pest Control:** Consistently ranked among the highest-rated providers in the Phoenix valley. Unlike many competitors that use direct-sales door-to-door reps, Blue Sky relies primarily on trained, non-commissioned technicians, which customers often appreciate.\n\n---\n\n### 3. Most Reliable National Chains (All Three States)\n\nIf you live in an outlying area where regional options don't reach:\n\n* **Orkin:** The most consistent national provider across the West. They require extensive ongoing training for their technicians and hold a high percentage of **QualityPro** certifications (the benchmark of the National Pest Management Association). Their 30-day money-back guarantee is generally honored without hassle.\n* **Terminix:** With wide coverage across all three states, Terminix remains one of the top choices specifically for termite detection, baiting systems (Sentricon), and whole-home warranty protection.\n\n---\n\n### What to Look For Before Hiring:\n1. **Targeted Pests:** Make sure the company specializes in your specific issue. (e.g., in Washington, you need a company skilled in **rodent exclusion** and **carpenter ants**; in Arizona, ask specifically about **bark scorpion barriers**; in California, verify their **termite licensing**).\n2. **QualityPro Accreditation:** Look for the QualityPro badge on the company’s website—it verifies that technicians undergo background checks, drug screenings, and advanced safety training.\n3. **Re-treatment Guarantee:** Reputable providers should offer a free re-service policy between scheduled visits if pests return.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:29:57+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When choosing residential pest control in the Midwest—particularly across Illinois, Ohio, and Michigan—homeowners typically choose between well-regarded regional providers and major national chains. Regional companies often have deeper familiarity with local seasonal pest cycles (such as winter rodent intrusions, boxelder bugs, and carpenter ants), while national brands offer widespread availability and 24/7 support.\n\nHere are the leading residential pest control companies operating in this region:\n\n---\n\n### 1. Top Regional Midwest Providers\nRegional providers often have dedicated local roots and high customer loyalty in the Great Lakes/Midwest area:\n\n*   **Rose Pest Solutions** *(IL, OH, MI)*\n    *   **Overview:** Recognized as the oldest pest control company in the U.S., Rose has deep roots across Michigan, Ohio, and Illinois. \n    *   **Best for:** General year-round home protection, stinging insects, and bed bug treatments. They are widely regarded for knowledgeable, long-tenured local technicians.\n*   **Anderson Pest Solutions** *(Illinois & Chicagoland)*\n    *   **Overview:** A household name throughout the Greater Chicago area and northern Illinois (operating under the Rentokil family of brands).\n    *   **Best for:** Comprehensive residential protection plans (their \"Natural Choice Home\" program) and urban/suburban rodent and ant management.\n*   **Griffin Pest Solutions** *(Michigan)*\n    *   **Overview:** Headquartered in Michigan, Griffin covers much of the Lower Peninsula (including Grand Rapids, Kalamazoo, Lansing, and metro Detroit).\n    *   **Best for:** Seasonal pests common to Michigan lake climates (spiders, mosquitoes, carpenter ants) and winter rodent exclusion.\n*   **ScherZinger Pest Control** *(Ohio)*\n    *   **Overview:** A long-standing family-owned business serving central and southwest Ohio (Cincinnati, Dayton, Columbus).\n    *   **Best for:** Termite monitoring/elimination (Sentricon), bed bugs, and seasonal perimeter defense programs.\n*   **Plunkett’s Pest Control / Varment Guard** *(IL, OH)*\n    *   **Overview:** Plunkett’s is a major Upper Midwest brand, and its partner brand **Varment Guard** has a massive presence in Ohio.\n    *   **Best for:** Combined general pest control and dedicated wildlife trapping/exclusion.\n\n---\n\n### 2. Leading National Brands\nNational companies have service centers in nearly every medium-to-large metro area (Chicago, Rockford, Peoria, Detroit, Grand Rapids, Cleveland, Columbus, Cincinnati) and provide robust re-service guarantees:\n\n*   **Orkin**\n    *   **Best for:** Thorough technical training and reliable re-treatment guarantees.\n    *   **Midwest strength:** Excellent response times and detailed treatment plans for wood-destroying insects (carpenter ants and subterranean termites) and winter rodent infestations.\n*   **Terminix**\n    *   **Best for:** Termite baiting/treatment and large-scale bed bug remediation.\n    *   **Midwest strength:** Broad availability across rural, suburban, and urban communities, with flexible quarterly maintenance contracts.\n*   **Aptive Environmental**\n    *   **Best for:** Exterior perimeter quarterly treatments and eco-conscious formulations targeting common seasonal crawlers (ants, spiders, crickets, wasps).\n    *   **Midwest strength:** Very active in suburban neighborhoods across all three states, offering unlimited free re-treatments between scheduled visits.\n\n---\n\n### 3. Wildlife Specialists (Raccoons, Squirrels, Bats)\nIf your issue involves larger pests common in the Midwest—like raccoons in attics, bats, or skunks:\n\n*   **Critter Control:** They have extensive franchises throughout Illinois, Ohio, and Michigan specializing specifically in humane trapping, damage repair, and attic exclusion rather than just insect sprays.\n\n---\n\n### What to Look For Before Hiring\n1. **Free Re-service Guarantees:** Ensure any recurring plan (quarterly or bi-monthly) explicitly includes free re-treatments if target pests return between visits.\n2. **Seasonal Coverage:** Midwest pest pressure changes dramatically by season—carpenter ants and wasps in spring/summer, stink bugs and boxelder bugs in fall, and mice/rats in winter. Look for a plan that adjusts treatment focus by season.\n3. **Contracts vs. One-Time Treatments:** If you only have a mild wasp nest or localized ant problem, confirm whether the company offers one-time services or requires an annual maintenance agreement.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:20:29+00:00",
+  "has_unknown": true
+}

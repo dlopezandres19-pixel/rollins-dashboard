@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "Choosing a pest control company in the Western U.S. depends on your specific needs and location. Here are a few well-regarded companies you might consider:\n\n1. **Orkin**: Known for its comprehensive pest control services and nationwide coverage, Orkin offers customized solutions and has a strong presence in California, Washington, and Arizona.\n\n2. **Terminix**: Another large provider with extensive services for both residential and commercial properties. They offer pest, termite, and mosquito control, among others.\n\n3. **Clark Pest Control**: Based in California, Clark Pest Control is known for its local expertise and environmentally friendly practices. They offer a wide range of services, including termite inspection and treatment.\n\n4. **Western Exterminator**: They have a long history in pest control and emphasize integrated pest management techniques. With offices in California and Arizona, they are well-suited for local pest challenges.\n\n5. **Truly Nolen**: Offers a range of pest control services with a focus on family- and pet-friendly treatments. They are present in several Western states, including Arizona and California.\n\nWhen choosing a company, consider the following:\n\n- **Reputation and Reviews**: Check online reviews and ratings on platforms like Yelp or Google.\n- **Services Offered**: Ensure they handle the specific pests you’re dealing with.\n- **Pricing**: Obtain quotes from multiple companies to compare costs.\n- **Guarantees and Warranties**: Look for companies that offer satisfaction guarantees or warranties on their services.\n- **Certifications and Licensing**: Ensure the company is properly licensed and certified in your state.\n\nIt’s also a good idea to ask for recommendations from neighbors or local community groups.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:54:30+00:00",
+  "has_unknown": true
+}

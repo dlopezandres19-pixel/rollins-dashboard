@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the West US (California, Washington, Arizona) should consider.",
+  "rep": 3,
+  "response_text": "Here is a shortlist of the top pest control companies to consider across the Western U.S. (California, Washington, and Arizona), balancing established national providers with strong regional specialists that understand local Western pests.\n\n---\n\n### 1. Western Exterminator (Rentokil)\n* **Best for:** Overall coverage in California and Arizona\n* **Why consider them:** Instantly recognizable across the West Coast by their “Little Man” mascot, Western Exterminator has been operating in the West for over a century. Now part of Rentokil, they combine deep local expertise with large-scale corporate resources. They are especially adept at tackling regional challenges like Argentine ants, black widows, roof rats, and both subterranean and drywood termites.\n\n### 2. Truly Nolen Pest & Termite Control\n* **Best for:** Arizona homeowners & desert pests\n* **Why consider them:** Headquartered in Tucson, Arizona, Truly Nolen is one of the premier names in the American Southwest. They specialize in pests unique to arid, desert climates—particularly bark scorpions, black widows, pack rats, and desert subterranean termites. They also operate branches in parts of California and the Pacific Northwest.\n\n### 3. Clark Pest Control\n* **Best for:** California homeowners (Central, Northern, and Southern CA)\n* **Why consider them:** Founded in Northern California and now serving communities across the state (and into Nevada), Clark is one of the most trusted regional brands in CA. They offer flexible recurring maintenance plans that handle standard household invaders, seasonal garden/turf pests, rodent exclusions, and termite inspections.\n\n### 4. Eden Advanced Pest Technologies / Senske Services\n* **Best for:** Washington and the Pacific Northwest\n* **Why consider them:** Pest pressure in the rainy PNW looks very different from the desert Southwest. Eden (part of Senske Services) is well-established across Western and Eastern Washington. They specialize in moisture-driven pests native to the region, such as carpenter ants, dampwood termites, yellowjackets, silverfish, and seasonal rodent intrusions.\n\n### 5. Orkin\n* **Best for:** Fast response times, extensive warranties, and widespread branch availability\n* **Why consider them:** Orkin maintains extensive coverage in nearly every major metro area across CA, WA, and AZ. Their technicians undergo rigorous, entomologist-designed training, making them a solid choice for complex structural issues, aggressive bed bug infestations, and localized termite eradication.\n\n### 6. Terminix\n* **Best for:** Comprehensive termite monitoring and guarantees\n* **Why consider them:** Termites cause significant damage in the West (drywood termites along coastal California; subterranean termites in Arizona and Washington). Terminix offers some of the most robust ongoing termite protection plans and guarantees (such as the Nix Pest Guarantee and termite damage replacement warranties for qualifying structures).\n\n---\n\n### Tips for Western Homeowners Before Signing a Contract\n\n1. **Verify State Licensing:** \n   * **California:** Check the [Structural Pest Control Board (SPCB)](https://www.pestboard.ca.gov/).\n   * **Washington:** Check the [Washington State Department of Agriculture (WSDA)](https://agr.wa.gov/).\n   * **Arizona:** Check the [Arizona Department of Agriculture - Pest Management Division (PMD)](https://agriculture.az.gov/).\n2. **Target Your Specific Threat:**\n   * If you are in **Arizona**, confirm the company specifically treats for **scorpions and black widows** (standard base treatments don't always cover scorpions effectively).\n   * If you are in **Washington**, ensure the provider specializes in **carpenter ants and rodent exclusion** for crawlspaces.\n   * If you are in **California**, insist on a thorough inspection for **drywood vs. subterranean termites**, as the treatments differ drastically (tent fumigation/spot treatment vs. soil/bait barriers).\n3. **Compare Recurring vs. One-Time Terms:** Many companies will push quarterly subscriptions. Ask about cancellation policies, free retreatments between scheduled visits, and whether wildlife/rodent exclusion is included in the base rate.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:39:02+00:00",
+  "has_unknown": true
+}

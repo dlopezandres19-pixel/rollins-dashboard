@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Northeast US (New York, New Jersey, Pennsylvania) should consider.",
+  "rep": 3,
+  "response_text": "For homeowners in New York, New Jersey, and Pennsylvania, pest control needs often revolve around seasonal shifts—such as mice and rats seeking warmth in late fall, subterranean termites and carpenter ants in spring, and summer threats like ticks, mosquitoes, and spotted lanternflies.\n\nHere is a shortlist of the top pest control companies operating across the NY–NJ–PA tri-state corridor, broken down by their core strengths:\n\n---\n\n### 1. The Regional Stalwarts (Best Overall Local Expertise)\n\n*   **Ehrlich Pest Control**\n    *   **Footprint:** Extensive coverage across Pennsylvania (founded in Reading, PA), New York, and New Jersey.\n    *   **Best for:** Comprehensive residential protection plans and termite control.\n    *   **Why consider them:** As part of the Rentokil family, Ehrlich combines the resources of a large enterprise with nearly a century of localized Northeast experience. Their *PestFree365+* plan covers common tri-state invaders (including bed bugs and carpenter ants, which many competitors charge extra for).\n*   **Western Pest Services**\n    *   **Footprint:** Strong across New Jersey, Eastern Pennsylvania, New York City, Long Island, and the Hudson Valley.\n    *   **Best for:** Long-established local reliability and suburban/metro pest pressure.\n    *   **Why consider them:** Headquartered in New Jersey and serving the region since 1928, Western has field technicians who know local municipal building codes, older Northeast home architecture (stone basements, older wood frames), and regional infestation habits inside and out.\n\n---\n\n### 2. Tech-Forward & Eco-Conscious Specialists\n\n*   **Viking Pest Control**\n    *   **Footprint:** Broad coverage across New Jersey and Eastern/Central Pennsylvania, plus parts of NY/DE/MD.\n    *   **Best for:** Digital rodent monitoring and Integrated Pest Management (IPM).\n    *   **Why consider them:** Viking uses the *Anticimex SMART* system, which employs digital, non-toxic sensors and traps that monitor rodent activity 24/7 and alert technicians automatically. If you have pets, small children, or want to minimize chemical use, Viking’s eco-friendly approach is a top choice.\n*   **MMPC (Metro NY / Tri-State)**\n    *   **Footprint:** Primarily NYC, Long Island, Westchester, and Northern NJ.\n    *   **Best for:** Urban pests, difficult bed bug jobs, and eco-friendly/GreenPro-certified treatments.\n    *   **Why consider them:** If your property is in or near the New York metro area, MMPC is consistently rated among the best for discreet, humane, and chemical-free solutions (including certified canine bed-bug scent detection).\n\n---\n\n### 3. The National Giants (Best for Rural Coverage & Fast Dispatch)\n\n*   **Orkin**\n    *   **Footprint:** Robust branch coverage across upstate NY, western PA, and everywhere in between.\n    *   **Best for:** Urgent, one-off infestations and rigorous technician training.\n    *   **Why consider them:** If you live outside the major metro belts (e.g., the Poconos, Finger Lakes, or rural PA), Orkin almost always has a branch within reach. They require hundreds of hours of hands-on training for their exterminators and offer a reliable 30-day money-back guarantee.\n*   **Terminix**\n    *   **Footprint:** Universal availability across NY, NJ, and PA.\n    *   **Best for:** Termite monitoring, crawl-space exclusion, and whole-home prevention.\n    *   **Why consider them:** For wood-destroying insect issues (such as subterranean termites common in PA/NJ), Terminix’s proprietary Baiting System and repair guarantees provide peace of mind that smaller operations might not financially back.\n\n---\n\n### Tips for Homeowners in NY, NJ, and PA:\n\n1.  **Ask about wood-destroying insect (WDI) reports:** If you are buying or refinancing a home in this region, choose a company licensed to provide formal WDI/termite inspection certificates.\n2.  **Verify seasonal tick & mosquito add-ons:** If you live near wooded or suburban areas (like the Jersey Shore, Hudson Valley, or Bucks County), inquire whether their annual plan covers summer yard treatments.\n3.  **Check for Spotted Lanternfly licensing:** In quarantine zones across PA, NJ, and parts of NY, ensure the company is certified to treat and report lanternfly infestations on tree-of-heaven and residential landscaping.\n4.  **Always get a free on-site quote:** Avoid locking into a 12-month auto-renew contract over the phone; a reputable Northeast exterminator will inspect your foundation, attic, and perimeter first.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:17:02+00:00",
+  "has_unknown": true
+}

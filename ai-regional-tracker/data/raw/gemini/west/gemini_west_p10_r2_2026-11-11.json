@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the West US (California, Washington, Arizona) should consider.",
+  "rep": 2,
+  "response_text": "Here is a shortlist of reputable pest control companies to consider across California, Washington, and Arizona, categorized by their regional strengths, local footprint, and specific pest specialties.\n\n---\n\n### 1. Western Exterminator\n* **Best For:** Broad Western US coverage, residential termite protection, and general pest maintenance.\n* **Footprint:** California, Arizona, Washington (and across the broader West).\n* **Why Consider Them:** Western Exterminator has operated in the West for over a century (easily recognized by their vintage \"Little Man\" mascot). Now part of Rentokil, they combine deep local knowledge of Western microclimates with the resources of a global pest management network. They are particularly reliable for routine year-round perimeter defense and localized termite treatments (subterranean and drywood).\n\n---\n\n### 2. Truly Nolen Pest Control\n* **Best For:** Desert and warm-climate pests (especially Arizona and Southern California).\n* **Footprint:** Strong presence in Arizona (headquartered in Tucson) and California.\n* **Why Consider Them:** If you deal with pests typical of the arid Southwest—such as bark scorpions, black widows, pack rats, or subterranean termites—Truly Nolen is among the most experienced. Their \"Four Seasons\" approach adjusts the chemicals and application methods as pests migrate and reproduce according to desert and West Coast temperature shifts.\n\n---\n\n### 3. State-Specific Leaders Worth Requesting a Quote From\n\nDepending on which state your property is in, local and regional providers often offer faster scheduling and more customized service than national conglomerates:\n\n* **California — Clark Pest Control:**\n  * One of California’s most established residential pest services, covering Northern California, the Central Valley, and Southern California.\n  * Known for flexible scheduling, integrated pest management (IPM), and strong organic/eco-friendly options.\n* **Arizona — Burns Pest Elimination:**\n  * A longtime favorite in the Phoenix and Tucson metro areas.\n  * Specializes in desert-specific threats like scorpion control (including black-light inspections and dusting), pigeon/bird exclusion, and weed control.\n* **Washington — Cascade Pest Control:**\n  * Serving the Puget Sound and Western Washington region since 1979.\n  * Ideal for Pacific Northwest-specific challenges like carpenter ants, roof rats, and moisture-loving wood-destroying beetles. They carry strong eco-certifications and prioritize low-toxicity treatments suited to rainy climates.\n\n---\n\n### 4. Orkin\n* **Best For:** Severe infestations, emergency response, and termite guarantees.\n* **Footprint:** Widespread coverage across all three states (suburban and rural).\n* **Why Consider Them:** Orkin invests heavily in entomologist-backed employee training. While they can be on the higher end price-wise, their 30-day money-back guarantee and strong termite re-treatment warranties make them a safe bet if you are dealing with an active, aggressive infestation (e.g., bed bugs, heavy German cockroach outbreaks, or structural termites).\n\n---\n\n### What to Verify Before You Hire in the West:\n1. **Targeted Pest Coverage:** In Arizona, make sure scorpions are explicitly listed in the contract (standard general pest plans often exclude them). In Washington, check for carpenter ant and rat exclusion. In California, ensure both drywood and subterranean termites are addressed if purchasing a termite plan.\n2. **State Licensing:** Check that the technician holds a current license with your state’s regulatory board:\n   * *California:* Structural Pest Control Board (SPCB)\n   * *Arizona:* Pest Management Division (PMD) under the Department of Agriculture\n   * *Washington:* Washington State Department of Agriculture (WSDA)\n3. **Re-Service Guarantees:** Look for a provider that offers free touch-up visits between regular quarterly treatments if target pests return.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:38:41+00:00",
+  "has_unknown": true
+}

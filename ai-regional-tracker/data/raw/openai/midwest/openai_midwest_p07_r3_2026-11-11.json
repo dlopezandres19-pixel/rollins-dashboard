@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "Here are some pest control companies that are well-regarded in the Midwest, particularly in Illinois, Ohio, and Michigan:\n\n1. **Terminix**: Known for comprehensive pest control services, including termite and bed bug treatments. They offer tailored plans and have a strong presence across the Midwest.\n\n2. **Orkin**: Offers extensive pest control options with a focus on prevention and ongoing management. They provide services for a wide range of pests and have a good reputation for customer service.\n\n3. **TruGreen**: While primarily known for lawn care, they offer pest control services that focus on outdoor pest prevention, which can be valuable in maintaining a pest-free home environment.\n\n4. **Ecolab Pest Elimination**: Specializes in environmentally friendly pest control solutions. They are known for their innovative approaches and commitment to sustainability.\n\n5. **Rose Pest Solutions**: A family-owned company with a long history, offering personalized service and extensive knowledge of local pest issues in the Midwest region.\n\nWhen choosing a pest control service, consider factors such as the types of pests you're dealing with, budget, service guarantees, and eco-friendly options. It's also beneficial to read reviews and get quotes from multiple companies to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:52:41+00:00",
+  "has_unknown": true
+}

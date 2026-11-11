@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Southeast US (Florida, Georgia, Texas) should consider.",
+  "rep": 3,
+  "response_text": "Here's a shortlist of reputable pest control companies that homeowners in the Southeast US, including Florida, Georgia, and Texas, might consider:\n\n1. **Orkin**\n   - Offers comprehensive pest control services with a strong presence in the Southeast.\n   - Known for their experienced technicians and effective treatments.\n\n2. **Terminix**\n   - Provides a wide range of services, including termite and mosquito control.\n   - Has a long-standing reputation and extensive coverage in the region.\n\n3. **Massey Services**\n   - Based in Florida, they offer pest prevention, termite protection, and landscape services.\n   - Known for their environmentally responsible approach.\n\n4. **Arrow Exterminators**\n   - Family-owned and operated with a focus on sustainable and eco-friendly solutions.\n   - Offers pest and termite control, as well as wildlife removal services.\n\n5. **Truly Nolen**\n   - Offers innovative pest control solutions with a focus on integrated pest management.\n   - Known for their distinctive yellow mouse cars and effective services.\n\n6. **HomeTeam Pest Defense**\n   - Specializes in pest control services tailored for homeowners.\n   - Offers a unique \"Taexx\" built-in pest control system for new homes.\n\nEach of these companies provides a range of services, so it's advisable to contact them directly for more specific information and quotes tailored to your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:48:29+00:00",
+  "has_unknown": false
+}

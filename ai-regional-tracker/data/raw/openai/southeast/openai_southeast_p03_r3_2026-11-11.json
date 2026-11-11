@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, some of the most reputable residential pest control companies include:\n\n1. **Terminix**: Known for comprehensive services and a wide range of treatment options, Terminix is well-regarded for its customer service and effective solutions.\n\n2. **Orkin**: With a strong presence across the Southeast, Orkin offers tailored pest control plans and has a good reputation for reliability and effectiveness.\n\n3. **Arrow Exterminators**: A family-owned business, Arrow Exterminators provides environmentally-friendly pest control solutions and is highly rated in customer satisfaction.\n\n4. **Massey Services**: Particularly strong in Florida, Massey Services offers a variety of pest prevention and termite control services, with a focus on environmentally responsible practices.\n\n5. **Truly Nolen**: Known for their innovative approaches and eco-friendly treatments, Truly Nolen is a popular choice across these states.\n\nWhen choosing a pest control company, consider factors like certifications, customer reviews, and the specific services they offer to address your pest issues. It's also a good idea to get quotes from multiple companies to compare pricing and service options.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:46:46+00:00",
+  "has_unknown": false
+}

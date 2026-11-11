@@ -1,0 +1,11 @@
+week,provider,region_id,brand,mention_hits,top3_hits,rank1_hits,total_responses,mention_rate,top3_rate,rank1_rate
+2026-W46,openai,west,Rollins / Orkin,30,30,25,30,1.0,1.0,0.8333
+2026-W46,openai,west,Rentokil / Terminix,30,30,5,30,1.0,1.0,0.1667
+2026-W46,openai,west,Aptive,3,0,0,30,0.1,0.0,0.0
+2026-W46,openai,west,Massey,1,0,0,30,0.0333,0.0,0.0
+2026-W46,openai,west,Anticimex,0,0,0,30,0.0,0.0,0.0
+2026-W46,openai,west,Arrow Exterminators,0,0,0,30,0.0,0.0,0.0
+2026-W46,openai,west,Truly Nolen,21,21,0,30,0.7,0.7,0.0
+2026-W46,openai,west,Mosquito Squad,0,0,0,30,0.0,0.0,0.0
+2026-W46,openai,west,Lawn Doctor,0,0,0,30,0.0,0.0,0.0
+2026-W46,openai,west,__local_unknown__,29,0,0,30,0.9667,0,0

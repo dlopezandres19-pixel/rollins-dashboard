@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When seeking reputable residential pest control companies in the western United States—specifically in California, Washington, and Arizona—consider the following options:\n\n**Western Exterminator Company**\n\nEstablished in 1921, Western Exterminator has nearly a century of experience in pest control. They operate extensively across California, Washington, and Arizona, offering services for a wide range of pests, including termites, rodents, bedbugs, and more. The company emphasizes eco-friendly extermination methods and employs Integrated Pest Management (IPM) techniques to address pest issues with minimal intrusion. Western Exterminator is also GreenPro certified, reflecting their commitment to responsible pest control practices. ([pub-int.westernexterminator.com](https://pub-int.westernexterminator.com/about?utm_source=openai))\n\n**Clark Pest Control**\n\nServing California and Nevada since 1950, Clark Pest Control provides comprehensive residential pest control services. Their offerings include treatments for termites, ants, rodents, spiders, mosquitoes, bed bugs, and birds. Clark Pest Control utilizes integrated pest management strategies and offers a Year-Round Pest-Away program to ensure continuous protection. They are GreenPro certified, highlighting their dedication to environmentally responsible practices. ([clarkpest.com](https://www.clarkpest.com/pest-control?utm_source=openai))\n\n**Blue Sky Pest Control**\n\nBased in Arizona, Blue Sky Pest Control has been recognized as the top pest control company in the state for 2026 by Ranking Arizona. They offer a variety of services, including general pest control, termite control, rodent control, bed bug control, bee control, and exclusion services. Their clientele includes both residential and commercial customers, such as food processing facilities, hospitals, offices, and more. ([azbigmedia.com](https://azbigmedia.com/business/ranking-arizona-top-10-pest-control-companies-for-2026/?utm_source=openai))\n\n**Truly Nolen**\n\nTruly Nolen is a family-owned pest control company with a significant presence in the western United States, including Arizona and California. They offer a range of pest control services and are known for their distinctive yellow mouse car branding. With over 70 corporate locations in the U.S. and numerous franchises, they provide services for various pests and emphasize environmentally friendly solutions. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Truly_Nolen?utm_source=openai))\n\nWhen selecting a pest control provider, it's advisable to:\n\n- **Verify Licensing and Certifications**: Ensure the company holds the necessary state licenses and certifications.\n\n- **Read Customer Reviews**: Look for recent customer feedback to gauge service quality and reliability.\n\n- **Compare Services and Pricing**: Obtain quotes from multiple companies to find the best fit for your specific needs and budget.\n\n- **Inquire About Treatment Methods**: Discuss the company's approach to pest control, including the use of eco-friendly products and IPM techniques.\n\nBy considering these factors, you can choose a pest control company that aligns with your requirements and ensures effective management of pest issues in your home. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:53:59+00:00",
+  "has_unknown": true
+}

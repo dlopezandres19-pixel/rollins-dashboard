@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When selecting a pest control company in the Midwest—specifically in Illinois, Ohio, and Michigan—it's essential to consider factors such as service quality, customer reviews, and availability. Here are some top-rated pest control companies in these states:\n\n**Illinois:**\n\n- **Pointe Pest Control**: With a 4.9-star rating from 2,933 reviews, Pointe Pest Control is recognized for its commitment to safe and environmentally conscious pest control solutions. ([bestpickreports.com](https://www.bestpickreports.com/pest-and-termite-control/illinois?utm_source=openai))\n\n- **Greenix Pest Control**: Holding a 4.8-star rating from 324 reviews, Greenix emphasizes a responsible pest control process to ensure homes remain pest-free. ([bestpickreports.com](https://www.bestpickreports.com/pest-and-termite-control/illinois?utm_source=openai))\n\n**Ohio:**\n\n- **Orkin**: In Cleveland, Orkin boasts a 4.7-star rating from 557 Google reviews and operates 24/7, making it a reliable choice for comprehensive pest control services. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/cleveland-oh?utm_source=openai))\n\n- **Terminix**: Recognized as the best overall pest control company in Columbus, Terminix offers extensive services backed by decades of experience. ([consumeraffairs.com](https://www.consumeraffairs.com/pest-control/ohio/columbus/?utm_source=openai))\n\n**Michigan:**\n\n- **Community Pest Solutions**: Based in Ann Arbor, this company has a perfect 5.0-star rating from 3,272 Google reviews and provides 24/7 services, ensuring prompt and effective pest control. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/ann-arbor-mi?utm_source=openai))\n\n- **Orkin**: With multiple locations across Michigan, including Lansing and Kalamazoo, Orkin maintains high ratings and offers round-the-clock services. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/lansing-mi?utm_source=openai))\n\nWhen choosing a pest control provider, consider the specific pest issues you're facing, the company's reputation, service guarantees, and their approach to safety and environmental responsibility. It's advisable to contact these companies directly to discuss your needs and obtain quotes tailored to your situation. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:51:00+00:00",
+  "has_unknown": true
+}

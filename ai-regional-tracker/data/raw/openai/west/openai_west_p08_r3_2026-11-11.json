@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "When considering pest control companies in the Western US, it's a good idea to compare a few well-known providers to ensure you find the best fit for your needs. Here are some reputable companies you might consider:\n\n1. **Orkin**: Known for comprehensive pest control services and a strong reputation across the US. They offer a range of services including termite, rodent, and insect control.\n\n2. **Terminix**: Offers extensive pest control solutions and has a strong presence in the Western US. They are known for their termite control and prevention plans.\n\n3. **Ehrlich Pest Control**: Part of the Rentokil family, they offer personalized pest management services and have a good reputation for customer service.\n\n4. **Western Exterminator**: Has a strong focus on environmentally friendly pest control methods and is well-regarded in California and surrounding states.\n\n5. **Truly Nolen**: Provides innovative pest control solutions and is known for their comprehensive approach to pest management.\n\n6. **Clark Pest Control**: A regional provider with a strong presence in California, offering a wide range of pest control services.\n\n7. **Green Pest Solutions**: Focuses on eco-friendly pest control options and provides services in several Western states.\n\nWhen comparing these companies, consider factors such as:\n\n- **Services Offered**: Ensure they address the specific pests you're dealing with.\n- **Pricing**: Obtain quotes to compare costs.\n- **Reputation**: Check reviews and ratings from previous customers.\n- **Guarantees**: Look for satisfaction guarantees or warranties on their services.\n- **Environmental Practices**: If this is important to you, inquire about their eco-friendly solutions.\n\nIt’s also helpful to ask for recommendations from friends or neighbors in your area who have dealt with similar pest issues.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:55:20+00:00",
+  "has_unknown": true
+}

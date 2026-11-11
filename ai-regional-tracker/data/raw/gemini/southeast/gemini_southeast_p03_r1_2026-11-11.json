@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast—particularly across Florida, Georgia, and Texas—the warm, humid climate makes pest control a year-round necessity. When choosing a residential provider in this region, the most reputable companies are a mix of established regional giants that specialize in Southern pests (like subterranean/Formosan termites, palmetto bugs, and fire ants) and highly rated national brands.\n\nHere are the most reputable residential pest control companies across Florida, Georgia, and Texas:\n\n---\n\n### 1. Premier Regional Leaders (Best Overall in the South)\n\n*   **Arrow Exterminators**\n    *   **Headquarters:** Atlanta, GA\n    *   **Footprint:** Very strong across Georgia, Florida, and Texas.\n    *   **Reputation:** Consistently ranks among the highest for customer satisfaction among large pest management firms. Despite its massive size, it operates with a family-owned culture under the Stark family.\n    *   **Specialty:** Comprehensive pest management, high-tier termite protection (Sentricon), mosquito reduction, and wildlife exclusion.\n*   **Massey Services**\n    *   **Headquarters:** Maitland (Orlando), FL\n    *   **Footprint:** Dominant across Florida, with a significant presence throughout Georgia and major Texas metros (Dallas-Fort Worth, Houston, Austin, San Antonio).\n    *   **Reputation:** One of the most respected names in the South for integrated pest management (IPM) that targets pests outside before they get inside.\n    *   **Specialty:** Pest control bundled with lawn and ornamental care, termite prevention, and irrigation maintenance (a major plus for homeowners in Florida and Texas).\n*   **HomeTeam Pest Defense**\n    *   **Headquarters:** Dallas, TX\n    *   **Footprint:** Massive across Texas, Florida, and Georgia.\n    *   **Reputation:** The undisputed leader in new-construction pest control. If your home was built in the last 15–20 years, it likely has their perforated tubing system behind the drywall.\n    *   **Specialty:** Their proprietary **Taexx® \"Tubes in the Wall\"** system, which allows technicians to inject treatment directly into the wall voids via an exterior port without entering your home.\n\n---\n\n### 2. State-Specific Standouts\n\n*   **Texas: ABC Home & Commercial Services**\n    *   **Reputation:** The gold standard of local family-owned service in Texas (operated by the Jenkins family, who are icons in the Texas pest industry).\n    *   **Why they stand out:** In markets like Austin, San Antonio, Dallas, and Houston, they often beat out national competitors for customer loyalty and reliability. They also handle lawn care, pool service, and HVAC.\n*   **Georgia: Cook’s Pest Control**\n    *   **Reputation:** While based in Alabama, Cook’s has a stellar reputation throughout Georgia (along with parts of the upper Florida panhandle).\n    *   **Why they stand out:** Known for pristine white-and-red service trucks, clean-cut technicians, and unusually high customer retention rates. They operate with a strict service-first philosophy.\n\n---\n\n### 3. Established National Brands (Best Availability & Infrastructure)\n\n*   **Orkin**\n    *   **Headquarters:** Atlanta, GA (Rollins, Inc.)\n    *   **Footprint:** Full coverage across FL, GA, and TX.\n    *   **Reputation:** Known for having the most rigorous technician training program in the industry (certified through the Rollins Learning Center in Atlanta).\n    *   **Best for:** Tough, acute infestations (bed bugs, complex termite scenarios, rodent control) where deep technical expertise and strict protocols are needed.\n*   **Terminix**\n    *   **Footprint:** Ubiquitous across all three states.\n    *   **Reputation:** While customer service experiences can vary slightly by local branch, they are an industry standard for **termite bonds**.\n    *   **Best for:** Comprehensive termite protection agreements with strong structural damage warranties—essential in coastal Georgia, Florida, and Gulf Coast Texas.\n\n---\n\n### Key Things to Verify Before Hiring in FL, GA, or TX\n\n1.  **Formosan Termite Coverage:** The Southeast is ground zero for invasive Formosan subterranean termites, which can cause structural damage much faster than native termites. Ensure your termite bond specifically covers Formosan termites, not just native subterranean species.\n2.  **Repair Warranties vs. Re-treatment",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:58:02+00:00",
+  "has_unknown": true
+}

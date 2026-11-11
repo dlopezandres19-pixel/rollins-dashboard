@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When looking for top pest control companies in the Western U.S. states like California, Washington, and Arizona, several companies are often recommended for their comprehensive services and customer satisfaction:\n\n1. **Orkin**: Known for its extensive experience, Orkin offers a wide range of services including termite, rodent, and insect control. They use integrated pest management techniques and provide tailored plans for homeowners.\n\n2. **Terminix**: With a strong presence nationwide, Terminix offers effective solutions for termites, bed bugs, and other pests. They provide guarantees for their services and have a reputation for reliability.\n\n3. **Ehrlich Pest Control (also known as Western Exterminator)**: Particularly popular on the West Coast, they offer personalized pest control strategies and are well-regarded for their customer service.\n\n4. **Truly Nolen**: Known for their eco-friendly approaches, Truly Nolen offers pest and termite control services with a focus on prevention and long-term solutions.\n\n5. **Clark Pest Control**: Based in California, Clark Pest Control offers a wide range of services and is known for its expertise in local pest issues. They provide both residential and commercial services.\n\n6. **Green Pest Solutions**: If you are looking for environmentally friendly options, Green Pest Solutions offers effective pest control with minimal environmental impact.\n\nBefore choosing a company, it's a good idea to compare service options, read customer reviews, and verify that the company is licensed and insured in your state. Additionally, ask about guarantees and ensure their methods align with your preferences, especially if you prefer eco-friendly solutions.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:54:53+00:00",
+  "has_unknown": true
+}

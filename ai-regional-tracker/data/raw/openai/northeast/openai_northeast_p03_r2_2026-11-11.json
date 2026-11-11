@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "When selecting a reputable residential pest control company in the Northeast U.S., particularly in New York, New Jersey, and Pennsylvania, consider the following options:\n\n**[All Platinum Termite & Pest Control](https://www.google.com/maps/search/All+Platinum+Termite+%26+Pest+Control%2C+Staten+Island%2C+NY?utm_source=openai)**\n_Staten Island, NY_\nFamily-owned and operated, serving all five NYC boroughs and New Jersey with reliable, effective, and affordable pest control services.\n\n**[Viking Pest Control](https://www.google.com/maps/search/Viking+Pest+Control%2C+Basking+Ridge%2C+NJ?utm_source=openai)**\n_Basking Ridge, NJ_\nWith over 45 years of experience, offering licensed pest control and extermination services across New Jersey, Pennsylvania, Delaware, and Maryland.\n\n**[Nature Plus Pest Control](https://www.google.com/maps/search/Nature+Plus+Pest+Control%2C+Brooklyn%2C+NY?utm_source=openai)**\n_Brooklyn, NY_\nProvides professional extermination services for pests and wildlife across New York, New Jersey, Pennsylvania, and Delaware.\n\n**[Environmina Pest Control](https://www.google.com/maps/search/Environmina+Pest+Control%2C+New+Brunswick%2C+NJ?utm_source=openai)**\n_New Brunswick, NJ_\nOffers 24/7 pest control services across New Jersey, emphasizing eco-friendly and science-based treatments.\n\n**[Rest Easy Pest Control](https://www.google.com/maps/search/Rest+Easy+Pest+Control%2C+New+York%2C+NY?utm_source=openai)**\n_New York, NY_\nServing NY, NJ, and PA since 2012, known for professional and reliable pest control services with over 2,500 Google reviews.\n\n**[A3 Superior Pest Control](https://www.google.com/maps/search/A3+Superior+Pest+Control%2C+Monticello%2C+NY?utm_source=openai)**\n_Monticello, NY_\nSpecializes in comprehensive pest control services tailored to both residential and commercial clients across NY, NJ, and PA.\n\n**[Cooper Pest Solutions](https://www.google.com/maps/search/Cooper+Pest+Solutions%2C+Hamilton%2C+NJ?utm_source=openai)**\n_Hamilton, NJ_\nServing New Jersey and Pennsylvania since 1955, offering both residential and commercial pest control services.\n\n**[Horizon Pest Control](https://www.google.com/maps/search/Horizon+Pest+Control%2C+Midland+Park%2C+NJ?utm_source=openai)**\n_Midland Park, NJ_\nFamily-owned since 1970, providing residential pest control services in New Jersey and New York.\n\nWhen choosing a pest control service, consider factors such as the company's experience, range of services, customer reviews, and commitment to eco-friendly practices. It's advisable to contact these companies directly to discuss your specific needs and ensure they can provide the appropriate solutions for your home. ",
+  "mentioned_brands": [
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:49:08+00:00",
+  "has_unknown": true
+}

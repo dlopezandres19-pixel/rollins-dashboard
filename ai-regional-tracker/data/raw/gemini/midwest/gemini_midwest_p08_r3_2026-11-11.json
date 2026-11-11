@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When choosing a pest control provider in the Midwest (Illinois, Ohio, and Michigan), it is best to compare a mix of **established regional companies**—which often have deep familiarity with local seasonal pest cycles—and **reputable national providers** that offer standardized training and broad guarantees.\n\nHere are the top providers you should put on your shortlist to compare:\n\n---\n\n### 1. Top Regional Midwest Providers (Best Local Expertise)\n\n*   **Rose Pest Solutions** *(IL, OH, MI)*\n    *   **Why compare them:** As one of the oldest pest management companies in the nation, Rose has an enormous footprint across all three states. They are widely regarded for knowledgeable technicians, thorough inspections, and tailored residential plans.\n    *   **Best for:** Comprehensive seasonal home protection plans and general household insect/rodent management.\n*   **Varment Guard / Plunkett’s Pest Control** *(Heavy presence in OH, expanding in the Midwest)*\n    *   **Why compare them:** Plunkett’s (and its subsidiary Varment Guard) is a Midwest powerhouse. While they do excellent routine insect control, their specialty is wildlife exclusion (raccoons, bats, squirrels, skunks), which is a common issue for older homes and wooded lots in Ohio and neighboring states.\n    *   **Best for:** Homes dealing with both general pests and wildlife/nuisance animal intrusions.\n*   **Anderson Pest Solutions** *(Prominent in IL / Chicago metro)*\n    *   **Why compare them:** If you are in northern or central Illinois, Anderson is a legacy name (now operating under the Rentokil network). They have a strong reputation for eco-friendly treatment options (Natural Choice program) and responsive service.\n    *   **Best for:** Illinois residents looking for urban/suburban pest maintenance with greener treatment options.\n*   **Griffin Pest Solutions** *(MI)*\n    *   **Why compare them:** If you are located in Michigan, Griffin is one of the state’s most prominent long-standing pest control brands. They understand Michigan-specific climate impacts, lake-effect humidity pests, and seasonal rodent surges.\n    *   **Best for:** Michigan homeowners wanting a dedicated regional service team.\n\n---\n\n### 2. Major National Providers (Best for Extensive Warranties & Availability)\n\n*   **Orkin**\n    *   **Why compare them:** Orkin is typically the gold standard for technician training and formal pest identification. They have branches across almost every metro and mid-sized market in IL, OH, and MI. Their \"Orkin Guarantee\" includes free touch-up visits between regular treatments if pests return.\n    *   **Best for:** Tough, acute infestations (bed bugs, termites) and consumers who prioritize standardized technician certification.\n*   **Terminix**\n    *   **Why compare them:** Terminix offers broad coverage, simple online management, and strong bundled plans combining general pest prevention with termite protection (Nix Pest / Nix Termite guarantees).\n    *   **Best for:** Bundling termite monitors/treatments with routine seasonal maintenance.\n*   **Aptive Environmental**\n    *   **Why compare them:** Aptive has expanded aggressively across Midwest suburbs. They focus almost exclusively on perimeter barrier treatments for common crawling insects (ants, spiders, crickets, wasps). \n    *   **Note:** They generally do not handle major wildlife, wood-destroying organisms (termites), or heavy rodent infestations, and they typically require an annual contract.\n\n---\n\n### Key Things to Ask When Comparing Quotes\n\nMidwest homes face distinct challenges due to the four seasons (e.g., ants and stinging insects in spring/summer; boxelder bugs, stink bugs, and mice invading in the fall). When you call for quotes:\n\n1.  **Do they address seasonal shifts?** Ask what changes between their summer visit (exterior barriers, wasp prevention) and their late-fall visit (interior rodent monitoring, sealing small crawlspace/foundation entry gaps).\n2.  **What is the free re-service policy?** If you sign up for a quarterly or bi-monthly plan, will they return free of charge between scheduled visits if you spot pests? (Orkin, Rose, and Terminix typically offer this).\n3.  **Is an inspection required before quoting?** Beware of companies that quote large figures for complex issues (like termites or wildlife) over the phone without visiting. A reputable company should inspect your foundation, crawlspace, or attic first.\n4.  **Are you locked into an annual contract?** Clarify whether service is month-to-month, one-time, or a binding 12-month agreement with cancellation fees.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:25:18+00:00",
+  "has_unknown": true
+}

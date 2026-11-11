@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "For a homeowner in the Northeast (New York, New Jersey, and Pennsylvania), the best choice depends on whether you prefer a **deeply rooted regional specialist** or a **large national brand** with round-the-clock customer support. \n\nBecause the Northeast faces specific challenges—such as winter rodent migrations, damp-weather carpenter ants, summer ticks, and subterranean termites—companies with strong regional entomology backgrounds tend to perform best.\n\nHere are the top pest control companies recommended for the NY/NJ/PA tri-state area:\n\n---\n\n### Top Regional Recommendations (Best Local Expertise)\n\n#### 1. **Ehrlich Pest Control** (Best Overall for PA & Upstate NY)\n* **Coverage:** Massive presence across Pennsylvania, Upstate/Central New York, and northern New Jersey.\n* **Why Choose Them:** Founded in Reading, PA, in 1928, Ehrlich is one of the most respected names in the Mid-Atlantic. Their technicians have extensive training in pests specific to the Appalachian and Northeast corridors (especially stink bugs, ticks, carpenter ants, and mice).\n* **Notable Service:** Their **PestFree365+** plan covers over 30 common household pests year-round with unlimited service calls between scheduled visits.\n\n#### 2. **Western Pest Services** (Best for the NY/NJ Metro & Tri-State)\n* **Coverage:** New Jersey, eastern Pennsylvania, New York City, and Long Island.\n* **Why Choose Them:** Western has operated in the Tri-State area for nearly a century. They are known for thorough inspections and technicians who understand the region’s older housing stock (stone foundations, crawl spaces, and brownstones where pests easily penetrate).\n* **Notable Service:** Highly regarded for bed bug heat treatments, rodent proofing, and subterranean termite management.\n\n#### 3. **Viking Pest Control** (Best for Modern/Eco-Friendly Solutions)\n* **Coverage:** Throughout New Jersey, Pennsylvania, and parts of New York and Delaware.\n* **Why Choose Them:** Viking is an industry leader in pest-prevention technology. They are known for integrated pest management (IPM) that minimizes broad chemical spraying.\n* **Notable Service:** **Anticimex SMART rodent systems**—electronic, non-toxic monitoring devices that alert technicians the moment rodent activity is detected inside walls or crawl spaces before an infestation spreads.\n\n---\n\n### Top National Providers (Best for Reliability & Warranties)\n\n#### 4. **Orkin** (Best for Technician Training & General Pest Control)\n* **Coverage:** Ubiquitous across NY, NJ, and PA.\n* **Why Choose Them:** Orkin invests heavily in entomology-based technician training. If you have an unusual pest issue or an aggressive infestation, Orkin’s protocols and diagnostic tools are consistently high-caliber.\n* **Notable Service:** Strong 30-day money-back guarantee, free re-treatments between visits, and fast emergency response times.\n\n#### 5. **Terminix** (Best for Termite & Wood-Destroying Organism Plans)\n* **Coverage:** Comprehensive coverage across all three states.\n* **Why Choose Them:** The Northeast has high rates of subterranean termites in spring and summer. Terminix offers some of the strongest termite-damage protection plans in the industry (covering repairs if termites cause new damage while you have an active contract).\n\n---\n\n### Tips for Homeowners in NY, NJ, and PA\n\n1. **Check the Local Branch, Not Just the Brand:** The quality of service often comes down to the individual branch manager and route technician. Search Google or Yelp specifically for your local branch (e.g., *\"Ehrlich Lehigh Valley\"* or *\"Western Pest Paramus\"*).\n2. **Prioritize Exclusion Over Poison:** In the Northeast, mice and rats seek warmth indoors every October/November. Make sure the company includes **exclusion work** (caulking, copper mesh, door sweeps) rather than just leaving bait boxes around your basement.\n3. **Ask About Re-treatment Policies:** Look for an annual plan that includes free touch-ups between quarterly visits. If you see ants or wasps two weeks after a treatment, they should come back at zero extra charge.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Anticimex",
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:08:12+00:00",
+  "has_unknown": true
+}

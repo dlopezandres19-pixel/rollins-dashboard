@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "For homeowners in the Northeast—specifically New York, New Jersey, and Pennsylvania—the best choice often comes down to a balance between **strong regional specialists** with deep local pest knowledge and **large national providers** with 24/7 support. \n\nHere are the top-recommended pest control companies in the Tri-State/Mid-Atlantic area:\n\n---\n\n### 1. Best Regional Specialists (Often the Top Choice)\n\nRegional providers usually have the best direct experience with Northeast-specific pest cycles (such as winter rodent intrusions, deer ticks, carpenter ants, and invasive spotted lanternflies).\n\n* **Viking Pest Control** (*Best for Eco-Friendly Solutions & Tech*)\n  * **Coverage:** New Jersey, Pennsylvania, New York, Delaware.\n  * **Why them:** Viking is a QualityPro- and GreenPro-certified company, meaning their treatments focus on Integrated Pest Management (IPM) to minimize harsh chemical usage around kids and pets. They also offer the **Anticimex SMART system** (digital, 24/7 non-toxic rodent monitoring), which is excellent for basements and attics in older Northeast homes.\n  * **Specialties:** Rodents, ticks/mosquitoes, termites, and spotted lanternflies.\n\n* **Ehrlich Pest Control (Part of Rentokil)** (*Best Overall Heritage in PA & Surrounding Areas*)\n  * **Coverage:** Extensive throughout PA, NY, and NJ.\n  * **Why them:** Founded in Reading, PA, in 1928, Ehrlich has over 90 years of experience specifically targeting pests in this climate. They offer their **PestFree365+** plan, which covers dozens of common household pests year-round with unlimited service calls if pests return.\n  * **Specialties:** Subterranean termites, carpenter ants, bed bugs, and general preventative maintenance.\n\n* **Western Pest Services** (*Best for Fast Response & Local Community Trust*)\n  * **Coverage:** New Jersey, New York, eastern Pennsylvania, Delaware.\n  * **Why them:** Western has been serving the Mid-Atlantic since 1928. They have a strong reputation for customer service, thorough home assessments, and technicians who understand the pest challenges of both suburban homes and dense urban environments.\n  * **Specialties:** Bed bugs, termites, mice/rats, and stinging insects.\n\n---\n\n### 2. Best National Providers (Best for Flexibility & Warranties)\n\nIf you live in a more rural pocket of NY/PA, or if you prefer a large company with 24/7 dispatch and standardized corporate guarantees:\n\n* **Orkin**\n  * **Best for:** Aggressive infestations, termite baiting/monitoring, and immediate 24/7 customer service.\n  * **Pros:** Highly rigorous technician training program and a reliable 30-day money-back guarantee with free retreatments between scheduled visits.\n* **Terminix**\n  * **Best for:** Comprehensive termite defense and simple online account management.\n  * **Pros:** Offers the Nix Pest Guarantee and specialized termite prevention systems (like the Nix & Fix termite damage guarantee).\n\n---\n\n### Key Northeast-Specific Pests to Address\n\nWhen speaking with providers in NY, NJ, or PA, make sure their service plan covers these common regional issues:\n1. **Deer Ticks:** Critical in this region due to high rates of Lyme disease. Look for yard-perimeter spray plans from April through October.\n2. **Mice & Norway Rats:** Every autumn, rodents move indoors seeking heat. Ensure the company includes **exclusion work** (sealing entry points) rather than just leaving bait traps.\n3. **Carpenter Ants:** Common in wooded suburbs with older trees and high humidity. Unlike termites, they hollow out damp wood rather than eat it.\n4. **Spotted Lanternflies:** If you live in southeastern PA or parts of NJ and NY, ask if the company offers targeted tree banding or chemical treatments for lanternfly nymphs and adults.\n\n---\n\n### Tips Before You Sign a Contract\n\n* **Get an On-Site Inspection First:** Avoid companies that pressure you to buy a multi-year contract over the phone without visually inspecting your home, foundation, and attic.\n* **Check the Re-service Policy:** Ensure the contract explicitly states that **retreatments between scheduled quarterly visits are 100% free** if pests return.\n* **Look for Certifications:** Check if the branch is certified by **QualityPro** (the pest control industry's benchmark for background checks, safety, and training standards).",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Anticimex",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:07:51+00:00",
+  "has_unknown": true
+}

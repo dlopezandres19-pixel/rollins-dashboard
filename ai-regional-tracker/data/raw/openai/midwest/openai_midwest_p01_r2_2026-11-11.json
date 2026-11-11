@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When selecting a pest control company in the Midwest—specifically in Illinois, Ohio, and Michigan—it's essential to consider factors such as experience, range of services, customer reviews, and availability. Here are some reputable options in these states:\n\n**Illinois:**\n\n- **Orkin Pest Control**: With a strong presence in Chicago, Orkin is recognized for its comprehensive pest management services and prompt response times. ([consumeraffairs.com](https://www.consumeraffairs.com/homeowners/pest-control-chicago.html?utm_source=openai))\n\n- **Terminix**: Offering a variety of pest control solutions, Terminix is noted for its recurring service plans and customer support in the Chicago area. ([consumeraffairs.com](https://www.consumeraffairs.com/homeowners/pest-control-chicago.html?utm_source=openai))\n\n**Ohio:**\n\n- **Orkin Pest Control**: Orkin has a significant presence in Cleveland, providing 24/7 services and maintaining high customer satisfaction ratings. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/cleveland-oh?utm_source=openai))\n\n- **Lakewood Exterminating**: Serving the Cleveland area, Lakewood Exterminating boasts a 5.0-star rating from over 1,000 reviews, indicating exceptional service quality. ([exterminatorguild.com](https://exterminatorguild.com/us/oh?utm_source=openai))\n\n- **1st Response Pest Management**: Based in Columbus, this company holds a 5.0-star rating from over 1,200 reviews, reflecting high customer satisfaction. ([exterminatorguild.com](https://exterminatorguild.com/us/oh?utm_source=openai))\n\n**Michigan:**\n\n- **Rose Pest Solutions**: With over 160 years of experience, Rose Pest Solutions offers services across Michigan, Ohio, and Indiana, emphasizing safe and effective pest management. ([rosepestsolutions.com](https://www.rosepestsolutions.com/?utm_source=openai))\n\n- **Community Pest Solutions**: Operating in Ann Arbor, this company has a 5.0-star rating from over 3,200 reviews and offers 24/7 services. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/ann-arbor-mi?utm_source=openai))\n\n- **Orkin Pest Control**: Orkin also serves the Lansing area, providing 24/7 services with a 4.8-star rating from over 2,100 reviews. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/lansing-mi?utm_source=openai))\n\nWhen choosing a pest control provider, consider the specific pest issues you're facing, the company's expertise in handling those pests, their service guarantees, and customer feedback. It's advisable to contact multiple companies to compare services and pricing to find the best fit for your needs. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:51:07+00:00",
+  "has_unknown": true
+}

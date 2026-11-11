@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "When looking for top pest control companies in the Northeast US, including New York, New Jersey, and Pennsylvania, consider the following companies known for their overall service quality:\n\n1. **Terminix**\n   - Offers comprehensive pest control solutions.\n   - Known for their expertise in termite control but also handle a variety of pests.\n   - Provides both residential and commercial services.\n\n2. **Orkin**\n   - Well-established with over a century of experience.\n   - Offers customized pest control plans.\n   - Known for excellent customer service and effective solutions.\n\n3. **Ehrlich Pest Control**\n   - Offers tailored pest management solutions.\n   - Provides services for common pests as well as specialized treatments.\n   - Strong local presence in the Northeast.\n\n4. **Western Pest Services**\n   - Known for their thorough inspections and preventative measures.\n   - Offers environmentally friendly options.\n   - Strong reputation in the Northeast for reliable service.\n\n5. **Arrow Pest Control**\n   - Family-owned with a strong focus on customer service.\n   - Offers a wide range of services, including eco-friendly options.\n   - Well-regarded in New Jersey and surrounding areas.\n\nFor the best results, consider looking at customer reviews, service guarantees, and pricing. It's also a good idea to contact these companies directly to discuss your specific pest control needs and get quotes.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:50:05+00:00",
+  "has_unknown": true
+}

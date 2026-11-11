@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "For homeowners in the Northeast US, including New York, New Jersey, and Pennsylvania, there are several reputable pest control companies you might consider:\n\n1. **Orkin**: A well-known national brand with a strong presence in the Northeast. They offer a range of services, including termite control, bed bug treatment, and rodent control.\n\n2. **Terminix**: Another national company with extensive experience in pest management. They provide comprehensive solutions for various pests and have local branches throughout these states.\n\n3. **Ehrlich Pest Control**: With a strong focus on the Northeast, Ehrlich offers customized pest control plans and is well-regarded for their customer service.\n\n4. **Viking Pest Control**: This company serves New Jersey, New York, and Pennsylvania, offering environmentally friendly pest management solutions.\n\n5. **Cooper Pest Solutions**: Based in New Jersey, they offer services across the region and are known for innovative pest control techniques.\n\nWhen choosing a pest control service, consider factors like the specific pest issues you’re facing, the company’s reputation, customer reviews, and any eco-friendly practices they may offer. It's also a good idea to get quotes from a few companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:48:49+00:00",
+  "has_unknown": true
+}

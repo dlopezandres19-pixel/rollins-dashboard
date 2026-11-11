@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "Here are some of the top pest control companies in the Midwest, specifically in Illinois, Ohio, and Michigan:\n\n1. **Orkin**: Nationwide presence with a strong reputation for effective pest control services. They offer customized solutions and have extensive experience with various pests.\n\n2. **Terminix**: Another well-known national brand, Terminix provides comprehensive pest control services, including treatments for termites, bed bugs, and other common pests.\n\n3. **TruGreen**: Known for lawn care, TruGreen also offers pest control services that focus on outdoor pest management, which can help prevent indoor infestations.\n\n4. **Rose Pest Solutions**: A regional company with a long history, Rose Pest Solutions serves the Midwest and offers a variety of pest management services for both residential and commercial properties.\n\n5. **Plunkett’s Pest Control**: This family-owned business has been operating in the Midwest for decades and offers personalized pest control services with a focus on environmentally friendly solutions.\n\n6. **Environmental Pest Control**: Based in Michigan, they provide a range of pest management services and are known for their customer service and expertise in the local area.\n\nWhen selecting a pest control company, consider checking customer reviews, their service guarantees, and whether they offer eco-friendly options. It’s also a good idea to get quotes from a few companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:51:13+00:00",
+  "has_unknown": true
+}

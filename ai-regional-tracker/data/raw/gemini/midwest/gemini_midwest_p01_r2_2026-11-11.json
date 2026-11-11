@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When looking for pest control in Illinois, Ohio, and Michigan, you have a mix of excellent **regional powerhouses** (which often provide better local customer service and familiarity with Midwestern pests) and **reliable national providers** (which offer standard warranties and 24/7 support).\n\n---\n\n### Top Regional Providers (Best for Local Expertise)\n\n#### 1. Rose Pest Solutions (Michigan & Ohio)\n* **Best for:** Long-term reputation and personalized service.\n* **Coverage:** Across Michigan, Ohio, and parts of northern Indiana.\n* **Why them:** Established in 1860, Rose is one of the oldest pest control companies in the country. They are known for responsive local technicians, strong seasonal preventative plans, and high ratings across the Great Lakes region for treating everything from carpenter ants to mice and boxelder bugs.\n\n#### 2. Anderson Pest Solutions (Illinois)\n* **Best for:** Greater Chicago and Northern Illinois.\n* **Coverage:** Illinois, parts of Indiana and Wisconsin.\n* **Why them:** Anderson is one of the most trusted names in the Chicago metro area. They offer the “PestFree365+” program, which covers over 30 common household pests year-round with unlimited service calls between scheduled visits.\n\n#### 3. Griffin Pest Solutions (Michigan)\n* **Best for:** West, Central, and Southeast Michigan.\n* **Coverage:** Grand Rapids, Kalamazoo, Lansing, Detroit metro.\n* **Why them:** Griffin is a Michigan-focused provider with deep expertise in state-specific seasonal pests like boxelder bugs, cluster flies, spiders, and carpenter ants. They are praised for clear pricing, friendly technicians, and environmentally conscious treatment options.\n\n#### 4. Scherzinger Pest Control (Ohio)\n* **Best for:** Southwest and Central Ohio (Cincinnati, Dayton, Columbus).\n* **Coverage:** Ohio and Northern Kentucky.\n* **Why them:** A multi-generation, family-owned company founded in 1934. Scherzinger is widely considered one of the premier pest control services in Ohio, particularly known for effective termite control, bed bug treatments, and flexible seasonal plans.\n\n#### 5. Smithereen Pest Management Services (Illinois)\n* **Best for:** Environmentally conscious homeowners in Illinois and Chicago.\n* **Why them:** One of the earliest adopters of Integrated Pest Management (IPM), Smithereen focuses on sealing access points and using targeted treatments rather than simply blanket-spraying chemicals. \n\n---\n\n### Top National Providers (Best for Availability & Termite Guarantees)\n\nIf you live in a rural area or prefer the backing of a large national warranty, these two are the most established across all three states:\n\n#### 1. Orkin\n* **Why them:** Orkin technicians undergo rigorous, entomologist-led training, and the company has branch offices in nearly every metro and mid-sized market in IL, OH, and MI. \n* **Perks:** Offers the **30-day Money-Back Guarantee** (they will return between visits at no charge, or refund your last payment if pests persist).\n* **Best for:** Fast response times and difficult infestations (like German cockroaches or aggressive stinging insects).\n\n#### 2. Terminix\n* **Why them:** Terminix has widespread coverage throughout the Midwest and is the industry benchmark for **termite management** (using the Nix Pest Guarantee).\n* **Perks:** Excellent online account management, comprehensive whole-home bundles (including crawlspace encapsulation and attic insulation in cold Midwest climates).\n* **Best for:** Termite monitoring, rodent exclusions, and bundled home services.\n\n---\n\n### Midwestern Pest Considerations & Tips\n\n* **Fall Rodent & Stink Bug Invasions:** In late September through November, mice, rats, brown marmorated stink bugs, and boxelder bugs aggressively seek shelter inside heated Midwest homes. Ask prospective companies about **exclusion services** (caulking and sealing entry points), not just poison baits.\n* **Check State Licensing:** In all three states, commercial applicators must be certified:\n  * **Illinois:** Illinois Department of Public Health (IDPH) / Department of Agriculture\n  * **Ohio:** Ohio Department of Agriculture (ODA)\n  * **Michigan:** Michigan Department of Agriculture and Rural Development (MDARD)\n* **Beware of Door-to-Door Sales:** Companies like Aptive Environmental operate heavily in Midwestern suburbs through seasonal door-to-door sales. While they provide decent general spraying, their contracts can be rigid, with hefty cancellation fees. Always compare quotes with an established local provider first.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:17:43+00:00",
+  "has_unknown": true
+}

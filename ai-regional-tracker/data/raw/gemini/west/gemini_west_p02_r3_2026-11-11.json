@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Because pest challenges vary significantly between the desert climate of Arizona, the mild/coastal zones of California, and the damp Pacific Northwest in Washington, the best pest control company often depends on whether you prefer a **broad Western regional brand**, a **specialized state leader**, or a **large national provider**.\n\nHere are the top recommendations broken down by category:\n\n---\n\n### 1. Best Overall for the Western U.S.: **Western Exterminator**\n* **Coverage:** California, Arizona, and parts of the Pacific Northwest (part of the Rentokil family).\n* **Best for:** Homeowners who want a company built specifically around Western pest ecosystems.\n* **Why choose them:** Western Exterminator has been operating on the West Coast for over a century. Their technicians are trained on region-specific pests—from desert bark scorpions and black widows to Argentine ants and drywood termites. They use an Integrated Pest Management (IPM) approach, focusing on exclusion and targeted treatments rather than just indiscriminate spraying.\n\n---\n\n### 2. Best State-Specific Picks\n\n#### **For Arizona: Truly Nolen Pest Control**\n* **Headquarters/Roots:** Founded in Tucson, AZ, with widespread coverage across Phoenix and Southern Arizona.\n* **Why they stand out:** Arizona homes face unique challenges like desert bark scorpions, roof rats, pack rats, and subterranean termites. Truly Nolen’s \"Four Seasons\" approach and specialized scorpion seals/treatments are specifically engineered for Sonoran Desert conditions. *(Local alternative: **Burns Pest Elimination** is another highly regarded, Arizona-born service.)*\n\n#### **For California: Clark Pest Control**\n* **Coverage:** Dominant throughout Northern and Central California, with presence expanding south.\n* **Why they stand out:** Clark is one of the most established names in California. They are especially adept at handling drywood and subterranean termites (a massive issue in CA older construction), gophers, Argentine ants, and seasonal rodent intrusions. \n\n#### **For Washington: Eden Advanced Pest Technologies (or local PNW specialists)**\n* **Coverage:** Greater Seattle, Puget Sound, and Western Washington.\n* **Why they stand out:** Washington's climate creates heavy pressure from moisture-loving pests: carpenter ants, dampwood termites, silverfish, and winter rodent invasions (Norway and roof rats). Eden (part of the Rentokil/Western network) uses environmentally conscious treatments suited to wet environments where chemical runoff into local waterways is a concern.\n\n---\n\n### 3. Best Reliable National Brands (Available in all 3 states)\n\nIf you live in a more rural area or want guaranteed transferability and uniform guarantees:\n\n* **Orkin:** The most dependable choice for immediate, difficult infestations (bed bugs, aggressive rodent populations, severe termite damage). Their technician training is among the most rigorous in the industry, and they offer a 30-day money-back guarantee.\n* **Terminix:** Generally considered the strongest option if your primary concern is **termites**, offering comprehensive termite damage repair guarantees and baiting systems (especially relevant in California and Arizona).\n* **Aptive Environmental:** Popular in suburban neighborhoods across CA, WA, and AZ for general quarterly maintenance (spiders, perimeter ants, wasps). However, they typically require a binding 1- to 2-year contract and do not treat wood-destroying organisms like termites.\n\n---\n\n### What to Consider Before You Sign\n\n1. **Target Pest:** If you are dealing with **termites** (common in CA/AZ) or **carpenter ants** (common in WA), skip entry-level perimeter spray companies like Aptive and go with specialized providers like Western Exterminator, Clark, or Terminix that offer structural warranties.\n2. **Scorpion Barriers (AZ):** If you are in Arizona, ask if the company offers **black-light inspections** at night and **exclusion sealing** around weep screeds and door jambs.\n3. **Contract Terms:** Always ask what happens if pests return between scheduled quarterly visits (reputable companies re-treat for free) and check the cancellation fee policy before committing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:29:38+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When choosing a residential pest control company in Illinois, Ohio, and Michigan, homeowners generally get the best results by looking at a mix of established regional leaders and top-tier national providers. \n\nRegional companies often receive higher customer satisfaction ratings in the Midwest because their technicians are specifically trained in the region’s seasonal patterns (like mice moving indoors in late fall, boxelder bugs and stink bugs in the autumn, and carpenter ants in the spring).\n\nHere are the most reputable options across the region:\n\n---\n\n### 1. Top Midwest Regional Companies (Best Customer Service & Local Expertise)\n\n* **Rose Pest Solutions** *(IL, OH, MI)*\n  * **Reputation:** Rose is one of the oldest and most respected pest management companies in the nation, with deep roots throughout Chicago, Detroit, Cleveland, and surrounding areas.\n  * **Best For:** Year-round residential preventative care, bed bugs, and general pest maintenance. They are QualityPro-certified (the industry’s highest credential) and known for prompt, reliable customer support.\n* **Plunkett’s Pest Control / Varment Guard** *(IL, OH, MI)*\n  * **Reputation:** Plunkett’s has served the upper Midwest for over a century, and its integration with Varment Guard makes it a powerhouse in Ohio and neighboring states. \n  * **Best For:** Homes that need both insect control and nuisance wildlife removal (raccoons, bats, squirrels, skunks). Their technicians are consistently praised for thorough inspections.\n* **Anderson Pest Solutions** *(primarily Illinois / Chicagoland)*\n  * **Reputation:** Anderson is a staple across the greater Chicago area and northern Illinois. \n  * **Best For:** Their \"Natural Choice\" residential program, which focuses on targeted exterior barrier treatments to minimize chemical use inside the home.\n* **Griffin Pest Solutions** *(primarily Michigan)*\n  * **Reputation:** A long-running Michigan favorite headquartered in Kalamazoo, with service extending across Grand Rapids, Lansing, and metro Detroit.\n  * **Best For:** Localized lakefront and wooded-property pest issues (spiders, carpenter ants, mosquitoes, and seasonal overwintering pests).\n\n---\n\n### 2. Top National Providers (Best for Availability & Standardized Guarantees)\n\nIf you live in a rural area or outside the service territory of regional providers, national brands are reliable options:\n\n* **Orkin**\n  * **Reputation:** Generally considered the most reliable national brand due to its rigorous technician training (Orkin requires extensive continuing education and entomology training).\n  * **Best For:** Immediate emergency treatments, bed bugs, and aggressive infestations. They back their services with a 30-day money-back guarantee.\n* **Terminix**\n  * **Reputation:** Widely available across all three states with substantial infrastructure.\n  * **Best For:** Subterranean termites, wood-destroying insects, and comprehensive annual protection plans. *(Note: Branch quality can vary more widely by location compared to Orkin or local providers, so check your local branch's Google reviews).*\n\n---\n\n### Tips for Hiring in the Midwest\n\n1. **Ask for QualityPro Certification:** Look for companies certified by the National Pest Management Association (NPMA). This ensures technicians pass background checks and the company adheres to strict environmental and safety standards.\n2. **Watch for Seasonality:** In Illinois, Ohio, and Michigan, outdoor perimeter sprays are typically unnecessary during deep freezes (December through February). Look for providers whose quarterly plans pivot to interior rodent monitoring and attic/crawl space inspections in winter.\n3. **Check the Guarantee:** Reputable providers will offer a re-service guarantee (if pests return between scheduled quarterly visits, they should come back and treat at no extra charge).\n4. **Compare Free Inspections:** Most reputable companies will perform an initial exterior/interior inspection and give a written quote before requiring you to sign a contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:19:47+00:00",
+  "has_unknown": true
+}

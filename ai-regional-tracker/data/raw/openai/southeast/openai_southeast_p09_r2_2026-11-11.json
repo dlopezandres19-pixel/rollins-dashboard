@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, there are several popular options for residential pest control. Here are some common approaches:\n\n1. **Professional Pest Control Services**:\n   - Companies like Orkin, Terminix, and TruGreen offer comprehensive pest control services.\n   - These companies provide regular inspections and treatments for common pests such as termites, ants, roaches, and mosquitoes.\n\n2. **Integrated Pest Management (IPM)**:\n   - This approach combines different management strategies and practices to control pests in the most economical means with the least possible hazard.\n   - It includes preventive measures, monitoring, and use of pesticides only when necessary.\n\n3. **Do-It-Yourself (DIY) Solutions**:\n   - Many homeowners opt for DIY pest control using products available at home improvement stores.\n   - This includes traps, sprays, and natural deterrents like diatomaceous earth or essential oils.\n\n4. **Natural and Organic Methods**:\n   - Some prefer using natural solutions to minimize chemical use.\n   - Options include neem oil, boric acid, and planting pest-repelling plants like marigolds and lavender.\n\n5. **Exclusion Techniques**:\n   - Sealing cracks, repairing screens, and ensuring proper drainage to prevent pest entry.\n   - Regular maintenance can significantly reduce pest issues.\n\n6. **Local Pest Control Companies**:\n   - Many local businesses specialize in the specific pest challenges of their regions.\n   - They often provide personalized service and understand the local pest dynamics better.\n\nWhen selecting a pest control option, consider the specific pests you're dealing with, your budget, and any environmental concerns. Additionally, it's a good idea to read reviews and get quotes from multiple providers to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:48:09+00:00",
+  "has_unknown": true
+}

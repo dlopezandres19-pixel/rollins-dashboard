@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "For homeowners and renters in the Midwest—particularly across Illinois, Ohio, and Michigan—pest control needs vary dramatically by season. Winters drive rodents indoors, spring and summer bring carpenter ants, mosquitoes, and ticks, and autumn frequently brings swarms of boxelder bugs, Asian lady beetles, and stink bugs.\n\nThe top national pest control companies with a strong presence and established reputations across Illinois, Ohio, and Michigan include:\n\n---\n\n### 1. **Orkin**\n* **Best Overall for Complex Infestations & Training**\n* **Availability:** Extensive throughout Chicago, Rockford, Peoria (IL); Cleveland, Columbus, Cincinnati (OH); Detroit, Grand Rapids, Lansing (MI), and surrounding suburbs.\n* **Why Choose Them:** Orkin is widely regarded for having one of the most rigorous training programs in the industry (technicians undergo extensive hands-on simulation training). They excel at diagnosing and treating tough infestations like bed bugs, carpenter ants, termites, and rodents.\n* **Guarantee:** 30-day money-back guarantee, with free re-treatments between scheduled visits if pests return.\n\n---\n\n### 2. **Terminix**\n* **Best for Termites, Wildlife, and Bundled Plans**\n* **Availability:** Widespread branch coverage spanning virtually every major metro area and many rural counties across IL, OH, and MI.\n* **Why Choose Them:** Beyond standard quarterly pest defense, Terminix has industry-leading termite protection plans (such as the Nix Pest Guarantee). In many Midwestern branches, they also offer wildlife exclusion (raccoons, bats, squirrels), attic insulation capping, and crawl space encapsulation, which are critical for older Midwestern basements and attics.\n* **Guarantee:** Free re-treatments for annual plan subscribers between quarterly visits.\n\n---\n\n### 3. **Ehrlich / Rentokil**\n* **Best for Integrated Pest Management (IPM)**\n* **Availability:** Very strong, decades-long footprint in Ohio and parts of Illinois and Michigan (Rentokil also acquired Terminix, but Ehrlich still operates under its recognized regional brand in many areas).\n* **Why Choose Them:** Ehrlich relies heavily on Integrated Pest Management (IPM), focusing on root causes (entry points, moisture, harborage areas) rather than solely relying on pesticide sprays. They offer the \"PestFree365\" plan, which covers over 30 common household pests year-round.\n* **Guarantee:** Routine seasonal inspections and unlimited call-outs if covered pests return.\n\n---\n\n### 4. **Aptive Environmental**\n* **Best for Routine Exterior Pest Barriers & Eco-Conscious Solutions**\n* **Availability:** Very prominent in Midwestern suburban markets around Detroit, Chicago, Columbus, and Cleveland.\n* **Why Choose Them:** Aptive focuses primarily on seasonal residential perimeter control. They utilize reduced-risk, pyrethroid-based products derived from chrysanthemum flowers, making them a popular choice for households with kids and pets. Their Four Seasons plan adjusts treatments specifically for Midwest seasonal shifts.\n* **Keep in Mind:** They generally **do not** treat for wood-destroying organisms (termites, carpenter bees), bed bugs, or wild animals—they focus strictly on common bugs (ants, spiders, wasps, crickets, roaches, and rodents).\n\n---\n\n### Midwestern Buying Checklist (What to Ask Before Signing):\n\n1. **Overwintering Pest Coverage:** Make sure the service agreement explicitly includes fall invaders common to the Great Lakes region, such as boxelder bugs, cluster flies, and stink bugs.\n2. **Rodent Exclusion vs. Rodent Trapping:** Because Midwest winters push mice and rats indoors, ask if the service covers simple exclusion (sealing small entry points up to the size of a coin) or just setting exterior bait boxes.\n3. **Re-Service Policy:** Midwestern weather can wash away exterior perimeter barriers during wet springs. Confirm that the company will come back out to spray or service the home for free if pests appear between scheduled visits.\n4. **Local Branch Reviews:** National standards are helpful, but service quality ultimately depends on the local branch. Check Google and Better Business Bureau (BBB) ratings specifically for the branch dispatching technicians to your zip code.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:23:15+00:00",
+  "has_unknown": true
+}

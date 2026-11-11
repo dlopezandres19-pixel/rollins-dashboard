@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "In the Western US, including states like California, Washington, and Arizona, several leading residential pest control companies are well-regarded for their services:\n\n1. **Orkin**: Known for its comprehensive pest control solutions and strong reputation nationwide. They offer customized plans and have extensive experience in the industry.\n\n2. **Terminix**: Another major player with a wide range of pest control services. They are known for their expertise in termite control but also handle other pests effectively.\n\n3. **Ecolab**: Offers pest elimination and sanitation services with a focus on environmentally friendly solutions. They have a strong presence in California.\n\n4. **Western Exterminator**: Part of the Rentokil family, they are well-known on the West Coast for their reliable and professional pest control services.\n\n5. **Clark Pest Control**: Based in California, they provide a variety of pest management services and have a strong local presence.\n\n6. **Green Pest Solutions**: Focuses on environmentally friendly pest control methods, gaining popularity for their use of integrated pest management techniques.\n\n7. **Bell Environmental Services**: Offers innovative pest control solutions and is noted for their use of non-toxic methods.\n\nWhen choosing a pest control company, consider factors like customer reviews, service guarantees, and the specific pest issues you’re facing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:54:21+00:00",
+  "has_unknown": true
+}

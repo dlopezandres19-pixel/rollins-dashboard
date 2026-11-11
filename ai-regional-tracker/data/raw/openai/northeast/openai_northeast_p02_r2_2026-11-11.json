@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "For pest control in the Northeast US, specifically New York, New Jersey, and Pennsylvania, here are some reputable companies you might consider:\n\n1. **Terminix**: Known for its comprehensive pest control services, Terminix offers solutions for termites, bed bugs, rodents, and more. They have a strong presence in the Northeast and offer both residential and commercial services.\n\n2. **Orkin**: With over 100 years in the industry, Orkin provides a range of pest control services with a focus on prevention and long-term solutions. They are well-regarded for their expertise and customer service.\n\n3. **Ehrlich Pest Control**: Based in Reading, Pennsylvania, Ehrlich has been serving the Northeast for decades. They offer personalized pest management plans and are known for their environmentally responsible approaches.\n\n4. **Western Pest Services**: Serving the New York and New Jersey areas, Western Pest Services offers a variety of pest control solutions, including green pest control options.\n\n5. **Viking Pest Control**: Operating throughout New Jersey, New York, and Pennsylvania, Viking Pest Control provides comprehensive pest management services tailored to both residential and commercial needs.\n\nWhen choosing a pest control service, consider factors such as customer reviews, service guarantees, and whether they offer environmentally friendly options. It’s also a good idea to get multiple quotes to compare prices and services.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:48:52+00:00",
+  "has_unknown": true
+}

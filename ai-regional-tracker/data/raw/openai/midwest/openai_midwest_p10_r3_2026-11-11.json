@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Midwest US (Illinois, Ohio, Michigan) should consider.",
+  "rep": 3,
+  "response_text": "Here are some reputable pest control companies that homeowners in the Midwest, particularly in Illinois, Ohio, and Michigan, might consider:\n\n1. **Orkin**\n   - A nationally recognized company with a strong presence in the Midwest.\n   - Offers various pest control services, including termite, rodent, and insect control.\n\n2. **Terminix**\n   - Another well-known nationwide provider with services tailored to both residential and commercial needs.\n   - Provides comprehensive pest management solutions.\n\n3. **TruGreen**\n   - Offers pest control services with a focus on lawn care, which can be beneficial for outdoor pest prevention.\n   - Known for personalized service plans.\n\n4. **Rose Pest Solutions**\n   - A regional company with a long history, specifically serving the Midwest area.\n   - Offers environmentally friendly pest control options.\n\n5. **Ehrlich Pest Control**\n   - Provides a range of pest control services and has a localized understanding of Midwest pest issues.\n   - Offers both residential and commercial services.\n\n6. **Aptive Environmental**\n   - Focuses on environmentally responsible pest control solutions.\n   - Offers regular maintenance plans.\n\nWhen choosing a pest control company, it's essential to consider factors like customer reviews, service guarantees, and whether they offer environmentally friendly options.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:53:22+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control company in the Western United States, your best option depends on whether you prefer a large national brand with standardized guarantees or a regional company with deep familiarity with local pest ecosystems (such as desert bark scorpions in Arizona or dampwood termites and rodents in Washington).\n\n---\n\n### Top Regional Picks (Often Outperform Nationals in Local Expertise)\n\n#### 1. **Western Exterminator (Best Overall for California & Arizona)**\n* **Where they operate:** California, Arizona, Nevada, Oregon, and Washington (now part of Rentokil).\n* **Why choose them:** Recognized by the iconic \"little man with the top hat,\" Western Exterminator has operated in the West for over a century. They have specialized protocols for Western-specific issues, such as Argentine ants, desert subterranean termites, and roof rats.\n* **Best for:** Homeowners wanting regional expertise backed by a large network.\n\n#### 2. **Clark Pest Control (Best for California)**\n* **Where they operate:** Extensively across California and parts of Nevada.\n* **Why choose them:** Clark is one of the largest and most well-regarded pest control companies in California. They have high customer satisfaction ratings for their residential year-round maintenance plans (Pest Away) and offer eco-responsible, Integrated Pest Management (IPM) options.\n* **Best for:** California homeowners dealing with recurring ant infestations, spiders, and drywood termites.\n\n#### 3. **Burns Pest Elimination (Best for Arizona)**\n* **Where they operate:** Phoenix, Tucson, and Las Vegas.\n* **Why choose them:** Arizona has unique pest pressures—namely bark scorpions, black widows, crickets, and pack rats. Burns is an Arizona staple known for effective scorpion sealing and specialized desert barrier treatments that standard national plans often overlook.\n* **Best for:** Comprehensive desert pest defense and scorpion management.\n\n#### 4. **Truly Nolen (Great for Arizona & Southern California)**\n* **Where they operate:** Headquartered in Tucson, AZ, with major coverage across the Southwest and California.\n* **Why choose them:** Their Four Seasons pest program rotates treatments based on seasonal bug behavior in warm, arid climates. \n* **Best for:** Year-round seasonal prevention and subterranean termite treatments.\n\n---\n\n### Top National Providers (Available in All Three States)\n\nIf you live in a rural area or prefer standard nationwide guarantees:\n\n* **Orkin:** Widely considered the best national provider for technician training. Their staff receives extensive entomological education, and they offer a strict 30-day money-back guarantee with free re-treatments between scheduled visits.\n* **Terminix:** The national leader for termite management. If you are buying a home or have an active termite issue (especially subterranean or drywood termites, common along the Pacific coast and desert valleys), Terminix’s **Nix Guarantee** and specialized bait systems are hard to beat.\n\n---\n\n### How to Choose Based on Your State's Pest Pressures\n\n| State | Primary Pests | What to Look For | Top Recommendation |\n| :--- | :--- | :--- | :--- |\n| **California** | Argentine ants, drywood termites, subterranean termites, rodents | Companies that offer full structural fumigation, local localized treatments, and exterior barrier maintenance. | **Clark Pest Control** or **Western Exterminator** |\n| **Washington** | Carpenter ants, dampwood termites, roof rats, mice, yellowjackets | Providers skilled in crawlspace moisture mitigation, exclusion/entry-point sealing, and carpenter ant colony tracking. | **Orkin**, **Senske Services**, or **Western Exterminator** |\n| **Arizona** | Bark scorpions, roof rats, desert subterranean termites, black widows | Companies that offer blacklight night inspections, physical home sealing (entry-point exclusion), and dust treatments inside block walls. | **Burns Pest Elimination** or **Truly Nolen** |\n\n---\n\n### Tips Before Signing a Contract\n\n1. **Avoid Strict 1-Year Lock-ins Without a Trial:** Many door-to-door companies operating heavily in the West (like Aptive or Hawx) require rigid 1- to 2-year contracts with early termination fees. Ask if they offer month-to-month options or a free cancellation window.\n2. **Clarify Re-treatment Guarantees:** Ensure the contract explicitly states that if pests return between regular quarterly or bi-monthly visits, a technician will return **free of charge**.\n3. **Get Free Termite Inspections:** In California and Arizona, termite damage is extraordinarily common. Most established companies will inspect for termites for free (unless it's an official real-estate transaction WDO report, which typically carries a small fee).",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:32:30+00:00",
+  "has_unknown": true
+}

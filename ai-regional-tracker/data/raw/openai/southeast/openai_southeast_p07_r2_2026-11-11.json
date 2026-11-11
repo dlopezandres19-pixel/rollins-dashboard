@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Southeast US, several pest control companies are well-regarded for their services:\n\n1. **Orkin**: Known for their comprehensive pest control solutions, Orkin offers services for termites, rodents, and common household pests. They have a wide presence in Florida, Georgia, and Texas.\n\n2. **Terminix**: Offering a range of services including termite and mosquito control, Terminix is another popular choice with extensive experience and coverage in the Southeast.\n\n3. **Massey Services**: Based in Florida, Massey Services provides a variety of pest prevention and control services. They are known for their focus on environmentally-friendly practices.\n\n4. **Arrow Exterminators**: A family-owned company with a strong presence in Georgia, Arrow Exterminators offers pest control, termite protection, and mosquito prevention services.\n\n5. **TruGreen**: While primarily known for lawn care, TruGreen also offers pest control services that focus on creating a pest-free outdoor environment.\n\n6. **Aptive Environmental**: Aptive is recognized for its eco-friendly pest control services and offers coverage in many parts of the Southeast.\n\nWhen choosing a pest control service, consider factors like the specific pests you’re dealing with, the company’s reputation, eco-friendly options, and customer reviews. It’s also a good idea to get quotes from a few companies to compare services and prices.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:47:36+00:00",
+  "has_unknown": false
+}

@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "For homeowners in the Southeast (Florida, Georgia, and Texas), pest control isn’t just about the occasional spider—you’re dealing with high humidity, aggressive subterranean and Formosan termites, American cockroaches (“palmetto bugs”), fire ants, and heavy mosquito seasons. \n\nSeveral top pest control companies stand out in this region, depending on whether you prefer strong regional specialists or large national providers:\n\n---\n\n### 1. **Arrow Exterminators** – *Best Overall Customer Service & Termite Defense*\n* **Headquarters:** Atlanta, GA (widespread across GA, FL, and TX)\n* **Why recommend them:** Arrow is one of the largest privately held pest control companies in the country, but it retains a regional, customer-focused approach. They are particularly renowned for their termite defense programs (often utilizing the **Sentricon** baiting system) and their \"STEPS\" total protection approach, which emphasizes environmentally conscious pest management. \n* **Best for:** Homeowners wanting a regional company with high customer satisfaction ratings and top-tier termite prevention.\n\n### 2. **Massey Services** – *Best for Bundled Pest, Termite & Lawn Care*\n* **Headquarters:** Orlando, FL (heavy presence throughout FL, GA, and major Texas metros)\n* **Why recommend them:** In the Southeast, yard health and pest control are directly connected. Massey is uniquely popular in Florida and Texas because they excel at bundled packages that include general pest prevention, termite protection, mosquito suppression, and **lawn/irrigation care**. Their perimeter-first approach keeps treatments primarily on the exterior of the home.\n* **Best for:** Homeowners who want a single contractor to handle exterior pest control, termite protection, and lawn/irrigation maintenance.\n\n### 3. **Orkin** – *Best for Active or Severe Infestations*\n* **Footprint:** Ubiquitous across FL, GA, and TX (Headquartered in Atlanta, GA)\n* **Why recommend them:** Orkin is widely considered the gold standard for technician training. If you have an active, severe issue—such as German cockroaches, bed bugs, or wood-destroying insects—Orkin technicians are consistently well-equipped to diagnose and knock down the problem quickly. They also offer a solid 30-day money-back guarantee.\n* **Best for:** Rapid response to an existing, stubborn pest problem.\n\n### 4. **ABC Home & Commercial Services** – *Top Pick for Texas*\n* **Footprint:** Major presence across Texas and expanding into Florida\n* **Why recommend them:** If you are located in Texas (particularly Austin, San Antonio, Houston, or DFW), ABC is arguably the most trusted regional brand. Like Massey, they provide full-service home care (pest, pool, lawn, AC), and their pest technicians have deep, hyper-local knowledge of Texas-specific pests like scorpions, carpenter ants, and drywood termites.\n* **Best for:** Texas homeowners looking for an established, highly rated local powerhouse.\n\n### 5. **Terminix** – *Best for Comprehensive Termite Coverage*\n* **Footprint:** Available virtually everywhere across the Southeast\n* **Why recommend them:** Because termites cause more damage in the Deep South than in almost any other US region, termite coverage is essential. Terminix has some of the most established subterranean and drywood termite programs and offers the \"Nix Guarantee,\" which can include repair coverage if termites cause damage while your plan is active.\n* **Best for:** Homes with older construction or in heavily wooded areas where a strong termite bond is the top priority.\n\n---\n\n### What to Look For Before You Sign a Contract:\n\n1. **Retreat vs. Repair Termite Warranties:** In FL, GA, and TX, Formosan subterranean termites can cause rapid structural damage. Make sure your termite agreement includes a **repair warranty** (covering damage repairs), not just a **re-treatment warranty** (which only pays to spray again if they return).\n2. **Perimeter-First Service:** Look for a quarterly service plan where the technician treats the foundation, eaves, and yard perimeter each visit, only coming inside upon request. This keeps pests from entering without filling your living space with chemicals.\n3. **Check the Local Branch:** National and large regional brands live and die by their local branch manager and technicians. Always check the **Google Reviews for your specific local branch** before signing an annual agreement.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:57:38+00:00",
+  "has_unknown": true
+}

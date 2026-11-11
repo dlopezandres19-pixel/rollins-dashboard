@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When considering pest control companies in the Western U.S., including California, Washington, and Arizona, you have several reputable options to compare. Here are some companies you might consider:\n\n1. **Orkin**: A well-known national company with a strong presence in the West. They offer a wide range of pest control services and have a good reputation for customer service.\n\n2. **Terminix**: Another national provider with comprehensive pest control solutions. They offer both residential and commercial services and have many locations across the Western states.\n\n3. **Ecolab Pest Elimination**: Known for their environmentally friendly practices, Ecolab provides pest control services for both homes and businesses.\n\n4. **Western Exterminator**: With a strong presence in California, they offer customized pest control solutions and have been in business for nearly 100 years.\n\n5. **Truly Nolen**: Offers a variety of pest control services and is known for their yellow \"mouse car.\" They provide both residential and commercial solutions.\n\n6. **Clark Pest Control**: Based in California, they offer a wide range of services and have a good reputation for effective pest management.\n\n7. **Bulwark Exterminating**: Operating in several Western states, including Arizona, they are known for their customer-centric approach and satisfaction guarantee.\n\nWhen comparing these companies, consider factors such as:\n\n- **Reputation and Reviews**: Check customer reviews and ratings on sites like Yelp or Google.\n- **Service Offerings**: Make sure they offer the specific services you need for your pest issue.\n- **Pricing**: Get quotes from multiple companies to compare prices.\n- **Guarantees**: Look for satisfaction guarantees or warranty policies.\n- **Environmental Practices**: Consider companies that use eco-friendly products if that’s a priority for you.\n\nTaking these steps will help you choose the best pest control provider for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:55:11+00:00",
+  "has_unknown": true
+}

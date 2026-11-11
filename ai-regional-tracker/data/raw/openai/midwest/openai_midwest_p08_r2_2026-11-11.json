@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control provider in the Midwest, you might want to compare some of the following companies that are well-known in Illinois, Ohio, and Michigan:\n\n1. **Orkin**: A national company with extensive experience in pest control. They offer a wide range of services and have a strong reputation for reliability.\n\n2. **Terminix**: Another national provider with comprehensive pest control solutions, including termite and bed bug treatments.\n\n3. **TruGreen**: Known for lawn care, they also offer pest control services, including mosquito defense and perimeter pest control.\n\n4. **Rose Pest Solutions**: A regional company with a strong presence in the Midwest, offering personalized pest control services.\n\n5. **Ehrlich Pest Control**: Part of the Rentokil family, they provide a broad range of pest management services and are known for their customer service.\n\n6. **Critter Control**: Specializes in wildlife removal but also provides general pest control services.\n\n7. **Plunkett’s Pest Control**: A family-owned business with a strong reputation in the Midwest for effective pest control solutions.\n\nWhen comparing these companies, consider factors like the types of pests they specialize in, their treatment methods, customer reviews, pricing, and any guarantees they offer. It’s also a good idea to get quotes from multiple providers to compare costs and services.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:52:50+00:00",
+  "has_unknown": true
+}

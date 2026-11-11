@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "In the Midwest US, including states like Illinois, Ohio, and Michigan, there are several main options for residential pest control:\n\n1. **Professional Pest Control Services**:\n   - Companies such as Orkin, Terminix, and Rentokil offer comprehensive pest control services. These companies are well-known and have a presence in many areas throughout the Midwest.\n   - Local companies often provide personalized service and may have specific expertise in dealing with regional pests. Examples include Rose Pest Solutions and Griffin Pest Solutions.\n\n2. **DIY Pest Control Products**:\n   - Hardware and home improvement stores like Home Depot and Lowe’s carry a variety of DIY pest control products, including sprays, traps, and baits for common pests like ants, roaches, and rodents.\n   - Online retailers such as Amazon also offer a wide selection of pest control products with customer reviews to guide your choices.\n\n3. **Natural and Eco-Friendly Solutions**:\n   - Many companies now offer green pest control solutions that are less harmful to the environment and safe for children and pets. Look for services that use organic or botanical-based pesticides.\n   - DIY natural solutions such as using essential oils, diatomaceous earth, or vinegar can also be effective for minor infestations.\n\n4. **Integrated Pest Management (IPM)**:\n   - IPM focuses on long-term prevention and combines different management strategies and practices to control pests. This involves regular monitoring and using a combination of biological, cultural, physical, and chemical tools.\n\nWhen choosing a pest control option, consider the type of pest, the extent of the infestation, budget, and personal preferences regarding chemical use. It's also a good idea to read reviews and get quotes from multiple providers to ensure you receive the best service for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:52:59+00:00",
+  "has_unknown": true
+}

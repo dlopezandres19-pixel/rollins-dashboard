@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Northeast US (New York, New Jersey, Pennsylvania) should consider.",
+  "rep": 2,
+  "response_text": "When hiring pest control in the Northeast—where homeowners frequently deal with mice in the winter, carpenter ants in the spring, and heavy tick and mosquito pressure in the summer—you generally have two great options: **well-established regional specialists** with deep local knowledge, and **national providers** with standardized guarantees.\n\nHere is a shortlist of the top companies to consider across New York, New Jersey, and Pennsylvania:\n\n---\n\n### Top Regional Specialists (Deep Tri-State Expertise)\n\n#### 1. **Western Pest Services**\n* **Service Area:** New Jersey, New York, Pennsylvania, Delaware, and Connecticut.\n* **Best For:** Overall reliability and deep regional experience.\n* **Why Consider Them:** Founded in New Jersey in 1928, Western is one of the most recognizable and trusted names in the tri-state area. They specialize in Integrated Pest Management (IPM), meaning they prioritize exclusion and long-term prevention over just spraying chemicals. They handle everything from seasonal invaders (mice, stink bugs, yellow jackets) to heavy termite and bed bug treatments.\n\n#### 2. **Viking Pest Control**\n* **Service Area:** New Jersey, Pennsylvania, Delaware, and parts of New York/Maryland.\n* **Best For:** Modern, tech-enabled rodent control and eco-conscious treatments.\n* **Why Consider Them:** Viking (headquartered in Basking Ridge, NJ) is an industry leader in pest technology. They offer **Anticimex SMART** systems—digital, non-toxic rodent monitoring traps that alert technicians wirelessly 24/7 if activity is detected in basements or crawl spaces. They are QualityPro-certified and have strong green/organic treatment options.\n\n#### 3. **Ehrlich Pest Control**\n* **Service Area:** Extensive across Pennsylvania, New York, and New Jersey.\n* **Best For:** Comprehensive year-round home plans (PestFree365+).\n* **Why Consider Them:** Originally founded in Reading, PA, Ehrlich is now part of the global Rentokil network, giving it massive resources paired with local roots. Their flagship maintenance plan, **PestFree365+**, protects against over 35 common pests and includes free re-services between scheduled visits if pests return.\n\n#### 4. **JP McHale Pest Management**\n* **Service Area:** New York (NYC, Westchester, Long Island, Hudson Valley) and Northern New Jersey.\n* **Best For:** New York Metro/Hudson Valley homeowners looking for boutique-level service.\n* **Why Consider Them:** While more focused geographically than Western or Ehrlich, JP McHale has a stellar reputation in southern NY and northern NJ. Their service was developed by an entomologist, and they are particularly well-regarded for dealing with deer ticks, lawn/perimeter protection, and stubborn suburban rodent infestations.\n\n---\n\n### Leading National Providers\n\n#### 5. **Orkin**\n* **Service Area:** Ubiquitous across NY, NJ, and PA.\n* **Best For:** Highly trained technicians and responsive customer service.\n* **Why Consider Them:** Orkin invests heavily in entomology-backed training. Their standard residential service includes a **30-day money-back guarantee** and free touch-up visits between treatments. If you are dealing with a severe or difficult infestation (such as bed bugs in a multifamily building or wood-destroying beetles), Orkin is one of the safest bets nationwide.\n\n#### 6. **Terminix**\n* **Service Area:** Ubiquitous across NY, NJ, and PA.\n* **Best For:** Termite treatments and subterranean pest prevention.\n* **Why Consider Them:** With the Northeast having significant subterranean termite activity in older wood-frame homes, Terminix is a top contender specifically for termite protection. They offer specialized baiting stations (Sentricon) and the **Nix Pest Guarantee**, covering re-treatments if target pests reappear.\n\n---\n\n### What to Ask Before Hiring\n\n* **Is the company licensed locally?** Verify that technicians are licensed by the appropriate state agency (e.g., NY DEC, NJ DEP, or PA Dept. of Agriculture).\n* **What is the re-treatment policy?** If you pay for a quarterly plan, make sure service calls between visits are 100% free if the pests come back.\n* **Do they address entry points?** Especially for Northeast winters, mice will exploit gaps as small as a dime around foundations and siding. Ask if their rodent service includes basic mechanical exclusion (sealing gaps) rather than just setting bait boxes.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:16:42+00:00",
+  "has_unknown": true
+}

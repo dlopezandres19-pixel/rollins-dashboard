@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "For homeowners in the Southeast (Florida, Georgia, and Texas), pest control needs are uniquely demanding due to high humidity, long warm seasons, and heavy pressure from pests like subterranean/Formosan termites, palmetto bugs (American cockroaches), fire ants, and mosquitoes. \n\nSeveral top-tier pest control companies stand out in this region, ranging from Southeast-rooted powerhouses to reliable national brands:\n\n---\n\n### 1. Best Regional Champions (Top Overall Picks)\n\n* **Massey Services**\n  * **Footprint:** Heavily established throughout Florida, Georgia, and Texas.\n  * **Why them:** Headquartered in Orlando, Florida, Massey was built specifically for the Southeastern climate. They emphasize an **exterior-first prevention approach**, treating the perimeter, eaves, and entry points so they rarely need to spray chemicals inside your living spaces. \n  * **Best for:** Homeowners who want a single provider for pest control, termite protection, mosquito reduction, and warm-season lawn care (irrigation, weed/fertilization).\n\n* **Arrow Exterminators**\n  * **Footprint:** Massive presence in Georgia (headquartered in Atlanta), Florida, and Texas.\n  * **Why them:** Arrow is one of the largest privately held pest control companies in the country, but it retains a strong regional, customer-service-driven culture. They are widely praised for their transparency, professionalism, and environmentally conscious **STEPS** (Sustainability Through Environmental Pest Solutions) program.\n  * **Best for:** Outstanding customer service and comprehensive whole-home termite and pest packages.\n\n---\n\n### 2. Best for Texas Homeowners\n\n* **ABC Home & Commercial Services**\n  * **Footprint:** Texas (major presence in Austin, San Antonio, Houston, DFW, and surrounding areas).\n  * **Why them:** If you are in Texas, ABC is an institution. Family-owned and highly rated, they understand specific Texas pests (like scorpions, fire ants, and drywood termites) better than almost anyone else, with technicians who are consistently vetted and trained.\n  * **Best for:** Texas residents looking for a trusted, locally owned company with expansive home and yard service options.\n\n---\n\n### 3. Best National Providers (Available Across All Three States)\n\n* **Orkin**\n  * **Why them:** Owned by Atlanta-based Rollins, Inc., Orkin has deep roots in the Southeast. Their technicians undergo rigorous, entomologist-led training, making them exceptionally good at identifying difficult infestations (like bed bugs or aggressive wood-destroying insects). They also offer a reliable 30-day money-back guarantee.\n  * **Best for:** High-severity, active infestations where diagnostic expertise matters most.\n\n* **Terminix**\n  * **Why them:** Terminix has one of the largest networks of technicians across the South and is an industry leader in termite monitoring and prevention (such as the Sentricon® bait system). \n  * **Best for:** Standard, reliable termite protection and basic routine perimeter maintenance.\n\n---\n\n### What to Look for Before Signing a Contract in the Southeast\n\n1. **Verify the Termite Bond/Warranty:** In FL, GA, and TX, termite coverage is essential. Always clarify whether a termite agreement covers **retreat only** (they will re-spray if termites return) or **retreat and repair** (they pay to repair structural damage caused by an infestation that occurs while under contract). A repair warranty is vastly superior.\n2. **Exterior vs. Interior Strategy:** The standard in the South should be quarterly perimeter treatments on the outside, with interior service provided on-demand at no extra charge. You should not have to leave your house every quarter for routine treatments.\n3. **Check Branch-Level Reviews:** Pest control quality often comes down to the individual route technician. Before signing, check Google Reviews for your specific local branch or office rather than relying solely on the national brand's rating.\n4. **Get Multiple Free Inspections:** Most reputable companies in these states offer free in-home assessments. Have two or three companies out to inspect your foundation, crawl space/attic, and perimeter, and compare their pricing and recommended treatment plans.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:57:00+00:00",
+  "has_unknown": true
+}

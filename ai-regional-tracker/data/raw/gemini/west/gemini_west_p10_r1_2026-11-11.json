@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the West US (California, Washington, Arizona) should consider.",
+  "rep": 1,
+  "response_text": "When choosing a pest control provider in the West—specifically across California, Washington, and Arizona—it helps to look at a mix of iconic regional specialists and national providers with dense branch networks in these states. \n\nPest pressures vary dramatically across this region (from bark scorpions in Arizona to carpenter ants in the Pacific Northwest and drywood termites in California), so choosing a provider with deep local knowledge is key.\n\nHere is a shortlist of the top pest control companies to consider:\n\n---\n\n### 1. Western Exterminator (Rentokil)\n* **Best for:** Overall legacy reputation across the Western US.\n* **Service Area:** Deep footprint in California and Arizona, with partner/network coverage in Washington.\n* **Why Consider Them:** Western Exterminator (recognizable by their “Little Man” mascot) has been a staple in the West for over a century. Now part of Rentokil, they combine neighborhood-level familiarity with the resources of a global pest management leader. They excel at integrated pest management (IPM), bird deterrence, rodent control, and subterranean/drywood termite treatments.\n\n### 2. Truly Nolen Pest Control\n* **Best for:** Desert pests, scorpions, and year-round preventative defense.\n* **Service Area:** Strong presence in Arizona (headquartered in Tucson) and California; select services in the West.\n* **Why Consider Them:** Because of their Southwest origins, Truly Nolen is exceptionally qualified to handle desert-specific nuisances such as bark scorpions, black widows, roof rats, and termites. Their **Four Seasons Pest Program** adjusts the chemical barrier and application methods based on seasonal pest behavior in warm, arid climates.\n\n### 3. Clark Pest Control\n* **Best for:** California homeowners seeking deep local expertise.\n* **Service Area:** Extensive across California (Northern, Central, and Southern) and parts of Nevada.\n* **Why Consider Them:** Clark is one of the largest and most trusted regional operators in California. They are particularly well-regarded for whole-home termite inspections, fumigation (both tented and localized treatments), lawn pest care, and wildlife/rodent exclusion. They are licensed through the California Structural Pest Control Board and have a reputation for responsive field techs.\n\n### 4. Burns Pest Elimination\n* **Best for:** Arizona-specific pest challenges.\n* **Service Area:** Arizona (Phoenix metro, Tucson) and Las Vegas.\n* **Why Consider Them:** If your home is in Arizona, Burns is arguably the premier regional specialist. Desert pests require aggressive exclusion and specialized products (standard sprays often break down quickly under intense UV and desert heat). Burns specializes in scorpion seals, thermal heat bed bug treatments, and pigeon/bird abatement.\n\n### 5. Orkin\n* **Best for:** Reliable, fast response times and rigorous technician training.\n* **Service Area:** Comprehensive coverage across CA, WA, and AZ.\n* **Why Consider Them:** Orkin invests heavily in entomologist-backed training, meaning their technicians understand local biology—whether you are dealing with moisture pests like carpenter ants and silverfish in Western Washington or German cockroaches in urban California. Their **Orkin Guarantee** includes free return visits between scheduled treatments if pests reappear.\n\n### 6. Aptive Environmental\n* **Best for:** Routine perimeter maintenance and low-toxicity treatments.\n* **Service Area:** Prominent in suburban communities across CA, WA, and AZ.\n* **Why Consider Them:** Aptive focuses primarily on routine exterior defense against common household pests (ants, spiders, wasps, crickets) using pyrethrin-based products derived from chrysanthemum flowers. If you do not have severe structural issues (like active termite infestations or large rodent populations) and just want recurring yard and perimeter defense, they are an easy-to-use option.\n\n---\n\n### Key Local Considerations Before Hiring:\n* **In Arizona:** Prioritize companies offering **scorpion-specific treatments** and **physical home seals** (sealing weep screeds and entry points). Standard surface sprays are often ineffective against scorpions.\n* **In California:** Ask specifically about their **termite licensing**. California homes frequently deal with drywood termites, which often require whole-house fumigation or localized heat/borate treatments, unlike standard subterranean baits.\n* **In Washington:** Ensure the company specializes in **moisture-related pests** (carpenter ants, dampwood termites, and rodent crawlspace remediation/insulation replacement).",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:38:19+00:00",
+  "has_unknown": true
+}

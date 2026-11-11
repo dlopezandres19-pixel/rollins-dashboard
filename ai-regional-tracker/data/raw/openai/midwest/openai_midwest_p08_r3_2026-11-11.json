@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When looking for pest control companies in the Midwest, particularly in Illinois, Ohio, and Michigan, consider comparing the following well-regarded providers:\n\n1. **Orkin**: Known for its comprehensive pest control services and strong reputation. They offer customized plans and have a significant presence across the Midwest.\n\n2. **Terminix**: Offers a wide range of pest control solutions and has a strong customer service reputation. They often provide guarantees and have locations throughout the region.\n\n3. **Truly Nolen**: Known for their environmentally friendly approaches and innovative techniques. They provide services in various parts of the Midwest.\n\n4. **Ehrlich Pest Control**: Offers specialized pest management programs tailored to different needs. They focus on both residential and commercial services.\n\n5. **Rose Pest Solutions**: A long-established company with a strong local presence in the Midwest. They provide comprehensive pest control services and emphasize integrated pest management.\n\n6. **Critter Control**: Specializes in wildlife management and removal, which can be useful if you face issues beyond typical pests.\n\n7. **Local Providers**: Consider also checking local companies that may offer personalized service and have strong community ties. Look for reviews and ask for recommendations from neighbors.\n\nWhen comparing these companies, consider factors like their service offerings, customer reviews, pricing, and any guarantees they provide. It's also helpful to ask for estimates and inquire about their approach to pest management to ensure it aligns with your preferences.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:52:54+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control company in the Southeast US, consider the following reputable options:\n\n1. **Orkin**: Known for its comprehensive pest control services, Orkin has a strong presence in Florida, Georgia, and Texas. They provide treatment for a wide range of pests and offer tailored plans.\n\n2. **Terminix**: Offering a variety of plans and services, Terminix is well-regarded for its effective pest control solutions. They cover a broad spectrum of pests common in the Southeast.\n\n3. **Massey Services**: Based in Florida, Massey Services specializes in pest prevention and lawn care, making them a popular choice in the region.\n\n4. **Arrow Exterminators**: With locations throughout the Southeast, Arrow Exterminators provides eco-friendly pest control solutions tailored to the local climate.\n\n5. **Truly Nolen**: Known for innovative treatment methods, Truly Nolen offers pest control services across the Southeast and is praised for its customer service.\n\nWhen selecting a company, consider:\n\n- **Local Reviews**: Check online reviews specific to your area to gauge customer satisfaction.\n- **Services Offered**: Ensure they cover the specific pests you're dealing with.\n- **Pricing**: Get quotes from multiple companies for the best value.\n- **Guarantees**: Look for companies that offer satisfaction guarantees or free follow-up treatments.\n\nAlways request an inspection and consultation to ensure they understand your specific needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:47:10+00:00",
+  "has_unknown": false
+}

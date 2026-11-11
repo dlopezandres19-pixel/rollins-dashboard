@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several pest control companies are well-regarded for their residential services. Here are some leading options:\n\n1. **Orkin**: With a strong presence across the Southeast, Orkin offers comprehensive pest control services and is known for its effective treatment plans and knowledgeable technicians.\n\n2. **Terminix**: Another major player, Terminix provides a wide range of pest control services and is well-regarded for its termite control solutions, among other pest management services.\n\n3. **Truly Nolen**: Known for its eco-friendly approaches, Truly Nolen offers pest control services that cover a variety of pests, including insects and rodents.\n\n4. **Massey Services**: This company is particularly prominent in Florida and offers not only pest control but also landscape and irrigation services, making it a good option for comprehensive home care.\n\n5. **Arrow Exterminators**: Based in Atlanta, Arrow Exterminators has a strong presence in Georgia and other Southeastern states, offering personalized service and a commitment to using environmentally responsible methods.\n\n6. **Aptive Environmental**: Known for their eco-friendly pest control practices, Aptive offers tailored pest control solutions with a focus on reducing environmental impact.\n\nEach company offers different plans and pricing, so it might be worth getting quotes and assessments from a few to see which best fits your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:47:00+00:00",
+  "has_unknown": false
+}

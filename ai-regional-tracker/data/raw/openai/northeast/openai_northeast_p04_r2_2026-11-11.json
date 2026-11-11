@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "In the Northeast US, including New York, New Jersey, and Pennsylvania, several leading pest control companies are known for their effectiveness and customer service. Here are some top choices:\n\n1. **Orkin**: A well-known national brand with a strong presence in the Northeast, offering comprehensive pest control services and prevention plans.\n\n2. **Terminix**: Another major national company that provides a wide range of pest control services, including termite and bed bug treatments.\n\n3. **Ehrlich Pest Control**: With a strong regional presence, Ehrlich offers tailored pest management solutions and is known for its customer service.\n\n4. **Western Pest Services**: Based in New Jersey, Western Pest Services covers the Northeast and provides personalized pest control solutions.\n\n5. **Arrow Pest Control**: A local favorite in New Jersey, Arrow offers customized pest management plans and has a strong reputation for reliability.\n\n6. **Viking Pest Control**: Serving all three states, Viking provides eco-friendly pest control options and is known for its effective treatments.\n\nWhen choosing a pest control company, consider factors like customer reviews, service guarantees, and the specific pests you need to address. It's often helpful to get quotes from several companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:49:26+00:00",
+  "has_unknown": true
+}

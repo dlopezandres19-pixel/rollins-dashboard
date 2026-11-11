@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "In the Northeast US, including New York, New Jersey, and Pennsylvania, there are several reputable pest control companies you can consider:\n\n1. **Terminix**: Known for its comprehensive pest control solutions and excellent customer service.\n\n2. **Orkin**: Offers a wide range of services and has a strong reputation for handling various pest issues.\n\n3. **Ehrlich Pest Control**: Provides personalized pest management plans and is well-regarded in the region.\n\n4. **Western Pest Services**: Offers both residential and commercial pest control services with a focus on customer satisfaction.\n\n5. **Viking Pest Control**: Known for environmentally friendly practices and tailored solutions for different pest problems.\n\nWhen choosing a pest control company, consider the following:\n\n- **Reputation and Reviews**: Check customer reviews and ratings to ensure they have a good track record.\n- **Services Offered**: Make sure they offer solutions for the specific pests you are dealing with.\n- **Certifications and Licensing**: Verify that the company is properly licensed and certified.\n- **Guarantees and Warranties**: Look for companies that offer guarantees on their services.\n- **Pricing**: Get quotes from several companies to compare pricing and services.\n\nIt's also helpful to ask for recommendations from neighbors or friends who have had similar pest issues.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:49:36+00:00",
+  "has_unknown": true
+}

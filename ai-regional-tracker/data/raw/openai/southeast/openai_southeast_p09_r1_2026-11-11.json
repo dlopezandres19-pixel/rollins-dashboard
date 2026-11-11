@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, there are several main options for residential pest control. Here are some commonly used methods:\n\n1. **Professional Pest Control Services**:\n   - **Terminix**: Offers comprehensive pest control solutions, including termite and mosquito treatment.\n   - **Orkin**: Known for its pest management services, including bed bugs, termites, and rodents.\n   - **TruGreen**: Provides lawn care and pest control, focusing on outdoor pests like mosquitoes.\n\n2. **DIY Pest Control**:\n   - **Baits and Traps**: For ants, roaches, and rodents, using commercial traps and baits can be effective.\n   - **Natural Remedies**: Essential oils, diatomaceous earth, and vinegar solutions can help deter pests naturally.\n\n3. **Preventative Measures**:\n   - **Sealing Entry Points**: Regularly inspect and seal cracks and crevices around windows, doors, and foundations.\n   - **Yard Maintenance**: Keeping grass trimmed and removing standing water can reduce mosquito breeding.\n\n4. **Integrated Pest Management (IPM)**:\n   - Combines multiple strategies to manage pests with minimal environmental impact. This includes monitoring pests, using biological control agents, and applying pesticides only when necessary.\n\nWhen choosing a pest control method, consider the type of pest, the severity of the infestation, and your personal preferences for chemical versus natural treatments. Always follow safety guidelines, especially when using chemical products.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:48:02+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control service in the Western U.S., the best option often depends on whether you prefer a large national brand with standardized guarantees or a trusted regional provider that specializes in the specific pests native to your climate.\n\n---\n\n### Best Overall Multi-State Providers (CA, WA, AZ)\n\n* **Orkin:** The most consistent national provider across the West. Orkin’s technicians undergo rigorous, entomologist-led training, making them exceptionally good at identifying difficult infestations (like German cockroaches or subterranean termites). They offer a 30-day money-back guarantee and fast response times.\n* **Western Exterminator (Rentokil):** Recognized by the iconic “Little Man” logo, Western Exterminator is an institution across California and Arizona, with operations extending throughout the West. They specialize in integrated pest management (IPM) and commercial/residential exclusion.\n* **Terminix:** The industry standard for termite control, which is essential in California and Arizona. Their \"Termite Protection Plan\" and extensive regional branch network make them a strong, reliable choice for full-property coverage.\n* **Aptive Environmental:** Widely available across suburban neighborhoods in California, Washington, and Arizona. They focus primarily on general exterior perimeter defense and eco-friendlier pyrethrin-based treatments. Note: They operate on annual contracts and do not specialize in wood-destroying organisms (termites) or wildlife exclusion.\n\n---\n\n### Best by State: Regional Standouts\n\nLocal climate dictates pest problems. In the Pacific Northwest, moisture and rodents dominate; in the Southwest, desert pests and year-round heat require different tactics.\n\n#### **California**\n* **Clark Pest Control:** One of the largest and most respected pest management companies in California (headquartered in Lodi, now under Rollins). They cover Northern, Central, and Southern California and excel at both termite management (fumigation/local treatments) and yard care/weed control.\n* **Dewey Pest Control:** A Southern and Central California staple since 1929. Known for competitive pricing on ongoing residential maintenance plans.\n* **Lloyd Pest Control:** A top-rated choice for Southern California (San Diego, Orange County, Riverside). Excellent reputation for termite structural repairs and heat treatments.\n\n#### **Washington**\n* **Eastside Exterminators:** Based in the Greater Seattle/Puget Sound area, they are widely regarded as the gold standard for rodent control, crawl-space restoration, and wildlife exclusion—the biggest pest challenge in Western WA.\n* **Cascade Pest Control:** Known for eco-friendly, low-toxicity treatments tailored to the wet Pacific Northwest climate. Excellent for carpenter ants, spiders, and rats without heavy reliance on broadcast sprays.\n* **Eden Pest:** A long-running regional provider serving Western Washington with a focus on Integrated Pest Management (IPM).\n\n#### **Arizona**\n* **Truly Nolen:** Headquartered in Tucson, Truly Nolen is an Arizona institution. Because they were born in the desert, they have some of the most effective protocols for desert-specific pests, particularly subterranean termites, pack rats, and scorpions.\n* **Blue Sky Pest Control:** Consistently rated as the top local provider in the Phoenix metro area. They use customized formulations designed to withstand extreme Arizona heat and UV degradation, which causes standard pesticides to break down quickly.\n* **Responsible Pest & Scorpion Control:** A specialist in the Phoenix and Mesa areas focusing heavily on Arizona bark scorpions and black widows, using targeted microencapsulated products.\n\n---\n\n### Tips for Hiring in the West\n\n1. **Ask About Scorpion Formulations (AZ):** Extreme desert heat breaks down common perimeter sprays in days. Ensure your technician uses microencapsulated products that survive direct sunlight.\n2. **Prioritize Exclusion Over Poison for Rodents (WA & CA):** In wet coastal climates, rats frequently nest in attics and crawlspaces. Choose a company that offers physical exclusion (sealing entry points) and crawlspace cleanouts rather than just setting bait boxes outside.\n3. **Know Your Termite Type (CA & AZ):** California deals with both drywood termites (often requiring tenting or spot heat treatments) and subterranean termites. Arizona primarily deals with desert subterranean termites (requiring soil trenching or bait stations). Confirm the company provides a specialized termite warranty (re-treatment guarantee).\n4. **Compare Contract Terms:** Many providers push recurring bi-monthly or quarterly plans. Always ask about the cancellation policy, and make sure free re-services between scheduled visits are included in writing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Aptive",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:27:51+00:00",
+  "has_unknown": true
+}

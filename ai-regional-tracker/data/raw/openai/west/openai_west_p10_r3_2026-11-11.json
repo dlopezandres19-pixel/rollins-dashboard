@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the West US (California, Washington, Arizona) should consider.",
+  "rep": 3,
+  "response_text": "Here are some reputable pest control companies you might consider in the western U.S., including California, Washington, and Arizona:\n\n1. **Orkin**  \n   - Nationwide presence with local branches.\n   - Offers a wide range of pest control services.\n\n2. **Terminix**  \n   - Extensive experience and comprehensive pest management solutions.\n   - Available in multiple locations across the West.\n\n3. **Ecola Termite and Pest Control**  \n   - Based in California with eco-friendly pest control options.\n   - Specializes in termite control and prevention.\n\n4. **Western Exterminator**  \n   - Known for reliable service and expertise in pest control.\n   - Offers services throughout California and other western states.\n\n5. **Green Pest Solutions**  \n   - Focus on environmentally friendly pest control.\n   - Available in select areas with personalized service plans.\n\n6. **Truly Nolen**  \n   - Family-owned company with services across the West.\n   - Known for innovative solutions and customer service.\n\n7. **Clark Pest Control**  \n   - Based in California, with a strong reputation for quality service.\n   - Offers comprehensive pest management programs.\n\nThese companies are well-regarded for their expertise and customer service. Be sure to check their specific coverage areas and customer reviews to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:55:48+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast—where year-round humidity and warmth make pests like subterranean termites, Formosan termites, palmetto bugs (American roaches), and fire ants constant threats—a few regional powerhouses and national brands consistently stand out for reliability, customer satisfaction, and specialized treatments.\n\nHere are the most reputable residential pest control companies operating across Florida, Georgia, and Texas:\n\n---\n\n### 1. Premier Regional Leaders (Best Balance of Scale & Service)\n\nOften preferred over massive national conglomerates, these large regional companies were founded in the South, understand the local climate, and generally score higher in customer service.\n\n*   **Arrow Exterminators** *(Strong across GA, FL, and TX)*\n    *   **Headquarters:** Atlanta, GA\n    *   **Why they are reputable:** Consistently ranked among the top-rated large pest management companies in the nation. Despite its size, Arrow operates with a community-first approach and high employee retention.\n    *   **Best for:** Termite protection (they are a certified installer of the Sentricon® system) and whole-home pest control (Steps Total Protection System).\n*   **Massey Services** *(Deep footprint in FL, expanding heavily in GA and TX)*\n    *   **Headquarters:** Maitland (Orlando), FL\n    *   **Why they are reputable:** One of the largest privately-owned pest control companies in the country. Massey focuses on an \"outside-in\" environmental approach, treating the perimeter so chemicals aren't sprayed needlessly inside living areas.\n    *   **Best for:** Integrated pest management, termite bonds, and bundled exterior services (pest + lawn/shrub care + irrigation).\n*   **ABC Home & Commercial Services** *(Dominant in TX, presence in FL)*\n    *   **Headquarters:** Austin, TX\n    *   **Why they are reputable:** A family-owned Texas institution with an exceptional local reputation across Central, South, and North Texas. \n    *   **Best for:** Homeowners in Texas looking for a trusted, single-provider solution for pests, termites, wildlife removal, and mosquito abatement.\n*   **HomeTeam Pest Defense** *(Massive in TX and FL, presence in GA)*\n    *   **Headquarters:** Dallas, TX\n    *   **Why they are reputable:** They work directly with home builders across the Sunbelt. If your home was built in the last 15–20 years and has tubes running through the walls (the **Taexx® system**), HomeTeam is likely the authorized provider that can inject treatments directly into the wall voids from an exterior port.\n    *   **Best for:** Newer construction homes equipped with built-in pest defense tubing.\n\n---\n\n### 2. Top National Brands\n\nIf you live in a rural or outlying area where regional providers might not have full branch coverage, the two major national players have deep operational roots in the Southeast.\n\n*   **Orkin** *(HQ in Atlanta, GA)*\n    *   **Why they are reputable:** Orkin’s training program is widely regarded as the gold standard in the pest control industry. They are particularly strong at technical pest identification, wood-destroying insect (WDI) reports, and complex infestations.\n    *   **Best for:** Guaranteed retreatment policies and severe or difficult infestations.\n*   **Terminix** *(Widespread across FL, GA, and TX)*\n    *   **Why they are reputable:** Part of Rentokil Terminix, they have the deepest geographic footprint in the South. \n    *   **Best for:** Termite warranty bonds and specialized subterranean/drywood termite tenting and baiting systems.\n\n---\n\n### What to Prioritize When Choosing in FL, GA, or TX\n\n1. **Termite Warranty / Bond:** In Florida, Georgia, and the Texas Gulf Coast, **Formosan and subterranean termites** cause billions in structural damage. Ensure the company offers a transferable **repair bond** (not just a \"re-treatment\" bond), which guarantees they will pay for structural repairs if termites cause damage while under contract.\n2. **Perimeter-First Philosophy:** Reputable providers in warm climates will focus 90% of their maintenance on the exterior barrier (eaves, foundation, weep holes, mulch beds), minimizing the need to apply pesticides indoors.\n3. **Sentricon vs. Liquid Barrier:** Ask which termite method they use. Sentricon bait stations are often preferred in sandy or flood-prone soils (common in coastal FL and TX) because liquid barriers can shift with high water tables.\n4. **Free Re-treatments:** Ensure the recurring agreement includes free call-back services between scheduled quarterly or bi-monthly visits if bugs reappear.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:58:49+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Southeast US (Florida, Georgia, Texas) should consider.",
+  "rep": 1,
+  "response_text": "When dealing with the climate in Florida, Georgia, and Texas, pest control isn't just about the occasional ant or spider—you are dealing with year-round pest pressure, high humidity, destructive termite varieties (like Formosan and Eastern subterranean termites), palmetto bugs, and fire ants. \n\nThe following shortlist features pest control companies best suited for homeowners across these three states, split between Southeastern powerhouses and national providers with deep infrastructure in the region:\n\n---\n\n### 1. The Regional Powerhouses (Best for Southeast-Specific Expertise)\n\n* **Arrow Exterminators**\n  * **Footprint:** Headquartered in Atlanta, GA; extensive coverage throughout Georgia, Florida, and Texas.\n  * **Why consider them:** Despite being one of the largest pest control firms in the nation, Arrow still operates with a regional, family-owned culture. They are known for stellar customer retention and their environmentally minded \"STEPS\" (Sustainability Through Environmental Pest Solutions) program.\n  * **Best for:** Whole-home pest management and termite protection using the Sentricon baiting system.\n\n* **Massey Services**\n  * **Footprint:** Headquartered in Orlando, FL; major footprint across Florida, with strong operations in Georgia and Texas.\n  * **Why consider them:** Massey is tailored specifically to the Southern lifestyle. Beyond standard pest control, they specialize in exterior perimeter treatments to keep pests out without spraying indoors constantly. They also offer bundled services covering lawn aeration/fertilization, irrigation maintenance, and termite defense.\n  * **Best for:** Homeowners looking to bundle indoor pest control, termite warranties, and lawn/turf care under one contract.\n\n* **ABC Home & Commercial Services** *(Essential Texas pick)*\n  * **Footprint:** Dominant across Texas (Houston, Dallas–Fort Worth, Austin, San Antonio, Bryan–College Station).\n  * **Why consider them:** If you are in Texas, ABC is an institution. Family-run for generations, they understand Texas-specific insect biology and heat cycles better than almost anyone. Like Massey in Florida, they offer comprehensive pest, termite, mosquito, and lawn services.\n  * **Best for:** Texas homeowners wanting a deeply rooted, highly rated local-to-state provider.\n\n* **Truly Nolen**\n  * **Footprint:** Extensive across Florida and Texas, with selective coverage in Georgia.\n  * **Why consider them:** Recognized by their yellow mouse cars, Truly Nolen uses a \"Four Seasons\" treatment protocol tailored for warm-weather states. Their treatments shift based on pest mating, foraging, and nesting cycles in the spring/summer vs. mild winters.\n  * **Best for:** Routine quarterly barrier protection and aggressive ant/roach management.\n\n---\n\n### 2. The Major National Providers (Best for Termite Bonds & Availability)\n\n* **Orkin**\n  * **Footprint:** Ubiquitous across FL, GA, and TX (Headquartered in Atlanta, GA).\n  * **Why consider them:** Orkin technicians undergo rigorous training (including simulation centers at the Orkin Institute of Technology). If you have an active, difficult infestation—such as bed bugs, wood-boring beetles, or severe German cockroach problems—Orkin’s science-first approach is among the best in the industry.\n  * **Best for:** Targeted, difficult infestations and reliable re-treatment guarantees.\n\n* **Terminix**\n  * **Footprint:** Comprehensive across all three states, with rural and suburban coverage where others might not go.\n  * **Why consider them:** Given that coastal Florida, Georgia, and the Texas Gulf Coast have some of the highest subterranean and drywood termite pressures in the world, a strong termite bond is essential. Terminix offers extensive structural damage guarantees, Nix Pest Guarantees, and robust digital account management.\n  * **Best for:** Termite bait/liquid barrier programs and transferrable termite bonds (useful if you plan to sell your home).\n\n---\n\n### What to Ask Before Signing a Contract in the Southeast:\n\n1. **Termite Coverage Type:** Do they offer a **repair guarantee** (they pay to repair structural damage if termites get past the barrier) or merely a **re-treatment guarantee** (they just re-spray for free, leaving you with wood damage costs)?\n2. **Treatment Method:** Ask whether they use **Sentricon bait stations** or **Termidor liquid perimeter barriers** for termites; both are top-tier, but bait stations are often preferred around high water tables or slab foundations common in FL/TX.\n3. **Free Call-Backs:** Ensure your contract guarantees free re-treatments in between scheduled visits if pests appear inside.\n4. **Targeted Pests:** Confirm that your general quarterly plan includes regional nuisances like palmetto bugs (American roaches), carpenter ants, and silverfish without requiring expensive add-on tiers.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:05:46+00:00",
+  "has_unknown": true
+}

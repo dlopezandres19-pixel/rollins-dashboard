@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "In the Midwest US, including Illinois, Ohio, and Michigan, there are several effective options for residential pest control. Here are some common approaches:\n\n1. **Professional Pest Control Services:**\n   - **Terminix** and **Orkin** are national companies with strong presences in the Midwest. They offer comprehensive pest management services.\n   - Local companies like **Rose Pest Solutions** and **Griffin Pest Solutions** provide tailored services and might have more localized expertise.\n\n2. **Integrated Pest Management (IPM):**\n   - This approach uses a combination of methods to control pests, focusing on prevention, monitoring, and control with minimal chemical use. It can be implemented by both professionals and homeowners.\n\n3. **DIY Solutions:**\n   - Over-the-counter products like sprays, traps, and baits can be effective for minor infestations.\n   - Natural remedies, such as diatomaceous earth and essential oils, can be used for non-toxic pest control.\n\n4. **Preventive Measures:**\n   - Regularly seal cracks and crevices, keep food stored securely, and maintain a clean environment to prevent infestations.\n\n5. **Pest-Specific Solutions:**\n   - For issues with specific pests like termites, mosquitoes, or rodents, consider targeted treatments such as termite barriers or mosquito fogging.\n\nWhen choosing a pest control option, consider the type of pest, the severity of the infestation, and any preferences for natural or chemical treatments. Always ensure that any professional service is licensed and reputable.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:53:09+00:00",
+  "has_unknown": true
+}

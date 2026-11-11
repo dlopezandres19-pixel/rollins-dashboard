@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Midwest US (Illinois, Ohio, Michigan) should consider.",
+  "rep": 1,
+  "response_text": "For homeowners across the Great Lakes and Midwest region (Illinois, Ohio, and Michigan), dealing with seasonal pest pressures—such as spring carpenter ants, fall boxelder bugs and stink bugs, and winter rodent invasions—requires companies familiar with local climate cycles and housing styles.\n\nA shortlist of top pest control providers to consider spans established regional favorites and reliable national operators:\n\n---\n\n### 1. Rose Pest Solutions (Best Regional Specialist)\n* **Coverage:** Extensive service across Illinois, Michigan, Ohio, and Indiana.\n* **Why Consider Them:** As America’s oldest pest management company (founded in 1860), Rose is an iconic Midwestern brand. Because they focus specifically on this region, their technicians are deeply experienced with Midwestern seasonal migrations—such as rodents seeking warmth in fall, boxelder bugs, cluster flies, and subterranean termites.\n* **Best For:** Homeowners who prefer a company with local Midwest roots, responsive local dispatch, and customized year-round home protection plans.\n\n---\n\n### 2. Orkin (Best for Technical Training & Specialized Infestations)\n* **Coverage:** Comprehensive coverage throughout every major metro area and most suburban/rural areas in IL, OH, and MI.\n* **Why Consider Them:** Orkin invests heavily in entomological training for their technicians. They are often the best choice for stubborn or high-stakes infestations, such as bed bugs, aggressive German roaches, or severe carpenter ant colonies.\n* **Key Feature:** Their \"Orkin A.I.M.\" (Assess, Implement, Monitor) methodology emphasizes Integrated Pest Management (IPM), targeting the source rather than just spraying chemicals.\n* **Best For:** Hard-to-treat infestations and homeowners who want 24/7 customer support backed by a 30-day money-back guarantee.\n\n---\n\n### 3. Terminix (Best for Termite Protection & Bundled Services)\n* **Coverage:** Ubiquitous across all three states with dozens of local branches.\n* **Why Consider Them:** Subterranean termites are common across southern/central Illinois, southern Ohio, and lower Michigan. Terminix made its name in termite remediation and offers some of the most robust termite guarantees in the industry (including structural repair warranties for qualifying homes).\n* **Key Feature:** Offers package plans that bundle general insect control with termite monitoring and mosquito reduction.\n* **Best For:** Homes with known termite risk, crawlspaces, or older wood-frame properties, as well as homeowners seeking simple multi-pest bundle packages.\n\n---\n\n### 4. Varment Guard / Plunkett’s (Best for Nuisance Wildlife + Pests)\n* **Coverage:** Especially strong in Ohio and Michigan (Varment Guard) and Illinois/Upper Midwest (Plunkett’s).\n* **Why Consider Them:** In the Midwest, standard insects are often only half the battle; attic-invading raccoons, squirrels, bats, and skunks frequently require attention. Varment Guard specializes heavily in nuisance wildlife trapping and exclusion alongside traditional pest control.\n* **Best For:** Homeowners dealing with mixed problems—such as rodents in the walls alongside wildlife or bats in the attic.\n\n---\n\n### 5. Ehrlich (Rentokil) (Best for Customizable Maintenance Plans)\n* **Coverage:** Widespread throughout the lower Great Lakes and Midwest.\n* **Why Consider Them:** Ehrlich’s signature **PestFree365+** program covers dozens of common home pests (including stinging insects, bed bugs, and mice) under a single preventative maintenance subscription with free re-treatments between scheduled visits.\n* **Best For:** Homeowners looking for a comprehensive, set-it-and-forget-it preventative maintenance plan.\n\n---\n\n### Key Questions to Ask Before Hiring\n\n* **\"Are free re-treatments included between scheduled visits?\"** (Standard annual plans should include free call-backs if pests return between quarters).\n* **\"Does your winter service include indoor rodent exclusion?\"** (Midwest winters drive mice into basements and crawlspaces; look for a company that will actively seal minor entry gaps, not just drop bait boxes).\n* **\"Is the technician state-certified?\"** (Each state—IDPH in Illinois, ODA in Ohio, and MDARD in Michigan—requires specific licensing for structural pest applicators).",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:26:47+00:00",
+  "has_unknown": true
+}

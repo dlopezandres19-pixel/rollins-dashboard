@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "Choosing the right pest control company in the West US—California, Washington, or Arizona—depends on several factors, including the type of pests you're dealing with, your budget, and customer reviews. Here are some well-regarded companies in these states:\n\n1. **Orkin**: Known for its extensive experience and comprehensive pest control services. They offer customized plans and have a strong presence across the West.\n\n2. **Terminix**: Offers a wide range of pest control solutions and has a good reputation for dealing with termites and bed bugs, among other pests.\n\n3. **Ecola Termite and Pest Control**: Based in California, they specialize in eco-friendly pest control methods, which might be appealing if you're looking for green options.\n\n4. **Western Exterminator**: Known for their reliable service and expertise, especially in California. They provide pest control services for both residential and commercial properties.\n\n5. **Truly Nolen**: Offers comprehensive pest and termite control services and is known for their customer service.\n\n6. **Omega Pest Control**: Serves Arizona and is known for its personalized service and effective pest control solutions.\n\nWhen choosing a company, consider the following:\n\n- **Certifications and Licensing**: Ensure the company is licensed and certified in your state.\n\n- **Customer Reviews**: Look for reviews on platforms like Yelp, Google, or the Better Business Bureau to gauge customer satisfaction.\n\n- **Guarantee and Follow-up**: Check if they offer a satisfaction guarantee and follow-up services.\n\n- **Free Inspection and Quote**: Many companies offer free inspections and quotes, which can help you compare services and pricing.\n\n- **Eco-friendly Options**: If you're concerned about the environment, ask if they offer green pest control solutions.\n\nAlways get a few quotes and ask about their treatment plans and warranties before making a decision.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:54:25+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When choosing a residential pest control provider in the West, local reputation often depends heavily on the specific pest pressures of your climate—from moisture ants and rodents in the Pacific Northwest to scorpions and drywood termites in the Southwest.\n\nThe most reputable pest control companies serving California, Washington, and Arizona include both top multi-state providers and regional specialists:\n\n---\n\n### 1. Best Multi-State Providers (CA, WA, & AZ)\n\n*   **Orkin:** Orkin has one of the strongest branch networks across all three states. They are widely regarded for rigorous technician training (backed by board-certified entomologists) and responsive customer service. They are especially strong for bed bugs, termites, and ongoing general pest prevention.\n*   **Terminix:** Another nationwide staple with deep coverage in all three states. Terminix is particularly known for comprehensive termite protection plans (Termite Bonds) and drywood/subterranean termite remediation, which is critical in California and Arizona.\n*   **Western Exterminator (Rentokil):** A household name across the Western US (notably California and Arizona). They combine the resources of a global pest management company with decades of local Western operational experience.\n\n---\n\n### 2. Top Reputable Companies by State\n\nBecause local expertise is often critical for regional pests, several state-specific or regional companies frequently outrank national chains in customer satisfaction:\n\n#### **California**\n*   **Clark Pest Control:** Founded in California, Clark is one of the largest and most trusted regional brands in Northern and Central California, with growing coverage in the South. They are well-known for year-round perimeter defense and lawn/tree pest care.\n*   **Lloyd Pest Control:** A major regional force across Southern California (San Diego, Orange County, and Los Angeles). They are highly regarded for structural fumigation, termite monitoring, and eco-friendlier treatment tiers.\n\n#### **Washington**\n*   **Eastside Exterminators:** One of the most reputable family-run operators in the greater Seattle and Puget Sound areas. They specialize heavily in four-step rodent protection (exclusion, trapping, cleanup, and prevention) and carpenter ants, which are dominant issues in the Pacific Northwest.\n*   **Cascade Pest Control:** Dedicated to the Puget Sound region, Cascade has earned a stellar reputation for environmentally responsible pest management, targeting moisture ants, spiders, and rodents without excessive chemical runoff.\n\n#### **Arizona**\n*   **Truly Nolen:** Headquartered in Tucson, Truly Nolen has an iconic footprint in Arizona. Their deep familiarity with desert ecosystems makes them a go-to for bark scorpions, roof rats, and pigeon abatement.\n*   **Bulwark Exterminating:** Exceptionally well-reviewed across the Phoenix metro area. Bulwark is widely favored for specialized desert pest barriers—particularly against scorpions, black widows, and crickets.\n*   **Blue Sky Pest Control:** A Phoenix-area favorite known for clean-cut service, detailed reporting, and thorough perimeter barriers designed to withstand extreme Arizona heat (which degrades standard pesticides faster).\n\n---\n\n### Key Questions to Ask Before Signing\n\n1. **Does the price cover free callbacks?** Legitimate companies (like Orkin, Clark, and Bulwark) provide a service guarantee: if targeted pests return between scheduled quarterly visits, they re-treat at no extra charge.\n2. **What are the contract terms?** Watch out for companies requiring multi-year commitments with high cancellation fees. Many top regional providers offer month-to-month or simple one-year maintenance agreements.\n3. **Are they targeting your region’s specific pests?**\n   * *In AZ:* Confirm that their chemical barriers are scorpion-rated and UV/heat-resistant.\n   * *In WA:* Ensure they specialize in carpenter ant identification and rodent entry-point exclusion.\n   * *In CA:* Ask whether their inspection covers both drywood (above ground) and subterranean (in ground) termites.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:30:18+00:00",
+  "has_unknown": true
+}

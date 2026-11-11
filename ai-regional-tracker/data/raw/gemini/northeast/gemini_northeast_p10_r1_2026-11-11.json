@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Northeast US (New York, New Jersey, Pennsylvania) should consider.",
+  "rep": 1,
+  "response_text": "For homeowners in New York, New Jersey, and Pennsylvania, pest control needs often revolve around seasonal shifts—ranging from ticks and carpenter ants in the spring and summer to rodents seeking warmth in the late fall, as well as region-specific nuisances like stink bugs and spotted lanternflies.\n\nHere is a curated shortlist of reputable pest control companies serving the NY/NJ/PA area, categorized by regional leaders and reliable national providers.\n\n---\n\n### Top Regional Providers (Deep Northeast Roots)\n\n* **Viking Pest Control**\n  * **Service Area:** New Jersey, Eastern Pennsylvania, New York, and Delaware.\n  * **Best For:** Tech-driven solutions and year-round preventative plans.\n  * **Highlights:** Viking is one of the most prominent regional players in the Mid-Atlantic. Now part of Anticimex, they offer modern solutions like their SMART digital rodent-monitoring systems (non-toxic, electronic monitoring traps). They are well-versed in local pests like spotted lanternflies, subterranean termites, and seasonal wood-destroying insects.\n\n* **Western Pest Services**\n  * **Service Area:** Widely covers New Jersey, New York (including NYC and the Hudson Valley), Pennsylvania, and Connecticut.\n  * **Best For:** Established reliability and full-service residential protection.\n  * **Highlights:** Founded in New Jersey in 1928, Western has a long track record in the Northeast. They offer customized residential plans tailored to the local climate and are particularly strong with termite remediation, bed bugs, and general perimeter pest protection.\n\n* **Ehrlich Pest Control**\n  * **Service Area:** Extensive coverage across Pennsylvania, New York, and New Jersey.\n  * **Best For:** Comprehensive year-round home protection.\n  * **Highlights:** Ehrlich originated in Reading, PA, in the 1920s (now part of the Rentokil family). Their signature **PestFree365+** plan covers over 30 common household pests (including bed bugs in many packages, which most standard plans exclude). They have deep local technician coverage across both rural PA/Upstate NY and suburban areas.\n\n* **Cooper Pest Solutions**\n  * **Service Area:** New Jersey and Eastern Pennsylvania (Greater Philadelphia / Bucks County).\n  * **Best For:** Science-based entomology and specific pest infestations (stink bugs, carpenter ants).\n  * **Highlights:** Based in Lawrenceville, NJ, Cooper was built on a reputation for entomologist-led research and environmentally conscious treatments. They are widely regarded for specialized treatments where typical sprays fail, such as overwintering pests (stink bugs, boxelder bugs) and carpenter ant colonies.\n\n---\n\n### National Providers with Strong Northeast Branches\n\nIf you live in a more rural pocket of upstate New York or central/western Pennsylvania where regional firms may not operate, the two national legacy brands offer consistent availability:\n\n* **Orkin**\n  * **Best For:** Fast emergency response and rigorous technician training.\n  * **Highlights:** Orkin operates dozens of branches across NY, NJ, and PA. Their technicians undergo rigorous, entomologist-designed training, and they offer a straightforward 30-day money-back guarantee with free retreatments between scheduled visits.\n\n* **Terminix**\n  * **Best For:** Termite management and bundled home services.\n  * **Highlights:** If your primary concern is termites (which are very common in older Northeast home foundations), Terminix’s proprietary Baiting System and subterranean termite guarantees remain industry benchmarks.\n\n---\n\n### What to Ask Before Hiring in the Tri-State Area\n\n1. **Does the plan cover local problem pests?** Many standard plans exclude carpenter ants, bed bugs, termites, or ticks/mosquitoes. Clarify what is included.\n2. **What is the re-treatment policy?** Northeast weather can wash away exterior perimeter barriers quickly during rainy springs. Ensure the company guarantees free touch-ups between scheduled quarterly visits.\n3. **Are they certified?** Look for technicians certified by **QualityPro** (the pest management industry's \"mark of excellence\") and licensed by your state's environmental protection department (e.g., NY DEC, NJ DEP, or PA Dept. of Agriculture).",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Anticimex",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:16:22+00:00",
+  "has_unknown": true
+}

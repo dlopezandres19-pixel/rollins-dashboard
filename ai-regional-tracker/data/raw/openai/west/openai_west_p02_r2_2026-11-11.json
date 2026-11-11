@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "For homeowners in the western U.S., including California, Washington, and Arizona, here are a few reputable pest control companies you might consider:\n\n1. **Orkin**: Known for comprehensive pest control services, Orkin has a strong presence in the western U.S. They offer treatments for a wide range of pests and provide integrated pest management solutions.\n\n2. **Terminix**: Another well-known name, Terminix offers various pest control services and has multiple locations across California, Washington, and Arizona. They are known for their termite control and prevention plans.\n\n3. **Ecola Termite and Pest Control**: Based in California, Ecola specializes in eco-friendly pest control solutions. They offer non-chemical options and are particularly noted for their termite and rodent control services.\n\n4. **Western Exterminator**: Operating in the western U.S. for nearly 100 years, Western Exterminator provides reliable service for residential and commercial properties. They handle a variety of pests, including bed bugs, termites, and rodents.\n\n5. **TruGreen**: While primarily known for lawn care, TruGreen also offers pest control services, including mosquito defense and tick control, which can be beneficial for homeowners with larger outdoor spaces.\n\nBefore making a decision, consider getting quotes and reading reviews for local branches of these companies to ensure they meet your specific needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:53:45+00:00",
+  "has_unknown": true
+}

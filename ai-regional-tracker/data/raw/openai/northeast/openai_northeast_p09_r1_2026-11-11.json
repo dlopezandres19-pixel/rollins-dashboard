@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "In the Northeast US, including New York, New Jersey, and Pennsylvania, there are several options for residential pest control. Here are some of the main ones:\n\n1. **Professional Pest Control Services:**\n   - **Terminix:** Offers comprehensive pest control solutions for various pests, including termites, bed bugs, and rodents.\n   - **Orkin:** Known for its extensive range of services and experienced technicians.\n   - **Ehrlich Pest Control:** Provides tailored pest control plans and environmentally friendly options.\n   - **Arrow Exterminating:** Serves the New York area with a focus on customized pest solutions.\n\n2. **Local Pest Control Companies:**\n   - Many local companies offer personalized services with a focus on community-specific pest issues. It's worth checking reviews and asking for recommendations from neighbors.\n\n3. **DIY Pest Control:**\n   - **Products:** You can find various sprays, traps, and baits at local home improvement stores like Home Depot or Lowe's.\n   - **Natural Remedies:** Options like diatomaceous earth, essential oils, and vinegar solutions can be effective for minor infestations.\n\n4. **Integrated Pest Management (IPM):**\n   - Focuses on long-term prevention by combining various management approaches with minimal environmental impact. Many companies offer IPM services tailored to specific needs.\n\n5. **Seasonal Treatments:**\n   - Companies often provide seasonal pest control plans to address specific pests prevalent in each season.\n\nWhen choosing a pest control option, consider factors such as the type of pest, the severity of the infestation, environmental impact, and budget. Always check for licenses and certifications to ensure the service meets state regulations.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:50:33+00:00",
+  "has_unknown": true
+}

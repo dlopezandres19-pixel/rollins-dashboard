@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "For homeowners in the Southeast—especially in Florida, Georgia, and Texas—pest control requires companies that specialize in high-humidity challenges like subterranean and Formosan termites, \"palmetto bugs\" (American cockroaches), fire ants, and heavy mosquito populations. \n\nHere are the top national and major regional pest control companies that have an extensive footprint and strong reputation in these states:\n\n---\n\n### 1. **Orkin**\n* **Headquarters:** Atlanta, GA\n* **Best For:** Overall reliability, technician training, and fast response times.\n* **Why They Stand Out:** Orkin is headquartered in the Southeast and understands the region's climate-specific pests intimately. Their technicians undergo rigorous, science-backed training. They provide comprehensive general pest plans, strong termite protection, and reliable emergency treatments. \n* **Key Feature:** The **Orkin Guarantee** offers free retreatments between scheduled visits if pests return, and a 30-day money-back guarantee if you aren't satisfied.\n\n---\n\n### 2. **Terminix**\n* **Headquarters:** Memphis, TN\n* **Best For:** Termite prevention, baiting systems, and bundled pest plans.\n* **Why They Stand Out:** In the South, termite damage is a major financial risk. Terminix is one of the most established names in termite inspection and protection, offering the **Nix Pest Guarantee** and specialized subterranean and drywood termite solutions (including Sentricon baiting systems). They operate extensive branch networks across Florida, Georgia, and Texas.\n* **Key Feature:** Comprehensive \"Ultimate Protection\" bundles that cover general pests, mosquitoes, and termites under one service plan.\n\n---\n\n### 3. **Massey Services**\n* **Headquarters:** Maitland, FL\n* **Best For:** Bundled pest control, lawn care, and exterior prevention.\n* **Why They Stand Out:** While technically a super-regional provider, Massey is one of the largest privately held service companies in the U.S., with a massive footprint across Florida, Georgia, and Texas. They focus heavily on outdoor perimeter prevention, aiming to stop pests outside before they enter the home.\n* **Key Feature:** Convenient bundles that combine residential pest defense with lawn fertilization, weed control, and irrigation maintenance.\n\n---\n\n### 4. **Arrow Exterminators**\n* **Headquarters:** Atlanta, GA\n* **Best For:** Customer satisfaction and environmentally responsible treatment.\n* **Why They Stand Out:** Arrow (which also operates sub-brands like Hughes Exterminators in Florida) is the sixth-largest pest control company in the U.S. and maintains a dominant presence across the Southeast and Texas. They consistently score higher in customer service satisfaction than many older legacy giants.\n* **Key Feature:** Their **STEPS (Sustainability Through Environmental Pest Solutions)** program emphasizes targeted, lower-toxicity treatments around the home.\n\n---\n\n### 5. **Truly Nolen Pest Control**\n* **Headquarters:** Tucson, AZ (with massive regional presence in FL and TX)\n* **Best For:** Seasonal pest prevention protocols and eco-friendly formulas.\n* **Why They Stand Out:** Recognizable by their signature \"mouse cars,\" Truly Nolen has deep roots in Florida and Texas. They use a **Four Seasons Pest Program**, adjusting treatments based on how pest behavior shifts between wet, humid summers and milder Southern winters.\n* **Key Feature:** Strong emphasis on pet- and family-friendly, naturally derived materials for interior barrier applications.\n\n---\n\n### What to Keep in Mind for Florida, Georgia, and Texas:\n\n1. **Get a Termite Bond/Warranty:** Subterranean (and increasingly Formosan) termites cause massive damage in these three states. Look for an annual termite agreement that covers both retreatment and structural repair costs.\n2. **Mosquito Add-ons:** Because of long, warm seasons, standard pest contracts rarely include mosquito suppression. Ask about seasonal misting or bait stations (like In2Care) as an add-on.\n3. **Branch-Level Reviews:** While national brands provide standard training and guarantees, service quality often comes down to the local route technician. Always check Google or Yelp reviews for the specific branch servicing your ZIP code before signing a contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:01:22+00:00",
+  "has_unknown": true
+}

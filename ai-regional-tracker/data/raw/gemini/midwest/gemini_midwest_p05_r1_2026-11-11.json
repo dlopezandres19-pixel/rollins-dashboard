@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control company in the Midwest (Illinois, Ohio, Michigan), you generally have a choice between **established regional companies** that specialize in Midwest-specific pest cycles and **major national brands** that offer standardized guarantees and broad availability.\n\nHere are the best options across these states depending on your specific needs:\n\n---\n\n### 1. Top Regional Providers (Best for Local Expertise & Service)\nMidwest-focused companies are often the best choice because their technicians understand local climate shifts (such as the fall rodent migration indoors and spring carpenter ant emergence).\n\n* **Rose Pest Solutions (MI, OH, IL)**\n  * **Best For:** Overall residential quarterly service and long-standing reputation.\n  * **Why Choose Them:** Founded in the Midwest, Rose is one of the oldest pest management companies in the country. They have a massive footprint across Michigan, Ohio, and Illinois. They excel at seasonal preventative treatments targeting common Midwest pests like boxelder bugs, stink bugs, mice, and carpenter ants.\n* **Anderson Pest Solutions (Illinois / Greater Chicago)**\n  * **Best For:** Homeowners in Northern/Central Illinois.\n  * **Why Choose Them:** Anderson is deeply rooted in Illinois and known for their \"Natural Choice Home Protection\" program. They are certified as a QualityPro company and have an excellent track record dealing with both dense urban pest issues (rats, roaches) and suburban pests (wasps, spiders, ants).\n* **ScherZinger Pest Control (Ohio)**\n  * **Best For:** Homeowners in Southern and Central Ohio (Cincinnati, Dayton, Columbus).\n  * **Why Choose Them:** A fourth-generation family-owned regional favorite in Ohio. They are known for responsive customer service, transparent pricing, and programs specifically tailored to local subterranean termite pressures and seasonal invaders.\n\n---\n\n### 2. Top National Providers (Best for Standardized Guarantees & Tech Integration)\nIf you live in a rural area or prefer a large company with 24/7 customer service and standardized warranties:\n\n* **Orkin**\n  * **Best For:** Serious infestations (bed bugs, aggressive rodent problems) and technician training.\n  * **Why Choose Them:** Orkin's technicians undergo rigorous entomology training. In the Midwest, they are particularly reliable for rodent exclusion (sealing entry points before winter) and bed bug thermal treatments. They offer a 30-day money-back guarantee and free re-treatments between visits.\n* **Terminix**\n  * **Best For:** Termite defense and bundled whole-home plans.\n  * **Why Choose Them:** Subterranean termites are active throughout Ohio, Illinois, and lower Michigan. Terminix specializes in bait stations (BaitDefend) and liquid barriers. Their ongoing general pest plans (PestFree365) cover over 25 common household pests, including mice and wasps.\n\n---\n\n### How to Choose for Common Midwest Pest Problems:\n\n1. **Fall/Winter Rodents (Mice and Rats):**\n   * Temperatures drop sharply between October and December across IL, OH, and MI, driving field mice into basements, crawlspaces, and attics. Look for a company that performs **exclusion work** (sealing entry holes with copper mesh and sealant), not just baiting. *Orkin* and *Rose* excel here.\n2. **Overwintering Insects (Boxelder Bugs, Stink Bugs, Asian Lady Beetles):**\n   * These invade home sidings in late summer and fall. Ensure your provider offers a late-summer exterior spray barrier to stop them before they enter wall voids.\n3. **Carpenter Ants & Wood-Destroying Organisms:**\n   * Common in Michigan and northern Illinois due to mature trees and lake-effect moisture. Choose a company that uses non-repellent transfer insecticides (like Termidor) rather than simple contact repellents.\n\n---\n\n### Recommendations for Next Steps:\n* **Compare 2 to 3 quotes:** Get a quote from a regional provider (**Rose** or **Anderson**) and one national provider (**Orkin**).\n* **Ask about the re-service guarantee:** Ensure your contract guarantees free interim visits if pests return between regular quarterly treatments.\n* **Avoid locked multi-year contracts upfront:** Start with an initial service or a standard quarterly agreement that allows you to cancel after the first season if service quality drops.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:21:30+00:00",
+  "has_unknown": true
+}

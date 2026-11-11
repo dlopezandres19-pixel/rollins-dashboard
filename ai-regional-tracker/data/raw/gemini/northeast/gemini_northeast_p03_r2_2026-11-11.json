@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Mid-Atlantic and Northeast (New York, New Jersey, and Pennsylvania), the pest landscape has distinct challenges—such as heavy tick and mosquito pressure, carpenter ants, subterranean termites, overwintering pests (stink bugs, boxelder bugs), and the invasive spotted lanternfly. \n\nSeveral companies have earned strong reputations across this tri-state corridor, ranging from legacy regional providers to well-established national brands:\n\n---\n\n### 1. Top Regional Providers (Best for Localized Expertise)\n\n*   **Ehrlich Pest Control**\n    *   **Where they operate:** Widespread coverage across PA, NJ, and NY.\n    *   **Reputation:** Ehrlich was founded in Reading, Pennsylvania in 1928 and remains one of the most trusted names in the Mid-Atlantic. (They are part of the Rentokil family, but operate under the Ehrlich brand locally.)\n    *   **Strengths:** Their technicians are deeply familiar with Northeast-specific pest cycles. They offer the *PestFree365+* plan, which covers over 30 common household pests (including bed bugs and spotted lanternflies in many regions) with scheduled seasonal visits and free re-treatments.\n*   **Western Pest Services**\n    *   **Where they operate:** Primarily New Jersey, Eastern Pennsylvania, New York (metro area, Hudson Valley, Long Island), and Delaware.\n    *   **Reputation:** Founded in New Jersey in 1928, Western has nearly a century of localized experience. They have high customer satisfaction ratings for both residential and commercial service.\n    *   **Strengths:** Strong focus on integrated pest management (IPM), excellent termite monitoring and baiting systems, and robust programs for ticks, rodents, and seasonal invaders.\n*   **Cooper Pest Solutions**\n    *   **Where they operate:** Primarily New Jersey and Eastern/Southeastern Pennsylvania.\n    *   **Reputation:** Well-regarded for their research-backed, science-based approach to pest control. \n    *   **Strengths:** Particularly known for their specialized, proactive treatments for bed bugs, carpenter ants, and rodent exclusion. They offer tiered home protection plans that can be customized to include outdoor mosquito and tick control.\n\n---\n\n### 2. Top Sub-Regional / Local Specialists\n\nDepending on exactly where you live in the tri-state area, smaller regional companies often outperform large chains in customer care:\n\n*   **Eastern PA / Philadelphia Suburbs:** **Moyer Pest Control** (Souderton, PA) has an exceptional local reputation throughout Bucks, Montgomery, Chester, and Lehigh counties for residential pest and termite work. **Hoffman’s Exterminating** is another reliable choice across Greater Philly and South Jersey.\n*   **NYC Metro & Long Island:** **Arrow Exterminating** is a longstanding, well-reviewed service focusing heavily on the distinct pest dynamics of Long Island, NYC, and Westchester.\n*   **Upstate New York:** **Thomas Pest Services** and **Fox Pest Control** have strong reputations across the Capital Region and Central NY for seasonal insect control and wildlife exclusion.\n\n---\n\n### 3. Best National Brand\n\n*   **Orkin**\n    *   **Where they operate:** Ubiquitous across NY, NJ, and PA.\n    *   **Reputation:** Among national chains, Orkin typically earns the highest marks for technician training (their staff goes through rigorous certification at the Orkin training facility).\n    *   **Strengths:** Excellent 30-day money-back guarantee, structured 2-month or quarterly service cadences, and strong solutions for serious structural issues like subterranean termites and wood-boring beetles.\n\n---\n\n### Tips for Choosing in NY, NJ, and PA\n\n1. **Ask about invasive and seasonal pests:** Confirm whether your seasonal plan includes treatment for **ticks**, **carpenter ants**, and **spotted lanternflies**, which are major issues in this corridor.\n2. **Review the warranty/re-service policy:** A reputable provider should offer free intermediate visits between scheduled quarterly treatments if pests return.\n3. **Check state licensing:** Ensure the technician is certified with the relevant state regulatory body:\n   * **NY:** Department of Environmental Conservation (NYS DEC)\n   * **NJ:** Department of Environmental Protection (NJDEP)\n   * **PA:** Department of Agriculture (PDA)\n4. **Beware of door-to-door high-pressure sales:** In suburban NJ and PA, companies frequently send door-to-door salespeople offering \"discounted neighborhood rates.\" Always check local reviews, read the cancellation terms, and ensure they are not locking you into multi-year contracts with strict exit penalties before signing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:09:10+00:00",
+  "has_unknown": true
+}

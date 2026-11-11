@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several national pest control companies are well-regarded for their services:\n\n1. **Terminix**: Offers comprehensive pest control services, including termite and bed bug treatments. They have a strong presence in the Southeast and provide tailored solutions for different pests.\n\n2. **Orkin**: Known for their effective pest control methods and extensive training programs for their technicians. They cover a wide range of pests and offer regular maintenance plans.\n\n3. **Ehrlich (part of Rentokil)**: Provides a variety of pest control services and focuses on eco-friendly options. They have a good reputation for customer service and detailed pest management plans.\n\n4. **Truly Nolen**: Offers innovative pest control solutions and is known for their “Four Seasons” approach, adapting treatments to the changing seasons.\n\n5. **Arrow Exterminators**: A family-owned business that has grown to serve multiple states, including those in the Southeast. They offer a range of services, including termite control and wildlife management.\n\nEach company has its strengths, so it's a good idea to compare their services, pricing, and customer reviews to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T14:47:20+00:00",
+  "has_unknown": false
+}

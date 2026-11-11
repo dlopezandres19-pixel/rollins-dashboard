@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "The Southeast has unique pest pressures—such as Formosan subterranean termites, fire ants, “palmetto bugs” (American cockroaches), and intense mosquito seasons—meaning you will want a company that specializes in warm, humid climates. \n\nThe best pest control companies for Florida, Georgia, and Texas depend on your specific needs:\n\n---\n\n### 1. Best Overall for the Southeast: **Arrow Exterminators**\n* **Where they operate:** Widespread coverage across Georgia, Florida, Texas, and neighboring states (headquartered in Atlanta, GA).\n* **Best for:** Whole-home pest management, eco-friendly treatments, and responsive customer service.\n* **Why choose them:** Arrow is one of the largest family-owned pest control companies in the country. They understand the specific regional bugs of the South and use an Integrated Pest Management (IPM) approach called \"STEPS,\" which minimizes chemical usage inside the home. Their termite defense plans (using the Sentricon system) are among the best regarded in the region.\n\n### 2. Best for Pest Control + Lawn Care Bundles: **Massey Services**\n* **Where they operate:** Extremely dominant in Florida, with extensive coverage across Georgia and major Texas metros (headquartered in Orlando, FL).\n* **Best for:** Homeowners who want one company to handle indoor pests, mosquitoes, termite protection, and lawn/irrigation care.\n* **Why choose them:** In states like Florida and Texas, keeping turf healthy (avoiding chinch bugs, sod webworms, and grubs) often goes hand-in-hand with keeping pests away from your perimeter. Massey’s signature offering is their combined pest and landscape services, saving you money compared to hiring separate contractors.\n\n### 3. Best for Deep Texas Coverage: **ABC Home & Commercial Services**\n* **Where they operate:** Texas (Austin, Houston, Dallas/Fort Worth, San Antonio, and surrounding areas).\n* **Best for:** Texas residents wanting a trusted local brand with multi-trade capabilities.\n* **Why choose them:** If your home is specifically in Texas, ABC is an institution. Family-owned and operated for generations, they handle pest and termite control along with HVAC, lawn, and handyman services. Their technicians are deeply familiar with Texas-specific pests like tawny crazy ants, scorpions, and local termite species.\n\n### 4. Best National Reputations: **Orkin** or **Terminix**\n* **Where they operate:** Everywhere across FL, GA, and TX.\n* **Orkin:** Known for having some of the most rigorous training standards for technicians in the industry (over 160 hours of training at their Atlanta facility). They are an excellent pick if you are dealing with a tough, active infestation (like German roaches or bedbugs).\n* **Terminix:** Originally founded on termite control, they are a strong choice if your primary concern is subterranean or drywood termites, and they offer extensive damage-repair warranties in southern coastal markets.\n\n---\n\n### How to Decide Which One to Pick:\n\n1. **Prioritize Termite Protection:** \n   In Georgia, Florida, and East/South Texas, Formosan and subterranean termites cause millions in damage. Ask any provider:\n   * Do you use **liquid barriers (e.g., Termidor)** or **bait stations (e.g., Sentricon)**?\n   * Does the termite bond offer a **repair guarantee** (they pay to repair structural damage) or merely a **re-treatment guarantee** (they just re-spray for free)? Always aim for a repair warranty.\n2. **Check the Re-Service Guarantee:** \n   Because Southeast summers accelerate bug breeding cycles, make sure the regular plan includes **free retreatments between scheduled visits** if pests reappear indoors.\n3. **Get 2–3 On-Site Quotes:** \n   Prices for quarterly pest control in the Southeast typically range from **$40 to $70 per month** (often billed quarterly), with termite protection and mosquito treatments adding to that cost. Have 2 or 3 local branch inspectors come out to inspect your foundation, attic, and perimeter before signing an annual contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:01:02+00:00",
+  "has_unknown": true
+}

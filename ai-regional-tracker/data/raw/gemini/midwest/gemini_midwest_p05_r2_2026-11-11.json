@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control provider in the Midwest (Illinois, Ohio, and Michigan), you will want a company that specifically understands the region’s climate and seasonal shifts—such as spring carpenter ants, summer mosquitoes and ticks, and the late-fall invasion of mice, boxelder bugs, and stink bugs seeking warmth indoors.\n\nHere are the best options to consider, broken down by category:\n\n---\n\n### 1. Best Regional Specialist: **Rose Pest Solutions**\n* **Best for:** Midwestern-specific expertise and localized customer service.\n* **Coverage:** Extensive across Illinois, Michigan, Ohio, Indiana, and Kentucky.\n* **Why choose them:** Rose Pest Solutions is the oldest pest management company in the country and is headquartered in the Midwest. Because their focus is exclusively regional, their technicians are deeply familiar with Great Lakes and Midwestern pest pressures (such as lake-effect dampness attracting carpenter ants or agricultural field mice entering suburban basements). They generally receive higher customer satisfaction marks for technician consistency than the massive nationwide conglomerates.\n\n---\n\n### 2. Best National Provider for Tough Infestations: **Orkin**\n* **Best for:** Serious structural or hard-to-treat pests (bed bugs, termites, carpenter ants) and quick emergency response.\n* **Coverage:** Abundant branches throughout Chicago, Detroit, Columbus, Cleveland, and mid-sized Midwestern cities.\n* **Why choose them:** Orkin’s technician training program is among the most rigorous in the industry. They offer a **30-day money-back guarantee** and will return at no charge between scheduled visits if pests reappear. If you are dealing with an aggressive infestation or need immediate, standardized service, Orkin is usually the most dependable national choice.\n\n---\n\n### 3. Best for Termite Defense & Bundled Plans: **Terminix**\n* **Best for:** Subterranean termite defense and whole-home prevention packages.\n* **Coverage:** Full coverage across all three states.\n* **Why choose them:** Subterranean termites are common across southern/central Illinois and Ohio, and parts of Michigan. Terminix is the industry benchmark for termite baiting systems and liquid barrier treatments, backed by their \"Nix Pest Guarantee.\" They also frequently offer bundled pricing covering general pests, mosquitoes, and rodents under a single recurring plan.\n\n---\n\n### 4. Alternative for Routine Perimeter Maintenance: **Aptive Environmental**\n* **Best for:** General seasonal defense (ants, spiders, wasps, crickets) using eco-friendlier treatments.\n* **Coverage:** Active in most major Midwestern suburban areas.\n* **Why choose them:** Aptive focuses primarily on exterior perimeter defense using pyrethrin-derived solutions. If your home has a finished basement, extensive yard space, or high spider/wasp pressure in summer, their quarterly plan works well. \n* *Note:* Aptive generally requires an annual contract and does not treat wood-destroying organisms (termites) or severe bed bug infestations.\n\n---\n\n### How to Choose the Right One for Your Home\n\n1. **Identify the Target Pest:** \n   * If you have **mice, boxelder bugs, or general seasonal pests**, a regional quarterly service like **Rose** is typically the best value.\n   * If you have **wood-destroying insects** (termites or carpenter ants), get free on-site quotes from both **Terminix** and **Orkin**.\n2. **Verify Free Re-Services:** Ensure your contract includes free re-treatments between scheduled quarterly visits if pests return.\n3. **Ask About Winter Rodent Exclusion:** In IL, OH, and MI, winter rodent proofing (sealing foundation cracks, pipe penetrations, and garage door sweeps) is essential. Ask whether their inspection includes physical exclusion work or just bait traps.\n4. **Compare Free Inspections:** Call both **Rose Pest Solutions** and a national brand like **Orkin** for a quote/inspection. Local branch management varies by municipality, and getting two estimates will give you immediate insight into each company's responsiveness and pricing in your specific zip code.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:21:51+00:00",
+  "has_unknown": true
+}

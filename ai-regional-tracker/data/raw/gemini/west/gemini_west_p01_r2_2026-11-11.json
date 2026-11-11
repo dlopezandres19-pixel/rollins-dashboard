@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-11",
+  "iso_week": "2026-W46",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control company in the Western United States, the best option depends on whether you prefer a large provider with comprehensive guarantees or a regional specialist tailored to the unique pests of each state (such as bark scorpions in Arizona or carpenter ants in Washington). \n\nHere are the top-rated pest control companies across **California, Washington, and Arizona**, broken down by broad regional strength and state-specific leaders:\n\n---\n\n### **Top Multi-State Providers (Across CA, WA, & AZ)**\n\n1. **Western Exterminator**\n   * **Best For:** Overall Western US coverage.\n   * **Why them:** Instantly recognizable by their \"Little Man\" logo, Western Exterminator has served the West Coast for over a century (now under Rentokil). They have deep institutional knowledge of Western pests, strong commercial and residential services, and reliable service across California and Arizona, with partner networks in Washington.\n2. **Orkin**\n   * **Best For:** Fast response and highly trained technicians.\n   * **Why them:** Orkin invests heavily in entomologist-backed technician training and adheres to strict Integrated Pest Management (IPM) practices. They are dependable across all three states for general insect control, bed bugs, and rodents.\n3. **Terminix**\n   * **Best For:** Termite treatments and comprehensive warranty plans.\n   * **Why them:** In the West—where subterranean and drywood termites cause billions in damage—Terminix offers some of the most robust termite inspection, prevention, and ongoing damage repair guarantees in the industry.\n\n---\n\n### **Best in California**\n\n* **Clark Pest Control (Northern & Central California):** Founded in Lodi, Clark is one of the largest and most trusted pest control names in California. They excel in general pest management, lawn care, and large-scale rodent exclusion for suburban homes.\n* **Lloyd Pest Control (Southern California):** A premier provider for San Diego, Orange County, and Los Angeles. Lloyd is particularly well-regarded for termite fumigation (tenting), heat treatments, and eco-friendlier preventative treatments.\n* **Hearts Pest Management (Southern California):** An excellent choice if you prioritize eco-friendly, \"green\" pest control certified under the EPA’s EcoWise program.\n\n---\n\n### **Best in Washington (Pacific Northwest)**\n\n* **Cascade Pest Control (Puget Sound / Greater Seattle):** Specializes in Pacific Northwest-specific challenges like carpenter ants, moisture ants, spiders, and rat abatement. They are known for environmentally conscious, low-toxicity applications.\n* **Eastside Exterminators (Western Washington):** A standout family-owned business in King and Snohomish counties. They are famous for their 4-step rodent control process, which focuses on structural exclusion and attic sanitation rather than just laying traps.\n* **Eden Advanced Pest Technologies:** A PNW favorite focusing on natural, low-impact solutions that are pet- and wildlife-safe while managing heavy seasonal pest surges.\n\n---\n\n### **Best in Arizona (Desert Specialists)**\n\n* **Truly Nolen Pest Control:** Headquartered in Tucson, Arizona, Truly Nolen is a desert institution. Their technicians are extensively trained to handle desert pests, particularly subterranean termites, pack rats, black widows, and scorpions.\n* **Blue Sky Pest Control (Phoenix Metro Area):** Frequently rated as one of the best local services in the Valley. They specialize in dedicated scorpion-barrier treatments and home \"sealing\" (preventing desert critters from slipping through foundation gaps and weep screeds).\n* **Burns Pest Elimination (Phoenix & Tucson):** A respected family-owned business offering strong guarantees, fast response times, and tailored packages for desert homeowners and businesses.\n\n---\n\n### **How to Choose Between Them**\n\n1. **Pest Type:** \n   * If dealing with **termites**, prioritize companies with clear damage-repair warranties (**Terminix** or **Lloyd** in CA; **Truly Nolen** in AZ).\n   * If dealing with **scorpions or rodents**, look for companies that perform physical **home sealing/exclusion** rather than just exterior pesticide spraying.\n2. **Contract Flexibility:** Ask if they require an annual service agreement or if they offer quarterly or one-time targeted treatments.\n3. **Guarantees:** Choose a company offering a **reservice guarantee**, meaning if pests return between scheduled quarterly visits, they come back to retreat free of charge.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-11T15:28:13+00:00",
+  "has_unknown": true
+}
