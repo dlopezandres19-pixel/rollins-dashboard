@@ -109,3 +109,23 @@ week,run_date,provider,model,entity_level,company,brand,parent_ambiguous,methodo
 2026-11-02,2026-11-06,AI Composite,,company,Massey Services,,False,v1,,,6.0,,0.0,,0.0,,
 2026-11-02,2026-11-06,AI Composite,,company,Rentokil / Terminix,,False,v1,,,97.67,,32.67,,32.67,1.0,
 2026-11-02,2026-11-06,AI Composite,,company,Rollins,,False,v1,,,97.33,,32.33,,0.0,2.0,
+2026-11-09,2026-11-13,openai,gpt-4o-mini-2024-07-18,company,Anticimex,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-11-09,2026-11-13,openai,gpt-4o-mini-2024-07-18,company,Aptive,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-11-09,2026-11-13,openai,gpt-4o-mini-2024-07-18,company,Massey Services,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-11-09,2026-11-13,openai,gpt-4o-mini-2024-07-18,company,Rentokil / Terminix,,False,v1,100,95,95.0,94,94.0,93,93.0,1.02,50.0
+2026-11-09,2026-11-13,openai,gpt-4o-mini-2024-07-18,company,Rollins,,False,v1,100,95,95.0,94,94.0,0,0.0,2.0,50.0
+2026-11-09,2026-11-13,anthropic,claude-haiku-4-5-20251001,company,Anticimex,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-11-09,2026-11-13,anthropic,claude-haiku-4-5-20251001,company,Aptive,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-11-09,2026-11-13,anthropic,claude-haiku-4-5-20251001,company,Massey Services,,False,v1,100,15,15.0,0,0.0,0,0.0,,6.98
+2026-11-09,2026-11-13,anthropic,claude-haiku-4-5-20251001,company,Rentokil / Terminix,,False,v1,100,100,100.0,0,0.0,0,0.0,5.0,46.51
+2026-11-09,2026-11-13,anthropic,claude-haiku-4-5-20251001,company,Rollins,,False,v1,100,100,100.0,0,0.0,0,0.0,,46.51
+2026-11-09,2026-11-13,gemini,gemini-3.5-flash-lite,company,Anticimex,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-11-09,2026-11-13,gemini,gemini-3.5-flash-lite,company,Aptive,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-11-09,2026-11-13,gemini,gemini-3.5-flash-lite,company,Massey Services,,False,v1,100,0,0.0,0,0.0,0,0.0,,0.0
+2026-11-09,2026-11-13,gemini,gemini-3.5-flash-lite,company,Rentokil / Terminix,,False,v1,100,99,99.0,5,5.0,4,4.0,1.2,50.0
+2026-11-09,2026-11-13,gemini,gemini-3.5-flash-lite,company,Rollins,,False,v1,100,99,99.0,5,5.0,1,1.0,1.8,50.0
+2026-11-09,2026-11-13,AI Composite,,company,Anticimex,,False,v1,,,0.0,,0.0,,0.0,,
+2026-11-09,2026-11-13,AI Composite,,company,Aptive,,False,v1,,,0.0,,0.0,,0.0,,
+2026-11-09,2026-11-13,AI Composite,,company,Massey Services,,False,v1,,,5.0,,0.0,,0.0,,
+2026-11-09,2026-11-13,AI Composite,,company,Rentokil / Terminix,,False,v1,,,98.0,,33.0,,32.33,2.41,
+2026-11-09,2026-11-13,AI Composite,,company,Rollins,,False,v1,,,98.0,,33.0,,0.33,1.9,
