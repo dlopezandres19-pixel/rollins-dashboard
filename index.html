@@ -2114,6 +2114,7 @@ async function loadAIData() {
         window._aiUpdated = manifest.last_updated;
         _refreshUpdatedBadge();
       }
+    }
   } catch(e) {
     console.warn('AI manifest not found:', e.message);
   }
