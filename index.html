@@ -1808,6 +1808,21 @@ function initFoodServices(d) {
   initSlider('retail-slider','retail-slider-start','retail-slider-end', allDates, idx=>renderFoodChart(idx));
 }
 
+// ── Updated badge: shows macro + AI tracker dates separately ─────────────
+function _refreshUpdatedBadge() {
+  const el = document.getElementById('lastUpdated');
+  if (!el) return;
+  const macro = window._macroUpdated;
+  const ai    = window._aiUpdated;
+  if (macro && ai) {
+    el.textContent = 'Macro data: ' + macro.slice(0,10) + ' · AI tracker: ' + ai.slice(0,10);
+  } else if (macro) {
+    el.textContent = 'Updated: ' + macro.slice(0,10);
+  } else if (ai) {
+    el.textContent = 'AI tracker: ' + ai.slice(0,10);
+  }
+}
+
 // ══════════════════════════════════════════════════════════════════════════
 // MAIN LOADER
 // ══════════════════════════════════════════════════════════════════════════
@@ -1817,7 +1832,10 @@ async function loadDemand() {
     if(!res.ok) throw new Error('data.json not found');
     const d = await res.json();
     gData = d;
-    if(d.last_updated) document.getElementById('lastUpdated').textContent = 'Updated: '+d.last_updated;
+    if(d.last_updated) {
+      window._macroUpdated = d.last_updated;
+      _refreshUpdatedBadge();
+    }
     // Init tracker (needs gData set)
     initTracker();
     // Housing & Food
@@ -1832,6 +1850,7 @@ async function loadDemand() {
       brand_trends:{}
     };
     document.getElementById('lastUpdated').textContent = 'Demo Mode — deploy to GitHub Pages for live data';
+    window._macroUpdated = null;
     initTracker();
     setBadge('housing-badge','neutral','Deploy to GitHub Pages to load live FRED Housing Starts data');
     setBadge('retail-badge','neutral','Deploy to GitHub Pages to load live FRED Food Services data');
@@ -2091,7 +2110,10 @@ async function loadAIData() {
     if (mRes.ok) {
       const manifest = await mRes.json();
       files = (manifest.weekly || []).sort();
-    }
+      if (manifest.last_updated) {
+        window._aiUpdated = manifest.last_updated;
+        _refreshUpdatedBadge();
+      }
   } catch(e) {
     console.warn('AI manifest not found:', e.message);
   }
