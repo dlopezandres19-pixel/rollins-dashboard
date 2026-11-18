@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "When choosing a pest control provider in the Northeast (New York, New Jersey, and Pennsylvania), it helps to compare a mix of **established regional powerhouses** (which specialize in local pests like ticks, carpenter ants, spotted lanternflies, and urban rodents) alongside **major national brands** (which offer standard warranties and large technician networks).\n\nHere are the top companies you should compare:\n\n---\n\n### 1. The Top Regional Leaders (Best Local Focus)\n\n*   **Ehrlich Pest Control (a Rentokil company)**\n    *   **Footprint:** Very heavy presence across Pennsylvania, Upstate New York, and New Jersey.\n    *   **Best For:** Comprehensive residential plans (PestFree365+) and seasonal Northeast pests like ticks, carpenter bees, and mice.\n    *   **Pros:** Ehrlich was founded in PA and retains strong local brand loyalty, backed by the global resources of Rentokil. Their technicians are generally well-versed in rural/wooded pest pressures.\n*   **Viking Pest Control (an Anticimex company)**\n    *   **Footprint:** New Jersey, Pennsylvania, New York, and Delaware.\n    *   **Best For:** Tech-enabled rodent prevention and eco-conscious treatments.\n    *   **Pros:** Viking uses Anticimex SMART technology (non-toxic, digital monitoring traps that alert technicians immediately when a rodent is caught). They are GreenPro-certified and have strong seasonal mosquito and tick programs tailored to the Northeast climate.\n*   **Western Pest Services**\n    *   **Footprint:** High density across New Jersey, New York City/Long Island, and Eastern Pennsylvania.\n    *   **Best For:** Dense suburban and urban homes, multi-unit properties, and stubborn bed bug or rodent infestations.\n    *   **Pros:** Founded in New Jersey in the 1920s, Western understands the specific pest challenges of the tri-state corridor. They have strong reputations for thorough initial inspections and commercial-grade exclusion work.\n\n---\n\n### 2. Major National Brands (Best for Availability & Warranties)\n\n*   **Orkin**\n    *   **Footprint:** Nationwide, with multiple branches across all three states.\n    *   **Best For:** Consistent technician training and prompt re-service guarantees.\n    *   **Pros:** Orkin’s training program is recognized as one of the best in the industry. If you have an urgent or unusual infestation, their technical support and laboratory backing can be an advantage. They offer a 30-day money-back guarantee.\n*   **Terminix**\n    *   **Footprint:** Extensive coverage throughout NY, NJ, and PA.\n    *   **Best For:** Termite treatments (Nix Pest / Nix Termite programs) and wildlife exclusion (squirrels, raccoons, bats).\n    *   **Pros:** Terminix provides straightforward bundle packages combining general pest, termite baiting/monitoring, and mosquito/tick yards. Their online portal makes scheduling easy.\n\n---\n\n### 3. Niche & Metro Specialists (Location-Dependent)\n\n*   **MMPC (Metro NYC & Long Island):** If you live in New York City or surrounding suburbs and need specialized, eco-friendly treatment for bed bugs, rodents, or carpet beetles, MMPC is consistently ranked among the top independent urban exterminators.\n*   **Cooper Pest Solutions (NJ & Eastern PA):** Known for specialized preventative mosquito/tick and stinging-insect programs, as well as bed bug remediation.\n\n---\n\n### What to Compare Before Signing a Contract\n\nWhen you call 2–3 of these companies for estimates, compare them across these five points:\n\n1. **The Re-Treatment Policy:** Northeast winters push mice indoors, while springs trigger ant and tick explosions. Ensure their service includes **free call-backs between scheduled visits** if pests return.\n2. **Contract Terms:** Beware of auto-renewing 12-month agreements that carry steep cancellation fees. Ask if they offer month-to-month options or quarterly cancel-anytime plans.\n3. **Specific Pest Exclusions:** Standard quarterly plans often exclude certain regional headaches—such as subterranean termites, bed bugs, carpenter ants, or wildlife. Ask for a written list of covered pests.\n4. **IPM (Integrated Pest Management) Practices:** Ask if they focus on exclusion (caulking entry points, removing harborage) rather than just spraying perimeter baseboards.\n5. **Tick & Mosquito Add-Ons:** If you have wooded acreage in PA, the Hudson Valley, or Central/North Jersey, check if they offer targeted yard barriers for Lyme-carrying deer ticks.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:30:20+00:00",
+  "has_unknown": true
+}

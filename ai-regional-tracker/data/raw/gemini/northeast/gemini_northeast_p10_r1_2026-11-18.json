@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Northeast US (New York, New Jersey, Pennsylvania) should consider.",
+  "rep": 1,
+  "response_text": "For homeowners in New York, New Jersey, and Pennsylvania, pest control needs often revolve around distinct regional challenges: seasonal rodent invasions in the fall, ticks and mosquitoes in the summer, carpenter ants, subterranean termites, and invasive species like the spotted lanternfly. \n\nHere is a shortlist of the top pest control companies to consider, covering the best regional specialists as well as reliable national providers.\n\n---\n\n### **Top Regional Heavyweights (Deep Northeast Roots)**\n\n#### 1. **Western Pest Services**\n* **Best for:** Overall regional expertise and commercial-grade residential treatment.\n* **Coverage:** New Jersey, eastern Pennsylvania, New York, Delaware, and Maryland.\n* **Why consider them:** Founded in New Jersey in 1928, Western is one of the most established names in the tri-state area. Their technicians undergo rigorous, entomologist-designed training, making them particularly skilled with regional wood-destroying insects (carpenter ants, termites) and winter rodent exclusion.\n\n#### 2. **Ehrlich Pest Control**\n* **Best for:** Pennsylvania and Upstate/Western New York homeowners.\n* **Coverage:** Extensive across PA, NY, NJ, and surrounding states (part of the Rentokil network).\n* **Why consider them:** Founded in Reading, PA, in 1928, Ehrlich is deeply rooted in Pennsylvania and the broader Mid-Atlantic. Their year-round residential plan (PestFree365+) covers over 35 common household pests, including bed bugs and spotted lanternflies—a major plus for PA and NJ residents.\n\n#### 3. **Viking Pest Control**\n* **Best for:** Tech-forward pest management and modern rodent control.\n* **Coverage:** New Jersey, Pennsylvania, Delaware, and parts of New York.\n* **Why consider them:** Viking (part of Anticimex) is widely used across NJ and PA. They stand out for using **SMART digital rodent monitoring**, which uses non-toxic, sensor-driven traps to catch and alert technicians to rodent activity before an infestation takes hold. They are also known for proactive spotted lanternfly treatments and tick/mosquito yard management.\n\n---\n\n### **Top National Providers with Strong Northeast Operations**\n\n#### 4. **Orkin**\n* **Best for:** Highly trained technicians and reliable 24/7 customer support.\n* **Coverage:** Ubiquitous across NY, NJ, and PA (both metro and rural areas).\n* **Why consider them:** Orkin is widely regarded for having some of the most rigorous training in the industry. If you live outside the primary service footprint of regional companies or need round-the-clock emergency assistance, Orkin is a dependable choice with a 30-day money-back guarantee.\n\n#### 5. **Terminix**\n* **Best for:** Termite infestations and extensive home exclusion services.\n* **Coverage:** Widespread throughout the tri-state region.\n* **Why consider them:** Subterranean termites are a significant threat to older wooden Northeast homes. Terminix is historically known for its proprietary termite monitoring and baiting systems, as well as lifetime termite damage guarantees (under qualifying service agreements). They also offer crawl space encapsulation and attic insulation replacement if pests have damaged your home.\n\n---\n\n### **What to Ask Before Hiring in the Northeast**\n\n* **Spotted Lanternfly Coverage:** If you live in PA, NJ, or lower NY, ask if their seasonal plan covers spotted lanternfly egg-mass scraping and tree banding.\n* **Re-Treatment Guarantees:** Northeast winters drive field mice and rats indoors. Ensure your quarterly or annual plan includes **free retreatments between scheduled visits** if pests return.\n* **Carpenter Ants vs. Termites:** The Northeast is notorious for carpenter ant damage, which many basic plans treat differently than subterranean termites. Confirm whether wood-destroying insects are bundled or sold as add-on riders.\n* **Free Inspections:** Most reputable companies (including all listed above) will provide a free, no-obligation inspection and written quote before you sign an annual contract. Avoid companies that give firm quotes over the phone without seeing your property.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:31:44+00:00",
+  "has_unknown": true
+}

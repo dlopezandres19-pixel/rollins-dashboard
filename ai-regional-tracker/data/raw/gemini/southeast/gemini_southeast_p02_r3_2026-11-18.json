@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "For homeowners in the Southeast (Florida, Georgia, and Texas), pest control needs are unique compared to the rest of the country. Because of the warm, humid climate, the primary threats are **subterranean and Formosan termites, palmetto bugs (American cockroaches), fire ants, and heavy mosquito activity**.\n\nHere are the most recommended companies for this region, depending on what matters most to you:\n\n---\n\n### 1. Best Overall for the Southeast: **Arrow Exterminators**\n* **Where they operate:** Large presence across Georgia, Florida, and Texas.\n* **Best for:** Termite protection and full-home exterior defense.\n* **Why them:** Headquartered in Atlanta, Arrow is one of the largest privately held pest control companies in the country, and their entire business model is built around Southeastern pest dynamics. They specialize in the **Sentricon Termite Colony Elimination System**, which is generally considered the gold standard for southern termite defense. Their customer service reputation and technician training tend to rank consistently higher than the massive national conglomerates.\n\n---\n\n### 2. Best for Bundled Home & Lawn Care: **Massey Services**\n* **Where they operate:** Dominant in Florida, with extensive branches across Georgia and Texas.\n* **Best for:** Homeowners who want pest control bundled with lawn, shrub, and mosquito care.\n* **Why them:** Headquartered in Orlando, Florida, Massey knows Southern pests and turf pests inside and out. In states like Florida and Texas, pests often originate in the yard (fire ants, chinch bugs, sod webworms) before entering the home. Massey offers combined packages covering perimeter pest prevention, termite bonds, and lawn fertilization/weed control.\n\n---\n\n### 3. Best Texas-Specific Pick: **ABC Home & Commercial Services**\n* **Where they operate:** Primarily Texas (major presence in Austin, Houston, DFW, San Antonio) with some surrounding service areas.\n* **Best for:** Texas homeowners looking for a trusted, regional, multi-service provider.\n* **Why them:** If you are in Texas, ABC is an institution. They are family-owned and handle general pest defense, aggressive fire ant management, mosquito reduction, and specialized termite treatments suited to Texas clay and slab foundations.\n\n---\n\n### 4. Best for Availability & Scientific Approach: **Orkin**\n* **Where they operate:** Ubiquitous coverage across FL, GA, and TX.\n* **Best for:** Difficult, ongoing infestations (bed bugs, aggressive roach or rodent problems) and fast scheduling.\n* **Why them:** Founded and based in Atlanta, Orkin has extensive regional labs focused on Southern pest biology. Their technicians undergo rigorous, science-backed training. While they can be slightly pricier than regional alternatives, their 30-day money-back guarantee and response times are among the best in the industry.\n\n---\n\n### What to Look for Before You Sign (Southeast Checklist)\n\n1. **Termite Warranty (Repair vs. Retreatment):** In FL, GA, and TX, a termite plan is practically mandatory. Make sure you read the fine print of the termite bond:\n   * **Retreatment-only guarantee:** They will re-spray or re-bait if termites return, but you pay for structural damage.\n   * **Damage-repair guarantee:** They cover the cost of repairing structural wood damage caused by active infestations after coverage begins. *Always aim for a damage-repair warranty.*\n2. **Exterior-First Approach:** A modern pest control company in the South should focus on creating a 3- to 6-foot treated barrier around your foundation, de-webbing eaves, and granular yard treatments. You shouldn't need technicians spraying chemicals inside your home every month unless you have an active indoor infestation.\n3. **Branch Reviews Matter Most:** With large providers (Orkin, Terminix, Arrow), customer experience is heavily dictated by the local branch manager and the individual route technician. Always check Google reviews for the **specific branch** servicing your ZIP code before signing a contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:13:52+00:00",
+  "has_unknown": true
+}

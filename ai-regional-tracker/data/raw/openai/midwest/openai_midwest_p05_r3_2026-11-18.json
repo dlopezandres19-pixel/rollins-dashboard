@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When choosing a pest control company in the Midwest, here are a few reputable options you can consider:\n\n1. **Terminix**: Known for comprehensive pest control services, including termite and bed bug control. They have a strong presence throughout the Midwest.\n\n2. **Orkin**: Offers a range of services with a focus on ongoing prevention and treatment. They have local branches in Illinois, Ohio, and Michigan.\n\n3. **TruGreen**: While primarily known for lawn care, TruGreen also provides pest control services that focus on outdoor pests.\n\n4. **Ehrlich Pest Control**: Offers customized pest management plans and is well-regarded for customer service.\n\n5. **Local Companies**: Sometimes local businesses offer more personalized service. Check for well-reviewed local companies in your specific area.\n\nWhen choosing, consider these factors:\n- **Certification and Licensing**: Ensure the company is certified and licensed to operate in your state.\n- **Experience and Reputation**: Look for companies with a solid reputation and experience in handling the specific pests you’re dealing with.\n- **Guarantee and Follow-up**: Check if they offer guarantees on their services and have follow-up treatments if needed.\n- **Environmentally Friendly Options**: If this is important to you, inquire about their use of eco-friendly products.\n\nReading reviews and asking for recommendations from neighbors can also help you make a more informed decision.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:07:50+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "For homeowners in the Northeast—particularly New York, New Jersey, and Pennsylvania—pest control needs are unique. The region faces distinct seasonal challenges: harsh winters driving mice and rats indoors, wet springs bringing heavy carpenter ant activity, and summer threats like ticks, mosquitoes, and invasive spotted lanternflies. \n\nThe best pest control companies serving the NY/NJ/PA corridor balance strong regional knowledge, reliable recurring maintenance plans, and responsive re-treatment guarantees.\n\n---\n\n### 1. Best Overall Regional Choice: **Western Pest Services**\n* **Service Area:** New Jersey, Eastern Pennsylvania, New York, Delaware, and Connecticut.\n* **Why They Stand Out:** Founded in New Jersey in 1928, Western Pest Services has nearly a century of localized experience dealing with the specific structural pests common to older Northeast homes (such as carpenter ants, brown bats, and roof rats). \n* **Key Strengths:**\n  * Exceptional technician knowledge of local climates and seasonal transitions.\n  * Comprehensive residential plans covering general pests, mice, and seasonal invaders.\n  * Strong re-treatment guarantee with prompt local dispatching.\n\n---\n\n### 2. Best for Modern & Tech-Driven Pest Control: **Viking Pest Control**\n* **Service Area:** Throughout New Jersey, Pennsylvania, Delaware, and the Eastern Shore.\n* **Why They Stand Out:** Viking (part of the global Anticimex group) blends local Mid-Atlantic roots with modern digital pest management. \n* **Key Strengths:**\n  * **SMART Rodent Control:** They offer non-toxic, 24/7 digital monitoring systems that detect and trap mice in basements, attics, or crawl spaces before an infestation spreads.\n  * **Targeted Regional Treatments:** Excellent specific programs for spotted lanternflies (a major issue in PA and NJ) and tick/mosquito barrier yard sprays.\n  * Emphasis on integrated pest management (IPM) and eco-responsible materials.\n\n---\n\n### 3. Best Legacy Mid-Atlantic Provider: **Ehrlich Pest Control**\n* **Service Area:** Deep footprint across Pennsylvania (originally founded in Reading, PA), New York, and New Jersey (operating as part of Rentokil).\n* **Why They Stand Out:** Ehrlich is one of the most recognizable and established pest control brands in Pennsylvania and the broader Mid-Atlantic.\n* **Key Strengths:**\n  * **PestFree365+ Plan:** One of the most inclusive annual plans on the market, covering 36 common pests (including mice, carpenter ants, stinging insects, and even bed bugs in qualifying plans).\n  * Unlimited call-backs between scheduled seasonal visits at no extra charge.\n  * Well-established termite and wildlife removal services.\n\n---\n\n### 4. Best National Provider for Consistency & Training: **Orkin**\n* **Service Area:** Widespread coverage across all major metro areas and suburbs in NY, NJ, and PA.\n* **Why They Stand Out:** If you live outside the core service territory of regional providers, Orkin offers the most reliable standardized service of the major national chains.\n* **Key Strengths:**\n  * Industry-leading technician training program (over 160 hours of hands-on simulation).\n  * The **\"Orkin Guarantee\"**: 30-day money-back guarantee, free visits between routine treatments, and 24/7 customer service lines.\n  * Strong specialty services for heavy infestations (termites, bed bugs, and heavy structural rodent exclusions).\n\n---\n\n### 5. Notable Local Mentions (Depending on Your County)\n* **Cooper Pest Solutions (NJ & Eastern PA):** Known for highly scientific, entomologist-led protocols. Excellent if you deal with difficult specialty pests like brown marmorated stink bugs, boxelder bugs, or stubborn bed bug issues.\n* **Fox Pest Control (Upstate NY, Long Island, PA):** A fast-growing provider known for transparent pricing, quick scheduling, and dependable quarterly perimeter defense services.\n\n---\n\n### What to Ask Before You Sign:\n1. **Are mice and carpenter ants included?** In the Northeast, regular house ants and mice are virtually guaranteed threats. Ensure basic quarterly plans cover both without classifying them as \"specialty\" add-ons.\n2. **What is the re-treatment policy?** Northeast weather can wash away exterior perimeter barriers quickly during rainy springs. Ensure free touch-ups between scheduled visits are included in your agreement.\n3. **Do they inspect attics and basements?** Older Northeast housing stock frequently suffers intrusions via fieldstone foundations and roof eaves. Avoid companies that only spray the baseboards and leave.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:28:33+00:00",
+  "has_unknown": true
+}

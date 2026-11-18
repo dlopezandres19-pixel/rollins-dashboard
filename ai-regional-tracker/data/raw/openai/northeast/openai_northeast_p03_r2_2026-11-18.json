@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "When selecting a reputable residential pest control company in the Northeast U.S., particularly in New York, New Jersey, and Pennsylvania, consider the following highly-rated options:\n\n**1. Viking Pest Control**\n\nWith over 45 years of experience, Viking Pest Control offers eco-friendly, science-backed treatments across New Jersey, Pennsylvania, Delaware, and Maryland. Their services include termite inspections, bed bug heat treatments, and SMART digital monitoring technology for 24/7 pest detection. Viking Pest Control has received accolades from Forbes Home, Better Homes & Gardens, and The Spruce. ([vikingpest.com](https://www.vikingpest.com/?utm_source=openai))\n\n**2. Cooper Pest Solutions**\n\nServing New Jersey and Pennsylvania since 1955, Cooper Pest Solutions provides both one-time services and year-round pest prevention plans. They emphasize Integrated Pest Management (IPM) techniques to minimize pesticide use and offer a 100% satisfaction guarantee. Their services cover a wide range of pests, including ants, bed bugs, termites, and rodents. ([cooperpest.com](https://www.cooperpest.com/?utm_source=openai))\n\n**3. Green Pest Solutions**\n\nAs the largest locally owned pest control company in the PA, NJ, and DE tri-state area, Green Pest Solutions practices integrated pest management to minimize pesticide use. They offer same-day service for calls before 1 PM and provide a 100% satisfaction guarantee. The company boasts a 4.9-star average rating from over 29,000 customer reviews and has received multiple awards, including the Angi Super Service Award. ([greenpestsolutions.com](https://www.greenpestsolutions.com/llm-info?utm_source=openai))\n\n**4. Horizon Pest Control**\n\nOperating in New Jersey and New York since 1970, Horizon Pest Control offers comprehensive residential services with a focus on customer satisfaction. Their Home Guard Program covers over 40 common household pests and includes four seasonal services per year. They also provide a satisfaction guarantee, promising free re-treatment if pests return. ([horizonpestcontrol.com](https://horizonpestcontrol.com/residential/?utm_source=openai))\n\n**5. Western Pest Services**\n\nEstablished in 1928, Western Pest Services operates throughout New Jersey, New York, Connecticut, Pennsylvania, and Delaware. They offer both residential and commercial pest control services and are known for their comprehensive approach to pest management. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Western_Pest_Services?utm_source=openai))\n\nWhen choosing a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and commitment to environmentally friendly practices. It's advisable to contact multiple companies to compare services and pricing to find the best fit for your specific needs. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:04:07+00:00",
+  "has_unknown": true
+}

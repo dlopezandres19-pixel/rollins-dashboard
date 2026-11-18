@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the West US (California, Washington, Arizona) should consider.",
+  "rep": 1,
+  "response_text": "When choosing a pest control provider in the West, your needs can vary dramatically by climate—from scorpions and pack rats in Arizona’s desert to carpenter ants and dampwood pests in Washington, or invasive ant supercolonies and drywood termites in California.\n\nA shortlist of top pest control companies to consider across these three states includes:\n\n---\n\n### 1. The Regional Heavyweights (Best Local Ecosystem Expertise)\n\n*   **Truly Nolen Pest Control**\n    *   **Footprint:** Very strong in **Arizona** (headquartered in Tucson) and widespread in **California**.\n    *   **Best for:** Desert pests, scorpions, rodent exclusion, and subterranean/drywood termites.\n    *   **Why consider them:** Because they originated in the Southwest, their technicians understand regional threats—especially bark scorpions and desert termites—better than many standard national chains. Their four-season treatment protocol is specifically calibrated to Southwest temperature swings.\n*   **Western Exterminator (Rentokil)**\n    *   **Footprint:** One of the most recognized pest brands across **California**, with strong coverage in **Arizona** and parts of the Pacific Northwest.\n    *   **Best for:** Comprehensive residential coverage, bed bugs, and general termite control.\n    *   **Why consider them:** Operating in the West since 1921, Western is deeply familiar with California’s strict environmental pesticide regulations (DPR) and local pest pressures (like Argentine ants and roof rats). \n*   **Clark Pest Control**\n    *   **Footprint:** Massive across **California** (and extending into northern Nevada).\n    *   **Best for:** Year-round yard care integration, termites, and weed/tree pest management.\n    *   **Why consider them:** Clark is one of the largest regional pest management services in California. If you are in the Central Valley, Bay Area, or Sacramento, they often have faster response times and more flexible bundle options (like combining lawn fertilization/weed management with pest control) than national providers.\n*   **Eden Advanced Pest Technologies (part of Senske)**\n    *   **Footprint:** Primarily **Washington** and the broader Pacific Northwest.\n    *   **Best for:** Moisture-driven pests (carpenter ants, spiders, silverfish) and rat/mouse exclusion.\n    *   **Why consider them:** Western Washington has unique pest challenges driven by constant moisture and heavy timber. Eden specializes in Integrated Pest Management (IPM) tailored to the PNW, prioritizing low-toxicity treatments and structural exclusion over heavy spraying.\n\n---\n\n### 2. The Reliable National Chains (Best Multi-Property & Availability)\n\n*   **Orkin**\n    *   **Footprint:** Dense coverage across **California, Washington, and Arizona**.\n    *   **Best for:** Science-backed treatments, emergency infestations, and high-guarantee service contracts.\n    *   **Why consider them:** Orkin invests heavily in entomologist training for its field technicians. If you run into difficult-to-diagnose wood-destroying organisms or persistent infestations, Orkin’s 30-day money-back guarantee and off-schedule return policy make them a low-risk, dependable choice in all three states.\n*   **Terminix**\n    *   **Footprint:** Comprehensive network across CA, WA, and AZ.\n    *   **Best for:** Termite bonds and comprehensive whole-home damage guarantees.\n    *   **Why consider them:** If your primary concern is termites—whether drywood termites in coastal California or subterranean termites in Arizona—Terminix offers some of the most comprehensive termite repair and re-treatment guarantees in the industry.\n\n---\n\n### Key Questions to Ask Before You Sign\n\n1.  **State-Specific Licensing:** In California, ensure technicians hold an applicator license through the **Structural Pest Control Board (SPCB)**. In Arizona, verify licensing through the **Arizona Department of Agriculture (Pest Management Division)**. In Washington, check with the **WSDA**.\n2.  **Target Species Pricing:** If you live in Arizona, ask explicitly whether **scorpions** are included in the standard quarterly package (many companies charge extra or require a specific micro-encapsulated spray).\n3.  **Free Re-services:** Ensure your contract guarantees free touch-up visits between regular scheduled treatments if pests reappear.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Truly Nolen",
+  "top3_brands": [
+    "Truly Nolen",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:52:37+00:00",
+  "has_unknown": true
+}

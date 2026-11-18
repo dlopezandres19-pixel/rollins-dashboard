@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "When looking for residential pest control in the Western U.S., homeowners typically choose between large multi-state providers that cover the entire region and established regional specialists that cater to local microclimates and pest pressures (such as bark scorpions in Arizona or carpenter ants and roof rats in Washington).\n\nThe leading residential pest control companies across California, Washington, and Arizona include:\n\n---\n\n### 1. Multi-State Leaders (Covering CA, WA, and AZ)\n\n* **Orkin**\n  * **Best For:** Comprehensive pest issues, emergency response, and termite treatments.\n  * **Why They Lead:** Orkin has branches across all three states with highly trained, certified technicians. They offer a 30-day money-back guarantee, free re-treatments between scheduled visits, and extensive digital reporting.\n* **Terminix**\n  * **Best For:** Termite inspections/prevention, bed bugs, and general pest management bundles.\n  * **Why They Lead:** As one of the largest pest providers in the country, Terminix has broad coverage across the West. They are particularly well-regarded for their specialized termite warranties (Nix Pest Guarantee).\n* **Western Exterminator (Part of Rentokil)**\n  * **Best For:** Established West Coast reputation and integrated pest management (IPM).\n  * **Why They Lead:** Known for its iconic \"Little Man\" mascot, Western Exterminator has served the Western U.S. for a century. They have a massive footprint in **California** and **Arizona**, offering tailored residential year-round protection plans (PestFree365+).\n* **Aptive Environmental**\n  * **Best For:** Modern suburban quarterly perimeter treatments and eco-conscious products.\n  * **Why They Lead:** Operating heavily in suburban corridors across WA, CA, and AZ, Aptive focuses on outdoor barrier treatments using pyrethrin-based, pet- and child-conscious solutions, with free touch-ups between seasons.\n\n---\n\n### 2. State-Specific & Regional Powerhouses\n\nLocal pests vary dramatically across these three states. Local leaders frequently provide specialized expertise:\n\n#### **California**\n* **Clark Pest Control:** One of the most widely used residential services in Northern and Central California (now extending south). They are particularly skilled with California’s endemic subterranean/drywood termites, Argentine ants, and rodent exclusion.\n* **Lloyd Pest Control:** A major presence in Southern California (San Diego, Orange County, Los Angeles) specializing in drywood termite fumigation and heat treatments.\n\n#### **Washington**\n* **Cascade Pest Control:** Highly rated in the Puget Sound/Greater Seattle region. They emphasize eco-friendly, IPM-focused management designed for the Pacific Northwest's specific issues: heavy dampwood/carpenter ant activity, spiders, and roof rats.\n* **Senske Services:** A prominent PNW provider covering parts of Washington, offering pest control bundled with residential lawn and tree care.\n\n#### **Arizona**\n* **Burns Pest Elimination:** A household name in the Phoenix and Tucson metros. They specialize heavily in desert pests—particularly Arizona bark scorpions, black widows, roof rats, and pigeon abatement.\n* **Blue Sky Pest Control:** Consistently ranked among the top customer-service providers in the Greater Phoenix area, known for targeted scorpion sealing, thorough exterior dusting, and subterranean termite barriers.\n\n---\n\n### What to Consider Before Hiring\n\n1. **Target Pest Expertise:** \n   * In **Arizona**, ask specifically about their scorpion protocol (e.g., microencapsulated products) and subterranean termite treatments.\n   * In **Washington**, ensure they have experience with carpenter ants, wood-boring beetles, and rodent exclusion around crawlspaces.\n   * In **California**, ask about drywood termite inspections and structural warranties.\n2. **Re-treatment Policy:** Look for companies offering free re-treatments between scheduled visits if pests return.\n3. **Contract Transparency:** Many residential companies quote lower entry rates tied to a 12-month service agreement. Verify cancellation terms and seasonal scheduling flexibility before signing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:46:38+00:00",
+  "has_unknown": true
+}

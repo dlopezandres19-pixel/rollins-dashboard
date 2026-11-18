@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When choosing a reputable pest control company in the Western U.S., you generally have two solid routes: **major multi-state providers** with consistent training and guarantees, and **top-rated regional/local specialists** who have deep, specific knowledge of local pests (like scorpions in Arizona or moisture-driven pests in Washington).\n\nHere is a breakdown of the most reputable residential pest control providers across California, Washington, and Arizona.\n\n---\n\n### 1. Best Multi-State / National Providers (CA, WA, & AZ)\n\nThese companies operate extensively across all three states, maintain 24/7 customer support, and offer standard service guarantees (free re-treatments between visits):\n\n*   **Orkin:** Widely considered the gold standard for staff training. Their technicians go through extensive pest biology training, making them very reliable for difficult infestations like termites, bed bugs, and stubborn rodent issues. They are **QualityPro certified** (the pest industry’s benchmark for safety and background checks).\n*   **Western Exterminator (Rentokil):** Highly recognizable throughout the West (especially California and Arizona). While owned by Rentokil, they operate with regional expertise and handle everything from general quarterly perimeter sprays to structural pest control and bird management.\n*   **Terminix:** Offers massive coverage across all three states. They are particularly known for their comprehensive termite inspection, baiting, and repair guarantees, which is valuable in California and Arizona.\n\n---\n\n### 2. Top Regional Standouts by State\n\nPest issues in the West vary drastically by climate. Often, regional companies offer faster dispatch, better localized knowledge, and fewer contract lock-ins.\n\n#### **California**\nCalifornia homes often face drywood termites, Argentine ants, and roof rats.\n*   **Clark Pest Control:** One of the most trusted names in California, with extensive coverage across the Bay Area, Central Valley, and Northern California. Known for thorough residential service, lawn care options, and eco-friendlier integrated pest management (IPM).\n*   **Lloyd Pest Control:** A Southern California staple (San Diego, Orange County, Los Angeles, and the Inland Empire). They have been operating for over 90 years and have a stellar reputation for drywood termite fumigation and heat treatments.\n\n#### **Washington**\nThe Pacific Northwest deals heavily with moisture-loving pests: carpenter ants, moisture ants, spiders, and Norway/roof rats.\n*   **Eastside Exterminators:** A premier family-operated company in the Puget Sound / Greater Seattle area. They are especially famous for their 4-step rodent management process (inspection, exclusion, trapping, and sanitation/insulation repair).\n*   **Cascade Pest Control:** Long-standing reputation in Western Washington for eco-conscious pest and rodent management, prioritizing non-toxic exclusion techniques and targeted applications that protect local waterways and non-target wildlife.\n\n#### **Arizona**\nDesert environments require specialists who know how to seal against and eliminate bark scorpions, subterranean termites, roof rats, and venomous spiders.\n*   **Truly Nolen:** Headquartered in Tucson, Truly Nolen is deeply rooted in Arizona. Their \"Four Seasons\" approach and specialized scorpion/desert pest protocols make them one of the most reliable options in the state.\n*   **Burns Pest Elimination:** Serving both the Phoenix and Tucson metro areas, Burns is widely praised for customer service and specialized desert treatments—particularly scorpion exclusion and thermal remediation.\n*   **Blue Sky Pest Control:** A top-rated Phoenix-area company known for strict technician background checks, customized home barrier treatments, and clear communication with no high-pressure sales tactics.\n\n---\n\n### Tips for Making a Decision\n\n1. **Ask About Re-treatment Policies:** The West’s warm seasons (or prolonged rain in WA) can wash away barriers or cause pests to surge. Ensure the company includes free touch-up visits between regular quarterly services.\n2. **Beware of Long Contracts:** Avoid companies that pressure you into multi-year contracts on the spot without an inspection. Most reputable services offer cancel-anytime plans or standard one-year agreements.\n3. **Verify Licenses:** \n   * **CA:** Confirm licensing through the *Structural Pest Control Board (SPCB)*.\n   * **WA:** Check the *Washington State Department of Agriculture (WSDA)*.\n   * **AZ:** Verify through the *Arizona Department of Agriculture’s Pest Management Division (PMD)*.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:45:11+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "In Illinois, Ohio, and Michigan, homeowners have access to both prominent regional providers—often favored for local expertise and customer service—and major national brands with extensive resources. \n\nThe leading residential pest control companies across these three states include:\n\n---\n\n### **1. Top Regional Powerhouses (Best Local Reputation)**\n\n* **Rose Pest Solutions** *(IL, OH, MI)*\n  * **Overview:** Rose is the nation’s oldest pest control company (dating back to 1860) and holds a massive, highly trusted presence across the Great Lakes region. \n  * **Best For:** General household pests, bed bugs, and long-term preventive quarterly plans.\n  * **Why They Stand Out:** Their technicians undergo rigorous training, and they have dedicated local offices across the Chicago area, Greater Detroit, Cleveland, and Columbus. They are known for responsive local customer support compared to massive corporate call centers.\n\n* **Varment Guard / Plunkett’s Pest Control** *(OH, MI, IL)*\n  * **Overview:** Varment Guard started in Columbus, Ohio, and is now partnered with Upper Midwest giant Plunkett’s. Together, they cover extensive territory across Ohio, Michigan, and northern Illinois.\n  * **Best For:** General pest control combined with wildlife and rodent management.\n  * **Why They Stand Out:** In the Midwest, wildlife intrusions (raccoons, bats, squirrels) are just as common as insect issues; Varment Guard specializes heavily in humane wildlife exclusion alongside standard insect treatments.\n\n* **Anderson Pest Solutions** *(Primarily IL)*\n  * **Overview:** A staple in Illinois (especially the Chicagoland area, Rockford, and Peoria) as well as Northwest Indiana.\n  * **Best For:** Year-round residential pest protection (their \"Natural Choice Home Protection\" program).\n  * **Why They Stand Out:** They are recognized by the EPA’s Pesticide Environmental Stewardship Program (PESP) and focus heavily on Integrated Pest Management (IPM), targeting the source of the infestation rather than just spraying chemicals.\n\n---\n\n### **2. Leading National Brands (Widest Availability & Specialized Treatments)**\n\n* **Orkin**\n  * **Coverage:** Ubiquitous across Illinois, Ohio, and Michigan.\n  * **Best For:** Fast response, complex infestations, and aggressive treatment guarantees.\n  * **Why They Stand Out:** Orkin has some of the most rigorous technician training programs in the industry. If you have an aggressive termite infestation, carpenter ants, or severe bed bugs, their 30-day money-back guarantee and free re-service policy make them a reliable, low-risk choice.\n\n* **Terminix**\n  * **Coverage:** Extensive network of branches across urban, suburban, and rural areas in all three states.\n  * **Best For:** Termite monitoring/prevention and bundled home plans.\n  * **Why They Stand Out:** While they handle all common household insects and rodents, their proprietary termite baiting and monitoring systems remain industry benchmarks for wood-destroying insect control.\n\n* **Aptive Environmental**\n  * **Coverage:** Very active in suburban neighborhoods across Chicago, Detroit, Grand Rapids, Columbus, and Cincinnati.\n  * **Best For:** Routine seasonal exterior perimeter defense.\n  * **Why They Stand Out:** Aptive focuses primarily on outdoor perimeter barriers to keep insects like spiders, ants, wasps, and crickets from entering the home. They utilize treatments derived from natural pyrethrins found in chrysanthemums, which appeals to households looking for less harsh chemical footprints.\n\n---\n\n### **3. Best for Wildlife & Attic Intruders**\n\n* **Critter Control** *(IL, OH, MI)*\n  * **Overview:** The premier national brand for non-insect pests.\n  * **Best For:** Bats, squirrels, raccoons, skunks, and heavy attic rodent infestations.\n  * **Why They Stand Out:** Midwest winters drive warm-blooded critters into attics and crawlspaces. Traditional exterminators often only place traps, whereas Critter Control focuses on humane trapping, attic remediation/sanitation, and permanent physical entry-point repairs (exclusion).\n\n---\n\n### **Midwest-Specific Buying Tips**\n* **Target Seasonal Shifts:** The Midwest has distinct pest cycles—carpenter ants and wasps in late spring/summer, brown marmorated stink bugs and boxelder bugs in early autumn, and mice seeking warmth in November/December. Choose a company offering a **quarterly maintenance plan** that adjusts treatments to these seasonal behaviors.\n* **Look for \"Re-Service Guarantees\":** Reputable companies in this region should provide free mid-cycle visits if target pests return between your scheduled seasonal treatments.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:36:00+00:00",
+  "has_unknown": true
+}

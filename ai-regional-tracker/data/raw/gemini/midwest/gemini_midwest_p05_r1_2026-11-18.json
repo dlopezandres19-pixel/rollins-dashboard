@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "For homeowners in the Midwest (Illinois, Ohio, and Michigan), the best choice depends on whether you prefer a deeply rooted regional provider or a large national brand with standardized guarantees. \n\nHere are the top pest control companies to consider in this region, categorized by their strengths:\n\n---\n\n### 1. Best Overall Regional Choice: **Rose Pest Solutions**\n* **Service Area:** Strong, widespread coverage across Illinois, Michigan, Ohio, Indiana, and Kentucky.\n* **Why Choose Them:** Founded in the Midwest in 1860, Rose is one of the oldest pest management companies in the country. Because their operations are focused on the Great Lakes region, their technicians are intimately familiar with Midwest-specific pest cycles (such as seasonal rodent surges when temperatures drop, carpenter ant activity, and fall invaders like boxelder bugs and stink bugs).\n* **Best For:** Homeowners who prefer a regional company with decades of local experience over a nationwide corporate chain.\n\n---\n\n### 2. Best for Standardized Training & Reliability: **Orkin**\n* **Service Area:** Virtually every metro area and many rural communities across IL, OH, and MI.\n* **Why Choose Them:** Orkin invests heavily in technician training through formal simulation programs, making them one of the most consistent choices for identifying and treating complex infestations. They offer a clear **30-day money-back guarantee** and free touch-up visits between scheduled quarterly treatments.\n* **Best For:** Routine quarterly defense, responsive customer service, and reliable guarantees if you want minimal hassle.\n\n---\n\n### 3. Best for Termites & Bundled Services: **Terminix**\n* **Service Area:** Universal availability across IL, OH, and MI.\n* **Why Choose Them:** If your primary concern is wood-destroying insects (subterranean termites are common across southern and central Illinois, Ohio, and parts of lower Michigan), Terminix offers proprietary baiting systems, ongoing monitoring, and repair-guarantee plans. They also frequently bundle pest, rodent, and mosquito services at competitive pricing.\n* **Best For:** Suspected termite activity or homeowners looking to bundle insect control with crawl space or attic insulation work.\n\n---\n\n### 4. Best for Wildlife & Nuisance Animals: **Varment Guard** *(A Plunkett's Company)*\n* **Service Area:** Extensive presence throughout Ohio, Michigan, and northern/central Illinois.\n* **Why Choose Them:** In the Midwest, attics and chimneys frequently deal with raccoons, bats, squirrels, and skunks in addition to insects. While many standard exterminators only spray for bugs, Varment Guard specializes in humane trapping, damage repair, and long-term exclusion barriers (closing off entry points).\n* **Best For:** Homes dealing with sounds in the attic or exterior wildlife damage.\n\n---\n\n### 5. Best Eco-Conscious Quarterly Option: **Greenix Pest Control**\n* **Service Area:** Major suburbs and metros across Ohio, Michigan, and Illinois.\n* **Why Choose Them:** Greenix focuses on multi-step perimeter defense using naturally derived active ingredients (such as pyrethrin and essential oil blends) that are safer around children and pets while still targeting common Midwest seasonal pests.\n* **Best For:** Families seeking proactive perimeter protection with lower chemical impact.\n\n---\n\n### How to Decide for Your Home:\n\n1. **Ask What’s Excluded:** Most standard quarterly plans (e.g., $40–$65/month) cover ants, spiders, mice, and wasps. However, **bed bugs, subterranean termites, and wildlife exclusion** almost always require separate, dedicated contracts.\n2. **Prioritize Re-service Guarantees:** Ensure the contract explicitly states that if pests return between your scheduled seasonal treatments, a technician will re-treat your home **free of charge**.\n3. **Inspect First:** Avoid committing to long-term contracts over the phone without an initial inspection, especially if you suspect carpenter ants or rodents inside the walls. Top providers will inspect your foundation, crawl space, and attic to confirm the root cause before prescribing a treatment plan.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:36:42+00:00",
+  "has_unknown": true
+}

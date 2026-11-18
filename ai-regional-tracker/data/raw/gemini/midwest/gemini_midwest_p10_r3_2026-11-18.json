@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Midwest US (Illinois, Ohio, Michigan) should consider.",
+  "rep": 3,
+  "response_text": "For homeowners in Illinois, Ohio, and Michigan, the best pest control choice often comes down to choosing between a well-established regional provider that specializes in Midwestern pests (like boxelder bugs, carpenter ants, and winter rodent intrusions) or a major national brand with broad coverage and 24/7 support.\n\nHere is a shortlist of the top companies to consider:\n\n---\n\n### 1. Top Regional Providers (Best Local Midwest Expertise)\n\n*   **Rose Pest Solutions**\n    *   **Coverage:** Extensive branches across Illinois, Michigan, and Ohio (as well as Indiana and Wisconsin).\n    *   **Why Consider Them:** Founded in 1860, Rose is one of the oldest and most respected pest control operators in the country. Because their entire business model is rooted in the Great Lakes and Midwest, their technicians are deeply experienced with region-specific seasonal pests—such as overwintering stink bugs, boxelder bugs, cluster flies, and subterranean termites. \n    *   **Best For:** Homeowners looking for a proven, multi-generational regional brand with strong customer service and environmentally responsible options.\n\n*   **Varment Guard (A Plunkett’s Pest Control Company)**\n    *   **Coverage:** Heavy presence in Ohio (Columbus, Cleveland, Cincinnati) and parts of neighboring states; backed by Plunkett’s footprint across the Upper Midwest.\n    *   **Why Consider Them:** If your issue extends beyond insects into nuisance wildlife (raccoons in the attic, bats, squirrels, or skunks under the porch), Varment Guard is one of the premier combined pest and wildlife management companies in the region.\n    *   **Best For:** Homeowners facing both insect infestations and wildlife/rodent exclusion needs.\n\n*   **Anderson Pest Solutions**\n    *   **Coverage:** Primarily northern/central Illinois (greater Chicagoland, Rockford, Peoria) and southern Wisconsin.\n    *   **Why Consider Them:** A longtime staple in northern Illinois, Anderson specializes in residential \"Natural Choice\" programs and preventative perimeter defense designed to hold up against harsh Midwest temperature swings.\n    *   **Best For:** Illinois homeowners seeking an established, local-first service with recurring quarterly maintenance.\n\n---\n\n### 2. Top National Providers (Best for Widespread Availability & Guarantees)\n\n*   **Orkin**\n    *   **Coverage:** Ubiquitous across virtually every metro and mid-size market in IL, OH, and MI.\n    *   **Why Consider Them:** Orkin invests heavily in technical training (including entomologist-designed programs) and offers a reliable 30-day money-back guarantee. If you have an active, high-stakes infestation (like bed bugs, German cockroaches, or aggressive rodent activity), their rapid dispatch and structured treatment protocols are tough to beat.\n    *   **Best For:** Fast response times, reliable re-treatment warranties, and severe or complex infestations.\n\n*   **Terminix**\n    *   **Coverage:** Comprehensive footprint across suburban and rural Illinois, Ohio, and Michigan.\n    *   **Why Consider Them:** Terminix is the industry benchmark for termite monitoring and baiting systems (especially relevant in southern/central IL and OH where subterranean termites are prevalent). They offer robust whole-home protection plans combining general pest, termite, and mosquito coverage under one account.\n    *   **Best For:** Homeowners primarily concerned with preventative termite protection or bundled seasonal plans.\n\n---\n\n### What to Ask Before Hiring in the Midwest\n\n1.  **Is winter pest exclusion included?** In the Midwest, mice and rats seek indoor shelter between October and December. Ask if their standard inspection includes sealing small entry points (exclusion work) rather than just setting bait traps.\n2.  **Are re-services free between scheduled visits?** Reputable quarterly service plans should guarantee that if carpenter ants, wasps, or spiders reappear between seasons, a technician will return at no extra charge.\n3.  **Are they QualityPro Certified?** Look for companies certified by the National Pest Management Association (NPMA) as QualityPro, which requires higher standards for employee background checks, safety, and training.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:42:26+00:00",
+  "has_unknown": true
+}

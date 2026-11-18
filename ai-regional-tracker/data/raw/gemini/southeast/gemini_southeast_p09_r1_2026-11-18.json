@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In Florida, Georgia, and Texas, pest control is practically a year-round necessity due to the warm, humid climate. Homeowners in these states deal heavily with subterranean termites (including destructive Formosan termites), large American cockroaches (\"palmetto bugs\"), German cockroaches, fire ants, mosquitoes, and rodents.\n\nWhen choosing a residential pest control service in this region, the main options generally fall into four categories:\n\n---\n\n### 1. Large Regional Powerhouses (Southeast Specialists)\nBecause pest pressures in the Southeast are distinct, several regional companies rival—and often outperform—national brands in local expertise.\n\n* **Massey Services (FL, GA, TX):** Headquartered in Orlando, Florida, Massey is one of the largest and most well-regarded providers across the Southeast. They are particularly popular because they offer bundled packages covering indoor/outdoor pest control, termite defense, mosquito reduction, and **lawn/irrigation care** (a major plus in Florida and Texas).\n* **Arrow Exterminators (GA, FL, TX):** Headquartered in Atlanta, Georgia, Arrow is a massive, family-owned regional operator known for high customer service ratings. They offer their signature \"STEPS Total Protection System\" and have strong termite defense programs (often utilizing Sentricon baiting systems).\n* **ABC Home & Commercial Services (Texas):** If you are in Texas (especially Austin, Dallas-Fort Worth, Houston, or San Antonio), ABC is a legacy, family-owned powerhouse. Similar to Massey, they handle general pests, termites, wildlife removal, and full lawn/pool/HVAC services.\n* **HomeTeam Pest Defense (TX, FL, GA):** If your home was built in the last 15–20 years, check the exterior for a small locked utility box. HomeTeam installs the **Taexx® \"tubes-in-the-wall\"** system during new construction across Texas and Florida. If your home has this system, HomeTeam can service your home without even entering inside.\n\n---\n\n### 2. Major National Brands\nNational companies have the largest fleets, standard standardized training programs, and the resources to handle severe infestations.\n\n* **Orkin:** Headquartered in Atlanta, Orkin has an enormous footprint across the Southeast. They are known for rigorous technician training and an Integrated Pest Management (IPM) approach. They offer strong 30-day money-back guarantees and targeted plans for roaches, termites, and bed bugs.\n* **Terminix:** With a massive presence across Texas, Florida, and Georgia, Terminix is historically known for termite monitoring and liquid treatments (Termidor), though they offer full-service pest and wildlife control.\n* **Truly Nolen:** Known for their yellow mouse-eared cars, Truly Nolen has a strong footprint in Florida and Texas. They use a \"Four Seasons\" approach that rotates treatments based on seasonal pest behaviors.\n\n---\n\n### 3. Local Independent & Eco-Friendly Providers\nNearly every metro area in FL, GA, and TX has dozens of local, family-run pest operators.\n* **Why choose local?** Independent operators often offer more flexible scheduling, don’t lock you into rigid annual auto-renewing contracts, and may have lower cancellation fees.\n* **Green/Eco-Friendly Options:** If you have small children, outdoor pets, or sensitive gardens, many local companies specialize in Integrated Pest Management (IPM) utilizing botanical oils (thyme, rosemary, peppermint), borate-based treatments, and exclusion tactics rather than standard synthetic pyrethroid perimeter sprays.\n\n---\n\n### 4. DIY & Smart Subscription Services\nFor homeowners with mild pest pressure who prefer not to pay $40–$75/month for a service technician:\n* **DIY Pro-Grade Supplies:** Retail sites like *DoMyOwn* (headquartered in Georgia) sell the exact professional-grade chemicals used by commercial exterminators (such as Suspend SC, Talstar P, Bifen L/P granules, and Termidor SC). \n* **Custom Box Subscriptions (e.g., Pestie):** A middle ground where you enter your location, and they ship pre-measured professional-grade concentrate and a sprayer every quarter for a fraction of the cost of a full-service provider. *(Note: DIY is not recommended for active termite infestations).*\n\n---\n\n### Key Things to Check Before Signing in the Southeast\n\n1. **Termite Bonds / Warranties:** In FL, GA, and TX, standard pest control rarely covers termites. Ask about a standalone **termite bond**. Pay close attention to whether it is a **\"Retreatment Only\"** warranty (they will re-spray if termites return) or a **\"Repair & Retreatment\"** warranty (they pay to repair structural damage",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:20:10+00:00",
+  "has_unknown": true
+}

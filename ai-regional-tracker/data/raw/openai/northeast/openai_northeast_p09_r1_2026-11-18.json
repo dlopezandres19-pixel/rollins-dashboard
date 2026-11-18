@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "In the Northeast US, including New York, New Jersey, and Pennsylvania, there are several options for residential pest control. Here are some of the main ones:\n\n1. **Professional Pest Control Services**:\n   - **Terminix**: Offers comprehensive pest control services, including protection against termites, bed bugs, rodents, and more.\n   - **Orkin**: Provides customized pest control plans and environmentally responsible treatments.\n   - **Ehrlich Pest Control**: Specializes in pest prevention and offers targeted treatments for various pests.\n   - **TruGreen**: Known for lawn care, TruGreen also offers pest control services focusing on outdoor pests and mosquitoes.\n\n2. **Local Pest Control Companies**:\n   - Many local companies offer personalized service with knowledge of local pest issues. Look for certified and well-reviewed providers in your area.\n\n3. **DIY Pest Control**:\n   - **Home Improvement Stores**: Stores like Home Depot or Lowe’s offer a variety of pest control products, such as sprays, traps, and baits.\n   - **Natural Remedies**: Essential oils, diatomaceous earth, and vinegar solutions can be effective for minor infestations.\n\n4. **Integrated Pest Management (IPM)**:\n   - IPM focuses on long-term prevention through a combination of techniques like habitat manipulation and biological control. Some professional services offer IPM strategies.\n\n5. **Online Subscription Services**:\n   - Companies like **Plunkett’s Pest Control** offer subscription boxes with DIY pest control products and guidance.\n\nWhen choosing a pest control option, consider factors like the type of pest, severity of the infestation, budget, and personal preferences regarding chemical use. Always ensure that any professional service you choose is licensed and insured.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:05:49+00:00",
+  "has_unknown": true
+}

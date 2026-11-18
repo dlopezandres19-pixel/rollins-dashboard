@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When seeking top pest control services in the Midwest, particularly in Illinois, Ohio, and Michigan, several reputable companies stand out:\n\n**1. Orkin**\n\nOrkin is a nationally recognized pest control provider with a strong presence in the Midwest. They offer comprehensive services, including termite and pest control, with a money-back guarantee. Orkin has multiple locations across Michigan, ensuring accessibility for residents. ([pestcontrolreviews.com](https://www.pestcontrolreviews.com/pest-control/Michigan.html?utm_source=openai))\n\n**2. Terminix**\n\nTerminix is another leading pest control company operating extensively in the Midwest. They provide specialized services for pests and termites, backed by an industry-leading Termite Bond & Guarantee. Terminix has several locations in Michigan, offering 24/7 support for all pest issues. ([pestcontrolreviews.com](https://www.pestcontrolreviews.com/pest-control/Michigan.html?utm_source=openai))\n\n**3. Rose Pest Solutions**\n\nEstablished in 1860, Rose Pest Solutions is the nation's oldest pest control company, serving parts of Michigan, Ohio, and Illinois. They offer residential, industrial, and commercial pest management services, emphasizing Integrated Pest Management (IPM) practices. Rose Pest Solutions provides ongoing pest protection programs and stand-alone services. ([thisoldhouse.com](https://www.thisoldhouse.com/pest-control/rose-pest-solutions-review?utm_source=openai))\n\n**4. Greenix Pest Control**\n\nGreenix Pest Control operates in Illinois and offers a responsible pest control process focused on keeping homes pest-free. They have been recognized as a Best Pick® company, indicating high customer satisfaction and adherence to licensing requirements. ([bestpickreports.com](https://www.bestpickreports.com/pest-and-termite-control/illinois?utm_source=openai))\n\n**5. Pointe Pest Control**\n\nPointe Pest Control is committed to providing safe and environmentally conscious options to tackle pest problems. They offer effective methods against various pests and guarantee that pest problems remain solved. Pointe Pest Control has been recognized as a Best Pick® company in Illinois. ([bestpickreports.com](https://www.bestpickreports.com/pest-and-termite-control/illinois?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's reputation, range of services, customer reviews, and any guarantees offered. It's advisable to contact these companies directly to discuss your specific needs and obtain quotes. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:06:33+00:00",
+  "has_unknown": true
+}

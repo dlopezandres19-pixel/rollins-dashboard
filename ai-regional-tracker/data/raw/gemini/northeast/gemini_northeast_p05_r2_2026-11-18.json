@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "In the Northeast—specifically New York, New Jersey, and Pennsylvania—pest pressures are fairly distinct: older housing stock prone to mice and rats in the winter, high rates of tick activity (and Lyme disease) in the spring/summer, subterranean termites, and regional headaches like the spotted lanternfly.\n\nBecause of this, you generally have a choice between **established regional specialists** with deep local roots and **large national chains**. Here are the top companies to consider based on your specific needs:\n\n---\n\n### 1. Top Regional Providers (Often the Best Local Fit)\n\n* **Viking Pest Control (Best Modern/Eco-Friendly Option)**\n  * **Coverage:** Heavy coverage across NJ, PA, NY, and DE.\n  * **Why choose them:** Part of the Anticimex group, Viking offers modern \"SMART\" pest control—digital, non-toxic monitoring systems that detect and trap mice/rats in real time before an infestation takes hold. They also offer targeted seasonal treatments for spotted lanternflies, ticks, and mosquitoes.\n  * **Best for:** Suburban homes, rodent prevention, and tech-forward, eco-conscious treatments.\n\n* **Western Pest Services (Best Overall Regional Reputation)**\n  * **Coverage:** Widely trusted across NY, NJ, PA, and CT since the 1920s.\n  * **Why choose them:** Western is known for high customer satisfaction, experienced technicians with low turnover, and a strong knowledge of Northeast building styles (from older brownstones to suburban basements). Their home protection plans offer recurring year-round coverage.\n  * **Best for:** Reliable quarterly maintenance and routine pest prevention.\n\n* **Ehrlich Pest Control (Best Pennsylvania Roots & Broad Reach)**\n  * **Coverage:** Founded in Reading, PA; massive footprint throughout PA, NJ, and upstate NY (operating under the Rentokil network).\n  * **Why choose them:** Ehrlich’s *PestFree365+* plan is one of the most comprehensive recurring packages available, covering over 35 common household pests (including bed bugs and stinging insects, which many competitors exclude). \n  * **Best for:** Comprehensive year-round coverage that includes hard-to-treat pests.\n\n---\n\n### 2. Top National Providers (Best for Termites & Emergencies)\n\n* **Orkin (Best for Immediate or Difficult Infestations)**\n  * **Why choose them:** Orkin technicians undergo rigorous, entomologist-designed training. If you have an aggressive active issue—such as bed bugs, German cockroaches, or an established rodent infestation—Orkin’s targeted treatment protocols are among the most reliable.\n  * **Drawback:** Pricing tends to be slightly higher than local competitors.\n\n* **Terminix (Best for Subterranean Termites)**\n  * **Why choose them:** While they handle general pests, Terminix is industry-leading when it comes to termite monitoring, baiting (Sentricon), and subterranean barrier treatments. They offer strong damage guarantees if termites return under warranty.\n  * **Drawback:** Customer service can vary significantly depending on the local branch managing your account.\n\n---\n\n### How to Decide for Your Home\n\n1. **If you have a sudden, urgent infestation (bed bugs, major rodent takeover):**\n   * Call **Orkin** or **Western Pest Services** for fast diagnostics and aggressive treatment.\n2. **If you want ongoing, hands-off preventive maintenance:**\n   * Get quotes from **Viking Pest Control** (especially if rodent monitoring is a priority) and **Ehrlich** (for their comprehensive pest-list coverage).\n3. **If you suspect structural wood damage:**\n   * Call **Terminix** or **Ehrlich** for dedicated termite/carpenter ant inspections.\n\n### Buyer Checklist Before Signing:\n* **Ask about the re-treatment guarantee:** Reputable providers should offer free call-backs between scheduled visits if pests return.\n* **Confirm the covered pest list:** Standard plans often exclude bed bugs, ticks, carpenter ants, or wildlife (squirrels/raccoons). Make sure what you are concerned about is in the contract.\n* **Get at least two quotes:** Pricing for recurring plans in the Tri-State area generally ranges from **$45 to $75/month** (usually billed quarterly after an initial inspection fee). Checking two providers usually gives you leverage to waive initial setup fees.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Anticimex",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:26:47+00:00",
+  "has_unknown": true
+}

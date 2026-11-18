@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "Choosing the best pest control company in the Western U.S. largely depends on whether you prefer a large national brand with standardized guarantees or a regional specialist tailored to the distinct micro-climates of California, Washington, or Arizona. \n\nHere are the top recommendations across the West, along with the best state-specific choices:\n\n---\n\n### 1. Best Overall for the Western U.S.: **Western Exterminator**\n* **Best for:** Western climate expertise, general pests, termites, and wildlife.\n* **Why choose them:** Western Exterminator (identifiable by their mascot, \"Little Man\") is owned by Rentokil and was founded specifically to serve the Western states—including California, Washington, and Arizona. Because their training is tailored to Western ecologies, their technicians are well-versed in both Pacific Northwest damp-weather pests and Southwest desert species.\n\n---\n\n### 2. Best for Broad Availability & Complex Infestations: **Orkin** or **Terminix**\n* **Best for:** Severe infestations, wood-destroying insects (termites), and quick response times.\n* **Why choose them:** \n  * **Orkin:** Known for some of the most rigorous technician training programs in the industry. They offer a reliable 30-day money-back guarantee and complimentary return visits if pests reappear between scheduled services.\n  * **Terminix:** Often the better choice if your primary concern is **termites** (both drywood and subterranean, which are major issues in California and Arizona). They offer comprehensive termite inspection, tenting, and ongoing bait/monitoring systems.\n\n---\n\n### 3. Top State-Specific Picks\n\n#### **California**\n* **Clark Pest Control:** One of the largest and most respected regional pest management companies in California. They have deep local knowledge of Argentine ant blooms, drywood termites, and rodent control, and generally receive higher customer satisfaction marks than the massive nationwide chains.\n\n#### **Arizona**\n* **Burns Pest Elimination** or **Blue Sky Pest Control:** Desert pest control requires specific expertise. Arizona homes frequently battle **bark scorpions**, desert subterranean termites, and roof rats. Local Arizona companies like Burns or Blue Sky specialize in scorpion sealing (exclusion) and micro-encapsulated treatments designed to withstand extreme desert heat.\n\n#### **Washington**\n* **Cascade Pest Control** or **Senske Services:** In the Pacific Northwest, moisture-loving pests dominate. Local providers excel at treating **carpenter ants**, dampwood termites, silverfish, and aggressive winter rodent intrusions (roof rats and field mice), often using targeted perimeter treatments that won't easily wash away in heavy rain.\n\n---\n\n### What to Consider Before Signing Up\n\n1. **Watch the Contract Terms:** Door-to-door companies (like Aptive Environmental, which is very active across CA, WA, and AZ) offer solid general pest services, but they typically require a **1- to 2-year contract** with high early-cancellation fees. If you only need a seasonal or one-time treatment, clarify cancellation policies upfront.\n2. **Targeted Pests vs. General Spray:** A standard quarterly maintenance plan usually covers basic ants, spiders, and roaches, but typically excludes bed bugs, termites, scorpions, and wildlife/rodent exclusion. Make sure the quote covers your specific problem.\n3. **Free Re-service Guarantees:** Ensure the company offers a guarantee that includes free follow-up visits between scheduled quarterly services if the pests return. \n\n**Recommendation:** For a broad Western home, get a free inspection quote from **Western Exterminator**, alongside a quote from a top local specialist (such as **Clark** in CA, **Burns** in AZ, or **Cascade** in WA) to compare pricing and treatment methods.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:46:57+00:00",
+  "has_unknown": true
+}

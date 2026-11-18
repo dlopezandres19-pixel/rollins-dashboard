@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several reputable pest control companies are well-known for their services. Here are some of the top options:\n\n1. **Terminix**: Known nationwide, Terminix offers comprehensive pest control services and has a strong presence in the Southeast. They provide solutions for termites, bed bugs, rodents, and more.\n\n2. **Orkin**: Another national leader in pest control, Orkin has a long-standing reputation for effective services. They offer customized plans for various pests, including termites, ants, and mosquitoes.\n\n3. **Truly Nolen**: With a strong presence in Florida and other parts of the Southeast, Truly Nolen is known for its eco-friendly pest control solutions and innovative techniques.\n\n4. **Massey Services**: Headquartered in Florida, Massey Services is highly regarded for their thorough pest prevention and control methods. They also offer lawn and landscape services.\n\n5. **Arrow Exterminators**: Based in Atlanta, Georgia, Arrow Exterminators offers a range of services, including pest, termite, and wildlife control. They are known for their family-friendly approach and excellent customer service.\n\n6. **Ehrlich Pest Control**: Part of the Rentokil family, Ehrlich provides customized pest management solutions and is known for its reliability and expertise.\n\nWhen choosing a pest control company, consider factors such as specific pest issues, service reviews, and whether they offer guarantees or warranties on their services. It's also a good idea to get quotes from multiple companies to compare pricing and service offerings.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Truly Nolen",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:01:13+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "When looking for residential pest control in New York, New Jersey, and Pennsylvania, you have a mix of prominent regional stalwarts that originated in the Mid-Atlantic/Northeast and well-established national brands with extensive local branch networks. \n\nHere are the leading residential pest control companies across the tri-state area:\n\n---\n\n### 1. Leading Regional Specialists (Built in the Northeast)\n\nThese companies have deep roots in the region, meaning their technicians are especially experienced with local seasonal threats (such as subterranean termites, carpenter ants, ticks, deer mice, and invasive spotted lanternflies).\n\n*   **Viking Pest Control**\n    *   **Coverage:** Extensive across New Jersey, Eastern Pennsylvania, New York, and Delaware.\n    *   **Best Known For:** Modern, integrated pest management (IPM) and smart pest solutions (such as Anticimex SMART digital rodent monitoring). They offer comprehensive year-round residential plans and eco-friendly treatment options.\n*   **Western Pest Services**\n    *   **Coverage:** NJ, NY (including NYC suburbs and Hudson Valley), PA, and Delaware.\n    *   **Best Known For:** Reliability and longevity (founded in NJ in 1928). Western is one of the most recognized names in the tri-state area, handling everything from common household pests and termites to wildlife removal and bed bug remediation.\n*   **Ehrlich Pest Control** *(Part of Rentokil)*\n    *   **Coverage:** Very heavy presence across Pennsylvania, New Jersey, and Upstate/Western New York.\n    *   **Best Known For:** Founded in Pennsylvania in 1928, Ehrlich is a household name in PA and surrounding states. They offer the \"PestFree365+\" plan, which protects against dozens of pests year-round, including bed bugs and stinging insects.\n*   **Cooper Pest Solutions**\n    *   **Coverage:** Primarily New Jersey and Eastern Pennsylvania.\n    *   **Best Known For:** Scientific, entomologist-driven treatment protocols. They are particularly well-regarded for aggressive bed bug control, stink bug/overwintering pest programs, and preventative seasonal home services.\n\n---\n\n### 2. Major National Brands (Widest Availability)\n\nFor homeowners who want standardized pricing, robust customer portals, and 24/7 call centers, the two largest national brands maintain dense branch coverage throughout NY, NJ, and PA:\n\n*   **Orkin**\n    *   **Best For:** Rigorous technician training and emergency response. Orkin technicians complete extensive entomology-backed training, and the company offers a 30-day money-back guarantee with free retreatments between scheduled visits.\n*   **Terminix**\n    *   **Best For:** Termite treatments and comprehensive pest bundles. Because termite damage can be a major issue in older homes across the Northeast, Terminix’s specialized baiting and liquid barrier warranties (such as the Nix Pest Guarantee) are widely utilized.\n\n---\n\n### 3. Highly Rated Metro & Eco-Friendly Specialists\n\nDepending on where you live within the three states, local niche providers may also be worth considering:\n\n*   **MMPC (New York Metro Area):** Frequently rated one of the best pest control providers in NYC, Long Island, and Westchester. They specialize in eco-friendly pest control, canine bed bug inspections, and dense urban/suburban pest issues.\n*   **Arrow Pest Control (New Jersey):** A reputable, multi-generational family-owned company covering central and northern New Jersey, known for high consumer review ratings and straightforward residential service tiers.\n*   **Fox Pest Control (Upstate NY & PA):** Operates heavily in areas like Buffalo, Rochester, Albany, and Eastern PA, offering quarterly home-protection packages.\n\n---\n\n### Tips for Choosing in the Northeast\n\n1. **Verify State Licensing:** Pest control technicians must be certified by the appropriate state authority:\n   * **New York:** Department of Environmental Conservation (DEC)\n   * **New Jersey:** Department of Environmental Protection (DEP)\n   * **Pennsylvania:** Department of Agriculture\n2. **Inquire About Specific Regional Pests:** If you live near wooded or suburban lots, confirm whether their standard plans cover **ticks, mosquitoes, and carpenter ants** (which thrive in damp Northeast wood), as these are often add-ons rather than part of basic plans.\n3. **Ask About the Re-Service Guarantee:** Weather in the Northeast can dilute exterior barriers (heavy spring rain, snow). Choose a company that offers **free callback visits** if pests return between regular quarterly treatments.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Anticimex",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:25:24+00:00",
+  "has_unknown": true
+}

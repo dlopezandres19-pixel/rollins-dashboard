@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Choosing the best pest control company for a home in the western U.S. largely depends on whether you need a routine preventative plan or specialized treatment for regional pests (like scorpions in Arizona, carpenter ants in Washington, or drywood termites in California). \n\nHere are the top recommendations broken down by category, regional strengths, and pest specializations:\n\n---\n\n### 1. Best Western Regional Powerhouses\nIf you prefer a company that specializes in Western climates and pest behaviors, these are top-tier:\n\n* **Western Exterminator** *(Best Overall for California & the West Coast)*\n  * **Coverage:** California, Arizona, Washington, and neighboring states (part of the Rentokil family).\n  * **Best For:** Comprehensive general pest control, rodents, and termites.\n  * **Why Choose Them:** They have operated in the West for over a century. Their technicians understand local pest pressures, such as roof rats in coastal neighborhoods and severe ant problems in suburban California and Washington.\n* **Clark Pest Control** *(Best for Central & Northern California)*\n  * **Coverage:** Widespread in Northern and Central California, plus parts of Southern California and Nevada.\n  * **Best For:** General maintenance, termites, and lawn pest care.\n  * **Why Choose Them:** Clark has an exceptionally strong local reputation in California for responsive customer service and thorough perimeter treatments.\n* **Truly Nolen** *(Best for Arizona & Desert Pests)*\n  * **Coverage:** Headquartered in Tucson, AZ, with broad coverage across Arizona, California, and select Western metro areas.\n  * **Best For:** **Bark scorpions**, desert termites, black widows, and crickets.\n  * **Why Choose Them:** Desert pests behave differently than pests in temperate climates. Truly Nolen specializes in scorpion barriers and desert sealing, which are critical in Phoenix, Tucson, and surrounding valley communities.\n\n---\n\n### 2. Best National Providers (Available in all 3 states)\nIf you want guaranteed coverage, 24/7 customer service, and strong nationwide warranties:\n\n* **Orkin** *(Best for Heavy Infestations & Specialized Pests)*\n  * **Why Choose Them:** Orkin invests heavily in technician training and entomology-backed protocols. They are especially effective if you already have an active, difficult infestation (such as bed bugs, complex rodent intrusions, or wood-destroying organisms).\n  * **Key Benefit:** Strong 30-day money-back guarantee and free touch-up visits between regular quarterly appointments.\n* **Terminix** *(Best for Termite Control & Warranties)*\n  * **Why Choose Them:** Western homes—especially in California and Arizona—face severe termite risk (both subterranean and drywood). Terminix is known for comprehensive termite inspections, bait systems, and damage repair protection plans.\n\n---\n\n### 3. State-Specific Pest Considerations\n\n#### **California**\n* **Primary Concerns:** Drywood termites (requiring tent fumigation or local spot treatment), Argentine ants, roof rats, and spiders.\n* **Top Picks:** **Western Exterminator**, **Clark Pest Control**, or **Orkin**.\n\n#### **Washington**\n* **Primary Concerns:** Carpenter ants (destructive to damp structural wood), moisture ants, roof rats/Norway rats, and spiders.\n* **Top Picks:** **Western Exterminator**, **Orkin**, or local Pacific Northwest specialists like **Senske** or **Eden Pest**. Look for companies that emphasize crawl space inspections and moisture barriers.\n\n#### **Arizona**\n* **Primary Concerns:** Arizona bark scorpions, subterranean termites, roof rats, black widows, and desert roaches.\n* **Top Picks:** **Truly Nolen**, or reputable Arizona-specific operators like **Blue Sky Pest Control** (Phoenix metro) or **Burns Pest Elimination**. Always verify that the company’s chemical treatment covers scorpions, as many standard general sprays do not kill them.\n\n---\n\n### Checklist Before You Hire\n1. **Ask About Free Re-treatments:** Ensure your regular maintenance plan includes free return visits if pests reappear between scheduled services.\n2. **Clarify Termite vs. General Pest Coverage:** Standard quarterly maintenance plans **do not** include termite treatments or damage repair. If termites are a concern, request a dedicated termite inspection.\n3. **Check Cancellation Policies:** Some pest services (such as Aptive or other door-to-door providers common in suburban CA, WA, and AZ) lock you into 12- to 24-month contracts with early cancellation fees. Look for flexible agreements or month-to-month options.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:47:39+00:00",
+  "has_unknown": true
+}

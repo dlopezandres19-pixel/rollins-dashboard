@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When looking for top pest control services in the Western US, including California, Washington, and Arizona, consider the following companies known for their comprehensive services and customer satisfaction:\n\n1. **Orkin**: Offers a wide range of pest control services, including termite, rodent, and insect control. They have a strong reputation for customer service and use integrated pest management techniques.\n\n2. **Terminix**: Known for their extensive experience and expertise in termite control, they also handle other pests like bed bugs and rodents. They provide customized plans and have a satisfaction guarantee.\n\n3. **Ecolab**: Focuses on environmentally friendly pest control solutions, making them a great choice for eco-conscious homeowners.\n\n4. **TruGreen**: While known for lawn care, they also offer pest control services focusing on perimeter protection to prevent pests from entering the home.\n\n5. **Western Exterminator**: Offers specialized pest control solutions tailored to the specific needs of the region. They are known for their reliable service and expertise in dealing with regional pests.\n\n6. **Clark Pest Control**: Primarily serving California, Clark offers comprehensive pest management services and is known for their effective and eco-friendly methods.\n\nMake sure to check reviews, compare quotes, and ensure the company is licensed and insured in your state. It’s also beneficial to ask about the specific pests they handle and whether they offer any guarantees on their services.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:11:13+00:00",
+  "has_unknown": true
+}

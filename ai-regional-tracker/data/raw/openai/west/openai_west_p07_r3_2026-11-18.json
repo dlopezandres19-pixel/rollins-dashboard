@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "For homeowners in the Western US, including California, Washington, and Arizona, several pest control companies are known for their excellent service:\n\n1. **Orkin**: With a long-standing reputation, Orkin offers comprehensive pest control services and specializes in customized plans to address specific homeowner needs.\n\n2. **Terminix**: Known for its extensive experience and wide range of services, Terminix provides effective treatment plans and has a strong presence in the Western US.\n\n3. **Ecola Termite and Pest Control**: Based in California, Ecola offers eco-friendly pest control solutions and is well-regarded for its customer service and environmentally conscious methods.\n\n4. **Western Exterminator**: With a focus on the West Coast, Western Exterminator offers reliable service with an emphasis on prevention and integrated pest management.\n\n5. **Truly Nolen**: Known for its unique four-season approach, Truly Nolen provides a variety of pest control services and is praised for its customer satisfaction.\n\n6. **Green Pest Solutions**: For those interested in environmentally friendly options, Green Pest Solutions offers eco-friendly treatments and personalized service.\n\nWhen choosing a pest control company, consider factors like service guarantees, eco-friendly options, customer reviews, and whether they offer a free inspection or estimate.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:11:18+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several leading residential pest control companies are well-regarded for their services:\n\n1. **Orkin**: Known for its comprehensive pest control solutions, Orkin has a strong presence throughout the Southeast. They offer treatments for a variety of pests, including termites, ants, and rodents.\n\n2. **Terminix**: Another major player in the industry, Terminix provides extensive services for termite and pest control. They are known for their innovative approach and extensive coverage in the Southeast.\n\n3. **TruGreen**: While primarily known for lawn care, TruGreen also offers pest control services in certain areas, focusing on outdoor pest management.\n\n4. **Massey Services**: A regional company with a strong reputation in the Southeast, Massey Services offers a range of pest prevention and control services, including environmentally friendly options.\n\n5. **Arrow Exterminators**: With a focus on customer service and environmentally responsible practices, Arrow Exterminators is popular in Georgia and other Southeastern states.\n\n6. **Aptive Environmental**: Known for its eco-friendly approach, Aptive provides pest control services across the Southeast, focusing on minimizing environmental impact.\n\nThese companies are recognized for their effective treatments, customer service, and availability across multiple states in the region. It's always a good idea to read reviews and get quotes to find the best fit for your specific needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:01:33+00:00",
+  "has_unknown": false
+}

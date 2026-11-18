@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the West US (California, Washington, Arizona) should consider.",
+  "rep": 2,
+  "response_text": "Here is a shortlist of reputable pest control companies to consider in the Western US, broken down by their regional strengths, specialties, and overall reliability:\n\n---\n\n### 1. Western Exterminator (A Rentokil Brand)\n* **Best for:** Overall coverage across CA, WA, and AZ with deep regional experience.\n* **Why consider them:** Instantly recognizable by their \"Little Man\" logo, Western Exterminator has served the West Coast and Southwest for over a century. Because they focus specifically on western ecosystems, their technicians are highly knowledgeable about regional issues—such as drywood termites in California, roof rats in Arizona, and moisture-loving pests in Washington.\n* **Services:** Termite control, general pests, wildlife/rodent exclusion, and commercial-grade treatments.\n\n### 2. Truly Nolen Pest Control\n* **Best for:** Arizona homeowners and desert-specific pests (scorpions, pack rats).\n* **Why consider them:** Headquartered in Tucson, Arizona, Truly Nolen is one of the premier names in the Southwest, with strong operations in California as well. They specialize in four-season treatment programs tailored to seasonal shifts in pest behavior.\n* **Services:** Excellent scorpion management, rodent exclusion, and subterranean/drywood termite treatments.\n\n### 3. Clark Pest Control\n* **Best for:** California homeowners (Northern, Central, and Southern CA).\n* **Why consider them:** Clark is one of the largest regional pest control companies in California (and parts of Nevada). While now part of the Rollins/Orkin family, it continues to operate under its local brand. They have a strong reputation for customer service, flexible service plans, and fast response times.\n* **Services:** Residential pest control, termite inspections/fumigation, bed bug removal, and lawn pest care.\n\n### 4. Orkin\n* **Best for:** Severe or persistent infestations requiring fast, standardized response.\n* **Why consider them:** Orkin has an extensive branch network across California, Arizona, and Washington. Their technicians complete intensive training accredited by the Entomological Society of America, making them a safe, dependable choice if you are dealing with structural pests (like carpenter ants in the Pacific Northwest or termites in the Southwest).\n* **Services:** Termite treatments, bed bugs, stinging insects, rodents, and comprehensive interior/exterior warranties (30-day money-back guarantee).\n\n### 5. Aptive Environmental\n* **Best for:** Routine preventive maintenance and eco-conscious perimeter defense.\n* **Why consider them:** Aptive has a massive footprint in suburban neighborhoods across CA, AZ, and WA. They focus on exterior barrier protection to prevent pests from entering the home, using EPA-reduced-risk products derived from natural pyrethrins (chrysanthemum flower extracts).\n* **Services:** Routine quarterly maintenance targeting ants, spiders, roaches, and wasps. *(Note: They generally do not handle wood-destroying organisms like termites).*\n\n---\n\n### Tips Tailored to Your State\n\n* **Arizona:** Prioritize companies experienced in **scorpions** and **termites**. Ensure the company offers blacklight inspections and specializes in sealing home weep screeds and entry points.\n* **California:** Termites (both drywood and subterranean) are common; look for a company with licensed inspectors registered through the **California Structural Pest Control Board** who can perform comprehensive WDO (Wood Destroying Organism) inspections.\n* **Washington:** Focus on **carpenter ants**, **subterranean termites**, and **rodent exclusion** (rats/mice seeking shelter during the rainy season). Look for companies that emphasize moisture management around your foundation.\n\n### Before You Sign a Contract\n* **Get multiple quotes:** Many companies offer free initial inspections and estimates.\n* **Check the guarantee:** Verify their re-treatment policy—reputable providers will return between scheduled visits for free if pests return.\n* **Review contract terms:** Annual contracts often include cancellation fees, so ask about month-to-month or trial options if you only need short-term help.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:52:56+00:00",
+  "has_unknown": true
+}

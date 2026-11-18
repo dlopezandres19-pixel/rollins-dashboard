@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "In the Western US, including states like California, Washington, and Arizona, several national pest control companies are well-regarded for their services:\n\n1. **Orkin**: Known for comprehensive pest control services, Orkin offers solutions for termites, rodents, insects, and more. Their technicians are well-trained, and they provide tailored plans based on customer needs.\n\n2. **Terminix**: A leader in termite and pest control, Terminix offers a wide range of services, including protection plans and annual inspections. They are known for their expertise and effective treatments.\n\n3. **Ehrlich**: Operating under the Rentokil brand, Ehrlich provides pest management solutions with a focus on eco-friendly methods. They offer both residential and commercial services.\n\n4. **Truly Nolen**: Known for their distinctive yellow mouse cars, Truly Nolen offers pest control services for a variety of pests, including termites, bed bugs, and rodents. They emphasize environmentally responsible methods.\n\n5. **Aptive Environmental**: Aptive is recognized for its commitment to environmentally friendly pest control solutions. They offer customizable pest management plans and are particularly popular for their customer service.\n\nEach of these companies has a strong presence in the Western US and can provide effective pest control solutions tailored to various needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:10:56+00:00",
+  "has_unknown": false
+}

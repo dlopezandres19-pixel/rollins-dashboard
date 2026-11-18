@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When seeking reputable residential pest control services in the Midwest, particularly in Illinois, Ohio, and Michigan, several companies stand out for their experience, customer satisfaction, and comprehensive services:\n\n**1. Rose Pest Solutions**\n\nEstablished in 1860, Rose Pest Solutions is the nation's oldest pest control company, serving parts of Illinois, Indiana, Kentucky, Michigan, Ohio, Pennsylvania, West Virginia, and Wisconsin. They offer residential pest management with a focus on Integrated Pest Management (IPM) practices, emphasizing prevention and minimal chemical use. Their Healthy Home Maintenance Plan includes quarterly treatments and covers common pests like cockroaches, ants, earwigs, and rodents. Rose Pest Solutions holds an A+ rating from the Better Business Bureau (BBB). ([thisoldhouse.com](https://www.thisoldhouse.com/pest-control/rose-pest-solutions-review?utm_source=openai))\n\n**2. Terminix**\n\nTerminix is a nationwide pest control provider with a strong presence in the Midwest. They offer comprehensive treatment plans for various pests, including termites, bed bugs, and cockroaches. Terminix provides a 30-day service guarantee and has an expansive service area, making them a reliable choice for homeowners seeking professional pest control services. ([thisoldhouse.com](https://www.thisoldhouse.com/pest-control/best-pest-control-companies?utm_source=openai))\n\n**3. Orkin**\n\nOrkin is another well-established pest control company operating across the Midwest. They offer a range of services, including general pest control, termite treatment, and wildlife management. Orkin is known for its science-backed practices and commitment to customer satisfaction. ([thisoldhouse.com](https://www.thisoldhouse.com/pest-control/best-pest-control-companies?utm_source=openai))\n\n**4. Abell Pest Control**\n\nAbell Pest Control provides services in parts of the eastern and midwestern U.S., including Ohio, Indiana, and Michigan. They offer residential pest control plans targeting 17 common pests and provide a money-back guarantee. Abell holds an A+ rating from the BBB. ([thisoldhouse.com](https://www.thisoldhouse.com/pest-control/abell-pest-control-review?utm_source=openai))\n\n**5. Eco Tech Pest Control**\n\nBased in Niles, Illinois, Eco Tech Pest Control is highly rated for its comprehensive pest management services. They operate 24/7 and have received positive feedback for their prompt and effective treatments. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/chicago-il?utm_source=openai))\n\n**6. proof. Pest Control**\n\nOperating in Ann Arbor, Michigan, proof. Pest Control boasts a 4.9-star rating from over 1,000 reviews. They offer a range of pest control services and are known for their customer-centric approach. ([ratingsnearme.com](https://ratingsnearme.com/ann-arbor-mi/top-rated-pest-control?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and any guarantees offered. It's also advisable to contact the companies directly to discuss your specific needs and obtain quotes. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:07:13+00:00",
+  "has_unknown": true
+}

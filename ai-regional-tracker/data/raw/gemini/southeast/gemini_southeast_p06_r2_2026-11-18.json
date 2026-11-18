@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When dealing with pests in the Southeast—especially in Florida, Georgia, and Texas—homeowners face heavy pest pressure year-round. High humidity and warm temperatures create ideal breeding grounds for **subterranean and Formosan termites, American cockroaches (“palmetto bugs”), red imported fire ants, and mosquitoes**.\n\nSeveral national and large super-regional pest control companies have exceptional coverage, infrastructure, and specialized expertise tailored to the Southeast:\n\n---\n\n### 1. Orkin\n* **Headquarters:** Atlanta, GA\n* **Coverage:** Comprehensive across Florida, Georgia, and Texas.\n* **Best For:** Rigorous technician training and targeted treatments for difficult infestations (termites, bed bugs, roaches).\n* **Why They Stand Out in the Southeast:** Because Orkin was founded and remains headquartered in Georgia, its flagship training facility (\"Orkin University\") focuses heavily on Southeastern pest biology. They provide a high-level scientific approach to Integrated Pest Management (IPM) and offer a solid **30-day money-back guarantee** and free re-treatments between scheduled visits if pests return.\n\n### 2. Terminix\n* **Headquarters:** Memphis, TN (now part of Rentokil Terminix)\n* **Coverage:** Ubiquitous across FL, GA, and TX (urban, suburban, and rural areas).\n* **Best For:** Comprehensive termite prevention, termite bonds, and bundle discounts.\n* **Why They Stand Out in the Southeast:** Terminix is arguably the most recognized name for termite control in the nation, which is critical in the Southeast where subterranean and drywood termites cause billions in damage. They offer the **Terminix Promise**, robust termite damage repair warranties (where available), and broad package deals combining general pest control, mosquito defense, and termite protection.\n\n### 3. Arrow Exterminators\n* **Headquarters:** Atlanta, GA\n* **Coverage:** Extensive across Georgia and Florida, with a growing presence in Texas.\n* **Best For:** Customer service, whole-home protection, and wildlife exclusion.\n* **Why They Stand Out in the Southeast:** While often categorized as a regional giant, Arrow ranks among the top five largest pest control companies in the nation. Because they originated in the South, their entire service philosophy is built around regional challenges. They specialize in the **Sentricon Termite Colony Elimination System**, fire ant abatement, and wildlife exclusion (squirrels/rats in attics). Arrow consistently receives higher consumer satisfaction marks than legacy national competitors.\n\n### 4. Massey Services\n* **Headquarters:** Orlando, FL\n* **Coverage:** Heavy across Florida, with large and expanding operations in Georgia and Texas.\n* **Best For:** Bundled pest control, mosquito suppression, and lawn/irrigation care.\n* **Why They Stand Out in the Southeast:** Massey is one of the largest privately held service companies in the country. In states like Florida and Texas, pests often attack landscaping and lawns (chinch bugs, grubs, sod webworms) before entering the home. Massey excels at treating the perimeter and the yard simultaneously, offering an environmentally responsible exterior-first program.\n\n### 5. Truly Nolen\n* **Headquarters:** Tucson, AZ / Coral Gables, FL\n* **Coverage:** Widespread in Florida and Texas, with select service in Georgia.\n* **Best For:** Four-season pest management plans and eco-conscious options.\n* **Why They Stand Out in the Southeast:** Truly Nolen has deep roots in Florida and the Sunbelt. Their \"Four Seasons\" treatment protocol automatically adjusts chemical types and application techniques according to seasonal pest behavior (critical as pest cycles shift from humid summers to mild Southern winters).\n\n---\n\n### Key Questions to Ask Before Signing a Contract\n\nIf you are requesting quotes from these providers in FL, GA, or TX, be sure to ask:\n\n1. **What kind of termite warranty is included?** \n   * In the Southeast, ask whether the contract covers *re-treatment only* or *re-treatment and structural damage repair*. Make sure to clarify if it covers **Formosan termites**, which are prevalent along Gulf Coast Texas, coastal Georgia, and throughout Florida.\n2. **What is the free re-service policy?** \n   * Warm Southern climates mean perimeter barriers can break down faster due to heavy rain and UV exposure. Ensure the company guarantees free touch-up visits between regular quarterly or bi-monthly services.\n3. **Does the quote cover outdoor biting pests?** \n   * Standard quarterly plans usually only cover ants, roaches, spiders, and rodents. Fleas, ticks, mosquitoes, and lawn-destroying insects usually require an add-on package.\n4. **Is the technician dedicated to your route?** \n   * Pest control quality often comes down to the individual technician. Having the same technician for each visit ensures they know your home's unique hot spots and moisture issues.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:17:28+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "Because Florida, Georgia, and Texas share warm, humid climates, pest pressures in these states are uniquely intense—particularly for subterranean and drywood termites, roaches (“palmetto bugs”), fire ants, and mosquitoes. \n\nWhile the major national brands operate everywhere, several **regional powerhouses** founded in the Southeast often offer better local customer service and climate-specific expertise.\n\n---\n\n### Top Regional Providers (Best Overall Value & Service)\n\n#### 1. **Massey Services** *(Best Overall for FL, GA, and TX)*\n* **Service Area:** Founded in Florida; widespread across FL, GA, and major Texas metros (Dallas-Fort Worth, Houston, Austin, San Antonio).\n* **Strengths:** Massey is uniquely tailored to Southern homes. Beyond traditional indoor pest control, they specialize in integrated exterior pest prevention, termite protection, and lawn/irrigation care.\n* **Best for:** Homeowners who want a single company to handle quarterly perimeter pest prevention, termite bonds, and lawn care (chinch bugs, fungus, fertilization).\n\n#### 2. **Arrow Exterminators** *(Best Customer Service)*\n* **Service Area:** Headquartered in Atlanta, GA, with extensive operations throughout Georgia, Florida, and Texas.\n* **Strengths:** Arrow consistently ranks among the highest in customer satisfaction among regional chains. They use Integrated Pest Management (IPM), focusing on exterior barriers and sealing entry points rather than heavy chemical spraying indoors.\n* **Best for:** Whole-home pest exclusion, wildlife removal (squirrels/rats in attics, a common issue in mature Southern neighborhoods), and termite protection.\n\n#### 3. **ABC Home & Commercial Services** *(Best for Texas)*\n* **Service Area:** Texas (Austin, San Antonio, Houston, Dallas, Corpus Christi) and parts of Florida.\n* **Strengths:** A family-owned Texas institution for decades. Because Texas homes face severe seasonal shifts (extreme heat, drought, sudden freezes), ABC’s technicians are deeply trained on Texas-specific pests, from scorpions and fire ants to subterranean termites.\n* **Best for:** Texas homeowners looking for dependable pest control bundled with other home services (AC, plumbing, pool care).\n\n#### 4. **Truly Nolen** *(Best for Rodents & Termite Control)*\n* **Service Area:** Heavy presence across Florida and Texas, with select Georgia coverage.\n* **Strengths:** Known for their distinct \"mouse car\" fleet, Truly Nolen is especially well-regarded for its **Four Seasons Pest Program**, which rotates treatment formulas depending on pest breeding cycles throughout the year. They also have an aggressive termite and rodent abatement program.\n* **Best for:** Homes with stubborn roach infestations, rodent problems, or properties near water.\n\n---\n\n### Top National Chains (Best for Specialized Guarantees)\n\n#### 5. **Orkin** *(Best Training & Reliability)*\n* **Headquarters:** Atlanta, GA.\n* **Strengths:** Orkin’s technician training is widely considered the gold standard in the industry (they operate a massive mock-house training facility in Atlanta). Their \"Orkin Guarantee\" includes free return visits between scheduled treatments if pests reappear.\n* **Best for:** Fast response times and aggressive infestations (bed bugs, aggressive roach colonies, complex termite issues).\n\n#### 6. **Terminix** *(Best for Termite Warranties)*\n* **Strengths:** Given the Southeast’s notorious termite risk (especially Formosan subterranean termites in coastal GA, FL, and the Gulf Coast of TX), Terminix remains a market leader due to its proprietary baiting systems, liquid barriers, and high-coverage termite damage repair guarantees.\n* **Best for:** Termite protection plans and homes requiring official termite clearance letters (WDO reports) for real estate transactions.\n\n---\n\n### Key Things to Check Before Signing in FL, GA, or TX:\n\n1. **Termite Bond Fine Print (Crucial in the South):** Make sure your termite agreement includes a **\"repair guarantee\"** rather than just a **\"re-treatment guarantee.\"** A re-treatment guarantee only covers re-spraying, while a repair guarantee covers structural damage caused by new infestations.\n2. **Perimeter vs. Interior Service:** The standard in these states is now \"perimeter pest control\"—technicians treat outside entry points, eaves, and foundation barriers, only coming indoors upon request. This keeps chemicals outside while maintaining a pest-free interior.\n3. **Free Re-services:** Ensure your contract explicitly states that callbacks between regular visits are 100% free if bugs return.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:12:36+00:00",
+  "has_unknown": true
+}

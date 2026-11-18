@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "Some of the leading residential pest control companies in the Southeast US, including Florida, Georgia, and Texas, are:\n\n1. **Orkin**: Known for comprehensive pest control solutions, Orkin offers services across the Southeast with a focus on prevention and customized treatment plans.\n\n2. **Terminix**: With a strong presence in the Southeast, Terminix provides a wide range of pest control services, including termite and bed bug treatments.\n\n3. **Truly Nolen**: This company is recognized for its eco-friendly pest control methods and offers services throughout Florida, Georgia, and Texas.\n\n4. **Arrow Exterminators**: Based in Atlanta, Arrow Exterminators is prominent in Georgia and also serves parts of Florida and Texas, offering a variety of pest management services.\n\n5. **Massey Services**: Headquartered in Florida, Massey provides pest prevention, termite protection, and landscape services, with a strong regional presence.\n\n6. **Ehrlich Pest Control**: Known for personalized pest control solutions, Ehrlich serves parts of the Southeast and offers targeted treatments for various pests.\n\nThese companies are known for their reliability, extensive service offerings, and strong regional presence. It's a good idea to contact them directly to inquire about specific services and availability in your area.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:01:27+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "Because the Southeast has a warm, humid climate and a virtually year-round pest season (especially for subterranean/Formosan termites, palmetto bugs, fire ants, and mosquitoes), pest control is typically handled through recurring prevention plans rather than one-time treatments. \n\nHere are the main options for residential pest control across Florida, Georgia, and Texas, categorized by the types of providers and service models available.\n\n---\n\n### 1. Major Regional Powerhouses\nIn the Southeast, several large, privately held or regional companies often rival or outperform the national brands in reputation and customer satisfaction:\n\n* **Arrow Exterminators (GA, FL, TX):** Headquartered in Georgia, Arrow is one of the largest pest control companies in the country with massive footprints across Georgia and Florida and a growing presence in Texas. They are known for comprehensive packages (under the *Stark Exterminators* brand in some areas) that bundle pest, mosquito, and termite coverage.\n* **Massey Services (FL, GA, TX):** Based in Orlando, Massey is an absolute staple in Florida and has a large presence across Georgia and Texas. They specialize in general pest management, Sentricon termite baiting, mosquito control, and combined lawn/irrigation care.\n* **ABC Home & Commercial Services (Texas):** If you are in Texas (Austin, Houston, Dallas-Fort Worth, San Antonio), ABC is one of the premier regional names. They offer comprehensive pest and termite management alongside broader home services (lawn, HVAC, pool).\n* **Northwest Exterminating (GA, parts of neighboring states):** Highly established throughout metro Atlanta and rural Georgia, known for green/eco-friendly treatment options and strong local customer service.\n* **HomeTeam Pest Defense (TX, FL, GA):** Headquartered in Dallas, HomeTeam is the top provider partnered with homebuilders across Sunbelt states. If your home was built in the last 15–20 years and has the **Taexx® \"Tubes in the Wall\"** system (small exterior access ports for injecting pest control chemicals directly into wall voids), HomeTeam is often the primary company servicing those systems.\n\n---\n\n### 2. National Giants\nIf you prefer large companies with 24/7 call centers, mobile app scheduling, and nationwide service guarantees:\n\n* **Orkin:** Headquartered in Atlanta, Orkin has deep roots and dense branch networks in almost every city and suburb across GA, FL, and TX. They are generally considered among the most thoroughly trained technicians in the industry, though pricing tends to be on the higher side.\n* **Terminix:** Another ubiquitous provider throughout the South. Because termite damage is such a severe risk in the Southeast, Terminix remains widely used for its termite inspection, baiting, and annual warranty programs.\n* **Truly Nolen:** Known for their distinct yellow mouse cars, they have a heavy footprint in both Florida and Texas, with well-regarded year-round \"Four Seasons\" pest programs.\n\n---\n\n### 3. Service Models to Consider\n\nWhen choosing a company in the Southeast, you will generally be choosing between several specific service structures:\n\n#### A. Perimeter-Only / Exterior Quarterly Plans\nMost reputable Southern pest control companies now use an **exterior-focused perimeter defense** model. Technicians treat the foundation, eaves, doors, and windows every 2 to 3 months to stop bugs before they get inside, offering free interior treatments on an as-needed basis if pests break through. This keeps chemicals out of your living space and avoids you having to be home for appointments.\n\n#### B. Termite Bonds / Warranties (Crucial in the South)\nIn FL, GA, and TX, general pest control does **not** cover termites. You will almost always need a separate termite plan:\n* **Sentricon Baiting Systems:** In-ground stations checked periodically; very popular in Florida and Georgia.\n* **Liquid Barriers (e.g., Termidor):** Trench-and-treat applications along the foundation.\n* *What to check:* Make sure any contract specifies a **repair and retreat** guarantee (where the company pays for structural repairs if termites breach the barrier) rather than just a **retreat-only** guarantee.\n\n#### C. Seasonal Mosquito Suppression\nDue to long breeding seasons, many homeowners add monthly mosquito yard treatments (typically running March/April through October/November). Most providers use backpack barrier sprays or In2Care trap systems. Bundling this with standard pest control usually earns a discount.\n\n---\n\n### How to Choose the Best Fit\n1. **Check for In-Wall Ports:** Check",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:20:33+00:00",
+  "has_unknown": true
+}

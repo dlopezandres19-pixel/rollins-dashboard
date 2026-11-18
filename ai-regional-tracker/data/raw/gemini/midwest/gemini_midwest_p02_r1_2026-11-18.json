@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "For a homeowner in Illinois, Ohio, or Michigan, the best choice often comes down to choosing between a **reputable regional specialist** (which often provides better customer service and local knowledge) and a **national brand** (which offers broad availability and standardized guarantees).\n\nHere are the top recommendations:\n\n---\n\n### 1. Best Overall Regional Choice: **Rose Pest Solutions**\n* **Service Area:** Strong, established presence throughout Illinois, Michigan, and parts of Ohio and Indiana.\n* **Why Choose Them:** Founded in the mid-19th century, Rose is one of the oldest and most trusted pest management companies in the Midwest. Because their entire business model is built around the region, their technicians are intimately familiar with Midwest-specific seasonal issues—such as boxelder bug swarms in late summer, Asian lady beetles, carpenter ants, and fall rodent migrations into basements.\n* **Best For:** Homeowners who prefer a dedicated, local-feel service provider over a national conglomerate, with excellent quarterly maintenance plans (Integrated Pest Management).\n\n---\n\n### 2. Best for Pests + Wildlife: **Plunkett’s Pest Control / Varment Guard**\n* **Service Area:** Upper Midwest (Illinois and Michigan covered by Plunkett's; Ohio covered by Varment Guard, a Plunkett’s company).\n* **Why Choose Them:** If you are dealing with more than just bugs—such as raccoons in the attic, bats, squirrels, or heavy rodent pressure around crawl spaces—this network is one of the strongest in the Midwest. \n* **Best For:** Rural or suburban properties where nuisance wildlife exclusion is just as important as insect control.\n\n---\n\n### 3. Best National Brand: **Orkin**\n* **Service Area:** Nearly universal coverage across IL, OH, and MI.\n* **Why Choose Them:** Orkin invests heavily in technician training and follows a strict protocol for diagnosing entry points and moisture issues. They offer a reliable 30-day money-back guarantee, and if pests return between scheduled quarterly visits, they re-treat free of charge.\n* **Best For:** Homeowners in more remote or exurban areas where regional providers might not reach, or those who want predictable nationwide brand standards and fast response times.\n\n---\n\n### 4. Runner-Up National: **Terminix**\n* **Service Area:** Broad coverage across all three states.\n* **Why Choose Them:** Terminix is especially competitive when dealing with subterranean termites (a common issue in parts of Illinois and Ohio) and bed bugs. Their online portal makes scheduling easy, and their termite inspection and baiting systems are among the industry standards.\n* **Best For:** Termite defense, structural warranties, and bundled pest-and-termite plans.\n\n---\n\n### What to Look for as a Midwest Homeowner:\n* **The \"Midwest Shift\" Coverage:** A good quarterly plan in this region must address distinct seasonal transitions:\n  * **Spring:** Carpenter ants, subterranean termites, and early wasp nesting.\n  * **Late Summer/Fall:** Overwintering invaders (boxelder bugs, stink bugs, cluster flies) and mouse exclusion before the first freeze.\n* **Exclusion (Sealing) vs. Spraying:** Ask any provider whether their rodent service includes simple exclusion (caulking small gaps, wire mesh over weep holes) or if they only place bait stations.\n* **Service Guarantee:** Make sure your contract includes free follow-up service calls if pests return between your scheduled seasonal treatments.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:33:44+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control company in the Western U.S., including states like California, Washington, and Arizona, it's important to consider factors such as services offered, customer reviews, and pricing. Here are a few reputable companies to consider:\n\n1. **Orkin**: Known for comprehensive pest control services, Orkin offers customized plans and has a strong presence across the Western U.S.\n\n2. **Terminix**: Offers a wide range of pest control services with a focus on eco-friendly solutions. They have a good reputation and are widely available.\n\n3. **Ecola Termite and Pest Control**: Based in California, Ecola specializes in eco-friendly pest control methods and is a great choice if you prefer non-chemical treatments.\n\n4. **Western Exterminator**: Known for reliable service and experienced technicians, this company operates in California, Arizona, and other Western states.\n\n5. **Green Pest Solutions**: If you're looking for environmentally-friendly options, this company focuses on green solutions and has good reviews.\n\nBefore making a decision, consider:\n\n- **Reading Reviews**: Check online reviews and ratings on platforms like Yelp or Google.\n- **Getting Quotes**: Contact multiple companies for quotes to compare pricing.\n- **Checking Certifications**: Ensure the company is licensed and certified in your state.\n\nIt's also a good idea to ask about their specific experience with the pests you're dealing with and their customer service policies.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:10:34+00:00",
+  "has_unknown": true
+}

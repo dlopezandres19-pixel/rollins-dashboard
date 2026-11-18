@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When choosing residential pest control in the Midwest—specifically Illinois, Ohio, and Michigan—you generally have three categories of options: **strong regional operators** with deep local roots, **major national brands** with broad coverage, and **specialty wildlife/seasonal providers**. \n\nHere is a breakdown of the top options and how they fit into typical Midwest pest pressures:\n\n---\n\n### 1. Top Regional Pest Control Companies\nRegional providers often have the strongest familiarity with Midwest-specific pest cycles (such as seasonal mice invasions, boxelder bugs, and carpenter ants) and typically offer strong local customer service.\n\n* **Rose Pest Solutions**\n  * **Coverage:** Illinois, Ohio, Michigan, Indiana, and Kentucky.\n  * **Best For:** Comprehensive residential maintenance and history. Rose is widely recognized as one of the oldest pest control companies in the country and has extensive branch networks across all three states (from Chicagoland to Detroit and across Ohio).\n  * **Services:** General pest plans, carpenter ants, bed bugs, termites, and seasonal rodent exclusion.\n* **Varment Guard / Plunkett’s Pest Control**\n  * **Coverage:** Varment Guard is heavily rooted in Ohio (Columbus, Cleveland, Cincinnati); Plunkett’s covers Illinois and upper Midwest states.\n  * **Best For:** Dual expertise in general pests and larger nuisance wildlife (raccoons, bats, squirrels).\n* **Anderson Pest Solutions**\n  * **Coverage:** Primarily northern/central Illinois (and parts of northwest Indiana/southern Wisconsin).\n  * **Best For:** Integrated Pest Management (IPM) focusing on preventative, environmentally conscious residential pest management.\n\n---\n\n### 2. Major National Providers\nNational brands offer high availability, centralized online portals, 24/7 dispatching, and robust service guarantees.\n\n* **Orkin**\n  * **Coverage:** Widespread across all major metros and mid-sized cities in IL, OH, and MI.\n  * **Best For:** Fast emergency response, targeted termite remediation, and aggressive treatments for severe infestations (e.g., bed bugs or heavy rodent problems).\n  * **Plans:** Usually structured as bi-monthly or quarterly treatments with free retreatments between visits if pests return.\n* **Terminix**\n  * **Coverage:** Broad suburban and urban presence across the Midwest.\n  * **Best For:** Termite monitoring/baiting systems and bundled packages (e.g., combining general pest, mosquito, and rodent control).\n* **Ehrlich Pest Control (a Rentokil brand)**\n  * **Coverage:** Strong footprint in Ohio and expanding across the Midwest.\n  * **Best For:** Their \"PestFree365\" program, which covers over 30 common household pests under a year-round preventative plan.\n* **Aptive Environmental**\n  * **Coverage:** High presence in Midwest suburbs (Chicago suburbs, Detroit metro, Columbus, etc.).\n  * **Best For:** General crawling insect control (spiders, ants, crickets, wasps) using pyrethrin-based, lower-toxicity treatments. Note that they generally focus on general insect maintenance rather than major wildlife, termite, or bed bug remediation.\n\n---\n\n### 3. Specialty Providers (Wildlife & Mosquitoes)\nMidwest homes frequently deal with wooded-lot pests and harsh winters that drive larger animals indoors.\n\n* **Wildlife & Nuisance Animals:** \n  * **Critter Control** (widely available across IL, OH, and MI) specializes in humane trapping, damage repair, and attic exclusion for raccoons, squirrels, bats, skunks, and birds.\n* **Mosquito & Tick Control:** \n  * Companies like **Mosquito Joe** and **Mosquito Squad** operate seasonal barrier-spray franchises throughout the Midwest (typically active from May through September/October).\n\n---\n\n### Key Midwest Considerations When Choosing a Plan\n1. **Seasonal Shifts:** In Illinois, Ohio, and Michigan, pest activity changes drastically by season:\n   * **Spring/Summer:** Carpenter ants, stinging insects, ticks, and subterranean termites.\n   * **Late Summer/Fall:** Stink bugs, boxelder bugs, and Asian lady beetles congregating on home siding.\n   * **Winter:** Mice and rats seeking warmth in basements, crawlspaces, and attics.\n   * *Tip:* Look for a plan that schedules seasonal exterior perimeter barriers in late summer to block fall invaders before they enter walls.\n2. **Contract vs. One-Time:** Most companies prefer pushing quarterly contracts ($40–$70/month or $120–$150/quarter). If you only have a one-off wasp nest or isolated mice issue, ask explicitly for a **one-time service with a 30- to 60-day warranty** rather than signing an annual agreement.\n3. **Local Inspection:** For issues involving wood-destroying insects (carpenter ants/termites) or animal attic noises, always opt for a provider that offers an **on-site inspection** before quoting, rather than relying on phone estimates.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Mosquito Squad"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:41:27+00:00",
+  "has_unknown": true
+}

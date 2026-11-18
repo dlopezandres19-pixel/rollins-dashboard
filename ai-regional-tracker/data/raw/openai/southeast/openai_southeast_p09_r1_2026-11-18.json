@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, there are several options for residential pest control. Here are some of the main ones:\n\n1. **Professional Pest Control Services**:\n   - Companies like Orkin, Terminix, and Rentokil offer comprehensive pest control services. They handle a wide range of pests including termites, ants, roaches, mosquitoes, and rodents.\n   - Local companies often have expertise specific to the region’s pest issues.\n\n2. **DIY Pest Control**:\n   - Many homeowners opt for do-it-yourself methods using products from brands like Raid, Ortho, and Spectracide.\n   - These products can include sprays, traps, and bait systems for ants, roaches, and other common pests.\n\n3. **Natural and Eco-Friendly Solutions**:\n   - Some companies offer eco-friendly pest control using natural substances and methods. Look for services like Truly Nolen or local businesses that specialize in green pest management.\n   - DIY natural solutions include essential oils (like peppermint or tea tree oil) and diatomaceous earth.\n\n4. **Integrated Pest Management (IPM)**:\n   - IPM focuses on long-term prevention and minimal use of chemicals. It involves sealing entry points, maintaining clean environments, and using pesticides only when necessary.\n   - Many pest control companies incorporate IPM practices into their services.\n\n5. **Preventive Measures**:\n   - Regular home maintenance such as sealing cracks, proper food storage, and yard maintenance can prevent infestations.\n   - Installing screens on windows and doors can help keep pests out.\n\nWhen choosing a pest control method or service, consider factors like the severity of the infestation, budget, and personal preferences for chemical versus natural solutions. Always ensure any professional service is licensed and uses safe, effective methods.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:02:50+00:00",
+  "has_unknown": true
+}

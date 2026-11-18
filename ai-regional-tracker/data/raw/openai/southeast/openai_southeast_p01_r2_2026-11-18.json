@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When selecting a pest control company in the Southeastern United States—specifically in Florida, Georgia, and Texas—it's essential to consider providers with strong reputations, comprehensive services, and local expertise. Here are some top-rated companies operating in these states:\n\n**1. Orkin**\n\nFounded in 1901, Orkin is a well-established pest control company with over 400 locations nationwide, including numerous branches across Florida, Georgia, and Texas. They offer a wide range of services, including termite control, mosquito treatment, and wildlife management. Orkin's technicians are known for their extensive training and commitment to customer satisfaction. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Orkin?utm_source=openai))\n\n**2. Terminix**\n\nWith nearly a century of experience, Terminix provides pest control services across the United States, including Florida, Georgia, and Texas. They specialize in termite treatment and offer comprehensive pest management plans. Terminix is recognized for its PestFree365 program, which covers a wide array of pests and includes regular inspections and treatments. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Terminix?utm_source=openai))\n\n**3. Massey Services**\n\nHeadquartered in Orlando, Florida, Massey Services is one of the largest privately-owned pest control companies in the nation. They offer services in Florida, Georgia, and Texas, focusing on pest prevention, termite protection, and lawn care. Massey's approach emphasizes preventive measures and environmentally responsible solutions. ([attorneyfolks.com](https://www.attorneyfolks.com/pest-control-companies-in-florida/?utm_source=openai))\n\n**4. Arrow Exterminators**\n\nBased in Atlanta, Georgia, Arrow Exterminators operates extensively throughout the Southeast, including Florida and Texas. They provide a range of services such as pest control, termite protection, mosquito reduction, and wildlife control. Arrow is known for its eco-friendly STEPS Total Protection System, which integrates pest management with environmental responsibility. ([pestimpact.org](https://pestimpact.org/?utm_source=openai))\n\n**5. ABC Home & Commercial Services**\n\nABC offers pest control services in Texas and parts of Florida. Their comprehensive services include pest management, lawn care, and home maintenance. ABC is recognized for its customer-centric approach and commitment to using environmentally responsible products. ([abchomeandcommercial.com](https://www.abchomeandcommercial.com/service-by-location/pest-control-near-you?utm_source=openai))\n\nWhen choosing a pest control provider, consider the following factors:\n\n- **Local Expertise:** Companies familiar with regional pest issues can offer more effective solutions.\n\n- **Service Range:** Ensure the company addresses the specific pests you're concerned about.\n\n- **Customer Reviews:** Look for positive feedback regarding reliability, effectiveness, and customer service.\n\n- **Guarantees:** Check if the company offers satisfaction guarantees or warranties for their services.\n\nIt's advisable to contact multiple providers to compare services, pricing, and treatment plans to find the best fit for your needs. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:00:26+00:00",
+  "has_unknown": true
+}

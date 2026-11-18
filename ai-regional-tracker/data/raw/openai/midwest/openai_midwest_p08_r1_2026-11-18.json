@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When looking for pest control companies in the Midwest, specifically in Illinois, Ohio, and Michigan, here are some reputable options you might consider comparing:\n\n1. **Orkin**: Known for comprehensive pest control services and a strong nationwide presence. They offer solutions for a wide range of pests.\n\n2. **Terminix**: Offers extensive pest and termite control services. They have a strong reputation and extensive resources for dealing with various pest issues.\n\n3. **TruGreen**: While primarily known for lawn care, they also offer pest control services, particularly for outdoor pests.\n\n4. **Ehrlich Pest Control**: Offers tailored pest management solutions and has a good reputation for customer service.\n\n5. **Rose Pest Solutions**: A family-owned business with a long history in the Midwest. They provide a wide range of pest control services.\n\n6. **Aptive Environmental**: Focuses on environmentally friendly pest control solutions with an emphasis on sustainability.\n\n7. **Rove Pest Control**: Known for their customized pest control plans and strong customer service in the Midwest region.\n\n8. **Truly Nolen**: Offers a “Four Seasons” approach to pest control, adapting services based on seasonal pest patterns.\n\nWhen comparing these companies, consider factors such as:\n\n- **Services Offered**: Ensure they cover the specific pests you're dealing with.\n- **Pricing**: Get quotes from multiple companies to compare costs.\n- **Reputation**: Look for reviews and testimonials from other customers in your area.\n- **Guarantees**: Check if they offer any satisfaction guarantees or warranties.\n- **Environmental Practices**: If this is important to you, inquire about their use of eco-friendly products.\n\nIt's a good idea to contact a few of these companies to discuss your specific needs and get estimates to make an informed decision.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:08:27+00:00",
+  "has_unknown": true
+}

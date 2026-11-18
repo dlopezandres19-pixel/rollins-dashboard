@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When looking for pest control across the Western United States—specifically California, Washington, and Arizona—the best choice often depends on whether you want a large national provider with standardized guarantees or an established regional specialist tailored to local pest challenges (like scorpions in the desert or rodents in the Pacific Northwest).\n\nHere are the top-rated pest control companies serving these states:\n\n---\n\n### 1. Best Western Regional Specialists (Top Local Picks)\n\n#### **Arizona**\n* **Burns Pest Elimination:** Headquartered in Arizona (Phoenix and Tucson), Burns is widely considered one of the top providers in the Southwest. They specialize in desert-specific problems, such as Arizona bark scorpions, subterranean termites, pack rats, and pigeon abatement. \n* **Truly Nolen Pest & Termite Control:** Founded in Tucson, Truly Nolen has deep roots in Arizona (and broad coverage in California). Known for their classic mouse-cars, they offer specialized desert pest plans, scorpion sealing, and seasonal four-season protocols.\n* **Responsible Pest & Scorpion Control:** A localized favorite in the Phoenix metro area focused heavily on scorpion prevention, sealing, and green-conscious formulations.\n\n#### **California**\n* **Clark Pest Control:** One of the largest and most trusted regional brands in California (from San Diego up through Northern California). They provide extensive general pest control, eco-friendly options, weed control, and specialized drywood and subterranean termite treatments.\n* **Western Exterminator:** An iconic Western brand with extensive operations across California and parts of Arizona and the Pacific Northwest. They excel in structural pest management, commercial services, and integrated pest management (IPM) for residential homes.\n\n#### **Washington**\n* **Eastside Exterminators:** A premier choice in the Greater Seattle and Western Washington area. Because the Pacific Northwest has significant rodent and moisture-pest issues, Eastside is famous for structural rodent exclusion, crawl space restoration, and carpenter ant treatments.\n* **Eden Advanced Pest Technologies:** Operating across Western Washington, Eden focuses on Integrated Pest Management (IPM), minimizing harsh chemical use while effectively targeting silverfish, spiders, rats, and moisture ants common in damp climates.\n\n---\n\n### 2. Best Multi-State & National Providers (Covering CA, WA, & AZ)\n\nIf you prefer a large company with 24/7 customer service, uniform guarantees, and robust mobile scheduling apps, these are the top contenders across all three states:\n\n* **Orkin:** \n  * **Best for:** Urgent infestations and rigorous technician training.\n  * **Highlights:** Every technician undergoes extensive training at their national center. They provide strong 30-day money-back guarantees, free re-treatments between visits, and detailed pest audit reports after every service.\n* **Terminix:** \n  * **Best for:** Termite protection and bundled plans.\n  * **Highlights:** Particularly strong in California and Arizona where termites cause significant structural damage. Their *PestFree365* program covers dozens of common pests year-round with termite plan add-ons.\n* **Aptive Environmental:** \n  * **Best for:** Eco-conscious perimeter maintenance.\n  * **Highlights:** Very active across suburban neighborhoods in California, Washington, and Arizona. They use naturally derived pyrethrin-based products and focus on exterior yard and perimeter barriers rather than indoor spraying.\n\n---\n\n### Regional Pest Needs to Keep in Mind\n\n* **Arizona:** Prioritize companies that explicitly offer **scorpion sealing** (home exclusion) and **black widow/termite** defense. Standard perimeter sprays often don't stop bark scorpions.\n* **California:** Ensure the provider has a strong **termite license** (Structural Pest Control Board Branch 3), as both subterranean and drywood termites are widespread. \n* **Washington:** Focus on **rodent exclusion** (rats/mice) and **carpenter ants**. Chemical spraying alone won't solve rat problems; you need a company that seals entry points and checks crawl spaces.\n\n### Tips Before Hiring\n1. **Check the local branch reviews:** With large franchises (Orkin, Terminix, Aptive), technician quality can vary significantly by branch. Check Google Maps or Yelp reviews for your exact city.\n2. **Ask about free re-treatments:** Make sure ongoing subscription plans include free service calls if pests return between regular quarterly visits.\n3. **Get multiple termite quotes:** If dealing with termites in CA or AZ, always get at least two or three physical inspections before committing to fumigation or structural spot treatments.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Truly Nolen",
+  "top3_brands": [
+    "Truly Nolen",
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:42:44+00:00",
+  "has_unknown": true
+}

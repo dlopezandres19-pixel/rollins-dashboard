@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "Because the Southeastern US (especially Florida, Georgia, and Texas) deals with year-round pest pressure—most notably subterranean and Formosan termites, palmetto bugs, fire ants, and mosquitoes—choosing a company with deep regional expertise is essential. \n\nThe best pest control companies serving Florida, Georgia, and Texas generally fall into two categories: top-tier regional specialists and established national brands.\n\n---\n\n### Top Regional Picks (Best for the Southeast)\n\n#### 1. Massey Services – *Best Overall for Florida, Georgia & Texas*\n* **Headquarters:** Maitland, FL  \n* **Coverage:** Huge presence across Florida, Georgia, and Texas.\n* **Why Choose Them:** Massey is tailor-made for Sunbelt homes. Unlike national chains that apply one-size-fits-all treatments, Massey focuses on exterior perimeter treatments designed to keep high-humidity pests (like roaches, spiders, and ants) outside before they enter. \n* **Perks:** They offer excellent bundled packages combining general pest control, termite protection, mosquito suppression, and even lawn/irrigation care.\n\n#### 2. Arrow Exterminators – *Best Customer Service & Eco-Friendly Options*\n* **Headquarters:** Atlanta, GA  \n* **Coverage:** Extensive across Georgia and Florida, with strong coverage in Texas metro areas.\n* **Why Choose Them:** Arrow is one of the largest privately held pest control companies in the US. They are widely praised for superior customer service compared to massive corporate brands. They use an Integrated Pest Management (IPM) approach called \"STEPS,\" which minimizes chemical exposure inside living spaces.\n* **Perks:** Strong termite damage warranties and specialized wildlife exclusion (e.g., roof rats and squirrels, which are common in Southern attics).\n\n#### 3. ABC Home & Commercial Services – *Top Pick If You Are in Texas*\n* **Headquarters:** Austin, TX  \n* **Coverage:** Throughout Texas (plus parts of Florida via partner networks).\n* **Why Choose Them:** If your home is in Texas, ABC is an institution. They have decades of experience dealing with Texas-specific issues like scorpions, fire ants, and drywood/subterranean termites. Like Massey, they can bundle pest control with HVAC, pool, and lawn services.\n\n---\n\n### Top National Picks (Best Availability & Termite Bonds)\n\n#### 4. Orkin – *Best Technician Training & General Pest Guarantee*\n* **Headquarters:** Atlanta, GA  \n* **Coverage:** Ubiquitous across FL, GA, and TX.\n* **Why Choose Them:** Orkin invests heavily in entomologist-backed employee training. If you have an aggressive or hard-to-diagnose infestation (such as German roaches, bed bugs, or carpenter ants), Orkin’s targeted treatments are tough to beat.\n* **Perks:** 30-day money-back guarantee and free return visits between scheduled treatments if pests return.\n\n#### 5. Terminix – *Best for Subterranean & Formosan Termite Protection*\n* **Coverage:** Widespread across all three states.\n* **Why Choose Them:** In the humid South, termite protection is practically mandatory. Terminix built its brand around termite eradication and offers the **Nix Pest Guarantee** along with robust baiting and liquid barrier treatments (like the Sentricon system).\n* **Watch out for:** Service quality can vary branch by branch, so check the Google/Yelp reviews for your specific local office.\n\n---\n\n### How to Decide Which Is Right for You\n\n1. **Prioritize the Termite Bond:** In FL, GA, and TX, termites cause more structural damage than storms. Ask any provider whether their termite contract covers **\"Retreatment and Repair\"** or **\"Retreatment Only.\"** Always aim for retreatment *and* repair coverage.\n2. **Focus on Perimeter Defense:** Southern pest control is most effective when done regularly around the foundation, eaves, and mulch beds (quarterly or bimonthly) so chemicals rarely need to be sprayed indoors.\n3. **Compare Quotes:** Call **Massey or Arrow** (for regional care) and **Orkin or Terminix** (for national backing) to get free inspections and quotes. Most will match or beat a competitor's initial setup fee.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:16:08+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control provider in the West—specifically across California, Washington, and Arizona—it helps to compare a mix of **large multi-state brands** and **strong regional/state specialists**. Pest pressures vary dramatically across these three states (from damp-climate carpenter ants in Washington to drywood termites in California and bark scorpions in Arizona), so local expertise is critical.\n\nHere are the top providers to compare, broken down by footprint and specialty:\n\n---\n\n### 1. The Major Multi-State & National Contenders\nThese providers operate widely across California, Washington, and Arizona, offering standard service guarantees and 24/7 customer support.\n\n* **Orkin**\n  * **Footprint:** Extensive in CA, WA, and AZ.\n  * **Best For:** Comprehensive pest protection, specialized termite treatments, and bed bug eradication.\n  * **Key Strengths:** Strict employee training (Purdue University-affiliated curriculum), strong 30-day money-back guarantee, and free re-treatments between visits. \n  * **Consideration:** Tends to be on the higher end for pricing, and quotes typically require an on-site inspection or detailed phone intake.\n\n* **Terminix**\n  * **Footprint:** Massive network across all three states.\n  * **Best For:** Termite management (subterranean and drywood) and bundled whole-home plans.\n  * **Key Strengths:** Industry-leading termite warranties (the Nix Pest Guarantee) and easy online scheduling/account management.\n  * **Consideration:** Quality of customer service can vary significantly depending on the local branch management.\n\n* **Western Exterminator (Part of Rentokil)**\n  * **Footprint:** One of the most established legacy brands in the Western U.S., particularly across California and Arizona, with partner operations in the Pacific Northwest.\n  * **Best For:** Broad Western pest expertise and integrated pest management (IPM).\n  * **Key Strengths:** Deep familiarity with unique Western pests, commercial-grade tools adapted for residential use, and strong wildlife control services.\n\n* **Aptive Environmental**\n  * **Footprint:** High presence in suburban neighborhoods across CA, WA, and AZ.\n  * **Best For:** General perimeter pest prevention (ants, spiders, crickets, wasps).\n  * **Key Strengths:** Focus on lower-toxicity, pyrethrin-derived botanical treatments; unlimited re-services between scheduled visits.\n  * **Consideration:** Aptive focuses primarily on general exterior pests—they **do not** treat termites, bed bugs, or severe wildlife infestations, and usually require a minimum one-year contract.\n\n---\n\n### 2. High-Value Regional Specialists (By State)\nOften, regional companies provide better pricing, shorter contract commitments, and deeper knowledge of your specific microclimate.\n\n#### **California**\n* **Clark Pest Control:** One of California’s largest and most reputable pest management companies (especially strong in Northern and Central California). Excellent for year-round pest defense, bed bugs, and drywood termite fumigation/tenting.\n* **Lloyd Pest Control:** A major presence across Southern California (San Diego, Orange County, Los Angeles) with strong ratings for termite inspections, heat treatments, and rodent exclusion.\n\n#### **Arizona**\n* **Truly Nolen:** Headquartered in Tucson, they are deeply rooted in Arizona with iconic pest-control coverage. Their four-season protocol is specifically engineered to handle desert pest life cycles (ants, roaches, scorpions, rodents).\n* **Blue Sky Pest Control / Burns Pest Elimination:** Highly rated regional outfits in the Phoenix and Tucson metros that specialize in **bark scorpions**, desert subterranean termites, and pigeon abatement—three major Arizona-specific headaches.\n\n#### **Washington**\n* **Cascade Pest Control:** Known across the Puget Sound region for eco-conscious, low-impact treatments. They specialize in the moisture-driven pests common to the Pacific Northwest: **carpenter ants, moisture ants, rats, and mice**.\n* **Eden Advanced Pest Technologies (Rentokil):** Well-established PNW provider known for environmentally responsible integrated pest management and rodent-proofing older coastal/wooded homes.\n\n---\n\n### Comparison Checklist: Questions to Ask Before Signing\n\n1. **Does the basic plan cover your area's \"signature\" pests?**\n   * *In AZ:* Is scorpion control included, or does it require an upcharge?\n   * *In CA & AZ:* How are subterranean or drywood termites handled (annual inspection vs. separate warranty)?\n   * *In WA:* Does the plan include ongoing rodent monitoring and carpenter ant warranties?\n2. **What is the free re-service policy?** \n   * Reputable services should guarantee free visits between regular quarterly appointments if",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:50:48+00:00",
+  "has_unknown": true
+}

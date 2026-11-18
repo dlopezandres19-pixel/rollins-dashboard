@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control provider in the Southeast US, it's a good idea to compare several companies to find the best fit for your needs. Here are some well-regarded options to consider:\n\n1. **Terminix**: Known for comprehensive pest control services, including termite and bed bug treatments. They have a strong presence in the Southeast.\n\n2. **Orkin**: Offers a wide range of pest control solutions with a focus on prevention and environmentally friendly practices.\n\n3. **Arrow Exterminators**: A family-owned company based in the Southeast, providing personalized service and a variety of pest control options.\n\n4. **Truly Nolen**: Offers innovative pest control solutions and covers a wide range of pests.\n\n5. **Massey Services**: A regional provider known for excellent customer service and customized pest control plans.\n\n6. **Ehrlich Pest Control**: Part of the Rentokil family, they offer extensive pest management solutions and have a strong reputation for quality service.\n\nWhen comparing these companies, consider factors such as:\n\n- **Types of Services Offered**: Make sure they cover the specific pests you're dealing with.\n- **Pricing**: Get quotes and compare costs.\n- **Customer Reviews**: Look for feedback on reliability and effectiveness.\n- **Guarantees**: Some companies offer satisfaction guarantees or free follow-up treatments.\n\nContact each company for more specific information about their services in your area.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:02:37+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Southeast and Gulf Coast (Florida, Georgia, and Texas), pest control needs are distinct: high humidity, warm winters, and sandy soils create year-round pressure from subterranean and Formosan termites, American cockroaches (\"palmetto bugs\"), fire ants, and mosquitoes. \n\nHere are the top-recommended pest control companies for this region, broken down by regional specialists and national providers:\n\n---\n\n### 1. Top Regional Specialists (Often the Best Balance of Service & Local Expertise)\n\n*   **Arrow Exterminators (Best Overall for GA, FL, and TX)**\n    *   **Headquarters:** Atlanta, GA\n    *   **Why they stand out:** Arrow is one of the largest privately held pest control companies in the country, with deep roots across Georgia, Florida, and Texas. They use an Integrated Pest Management (IPM) approach called STEPS (Sustainability Through Environmental Pest Solutions), focusing on exterior barriers to keep chemicals out of the house. \n    *   **Best for:** Termite protection (including Sentricon baiting systems), wildlife exclusion, and general pest control with a strong customer service reputation.\n\n*   **Massey Services (Best for Combined Pest, Lawn, and Termite Care)**\n    *   **Headquarters:** Orlando, FL\n    *   **Why they stand out:** Massey dominates Florida and has a substantial, growing presence in Georgia and Texas. They specialize in a \"preventative exterior\" model, meaning they focus on treating the perimeter so technicians rarely need to treat inside your living areas.\n    *   **Best for:** Homeowners who want a single vendor for indoor pest control, termite bonds, mosquito reduction, and warm-season lawn/irrigation care.\n\n*   **ABC Home & Commercial Services (Best if you are in Texas)**\n    *   **Headquarters:** Austin, TX (with large hubs across Dallas, Houston, San Antonio, and parts of FL)\n    *   **Why they stand out:** A family-owned Texas staple for decades. ABC is widely regarded by Texas homeowners as the gold standard for responsiveness, local pest knowledge (including scorpions and fire ants), and comprehensive home services.\n    *   **Best for:** Texas homeowners looking for established local expertise and bundled home maintenance.\n\n---\n\n### 2. Top National Providers (Best for Widespread Availability & Guarantees)\n\n*   **Orkin (Best for Severe Infestations & Training Standards)**\n    *   **Headquarters:** Atlanta, GA\n    *   **Why they stand out:** Orkin’s training program (often developed alongside university entomologists) is arguably the strictest in the industry. If you have an active, difficult infestation—such as bed bugs, German cockroaches, or rodents—Orkin technicians are consistently well-equipped to diagnose the source.\n    *   **Best for:** Targeted problem-solving, 24/7 customer support, and their robust 30-day money-back guarantee.\n\n*   **Terminix (Best for Widespread Termite Coverage)**\n    *   **Footprint:** Heavy saturation across every major metro in FL, GA, and TX.\n    *   **Why they stand out:** In the Southeast, termite damage is a matter of *when*, not *if*. Terminix built its name on termite management and offers comprehensive subterranean and drywood termite plans, including coverage for repair costs if new damage occurs under an active bond.\n    *   **Best for:** Transferable termite bonds when buying/selling a home, and bundling general pest control with termite baiting.\n\n---\n\n### What to Look for in the Southeast Before Signing:\n\n1.  **A True Termite Bond/Warranty:** Standard home insurance does *not* cover termite damage. Ensure any termite contract explicitly covers **Formosan subterranean termites** (prevalent in the coastal and southern parts of TX, GA, and FL) and clarifies whether it covers **retreatment only** or **retreatment and repair of new structural damage**.\n2.  **Exterior-First Service Schedules:** Because pests reproduce year-round in the South, quarterly or bi-monthly exterior perimeter treatments are generally far more effective than one-off interior spraying.\n3.  **Local Branch Reviews:** Pest control quality is ultimately defined by the specific technician servicing your route. Get quotes from 2–3 of the providers above, but verify the Google ratings of the specific local branch servicing your ZIP code before locking into an annual contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:13:32+00:00",
+  "has_unknown": true
+}

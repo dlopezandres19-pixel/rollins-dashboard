@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "Choosing the right pest control company in the Northeast (NY, NJ, PA) often comes down to deciding between **well-established regional specialists**—which know the local architecture, seasonal pests, and rodent pressures intimately—and **large national providers** with broad service guarantees.\n\nHere are the top-rated pest control companies to consider for homes in New York, New Jersey, and Pennsylvania:\n\n---\n\n### 1. Top Regional Providers (Best Local Expertise)\n\n* **Western Pest Services** *(NY, NJ, PA)*\n  * **Best For:** Overall local reliability and comprehensive home protection.\n  * **Why Choose Them:** Founded in the Mid-Atlantic, Western Pest is one of the most trusted names in the tri-state area. Their technicians are trained specifically on common Northeast issues—such as cold-weather rodent intrusions, carpenter ants, and seasonal stink bugs/spotted lanternflies. \n* **Viking Pest Control** *(NJ, PA, and parts of NY)*\n  * **Best For:** Modern rodent control and eco-conscious treatments.\n  * **Why Choose Them:** A regional powerhouse with heavy coverage in New Jersey and Pennsylvania. They use Anticimex SMART technology, an electronic, non-toxic rodent monitoring and trapping system that tracks activity 24/7 without placing poison bait around your home.\n* **Ehrlich Pest Control** *(PA, NJ, NY)*\n  * **Best For:** Termite management and year-round preventative plans.\n  * **Why Choose Them:** Ehrlich originated in Pennsylvania and has served the Northeast for over 90 years (now part of Rentokil). Their \"PestFree365\" plan covers more than 35 common household pests, including bed bugs and stinging insects, with free call-backs between scheduled visits.\n\n---\n\n### 2. Top National Providers (Best for Widespread Availability & Warranties)\n\n* **Orkin**\n  * **Best For:** Specialized pest treatments (bed bugs, complex infestations) and tech training.\n  * **Why Choose Them:** Orkin invests heavily in technician training and entomology science. They offer a strong **30-day money-back guarantee** and free re-treatments between visits if pests return. They have multiple branches across all three states, making scheduling quick and accessible.\n* **Terminix**\n  * **Best For:** Subterranean termite protection and package pricing.\n  * **Why Choose Them:** If you suspect termite damage—a common issue in older Northeast wood-frame homes—Terminix offers some of the most robust termite inspection, baiting (Sentricon), and structural repair guarantees in the industry.\n\n---\n\n### 3. Best for the NYC Metro Area\n\n* **MMPC (Metropolitan Multi-Pest Control)**\n  * **Best For:** Eco-friendly treatments and bed bug canine inspections in NYC/Long Island/Northern NJ.\n  * **Why Choose Them:** If you live in an urban environment or apartment/brownstone, MMPC has a strong reputation for pesticide-conscious IPM (Integrated Pest Management) and highly accurate certified canine scent detection for bed bugs.\n\n---\n\n### How to Pick the Right One for Your Home\n\n1. **Target the Pest Type:**\n   * **Rodents (Mice/Rats):** Choose a company that focuses on **exclusion** (sealing entry points in basements and crawlspaces) rather than just leaving bait boxes. *Viking* and *Western* excel here.\n   * **Termites:** Choose a company offering a damage repair guarantee (like *Terminix* or *Ehrlich*).\n   * **Carpenter Ants & Spotted Lanternflies:** Local regional companies usually have specialized seasonal perimeter treatments designed for the Northeast's wooded suburbs.\n2. **One-Time vs. Annual Plan:**\n   * If you have an active infestation of a specific pest (like wasps or fleas), ask for a **one-time service with a 30- to 90-day warranty**.\n   * If you live near woods or an older home prone to seasonal mice, a **quarterly maintenance plan** (which includes free return visits if pests reappear) is generally more cost-effective.\n3. **Get At Least Two Quotes:** \n   * Pricing in the Northeast varies significantly depending on lot size, foundation type (stone basements often cost more to rodent-proof), and proximity to metro areas. Most will provide free baseline quotes over the phone or after an initial on-site inspection.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:27:07+00:00",
+  "has_unknown": true
+}

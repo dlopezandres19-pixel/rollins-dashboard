@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Choosing a pest control company in the Western US involves considering factors like services offered, customer reviews, and specific needs. Here are some options to consider:\n\n1. **Orkin**: Known for comprehensive pest control services, including termite and bed bug treatment. They have a strong presence in California, Washington, and Arizona.\n\n2. **Terminix**: Offers extensive pest control services and has a good reputation for customer service. They provide services in all three states.\n\n3. **Western Exterminator**: A well-known company in California and Washington, offering personalized pest management plans.\n\n4. **Truly Nolen**: Family-owned company with innovative solutions and a strong presence in Arizona and California.\n\n5. **Local Companies**: Sometimes, local companies offer more personalized service. Look for local reviews or ask neighbors for recommendations.\n\nBefore making a decision, consider:\n\n- **Service Guarantees**: Check if they offer satisfaction guarantees or free return visits.\n- **Eco-Friendly Options**: Look for companies offering green or eco-friendly pest control solutions.\n- **Customer Reviews**: Research online reviews to gauge customer satisfaction.\n- **Free Inspections or Quotes**: Many companies offer free inspections or quotes, which can help you compare prices and services.\n\nMake sure to contact a few companies to discuss your specific needs and get quotes before choosing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:10:45+00:00",
+  "has_unknown": true
+}

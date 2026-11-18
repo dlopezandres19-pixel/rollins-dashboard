@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control company in the Northeast US, including New York, New Jersey, and Pennsylvania, consider the following well-regarded companies:\n\n1. **Terminix**: Known for comprehensive pest control services, including termite and bed bug treatments. They offer customized plans and have a strong reputation nationwide.\n\n2. **Orkin**: Offers a wide range of pest control services with a focus on prevention and protection. They provide free inspections and have a well-established presence in the Northeast.\n\n3. **Ehrlich Pest Control**: A local favorite in the Northeast, Ehrlich provides personalized pest management solutions and has been in business for over 90 years.\n\n4. **Western Pest Services**: Offers tailored pest control plans and is known for excellent customer service. They are well-established in New Jersey and Pennsylvania.\n\n5. **JP McHale Pest Management**: Based in New York, they offer eco-friendly options and are known for their expertise in dealing with local pest issues.\n\n### Tips for Choosing the Right Company:\n\n- **Check Reviews**: Look at customer reviews and ratings on platforms like Google, Yelp, or the Better Business Bureau.\n  \n- **Get Multiple Quotes**: Compare prices and services to ensure you're getting a fair deal.\n\n- **Ensure Licensing and Insurance**: Verify that the company is properly licensed and insured in your state.\n\n- **Ask About Guarantees**: Some companies offer guarantees on their services, which can provide peace of mind.\n\n- **Inquire About Methods**: If you prefer eco-friendly or specific treatment methods, ask about their approach.\n\nBy considering these options and tips, you can find a pest control service that suits your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:04:40+00:00",
+  "has_unknown": true
+}

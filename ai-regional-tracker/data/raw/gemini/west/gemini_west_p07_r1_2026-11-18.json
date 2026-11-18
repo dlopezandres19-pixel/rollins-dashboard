@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "For homeowners across the Western United States, pest pressures vary wildly—from carpenter ants and damp-weather rodents in Washington, to Argentine ants and drywood termites in California, to bark scorpions and pack rats in Arizona. \n\nBecause of these diverse regional challenges, the best service usually comes down to either **top-tier national providers** with standard guarantees or **established Western regional specialists** that understand local pest biology.\n\n---\n\n### 1. Best Overall National Providers (Available in CA, WA, and AZ)\n\n#### **Orkin** – *Best for Complex Infestations & Training*\n* **Why it stands out:** Orkin is widely regarded for having the most rigorous technician training program in the industry (including hands-on simulations at the Orkin Institute). They rely heavily on **Integrated Pest Management (IPM)**, which focuses on exclusion, monitoring, and targeted treatment rather than just spraying broad pesticides.\n* **Best for:** Difficult, stubborn infestations (bed bugs, complex termite colonies, German roaches) and homeowners who want a consistent, heavily vetted technician.\n* **Coverage:** Fully active across all three states.\n\n#### **Terminix** – *Best for Termite Protection & Comprehensive Bundles*\n* **Why it stands out:** California and Arizona have some of the highest termite activity in the country (both subterranean and drywood). Terminix offers industry-leading termite warranties (the Nix Pest Guarantee / Nix Damage Guarantee), which can cover repair costs for new damage caused while under an active plan.\n* **Best for:** Homeowners primarily concerned with wood-destroying organisms or who want bundled pest + termite protection.\n* **Coverage:** Massive branch network across California, Washington, and Arizona.\n\n---\n\n### 2. Best Regional Powerhouses & Specialists\n\nIn the West, regional operators often outperform national giants because their treatments are tailored specifically to local microclimates.\n\n#### **Western Exterminator (Rentokil)** – *Best Regional Reputation (CA & AZ)*\n* **Why it stands out:** Recognizable by their iconic “Little Man” logo, Western Exterminator has served the Western US since 1921. Because they were born in the West, their technicians are deeply knowledgeable about Western-specific pests like black widows, desert termites, Argentine ants, and roof rats.\n* **Best for:** California and Arizona homeowners who want the resources of a large company with decades of West Coast operational experience.\n\n#### **Clark Pest Control** – *Best for California Homeowners*\n* **Why it stands out:** Clark is one of the largest and most well-regarded residential pest and lawn-care providers in California (now part of the Rollins/Orkin family, but operated independently). They excel in managing Northern/Central California pests and offer strong eco-conscious and seasonal perimeter defense programs.\n* **Best for:** California residential properties, especially those needing combined lawn care, rodent proofing, and pest control.\n\n#### **Truly Nolen** or **Burns Pest Elimination** – *Best for Arizona (Desert Specialists)*\n* **Why they stand out:**\n  * **Truly Nolen** is headquartered in Tucson, Arizona. Their treatment schedules are built around the desert's four-season shifts, and their technicians excel at handling **bark scorpions, desert subterranean termites, and pack rats**.\n  * **Burns Pest Elimination** is a standout local favorite in Phoenix, Tucson, and Las Vegas. They are known for superior customer service and specialized **home scorpion-sealing services** (physically sealing weep screeds and entry points), which standard chemical treatments can't always solve.\n* **Best for:** Arizona homeowners dealing with desert-specific threats like venomous pests and severe heat-driven rodent migrations.\n\n#### **Eden Advanced Pest Technologies (or Sprague/Senske)** – *Best for Washington & Pacific Northwest*\n* **Why they stand out:** Washington requires a completely different approach due to persistent moisture and cooler temperatures. Eden (part of the Western/Rentokil network) focuses heavily on **carpenter ants, subterranean termites, moisture ants, and rats (roof rats and Norway rats)**, which thrive around Puget Sound and Eastern Washington.\n* **Best for:** Pacific Northwest homes dealing with moisture-loving pests and wood rot.\n\n---\n\n### 3. What to Consider Before Choosing\n\n1. **Target Pest vs. General Plan:**\n   * If you just need seasonal preventative spraying (spiders, house ants",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:49:03+00:00",
+  "has_unknown": true
+}

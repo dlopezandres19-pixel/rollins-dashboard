@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "For a home in Illinois, Ohio, or Michigan, the best choice often comes down to deciding between **well-established regional Midwest specialists** (which frequently have better customer service and localized pest expertise) and **large national chains** (which offer 24/7 support and standardized guarantees).\n\nHere are the top recommendations based on your location and specific needs:\n\n---\n\n### 1. Best Overall Regional Choice: **Rose Pest Solutions**\n* **Service Area:** Strong presence throughout Illinois, Michigan, Ohio, and Indiana.\n* **Why Choose Them:** Founded in 1860, Rose is the oldest pest management company in the nation and is deeply rooted in the Great Lakes region. They specialize in common Midwest structural pests (carpenter ants, mice, boxelder bugs, brown marmorated stink bugs, and stinging insects). \n* **Best For:** Homeowners who prefer a dedicated regional company with consistently higher local customer satisfaction ratings than the national mega-chains.\n\n### 2. Best for Rodents & Wildlife: **Plunkett’s Pest Control / Varment Guard**\n* **Service Area:** Widespread across Ohio, Michigan, and Illinois.\n* **Why Choose Them:** Varment Guard (part of the Plunkett’s family) is particularly well known across Ohio and Michigan not just for insects, but for nuisance wildlife (raccoons, bats, squirrels, skunks) and aggressive rodent control, which are common issues in both rural and suburban Midwest homes during autumn.\n* **Best For:** Older homes, heavily wooded lots, or properties dealing with mice and wildlife intrusions in crawlspaces/attics.\n\n### 3. Best Regional Choice for Illinois (Chicago & Suburbs): **Anderson Pest Solutions**\n* **Service Area:** Greater Chicago, Northern Illinois, and parts of the Midwest.\n* **Why Choose Them:** Anderson is widely regarded for fast dispatch and strong residential service programs (\"Natural Choice Home Protection\") across northern Illinois. \n* **Best For:** Illinois suburban homeowners looking for tailored, quarterly maintenance plans.\n\n---\n\n### Top National Providers (If Local Branches Aren't Available)\n\nIf you live in an outlying area where regional specialists don’t service, the two leading national options are:\n\n* **Orkin:** \n  * **Why:** Considered the gold standard among national chains for technician training. They offer a reliable 30-day money-back guarantee and complimentary return visits between scheduled treatments if pests reappear.\n  * **Best For:** Fast emergency response, bed bugs, and general year-round pest defense.\n* **Terminix:**\n  * **Why:** Broadest coverage and generally the most comprehensive specialized plans for **termites** (particularly relevant in Central/Southern Illinois and Southern Ohio, where subterranean termites are prevalent).\n  * **Best For:** Termite treatments/monitoring and bundled pest/termite contracts.\n\n---\n\n### What to Consider for the Midwest Climate\n\nMidwest weather creates distinct pest cycles that your chosen company should actively address:\n1. **Late Summer / Fall Invasions:** Boxelder bugs, Western conifer seed bugs, brown marmorated stink bugs, and field mice will attempt to enter siding and attics before freezing weather hits. Look for companies that emphasize **perimeter defense and exclusion work in August–October**.\n2. **Spring Thaw:** Carpenter ants thrive in moist, winter-damaged wood (especially common in Michigan and northern Ohio). Make sure your quarterly plan includes wood-destroying insect inspections.\n3. **Contracts vs. One-Time Service:** Beware of door-to-door pest companies (e.g., Aptive) that push multi-year contracts with steep cancellation fees. Always ask if service plans can be cancelled without penalty.\n\n### Recommendation Summary\n* **First choice:** Call **Rose Pest Solutions** (or **Varment Guard** if dealing with animals/rodents) for a free quote or inspection.\n* **Second choice:** If regional providers don’t service your specific zip code, call your local **Orkin** branch.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:37:20+00:00",
+  "has_unknown": true
+}

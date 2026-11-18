@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "In the Northeast—specifically across New York, New Jersey, and Pennsylvania—homeowners face a unique mix of pests depending on whether they live in dense urban centers (rodents, bed bugs, roaches) or suburban and rural areas (ticks, carpenter ants, termites, mice, and stink bugs). \n\nWhen looking for residential pest control in this region, you have three primary categories of options: **prominent regional specialists**, **major national chains**, and **independent local operators**.\n\n---\n\n### 1. Leading Regional Pest Control Companies\nRegional providers often have deep, generational expertise with the local climate, building types (such as older Northeast colonial basements or brownstones), and seasonal pest cycles.\n\n* **Western Pest Services:** One of the most established names in the Mid-Atlantic, serving NY, NJ, PA, and DE. They handle standard preventative maintenance, wood-destroying insects (carpenter ants and termites), and rodent exclusion.\n* **Viking Pest Control:** Highly active in New Jersey, Pennsylvania, Delaware, and parts of New York. They are known for utilizing Integrated Pest Management (IPM) techniques, SMART digital rodent monitoring, and eco-friendly treatment options.\n* **Ehrlich Pest Control:** Founded in Pennsylvania and now part of the Rentokil family, Ehrlich has decades of history throughout the Northeast. They are known for comprehensive residential plans (their \"PestFree365+\" program) that cover seasonal pests year-round.\n* **Cooper Pest Solutions:** Strong presence across New Jersey and eastern Pennsylvania. They are known for scientifically driven pest prevention, fast emergency response, and specialized treatments for difficult pests like bed bugs and stink bugs.\n* **MMPC (New York Metro area):** If you are in NYC, Long Island, or northern NJ, MMPC is widely regarded as a top choice, particularly for bed bug detection (canine scent teams), rodent abatement, and eco-friendly, non-toxic IPM treatments.\n\n---\n\n### 2. Major National Chains\nNational companies offer standardized training, large fleets, 24/7 call centers, and broad guarantees across nearly every zip code in all three states.\n\n* **Orkin:** Best known for rigorous technician training, thorough home inspections, and a reliable 30-day money-back guarantee. They offer customized treatment plans (\"Orkin Points of Service\") and seasonal exterior barriers.\n* **Terminix:** Especially well-suited if you are dealing with **termites** (both subterranean termites and drywood) or major wildlife issues. They provide specialized termite warranties and comprehensive home perimeter plans.\n* **Aptive Environmental:** Popular in suburban developments across NY, NJ, and PA. Aptive focuses primarily on seasonal perimeter sprays (using pyrethrin-based products derived from chrysanthemums) covering general outdoor pests like spiders, wasps, and ants.\n\n---\n\n### 3. Service Models: Which Plan Do You Need?\n\n* **Quarterly / Seasonal Maintenance Plans:**\n  * *Best for:* General homeowners who want ongoing protection against ants, spiders, mice, and wasps.\n  * *How it works:* Technicians treat the exterior perimeter 4 times a year, adjusting for the season (e.g., tick/mosquito reduction in spring, ant barriers in summer, rodent exclusion in fall). Most plans include free touch-ups between visits if pests return.\n* **Targeted One-Time Treatments:**\n  * *Best for:* A sudden, specific infestation like a wasp nest, bed bugs, or a localized rodent issue.\n  * *Cost:* Usually higher upfront than a single quarterly visit, often with a 30- to 90-day warranty.\n* **Specialty Services:**\n  * **Tick & Mosquito Programs:** Typically run monthly from April through October (crucial in Lyme-disease-heavy areas like the Hudson Valley, northern NJ, and eastern PA).\n  * **Wildlife & Rodent Exclusion:** Sealing crawl spaces, rooflines, and foundations to keep out squirrels, raccoons, bats, and mice.\n\n---\n\n### Tips for Choosing in NY, NJ, or PA:\n\n1. **Verify State Licensing:** Make sure technicians are licensed by the appropriate state agency:\n   * **New York:** Department of Environmental Conservation (NYS DEC)\n   * **New Jersey:** Department of Environmental Protection (NJ DEP)\n   * **Pennsylvania:** Department of Agriculture\n2. **Ask About Re-treatment Guarantees:** Ensure that if pests come back between scheduled quarterly visits, the company returns to treat for free.\n3. **Inquire About Old-Home Knowledge:** If you live in an older Northeast home (fieldstone foundations, radiator pipes, shared party walls), ask explicitly about their rodent and insect exclusion methods, not just chemical spraying.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:31:25+00:00",
+  "has_unknown": true
+}

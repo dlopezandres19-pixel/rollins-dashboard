@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "When looking for pest control companies in the Northeast US, particularly in New York, New Jersey, and Pennsylvania, consider comparing the following providers:\n\n1. **Terminix**\n   - Known for comprehensive pest control services and a nationwide presence.\n\n2. **Orkin**\n   - Provides a wide range of pest control solutions with a focus on prevention and safe practices.\n\n3. **Ehrlich Pest Control**\n   - Offers personalized service plans and has a strong presence in the Northeast.\n\n4. **TruGreen**\n   - While primarily a lawn care company, they also offer pest control services.\n\n5. **Western Pest Services**\n   - Focuses on environmentally responsible pest management solutions.\n\n6. **ABC Pest Control**\n   - Known for tailored pest control plans and excellent customer service.\n\n7. **Arrow Pest Control**\n   - A family-owned business providing services in New Jersey with a focus on personalized care.\n\nWhen comparing these companies, consider the following factors:\n\n- **Services Offered:** Ensure they address your specific pest issues.\n- **Reputation:** Look for reviews and ratings online.\n- **Guarantees:** Check if they offer satisfaction guarantees or free follow-ups.\n- **Pricing:** Get quotes and compare pricing structures.\n- **Certifications and Licenses:** Verify that they are licensed and certified in your state.\n\nIt's also a good idea to ask for recommendations from friends or neighbors who have had similar pest issues.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:05:42+00:00",
+  "has_unknown": true
+}

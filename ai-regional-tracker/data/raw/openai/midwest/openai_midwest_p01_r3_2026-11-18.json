@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "If you're looking for pest control companies in the Midwest, particularly in Illinois, Ohio, and Michigan, here are some highly recommended options:\n\n1. **Orkin**: A well-known national brand with a strong presence in the Midwest. They offer comprehensive pest control services and have a reputation for reliability.\n\n2. **Terminix**: Another national leader in pest control, Terminix provides a wide range of services and has local branches throughout the Midwest.\n\n3. **Rose Pest Solutions**: Operating in the Midwest since 1860, Rose Pest Solutions is known for its effective and environmentally friendly pest control methods.\n\n4. **Plunkett’s Pest Control**: Based in Minnesota, Plunkett’s serves the entire Midwest region, including Illinois, Ohio, and Michigan, with a focus on personalized service.\n\n5. **Truly Nolen**: Offers innovative pest control solutions and has multiple locations across the Midwest.\n\n6. **Orkin Canada**: Although primarily Canadian, they have operations in the northern U.S. and provide quality pest control services.\n\n7. **Ehrlich Pest Control**: Part of the Rentokil family, Ehrlich has a strong Midwest presence and provides residential and commercial pest control solutions.\n\nWhen choosing a pest control company, consider factors like their specific services, customer reviews, pricing, and any guarantees they offer. It's also a good idea to get quotes from a few different companies to compare services and costs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Truly Nolen",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:06:40+00:00",
+  "has_unknown": true
+}

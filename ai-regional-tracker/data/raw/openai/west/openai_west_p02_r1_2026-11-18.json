@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "For pest control in the Western U.S., including California, Washington, and Arizona, here are a few reputable companies you might consider:\n\n1. **Orkin**: Known for their comprehensive pest control services, Orkin has a strong presence in the Western U.S. and offers customized solutions for various pest issues.\n\n2. **Terminix**: Another well-known company, Terminix provides services for a wide range of pests and has locations throughout the Western states.\n\n3. **Western Exterminator**: With a focus on the West Coast, Western Exterminator offers specialized pest control services and is known for its effective and environmentally friendly practices.\n\n4. **Massey Services**: Although more prevalent in the Southeast, Massey Services has expanded to the West and provides high-quality pest prevention and control services.\n\n5. **Local Companies**: Depending on your specific location within these states, local pest control companies might offer more personalized services. It's worth checking reviews and asking neighbors for recommendations.\n\nAlways make sure to check reviews, get multiple quotes, and ask about environmentally friendly options when choosing a pest control service.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:09:38+00:00",
+  "has_unknown": true
+}

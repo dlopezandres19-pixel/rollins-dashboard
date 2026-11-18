@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "When choosing a pest control provider in the Southeast (Florida, Georgia, and Texas), you face unique regional challenges—specifically high heat, humidity, year-round mosquito activity, and heavy pressure from **subterranean and Formosan termites** or large roaches (\"palmetto bugs\").\n\nHere are the top regional powerhouses and national providers you should compare, along with what each does best.\n\n---\n\n### 1. The Southeast Regional Leaders (Often the Best Balance of Size & Service)\n\n*   **Massey Services**\n    *   **Where they shine:** Headquartered in Orlando, FL, with a massive presence throughout Florida, Georgia, and Texas.\n    *   **Best for:** Bundled home care. Massey is well-known for offering integrated pest prevention, termite protection, mosquito control, and **lawn/landscape care**. If you want a single company to manage lawn fertilizing, irrigation, and interior/exterior pests, Massey is usually a top contender.\n*   **Arrow Exterminators**\n    *   **Where they shine:** Headquartered in Atlanta, GA, with extensive service centers across Georgia, Florida, and Texas.\n    *   **Best for:** Termite defense and customer satisfaction. Arrow consistently earns higher consumer review scores than the mega-chains. They use the **Sentricon** termite baiting system extensively and offer their comprehensive \"STEPS\" (Sustainable Technology & Environmental Pest Solutions) program.\n*   **ABC Home & Commercial Services**\n    *   **Where they shine:** A Texas institution (Austin, Houston, DFW, San Antonio) that has also expanded into parts of Florida. \n    *   **Best for:** Texas homeowners looking for broad home services. Like Massey, ABC offers pest and termite solutions alongside AC repair, plumbing, and lawn maintenance, backed by strong local community trust.\n\n---\n\n### 2. The Major National Providers (Maximum Availability & Deep Resources)\n\n*   **Orkin**\n    *   **Where they shine:** Founded in Georgia (Atlanta headquarters), with branches in nearly every ZIP code across FL, GA, and TX.\n    *   **Best for:** Rigorous technician training and targeted pest treatments. Orkin technicians complete extensive entomology training. Their 30-day money-back guarantee and complimentary retreatments between scheduled visits are standard and dependable.\n*   **Terminix**\n    *   **Where they shine:** Huge historical Southern footprint; now part of the Rentokil family.\n    *   **Best for:** Termite coverage and dedicated termite bonds. Because termites are such a critical threat in the coastal and Southern climates, Terminix’s **Nix Termite Plan** (and their damage repair guarantees) makes them worth getting an estimate from for comparison.\n*   **Truly Nolen**\n    *   **Where they shine:** Very active in Florida and Texas (known for their mouse-eared service vehicles).\n    *   **Best for:** Seasonal pest protocols. Their \"Four Seasons\" approach adjusts chemical and barrier strategies depending on Southern weather cycles and insect reproduction patterns.\n\n---\n\n### 3. What to Specifically Compare in FL, GA, and TX\n\nWhen you get quotes (aim for 2 to 3 on-site inspections), compare them across these Southern-specific factors:\n\n1. **Termite Protection Type & Repair Guarantee:**\n   * In these states, you aren't just fighting standard eastern subterranean termites; you may have **Formosan subterranean termites**, which consume wood at a much faster rate.\n   * Ask whether they use a liquid barrier (**Termidor**) or bait stations (**Sentricon**).\n   * **Crucial question:** Does the termite agreement include a *retreatment-only* bond, or a **damage repair guarantee** (where the company pays to fix new structural wood damage)?\n2. **Frequency of Service:**\n   * Due to the warm climate, Southern pests don't go fully dormant in the winter. Look for programs that emphasize **exterior perimeter treatments** (bi-monthly or quarterly) so technicians rarely need to spray chemicals inside your living space once the initial infestation is controlled.\n3. **Targeted Pests Included:**\n   * Make sure the standard contract explicitly details which pests are covered. In these states, verify coverage for **palmetto bugs (American roaches)**, **fire ants**, and **carpenter ants**. Mosquitoes, bed bugs, and German cockroaches almost always require an extra add-on.\n4. **Contract Terms & Retreatment Policies:**\n   * Avoid companies that lock you into a multi-year auto-renewing contract without a free trial or a clear cancellation window.\n   * Confirm that **interim call-backs are 100% free**—if you see ants or roaches three weeks after a service, they should return at no charge.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:19:52+00:00",
+  "has_unknown": true
+}

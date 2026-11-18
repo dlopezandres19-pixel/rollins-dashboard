@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "When choosing residential pest control in the Western United States, options generally range from large national providers with extensive guarantees to prominent regional specialists tailored to distinct local climates—from the damp Pacific Northwest to the arid Sonoran Desert.\n\n---\n\n### 1. Top National & Multi-State Providers\nThese companies operate across California, Washington, and Arizona, offering standard quarterly or bi-monthly subscription plans, free re-service guarantees, and emergency visits:\n\n* **Orkin:** Ubiquitous across all three states. Best known for comprehensive inspections, strong technician training, and customized Integrated Pest Management (IPM) plans.\n* **Terminix:** Widespread across CA, WA, and AZ. Known for robust termite inspection/warranty programs (essential in the West) and whole-home exclusion services for rodents and wildlife.\n* **Western Exterminator (Rentokil family):** A historic Western staple with deep roots in California and Arizona, as well as branches in Washington. They specialize in local structural pests, termite treatments, and commercial/residential perimeter defense.\n* **Aptive Environmental:** A common residential option in Western suburban neighborhoods. They focus primarily on recurring exterior perimeter treatments using pyrethroid-based products, though they generally do not handle wood-destroying organisms (termites) or severe wildlife issues.\n\n---\n\n### 2. Best Regional Specialists by State\n\nBecause the ecosystems vary drastically across the West, regional operators often have specialized knowledge tailored to local pest biology:\n\n#### **California (Termites, Argentine Ants, Rodents, Spiders)**\n* **Clark Pest Control:** One of the largest regional names in California (from the Bay Area and Central Valley down to Southern California). They handle everything from routine insect control to full drywood termite fumigation and lawn care.\n* **Lloyd Pest Control:** A major presence in Southern California (San Diego, Orange County, Inland Empire) with strong reputations for termite management and rodent exclusion.\n\n#### **Washington (Carpenter Ants, Moisture Pests, Rats, Spiders)**\n* **Cascade Pest Control:** Serving the Puget Sound/Greater Seattle area, specializing in eco-conscious treatments, carpenter ant eradication, and rat/mouse abatement suited to the wet Pacific Northwest climate.\n* **Senske Services / Eden Advanced Pest Technologies:** Prominent in Eastern and Western Washington, offering integrated pest management suited to seasonal temperature swings.\n\n#### **Arizona (Bark Scorpions, Subterranean Termites, Roof Rats, Desert Roaches)**\n* **Truly Nolen:** Headquartered in Tucson, Arizona, with a massive presence statewide (and in CA). They are particularly well-known for scorpion control, termite treatments, and seasonal pest barrier programs.\n* **Burns Pest Elimination:** A leading Southwest provider operating throughout Phoenix and Tucson, specializing in desert pest challenges, pigeon abatement, and scorpion blacklight inspections.\n* **Blue Sky Pest Control:** A top-rated Phoenix-metro provider known for targeted scorpion sealing, exterior dusting, and tailored desert barrier treatments.\n\n---\n\n### 3. Service Models to Consider\n\n* **Recurring Maintenance (Bi-monthly or Quarterly):** The most common route. Technicians treat the exterior foundation, sweep eaves for webs/wasp nests, and inspect entry points. In Arizona, treatments are often bi-monthly due to intense heat degrading chemical barriers faster.\n* **Targeted Termite Services:** \n  * *California & Arizona:* Both subterranean and drywood termites are prevalent. Options range from localized heat/foam treatments to full tent fumigation.\n  * *Washington:* Subterranean and dampwood termites, along with carpenter ants, are treated primarily via liquid ground barriers, localized wood injections, or bait stations.\n* **Physical Exclusion (Rodents & Scorpions):** If dealing with roof rats (common in Phoenix and coastal California) or scorpions, chemical sprays alone are often insufficient. Many providers offer \"home sealing\" or exclusion services to physically close entry cracks larger than 1/8 inch.\n* **Eco-Friendly / Green Services:** Companies using botanical oils (e.g., rosemary, thyme) or targeted bait",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:52:15+00:00",
+  "has_unknown": true
+}

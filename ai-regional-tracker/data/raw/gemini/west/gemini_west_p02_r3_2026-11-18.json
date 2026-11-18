@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Because pest challenges vary drastically between the Pacific Northwest and the Southwest, the best pest control company often depends on whether you are dealing with damp-climate pests (like carpenter ants and rodents in Washington) or arid-climate pests (like bark scorpions, black widows, and desert termites in Arizona and California). \n\nHere are the top-recommended pest control companies for homeowners across California, Washington, and Arizona:\n\n---\n\n### 1. Best Overall for the Southwest (AZ & CA): **Truly Nolen Pest Control**\n* **Best For:** Desert pests, bark scorpions, roof rats, and termites.\n* **Why They Stand Out:** Headquartered in Tucson, Arizona, Truly Nolen is practically an institution in the Southwest. Their technicians are specifically trained in desert pest biology. \n* **Key Strengths:**\n  * Exceptional **scorpion protocols** (essential in AZ and parts of Southern CA), including blacklight inspections, sealing entry points, and treating block-wall perimeters.\n  * Their \"Four Seasons\" program adjusts treatments based on seasonal insect behavior in warm, dry climates.\n\n---\n\n### 2. Best Heritage Brand for the West Coast (CA & AZ): **Western Exterminator** (Rentokil)\n* **Best For:** Termite inspections/treatment, integrated pest management (IPM), and general pest maintenance.\n* **Why They Stand Out:** Founded in California over a century ago (famous for their \"Little Man\" mascot), Western Exterminator understands West Coast building structures better than almost anyone. They are widely available throughout California and Arizona.\n* **Key Strengths:**\n  * Industry leaders in **termite control** (drywood and subterranean), which is one of the costliest risks for California homeowners.\n  * Strong commercial and residential Integrated Pest Management (IPM), focusing on exclusion and structural prevention rather than just spraying chemicals.\n\n---\n\n### 3. Best All-Around National Provider (WA, CA, & AZ): **Orkin**\n* **Best For:** Consistent service across all three states, aggressive infestations, and emergency response.\n* **Why They Stand Out:** Orkin has strong branch coverage across the entire West—from Seattle and Spokane down to San Diego and Phoenix. Their technicians undergo rigorous, entomologist-designed training.\n* **Key Strengths:**\n  * **30-Day Money-Back Guarantee:** If pests return between your scheduled quarterly visits, they provide free re-treatments.\n  * Excellent for stubborn, high-stakes infestations like bed bugs, German cockroaches, and heavy rodent activity.\n\n---\n\n### 4. Best for Termites & Structural Warranties: **Terminix**\n* **Best For:** Whole-home termite protection plans and rodent exclusion.\n* **Why They Stand Out:** With massive coverage in California, Washington, and Arizona, Terminix is a top choice if your primary concern is wood-destroying organisms.\n* **Key Strengths:**\n  * Offers the **Termix Promise / Nix Guarantee**, which can include damage repair coverage if new termite damage occurs after treatment (policy terms depend on home qualification).\n  * Reliable bait station systems (Sentricon) and whole-structure fumigation capabilities in CA.\n\n---\n\n### 5. Notable State-Specific & Eco-Conscious Options\n\nDepending on your exact state, you may also want to look at regional leaders:\n\n* **In Washington:** Look into **Cascade Pest Control** or **Senske / Eden Pest**. The Pacific Northwest requires expertise in moisture-loving pests—specifically carpenter ants, dampwood termites, and heavy winter rodent pressure. Cascade is well-regarded for low-toxicity, eco-conscious methods that protect local watersheds.\n* **In California & Arizona:** Companies like **Aptive Environmental** are widely used for routine, suburban perimeter defense. They focus on synthetic pyrethroids (derived from chrysanthemum flowers), making them popular with pet owners who just need exterior barrier maintenance for common ants and spiders.\n\n---\n\n### How to Choose for Your Specific Home:\n\n1. **Ask About the Re-Service Policy:** With subscription plans, always confirm that **in-between visits are 100% free**. In places like AZ (summer scorpions) or WA (fall rodent surges), you will occasionally need follow-up sprays between quarters.\n2. **Beware the \"One-Size-Fits-All\" Contract:** If you only have a seasonal ant or wasp issue, ask for a single-treatment or short-term option before signing a 12-month auto-renewing contract.\n3. **Get Free Quotes:** In competitive markets across CA, WA, and AZ, major providers will frequently waive initial setup fees or match competitor inspection rates if you ask.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Truly Nolen",
+  "top3_brands": [
+    "Truly Nolen",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:44:29+00:00",
+  "has_unknown": true
+}

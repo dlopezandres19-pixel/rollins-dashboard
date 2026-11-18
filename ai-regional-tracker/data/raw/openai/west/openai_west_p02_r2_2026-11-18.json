@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "For pest control in the Western US, including California, Washington, and Arizona, here are a few reputable companies you might consider:\n\n1. **Orkin**: Known nationwide, Orkin offers comprehensive pest control services and has a strong presence in the Western states. They provide customized treatment plans and use integrated pest management techniques.\n\n2. **Terminix**: Another well-known company, Terminix offers a wide range of services for different types of pests. They focus on environmentally responsible methods and have branches throughout the West.\n\n3. **Western Exterminator**: With a specific focus on the Western US, Western Exterminator has a long history and provides specialized pest control solutions tailored to the region's unique pest challenges.\n\n4. **Ecola Termite and Pest Control**: Based in California, Ecola offers eco-friendly pest control options and specializes in termite treatments, which can be particularly useful in California's climate.\n\n5. **Green Pest Solutions**: If you're looking for environmentally friendly options, Green Pest Solutions offers services that focus on minimizing chemical use while effectively managing pests.\n\nWhen choosing a pest control service, consider factors such as the specific pests you’re dealing with, customer reviews, and the company’s approach to environmental safety. It's also a good idea to request quotes from a few companies to compare prices and services.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:09:43+00:00",
+  "has_unknown": true
+}

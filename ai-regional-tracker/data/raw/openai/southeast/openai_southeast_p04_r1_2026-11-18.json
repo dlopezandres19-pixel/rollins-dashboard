@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several leading residential pest control companies are well-regarded for their services:\n\n1. **Orkin**: Known for its comprehensive pest control services, Orkin has a strong presence in the Southeast. They offer solutions for a wide range of pests, including termites, bed bugs, and rodents.\n\n2. **Terminix**: Another major player, Terminix provides extensive pest management services with advanced technology and trained professionals. They are particularly known for termite protection.\n\n3. **Massey Services**: Based in Florida, Massey Services offers pest prevention, termite protection, and landscape services. They focus on environmentally friendly solutions.\n\n4. **Truly Nolen**: With a strong presence in Florida and beyond, Truly Nolen offers a variety of pest control services, including innovative treatments and preventative measures.\n\n5. **Arrow Exterminators**: Headquartered in Atlanta, Georgia, Arrow Exterminators provides comprehensive pest control solutions, including termite protection and mosquito control.\n\n6. **ABC Home & Commercial Services**: Particularly popular in Texas, ABC offers a wide range of pest control services and is known for its customer-centric approach.\n\nThese companies are recognized for their expertise, service quality, and customer satisfaction. It's always a good idea to check customer reviews and ask for estimates to find the best fit for your specific needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:01:20+00:00",
+  "has_unknown": true
+}

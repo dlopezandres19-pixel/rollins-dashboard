@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Southeast US (Florida, Georgia, Texas) should consider.",
+  "rep": 3,
+  "response_text": "Homeowners in Florida, Georgia, and Texas face unique pest pressures—namely extreme termite activity (especially Formosan and subterranean termites), roaches/palmetto bugs, fire ants, and mosquitoes. \n\nHere is a shortlist of the top pest control companies to consider across this region, including strong regional leaders and trusted national brands:\n\n---\n\n### 1. Arrow Exterminators (Best Overall Regional Provider)\n* **Footprint:** Headquartered in Atlanta, Georgia, with extensive operations throughout GA, Florida, and Texas.\n* **Why Consider Them:** Arrow is one of the largest privately held pest control companies in the country. Despite its size, it maintains strong local customer satisfaction scores compared to national conglomerates. \n* **Strengths:** \n  * Outstanding termite protection programs (including the Sentricon® system).\n  * Comprehensive home protection plans (STEPS® total protection system).\n  * Transparent contracts and strong retreat warranties.\n\n### 2. Massey Services (Best for Bundled Pest + Lawn Care)\n* **Footprint:** Headquartered in Orlando, Florida, with a massive presence across FL, GA, and TX.\n* **Why Consider Them:** In the Southeast, lawn care and exterior pest control go hand in hand. Massey is famous for exterior-focused perimeter treatments and bundled property care.\n* **Strengths:**\n  * One-stop shop: pest control, termite protection, mosquito abatement, and full lawn/irrigation care.\n  * Environmental approach: They focus on treating the perimeter of the home to keep chemicals outside rather than routinely spraying interiors.\n\n### 3. ABC Home & Commercial Services (Top Pick for Texas)\n* **Footprint:** Massive across Texas (Austin, Dallas-Fort Worth, Houston, San Antonio, Bryan/College Station), with some neighboring territory.\n* **Why Consider Them:** If you are in Texas, ABC is an iconic, family-owned institution with an exceptional reputation for reliability and local expertise.\n* **Strengths:**\n  * Deep local knowledge of Texas-specific pests (scorpions, Texas leafcutter ants, Formosan termites).\n  * Highly multi-service: Can handle pest, wildlife exclusion, lawn, and even HVAC/plumbing needs under one roof.\n\n### 4. Orkin (Best for Technical Expertise & Tough Infestations)\n* **Footprint:** Nationwide, with historical roots and corporate headquarters in Atlanta, Georgia. Dense coverage across all three states.\n* **Why Consider Them:** Orkin invests heavily in training (their technicians train at a dedicated institute in Georgia overseen by entomologists). They are often the best choice if you have an active, difficult-to-diagnose infestation.\n* **Strengths:**\n  * Rigorous 360-degree property inspections.\n  * Rapid emergency response times.\n  * Strong 30-day money-back satisfaction guarantees.\n\n### 5. Terminix (Best for Heavy Termite Warranties)\n* **Footprint:** Ubiquitous across FL, GA, and TX.\n* **Why Consider Them:** Termites cause billions in damage across the Gulf Coast and South Atlantic regions. Terminix has historically specialized in structural termite protection and offers some of the most robust, transferable damage-repair warranties in the industry.\n* **Strengths:**\n  * Extensive termite protection plans (covering both treatment and future structural repair costs).\n  * Easy-to-use digital portal for scheduling and tracking recurring treatments.\n\n---\n\n### Key Tips for Southeast Homeowners Before Signing:\n1. **Prioritize the Termite Bond:** In FL, GA, and TX, general pest spray is relatively standard, but your **termite agreement is critical**. Ask whether their bond is a *re-treatment only* warranty or a *repair and re-treatment* warranty (which pays for wood repair if termites cause damage under their watch).\n2. **Sentricon vs. Liquid Barrier:** Ask which method they use. Sentricon bait stations are common and non-invasive, while liquid treatments (like Termidor) create a chemical barrier in the soil around your foundation. Both are effective, but liquid may require drilling into porches or patios.\n3. **Get 2–3 Quotes:** Pricing for recurring quarterly maintenance ($35–$60/month on average) and termite installation ($800–$2,000+ depending on home perimeter) varies wildly. Most reputable companies will do a free initial inspection.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:21:58+00:00",
+  "has_unknown": true
+}

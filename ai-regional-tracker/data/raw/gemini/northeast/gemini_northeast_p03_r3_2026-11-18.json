@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "When choosing a residential pest control provider in New York, New Jersey, and Pennsylvania, homeowners generally have the best experience choosing between **established regional specialists** (who understand Northeast-specific pest cycles like ticks, carpenter ants, overwintering stink bugs, and urban rodents) and **major national brands** with strong local branch networks.\n\nHere are the most reputable pest control companies across the tri-state area:\n\n---\n\n### 1. Top Regional Powerhouses (Best Local Expertise)\n\n*   **Ehrlich Pest Control**\n    *   **Best for:** Pennsylvania and Upstate New York (also covers NJ)\n    *   **Why they’re reputable:** Founded in Reading, PA in 1928 (now part of Rentokil), Ehrlich has near-universal coverage in Pennsylvania and significant coverage in NY and NJ. They are widely regarded for their entomology-based approach, QualityPro certification, and strong preventative seasonal plans (their PestFree365 program).\n*   **Western Pest Services**\n    *   **Best for:** New Jersey, Eastern Pennsylvania, and the Greater NYC area\n    *   **Why they’re reputable:** Headquartered in Parsippany, NJ, Western has been serving the Mid-Atlantic since 1928. They have an excellent reputation for both suburban residential issues (ticks, carpenter ants, wasps) and dense residential/urban rodent problems. They employ board-certified entomologists and offer clear service guarantees.\n*   **Viking Pest Control**\n    *   **Best for:** New Jersey, Eastern PA, and Lower NY\n    *   **Why they’re reputable:** Viking (part of Anticimex) is one of the fastest-growing and most tech-forward regional providers in the area. They are known for eco-friendly IPM (Integrated Pest Management) techniques and their proprietary digital, non-toxic SMART rodent monitoring systems, making them popular for homes with pets and children.\n*   **Cooper Pest Solutions**\n    *   **Best for:** Central/South Jersey and Southeastern Pennsylvania (Philadelphia metro)\n    *   **Why they’re reputable:** Known for pioneering some of the most effective bed bug and overwintering pest (stink bugs, boxelder bugs) treatment protocols in the region. Their dedicated seasonal programs for mosquitoes and ticks are also highly rated by suburban homeowners.\n\n---\n\n### 2. Best for the NYC Metro Area\n\n*   **MMPC (formerly Manhattan Mouse Patrol)**\n    *   **Best for:** New York City (5 boroughs) and Long Island\n    *   **Why they’re reputable:** Consistently ranked among the top independent pest management firms in NYC. They specialize in eco-friendly pest control, certified bed bug canine inspections, and historic brownstone/apartment rodent exclusion, where standard outdoor spraying doesn't apply.\n*   **JP McHale Pest Management**\n    *   **Best for:** Westchester County, Putnam County, Hudson Valley, and Northern NJ\n    *   **Why they’re reputable:** Highly regarded in the northern suburbs of NYC for tick/mosquito yard treatments, carpenter ant remediation, and wildlife exclusion.\n\n---\n\n### 3. Top National Providers (Widest Availability & Consistent Guarantees)\n\nIf you live in a rural or outer-suburban area where regional firms might have limited service routes, the top two national providers maintain a heavy branch presence across all three states:\n\n*   **Orkin**\n    *   **Strengths:** Industry-leading technician training programs (including specialized training on local pest biology), QualityPro certification, and a straightforward 30-day money-back guarantee with free re-treatments between scheduled visits.\n*   **Terminix**\n    *   **Strengths:** Best-in-class termite inspection and baiting systems (especially relevant for older Northeast wood-frame homes), comprehensive rodent exclusion services, and extensive coverage throughout all three states.\n\n---\n\n### Tips for Deciding:\n1. **Target the Right Plan:** If you want year-round peace of mind against general pests, look for quarterly barrier plans (e.g., Ehrlich's *PestFree365* or Western's residential plans). If you only have a one-off issue (like a hornet nest or mice in autumn), ask for a standalone quote.\n2. **Ask About the Re-Service Guarantee:** Reputable companies should always offer free return visits between scheduled treatments if pests return.\n3. **Verify Certifications:** Ensure the local branch holds a **QualityPro** accreditation (the industry standard awarded by the National Pest Management Association for background checks, licensing, and safety).",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:25:03+00:00",
+  "has_unknown": true
+}

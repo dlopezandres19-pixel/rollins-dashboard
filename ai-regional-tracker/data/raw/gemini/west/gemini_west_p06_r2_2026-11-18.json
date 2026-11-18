@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When looking for top-tier national pest control companies with a strong footprint across California, Washington, and Arizona, a few stand out for their regional expertise, treatment guarantees, and service capabilities. \n\nHere are the best national pest control companies operating in the West:\n\n---\n\n### 1. Orkin\n* **Best For:** Overall reliability, highly trained technicians, and fast emergency response.\n* **Presence:** Widespread across CA, WA, and AZ.\n* **Why Choose Them:** Orkin is one of the oldest and most respected pest control providers in the nation. Their technicians undergo rigorous training through the Orkin Learning Center, which is particularly useful for dealing with complex regional issues—such as drywood termites in California, carpenter ants in Washington, and scorpions in Arizona.\n* **Key Features:**\n  * 30-day money-back guarantee.\n  * Free re-treatments between scheduled visits if pests return.\n  * Comprehensive services covering general pests, termites, bed bugs, and wildlife exclusion.\n\n---\n\n### 2. Terminix / Western Exterminator (Rentokil)\n* **Best For:** Termite control, large-scale infestations, and regional expertise.\n* **Presence:** Ubiquitous across all three states.\n* **Why Choose Them:** Rentokil acquired Terminix in 2022, uniting two of the largest names in pest control. In the West (especially California and Arizona), Rentokil often operates under the legacy brand **Western Exterminator** (known for its iconic \"Little Man\" mascot). \n* **Key Features:**\n  * Industry-leading termite protection plans (The Nix Guarantee).\n  * Tent fumigation services (vital for drywood termites common in Southern California and parts of Arizona).\n  * Comprehensive rodent and wildlife trapping/exclusion.\n\n---\n\n### 3. Truly Nolen\n* **Best For:** Arizona homeowners and desert-specific pest management.\n* **Presence:** Strong national footprint, but headquartered in Tucson, Arizona, with widespread branches in California.\n* **Why Choose Them:** Truly Nolen has an especially deep understanding of Southwest desert pests. If you are dealing with bark scorpions, black widows, roof rats, or subterranean termites in Arizona or Southern California, Truly Nolen is one of the most experienced companies in the market.\n* **Key Features:**\n  * Four Seasons Pest Program (adjusts treatments based on seasonal pest behaviors).\n  * Specialized scorpion, pigeon, and rodent mitigation.\n  * Pet- and environment-conscious treatment options.\n\n---\n\n### 4. Aptive Environmental\n* **Best For:** Routine perimeter bug defense and eco-conscious treatments.\n* **Presence:** Heavy suburban presence throughout California, Washington, and Arizona.\n* **Why Choose Them:** Headquartered in the West, Aptive focuses primarily on routine residential perimeter defense against common insects (ants, spiders, wasps, cockroaches). They rely heavily on pyrethrin-derived products, which are effective against bugs while being gentler on the surrounding environment.\n* **Keep in Mind:** Aptive generally **does not** handle specialized issues like termites, wildlife, or bed bugs; they focus strictly on recurring quarterly perimeter pest management.\n\n---\n\n### Key Regional Differences to Keep in Mind\n\n* **Arizona (Desert Pests):** Bark scorpions, subterranean termites, black widows, and roof rats are common. Prioritize companies like **Truly Nolen** or **Orkin** that offer specialized scorpion dusting, blacklight inspections, and rodent sealing.\n* **California (Termites & Ants):** California has massive issues with both subterranean and drywood termites, as well as aggressive Argentine ant supercolonies. **Terminix / Western Exterminator** and **Orkin** have the necessary licensing and infrastructure for whole-house fumigation and localized thermal/chemical treatments.\n* **Washington (Moisture & Wood-Destroying Pests):** The Pacific Northwest requires expertise in dampwood pests, carpenter ants, moisture bugs (silverfish), and winter rodent influxes. **Orkin** and **Terminix** are well-equipped to handle perimeter moisture barriers and crawlspace exclusions.\n\n---\n\n### Tips Before Hiring\n1. **Check Local Branch Reviews:** Because national companies operate through regional branches and franchises, technician quality and customer service can vary between locations. Check Google Reviews or the Better Business Bureau for your specific local branch.\n2. **Clarify Re-Service Policies:** Ask whether the service contract includes free re-treatments between scheduled visits if pests reappear (most major national brands include this).\n3. **Get Multiple Termite Quotes:** If you need termite control or tenting, costs can vary significantly; always get at least two on-site inspections and written estimates before signing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:48:24+00:00",
+  "has_unknown": true
+}

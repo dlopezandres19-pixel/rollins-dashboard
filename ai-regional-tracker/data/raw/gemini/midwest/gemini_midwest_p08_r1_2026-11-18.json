@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When hiring a pest control provider in the Midwest (Illinois, Ohio, and Michigan), you should compare a mix of **large, established regional specialists**—who understand the Upper Midwest's specific seasonal pest cycles—and **reputable national brands** that offer standardized guarantees and extensive resources.\n\nHere are the top companies worth comparing across your area:\n\n---\n\n### 1. Top Regional Midwest Specialists\nLocal and regional operators often provide better customer service continuity and are deeply familiar with seasonal Midwest issues (such as overwintering boxelder bugs, stink bugs, mice entering during fall, and subterranean termites).\n\n*   **Rose Pest Solutions**\n    *   **Footprint:** Extensive coverage across Illinois, Michigan, Ohio, and Indiana (one of the oldest operating pest control companies in the country).\n    *   **Best for:** Comprehensive residential protection with a local touch.\n    *   **Why compare them:** They have customized programs tailored specifically to Midwest climates and housing styles (like older homes with fieldstone foundations and basements). They are known for thorough inspections and long-tenured technicians.\n*   **Plunkett’s Pest Control / Varment Guard**\n    *   **Footprint:** Plunkett’s covers Michigan, Illinois, and the upper Midwest; **Varment Guard** (a Plunkett's company) is one of the premier pest and wildlife services in Ohio.\n    *   **Best for:** General pest prevention plus **nuisance wildlife removal** (raccoons, bats, squirrels, skunks).\n    *   **Why compare them:** If your issue extends beyond insects into attic wildlife or rodent burrowing, their integrated wildlife division is often far better equipped than standard pest-only services.\n*   **Anderson Pest Solutions** (Part of the Rentokil network)\n    *   **Footprint:** Very strong across Northern Illinois/Chicagoland and parts of neighboring states.\n    *   **Best for:** Eco-conscious suburban residential plans.\n    *   **Why compare them:** Their \"Natural Choice\" approach focuses on IPM (Integrated Pest Management), sealing entry points and minimizing broad-spectrum pesticide use around pets and kids.\n\n---\n\n### 2. Leading National Providers\nNational companies are ideal if you want 24/7 call centers, mobile app scheduling, and consistent warranty policies across different markets.\n\n*   **Orkin**\n    *   **Best for:** Thorough technician training and strong re-treatment guarantees.\n    *   **Why compare them:** Orkin technicians undergo rigorous, standardized training at their national center. If a pest problem persists between scheduled quarterly visits, they provide complimentary re-treatments with very little hassle.\n*   **Terminix**\n    *   **Best for:** Termite monitoring/treatment and extensive coverage.\n    *   **Why compare them:** Terminix specializes in subterranean termites and bed bugs, which can be significant problems in mature Midwestern urban centers and suburbs. They offer both bait-station systems (Sentricon) and liquid perimeter barriers.\n*   **Aptive Environmental**\n    *   **Best for:** Targeted seasonal perimeter treatments around suburban homes.\n    *   **Why compare them:** Aptive uses pyrethrin-derived products designed to be gentler on the environment while targeting common exterior pests (spiders, ants, wasps). *Note:* They operate primarily on recurring annual contracts, so check cancellation terms carefully.\n\n---\n\n### Key Questions to Ask When Comparing Quotes\n\n1.  **Do they handle seasonal Midwest pests?** \n    In late summer and fall, Midwestern homes frequently face invasions of **boxelder bugs, brown marmorated stink bugs, Asian lady beetles, and field mice**. Ask whether treatments for these specific seasonal invaders are included in standard quarterly plans or require extra charges.\n2.  **What does the re-service guarantee include?** \n    A good quarterly plan should guarantee that if pests return between regular appointments, a technician will return and re-treat the area for free.\n3.  **Is an initial inspection free?** \n    Most reputable providers offer a free evaluation of your property, though specialized inspections (e.g., formal WDIR termite real estate inspections or wildlife attic evaluations) may carry a nominal fee.\n4.  **Are you locked into an annual contract?** \n    Many companies discount the initial visit if you sign an annual agreement (usually 4 seasonal visits). Confirm what happens if you sell your home or want to cancel early.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:39:43+00:00",
+  "has_unknown": true
+}

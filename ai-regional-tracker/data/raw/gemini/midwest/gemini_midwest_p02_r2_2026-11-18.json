@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "For homeowners in Illinois, Ohio, and Michigan, the best choice depends on whether you prefer a **regional company with deep Midwest expertise** or a **large national brand with 24/7 dispatching and robust guarantees**. \n\nHere are the top recommendations across the region:\n\n---\n\n### 1. Best Regional Pick: **Rose Pest Solutions**\n* **Coverage:** Illinois, Michigan, Ohio, Indiana, Kentucky, Wisconsin\n* **Best For:** Overall service, local expertise, carpenter ants, and seasonal preventative plans\n* **Why it stands out:** Rose is the oldest pest management company in the country (established in 1860) and has a major presence across the Great Lakes and Midwest. Because they are regionally focused, their technicians are intimately familiar with specific Midwest pest patterns—such as boxelder bugs, brown marmorated stink bugs, carpenter ants, and fall rodent migrations. They offer recurring residential plans (\"Healthy Home\") that include free re-treatments between visits.\n\n---\n\n### 2. Best National Reliability: **Orkin**\n* **Coverage:** Ubiquitous across all three states (major metros and smaller rural communities)\n* **Best For:** Fast response times, bed bugs, and general pest management\n* **Why it stands out:** Orkin is consistently rated among the most thorough national providers due to its rigorous technician training (thousands of hours at their central training center). If you have an urgent active infestation—such as bed bugs, German roaches, or an active wasp nest—Orkin’s dispatch and customer support are among the fastest in the industry. They offer a reliable 30-day money-back guarantee and free re-service if pests return between scheduled treatments.\n\n---\n\n### 3. Best for Termites & Multi-Pest Bundles: **Terminix**\n* **Coverage:** Extensive throughout IL, OH, and MI\n* **Best For:** Subterranean termites, wood-destroying insects, and bundled plans\n* **Why it stands out:** If your primary concern is subterranean termites (which are common throughout southern and central Illinois, Ohio, and southern Michigan), Terminix has some of the strongest specialized treatments and damage repair guarantees in the industry (The Nix Guarantee). They also offer integrated pest control bundles covering termites, mosquitoes, and common household pests under a single plan.\n\n---\n\n### 4. Best for Wildlife & Rodent Exclusion: **Plunkett’s / Varment Guard**\n* **Coverage:** Substantial footprint across Ohio (Varment Guard) and parts of Michigan/Illinois (Plunkett’s)\n* **Best For:** Raccoons, bats, squirrels, and heavy rodent activity\n* **Why it stands out:** In the Midwest, attic invaders (bats, squirrels, mice, raccoons) are as common as insect infestations, especially before winter. Varment Guard and its parent company, Plunkett’s, specialize heavily in humane wildlife removal, exclusion (sealing entry points), and attic remediation alongside traditional pest control.\n\n---\n\n### How to Choose for Your Specific Needs:\n\n* **For general recurring prevention (ants, spiders, mice):** Compare a quote from **Rose Pest Solutions** against **Orkin**. Regional providers often offer slightly more flexible, less aggressive contracts than national chains.\n* **For structural threats (termites, carpenter ants):** Schedule free inspections with both **Terminix** and a local specialist. Check their termite warranty carefully—ensure it covers *damage repair*, not just re-treatment.\n* **Watch out for door-to-door companies:** Companies like Aptive Environmental are very active in suburban Chicago, Detroit, and Columbus. While their eco-friendly products are effective for basic exterior bugs, read the fine print closely; their service agreements often lock you into 12-to-24-month contracts with hefty cancellation fees.\n\n**Before signing a contract:** Always ask what their **re-service policy** is (it should be 100% free if pests return between scheduled quarterly visits) and verify that interior treatments are included at no extra charge if an issue moves inside.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:34:02+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeastern US—especially Florida, Georgia, and Texas—pest control needs are distinct due to year-round humidity and heat. Homes in this region frequently battle **subterranean and Formosan termites, American cockroaches (\"palmetto bugs\"), fire ants, and heavy mosquito activity**.\n\nBecause service quality can vary significantly by branch, the best choice often comes down to the specific pests you're dealing with and whether you prefer a large national network or a Southeast-specialized company.\n\n---\n\n### Top Recommendations by Category\n\n#### 1. Best Overall for the Southeast: **Arrow Exterminators**\n* **Headquarters:** Atlanta, GA (Active in GA, FL, TX, and surrounding states)\n* **Best for:** Termite control, general household pests, and whole-home prevention.\n* **Why choose them:** Arrow is one of the largest privately held pest control companies in the country, but they operate primarily across the South. They have deep expertise in regional pests and use the **Sentricon® system** for termites. Customers consistently rate their technician consistency and customer support higher than the massive national conglomerates.\n\n#### 2. Best for Pest + Lawn Bundling: **Massey Services**\n* **Headquarters:** Orlando, FL (Heavy footprint in FL, GA, and TX)\n* **Best for:** Homeowners wanting a single company for pest defense, termite protection, and lawn/irrigation care.\n* **Why choose them:** Massey is tailored specifically for Sunbelt landscaping and pest ecology. In places like Florida and Texas where HOA lawn requirements and outdoor pests overlap, bundling perimeter pest control with turf fertilization, weed control, and fire ant treatments can save money and hassle.\n\n#### 3. Best Texas-Specific Option: **ABC Home & Commercial Services**\n* **Coverage:** Throughout Texas (Austin, Houston, Dallas-Fort Worth, San Antonio)\n* **Best for:** Texas homeowners looking for trusted, multi-service home care.\n* **Why choose them:** If your property is in Texas, ABC is an iconic family-owned business with an outstanding local reputation. They handle everything from scorpions and roaches to mosquito misting systems and subterranean termites.\n\n#### 4. Best National Option for Severe Infestations: **Orkin**\n* **Coverage:** Nationwide (Universal coverage across FL, GA, and TX)\n* **Best for:** Urgent infestations (bed bugs, aggressive roach problems, rodents) and guaranteed response times.\n* **Why choose them:** Orkin invests heavily in entomologist-backed technician training. If you have an active, serious infestation, their targeted chemical treatments and aggressive follow-up protocol are among the most reliable in the industry. They also offer a 30-day money-back guarantee.\n\n#### 5. Best for Termite History & Coverage: **Terminix**\n* **Coverage:** Nationwide (Ubiquitous across the South)\n* **Best for:** Established termite bonds and real estate inspection requirements.\n* **Why choose them:** Terminix built its brand on subterranean termite management. If you are buying or selling a home in the Southeast, Terminix bonds are familiar to lenders and easy to transfer. (Note: Branch-level customer service can be hit-or-miss compared to regional providers, so check your local Google/Yelp reviews first).\n\n---\n\n### Crucial Factors to Check Before Signing\n\n1. **The Termite Warranty (\"Repair\" vs. \"Retreat\"):**\n   In the Southeast, a **termite bond is essential**. When comparing quotes, ask whether the contract offers:\n   * **Re-treatment only:** If termites return, they will spray again, but you pay for any structural wood damage.\n   * **Damage repair guarantee:** The company covers the cost of repairing new structural damage caused by termites while under contract. *Always try to get a damage repair guarantee.*\n\n2. **Perimeter-Only Service:**\n   Modern pest control in the South focuses on outdoor perimeter barriers (granules, exterior sprays, sweeping eaves for spider/wasp nests). Reputable companies should only need to treat inside your home during the initial setup or upon special request.\n\n3. **Check the Local Branch Reviews:**\n   Pest control depends almost entirely on the individual technician assigned to your route. Look up the specific branch office in your city or county on Google Maps to see recent feedback regarding technician punctuality and turnaround times between retreatments.\n\n### Summary Verdict\n* If you live in **Georgia or Florida**, start with quotes from **Arrow Exterminators** and **Massey Services**.\n* If you live in **Texas**, compare **ABC Home & Commercial Services** against **Arrow** or **Orkin**.\n* If you have an **immediate, heavy infestation**, call **Orkin** for their standardized treatment protocols.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:16:47+00:00",
+  "has_unknown": true
+}

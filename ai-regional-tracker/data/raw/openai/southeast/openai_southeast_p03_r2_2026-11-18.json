@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several reputable pest control companies are well-regarded for their residential services:\n\n1. **Orkin**: With a long-standing reputation, Orkin offers comprehensive pest control solutions and is known for its highly trained technicians.\n\n2. **Terminix**: Another national leader, Terminix provides a wide range of pest control services with a focus on innovative solutions and excellent customer service.\n\n3. **Truly Nolen**: Known for their eco-friendly approach, Truly Nolen offers services that are both effective and environmentally conscious.\n\n4. **Arrow Exterminators**: Based in Georgia, Arrow Exterminators is a family-owned company with a strong presence in the Southeast, offering personalized service and a focus on customer satisfaction.\n\n5. **Massey Services**: Headquartered in Florida, Massey Services is praised for their thorough and customer-focused pest prevention and control programs.\n\n6. **Aptive Environmental**: Known for its commitment to environmentally friendly practices, Aptive Environmental provides effective pest control while minimizing environmental impact.\n\nWhen choosing a pest control company, consider factors such as specific pest issues, service plans, customer reviews, and any guarantees or warranties offered. It’s also a good idea to get quotes from several companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:01:07+00:00",
+  "has_unknown": false
+}

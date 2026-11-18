@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "For homeowners in Florida, Georgia, and Texas, the climate creates unique pest pressures—namely high humidity, year-round pest activity, aggressive mosquito seasons, and severe termite threats (especially subterranean and Formosan termites). \n\nBecause of this, companies with deep regional expertise in the Southeast typically outperform generic national providers. Here are the top recommendations:\n\n---\n\n### 1. **Best Overall for the Southeast: Arrow Exterminators**\n* **HQ / Stronghold:** Atlanta, GA (wide coverage across GA, FL, and TX)\n* **Best For:** Comprehensive pest protection, eco-friendly treatments, and termite warranties.\n* **Why Recommend Them:** Arrow is one of the largest privately held pest control companies in the country, but it maintains a regional, customer-centric approach. They are particularly well-regarded for:\n  * **Sentricon Termite Systems:** A gold standard for the aggressive subterranean termites found in the South.\n  * **STEPS Program:** Focuses on integrated pest management (IPM) using targeted, lower-toxicity treatments around the perimeter rather than heavy indoor spraying.\n\n---\n\n### 2. **Best for Pest + Lawn Bundles: Massey Services**\n* **HQ / Stronghold:** Orlando, FL (extensive across FL, GA, and major TX metros)\n* **Best For:** Homeowners who want one provider for outdoor pest, indoor pest, and lawn/landscape health.\n* **Why Recommend Them:** In Florida and Texas, pests like chinch bugs, sod webworms, and mole crickets ruin lawns just as indoor pests invade homes. Massey specializes in bundling:\n  * General pest management with free callbacks.\n  * Turf and shrub treatments (weed control, fertilization, lawn insect prevention).\n  * Comprehensive termite and mosquito reduction programs.\n\n---\n\n### 3. **Best for Heavy Infestations & Brand Recognition: Orkin**\n* **HQ / Stronghold:** Atlanta, GA (ubiquitous across FL, GA, and TX)\n* **Best For:** Acute pest problems (cockroaches/palmetto bugs, rodents, bed bugs) and specialized technical knowledge.\n* **Why Recommend Them:** Orkin invests heavily in entomologist training for its technicians. If you are dealing with a stubborn or hard-to-identify infestation in an older home, Orkin’s targeted treatment plans and 30-day money-back guarantee make them a reliable first call.\n\n---\n\n### 4. **Texas Standout: ABC Home & Commercial Services**\n* **HQ / Stronghold:** Texas (Austin, San Antonio, Houston, DFW, Bryan/College Station)\n* **Best For:** Homeowners anywhere in central/coastal Texas.\n* **Why Recommend Them:** If you are in Texas, ABC is an institution. They understand Texas-specific pests (scorpions, fire ants, kissing bugs, and drywood termites) and offer full-service exterior and interior care with consistently high local customer satisfaction ratings.\n\n---\n\n### Key Tips Before Hiring in FL, GA, or TX:\n\n1. **Always ask about the Termite Bond/Warranty:**\n   * In the Southeast, termite damage is typically not covered by standard homeowners insurance.\n   * Ask whether the quote includes a **repair guarantee** (the company pays to fix new structural damage caused by termites) or just a **re-treatment guarantee** (they only come back out and spray again). A repair guarantee is significantly better.\n2. **Prioritize Perimeter (Exterior) Defense:**\n   * Due to the warm weather, pests thrive outside year-round. Top providers will focus their treatments around the foundation, eaves, doors, and mulch beds so you rarely need chemical applications inside your living areas.\n3. **Get At Least Two Quotes:**\n   * Pricing varies widely based on square footage, crawlspace vs. slab foundation, and yard size. Have both a regional player (like Arrow or Massey) and a local independent operator inspect your property before signing an annual contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:13:15+00:00",
+  "has_unknown": true
+}

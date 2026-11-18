@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "When dealing with pests across the Western United States—from the damp climate of Washington to the desert conditions of Arizona and the varied microclimates of California—several national pest control companies stand out for their regional expertise, branch network, and service guarantees.\n\nHere are the best national pest control companies operating across California, Washington, and Arizona:\n\n---\n\n### 1. Western Exterminator (A Rentokil Company)\n* **Best For:** Regional expertise and native Western pests.\n* **Why Them:** While operating under Rentokil (one of the largest global pest control networks), Western Exterminator has operated specifically in the Western U.S. for over a century. Their technicians have deep, localized knowledge of pests unique to this geography, including desert bark scorpions in Arizona, carpenter ants in Washington, and drywood termites in California.\n* **Standout Features:** \n  * \"PestFree365+\" comprehensive year-round protection plans.\n  * Specialized solutions for scorpions, roof rats, and bed bugs.\n  * Very strong branch density across all three states.\n\n---\n\n### 2. Orkin\n* **Best For:** Overall reliability, technician training, and fast response.\n* **Why Them:** Orkin is consistently one of the highest-rated national providers. Their technicians undergo rigorous, science-backed training (developed with university entomologists) and focus on Integrated Pest Management (IPM), targeting the root causes of infestations rather than just spraying chemicals.\n* **Standout Features:**\n  * **30-Day Money-Back Guarantee:** Free re-treatments between scheduled visits if pests return; full refund of your last service if pests aren't resolved.\n  * Excellent for urgent, acute infestations (rodents, bed bugs, aggressive stinging insects).\n  * Robust coverage and consistent service standards in Seattle, Phoenix, Los Angeles, and surrounding suburbs.\n\n---\n\n### 3. Terminix\n* **Best For:** Termite treatments and damage repair guarantees.\n* **Why Them:** Termite damage is a major concern in the West—particularly drywood and subterranean termites in California and Arizona, and dampwood/subterranean termites in Washington. Terminix made its name in termite defense and offers some of the strongest termite warranties in the industry.\n* **Standout Features:**\n  * **The Nix Pest Guarantee:** Free re-treatments between visits for covered pests.\n  * Proprietary termite monitoring and bait stations (Sentricon system).\n  * High coverage for whole-home exclusion work (blocking crawl spaces, sealing attic vents against roof rats and bats).\n\n---\n\n### 4. Aptive Environmental\n* **Best For:** Routine perimeter maintenance in suburban neighborhoods.\n* **Why Them:** Aptive is a fast-growing national brand with a massive presence in the suburbs of Phoenix, Seattle, the Bay Area, and Southern California. They focus strictly on residential, exterior-perimeter treatments using pyrethroid-based products derived from chrysanthemum flowers, making them a popular choice for homes with pets and young children.\n* **Things to Know:**\n  * **Note:** Aptive focuses primarily on general insects (ants, spiders, crickets, wasps). They generally **do not** handle termites, bed bugs, or severe wildlife/rodent structural infestations. \n  * They typically operate on annual contracts with quarterly visits.\n\n---\n\n### Regional Factors to Keep in Mind:\n\n* **In Arizona:** Ask specifically about **bark scorpion** and **subterranean termite** coverage. Scorpions require specialized residual dusts and blacklight inspections, which not every baseline general pest plan covers.\n* **In Washington:** Make sure the plan covers **carpenter ants** and **rodent exclusion** (roof rats/Norway rats), especially leading into the fall and winter months when rodents move indoors.\n* **In California:** Ask about **drywood termites** (fumigation or spot treatments) and persistent outdoor pests like **Argentine ants**, which often require rotation of specialized baits to eradicate supercolonies.\n\n### Tips for Hiring:\n1. **Check the Local Branch Rating:** Even with national brands, service quality heavily depends on the local branch manager and technicians. Check Google Maps or Yelp reviews for the specific branch serving your ZIP code.\n2. **Clarify Re-treatment Policies:** Ensure your agreement includes free call-backs between regular visits if pests reappear.\n3. **Get Free Quotes:** Most of these companies (Terminix, Orkin, Western Exterminator) offer free initial home inspections, particularly for termites and rodents. Compare 2–3 written estimates before signing an annual contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:48:43+00:00",
+  "has_unknown": true
+}

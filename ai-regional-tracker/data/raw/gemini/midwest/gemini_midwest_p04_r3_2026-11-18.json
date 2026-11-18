@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When looking for residential pest control across the Midwest—specifically in Illinois, Ohio, and Michigan—homeowners typically choose between well-established regional heritage companies and major national providers. \n\nThe top residential pest control companies operating in this region include:\n\n---\n\n### 1. Top Regional Midwest Leaders\nRegional companies often receive higher customer satisfaction ratings in the Midwest because of their deep familiarity with local climate-driven pest cycles (such as spring carpenter ants, fall rodent migrations, and overwintering pests like boxelder bugs and stink bugs).\n\n* **Rose Pest Solutions**\n  * **Footprint:** Extensive across Michigan, Ohio, and Illinois.\n  * **Highlights:** Recognized as the oldest pest management company in the United States (founded in 1860). Rose has a deep regional footprint with local service centers across Detroit, Grand Rapids, Chicago, Cleveland, and Columbus. They specialize in seasonal residential maintenance programs, bed bug remediation, and rodent exclusion.\n* **Anderson Pest Solutions**\n  * **Footprint:** Illinois (especially the greater Chicagoland area) and parts of neighboring states.\n  * **Highlights:** A long-time Midwest favorite (now under the Rentokil family of brands). Anderson is well regarded for its environmentally conscious \"Natural Choice\" residential programs and year-round preventative protection plans tailored to Midwest weather shifts.\n* **Plunkett’s Pest Control / Varment Guard**\n  * **Footprint:** Widespread coverage across Michigan, Illinois, and Ohio (often operating with its wildlife division, Varment Guard, heavily based in Ohio).\n  * **Highlights:** Family-owned and operated for over a century, Plunkett’s covers general household pests, while Varment Guard is widely considered a go-to specialist in Ohio and Michigan for nuisance wildlife removal (bats, raccoons, squirrels) in addition to conventional insect control.\n* **Franklin Pest Solutions**\n  * **Footprint:** Northern/Central Illinois, Indiana, and Southwest Michigan.\n  * **Highlights:** A trusted community brand affiliated with the Rose management family, providing flexible residential service plans without requiring long, rigid multi-year contracts.\n\n---\n\n### 2. Major National Providers\nFor wide availability—especially in rural or exurban areas where local companies may not travel—the large national brands offer standardized guarantees, 24/7 customer service, and specialized treatment technology.\n\n* **Orkin**\n  * **Footprint:** Dense branch presence across nearly every metro and mid-sized market in IL, OH, and MI.\n  * **Highlights:** Widely considered the gold standard among national providers for technician training (certified by Purdue University pest programs). Orkin offers a 30-day money-back guarantee, free re-treatments between scheduled visits, and strong termite and bed bug programs.\n* **Terminix**\n  * **Footprint:** Comprehensive coverage across all three states.\n  * **Highlights:** Terminix is especially known for its advanced termite monitoring and baiting systems (the Nix Pest Guarantee). They offer comprehensive bundle packages that cover general pests, mosquitoes, and termites under single home-maintenance plans.\n* **Aptive Environmental**\n  * **Footprint:** Very active in suburban housing developments around Chicago, Detroit, Columbus, Cincinnati, and Cleveland.\n  * **Highlights:** Aptive focuses primarily on exterior perimeter barrier treatments for common crawling insects and spiders. They use pyrethrin-derived products and emphasize low-toxicity applications, though they generally do not handle wood-destroying organisms like termites.\n\n---\n\n### Key Considerations for the Midwest:\n* **Seasonality:** Look for a company that includes **fall/winter rodent exclusion**. In the upper Midwest, mice and rats seek shelter indoors starting in October/November.\n* **Service Guarantees:** Ensure the contract includes free re-services between routine quarterly visits if pests return.\n* **Target Pests:** If you suspect carpenter ants or termites, verify whether wood-destroying insect (WDI) coverage is included in the base plan or requires a separate warranty rider.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:36:21+00:00",
+  "has_unknown": true
+}

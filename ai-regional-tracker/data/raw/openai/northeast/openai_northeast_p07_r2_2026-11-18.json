@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "When looking for top pest control services in the Northeast US, including New York, New Jersey, and Pennsylvania, consider these reputable companies known for their comprehensive services:\n\n1. **Orkin**: Known for its extensive experience and nationwide presence, Orkin offers tailored pest control solutions and excellent customer service. They handle a wide range of pests and provide regular maintenance plans.\n\n2. **Terminix**: Another major player in the pest control industry, Terminix offers a variety of services, including termite control, bed bug removal, and mosquito management. They have strong customer support and service guarantees.\n\n3. **Ehrlich Pest Control**: Specializing in both residential and commercial pest control, Ehrlich offers personalized service plans and is known for its effective solutions and eco-friendly approach.\n\n4. **Western Pest Services**: Based in the Northeast, Western Pest Services has a good reputation for providing effective and reliable pest control. They offer both preventative and corrective services tailored to specific pest issues.\n\n5. **Green Pest Solutions**: If you're looking for environmentally friendly options, Green Pest Solutions focuses on safe and eco-conscious pest control methods. They provide services throughout Pennsylvania and parts of New Jersey.\n\nWhen choosing a company, consider factors like the types of pests you’re dealing with, the company’s reputation, service guarantees, and any eco-friendly options they provide. It’s also a good idea to check customer reviews and consult with the companies for quotes and specific service details.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:05:18+00:00",
+  "has_unknown": true
+}

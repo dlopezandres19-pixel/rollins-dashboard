@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When considering pest control services in the western US (California, Washington, Arizona), here are some reputable companies to compare:\n\n1. **Orkin**: Known for their comprehensive services and decades of experience, Orkin offers solutions for a wide range of pests.\n\n2. **Terminix**: Another well-established company offering specialized treatment plans and eco-friendly options.\n\n3. **Ecola Termite and Pest Control**: Based in California, Ecola specializes in eco-friendly pest control methods.\n\n4. **Western Exterminator**: This company has a strong presence in the West and is known for its reliable service and customized solutions.\n\n5. **Truly Nolen**: Offers a variety of pest control services with a focus on environmentally friendly practices.\n\n6. **HomeTeam Pest Defense**: Known for their innovative pest control techniques and strong customer service.\n\n7. **Green Pest Solutions**: Focuses on sustainable and green pest control methods, catering specifically to eco-conscious clients.\n\nWhen comparing these companies, consider factors such as the range of services offered, customer reviews, pricing, and any eco-friendly options they provide. It's also a good idea to get estimates from each to see which best fits your budget and needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:11:23+00:00",
+  "has_unknown": true
+}

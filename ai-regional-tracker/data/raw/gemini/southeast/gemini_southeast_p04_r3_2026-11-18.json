@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "When looking for residential pest control in Florida, Georgia, and Texas, homeowners generally choose between **major national providers** with massive local infrastructure and **top-tier regional powerhouses** that were founded in and specialize in the Southeast's unique pest pressures (such as termites, roaches/palmetto bugs, fire ants, and mosquitoes).\n\nHere are the leading residential pest control companies across these states:\n\n---\n\n### 1. The Regional Leaders (Best Local Expertise)\n\n*   **Massey Services** *(Strongest in Florida; also throughout Georgia and Texas)*\n    *   **Overview:** Headquartered in Maitland, Florida, Massey is one of the largest and most respected independent service companies in the South. \n    *   **Specialty:** Comprehensive pest prevention, subterranean and drywood termite protection, mosquito abatement, and full-service lawn care/irrigation management tailored to Southern turf.\n*   **Arrow Exterminators** *(Strongest in Georgia; significant footprint in Florida and Texas)*\n    *   **Overview:** Headquartered in Atlanta, Georgia, Arrow is one of the largest privately held pest control companies in the nation.\n    *   **Specialty:** Known for its \"STEPS\" Total Protection System (environmentally conscious pest control) and specialized termite eradication (Sentricon system).\n*   **ABC Home & Commercial Services** *(Dominant in Texas; select presence elsewhere)*\n    *   **Overview:** A Texas institution with major branches across Austin, Dallas–Fort Worth, Houston, San Antonio, and Corpus Christi.\n    *   **Specialty:** Full-spectrum home care including general pest management, roaches, rodents, subterranean termites, mosquitoes, and integrated lawn/pool services.\n\n---\n\n### 2. Major National Providers (Everywhere in FL, GA, TX)\n\n*   **Orkin**\n    *   **Overview:** Headquartered in Atlanta, Georgia (parent company Rollins, Inc.), Orkin has an enormous technician network across every major metro and rural market in all three states.\n    *   **Pros:** Thorough technician training (the Orkin training center is renowned in the industry), strong 30-day money-back guarantees, and custom treatment plans for high-humidity climates.\n*   **Terminix**\n    *   **Overview:** Part of the Rentokil Terminix network, Terminix is one of the most widely recognized pest management brands in the South.\n    *   **Pros:** Industry pioneer in termite baiting and liquid barriers (critical for Formosan and subterranean termites found throughout FL, GA, and TX) and broad availability of bundled annual plans.\n*   **Truly Nolen Pest Control**\n    *   **Overview:** Very recognizable (yellow mouse cars) with a dense branch presence throughout Florida and Texas.\n    *   **Pros:** Known for their seasonal \"Four Seasons\" pest control approach, which adjusts treatments based on pest breeding and migration habits throughout the year.\n\n---\n\n### 3. State-Specific Favorites\n\n#### **Florida**\n*   **Hulett Environmental Services:** A major player in South Florida (Palm Beach, Broward, Treasure Coast) with over 50 years of experience dealing with coastal pest issues and lawn pests.\n*   **Nozzle Nolen:** Established South Florida provider specializing in coastal homes, tentless termite treatments, and green pest management.\n\n#### **Georgia**\n*   **Northwest Exterminating:** Another major Georgia-based staple (now under the Rollins family) known for eco-friendly \"green\" residential pest solutions and wildlife control.\n*   **Cook’s Pest Control:** Widely trusted across northern/northwestern Georgia and neighboring Southeastern states, known for high customer service ratings and their \"Cook's Pest Can't\" guarantee.\n\n#### **Texas**\n*   **Romney Pest Control:** A top-rated Texas-focused brand covering the DFW, Austin, San Antonio, and Houston metros.\n*   **White Knight Pest Control:** Known for comprehensive perimeter defense barriers and strong recurring maintenance programs across central and northern Texas.\n\n---\n\n### Key Tips for the Southeast Climate\n* **Prioritize Termite Protection:** Florida, Georgia, and the Texas Gulf Coast are in the highest termite-infestation probability zone in the country (especially for aggressive Formosan subterranean termites). Always inquire whether an annual termite bond/warranty (Sentricon or Termidor liquid barrier) can be bundled with general pest control.\n* **Ask About Mosquito Add-ons:** Because of long, humid summers, most leading providers offer seasonal mosquito fogging or In2Care trapping systems from April through October.\n* **Exterior-First Treatments:** The best modern providers in the South focus on establishing an exterior barrier around foundations, eaves, and weep holes, only coming indoors if an active issue arises.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:15:49+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "For homeowners in the Western United States, pest pressure varies dramatically—from desert bark scorpions and pack rats in Arizona, to Argentine ants and drywood termites in California, to carpenter ants and moisture-loving rodents in Washington. \n\nBecause of these diverse regional ecosystems, the best provider often depends on whether you prefer a **large national brand with 24/7 support** or a **strong Western regional specialist** that specializes in local pests.\n\n---\n\n### 1. Best Overall National Providers (CA, WA, & AZ)\n\n* **Orkin (Best for Reliability & Technician Training)**\n  * **Where it operates:** Widespread across California, Washington, and Arizona.\n  * **Why it’s a top pick:** Orkin requires over 160 hours of hands-on training for its technicians, making them some of the most knowledgeable in identifying regional pests. Their **Orkin A.I.M.** process (Assess, Implement, Monitor) includes custom treatment plans and a 30-day money-back guarantee with free retreatments between scheduled visits.\n  * **Best for:** Homeowners facing tough, persistent infestations who want proven, standardized service.\n\n* **Terminix (Best for Termite & Wood-Destroying Organisms)**\n  * **Where it operates:** Extensive coverage throughout CA, WA, and AZ.\n  * **Why it’s a top pick:** Termites are a massive issue in California and Arizona (both subterranean and drywood), while dampwood termites affect parts of Washington. Terminix is the industry benchmark for termite monitoring, baiting (Sentricon), and warranty-backed damage repairs (the Nix Guarantee).\n  * **Best for:** Termite control, whole-home inspections, and bundled general pest + termite prevention.\n\n---\n\n### 2. Best Western Regional Powerhouses\n\n* **Western Exterminator (Rentokil) – Best Across CA & AZ**\n  * **Presence:** Very strong footprint in California and Arizona (and parts of the Pacific Northwest through the broader Rentokil network).\n  * **Why it’s a top pick:** Recognizable by their iconic \"Little Man\" mascot, Western Exterminator has specialized in Western microclimates for over a century. They excel at handling regional problems like roof rats, stinging insects, and desert pests.\n  * **Best for:** Homeowners who want a large company's resources combined with decades of Western-specific pest data.\n\n* **Clark Pest Control – Best for California**\n  * **Presence:** Dominant in Northern, Central, and Southern California (also operates in Northern Nevada).\n  * **Why it’s a top pick:** Now affiliated with Rollins (Orkin’s parent company), Clark maintains a strong local branch culture across California. They are well-versed in California’s strict pesticide regulations, offer eco-conscious \"green\" treatments, and provide combined pest and lawn care services.\n  * **Best for:** California homeowners wanting responsive, locally managed recurring service.\n\n* **Truly Nolen – Best for Arizona**\n  * **Presence:** Headquartered in Tucson, with deep coverage throughout Phoenix, Tucson, and the Southwest (plus Southern California).\n  * **Why it’s a top pick:** Truly Nolen’s **Four Seasons Approach** matches treatment to changing desert pest biology. They specialize in Arizona-specific hazards such as bark scorpions, Africanized bees, desert termites, and pigeon abatement.\n  * **Best for:** Arizona homeowners dealing with venomous pests, scorpions, or desert rodents.\n\n* **Cascade Pest Control – Best for Washington (Puget Sound)**\n  * **Presence:** Seattle, Tacoma, Bellevue, and the greater Puget Sound area.\n  * **Why it’s a top pick:** Western Washington’s wet climate creates severe rodent and carpenter ant pressure. Cascade focuses on integrated pest management (IPM) and eco-friendly techniques with minimal chemical run-off, which is critical near Pacific Northwest waterways.\n  * **Best for:** Washington homeowners looking for non-toxic/eco-responsible solutions for rodents and wood-destroying ants.\n\n---\n\n### Quick Comparison Summary\n\n| Company | Best Fit For | Standout Feature |\n| :--- | :--- | :--- |\n| **Orkin** | Overall consistency & tough jobs | Industry-leading technician training; 30-day guarantee |\n| **Terminix** | Termite defense & general coverage | Robust termite baiting and damage-repair guarantees |\n| **Western Exterminator** | CA & AZ regional pest coverage | Century-old knowledge of Western desert & coastal pests |\n| **",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:50:04+00:00",
+  "has_unknown": true
+}

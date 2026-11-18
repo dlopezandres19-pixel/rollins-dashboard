@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "For homes in the Southeast—particularly across Florida, Georgia, and Texas—pest control needs are heavily dictated by high humidity, warm winters, and aggressive pests like **subterranean and Formosan termites, palmetto bugs (American cockroaches), fire ants, and mosquitoes**. \n\nHere are the best pest control companies to consider, broken down by regional strengths, reputation, and specialization:\n\n---\n\n### 1. Best Overall Regional Choice: **Arrow Exterminators**\n* **Best For:** Comprehensive protection, customer service, and strong termite bonds across GA, FL, and TX.\n* **Why Choose Them:** Headquartered in Atlanta, Arrow is one of the largest family-owned pest control companies in the country with a massive footprint across the Southeast. They understand regional biology (especially heavy subterranean termite activity) and utilize the Sentricon® system. Their service plans frequently combine general pest defense with whole-home termite warranties.\n\n### 2. Best for Florida (and Bundled Lawn/Pest Services): **Massey Services**\n* **Best For:** Florida residents, or homeowners who want to bundle general pest control, mosquito control, and turf/lawn care.\n* **Why Choose Them:** Headquartered in Maitland, Florida, Massey built its reputation specifically around the Florida climate and expanded heavily into Georgia and Texas. They emphasize Integrated Pest Management (focusing heavily on treating the outside perimeter so technicians rarely need to spray chemicals inside your home).\n\n### 3. Best for Texas: **ABC Home & Commercial Services**\n* **Best For:** Texas homeowners wanting a trusted, local family-owned brand with full-home service capabilities.\n* **Why Choose Them:** While they don't cover all of Georgia or Florida, ABC is an institution in Texas (Austin, Dallas-Fort Worth, Houston, San Antonio). They handle standard pests, specialized termite eradication, mosquito yard treatments, and even rodent exclusions tailored to Texas home construction.\n\n### 4. Best National Options with Deep Southeast Roots:\n* **Orkin:** \n  * Headquartered in Atlanta, Orkin has extensive regional branches across every corner of FL, GA, and TX.\n  * Their technicians undergo some of the most rigorous pest biology training in the industry. They are typically the best pick if you are facing an active, severe infestation (e.g., German roaches, bed bugs, or aggressive carpenter ants) that requires immediate, targeted intervention.\n* **Terminix:** \n  * Based in Memphis, TN, Terminix has decades of experience dealing with the Southern termite belt.\n  * If your primary concern is termite prevention and monitoring, Terminix offers strong termite inspection plans and guarantees, though service quality can vary depending on your specific local branch.\n\n---\n\n### What to Ask Before Signing a Contract in the Southeast:\n\n1. **What are the terms of the Termite Bond?**\n   * In FL, GA, and TX, a termite warranty is virtually mandatory. Ask whether the agreement is **\"Repair and Re-treatment\"** or **\"Re-treatment Only.\"** A repair bond covers structural damage caused by termites after treatment begins; a re-treatment bond only pays to spray again.\n2. **Does the quote cover exterior perimeter defense?**\n   * In warm climates, general pests should be stopped outside. Ensure their regular plan includes clearing spider webs/wasp nests from eaves, granules for fire ants, and barrier spraying around foundations and entry points.\n3. **Are free re-services included?**\n   * In hot, wet summer months, pests often resurface between quarterly visits. Ensure the company guarantees free call-backs if pests return between scheduled treatments.\n\n**Recommendation:** Get quotes from **Arrow Exterminators** (or **Massey** if in Florida / **ABC** if in Texas) alongside a quote from **Orkin**. Compare their termite inspection findings and guarantees to see which branch in your specific zip code offers the most comprehensive coverage.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:16:29+00:00",
+  "has_unknown": true
+}

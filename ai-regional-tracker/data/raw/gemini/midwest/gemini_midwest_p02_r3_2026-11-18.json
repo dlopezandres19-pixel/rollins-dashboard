@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "For homeowners in Illinois, Ohio, and Michigan, the best choice depends on whether you prefer an established regional specialist that understands local Midwest pest cycles or a large national brand with standardized guarantees and 24/7 scheduling. \n\nHere are the top recommendations:\n\n---\n\n### 1. Top Regional Pick: **Rose Pest Solutions**\n* **Best For:** Homeowners who want a Midwest-specific company with deep regional expertise.\n* **Why Them:** Rose Pest Solutions is one of the oldest pest control companies in the nation and is heavily concentrated across **Illinois, Ohio, and Michigan** (plus Indiana and Kentucky). Because their technicians only service this region, they are intimately familiar with local climate shifts—such as seasonal rodent surges in late autumn and carpenter ant issues in wooded areas. \n* **Services:** Comprehensive residential maintenance plans, termite treatments, rodent exclusion, bed bugs, and seasonal exterior barrier treatments.\n\n---\n\n### 2. Best Overall National Provider: **Orkin**\n* **Best For:** Rigorously trained technicians, quick response times, and strong service guarantees.\n* **Why Them:** Orkin has strong branch coverage across major metros (Chicago, Detroit, Grand Rapids, Cleveland, Columbus, Cincinnati) as well as smaller Midwest towns. Their technicians undergo extensive entomology and safety training, and they offer a 30-day money-back guarantee with free retreatments if pests return between scheduled quarterly visits.\n* **Services:** Full-service general pest control, bed bug heat treatments, rodent control, and wildlife management.\n\n---\n\n### 3. Best for Termites & Structural Pests: **Terminix**\n* **Best For:** Termite defense, wood-destroying insect (WDI) real estate inspections, and integrated pest/rodent packages.\n* **Why Them:** While subterranean termites are more prevalent the further south you go in IL, OH, and MI, older Midwest homes frequently face termite and carpenter ant pressure. Terminix offers the most established termite-monitoring systems (such as the Sentricon system) and damage-repair guarantees compared to most competitors.\n* **Services:** Termite baiting/liquid treatments, crawl space encapsulation, mosquito/tick yard control, and year-round pest defense.\n\n---\n\n### 4. Strong Local Alternatives by State\n\nIf you prefer dealing directly with companies that have deep roots in your specific state:\n\n* **Ohio:** **Varment Guard** (a Plunkett’s company) is widely regarded across Ohio, especially if your issue involves nuisance wildlife (raccoons, bats, squirrels) alongside common insects and mice.\n* **Michigan:** **Griffin Pest Solutions** is a Michigan-focused provider with long-standing coverage throughout the Lower Peninsula, handling everything from seasonal lakefront spider treatments to bed bugs.\n* **Illinois:** **Smithereen Pest Management** and **Anderson Pest Solutions** are dominant in the Greater Chicagoland area and northern Illinois, offering reliable residential integrated pest management (IPM).\n\n---\n\n### Tips for Midwest Homeowners Before Booking\n1. **Prioritize Fall Rodent Defense:** Midwest winters push field mice and rats indoors starting in October/November. Make sure the plan you choose includes interior trap monitoring and exterior entry-point exclusion (sealing gaps larger than a dime).\n2. **Check the Guarantee:** Always ask: *\"If I see pests two weeks after you spray, is the re-treatment free?\"* Reputable companies like Rose, Orkin, and Terminix will come back at no charge between scheduled quarterly visits.\n3. **Get Free Quotes First:** Most pest issues can be quoted over the phone (or with a free preliminary in-home inspection for termites or wildlife). Get quotes from at least one national carrier (like Orkin) and one regional specialist (like Rose) to compare pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:34:21+00:00",
+  "has_unknown": true
+}

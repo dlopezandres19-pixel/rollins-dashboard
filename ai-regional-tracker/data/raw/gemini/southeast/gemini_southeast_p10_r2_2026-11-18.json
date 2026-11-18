@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Southeast US (Florida, Georgia, Texas) should consider.",
+  "rep": 2,
+  "response_text": "For homeowners in the Southeast and Sunbelt (Florida, Georgia, and Texas), pest control needs are unique. The humid, warm climate means higher pressure from subterranean and Formosan termites, mosquitoes, fire ants, and American cockroaches (palmetto bugs). \n\nHere is a shortlist of the most reputable regional and national pest control companies to consider:\n\n---\n\n### 1. The Southeast Regional Heavyweights (Often the Best Balance of Service & Scale)\n\n*   **Massey Services**\n    *   **Headquarters:** Orlando, FL\n    *   **Footprint:** Very strong across Florida, Georgia, and major Texas metros (Dallas-Fort Worth, Houston, Austin, San Antonio).\n    *   **Why Consider Them:** Massey is renowned for its **perimeter-first approach**, focusing treatments on the outside of your home to prevent pests from getting inside in the first place (minimizing chemicals indoors). They also offer bundled lawn care, irrigation maintenance, and termite prevention, making them a convenient one-stop shop for Southern homes.\n*   **Arrow Exterminators**\n    *   **Headquarters:** Atlanta, GA\n    *   **Footprint:** Massive presence across Georgia, Florida, and Texas.\n    *   **Why Consider Them:** Arrow is one of the largest privately held pest control companies in the country and consistently ranks high in customer satisfaction. They specialize in **STEPS (Sustainability Through Environmental Pest Solutions)**, an Integrated Pest Management approach that emphasizes low-impact, targeted treatments. Their termite protection and wildlife exclusion services are particularly well-regarded in GA and FL.\n*   **ABC Home & Commercial Services** *(Top pick if you are in Texas)*\n    *   **Headquarters:** Austin, TX\n    *   **Footprint:** Dominant in Texas (Austin, Houston, Dallas, San Antonio, Bryan/College Station), with selective reach in neighboring areas.\n    *   **Why Consider Them:** A multi-generation family-owned brand with deep roots in Texas. In addition to general pest and termite control, they provide lawn care, pool service, and HVAC, making them a regional staple for comprehensive home maintenance.\n\n---\n\n### 2. The Major National Providers (Ubiquitous Coverage & Deep Resources)\n\n*   **Orkin**\n    *   **Headquarters:** Atlanta, GA\n    *   **Footprint:** Available in virtually every zip code across FL, GA, and TX.\n    *   **Why Consider Them:** Orkin invests heavily in its **Orkin Institute of Technology**, meaning technicians generally undergo more rigorous biology and pest-behavior training than average. They are especially strong when you are dealing with active, stubborn infestations (such as aggressive termite colonies, bed bugs, or rodent entry points) rather than just routine quarterly spraying.\n*   **Terminix**\n    *   **Headquarters:** Memphis, TN (Southeast presence)\n    *   **Footprint:** Dense coverage throughout all three states.\n    *   **Why Consider Them:** Terminix built its name on termite defense. Given the severe termite risk in the Gulf Coast and coastal Georgia/Florida, their **Termix Ultimate Protection Guarantee** (repair guarantees for qualifying homes) is among the most widely recognized in the industry. They also have robust seasonal mosquito reduction programs.\n\n---\n\n### Key Questions to Ask Before Signing a Contract in the Southeast:\n\n1.  **Does the termite plan cover Formosan termites?** \n    *   Formosan termites are an invasive, highly destructive species prevalent in coastal and southern areas of FL, GA, and TX. Ensure your termite bond specifically covers them.\n2.  **Is your termite contract a \"Repair\" or \"Retreatment-Only\" bond?** \n    *   *Retreatment-only* means they will re-spray if termites return, but you pay for home repairs out of pocket. \n    *   *Repair guarantee* means the company covers the cost of structural damage caused by new infestations.\n3.  **What is the free re-service policy?** \n    *   Because pest pressure in the South is nearly year-round, reputable companies should offer free return visits between scheduled treatments if pests re-emerge inside.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:21:39+00:00",
+  "has_unknown": true
+}

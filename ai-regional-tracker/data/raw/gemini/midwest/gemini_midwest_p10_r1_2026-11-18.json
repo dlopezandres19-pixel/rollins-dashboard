@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Midwest US (Illinois, Ohio, Michigan) should consider.",
+  "rep": 1,
+  "response_text": "For homeowners in Illinois, Ohio, and Michigan, the ideal pest control company often depends on whether you prefer an established regional operator with deep roots in Midwest pest patterns or a large national brand with extensive coverage and guarantees. \n\nHere is a shortlist of the top pest control companies to consider across these three states:\n\n---\n\n### 1. The Best Regional Specialists (Deep Midwest Roots)\n\n* **Rose Pest Solutions**\n  * **Coverage:** Extensive across Illinois, Michigan, Ohio, and surrounding states.\n  * **Best For:** Comprehensive residential maintenance, carpenter ants, and Integrated Pest Management (IPM).\n  * **Why Consider Them:** Founded in the 1860s, Rose is one of the oldest pest management companies in the nation and is fundamentally a Midwest company. They understand regional seasonal surges (like spring carpenter ants and fall rodent migrations) exceptionally well. Their service plans focus on prevention and minimal pesticide exposure, making them a top pick for families and pet owners.\n\n* **Varment Guard / Plunkett’s Pest Control**\n  * **Coverage:** Strong footprint across Ohio, Illinois, and neighboring states.\n  * **Best For:** Dual pest and wildlife control (bats, raccoons, squirrels, birds).\n  * **Why Consider Them:** Varment Guard (partnered with Upper Midwest giant Plunkett’s) is widely recognized in Ohio and the lower Great Lakes for handling both structural insect pests and vertebrate wildlife. If you suspect animals in your attic alongside typical insect issues, they are often a better one-stop shop than traditional insect-only exterminators.\n\n---\n\n### 2. The Best National Providers (Maximum Availability & Warranties)\n\n* **Orkin**\n  * **Coverage:** Ubiquitous across Chicago, Detroit, Cleveland, Columbus, and smaller metro areas.\n  * **Best For:** Fast emergency response, targeted insect treatment, and rigorous technician training.\n  * **Why Consider Them:** Orkin is widely regarded for having one of the most thorough employee training programs in the industry. They offer a strong 30-day money-back guarantee and complimentary retreatments between scheduled visits. If you are dealing with an aggressive infestation (such as bed bugs or German roaches), their protocol is among the most reliable.\n\n* **Terminix**\n  * **Coverage:** Widespread across IL, OH, and MI.\n  * **Best For:** Subterranean termite protection and whole-home perimeter plans.\n  * **Why Consider Them:** While parts of the upper Midwest have lower termite pressure than the South, subterranean termites remain an issue throughout Ohio, central/southern Illinois, and southern Michigan. Terminix offers some of the most comprehensive termite inspection, baiting (Sentricon), and structural repair guarantees on the market.\n\n---\n\n### 3. The Best for Wildlife Removal\n\n* **Critter Control**\n  * **Coverage:** Franchised locations throughout major and mid-size metros in IL, OH, and MI.\n  * **Best For:** Humane wildlife trapping, attic remediation, and exclusion/entry-point sealing.\n  * **Why Consider Them:** Midwest winters drive raccoons, bats, squirrels, and mice indoors looking for warmth. Standard exterminators often just place bait traps, but Critter Control specializes in finding structural gaps, safely removing animals, and repairing soffits, roof vents, and fascia so they cannot return.\n\n---\n\n### Tips for Midwest Homeowners Before Hiring\n\n1. **Ask About Seasonal Flexibility:** Midwest homes face drastically different pests by season—carpenter ants and wasps in spring/summer, and stink bugs, boxelder bugs, and mice seeking warmth in autumn. Ensure your plan covers seasonal exterior barriers in late summer/fall.\n2. **Clarify \"In-Between\" Visit Policies:** Quality quarterly maintenance contracts should include free call-backs if pests reappear between scheduled service dates.\n3. **Get an In-Person Inspection First:** Avoid companies that pressure you into a multi-year contract over the phone without conducting an on-site evaluation of your foundation, crawlspace, or attic.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:41:49+00:00",
+  "has_unknown": true
+}

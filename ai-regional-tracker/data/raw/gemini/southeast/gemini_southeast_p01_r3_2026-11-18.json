@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "When dealing with pest control in the Southeast and Gulf Coast (Florida, Georgia, and Texas), you face distinct regional challenges—particularly high humidity, heavy termite pressure (especially subterranean and invasive Formosan termites), roaches/palmetto bugs, fire ants, and mosquitoes. \n\nThe top pest control companies operating across these states fall into reputable regional powerhouses, trusted national brands, and strong state-specific leaders:\n\n---\n\n### 1. Top Regional & Multi-State Providers\n\n#### **Arrow Exterminators** *(Best Overall in the Southeast)*\n* **Footprint:** Headquartered in Atlanta, GA, with extensive operations throughout Georgia, Florida, and Texas.\n* **Why Choose Them:** Arrow is one of the largest family-owned pest control companies in the country. They are known for superior customer service compared to large national franchises. They offer integrated pest management (IPM) through their STEPS (Sustainable Total Environmental Protection Solutions) program, which minimizes chemical use around kids and pets.\n* **Best For:** Termite protection (Sentricon system), whole-home pest prevention, and responsive customer service.\n\n#### **Massey Services** *(Best for Pest + Lawn Bundling)*\n* **Footprint:** Headquartered in Florida, with large footprints in Florida, Georgia, and major Texas metros (Dallas-Fort Worth, Houston, Austin, San Antonio).\n* **Why Choose Them:** Massey is renowned for bundling pest control with irrigation and lawn/shrub care—a major advantage in Florida and Texas where lawn pests (chinch bugs, armyworms) and turf diseases are common. Their pest programs focus on exterior perimeter defense so technicians rarely need to spray chemicals inside your living spaces.\n* **Best For:** Homeowners who want a single contractor for outdoor lawn care, mosquito abatement, and perimeter pest control.\n\n#### **Orkin** *(Best for Severe Infestations & Training)*\n* **Footprint:** Headquartered in Atlanta, GA, with branches covering virtually every county and metro across FL, GA, and TX.\n* **Why Choose Them:** Orkin is widely regarded as having the most rigorous employee training in the industry (conducted in partnership with universities and entomologists). They are often slightly more expensive, but their technicians are exceptionally thorough when dealing with difficult, aggressive infestations like German roaches, bed bugs, or severe termite issues.\n* **Best For:** Complex or entrenched infestations and reliable 30-day money-back guarantees.\n\n#### **Terminix** *(Best for Termite Warranties)*\n* **Footprint:** Massive presence across Florida, Georgia, and Texas.\n* **Why Choose Them:** While general pest reviews can vary by local branch, Terminix remains one of the premier choices for termite control and bonds. In the Deep South and Gulf Coast, a solid termite warranty is essential, and Terminix offers robust \"repair guarantees\" (covering the cost of new termite damage if they fail to prevent an infestation).\n* **Best For:** Termite treatments, moisture control in crawlspaces, and termite bonds for real estate transactions.\n\n---\n\n### 2. State-Specific Standouts\n\nIf you prefer companies with deep local roots in a specific state:\n\n* **Texas: ABC Home & Commercial Services**\n  * One of the most respected service brands in Texas (Austin, San Antonio, Houston, Dallas, Corpus Christi). Beyond standard pest control, they handle wildlife removal, AC, lawn, and pool service, and are known for top-tier customer satisfaction in Texas neighborhoods.\n* **Georgia: Northwest Exterminating**\n  * Highly rated across Georgia. Known for green, family-friendly pest solutions, excellent crawlspace encapsulation, and strong local community ties.\n* **Florida: Florida Pest Control (Rentokil)**\n  * Operating since 1949 with locations all over the state. They have deep expertise in uniquely Floridian pest issues, including aggressive drywood termites, lawn pests, and palm tree invaders.\n* **Florida & Texas: Truly Nolen**\n  * Recognizable by their \"mouse cars,\" they have a strong presence in Florida and Texas. Their \"Four Seasons Pest Program\" targets pests based on local seasonal breeding cycles.\n\n---\n\n### What to Look for in FL, GA, and TX\n\n1. **Ask About the Termite Bond/Warranty:** Make sure to ask whether a termite plan includes a **Retreatment-Only** warranty or a **Retreatment and Damage Repair** warranty. In high-termite zones (like coastal Georgia, Central/South Florida, and coastal Texas), damage repair coverage is strongly recommended.\n2. **Exterior-Only Service:** Because heat and rain break down exterior barriers quickly in the Southeast, look for quarterly or bi-monthly perimeter treatments that keep chemicals outside rather than coating baseboards indoors.\n3. **Get At Least Two Quotes:** Regional pricing can vary considerably based on square footage, foundation type (slab vs. crawlspace), and lot size. Most of these companies offer free in-home inspections and quotes.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:12:54+00:00",
+  "has_unknown": true
+}

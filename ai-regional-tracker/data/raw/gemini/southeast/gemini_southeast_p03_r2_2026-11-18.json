@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast—particularly across Florida, Georgia, and Texas—the warm, humid climate makes pest control a year-round necessity. Because subterranean termites, Formosan termites, roaches (palmetto bugs), and fire ants are prevalent, regional expertise matters significantly. \n\nSeveral residential pest control companies stand out as the most reputable, ranging from dominant regional champions to well-established national brands:\n\n---\n\n### 1. Top Regional Powerhouses (Highest Customer Satisfaction)\n\n*   **Massey Services (Dominant in Florida; strong in Georgia & Texas)**\n    *   *Headquarters:* Maitland, FL\n    *   *Reputation:* Massey is one of the most respected names in the Sunbelt. They focus on an outside-in \"Pest Prevention\" model rather than spraying chemicals indoors. They also integrate lawn care, landscape fertilization, and irrigation services, making them a popular one-stop shop for homeowners in Florida and Georgia.\n*   **Arrow Exterminators (Georgia, Florida, and Texas)**\n    *   *Headquarters:* Atlanta, GA\n    *   *Reputation:* Founded in 1964, Arrow remains family-owned while operating as one of the largest pest control firms in the nation. They are particularly well-regarded across Georgia and North/Central Florida for their STEPS (Sustainable Total Environmental Protection Solutions) program and transparent, reliable customer service.\n*   **ABC Home & Commercial Services (The Premier Choice in Texas)**\n    *   *Headquarters:* Texas (multiple family branches in Austin, Houston, DFW, and San Antonio)\n    *   *Reputation:* In Texas, ABC is practically an institution. Family-owned for generations, ABC has some of the highest local customer retention and satisfaction scores in the state. Beyond pest and termite control, they offer lawn, pool, and handyman services.\n*   **Cook’s Pest Control (Georgia focus)**\n    *   *Headquarters:* Decatur, AL (heavy footprint across Georgia)\n    *   *Reputation:* Cook’s regularly wins consumer trust awards and has a near-flawless Better Business Bureau track record. If you are in Georgia, their customer service and quarterly perimeter treatments are considered top tier.\n\n---\n\n### 2. Best Major National Providers\n\n*   **Orkin**\n    *   *Headquarters:* Atlanta, GA\n    *   *Why them:* Because Orkin was founded and is headquartered in the Southeast, its training center in Atlanta specifically emphasizes pests common to Georgia, Florida, and Texas. They invest heavily in technician training through certified board entomologists and have consistent, well-enforced retreatment guarantees nationwide.\n*   **Terminix**\n    *   *Why them:* Especially critical in the Gulf Coast and coastal Southeast, Terminix is known for comprehensive termite protection and repair guarantees. While local branch experiences can vary more than smaller regional companies, their termite baiting systems and annual inspection programs are among the most robust in the region.\n\n---\n\n### 3. Builder/Specialty Standout\n\n*   **HomeTeam Pest Defense**\n    *   *Best for:* Newer home builds across TX, FL, and GA\n    *   *Why them:* Many newer construction homes in these three states feature built-in pest defense tubing inside the walls (the **Taexx system**). HomeTeam holds the proprietary equipment to service those exterior ports without needing to enter the home. If your house has this port on the exterior wall, HomeTeam is usually the direct provider to service it.\n\n---\n\n### Tips for Hiring in the Southeast:\n1. **Prioritize the Termite Bond/Warranty:** In Florida, Georgia, and Texas, termite damage is not covered by standard homeowner's insurance. Always check if the company offers a **repair guarantee** (they pay to repair structural damage if termites appear after treatment) rather than just a **retreatment guarantee** (they just spray again for free).\n2. **Look for Certified Baits:** Ask if they use **Sentricon** bait stations or **Termidor** liquid barriers—the two gold-standard treatments for Southeast subterranean termites.\n3. **Free Callbacks:** Ensure your recurring quarterly agreement includes free callbacks if pests reappear between scheduled visits.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:14:31+00:00",
+  "has_unknown": true
+}

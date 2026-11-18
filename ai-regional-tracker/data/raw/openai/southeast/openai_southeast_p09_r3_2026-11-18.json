@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, you have several options for residential pest control. Here are some of the main approaches:\n\n1. **Professional Pest Control Services:**\n   - **Terminix** and **Orkin** are well-known national companies with local branches that offer comprehensive pest control solutions.\n   - **Local Companies**: Companies like **Massey Services**, **Arrow Exterminators**, and **Truly Nolen** are based in the Southeast and provide customized services.\n\n2. **DIY Pest Control:**\n   - You can purchase products like sprays, traps, and baits from stores such as Home Depot or Lowe's.\n   - Brands like **Raid**, **Ortho**, and **Spectracide** offer a range of products for different pests.\n\n3. **Natural and Eco-Friendly Options:**\n   - Companies like **EcoSmart** and **EarthKind** offer natural pest control products.\n   - Integrated Pest Management (IPM) strategies focus on prevention and using less harmful methods.\n\n4. **Preventative Measures:**\n   - Regular maintenance such as sealing entry points, keeping areas clean, and reducing moisture can help prevent infestations.\n   - Installing screens and using door sweeps can also be effective.\n\n5. **Pest-Specific Treatments:**\n   - For termites, companies often offer special treatments like baiting systems or liquid treatments.\n   - Mosquito control might include yard treatments or misting systems.\n\nWhen choosing a pest control service, consider their reputation, experience in dealing with local pests, and whether they offer any guarantees. It's also beneficial to get multiple quotes to compare services and prices.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:03:03+00:00",
+  "has_unknown": true
+}

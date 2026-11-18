@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When choosing residential pest control in the Western United States, your options generally range from large national providers with strong regional networks to well-established local specialists. \n\nBecause the climate ranges from the wet Pacific Northwest to the arid Sonoran Desert, pest pressures and service types differ by state. \n\n---\n\n### 1. Major Multi-State & Regional Brands\nThese providers operate widely across California, Washington, and Arizona, offering standard quarterly/bi-monthly maintenance plans, guarantees, and specialized services:\n\n* **Western Exterminator (Rentokil):** Recognized by its \"Little Man\" logo, Western Exterminator is an iconic West Coast brand with dense coverage across California, Washington, and Arizona. They specialize in general pest control, bed bugs, rodents, and termites.\n* **Orkin & Terminix:** The two largest national chains have branch locations in almost every metro area across all three states. They are often best suited for standard perimeter defense plans, 24/7 customer support, and dedicated termite programs (including localized treatments and fumigation).\n* **Truly Nolen:** Headquartered in Tucson, Arizona, Truly Nolen has an especially massive footprint in Arizona and California. They are famous for their seasonal treatments (adjusting chemicals and tactics as pests shift behaviors through the year).\n* **Aptive Environmental / Saela (formerly Edge):** Modern, subscription-focused providers with a major presence in Western suburban neighborhoods. They focus heavily on exterior perimeter barriers and eco-friendlier, low-toxicity applications.\n\n---\n\n### 2. State-Specific Leaders & Local Specialties\n\nDifferent pest types require specialized expertise in each of these states:\n\n#### **California**\n* **Primary Pests:** Drywood and subterranean termites, Argentine ants, roof rats, spiders (black widows), and cockroaches.\n* **Standout Regional Companies:**\n  * **Clark Pest Control:** One of the largest pest control brands in California (Northern and Central CA especially), now part of Rollins/Orkin but still operating with local management.\n  * **Lloyd Pest Control:** Very popular across Southern California (San Diego, Orange County, Inland Empire).\n  * **Termite Specialists:** In California, termite tenting (whole-house structural fumigation) for drywood termites is very common. Companies like *Hi-Tech Termite Control* (local treatments) or dedicated fumigators are often used alongside general pest services.\n\n#### **Arizona**\n* **Primary Pests:** Bark scorpions, subterranean termites, black widows, desert brown recluse, Africanized bees, roof rats, and pigeons.\n* **Standout Regional Companies:**\n  * **Burns Pest Elimination:** A household name in the Phoenix and Tucson areas, offering strong home-sealing and general pest defense.\n  * **Blue Sky Pest Control:** Widely regarded in the Phoenix metro for scorpion control and customized yard treatments.\n  * **Bulwark Exterminating:** Known across the Southwest for targeted scorpion-barrier applications.\n  * **Specialty Need:** If you are dealing with scorpions, look for companies that offer **home sealing** (caulking weep screeds, sealing entry points around plumbing/vents), as chemical barriers alone are rarely 100% effective on scorpions.\n\n#### **Washington**\n* **Primary Pests:** Carpenter ants (destructive to wood in the moist climate), dampwood termites, Norway and roof rats, silverfish, and moisture-driven spiders.\n* **Standout Regional Companies:**\n  * **Cascade Pest Control:** Strong reputation in the Greater Seattle and Puget Sound areas, known for eco-conscious and green-certified IPM (Integrated Pest Management) practices.\n  * **Eastside Exterminators:** Popular in King and Snohomish counties, especially renowned for wildlife removal, rodent exclusion, and crawl space restorations/inspections.\n  * **Specialty Need:** Pest control in Washington often focuses heavily on moisture management, crawl space vapor barriers, and structural rodent exclusion rather than just routine exterior spraying.\n\n---\n\n### 3. Common Service Models\n\n* **Recurring Maintenance Plans (Bi-Monthly or Quarterly):** \n  * Typically costs **$40–$70/month** (billed per visit, usually $100–$150 every 2–3 months).\n  * Covers general pests (ants, common spiders, crickets, occasional roaches) with free re-treatments between visits if pests return.\n* **Targeted Remediation (One-Offs):**\n  * **Termite Treatments:** Can range from $800–$1,500 for local spot treatments to $2,000–$5,000+ for whole-home fumigation (tenting).\n  * **Rodent Exclusion / Trapping:** Typically starts at $300–$600 for trapping and can exceed $1,500–$3,000+ if significant crawl",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:51:31+00:00",
+  "has_unknown": true
+}

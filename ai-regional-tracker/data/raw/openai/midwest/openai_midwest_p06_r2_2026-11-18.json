@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "Here are some of the top national pest control companies that operate in the Midwest, including Illinois, Ohio, and Michigan:\n\n1. **Terminix**: Known for its comprehensive pest control services, including termite and bed bug treatments. They offer both residential and commercial services.\n\n2. **Orkin**: Offers a wide range of pest control services and is known for its extensive training program for technicians. They handle pests like rodents, insects, and more.\n\n3. **Ehrlich Pest Control**: Provides pest management services with a focus on prevention and treatment plans tailored to specific pest problems.\n\n4. **Rentokil**: Offers specialized pest control services and uses integrated pest management techniques to minimize environmental impact.\n\n5. **TruGreen**: While primarily known for lawn care, TruGreen also offers mosquito and tick control services, which can be crucial during the warmer months.\n\n6. **Aptive Environmental**: Focuses on environmentally responsible pest control solutions and offers seasonal services to prevent and control pest infestations.\n\nEach company offers various service plans and guarantees, so it may be beneficial to contact them directly to discuss specific needs and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:08:01+00:00",
+  "has_unknown": true
+}

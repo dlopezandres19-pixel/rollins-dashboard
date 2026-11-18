@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "In the Northeast US, including New York, New Jersey, and Pennsylvania, there are several options for residential pest control. Here are some of the main ones:\n\n1. **Professional Pest Control Companies:**\n   - **Terminix** and **Orkin** are nationwide companies with a strong presence in the Northeast. They offer comprehensive pest management services for various pests.\n   - **Ehrlich Pest Control** is another well-known company in the region, providing services for both residential and commercial properties.\n   - **Western Pest Services** focuses on eco-friendly solutions and has extensive experience in the Northeast.\n\n2. **Local Pest Control Services:**\n   - Many local companies offer personalized services and may have specialized knowledge of the area’s specific pest challenges. Consider looking for companies with good reviews and local expertise.\n\n3. **DIY Options:**\n   - Many homeowners opt for DIY pest control using products available at hardware stores or online. Products like sprays, traps, and bait stations can be effective for minor infestations.\n   - Integrated Pest Management (IPM) practices can also be adopted to minimize pest issues naturally, such as sealing entry points, maintaining cleanliness, and using natural repellents.\n\n4. **Green and Organic Solutions:**\n   - Companies like **Green Pest Solutions** specialize in environmentally friendly pest control, using organic and non-toxic products.\n   - DIY natural remedies, such as essential oil sprays and diatomaceous earth, are popular among those looking for non-chemical options.\n\nWhen choosing a pest control option, consider factors such as the type of pest, the severity of the infestation, budget, and any preferences for eco-friendly solutions. It's also a good idea to check for reviews and references to ensure reliable service.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:06:05+00:00",
+  "has_unknown": true
+}

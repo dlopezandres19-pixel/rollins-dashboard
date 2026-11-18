@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several pest control companies are well-regarded for their services:\n\n1. **Orkin**: A nationwide company with a strong presence in the Southeast. They offer comprehensive pest control services, including termite and mosquito control.\n\n2. **Terminix**: Another large provider with extensive services for pests like termites, bed bugs, and rodents. They have a solid reputation for customer service.\n\n3. **Arrow Exterminators**: Based in Atlanta, Georgia, this company is highly rated for its eco-friendly pest control options and a wide range of services.\n\n4. **Massey Services**: Headquartered in Florida, Massey is known for its preventative pest control and lawn care services.\n\n5. **Truly Nolen**: Offers innovative pest control solutions and is particularly known for its unique yellow mouse cars.\n\n6. **Breda Pest Management**: A Georgia-based company that offers mosquito, termite, and general pest control, known for using cutting-edge technology.\n\n7. **ABC Home & Commercial Services**: Operating in Texas, ABC provides comprehensive pest control, along with lawn and tree care services.\n\nWhen choosing a pest control company, consider factors such as the specific pest issues you're facing, the company’s reputation, customer reviews, and whether they offer eco-friendly solutions.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:00:19+00:00",
+  "has_unknown": true
+}

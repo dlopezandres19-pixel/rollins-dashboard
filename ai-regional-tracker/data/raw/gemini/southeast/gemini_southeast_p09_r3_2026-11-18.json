@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast—particularly across Florida, Georgia, and Texas—pest control is practically an essential home maintenance utility rather than an occasional service. The heat and humidity create year-round pressure from aggressive pests like subterranean and Formosan termites, American cockroaches (\"palmetto bugs\"), fire ants, and mosquitoes.\n\nThe residential pest control landscape in this region breaks down into top providers, common service models, and key factors to evaluate.\n\n---\n\n### 1. Major Providers by Footprint\n\n#### A. Top Regional Powerhouses (Strongest Southeast Roots)\n*   **Arrow Exterminators (and Stark Exterminators):** Headquartered in the Atlanta metro area, Arrow is one of the largest family-owned pest control companies in the country. They have a massive footprint in Georgia and extensive service areas across Florida and Texas. They are particularly well-regarded for customer service and termite management.\n*   **Massey Services:** Based in Orlando, Massey has deep roots in Florida and significant operations across Georgia and Texas. They specialize in whole-property care, frequently bundling general pest and termite prevention with turf/lawn care and irrigation.\n*   **ABC Home & Commercial Services:** If you are in Texas (particularly the Austin, San Antonio, Houston, and Dallas-Fort Worth metro areas), ABC is an institution. Owned by the Jenkins family, they offer broad exterior/interior pest protection, lawn care, and home mechanical services.\n*   **Truly Nolen:** Widely recognized for their mouse-eared service vehicles, they have a substantial presence in both Florida and Texas, with a strong emphasis on perimeter pest barriers and termite control.\n\n#### B. National Providers (Universal Availability)\n*   **Orkin:** Headquartered in Atlanta, Orkin is ubiquitous across all three states. They are known for rigorous employee training programs and specialized commercial/residential treatments, though pricing tends to be on the higher end.\n*   **Terminix:** One of the largest termite and pest control operators nationwide, with service branches covering virtually every county in FL, GA, and TX. They are often chosen for their expansive termite warranty options.\n\n---\n\n### 2. Common Service Models\n\nMost homeowners in these states choose between three primary service structures:\n\n1.  **Quarterly Exterior-First Maintenance (General Pest)**\n    *   **What it covers:** Roaches, ants, spiders, silverfish, and paper wasps.\n    *   **How it works:** Technicians apply a perimeter barrier around the foundation, clear spiderwebs/wasp nests from eaves, and treat entry points. Interior treatments are generally done on request at no extra charge.\n    *   **Why it’s standard:** It minimizes pesticides inside living spaces while keeping the Southeast’s heavy outdoor insect population from penetrating the home.\n\n2.  **Termite Protection Programs (Critical in the Southeast)**\n    *   Because Formosan and Eastern subterranean termites cause severe structural damage across the Gulf Coast and Southeast, termite control is almost always sold as a separate dedicated plan.\n    *   **Bait Systems (e.g., Sentricon):** In-ground bait stations placed around the home’s perimeter, checked annually or semi-annually.\n    *   **Liquid Barrier Treatments (e.g., Termidor):** A chemical trench/injection around the foundation to create an impenetrable barrier.\n    *   *Tip:* Always ask if the plan includes a **Retreatment & Repair Warranty** (which covers structural damage repairs if termites breach the barrier) or only a Retreatment Warranty.\n\n3.  **Seasonal Add-Ons (Mosquitoes & Lawn)**\n    *   **Mosquito Fogging/Misting:** Typically runs from March through October (or year-round in South Florida and South Texas), targeting shrubs and shaded areas where mosquitoes rest.\n    *   **Lawn Pest & Fungus Care:** Popular with providers like Massey and ABC, addressing chinch bugs, sod webworms, and dollar spot fungus that thrive in warm-season turfgrasses (St. Augustine, Bermuda, Zoysia).\n\n---\n\n### 3. How to Choose\n\n*   **Check the Local Branch Reputation:** Large companies (like Orkin or Terminix) operate on a branch-by-branch basis. A branch in Tampa or North Atlanta might have fantastic reviews, while",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:20:57+00:00",
+  "has_unknown": true
+}

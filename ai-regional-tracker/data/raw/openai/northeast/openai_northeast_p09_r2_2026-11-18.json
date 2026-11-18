@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "In the Northeast US, including New York, New Jersey, and Pennsylvania, you have several options for residential pest control. Here are some common choices:\n\n1. **Professional Pest Control Services**:\n   - **Orkin**: Known for its comprehensive pest control services and scientific approach, Orkin offers solutions for various pests.\n   - **Terminix**: Offers services targeting termites, bed bugs, rodents, and other common household pests.\n   - **Ehrlich**: Provides pest control and prevention services with a focus on environmentally friendly solutions.\n   - **Local Companies**: Many smaller, local companies offer personalized services and might have specific knowledge about regional pests.\n\n2. **DIY Solutions**:\n   - **Traps and Baits**: Available at hardware stores for common pests like rodents and insects.\n   - **Natural Remedies**: Use of essential oils, vinegar, or diatomaceous earth for a less chemical-heavy approach.\n   - **Over-the-Counter Sprays and Powders**: Products like Raid or Spectracide can be effective for minor infestations.\n\n3. **Integrated Pest Management (IPM)**:\n   - Focuses on long-term prevention through a combination of techniques such as biological control, habitat manipulation, and use of resistant varieties.\n\n4. **Regular Home Maintenance**:\n   - Sealing entry points, maintaining clean environments, and regular inspections can help prevent infestations.\n\n5. **Specialty Services**:\n   - Some companies offer specific services for bed bugs, termites, or wildlife control, which might be necessary depending on the type of pest problem.\n\nWhen choosing a service, consider factors like the type of pest, extent of the problem, budget, and whether you prefer environmentally friendly solutions. Always check reviews and credentials to ensure you're hiring a reputable company.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:05:57+00:00",
+  "has_unknown": true
+}

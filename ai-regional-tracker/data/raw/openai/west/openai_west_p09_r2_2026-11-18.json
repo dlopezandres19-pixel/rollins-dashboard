@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "In the Western US, including California, Washington, and Arizona, you have several options for residential pest control. Here are some of the main approaches:\n\n1. **Professional Pest Control Services:**\n   - **Orkin:** Offers comprehensive pest control services including termite control, rodent control, and pest prevention.\n   - **Terminix:** Known for dealing with a wide range of pests and offering customized treatment plans.\n   - **Ecolab Pest Control:** Focuses on eco-friendly solutions and prevention methods.\n   - **Local Companies:** Consider local options such as Clark Pest Control in California or Bulwark Exterminating in Arizona.\n\n2. **Do-It-Yourself (DIY) Solutions:**\n   - **Traps and Baits:** For rodents and insects, traps and baits can be effective for small infestations.\n   - **Natural Remedies:** Essential oils like peppermint or vinegar solutions can deter certain pests.\n   - **Over-the-Counter Products:** Sprays and granules available at home improvement stores can tackle various pests.\n\n3. **Integrated Pest Management (IPM):**\n   - This approach combines prevention, monitoring, and control to minimize pesticide use. It includes sealing entry points, maintaining cleanliness, and using biological control methods like beneficial insects.\n\n4. **Preventive Measures:**\n   - Regular cleaning, proper food storage, sealing cracks, and maintaining your yard can prevent infestations.\n\n5. **Eco-Friendly Options:**\n   - Many companies and DIY solutions focus on non-toxic, environmentally friendly products to minimize impact on the environment and health.\n\nWhen choosing a pest control option, consider factors like the type of pest, the severity of the infestation, budget, and personal preferences for chemical use. Always ensure that any professional service is licensed and certified in your state.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:11:46+00:00",
+  "has_unknown": true
+}

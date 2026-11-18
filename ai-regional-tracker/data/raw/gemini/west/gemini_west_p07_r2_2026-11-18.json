@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Western United States, pest pressures vary dramatically—from bark scorpions and desert termites in Arizona to drywood termites and Argentine ants in California, and carpenter ants and moisture-seeking rodents in Washington. \n\nThe top pest control companies operating in this region, categorized by their strengths and geographic coverage:\n\n---\n\n### 1. Best Overall Regional Choice: **Western Exterminator**\n* **Primary Coverage:** California, Arizona, and parts of the Pacific Northwest (part of the Rentokil network).\n* **Best For:** Regional expertise tailored to Western ecosystems.\n* **Why Choose Them:** Western Exterminator has operated in the West for over a century. Because they are native to the region, their technicians are deeply trained in handling Western-specific threats—such as desert bark scorpions in Phoenix, drywood termites in Southern California, and rodent exclusion along coastal and suburban corridors. They offer comprehensive annual plans (like PestFree365) that cover common household pests with free retreatments between scheduled visits.\n\n---\n\n### 2. Best for High-End Technician Training & Guarantees: **Orkin**\n* **Primary Coverage:** Extensive footprint across California, Washington, and Arizona.\n* **Best For:** Reliable national standards, aggressive infestations, and strong guarantees.\n* **Why Choose Them:** Orkin is consistently rated among the top national providers because of its rigorous technician certification program (Orkin Institute of Technology). \n* **Key Benefits:**\n  * **30-Day Money-Back Guarantee:** If pests return between treatments, they re-service at no extra cost; if you are still dissatisfied, they often refund your last treatment.\n  * **Strong in WA and CA:** Excellent for complex infestations like carpenter ants and subterranean termites.\n\n---\n\n### 3. Best for Termites and Wood-Destroying Organisms: **Terminix**\n* **Primary Coverage:** Widespread in all three states (urban, suburban, and many rural ZIP codes).\n* **Best For:** Termite monitoring, treatment, and structural damage protection.\n* **Why Choose Them:** Termites are a severe concern in both California (drywood and subterranean) and Arizona (desert subterranean). Terminix offers the **Nix Pest Guarantee** and specialized subterranean baiting systems (Sentricon), along with extensive damage-repair warranties for qualifying homes.\n\n---\n\n### 4. Top State-Specific Regional Champions\nIn many Western markets, strong regional or local independent companies often outperform national chains in responsiveness and localized pest knowledge.\n\n#### **California: Clark Pest Control**\n* **Where:** Northern and Central California, expanding across the state.\n* **Why:** Clark is one of the most trusted names in California pest control. They excel in **Integrated Pest Management (IPM)**, emphasizing exclusion and targeted treatments rather than simply spraying baseboards. They are exceptionally good with Argentine ant management and rodent proofing.\n\n#### **Arizona: Truly Nolen or Burns Pest Elimination**\n* **Truly Nolen:** Headquartered in Tucson, they specialize in hot-weather pest dynamics and are known for their four-season treatment program and scorpion-specific barriers.\n* **Burns Pest Elimination:** A Phoenix and Tucson favorite known for aggressive scorpion sealing, pigeon control, and thermal heat remediation for bed bugs.\n\n#### **Washington: Cascade Pest Control or Senske**\n* **Cascade Pest Control:** Renowned in the Puget Sound region for eco-friendly, low-toxicity methods targeting carpenter ants, spiders, and rats—crucial for Pacific Northwest homes surrounded by dense vegetation and moisture.\n* **Senske Services:** A trusted Pacific Northwest staple offering combined pest control, perimeter defense, and lawn care.\n\n---\n\n### Key Things to Ask Before You Sign:\n1. **Target Pest Inclusions:** Ensure high-threat regional pests aren't excluded from basic plans. In Arizona, ask specifically about **scorpions** (often require an add-on or dedicated sealing service). In California and Washington, check how **carpenter ants** or **wood-boring beetles** are billed.\n2. **Free Re-services:** Confirm that the recurring service contract includes free callbacks if pests reappear between quarterly visits.\n3. **Inspection Quality:** For termite-prone areas (especially CA and AZ), always get a free on-site inspection before committing to a multi-year prevention contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:49:41+00:00",
+  "has_unknown": true
+}

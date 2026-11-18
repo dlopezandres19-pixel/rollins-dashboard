@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-18",
+  "iso_week": "2026-W47",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "In the Midwest US, including Illinois, Ohio, and Michigan, there are several options for residential pest control. Here are some common approaches:\n\n1. **Professional Pest Control Services**: \n   - Companies like Orkin, Terminix, and Rentokil offer comprehensive pest management services.\n   - Local providers such as Rose Pest Solutions and Varment Guard also operate in these areas.\n\n2. **DIY Pest Control**:\n   - Over-the-counter products like sprays, traps, and baits are available at hardware stores.\n   - Natural remedies, such as essential oils or diatomaceous earth, can be effective for minor infestations.\n\n3. **Integrated Pest Management (IPM)**:\n   - A holistic approach that combines prevention, control, and monitoring.\n   - Focuses on long-term prevention through habitat manipulation and biological control.\n\n4. **Seasonal Treatments**:\n   - Many companies offer seasonal packages to prevent infestations of common pests like ants, spiders, and mosquitoes.\n\n5. **Exclusion Techniques**:\n   - Sealing entry points and regular maintenance to prevent pest entry.\n   - Installing screens and using weather stripping can be effective.\n\n6. **Community-Based Resources**:\n   - Local extension offices often provide resources and guidance on pest control.\n\nWhen selecting a pest control method or service, consider factors like the type of pest, severity of infestation, cost, and environmental impact. Always read reviews and check for proper licensing and certifications when hiring a professional service.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-18T16:08:58+00:00",
+  "has_unknown": true
+}
