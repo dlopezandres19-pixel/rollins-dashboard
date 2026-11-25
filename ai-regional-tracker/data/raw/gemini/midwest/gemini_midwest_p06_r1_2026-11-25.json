@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "For homeowners and renters in the Midwest—including Illinois, Ohio, and Michigan—several reputable national pest control companies offer widespread coverage, standardized training, and service guarantees. \n\nHere are the best national pest control companies operating in the region, along with what each does best:\n\n---\n\n### 1. Orkin\n* **Best Overall & Specialty Infestations**\n* **Midwest Coverage:** Extensive branches across Illinois (Chicago metro, Peoria, Rockford), Ohio (Cleveland, Columbus, Cincinnati, Dayton), and Michigan (Detroit metro, Grand Rapids, Lansing).\n* **Why Choose Them:** Orkin is widely regarded for having the most rigorous technician training program in the industry (certified by the Entomological Society of America). They handle almost every type of pest, including tough Midwest challenges like subterranean termites, bed bugs, carpenter ants, and rodent exclusions.\n* **Guarantee:** 30-day money-back guarantee and free re-treatments between scheduled visits if pests return.\n\n---\n\n### 2. Terminix\n* **Best for Termites & Comprehensive Home Plans**\n* **Midwest Coverage:** Large presence across all three states, with decades of service history in major metros and suburban communities.\n* **Why Choose Them:** While they handle general household pests, Terminix is best known for its specialized termite monitoring and remediation systems (such as the Bait Defend System). If you live in older Midwest housing stock where moisture and wood-destroying insects are concerns, Terminix is a strong contender.\n* **Guarantee:** The \"Nix Pest Guarantee\" covers free call-backs between recurring treatments for covered pests.\n\n---\n\n### 3. Rentokil / Regional Heritage Brands (Anderson & Ehrlich)\n* **Best Blend of National Backing & Local Expertise**\n* **Midwest Coverage:** Rentokil is a global/national parent company that often operates under well-known regional names in the Midwest:\n  * **Anderson Pest Solutions:** Heavily established in Illinois (especially Chicagoland) and parts of Michigan.\n  * **Ehrlich Pest Control:** Extensive coverage across Ohio.\n* **Why Choose Them:** You get the resources and warranty backing of a national brand with technicians who know hyper-local Midwest pest cycles inside out. Their year-round protection plans (like Anderson’s Natural Choice Home program) focus heavily on preventative seasonal barriers.\n\n---\n\n### 4. Aptive Environmental\n* **Best for Eco-Conscious Perimeter Defense**\n* **Midwest Coverage:** High availability in suburban markets throughout IL, OH, and MI.\n* **Why Choose Them:** Aptive focuses primarily on exterior, barrier-based treatments using naturally derived active ingredients (like pyrethrins from chrysanthemum flowers). They are ideal if your main concerns are seasonal pests like ants, spiders, wasps, crickets, and boxelder bugs.\n* **Keep in Mind:** Aptive generally does **not** treat for termites, bed bugs, or large wildlife—their model is built around preventative quarterly management of common crawling and stinging insects.\n\n---\n\n### Midwest-Specific Considerations\n\nWhen choosing a provider in Illinois, Ohio, or Michigan, look for plans that adapt to the region’s distinct seasonal shifts:\n* **Spring/Summer:** Carpenter ants, subterranean termites, mosquitoes, and wasps.\n* **Late Summer/Fall:** Boxelder bugs, brown marmorated stink bugs, and cluster flies trying to enter wall voids before the first hard freeze.\n* **Winter:** Heavy rodent pressure (field mice, house mice, and Norway rats) moving indoors seeking shelter and warmth.\n\n---\n\n### Recommendations for Hiring\n1. **Get an on-site or virtual quote:** Pricing depends heavily on square footage, home layout (crawlspace vs. full basement), and specific pests.\n2. **Clarify the contract:** Ask whether the service is a one-time treatment or an annual subscription (which is standard for quarterly maintenance plans).\n3. **Confirm re-service terms:** Ensure the contract clearly states that technicians will return free of charge if target pests reappear between scheduled visits.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:16:37+00:00",
+  "has_unknown": true
+}

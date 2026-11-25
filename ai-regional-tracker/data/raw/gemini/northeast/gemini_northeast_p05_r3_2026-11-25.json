@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "When choosing a pest control company in the Northeast (New York, New Jersey, and Pennsylvania), you have a mix of top-tier **regional powerhouses** (which often have the deepest experience with Northeast-specific pests like carpenter ants, ticks, and winter rodents) and **national brands** (which offer robust guarantees and 24/7 customer service).\n\nHere are the top recommendations broken down by category:\n\n---\n\n### 1. Best Regional Specialists (Often the Top Choice for the Tri-State Area)\n\n*   **Viking Pest Control**\n    *   **Coverage:** Extensive across NJ, eastern PA, Delaware, and southern NY.\n    *   **Best for:** High-tech rodent prevention and eco-conscious seasonal plans.\n    *   **Why choose them:** They are an Anticimex company known for using cutting-edge tech (like digital SMART rodent traps that monitor activity 24/7 without poisons). They are deeply familiar with seasonal shifts in the Northeast (spring ants, summer mosquitoes/ticks, winter mice).\n*   **Ehrlich Pest Control (A Rentokil Company)**\n    *   **Coverage:** Massive footprint across Pennsylvania, Upstate New York, and New Jersey.\n    *   **Best for:** Comprehensive year-round home protection plans (PestFree365+).\n    *   **Why choose them:** Founded in PA in 1928, Ehrlich is arguably the most recognizable legacy pest brand in the region. Their technicians understand older Northeast housing stock (fieldstone basements, older framing) where pests frequently infiltrate.\n*   **Western Pest Services**\n    *   **Coverage:** New Jersey, eastern Pennsylvania, and the New York metro area.\n    *   **Best for:** Tough infestations, bed bugs, and general perimeter defense.\n    *   **Why choose them:** A long-standing Mid-Atlantic favorite. They have a reputation for thorough home inspections and practical, no-nonsense treatment plans.\n\n---\n\n### 2. Best National Providers (Widest Availability & Guarantees)\n\n*   **Orkin**\n    *   **Best for:** Rigorous technician training and customer satisfaction.\n    *   **Why choose them:** Orkin is consistently rated among the highest for technician knowledge. If you have an aggressive or hard-to-diagnose infestation (e.g., bed bugs in an apartment/row house or wood-boring beetles), their targeted treatments and 30-day money-back guarantee make them very reliable.\n*   **Terminix**\n    *   **Best for:** Termites and bundled home services.\n    *   **Why choose them:** If you are buying a home or have an active subterranean termite issue (common in southern PA, South Jersey, and Long Island), Terminix’s baiting systems (Sentricon) and the \"Terminix Promise\" repair guarantee are industry benchmarks.\n\n---\n\n### How to Choose for Your Specific Situation\n\n| If your primary issue is... | Your best bet |\n| :--- | :--- |\n| **Mice or rats entering older foundations** | **Viking Pest** (for smart rodent exclusion) or **Ehrlich** |\n| **Ticks & mosquitoes in suburban/wooded yards** | **Ehrlich** or a specialized yard service (like Mosquito Squad) |\n| **Termites or Carpenter Ants** | **Terminix** or **Orkin** |\n| **Bed Bugs (especially NYC or Philadelphia)** | **Orkin**, **Western Pest**, or a dedicated local thermal-heat specialist |\n| **Year-round peace of mind** | **Ehrlich (PestFree365)** or **Viking** |\n\n---\n\n### Checklist Before You Sign:\n1. **Always get 2–3 free inspections/quotes:** Pricing can vary significantly between local branches even within the same company.\n2. **Clarify the re-service policy:** A good plan should include **free retreatments between scheduled visits** if pests return.\n3. **Check contract cancellation terms:** Many national companies require an annual commitment with early cancellation fees; ask if you are locked into a 12-month agreement.\n4. **State licensing:** Ensure the technician is certified by the relevant state agency (**NY DEC**, **NJ DEP**, or **PA Department of Agriculture**).",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Mosquito Squad"
+  ],
+  "first_mentioned": "Anticimex",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:05:14+00:00",
+  "has_unknown": true
+}

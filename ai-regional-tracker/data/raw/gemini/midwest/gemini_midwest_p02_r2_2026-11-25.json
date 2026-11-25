@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Midwest—particularly across **Illinois, Ohio, and Michigan**—you have a choice between established regional companies that understand local seasonal pest pressures and large nationwide providers. \n\nLocal and regional specialists often provide better customer service and tailored treatment plans for Great Lakes seasonal shifts (such as spring carpenter ants and fall rodent/boxelder bug invasions).\n\nHere are the most recommended pest control companies for this region:\n\n---\n\n### 1. Top Regional Recommendation: Rose Pest Solutions\n* **Best For:** Overall residential pest control across IL, OH, and MI.\n* **Why Them:** Founded in 1860 in Cincinnati, Rose Pest Solutions is the nation’s oldest pest control company and operates extensive service routes throughout Illinois, Ohio, and Michigan. \n* **Strengths:** Because they are Midwest-centric, their technicians are deeply trained on regional seasonal pests—such as fall rodent migrations, boxelder bugs, brown marmorated stink bugs, carpenter ants, and subterranean termites. They offer flexible recurring maintenance plans (like their *Healthy Home Maintenance Program*) with free re-treatments between visits if pests return.\n\n---\n\n### 2. Best for Mixed Pest & Wildlife Issues: Varment Guard / Plunkett’s Pest Control\n* **Best For:** Homeowners dealing with both insects and nuisance wildlife (bats, raccoons, squirrels, birds).\n* **Where They Operate:** Strong presence in Ohio, Michigan, and northern Illinois (Varment Guard operates heavily in Ohio and Michigan and is part of Plunkett's, a major upper-Midwest provider).\n* **Strengths:** Midwestern homes—especially older homes or properties near wooded areas—frequently deal with attic invaders alongside structural pests. Varment Guard excels at humane wildlife trapping, entry-point exclusion (repairs to keep animals out), and traditional insect/rodent treatments under one roof.\n\n---\n\n### 3. State-Specific Leaders Worth a Look\n\n* **Illinois (Especially Chicagoland): Anderson Pest Solutions**\n  * One of the largest regional names in northern and central Illinois. They offer an environmentally responsible *Natural Choice* home protection program and are well-versed in urban and suburban pest dynamics.\n* **Michigan: Griffin Pest Solutions**\n  * Headquartered in Michigan (Kalamazoo) with coverage across western, central, and southeastern Michigan. They have a strong reputation for addressing cold-weather rodent intrusions and summer mosquito/tick programs.\n\n---\n\n### 4. Top National Providers (Best for Widespread/Rural Availability)\n\nIf you live outside the service perimeter of regional companies, the two largest national brands are solid choices:\n\n* **Orkin:** Known for some of the most rigorous technician training in the industry. They excel in specific high-stakes infestations like subterranean termites and bed bugs, and they back their work with a solid 30-day money-back guarantee.\n* **Terminix:** Offers extensive coverage across rural and suburban Midwest corridors. If your primary concern is termite monitoring and damage warranties or crawlspace encapsulation, Terminix often has the widest array of specialty service plans.\n\n---\n\n### Tips for Midwestern Homeowners When Hiring:\n\n1. **Ask About Fall Prep:** The biggest Midwest pest surge happens between September and November, when mice, boxelder bugs, and stink bugs look for warmth. Ensure any recurring plan includes exterior perimeter sealing and barrier sprays ahead of the first hard freeze.\n2. **Clarify Re-Service Policies:** Midwest weather fluctuations (like early spring thaws or sudden rain) can wash out perimeter barriers. Look for a company that offers **free callback visits** if pests appear between scheduled quarterly treatments.\n3. **Check for Wildlife Exclusion:** If you have raccoons, squirrels, or bats entering soffits or attics, ask if the company handles exclusion carpentry. Many basic pest control services will only set traps and leave structural holes untouched.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:12:33+00:00",
+  "has_unknown": true
+}

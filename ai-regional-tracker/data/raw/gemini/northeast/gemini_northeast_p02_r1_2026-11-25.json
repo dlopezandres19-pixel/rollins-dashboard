@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "For homeowners in New York, New Jersey, and Pennsylvania, pest control needs often revolve around distinct regional challenges: **carpenter ants, mice/rats seeking winter shelter, subterranean termites, ticks (Lyme disease risk), and invasive pests like spotted lanternflies**. \n\nBecause of this, you generally have two great routes: **established regional specialists** who understand Northeast seasonal pest cycles deeply, and **large national providers** with extensive resources and guarantees.\n\nHere are the top recommendations based on reputation, service offerings, and regional coverage:\n\n---\n\n### 1. Best Overall Regional Choice: **Western Pest Services**\n* **Service Area:** New Jersey, New York, Pennsylvania, Delaware, and Connecticut.\n* **Why Recommend Them:** Founded in New Jersey in 1928, Western has nearly a century of hyper-local experience across the Tri-State area. While now owned by Rollins (the parent company of Orkin), it operates with its own regional identity and strong community presence.\n* **Best For:** Homeowners who want a company that truly understands Northeast pest behavior—especially carpenter ants, rodents, and ticks.\n* **Pros:** Highly trained local technicians, customized residential maintenance plans, and strong guarantees between visits.\n\n### 2. Best for Pennsylvania & Surrounding Areas: **Ehrlich Pest Control**\n* **Service Area:** Heavy presence across PA, NJ, and NY (part of the Rentokil family).\n* **Why Recommend Them:** Ehrlich was founded in Reading, Pennsylvania, in 1928 and remains one of the premier pest control names in the Mid-Atlantic and Northeast. \n* **Best For:** Year-round preventative maintenance via their **PestFree365+** plan, which covers over 36 common pests (including bed bugs, which many standard plans exclude).\n* **Pros:** Excellent coverage for seasonal invaders like stink bugs, spotted lanternflies, and carpenter bees; reliable re-treatment policy.\n\n### 3. Best for Tech-Forward & Eco-Friendly Pest Control: **Viking Pest Control**\n* **Service Area:** New Jersey, Pennsylvania, Delaware, and Eastern Maryland.\n* **Why Recommend Them:** Viking (an Anticimex company) is known for using **SMART technology**—electronic, non-toxic rodent monitoring traps that track activity and report back to technicians 24/7 without placing rodenticides around your home.\n* **Best For:** Homeowners with pets/children, those looking for Integrated Pest Management (IPM), and yards dealing with severe tick, mosquito, or spotted lanternfly infestations.\n* **Pros:** Strong green pest control options; cutting-edge rodent control.\n\n---\n\n### 4. Best National Providers (For Widespread Availability & Guarantees)\n\nIf you live in a more rural pocket of NY/PA where regional outfits don't service, the two legacy national brands are very reliable:\n\n* **Orkin:** Widely considered the gold standard for technician training. Their initial inspection is exceptionally thorough, and they offer a strict **30-day money-back guarantee** (plus free re-treatments between scheduled visits if pests return).\n* **Terminix:** Generally the top contender if your primary concern is **subterranean termites**, which are prevalent in older Northeast foundations. They offer industry-leading termite baiting systems and damage repair guarantees.\n\n---\n\n### Tips for Choosing the Right One for Your Home:\n\n1. **Ask About Carpenter Ants vs. Termites:** In heavily wooded parts of the Northeast (like Upstate NY, the Hudson Valley, North Jersey, and the Poconos), carpenter ants cause just as much structural damage as termites. Ensure your plan covers wood-destroying insects.\n2. **Inquire About Lanternflies and Ticks:** If you have an acre or more, yard treatments for deer ticks and spotted lanternflies are often sold as seasonal add-ons. Ask if these can be bundled into a general pest plan.\n3. **Check the Guarantee:** Always confirm that the company provides **free re-treatments between quarterly visits**. In Northeast winters, rodents can find unexpected entry points as soon as the first hard freeze hits.\n4. **Get Multiple Quotes:** Most of these companies offer free home inspections and estimates. Having two technicians walk your property will give you a much clearer idea of where pests are entering your home.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:01:18+00:00",
+  "has_unknown": true
+}

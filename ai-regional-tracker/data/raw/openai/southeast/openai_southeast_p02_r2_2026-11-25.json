@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Southeast US, including Florida, Georgia, and Texas, here are a few well-regarded pest control companies:\n\n1. **Orkin**: Known nationwide, Orkin offers comprehensive pest control services and has a strong presence in the Southeast. They provide services for a variety of pests, including termites, mosquitoes, and rodents.\n\n2. **Terminix**: Another national leader, Terminix offers specialized pest control solutions and has local branches throughout the Southeast. They’re known for their termite control and prevention services.\n\n3. **Massey Services**: Headquartered in Orlando, Florida, Massey Services is well-suited for the climate and specific pests of the Southeast. They offer eco-friendly solutions and a range of services for pests, lawn care, and irrigation.\n\n4. **Arrow Exterminators**: Based in Atlanta, Georgia, Arrow Exterminators provides pest control solutions tailored to the Southern climate, including termite protection and mosquito control.\n\n5. **Truly Nolen**: With a strong presence in Florida and Texas, Truly Nolen offers pest and termite control as well as lawn care services. They’re known for their innovative and environmentally friendly approaches.\n\nWhen choosing a pest control company, consider factors like customer reviews, service guarantees, and specific pest issues you might be facing. It can also be helpful to get quotes from multiple companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:40:26+00:00",
+  "has_unknown": false
+}

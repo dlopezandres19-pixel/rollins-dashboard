@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "Because the Southeast (Florida, Georgia, and Texas) shares a warm, humid climate, homes in this region face specific year-round pest pressures—notably **Formosan and subterranean termites, German and American cockroaches (palmetto bugs), fire ants, and mosquitoes**. \n\nHere are the top pest control companies operating in this region, categorized by what they do best:\n\n---\n\n### 1. Arrow Exterminators – **Best Overall for the Southeast**\n* **Primary footprint:** Deeply established throughout Georgia, Florida, and Texas.\n* **Why choose them:** Headquartered in Atlanta, Arrow is one of the largest family-owned pest control companies in the country. They are particularly renowned for their customer service and technician retention, meaning you are much more likely to have the same technician servicing your home consistently.\n* **Specialties:** Excellent termite protection programs (primarily using the Sentricon® bait system) and specialized outdoor pest control, including mosquito reduction and fire ant control.\n\n---\n\n### 2. Massey Services – **Best for Florida & Outdoor/Lawn Bundling**\n* **Primary footprint:** Florida (headquarters), Georgia, and Texas.\n* **Why choose them:** If you are in Florida or need comprehensive exterior care in GA/TX, Massey is a prime contender. They focus heavily on an **outside-in prevention strategy** to avoid spraying excessive chemicals inside your living areas.\n* **Specialties:** In addition to general pest control and termite bonds, Massey excels at bundling pest services with lawn care, landscape fertilization, and irrigation maintenance, which is ideal for southern turf types (St. Augustine, Bermuda, Zoysia).\n\n---\n\n### 3. Orkin – **Best for Thorough Inspections & Consistent Service**\n* **Primary footprint:** Nationwide, with heavy coverage across FL, GA, and TX.\n* **Why choose them:** Orkin is famous for having one of the most rigorous technician training programs in the industry. If you have an active, unidentified infestation or a complex problem (like bed bugs, German roaches, or severe rodent intrusions), their diagnostic approach is top-tier.\n* **Specialties:** Targeted treatment plans, 30-day money-back guarantees, and responsive retreatment if pests reappear between visits.\n\n---\n\n### 4. Terminix – **Best for Termite Defense & Warranties**\n* **Primary footprint:** Nationwide, extensive coverage throughout the South.\n* **Why choose them:** In FL, GA, and TX, termite coverage is not optional—it’s critical. Terminix built its entire brand around termite eradication. \n* **Specialties:** They offer comprehensive termite protection plans with strong damage-repair guarantees (often covering the cost of structural repairs caused by new termite damage if you maintain your bond). They use both bait systems (Sentricon) and liquid barrier treatments (Termidor).\n\n---\n\n### 5. ABC Home & Commercial Services – **Best Local Favorite (Texas)**\n* **Primary footprint:** Texas (Austin, San Antonio, Dallas-Fort Worth, Houston).\n* **Why choose them:** If your home is in Texas, ABC is an iconic, family-owned institution known for superior local customer service compared to large national corporate conglomerates. \n* **Specialties:** Full-service home care: pest control, termite defense, mosquito management, and handyman/HVAC/pool services.\n\n---\n\n### Key Questions to Ask Before Signing a Contract in the Southeast\n\n1. **What type of termite warranty/bond is offered?**\n   * Ask whether the warranty is **\"Repair and Retreatment\"** or just **\"Retreatment Only.\"** Given the aggressive nature of Formosan termites in the Gulf Coast and coastal Georgia/Florida, a repair guarantee provides far more financial protection.\n2. **What treatment method do they use for termites?**\n   * Look for companies offering **Sentricon® bait stations** or **Termidor® liquid barriers**, which are the gold standards for Southern soil.\n3. **Are free retreatments included?**\n   * Pests reproduce rapidly in warm climates; ensure your quarterly or bi-monthly contract guarantees free visits between scheduled appointments if pests return inside.\n4. **Is the service exterior-focused?**\n   * Modern pest management should stop pests outside at the perimeter, windows, and weep holes, rather than spraying baseboards indoors every single visit.\n\n### Recommendation\n* If you want a **regional specialist with strong customer satisfaction**, start by getting a quote from **Arrow Exterminators**.\n* If you live in **Florida** or want to combine **pest control with lawn care**, call **Massey Services**.\n* If your property is in **Texas**, look at **ABC Home & Commercial Services**.\n* If you are primarily worried about a heavy **termite threat**, compare quotes and bond terms between **Terminix** and **Orkin**.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:53:42+00:00",
+  "has_unknown": true
+}

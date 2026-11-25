@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "For homeowners in Florida, Georgia, and Texas, pest control demands are unique. The warm, humid climate creates year-round pressure from pests like subterranean and Formosan termites, American cockroaches (\"palmetto bugs\"), fire ants, and mosquitoes. \n\nSeveral standout companies operate across these states, ranging from top regional powerhouses to reliable national providers:\n\n---\n\n### 1. Best Overall for the Region: **Massey Services**\n* **Best For:** Bundled pest control, termite defense, and lawn/irrigation care.\n* **Footprint:** Headquartered in Orlando, Florida, with extensive branches across Florida, Georgia, and major Texas metros (Dallas–Fort Worth, Houston, Austin, San Antonio).\n* **Why Recommend Them:** Massey is tailored specifically to Southern living. Instead of just spraying baseboards indoors, they emphasize exterior perimeter defense to keep pests from entering. They also offer combined packages covering lawn fertilization, weed control, and mosquito abatement, which is very common and convenient in warm-weather states.\n\n---\n\n### 2. Best for Customer Service & Value: **Arrow Exterminators**\n* **Best For:** Termite warranties and transparent customer care.\n* **Footprint:** Headquartered in Atlanta, Georgia, Arrow is one of the largest privately held pest control companies in the country, with massive coverage across Georgia and Florida, as well as branches in Texas.\n* **Why Recommend Them:** Arrow routinely scores higher in customer satisfaction and technician retention than the massive national conglomerates. They use the Sentricon system for termites and offer their comprehensive \"STEPS\" (Total Environmental Pest Solutions) program, which minimizes pesticide exposure inside the home.\n\n---\n\n### 3. Best for Severe Infestations: **Orkin**\n* **Best For:** Targeted pest problems, bed bugs, and fast emergency response.\n* **Footprint:** Ubiquitous across every metro and most rural areas in FL, GA, and TX.\n* **Why Recommend Them:** Orkin's technicians undergo rigorous, science-backed training. If you have an active, aggressive infestation (e.g., German cockroaches, bed bugs, or severe rodent pressure), Orkin is generally regarded as having the most thorough diagnostic and eradication protocols.\n\n---\n\n### 4. Best for Termite Protection: **Terminix**\n* **Best For:** Extensive termite bond options and baiting/trenching programs.\n* **Footprint:** Highly available across all three states.\n* **Why Recommend Them:** Termites cause billions in damage across the Gulf Coast and Southeast every year. Terminix offers some of the strongest damage-repair guarantees in the industry (the Nix Guarantee). If your primary worry is drywood or subterranean/Formosan termites, their specialized baiting systems and annual inspection plans are among the most established.\n\n---\n\n### State-Specific Standout to Note (Texas):\n* **ABC Home & Commercial Services:** If you are in Texas (especially Austin, San Antonio, Houston, or DFW), ABC is arguably the most trusted home-service brand in the state. They handle pest, pool, lawn, and HVAC with exceptional local reputation.\n\n---\n\n### Advice for Homeowners in FL, GA, and TX:\n\n1. **Verify the Termite Bond:** In this region, a termite contract is practically a requirement for homeownership. Always check if the agreement covers **retreat-only** or **retreat and repair**. Ensure it explicitly includes **Formosan termites**, which are aggressive and common along coastal Florida, Georgia, and the Texas Gulf Coast.\n2. **Opt for Exterior Perimeter Defense:** High-quality modern pest control does not require coating your indoor baseboards in chemicals every quarter. Choose a provider that treats the exterior barrier, eaves, and weep holes, only treating indoors when there is an active problem.\n3. **Compare Local Branch Reviews:** For companies like Terminix and Orkin, service quality can vary significantly by branch. Always check the specific Google Maps reviews for the local office that services your ZIP code.\n4. **Get Multiple Free Inspections:** Massey, Arrow, and Orkin will almost always provide free home evaluations. Have 2–3 technicians walk your property so you can compare their findings, suggested treatment plans, and annual contract prices.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:50:30+00:00",
+  "has_unknown": true
+}

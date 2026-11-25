@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control provider in the Northeast (New York, New Jersey, and Pennsylvania), it helps to compare a mix of **established regional powerhouses** and **large national brands**. The Northeast has specific pest pressures—such as heavy tick seasons, subterranean termites, carpenter ants, winter rodent infestations, and high bed-bug activity in urban centers—making regional experience especially valuable.\n\nHere are the top providers you should compare:\n\n---\n\n### 1. Top Regional Brands (Best Local Knowledge & Northeast Presence)\n\n* **Ehrlich Pest Control (a Rentokil company)**\n  * **Where they operate:** Widespread coverage across PA, NY, and NJ.\n  * **Best for:** All-around residential pest plans, ticks, mosquitoes, and termites.\n  * **Why compare them:** Ehrlich originated in Pennsylvania and has operated in the Mid-Atlantic and Northeast for nearly a century. Their *PestFree365+* plan is one of the most comprehensive annual maintenance programs in the region, covering over 30+ common household pests, including bed bugs and seasonal invaders.\n* **Western Pest Services**\n  * **Where they operate:** New Jersey, Eastern Pennsylvania, New York (including NYC and the Hudson Valley), and Delaware.\n  * **Best for:** Integrated pest management (IPM), multi-family properties, and tough structural pests (termites, carpenter ants).\n  * **Why compare them:** Founded in New Jersey in 1928, Western is a regional staple with deep familiarity with local building types (from pre-war urban buildings to suburban split-levels). They are known for thorough inspections and strong customer service.\n* **Viking Pest Control**\n  * **Where they operate:** Throughout New Jersey, Pennsylvania, New York, and Delaware.\n  * **Best for:** Modern/tech-forward rodent control and eco-conscious options.\n  * **Why compare them:** Viking is known for using **Anticimex SMART technology**—digital, non-toxic monitoring systems that track and trap rodents 24/7 without poisons. They also offer strong seasonal programs for lanternflies (a major issue in PA and NJ), ticks, and mosquitoes.\n\n---\n\n### 2. Major National Providers (Best for Standardized Guarantees & Availability)\n\n* **Orkin**\n  * **Where they operate:** Virtually everywhere in NY, NJ, and PA.\n  * **Best for:** Fast response times, strict technician training, and targeted treatments.\n  * **Why compare them:** Orkin requires extensive training hours for its technicians (including university-level entomology coursework). If you have an urgent, hard-to-diagnose infestation or want a clear 30-day money-back guarantee with free re-treatments, Orkin is an essential baseline quote.\n* **Terminix**\n  * **Where they operate:** Extensive coverage across all three states.\n  * **Best for:** Termite monitoring/prevention systems (Bait stations and liquid barriers) and broad general pest plans.\n  * **Why compare them:** If subterranean termites are your primary concern, Terminix is widely considered the industry benchmark for termite protection plans and structural damage guarantees (often up to $250,000+ for qualifying homes).\n\n---\n\n### 3. Highly Regarded Sub-Regional / Metro Providers\n\nDepending on your exact location, consider adding a local specialist to your comparison:\n\n* **NYC Metro & Long Island:** \n  * **MMPC (Metro Pest Management Consultants):** High-end, eco-friendly urban specialists known especially for discreet canine bed-bug inspections and chemical-free treatments.\n  * **Suburban Exterminating:** A major player across Long Island (Nassau/Suffolk) known for seasonal yard and home coverage.\n* **New Jersey & Greater Philadelphia:**\n  * **Cooper Pest Solutions:** Highly regarded in Central/South Jersey and the Philly suburbs, particularly for bed bug elimination and preventative stink bug/carpenter ant protocols.\n  * **Arrow Pest Control:** A family-owned, highly rated provider serving central and northern New Jersey for over 50 years.\n\n---\n\n### Questions to Ask Before Choosing:\n\n1. **\"What specific pests are excluded from the annual plan?\"** (Many basic quarterly plans exclude bed bugs, termites, German roaches, or carpenter bees).\n2. **\"Are callbacks between visits free?\"** If mice or ants return three weeks after a visit, will they come back out at no charge? (Reputable providers should include this).\n3. **\"Do you offer seasonal exterior barriers?\"** In the Northeast, preventative exterior sprays in spring and fall often keep pests from entering your living space entirely.\n4. **\"Is your quote based on an in-person inspection or square footage over the phone?\"** For complex issues (termites, rodents, bed bugs), insist on an on-site inspection before signing a long-term contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:08:16+00:00",
+  "has_unknown": true
+}

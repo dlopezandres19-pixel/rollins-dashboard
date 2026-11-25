@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "When dealing with pests in the Southeast—especially in Florida, Georgia, and Texas—homeowners face unique challenges like heavy termite pressure (including aggressive Formosan termites), year-round roaches (palmetto bugs), mosquitoes, and fire ants. \n\nThe leading residential pest control companies operating across this region include major regional powerhouses, national brands with deep Southern roots, and standout state-level providers:\n\n---\n\n### 1. Top Regional Powerhouses (Born in the South)\n\n*   **Massey Services** *(Extensive presence in FL, GA, and TX)*\n    *   **Best for:** Bundled pest control, termite defense, and lawn/irrigation care.\n    *   **Why they lead:** Headquartered in Maitland, Florida, Massey is one of the largest family-owned service companies in the country. They specialize in the Southern climate and focus heavily on perimeter prevention (keeping treatments on the outside so chemicals aren’t constantly sprayed indoors).\n*   **Arrow Exterminators** *(Extensive presence across GA, FL, and TX)*\n    *   **Best for:** Termite protection (Sentricon system) and whole-home pest management.\n    *   **Why they lead:** Based in Atlanta, Georgia, Arrow is one of the largest privately held pest control companies in the US. They have an excellent reputation for customer service, comprehensive termite bonds, and wildlife exclusion.\n*   **ABC Home & Commercial Services** *(Dominant in Texas, expanding into Florida)*\n    *   **Best for:** Texas homeowners looking for pest, lawn, and general home service integration.\n    *   **Why they lead:** Run by the Jenkins family, ABC is arguably the most recognizable independent home service name in Texas (Austin, Dallas-Fort Worth, Houston, San Antonio). They are widely praised for reliability and specialized treatments for local pests like scorpion control and fire ants.\n\n---\n\n### 2. Major National Brands with Heavy Southern Footprints\n\n*   **Orkin**\n    *   **Best for:** Fast response times, strict technician training, and money-back guarantees.\n    *   **Why they lead:** Headquartered in Atlanta, Orkin has hundreds of branches across Florida, Georgia, and Texas. Their technicians undergo rigorous training, and their 30-day money-back guarantee makes them a safe, dependable choice for tough infestations (like bed bugs or German roaches).\n*   **Terminix**\n    *   **Best for:** Termite monitoring, baiting, and termite damage guarantees.\n    *   **Why they lead:** Terminix has a massive footprint throughout the Sunbelt. Because termites cause billions in damage across the Southeast annually, Terminix’s specialized termite inspection plans and repair guarantees remain among the most popular choices in the region.\n\n---\n\n### 3. Other Strong Regional Contenders\n\n*   **Truly Nolen Pest Control:** Highly active in Florida and Texas. Known for their \"Four Seasons\" approach and automotive-themed yellow mouse cars, they offer strong programs for rodent proofing, termites, and routine pest defense.\n*   **Cook’s Pest Control:** A staple across Georgia and the Florida Panhandle (headquartered in Alabama). Known for exceptional customer satisfaction ratings and technician longevity.\n*   **Northwest Exterminating:** A major player throughout Georgia and parts of Florida. Known for their \"green\" and eco-friendly pest solutions, which appeal to households with pets and young children.\n\n---\n\n### Tips for Hiring in FL, GA, and TX:\n\n1.  **Demand a Termite Warranty/Bond:** In these warm, humid states, subterranean termites are an inevitability rather than a possibility. Always ask if your provider offers a transferable termite bond that covers **retreatment and repair damage**.\n2.  **Look for Exterior-Focused Service:** Modern pest control emphasizes barrier treatments on the exterior foundation, eaves, and entry points, which minimizes the need for indoor chemical applications.\n3.  **Check Local Branch Reviews:** Service quality can vary branch by branch, even within major national brands. Check local Google ratings for the specific dispatch office servicing your ZIP code before signing an annual contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:53:23+00:00",
+  "has_unknown": true
+}

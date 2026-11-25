@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Southeast US (Florida, Georgia, Texas) should consider.",
+  "rep": 1,
+  "response_text": "For homeowners in the Southeast (Florida, Georgia, and Texas), pest control is practically a necessity due to year-round humidity and mild winters. In these states, you’re dealing with aggressive pests like subterranean and Formosan termites, palmetto bugs, fire ants, and mosquitoes. \n\nHere is a shortlist of the top pest control companies to consider, covering strong regional players and reliable national brands:\n\n---\n\n### 1. **Arrow Exterminators**\n* **Best for:** Overall customer service and comprehensive termite protection in the Southeast.\n* **Footprint:** Headquartered in Atlanta, GA, with extensive service across Georgia, Florida, and Texas.\n* **Why consider them:** Arrow is one of the largest privately held pest control companies in the U.S., but it still maintains a strong regional feel. They are particularly well known for their **Sentricon termite defense systems** and clear termite warranties (often including damage repair guarantees, not just re-treatment).\n\n---\n\n### 2. **Massey Services**\n* **Best for:** Combined pest and lawn care (all-in-one exterior maintenance).\n* **Footprint:** Headquartered in Orlando, FL, with deep coverage throughout Florida, Georgia, and major Texas metro areas.\n* **Why consider them:** Massey specializes in warm-weather environments. They take an environmentally friendly Integrated Pest Management (IPM) approach aimed at stopping pests outside before they enter the home. If you want a single vendor to handle indoor pest control, mosquito reduction, and warm-season lawn/turf treatments, Massey is a top contender.\n\n---\n\n### 3. **ABC Home & Commercial Services** *(Best Texas Pick)*\n* **Best for:** Texas homeowners looking for trusted local service.\n* **Footprint:** Dominant across Texas (Austin, Dallas-Fort Worth, Houston, San Antonio).\n* **Why consider them:** A Texas institution, ABC is widely considered the gold standard for residential pest and home maintenance in the state. They understand regional Texas pests (scorpions, fire ants, tree-borne roaches) exceptionally well and offer flexible bundling with other home services like pool care, lawn care, and AC service.\n\n---\n\n### 4. **Orkin**\n* **Best for:** Consistent standards, technician training, and immediate availability.\n* **Footprint:** Ubiquitous across all three states (headquartered in Atlanta, GA).\n* **Why consider them:** Orkin’s technician training program is among the most rigorous in the industry, which matters when identifying tricky wood-destroying organisms or persistent infestations. They offer a reliable 30-day money-back guarantee, free re-treatments between scheduled visits, and extensive branch coverage even in semi-rural areas.\n\n---\n\n### 5. **Terminix**\n* **Best for:** Large-scale termite prevention and warranty options.\n* **Footprint:** Massive presence across Florida, Georgia, and Texas.\n* **Why consider them:** Because termites cause immense structural damage across the Gulf Coast and Southeast, Terminix remains a default choice for termite inspection, baiting, liquid treatments, and annual bond renewals. They also offer routine perimeter treatments and wildlife exclusion (e.g., squirrels, raccoons, bats) in attics.\n\n---\n\n### What to Ask Before You Sign:\n* **Termite Bond Terms:** In FL, GA, and TX, check whether the termite agreement is **\"re-treat only\"** (they will spray again if termites return) or **\"repair and re-treat\"** (they help cover structural damage caused by new infestations).\n* **Treatment Type:** Ask if they use exterior-focused perimeter barrier treatments so you don't need to be home for every quarterly service.\n* **Re-treatment Policy:** Ensure there is no charge for technician callbacks if pests return between regular quarterly visits.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:59:14+00:00",
+  "has_unknown": true
+}

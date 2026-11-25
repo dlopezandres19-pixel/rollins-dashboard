@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "In the Northeast US, including New York, New Jersey, and Pennsylvania, there are several options for residential pest control. Here are the main ones:\n\n1. **Professional Pest Control Companies:**\n   - **Terminix:** Offers comprehensive pest control services with customized plans for various pests.\n   - **Orkin:** Known for its science-based approach and extensive experience in the industry.\n   - **Ehrlich Pest Control:** Provides eco-friendly and effective pest management solutions.\n   - **Green Pest Solutions:** Focuses on environmentally friendly methods and personalized service.\n\n2. **Local Pest Control Services:**\n   - Smaller, local companies often provide personalized service and can be more responsive. It's worth checking reviews and asking for recommendations in your area.\n\n3. **DIY Pest Control:**\n   - **Products:** Home improvement stores like Home Depot or Lowe’s offer a variety of pest control products. \n   - **Natural Remedies:** Options include using diatomaceous earth, essential oils, or homemade traps for minor pest issues.\n\n4. **Integrated Pest Management (IPM):**\n   - This approach combines various management practices and control methods to minimize pest damage in an environmentally friendly way.\n\n5. **Preventive Measures:**\n   - Regular cleaning, sealing entry points, and maintaining your yard can help prevent infestations.\n\nWhen choosing a pest control method, consider factors like the type of pest, severity of the infestation, budget, and personal preferences for chemical vs. non-chemical treatments. Always ensure that any professional service you use is licensed and insured.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:44:18+00:00",
+  "has_unknown": true
+}

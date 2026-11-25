@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "Here are some well-regarded pest control companies in the Midwest, specifically in Illinois, Ohio, and Michigan:\n\n### Illinois\n1. **Orkin**: Known for a wide range of pest control services and strong reputation.\n2. **Terminix**: Offers comprehensive pest and termite control solutions.\n3. **Rose Pest Solutions**: A local company with over 160 years in the business.\n4. **Anderson Pest Solutions**: Specializes in environmentally responsible pest control.\n\n### Ohio\n1. **Lowe's Pest Control**: Family-owned, known for personalized service.\n2. **Ohio Exterminating Company**: Offers a variety of pest control services with a strong local presence.\n3. **Truly Nolen**: Provides innovative pest control solutions and prevention methods.\n4. **Central Exterminating Company**: Offers residential and commercial services with a focus on customer satisfaction.\n\n### Michigan\n1. **Eradico Pest Services**: Known for its comprehensive pest management programs.\n2. **Maple Lane Pest Control**: Offers tailored pest control solutions with a local touch.\n3. **Griffin Pest Solutions**: Provides eco-friendly pest control services throughout Michigan.\n4. **Rose Pest Solutions**: Also serves Michigan, with extensive experience and a wide range of services.\n\n### Considerations\n- **Local Reviews**: Check online reviews and ratings.\n- **Certifications**: Ensure the company is licensed and certified.\n- **Services Offered**: Look for companies that offer the specific services you need.\n- **Guarantee**: Some companies offer satisfaction guarantees, which can be a plus.\n\nMake sure to contact a few companies to compare quotes and services to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:44:43+00:00",
+  "has_unknown": true
+}

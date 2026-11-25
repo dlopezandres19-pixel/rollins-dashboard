@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "Because pest pressures vary significantly between the Pacific Northwest and the Southwest desert, the right company often depends on your specific state and the pests you are dealing with. \n\nHere is a breakdown of the best pest control companies for California, Washington, and Arizona, along with state-specific recommendations:\n\n---\n\n### Top Overall Picks for the Western U.S.\n\n#### 1. **Western Exterminator (Rentokil)** – *Best Overall for the West*\n* **Where they operate:** California, Washington, Arizona, and across the western states.\n* **Why choose them:** Western Exterminator (recognized by the \"Little Man\" with the top hat logo) was founded specifically in the West and understands regional issues—from desert scorpions in Arizona to carpenter ants in Washington. Because they are backed by Rentokil (one of the world’s largest pest companies), they have the resources, equipment, and specialty licensing to handle both general maintenance and heavy structural infestations.\n\n#### 2. **Orkin** – *Best for Immediate Infestations & Specialized Pests*\n* **Where they operate:** Widespread coverage across CA, WA, and AZ.\n* **Why choose them:** Orkin technicians undergo rigorous, science-backed training. They are typically the best choice if you have an active, severe problem (such as aggressive bedbugs, severe rodent infestations, or stinging insect hives) because their treatments follow strict Integrated Pest Management (IPM) protocols. They also offer a 30-day money-back guarantee and free re-treatments between scheduled visits.\n\n#### 3. **Terminix** – *Best for Termite Control & Prevention*\n* **Where they operate:** Widespread coverage across CA, WA, and AZ.\n* **Why choose them:** Termites are a massive risk in California (both drywood and subterranean) and Arizona (desert subterranean). Terminix is the industry benchmark for termite inspections, baiting systems (Sentricon), and warranty guarantees (the Nix Premium Plan covers re-treatment and future structural damage repair).\n\n---\n\n### Best Choices by State\n\n#### **California (Termites, Argentine Ants, Rodents, Spiders)**\n* **Top Regional Pick:** **Clark Pest Control** (now part of Rollins/Orkin family, but operates locally). Clark is a staple in Northern and Central California, with deep local roots and strong customer service ratings.\n* **Other Top Pick:** **Western Exterminator** or **Terminix** (crucial if you need tent fumigation or whole-structure drywood termite warranties, common in Southern California).\n\n#### **Arizona (Scorpions, Roof Rats, Subterranean Termites, Crickets)**\n* **Top Regional Pick:** **Bulwark Exterminating** or **Burns Pest Elimination**. Bulwark is renowned across the Phoenix and Tucson metros for scorpion barriers and desert pest prevention. They offer a scorpion guarantee, which many standard national companies avoid or charge steep premiums for.\n* **Other Top Pick:** **Western Exterminator** or **Orkin** for comprehensive desert termite treatment and exclusion work for roof rats.\n\n#### **Washington (Carpenter Ants, Moisture Ants, Rodents, Spiders)**\n* **Top Regional Pick:** **Eden Advanced Pest Technologies** or **Senske Services**. The Pacific Northwest requires expertise in moisture-seeking insects—specifically carpenter ants that tunnel into damp framing—and wet-weather rodent exclusion.\n* **Other Top Pick:** **Orkin** or **Western Exterminator** for long-term bi-monthly perimeter treatments and attic/crawl space rodent exclusions.\n\n---\n\n### Questions to Ask Before Signing\n\n1. **Is the contract seasonal or year-round?** Many suburban Western companies (like Aptive or Hawx) sell door-to-door, requiring an annual contract with early termination fees. Ensure the schedule makes sense for your climate (e.g., in Washington, pest pressure drops during hard freezes, while in AZ/CA, year-round service is standard).\n2. **Are scorpions/carpenter ants/termites included?** Basic perimeter maintenance usually covers basic ants, crickets, roaches, and spiders. Pests like scorpions in Arizona, carpenter ants in Washington, or drywood termites in California often require an upgraded tier.\n3. **What is the re-service policy?** Choose a company that offers free re-treatments between quarterly visits if pests reappear inside the home.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:26:27+00:00",
+  "has_unknown": true
+}

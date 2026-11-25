@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "Several national pest control companies have a strong presence in the Southeast US, including Florida, Georgia, and Texas. Here are some of the top options:\n\n1. **Orkin**: Known for its comprehensive pest management services, Orkin offers a wide range of solutions for residential and commercial properties. They have a strong reputation for customer service and reliable pest control plans.\n\n2. **Terminix**: Terminix provides extensive pest control services, including termite and bed bug treatments. They offer customized plans and are known for their experienced technicians.\n\n3. **Ehrlich**: Also known as Rentokil, Ehrlich offers a variety of pest control services with a focus on environmentally friendly solutions. They provide both residential and commercial services.\n\n4. **Truly Nolen**: This company is known for its eco-friendly pest control methods and innovative solutions. They offer services for a wide range of pests and have a strong presence in the Southeast.\n\n5. **Aptive Environmental**: Aptive focuses on environmentally responsible pest control services. They offer year-round protection plans and emphasize customer satisfaction.\n\nWhen choosing a pest control company, consider factors like the specific services offered, customer reviews, and any guarantees they provide. It's also a good idea to get quotes from multiple companies to compare pricing and service options.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:41:23+00:00",
+  "has_unknown": false
+}

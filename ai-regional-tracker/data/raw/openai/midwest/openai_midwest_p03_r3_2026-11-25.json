@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "Here are some reputable pest control companies in the Midwest, particularly in Illinois, Ohio, and Michigan:\n\n1. **Orkin**: Known nationally, Orkin offers comprehensive pest control services and has a strong presence in the Midwest. They provide treatments for a variety of pests and have a good reputation for customer service.\n\n2. **Terminix**: Another national chain with a solid reputation, Terminix offers specialized treatments and preventative measures for various pests. They have local branches throughout the Midwest.\n\n3. **Ehrlich Pest Control**: Operating in parts of the Midwest, Ehrlich provides tailored pest control solutions and is known for its effective treatments and customer service.\n\n4. **Rose Pest Solutions**: This company has been serving the Midwest since 1860 and is well-regarded for its eco-friendly and effective pest control methods. They operate in Illinois, Ohio, and Michigan.\n\n5. **Truly Nolen Pest & Termite Control**: With a presence in the Midwest, Truly Nolen offers innovative and environmentally conscious pest control solutions.\n\n6. **Plunkett's Pest Control**: Based in the Midwest, Plunkett's offers comprehensive pest management services with a focus on customer satisfaction and effective solutions.\n\nWhen choosing a pest control company, consider checking online reviews, asking for references, and confirming that the company is licensed and insured in your state.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:45:20+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When considering pest control companies in the Midwest, including Illinois, Ohio, and Michigan, you might want to compare the following providers:\n\n1. **Orkin**: Known for its comprehensive pest control services and nationwide presence. They offer customized plans and have a good reputation for customer service.\n\n2. **Terminix**: Offers a wide range of pest control services and is known for its advanced technology and treatment methods.\n\n3. **TruGreen**: While primarily a lawn care company, TruGreen offers pest control services that focus on outdoor pests, which can be beneficial for maintaining a pest-free yard.\n\n4. **Terminix**: Offers a wide range of pest control services and is known for its advanced technology and treatment methods.\n\n5. **Aptive Environmental**: Focuses on environmentally friendly pest control solutions and offers regular maintenance plans.\n\n6. **Local Providers**: Often, local companies like Rose Pest Solutions (Illinois) or Varment Guard (Ohio) can offer more personalized service with a deep understanding of local pest issues.\n\nWhen comparing these companies, consider factors such as:\n\n- **Service Offerings**: Make sure they cover the specific pests you need help with.\n- **Pricing**: Get quotes from multiple companies to compare costs.\n- **Reputation**: Check online reviews and ratings.\n- **Guarantees**: Look for satisfaction guarantees or warranties on services.\n- **Customer Service**: Evaluate their responsiveness and willingness to answer questions.\n\nBy weighing these factors, you can choose a pest control provider that best suits your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:46:16+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control company in the western United States, your choice often depends on whether you are dealing with desert pests in Arizona, agricultural/urban pests in California, or moisture-driven pests in Washington. \n\nThe most reputable options—both broad western chains and regional specialists—stand out across these states:\n\n---\n\n### 1. Best Overall for the West: **Western Exterminator** (Rentokil)\n* **Presence:** Strong across California and Arizona; service extends into the Pacific Northwest through the broader Rentokil network.\n* **Best for:** Comprehensive general pest control, termites, and rodents.\n* **Why recommend them:** Western Exterminator is an iconic West Coast brand that has operated in the region for over a century. Because their technicians are locally trained, they understand regional quirks—such as Argentine ant supercolonies in California and desert pests in Arizona. They provide reliable residential maintenance programs (PestFree365) and strong re-service guarantees.\n\n---\n\n### 2. Best for Severe Infestations & Termites: **Orkin**\n* **Presence:** Extensive across California, Washington, and Arizona.\n* **Best for:** Specialized pest problems (termites, bed bugs, complex rodent jobs).\n* **Why recommend them:** Orkin is consistently rated among the most rigorously trained pest control services in the country. If you're dealing with structural pests (like subterranean and drywood termites in California/Arizona, or moisture-loving carpenter ants and rats in Washington), Orkin’s targeted treatments and free re-treatment guarantees make them a safe, dependable choice.\n\n---\n\n### 3. Best for General Preventive Maintenance: **Aptive Environmental**\n* **Presence:** Widespread in suburban areas throughout CA, WA, and AZ.\n* **Best for:** Routine quarterly exterior perimeter treatments (ants, spiders, wasps, crickets).\n* **Why recommend them:** Aptive uses pyrethrin-derived, lower-toxicity treatments focused primarily on maintaining a protective barrier around the exterior of the house. They offer easy app-based scheduling and free re-treatments between visits if pests return. *Note:* They generally do not handle major termite or wildlife/rodent-exclusion work.\n\n---\n\n### 4. Regional Standouts by State\n\nIf you prefer companies with deep roots in a specific state, consider these regional favorites:\n\n* **In Arizona: Truly Nolen**\n  * Headquartered in Tucson, Truly Nolen is legendary in the Southwest. They specialize in desert-specific problems like bark scorpions, roof rats, desert termites, and pack rats. Their treatments are tailored to withstand high heat and arid conditions.\n* **In California: Clark Pest Control**\n  * One of the largest and most well-regarded pest control brands in California. They have massive coverage from Northern California through the Central Valley and Southern California, offering exceptional customer service for termites, general pests, and even lawn care.\n* **In Washington: Cascade Pest Control or Sprague**\n  * Western Washington has a unique, damp climate that drives severe carpenter ant, spider, and rodent pressures (Norway and roof rats). Regional specialists like Cascade focus on eco-friendly, integrated pest management (IPM) tailored specifically to Pacific Northwest weather and moisture conditions.\n\n---\n\n### Tips Before Hiring:\n1. **Target the specific pest:** If your issue is termites or scorpions, ask the provider specifically about their experience with that species (standard perimeter sprays do not kill scorpions or termites).\n2. **Check the re-service policy:** Reputable companies (like Orkin, Western, and Clark) include free re-visits between scheduled quarterly services if pests reappear inside.\n3. **Get 2–3 inspections:** For basic maintenance, prices are standard ($40–$60/month, usually billed quarterly), but for termite, rodent exclusion, or bed bug work, quotes can vary by hundreds of dollars. Most top companies will inspect and quote for free.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:22:54+00:00",
+  "has_unknown": true
+}

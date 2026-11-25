@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "Here are some pest control companies that are well-regarded in the Western U.S., including California, Washington, and Arizona:\n\n1. **Orkin**:\n   - Offers comprehensive pest control services.\n   - Known for highly trained technicians and excellent customer service.\n   - Provides tailored solutions for various pests.\n\n2. **Terminix**:\n   - Offers a wide range of pest control services, including termite protection.\n   - Known for their innovative solutions and strong reputation.\n   - Provides free inspections and guarantees.\n\n3. **Ehrlich Pest Control** (Western Exterminator in the West):\n   - Offers a wide variety of services, including eco-friendly options.\n   - Known for personalized and effective treatment plans.\n   - Strong customer reviews and reliable service.\n\n4. **Rentokil**:\n   - Offers specialized services and cutting-edge technology.\n   - Known for comprehensive and preventive pest control solutions.\n   - Provides tailored services for both residential and commercial properties.\n\n5. **Truly Nolen**:\n   - Offers a unique Four Seasons approach to pest control.\n   - Known for eco-friendly and innovative methods.\n   - Provides comprehensive pest and termite control services.\n\n6. **Clark Pest Control**:\n   - Popular in California with a long-standing reputation.\n   - Offers a wide range of pest management services.\n   - Known for excellent customer service and reliability.\n\nWhen choosing a pest control service, consider factors such as the specific pest issues you’re facing, the company’s reputation, service guarantees, and any eco-friendly options they offer. Checking customer reviews and getting multiple quotes can also help in making an informed decision.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:48:23+00:00",
+  "has_unknown": true
+}

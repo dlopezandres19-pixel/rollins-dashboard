@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control company in the Midwest, it's important to consider factors like reputation, services offered, and customer reviews. Here are a few well-regarded companies to consider:\n\n1. **Orkin Pest Control**\n   - Nationally recognized with a strong presence in the Midwest.\n   - Offers a wide range of pest control services, including termites, rodents, and bed bugs.\n   - Known for their professional technicians and comprehensive service plans.\n\n2. **Terminix**\n   - Another national leader with extensive experience in pest management.\n   - Provides customized plans and a satisfaction guarantee.\n   - Services include termite protection, mosquito control, and wildlife removal.\n\n3. **TruGreen**\n   - Offers lawn care and pest control services tailored to the Midwest climate.\n   - Focuses on environmentally responsible solutions.\n   - Known for excellent customer service and personalized plans.\n\n4. **Rose Pest Solutions**\n   - A regional company with a strong reputation in the Midwest.\n   - Provides both residential and commercial pest control services.\n   - Known for their expertise in dealing with local pests.\n\n5. **Local Companies**\n   - Consider local companies with good reviews. They often have specific knowledge about regional pests and personalized service.\n   - Check platforms like Yelp or Angie's List for customer reviews and ratings.\n\nBefore making a decision, get quotes from a few companies, ask about their treatment methods, and ensure they are licensed and insured.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:45:41+00:00",
+  "has_unknown": true
+}

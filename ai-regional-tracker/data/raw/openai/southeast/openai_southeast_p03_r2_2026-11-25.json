@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast US, there are several reputable pest control companies known for their quality service in Florida, Georgia, and Texas. Here are some of the top ones:\n\n1. **Orkin**: Known nationwide, Orkin has a strong presence in the Southeast and offers comprehensive pest control services with highly trained professionals.\n\n2. **Terminix**: Another national leader, Terminix provides a variety of pest control solutions and has a good reputation for customer service and effective treatments.\n\n3. **Massey Services**: Based in Florida, Massey Services is well-regarded for their environmentally friendly approach and offers services throughout the Southeast.\n\n4. **Arrow Exterminators**: Headquartered in Atlanta, Arrow Exterminators provides comprehensive pest control services with a focus on sustainable solutions.\n\n5. **Truly Nolen**: With locations throughout Florida and other parts of the Southeast, Truly Nolen is known for its innovative pest control methods and customer satisfaction.\n\n6. **Ehrlich**: Part of the Rentokil family, Ehrlich has a good reputation for effective pest management solutions tailored to residential needs.\n\nWhen choosing a pest control service, consider factors such as the specific pest issues you are facing, the company’s approach to pest control, customer reviews, and pricing. It's also a good idea to get quotes and ask for references from previous customers.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:40:41+00:00",
+  "has_unknown": false
+}

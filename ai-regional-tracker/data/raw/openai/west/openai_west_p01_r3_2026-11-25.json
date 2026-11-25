@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Here are some well-regarded pest control companies in the Western U.S., specifically California, Washington, and Arizona:\n\n### California\n1. **Orkin**: Known for their comprehensive pest control services and customer service.\n2. **Terminix**: Offers a wide range of services, including termite and bed bug treatments.\n3. **Clark Pest Control**: A local favorite, especially known for termite control.\n\n### Washington\n1. **Eden Advanced Pest Technologies**: Offers eco-friendly pest control solutions.\n2. **Pointe Pest Control**: Known for effective service and knowledgeable technicians.\n3. **Eastside Exterminators**: Family-owned and focuses on environmentally responsible methods.\n\n### Arizona\n1. **Arizona Pest Control**: Offers services for termites, scorpions, and more, with a focus on local pests.\n2. **Truly Nolen**: Known for innovative solutions and a strong presence in Arizona.\n3. **Bulwark Exterminating**: Offers family-friendly and pet-safe treatments.\n\nWhen choosing a pest control company, consider factors like the types of pests they specialize in, their treatment methods, customer reviews, and any guarantees they offer. It's also a good idea to check for any certifications or affiliations with professional pest management associations.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:47:04+00:00",
+  "has_unknown": true
+}

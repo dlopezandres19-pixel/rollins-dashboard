@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "When seeking reputable residential pest control services in the Northeast U.S., particularly in New York, New Jersey, and Pennsylvania, consider the following companies known for their professionalism and customer satisfaction:\n\n**New York:**\n\n- **All Out Bed Bug Exterminators NYC**: Specializing in bed bug treatments, this company boasts a 5.0-star rating from 517 reviews. ([reviews.birdeye.com](https://reviews.birdeye.com/d/pest-control/new-york-ny/?utm_source=openai))\n\n- **Broadway Pest Services**: Serving New York since 1970, they offer comprehensive pest control solutions with a 4.9-star rating from 365 reviews. ([siftpros.com](https://www.siftpros.com/blog/best-pest-control-nyc-2026?utm_source=openai))\n\n- **Standard Pest Management**: Established in 1929, they provide services for both residential and commercial clients, maintaining a 4.9-star rating from 820 reviews. ([reviews.birdeye.com](https://reviews.birdeye.com/d/pest-control/new-york-ny/?utm_source=openai))\n\n**New Jersey:**\n\n- **Viking Pest Control**: With over 45 years of experience, Viking offers eco-friendly, science-backed treatments across New Jersey, Pennsylvania, Delaware, and Maryland. ([vikingpest.com](https://www.vikingpest.com/?utm_source=openai))\n\n- **Anchor Pest Control**: Based in Newark, NJ, they have a 5.0-star rating from 3,638 reviews and are known for their 24/7 availability. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/newark-nj?utm_source=openai))\n\n- **All Platinum Termite & Pest Control**: Operating in Jersey City, NJ, they hold a 4.9-star rating from 592 reviews and offer round-the-clock services. ([67leads.com](https://67leads.com/top-rated-businesses/pest-control/nj?utm_source=openai))\n\n**Pennsylvania:**\n\n- **Cooper Pest Solutions**: Serving parts of New Jersey and Pennsylvania, they offer a range of pest control services and have been in operation since 1955. ([cooperpest.com](https://www.cooperpest.com/?utm_source=openai))\n\n- **Rest Easy Pest Control**: Operating in New York, New Jersey, and Pennsylvania since 2012, they have a 4.9-star rating from over 2,500 Google reviews. ([resteasypestcontrol.com](https://resteasypestcontrol.com/?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and any guarantees offered. It's advisable to contact multiple companies to compare quotes and services to find the best fit for your specific needs. ",
+  "mentioned_brands": [
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:42:55+00:00",
+  "has_unknown": true
+}

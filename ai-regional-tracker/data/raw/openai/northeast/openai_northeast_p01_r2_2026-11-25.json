@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "If you're seeking top-rated pest control services in the Northeast U.S., particularly in New York, New Jersey, and Pennsylvania, here are several reputable companies to consider:\n\n**[Viking Pest Control](https://www.google.com/maps/search/Viking+Pest+Control%2C+Basking+Ridge%2C+NJ?utm_source=openai)**\n_Basking Ridge, NJ_\nWith over 45 years of experience, Viking offers eco-friendly, science-backed treatments across NJ, PA, DE, and MD. Recognized by Forbes Home and Better Homes & Gardens, they provide services for termites, bed bugs, mosquitoes, rodents, and more.\n\n**[Cooper Pest Solutions](https://www.google.com/maps/search/Cooper+Pest+Solutions%2C+Lawrenceville%2C+NJ?utm_source=openai)**\n_Lawrenceville, NJ_\nServing NJ and PA since 1955, Cooper specializes in residential and commercial pest control, including bed bug treatments and wildlife removal. They emphasize Integrated Pest Management (IPM) and offer a 100% satisfaction guarantee.\n\n**[Rest Easy Pest Control](https://www.google.com/maps/search/Rest+Easy+Pest+Control%2C+New+York%2C+NY?utm_source=openai)**\n_New York, NY_\nOperating since 2012, Rest Easy provides comprehensive pest control services in NY, NJ, and PA. They offer same-day service, free estimates, and specialize in bed bug extermination, rodent control, and termite treatments.\n\n**[Green Pest Solutions](https://www.google.com/maps/search/Green+Pest+Solutions%2C+Wayne%2C+PA?utm_source=openai)**\n_Wayne, PA_\nAs the largest locally owned pest control company in the PA, NJ, and DE tri-state area, Green Pest Solutions emphasizes eco-friendly practices and offers same-day service with a 100% satisfaction guarantee.\n\n**[Natural Pest Control](https://www.google.com/maps/search/Natural+Pest+Control%2C+New+York%2C+NY?utm_source=openai)**\n_New York, NY_\nServing NY, NJ, and PA since 1979, Natural Pest Control focuses on eco-friendly methods, including botanical insecticides and heat treatments, to effectively manage pests while minimizing environmental impact.\n\n**[Western Pest Services](https://www.google.com/maps/search/Western+Pest+Services%2C+Parsippany-Troy+Hills%2C+NJ?utm_source=openai)**\n_Parsippany-Troy Hills, NJ_\nEstablished in 1928, Western Pest Services offers comprehensive pest control solutions across NJ, NY, CT, PA, and DE. They provide services for both residential and commercial clients, including fumigation and wildlife control.\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, eco-friendly practices, customer reviews, and guarantees. It's advisable to contact multiple companies to discuss your specific needs and obtain quotes before making a decision. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:42:29+00:00",
+  "has_unknown": true
+}

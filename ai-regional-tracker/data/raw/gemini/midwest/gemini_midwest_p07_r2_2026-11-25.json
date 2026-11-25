@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Midwest—particularly across **Illinois, Ohio, and Michigan**—pest challenges tend to be heavily seasonal. Homes frequently face spring ants and spiders, summer stinging insects and mosquitoes, and late-autumn rodent intrusions seeking winter shelter. \n\nWhen choosing a pest control provider in this region, the best options fall into two categories: **well-regarded regional specialists** that understand local climate and building styles, and **reliable national brands** with broad coverage and strong service guarantees.\n\n---\n\n### 1. Best Regional Pick: **Rose Pest Solutions**\n* **Service Area:** Illinois, Ohio, Michigan, and surrounding Midwest states.\n* **Why it stands out:** Founded in 1860, Rose is one of the oldest pest management companies in North America and specializes specifically in the Midwest. They have dedicated entomologists on staff and branches throughout Chicagoland, Detroit, Grand Rapids, Columbus, Cleveland, and surrounding areas.\n* **Best for:** Homeowners who prefer a company with deep regional roots and localized knowledge of Midwest pest patterns (such as cold-weather rodent exclusion and boxelder bug/stink bug control).\n* **Key feature:** Their residential protection plans typically include seasonal inspections and free return visits between regular visits if pests reappear.\n\n---\n\n### 2. Best Overall National Provider: **Orkin**\n* **Service Area:** Widespread coverage across virtually all metro and suburban areas in IL, OH, and MI.\n* **Why it stands out:** Orkin is widely regarded for having the most rigorous technician training in the industry, developed in conjunction with professional entomologists. Their \"Points of Service\" framework ensures technicians thoroughly inspect entry points, perimeter gaps, and attic/crawl space vulnerabilities common in Midwest basements.\n* **Best for:** General year-round pest control, quick response times, and clear, standardized service protocols.\n* **Key feature:** A solid **30-day money-back guarantee** and complimentary re-treatments between scheduled quarterly visits.\n\n---\n\n### 3. Best for Termites & Specialized Infestations: **Terminix**\n* **Service Area:** Extensive branch network across Illinois, Ohio, and Michigan.\n* **Why it stands out:** While subterranean termites are less aggressive in the upper Midwest than in the Deep South, they are still a serious threat in southern Illinois and across parts of Ohio. Terminix specializes in wood-destroying insect management, baiting systems (Sentricon), and structural moisture control.\n* **Best for:** Termite defense, severe bed bug infestations, and homeowners wanting an easy-to-use digital portal for booking and account management.\n* **Key feature:** The **Nix Pest Guarantee**, covering re-treatments for covered pests, along with strong termite damage repair plans (where eligible).\n\n---\n\n### 4. Other Strong Midwest Contenders\n* **Plunkett’s Pest Control:** Operates extensively across the upper Midwest, including Illinois and Michigan. They are a family-owned, well-reviewed company known for clear pricing, excellent customer service, and strong rodent prevention.\n* **Griffin Pest Solutions:** A trusted, longstanding regional provider operating throughout Michigan, well-known for fast local dispatch and eco-friendlier residential treatments.\n\n---\n\n### What to Look For Before Hiring\n1. **Seasonal Rodent Inclusions:** Because Midwest winters drive mice and rats indoors, verify whether rodent monitoring, traps, and minor exclusion (caulking small gaps) are covered under the quarterly contract, or if they require an add-on fee.\n2. **Re-Service Policy:** Midwest weather can fluctuate wildly; sudden late-spring heat or early-fall freezes can cause pest spikes. Ensure your contract guarantees **free re-treatments** if pests return between regular quarterly visits.\n3. **Targeted Pests:** Confirm that nuisance pests specific to the region—such as boxelder bugs, brown marmorated stink bugs, and carpenter ants—are included in your standard plan.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:18:01+00:00",
+  "has_unknown": true
+}

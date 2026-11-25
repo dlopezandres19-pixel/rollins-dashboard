@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "When shopping for pest control in the Southeast and Gulf Coast states (Florida, Georgia, and Texas), you are dealing with unique regional challenges: heavy subterranean and Formosan termite activity, palmetto bugs (American cockroaches), fire ants, mosquitoes, and high humidity that keeps pests active nearly year-round.\n\nThe most reputable providers to compare across this region fall into two categories: **Southeast regional powerhouses** and **major national brands**.\n\n---\n\n### 1. Southeast Regional Powerhouses\nRegional companies often offer the best balance of local expertise, responsiveness, and customer service.\n\n* **Massey Services**\n  * **Footprint:** Massive across Florida; strong and growing presence in Georgia and Texas.\n  * **Best For:** Homeowners who want bundled services. In addition to general pest and termite control, Massey is well known for lawn care, irrigation, and landscape maintenance.\n  * **Keep in Mind:** They tend to push bundled packages, which can be convenient but may cost more if you strictly want interior/exterior insect spraying.\n\n* **Arrow Exterminators (and Stark Exterminators)**\n  * **Footprint:** Headquartered in Georgia, with extensive branch networks throughout Georgia, Florida, and Texas.\n  * **Best For:** Termite defense and full-home exclusion. They are one of the largest privately held, family-operated pest companies in the nation and have a strong reputation for customer service and \"green\" pest control solutions.\n  * **Keep in Mind:** Pricing can sometimes be on the higher end of regional quotes, but their termite warranties (repair vs. retreat) are among the most comprehensive.\n\n* **ABC Home & Commercial Services (Particularly for Texas)**\n  * **Footprint:** Deep roots and dominant market presence across Texas (Austin, Houston, Dallas-Fort Worth, San Antonio).\n  * **Best For:** Broad home management. Like Massey in Florida, ABC in Texas is a one-stop shop for pest control, mosquito misting, pool service, and lawn care.\n  * **Keep in Mind:** Only relevant if your home is in Texas.\n\n---\n\n### 2. Major National Providers\nNational brands offer high availability, 24/7 call centers, and standardized technician training.\n\n* **Orkin**\n  * **Footprint:** Ubiquitous across FL, GA, and TX (parent company Rollins is headquartered in Atlanta).\n  * **Best For:** Rigorous technician training and targeted treatments. Orkin technicians undergo extensive, science-backed training for specific species identification.\n  * **Keep in Mind:** They generally lean toward customized pricing rather than flat-rate fees, requiring an on-site inspection for the most accurate quote.\n\n* **Terminix**\n  * **Footprint:** Extensive coverage in nearly every zip code across all three states.\n  * **Best For:** Advanced termite monitoring and prevention (especially the Sentricon system and liquid barrier treatments). Because termite pressure is extreme in the Southeast, their dedicated termite protection plans are a primary selling point.\n  * **Keep in Mind:** Service quality can vary branch-to-branch because of their sheer size, so check online reviews for your specific local service office.\n\n---\n\n### 3. Builder-Specialized Option: HomeTeam Pest Defense\n* **Footprint:** High concentration in Florida and Texas master-planned communities.\n* **Best For:** Newer homes with in-wall pest tubing (the **Taexx system**). If your home was built in the last 15–20 years in TX or FL, check your exterior wall for a small locked box; if you have one, HomeTeam can service the house without needing to enter or spray chemicals indoors.\n* **Keep in Mind:** If your home doesn't have an in-wall system installed, their traditional exterior/interior services are comparable to any standard provider.\n\n---\n\n### What to Compare Before Signing:\n\n1. **Termite Warranty Language (Crucial for the South):** Ask whether the warranty is **Retreatment Only** or **Retreatment and Repair**. A repair guarantee covers the structural damage caused by new termite activity; retreatment only covers re-applying chemicals.\n2. **Coverage Exclusions:** Ask specifically if fire ants, fleas/ticks, and German cockroaches are covered in their standard recurring perimeter plan, or if they require an add-on.\n3. **Re-Service Guarantee:** Confirm that they will return to re-treat between scheduled visits at no extra cost if pests return inside.\n4. **Contract Terms:** Clarify whether you are locked into a 12-month agreement or if the plan can be canceled at any time with 30 days' notice.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:57:44+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "In the West US, including states like California, Washington, and Arizona, you have several options for residential pest control. Here are some of the main ones:\n\n1. **Professional Pest Control Services**:\n   - **Orkin**: Offers comprehensive pest control solutions and is well-known for its customer service and effective treatments.\n   - **Terminix**: Provides a variety of pest control services with a focus on termites, bed bugs, and other common pests.\n   - **Ehrlich Pest Control**: Known for customized pest management plans and environmentally friendly practices.\n   - **Local Companies**: Each state has a range of local pest control companies that might offer more personalized service. It's beneficial to look for companies with good reviews and local expertise.\n\n2. **Do-It-Yourself (DIY) Solutions**:\n   - **Over-the-Counter Products**: These include sprays, traps, and bait stations available at hardware stores. Brands like Raid and Ortho offer various options.\n   - **Natural Remedies**: Options like diatomaceous earth, essential oils (like peppermint and tea tree), and vinegar solutions can be effective for minor infestations.\n\n3. **Integrated Pest Management (IPM)**:\n   - This approach combines multiple strategies to manage pests sustainably and with minimal environmental impact. It includes preventive measures, monitoring, and targeted treatments.\n\n4. **Eco-Friendly and Organic Options**:\n   - Some companies specialize in organic pest control methods that are less harmful to the environment and safe for pets and children.\n\n5. **Preventive Measures**:\n   - Regular home maintenance like sealing entry points, keeping food stored properly, and maintaining cleanliness can prevent infestations.\n\nWhen selecting a pest control option, consider the type of pests, the severity of the infestation, your budget, and any environmental concerns you may have. Always check reviews and verify the credentials of professional services to ensure quality and reliability.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:48:52+00:00",
+  "has_unknown": true
+}

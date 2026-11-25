@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When considering pest control companies in the Western U.S., including California, Washington, and Arizona, here are a few reputable options you might compare:\n\n1. **Terminix**: Known for comprehensive pest control services and a strong presence nationwide, including in the Western U.S.\n\n2. **Orkin**: Offers extensive pest control services and has a long-standing reputation for reliability.\n\n3. **Ecolab**: Provides pest control with a focus on eco-friendly solutions, suitable for residential and commercial properties.\n\n4. **Western Exterminator**: A well-regarded company with services tailored for the Western U.S., offering both residential and commercial solutions.\n\n5. **Truly Nolen**: Offers a wide range of pest control services, including termite and bed bug treatments, with a focus on environmentally friendly practices.\n\n6. **Clark Pest Control**: Operates primarily in California, offering a variety of pest management services with a focus on integrated pest management.\n\nWhen comparing these companies, consider factors such as:\n\n- **Services Offered**: Ensure they cover the specific pests you are dealing with.\n- **Eco-Friendly Options**: If important to you, check for environmentally safe practices.\n- **Pricing**: Compare quotes for services and any ongoing maintenance plans.\n- **Local Reviews**: Look for reviews specific to your area to gauge customer satisfaction.\n- **Guarantees**: Check if they offer satisfaction guarantees or warranties for their services.\n\nIt's also wise to request an inspection or consultation to get a more personalized assessment and quote.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:48:38+00:00",
+  "has_unknown": true
+}

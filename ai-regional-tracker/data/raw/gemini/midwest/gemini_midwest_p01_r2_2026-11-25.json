@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When choosing a pest control service in the Midwest (Illinois, Ohio, and Michigan), you generally have a choice between **established regional companies** that specialize in Midwest-specific pest cycles and **major national brands** that offer 24/7 support and broad coverage. \n\nHere are the best pest control companies serving Illinois, Ohio, and Michigan, categorized by regional leaders and national providers:\n\n---\n\n### Top Regional Providers (Best for Local Expertise)\n\n1. **Rose Pest Solutions** *(IL, OH, MI)*\n   * **Why they stand out:** One of the oldest pest control companies in the United States, Rose is headquartered in the Midwest and understands the regional pest biology inside and out (from seasonal boxelder bugs and stink bugs to subterranean termites).\n   * **Best for:** Homeowners who want a long-standing, locally rooted company with certified entomologists on staff. They offer comprehensive year-round residential protection plans.\n\n2. **Varment Guard / Plunkett’s Pest Control** *(OH, MI, IL)*\n   * **Why they stand out:** Plunkett’s operates across the Upper Midwest and acquired Varment Guard, giving them broad coverage across Ohio, Michigan, and northern Illinois. \n   * **Best for:** Both general insect control and **wildlife removal** (bats, raccoons, squirrels, birds). Many pest companies only spray for insects, but Varment Guard excels at humane trapping, exclusion, and attic remediation.\n\n3. **Anderson Pest Solutions** *(Primarily Illinois & surrounding borders)*\n   * **Why they stand out:** A staple in the Chicagoland area and northern Illinois for decades (now part of the Rentokil family). They are known for their \"Natural Choice\" Home Protection program, emphasizing Integrated Pest Management (IPM) to minimize chemical use indoors.\n   * **Best for:** Illinois residents looking for eco-conscious treatments, bed bug removal, and reliable recurring quarterly services.\n\n4. **Scherzinger Pest Control** *(Ohio – Cincinnati, Dayton, Columbus)*\n   * **Why they stand out:** A multi-generation, family-owned business in Southwest and Central Ohio. They have an excellent reputation for customer service, transparent pricing, and prompt technician response times.\n   * **Best for:** Ohio homeowners looking for a high-touch, family-operated service instead of a massive corporate call center.\n\n---\n\n### Top National Providers (Best for Availability & Warranties)\n\n1. **Orkin**\n   * **Coverage:** Extensive branch networks across Detroit, Chicago, Columbus, Cleveland, and mid-sized cities.\n   * **Why they stand out:** Orkin technicians undergo rigorous, entomologist-designed training. Their 30-day money-back guarantee and complimentary return visits between scheduled treatments are industry standards.\n   * **Best for:** Difficult, stubborn infestations (e.g., German cockroaches, bed bugs, or severe termite issues).\n\n2. **Terminix**\n   * **Coverage:** Ubiquitous across all three states, including rural and suburban pockets.\n   * **Why they stand out:** Strong specialization in wood-destroying organisms (termites and carpenter ants). Their Nix Pest Guarantee ensures they will return at no charge if pests re-emerge between treatments.\n   * **Best for:** Termite monitoring/baiting systems (Sentricon) and bundled home pest plans.\n\n---\n\n### Key Factors for the Midwest to Keep in Mind\n\n* **Seasonal Fluctuations:** Midwest winters drive rodents (mice, rats) and overwintering insects (stink bugs, boxelder bugs, Asian lady beetles) indoors starting in September/October. Look for a plan that covers **exterior exclusion (sealing entry points)** before fall.\n* **Termite Pressure:** While the Upper Midwest has lower subterranean termite pressure than the South, southern Illinois and southern Ohio still see significant activity. If you live south of I-70/I-80, make sure your inspection includes a termite check.\n* **Service Guarantees:** Always choose a quarterly plan that includes **free re-treatments between visits** if pests return.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:11:33+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 3,
+  "response_text": "When considering pest control companies in the Northeast US, including New York, New Jersey, and Pennsylvania, you might want to compare the following reputable options:\n\n1. **Terminix**: Known for comprehensive pest control services and nationwide coverage. They offer customized solutions for various pests and provide free inspections.\n\n2. **Orkin**: Offers a wide range of pest control services with a focus on environmentally friendly practices. They have a strong presence in the Northeast and offer guarantees on their services.\n\n3. **Ehrlich Pest Control**: With a history of over 90 years, Ehrlich offers pest control solutions tailored to both residential and commercial needs. They focus on preventative measures and integrated pest management.\n\n4. **Western Pest Services**: Serves the New York and New Jersey areas with a reputation for excellent customer service. They offer both residential and commercial solutions.\n\n5. **Viking Pest Control**: Based in New Jersey, Viking offers customized pest control services with a focus on eco-friendly options. They are known for their quick response times.\n\n6. **JP McHale Pest Management**: Serves New York and surrounding areas with a focus on environmentally responsible pest management. They offer both residential and commercial services.\n\nWhen comparing these companies, consider factors like pricing, service guarantees, customer reviews, eco-friendly options, and the specific pests they specialize in. It's also a good idea to get quotes and ask for a free inspection if available.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:44:13+00:00",
+  "has_unknown": true
+}

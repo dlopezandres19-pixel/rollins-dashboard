@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, there are several options for residential pest control. Homeowners can choose from professional services, DIY methods, and natural solutions. Here are some of the main options:\n\n### Professional Pest Control Services\n1. **Terminix**: Offers comprehensive pest control solutions and is widely available across the Southeast.\n2. **Orkin**: Provides tailored pest management plans and is known for its extensive experience.\n3. **Truly Nolen**: Known for its eco-friendly approach and innovative techniques.\n4. **Arrow Exterminators**: A family-owned company offering a range of pest control services, including termite and mosquito control.\n5. **Massey Services**: Offers pest prevention, termite protection, and landscape care.\n\n### DIY Pest Control\n1. **Insect Sprays and Traps**: Available at home improvement stores for common pests like ants, roaches, and spiders.\n2. **Boric Acid**: Effective for cockroach and ant control.\n3. **Diatomaceous Earth**: A natural powder that kills insects by dehydrating them.\n\n### Natural Solutions\n1. **Essential Oils**: Peppermint, tea tree, and eucalyptus oils can deter certain pests.\n2. **Vinegar Solutions**: Used for cleaning and deterring insects like ants.\n3. **Natural Predators**: Encouraging birds or beneficial insects like ladybugs and praying mantises can help control pest populations.\n\n### Preventative Measures\n1. **Regular Cleaning**: Keeping your home clean and clutter-free reduces pest attractions.\n2. **Sealing Entry Points**: Caulking and sealing gaps in windows, doors, and foundations prevent entry.\n3. **Proper Waste Management**: Ensuring garbage is sealed and promptly removed discourages pests.\n\n### Considerations\n- **Climate**: The humid climate in the Southeast can be conducive to pests like mosquitoes, termites, and cockroaches.\n- **Seasonal Pests**: Be aware of seasonal pest trends, such as increased mosquito activity in warmer months.\n\nChoosing the right pest control option depends on your specific needs, budget, and approach preference. It's often a good idea to consult with a professional to assess the situation, especially for severe infestations.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:42:02+00:00",
+  "has_unknown": true
+}

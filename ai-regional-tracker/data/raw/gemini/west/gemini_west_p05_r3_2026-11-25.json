@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Because California, Washington, and Arizona have drastically different climates and pest challenges, the best pest control company depends on **which state you are in** and **what specific pest you are dealing with**. \n\nHere is a breakdown of the top companies across the Western U.S., categorized by best overall providers and the top regional specialists for each state.\n\n---\n\n### 1. Top Overall Picks (Multi-State Availability)\n\n* **Western Exterminator (Best Overall for the West):** \n  * **Where they operate:** California, Arizona, Nevada, and parts of the Pacific Northwest.\n  * **Why choose them:** Western is a legendary regional brand (now backed by Rentokil). They specialize specifically in Western pest profiles—from bark scorpions in the desert to drywood termites along the California coast. Their technicians generally have much deeper regional knowledge than typical nationwide call-center operators.\n* **Orkin (Best for Immediate Infestations & Pests with High Damage Risk):**\n  * **Where they operate:** Widespread coverage across CA, WA, and AZ.\n  * **Why choose them:** Orkin has some of the most rigorous training programs in the industry. If you have an active infestation of termites, bedbugs, or severe rodent activity, their 30-day money-back guarantee and fast response times make them a reliable first call.\n* **Terminix (Best for Termite Protection & Bundled Home Services):**\n  * **Where they operate:** Extensive coverage across all three states.\n  * **Why choose them:** If your primary concern is termites (especially drywood termites in Southern CA or subterranean termites in AZ), Terminix’s **Nix Guarantee** and termite inspection/monitoring programs are among the most comprehensive.\n\n---\n\n### 2. State-Specific Leaders\n\nDifferent biomes require different pest strategies. If you want a company with localized expertise tailored to your specific ecosystem, consider these:\n\n#### **California (Termites, Argentine Ants, Black Widows)**\n* **Clark Pest Control:** One of the largest and most well-regarded pest control companies in California (stretching from the Bay Area and Central Valley down to Southern California). They are known for reliable recurring service, humane rodent exclusion, and both subterranean and drywood termite fumigation.\n* **Lloyd Pest Control:** A top-rated option specifically for **Southern California** (San Diego, Orange County, Los Angeles).\n\n#### **Washington (Rats/Mice, Carpenter Ants, Moisture Pests)**\n* **Cascade Pest Control:** Highly recommended for the Greater Seattle and Puget Sound areas. The Pacific Northwest’s biggest issues are moisture-driven—rodents entering attics in the rainy season and carpenter ants damaging damp wood. Cascade focuses heavily on eco-friendly methods and rodent exclusion (sealing entry points) rather than just leaving poison bait boxes.\n* **Senske Services (or Eden Pest):** Strong presence throughout Washington and the Inland Northwest for combined pest management and lawn care.\n\n#### **Arizona (Bark Scorpions, Desert Rodents, Subterranean Termites)**\n* **Bulwark Exterminating:** Outstanding reputation in the Phoenix and Tucson metro areas, specifically for **scorpions**. Scorpions are notoriously difficult to kill because standard insect sprays don't work well on them; Bulwark uses specialized scorpion-specific microencapsulated products and perimeter barriers.\n* **Burns Pest Elimination:** A beloved local Arizona staple known for high customer satisfaction, aggressive desert rodent management (roof rats), and prompt re-service visits between scheduled treatments.\n\n---\n\n### Summary Recommendation: How to Decide\n\n1. **If you have an aggressive, active infestation (Termites, Bedbugs, Wasps):** Call **Orkin** or **Western Exterminator** for a fast inspection.\n2. **If you live in Arizona and see Scorpions:** Call **Bulwark** or **Burns Pest Elimination**.\n3. **If you live in Washington and have Rodents or Carpenter Ants:** Look into a localized specialist like **Cascade Pest Control**.\n4. **If you want general quarterly perimeter prevention (ants, spiders, crickets):** Get quotes from **Western Exterminator** and a reputable local independent firm.\n\n**Tips before signing:**\n* **Ask about the re-service policy:** A good pest control contract should include *free re-treatments* if pests reappear between quarterly or bi-monthly visits.\n* **Be cautious with door-to-door sales (e.g., Aptive):** While their perimeter treatments are generally effective, door-to-door reps often lock homeowners into strict 12-to-24-month contracts with high early-cancellation fees. Always read the contract terms before signing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:26:47+00:00",
+  "has_unknown": true
+}

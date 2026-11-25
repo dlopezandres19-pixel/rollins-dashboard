@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control company in the western U.S. (California, Washington, Arizona), it’s important to consider several factors such as reputation, services offered, and customer reviews. Here are a few reputable companies you might consider:\n\n1. **Orkin**: Known for its extensive experience and comprehensive pest control services. They offer customized plans and have a strong presence throughout these states.\n\n2. **Terminix**: Offers a wide range of pest control services and is known for their guarantees and customer support. They have local branches across the western U.S.\n\n3. **Ecola Termite and Pest Control**: Based in California, Ecola is well-regarded for its eco-friendly pest control options, particularly for termite control.\n\n4. **Western Exterminator**: With a strong presence in California and nearby states, they are known for their effective pest control solutions and excellent customer service.\n\n5. **Clark Pest Control**: Primarily in California, they offer comprehensive pest management services and are known for their reliability and professionalism.\n\n6. **Green Pest Solutions**: If you're looking for environmentally friendly options, this company offers green pest control methods.\n\nMake sure to get multiple quotes, check online reviews, and verify each company’s licensing and certifications. Additionally, consider asking for recommendations from neighbors or local community groups.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:47:55+00:00",
+  "has_unknown": true
+}

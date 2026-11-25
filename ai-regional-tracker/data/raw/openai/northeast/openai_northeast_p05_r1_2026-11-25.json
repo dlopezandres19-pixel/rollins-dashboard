@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "When choosing a pest control company in the Northeast US, you have several reputable options. Here are some suggestions to help you make an informed choice:\n\n1. **Terminix**: Known for its comprehensive pest control services, Terminix offers solutions for a wide range of pests and has a strong presence in the Northeast.\n\n2. **Orkin**: With a long-standing reputation, Orkin provides tailored pest management plans and has well-trained technicians.\n\n3. **Ehrlich Pest Control**: Focused on environmentally friendly solutions, Ehrlich offers personalized service plans and has a good reputation in the region.\n\n4. **TruGreen**: While primarily known for lawn care, TruGreen also offers pest control services, focusing on integrated pest management.\n\n5. **Local Companies**: Consider local pest control companies in your area, as they might offer more personalized services and have specific knowledge of regional pests.\n\nWhen selecting a company, consider the following:\n\n- **Reputation and Reviews**: Check online reviews and ask for recommendations from neighbors or friends.\n- **Services Offered**: Ensure the company handles the specific pest issue you are facing.\n- **Pricing**: Get quotes from multiple companies to compare prices.\n- **Guarantees**: Look for companies that offer service guarantees.\n- **Certifications**: Verify that the company and its technicians are certified and follow state regulations.\n\nAlways request an inspection and detailed plan before committing to a service.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:43:25+00:00",
+  "has_unknown": true
+}

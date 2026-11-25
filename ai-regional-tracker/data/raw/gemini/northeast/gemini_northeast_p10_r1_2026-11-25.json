@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Northeast US (New York, New Jersey, Pennsylvania) should consider.",
+  "rep": 1,
+  "response_text": "For homeowners in New York, New Jersey, and Pennsylvania, a mix of established regional specialists and large national providers covers the area best. Regional companies in this corridor often have a distinct advantage because their technicians specialize in local pest pressures—such as carpenter ants, ticks, subterranean termites, overwintering mice, and invasive spotted lanternflies.\n\nHere is a shortlist of the top pest control companies to consider:\n\n---\n\n### 1. Ehrlich Pest Control\n* **Best for:** Pennsylvania homeowners and comprehensive year-round coverage across the Tri-State area.\n* **Service Area:** Extensive presence throughout PA, NJ, and NY.\n* **Why Consider Them:** Founded in Reading, Pennsylvania in 1928 (now part of Rentokil), Ehrlich is an institution in the Mid-Atlantic. Their flagship **PestFree365+** plan covers over 30 common household pests, including bed bugs and stinging insects, with unlimited call-backs between scheduled visits. They are especially well-regarded for termite remediation and tick/mosquito yard treatments.\n\n### 2. Western Pest Services\n* **Best for:** New Jersey and the Greater New York / Philadelphia metro areas.\n* **Service Area:** New Jersey, Eastern Pennsylvania, New York (Metro, Hudson Valley, Long Island), Delaware, and Maryland.\n* **Why Consider Them:** Western was founded in New Jersey in 1928 and remains one of the most trusted names in the Tri-State area. They employ board-certified entomologists on staff and emphasize Integrated Pest Management (IPM), targeting root causes rather than just spraying chemicals. They are a go-to choice for stubborn pest problems, carpenter ant damage, and structural exclusion.\n\n### 3. Viking Pest Control\n* **Best for:** Tech-forward rodent control and eco-friendly treatment options.\n* **Service Area:** New Jersey, Eastern Pennsylvania, New York, and Maryland.\n* **Why Consider Them:** Viking (an Anticimex company) stands out for utilizing **Anticimex SMART** technology—an intelligent, non-toxic electronic monitoring system for mice and rats that detects and tracks rodent activity 24/7 without chemicals. They offer solid seasonal programs, green/natural treatment alternatives, and specialized spotted lanternfly treatments, which are critical in PA and NJ.\n\n### 4. Catseye Pest Control\n* **Best for:** Wildlife control, rodent exclusion, and Upstate/Metro New York.\n* **Service Area:** Strong presence throughout New York (Capital Region, Hudson Valley, NYC metro) and parts of neighboring states.\n* **Why Consider Them:** If your primary issue is mice, squirrels, bats, or raccoons invading attics, crawlspaces, or foundations, Catseye is widely known for its proprietary **Cat-Guard** exclusion system. Instead of relying solely on recurring poison bait stations, they physically seal and reinforce entry points with durable materials, providing a long-term architectural defense.\n\n### 5. Orkin & Terminix (Top National Options)\n* **Best for:** Availability in rural pockets and nationwide service guarantees.\n* **Service Area:** Virtually every county across NY, NJ, and PA.\n* **Why Consider Them:** \n  * **Orkin:** Renowned for rigorous technician training and consistent 30-day money-back satisfaction guarantees. If you value detailed inspection reports and structured protocols, Orkin is tough to beat.\n  * **Terminix:** Particularly strong for termite monitoring/bait systems (Bait Defend / Nix Pest Guarantee) and specialized bed bug eradication.\n\n---\n\n### Tips for Homeowners in NY, NJ, and PA Before Hiring:\n\n* **Ask About Local Pests:** Make sure the general plan covers **carpenter ants** and **mice**, which are the two most common structural invaders in the Northeast, as well as seasonal ticks if you live near wooded areas.\n* **Check Exclusion vs. Spraying:** If you have rodent issues, ask how much physical exclusion (sealing holes with mesh/caulk) is included. Chemical baits alone will not permanently solve a mouse problem in older Northeast homes.\n* **Verify State Licensing:** Ensure the technicians are certified by the relevant state agency (**NYS DEC** in New York, **NJDEP** in New Jersey, or the **Pennsylvania Department of Agriculture**).\n* **Get Multiple Quotes:** Most of these companies offer free initial inspections and estimates. Comparing two local providers (e.g., Western or Viking) against a national provider (e.g., Orkin) will give you the best leverage on price and service terms.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:10:05+00:00",
+  "has_unknown": true
+}

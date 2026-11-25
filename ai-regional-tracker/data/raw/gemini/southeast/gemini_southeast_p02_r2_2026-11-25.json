@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "For homeowners in Florida, Georgia, and Texas, pest control isn't just a seasonal chore—it's year-round defense against aggressive regional pests like subterranean and Formosan termites, palmetto bugs (American cockroaches), fire ants, and mosquitoes. \n\nBecause branch quality can vary, the best company often depends on whether you want a regional specialist, an integrated lawn-and-pest package, or a national provider. Here are the top recommendations for the Southeast and Gulf Coast:\n\n---\n\n### 1. **Best Overall Regional Providers**\n\n* **Arrow Exterminators** *(Extensive coverage across GA, FL, and TX)*\n  * **Why them:** Headquartered in Atlanta, Arrow is one of the largest privately-held pest control companies in the country. They have built an outstanding reputation across the South for reliable technician communication and strong customer service.\n  * **Best for:** Whole-home pest defense and termite protection (they are an authorized operator of the Sentricon system).\n* **Massey Services** *(Deep footprint in FL, expanding heavily in GA and TX)*\n  * **Why them:** Based in Orlando, Massey understands Gulf and Southeastern home construction and climate exceptionally well. They are famous for their bundled service model.\n  * **Best for:** Homeowners who want a single company to manage **pest control, termite protection, lawn care, and irrigation**. In Florida especially, their combined exterior treatment programs are very popular.\n* **ABC Home & Commercial Services** *(The Texas Standout)*\n  * **Why them:** If you are in Texas (especially Austin, San Antonio, Dallas-Fort Worth, or Houston), ABC is widely considered the gold standard for regional service. Like Massey in Florida, ABC offers comprehensive exterior services, including pest, mosquito misting, pool, and lawn care.\n\n---\n\n### 2. **Best for Built-In Systems: HomeTeam Pest Defense**\n* **Coverage:** Dominant in modern subdivisions across FL, GA, and TX.\n* **Why them:** If your home was built in the last 15–20 years, check the exterior wall for a small plastic utility box labeled **Taexx** or \"Tubes in the Wall.\" HomeTeam installs this system in thousands of new construction homes across the Sunbelt. \n* **Best for:** Homeowners with built-in wall tubing. They can inject pest treatments directly into the wall voids from the outside of your house without having to spray chemicals inside your living spaces.\n\n---\n\n### 3. **Best National Providers**\n\n* **Orkin**\n  * **Why them:** Rollins (Orkin’s parent company) is headquartered in Georgia, and their training center is considered the most rigorous in the industry. Orkin technicians tend to be well-educated on pest biology and structural entry points.\n  * **Best for:** Active infestations (especially German roaches, bed bugs, or rodent exclusion) where specialized technician troubleshooting is required.\n* **Terminix**\n  * **Why them:** Massive availability across all three states with round-the-clock customer support. \n  * **Best for:** Termite monitoring and baiting programs, though contract pricing can sometimes be higher unless negotiated.\n\n---\n\n### What to Look for Before You Sign (Southern Homeowner Checklist)\n\n1. **The Termite Bond / Warranty:** \n   * In FL, GA, and TX, a **termite bond is essential**. Ask whether their contract includes a **retreatment-and-repair guarantee** or just a *retreatment-only* guarantee. A repair guarantee covers the structural damage if termites bypass their treatment; a retreatment contract only pays to spray again.\n2. **Exterior-Only Service Protocols:** \n   * Modern Southern pest control should focus heavily on the exterior perimeter, eaves, and weep holes (common in Texas brick homes). Good companies only need to come inside upon request or if there’s an active breakout.\n3. **Moisture & Lawn Add-ons:** \n   * If you have a crawlspace (common in parts of GA), ask about moisture barriers. If you spend time outdoors, ask about seasonal mosquito suppression programs, which are frequently discounted when bundled with general pest control.\n\n### Recommendation Summary:\n* If you are in **Georgia or north/central Florida**: Call **Arrow Exterminators** first.\n* If you are in **Florida** and want your lawn, shrubs, and pest handled together: Call **Massey Services**.\n* If you are in **Texas**: Check out **ABC Home & Commercial** or **Arrow**.\n* If your home has an **exterior injection port**: Call **HomeTeam Pest Defense**.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:50:51+00:00",
+  "has_unknown": true
+}

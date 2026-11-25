@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When seeking reputable residential pest control services in the Western United States—specifically in California, Washington, and Arizona—consider the following companies:\n\n**1. Western Exterminator**\n\nEstablished in 1921, Western Exterminator has a long-standing presence across California, Washington, and Arizona. They offer comprehensive pest management solutions for both residential and commercial properties. Their services include treatments for common pests such as ants, rodents, bed bugs, and termites. Western Exterminator emphasizes eco-friendly methods and holds certifications like QualityPro and GreenPro, reflecting their commitment to responsible pest control practices. ([pub-int.westernexterminator.com](https://pub-int.westernexterminator.com/about?utm_source=openai))\n\n**2. Clark Pest Control**\n\nServing California and Nevada since 1950, Clark Pest Control provides a range of services targeting pests like ants, termites, rodents, and spiders. They utilize Integrated Pest Management (IPM) strategies to address infestations effectively. Clark Pest Control is GreenPro certified, indicating their dedication to environmentally responsible practices. ([clarkpest.com](https://www.clarkpest.com/pest-control?utm_source=openai))\n\n**3. Brooks Pest Control**\n\nOperating in California, Oregon, and Washington, Brooks Pest Control offers eco-friendly, same-day services with a 100% satisfaction guarantee. They handle a variety of pests, including ants, mosquitoes, cockroaches, and rodents. Their approach focuses on identifying the root cause of infestations and using treatments that are safe for families and pets. ([brookspest.com](https://www.brookspest.com/?utm_source=openai))\n\n**4. Blue Sky Pest Control**\n\nBased in Arizona, Blue Sky Pest Control specializes in managing pests common to the region, such as scorpions, ants, and cockroaches. They employ Integrated Pest Management techniques and offer year-round protection plans. Blue Sky Pest Control has been recognized as Arizona's top pest control company for several consecutive years. ([blueskypest.com](https://www.blueskypest.com/pest-control/?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, commitment to eco-friendly practices, and customer reviews. It's advisable to contact these companies directly to discuss your specific needs and ensure they offer services tailored to your location and pest concerns. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:47:30+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Midwest US (Illinois, Ohio, Michigan) should consider.",
+  "rep": 1,
+  "response_text": "Here is a shortlist of reputable pest control companies to consider in the Midwest (Illinois, Ohio, and Michigan), spanning both longstanding regional specialists and established national providers.\n\n---\n\n### **1. Top Regional Specialists (Best Local Expertise)**\n\n* **Rose Pest Solutions** *(IL, OH, MI, and surrounding states)*\n  * **Why consider them:** Established in 1860, Rose is the oldest pest management company in the nation and is deeply rooted in the Midwest. Because their footprint is tailored to this region, their technicians are intimately familiar with common Midwest pest cycles (such as fall home invasions by boxelder bugs and stink bugs, or spring carpenter ant swarms).\n  * **Best for:** Homeowners who want a regional, family-owned feel backed by commercial-grade training and integrated pest management (IPM) practices.\n\n* **Anderson Pest Solutions** *(Prominent in Illinois and northern Midwest)*\n  * **Why consider them:** Anderson is one of the premier pest control brands in the Chicagoland and broader Illinois area (part of the Rentokil family). They offer their signature \"Natural Choice Home Protection\" program, emphasizing proactive exclusion and environmentally responsible treatments.\n  * **Best for:** Illinois residents looking for dependable recurring maintenance and eco-friendly treatment plans.\n\n* **Varment Guard** *(Strong presence in Ohio, Michigan, and Indiana)*\n  * **Why consider them:** Many pest issues in the Midwest involve not just insects, but wildlife (raccoons, squirrels, bats, skunks, and mice nesting during harsh winters). Varment Guard excels in both general insect control and professional wildlife trapping, damage repair, and exclusion.\n  * **Best for:** Homeowners dealing with rodents, attic invaders, or nuisance wildlife alongside standard household pests.\n\n---\n\n### **2. Established National Providers (Widest Coverage & Fast Response)**\n\n* **Orkin**\n  * **Why consider them:** Orkin has extensive branch coverage across major metros (Chicago, Columbus, Cleveland, Detroit, Grand Rapids) and smaller Midwest towns. Their technicians undergo rigorous, standardized training, and they offer a straightforward 30-day money-back guarantee with free re-treatments between scheduled visits if pests return.\n  * **Best for:** Homeowners who prioritize brand reliability, clear service warranties, and flexible scheduling.\n\n* **Terminix**\n  * **Why consider them:** Terminix has a massive Midwest footprint and is particularly renowned for wood-destroying insect management (subterranean termites and carpenter ants, which thrive in Midwest timber framing and moist conditions). They offer robust annual termite bonds and bundled pest-and-mosquito packages.\n  * **Best for:** Comprehensive termite inspections/monitoring and bundling general pest control with seasonal mosquito or tick treatments.\n\n---\n\n### **Midwest-Specific Considerations When Choosing:**\n* **Seasonal Pests:** Ask specifically how their year-round plan handles **overwintering pests** (boxelder bugs, brown marmorated stink bugs, and Asian lady beetles) and **fall rodent exclusion**, which are major annual challenges in IL, OH, and MI.\n* **Carpenter Ants vs. Termites:** In northern Midwest states, carpenter ants are often a bigger threat to homes than subterranean termites due to prolonged winter moisture. Ensure your quote covers wood-destroying insects relevant to your specific zone.\n* **Re-treatment Guarantee:** Midwest weather swings can cause sudden spikes in pest activity. Make sure the contract includes **free touch-ups between scheduled visits** if an issue pops up mid-quarter.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:20:54+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, several national pest control companies have a strong presence. Here are a few of the best-known options:\n\n1. **Terminix**: Known for its comprehensive pest control services, Terminix offers solutions for termites, bed bugs, rodents, and more. They have a wide network and are well-regarded for their expertise.\n\n2. **Orkin**: With over a century of experience, Orkin provides a range of pest management services. They focus on both residential and commercial pest control and have a strong reputation for customer service.\n\n3. **Ehrlich (or Rentokil)**: Part of the Rentokil family, Ehrlich offers regional services with a national backing. They provide targeted pest control solutions and emphasize environmentally responsible practices.\n\n4. **TruGreen**: While primarily known for lawn care, TruGreen also offers pest control services, including mosquito and tick control, which can be beneficial in the Southeast's climate.\n\n5. **Arrow Exterminators**: Although based in Atlanta, Georgia, Arrow operates across the Southeast and offers a wide array of pest control services, including wildlife control and exclusion.\n\nThese companies offer various service plans and can tailor solutions to meet your specific needs. It's a good idea to contact them directly to discuss your situation and get quotes.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:41:19+00:00",
+  "has_unknown": false
+}

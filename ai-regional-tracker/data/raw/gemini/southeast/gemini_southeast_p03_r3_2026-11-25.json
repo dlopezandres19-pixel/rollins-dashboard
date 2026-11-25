@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast—particularly across Florida, Georgia, and Texas—warm temperatures and high humidity make pest pressure a year-round reality. Because issues like German roaches, fire ants, and especially subterranean/Formosan termites are widespread, reputation and service warranties matter significantly.\n\nThe most reputable residential pest control companies operating in this region fall into three categories: prominent Southeast regional providers, state-specific leaders, and national powerhouses.\n\n---\n\n### 1. Top Regional Providers (Operating across FL, GA, and TX)\n\n* **Arrow Exterminators**\n  * **Headquarters:** Atlanta, GA\n  * **Footprint:** Deep coverage throughout Georgia and Florida, with an expanding presence in Texas.\n  * **Reputation:** Regularly ranked among the top regional pest control companies in the country. They are particularly praised for their customer service, termite protection (using the Sentricon system), and environmentally conscious \"STEPS\" pest management approach.\n* **Massey Services**\n  * **Headquarters:** Orlando, FL\n  * **Footprint:** Massive presence across Florida, with widespread operations in Georgia and major Texas metros (Dallas–Fort Worth, Houston, Austin, San Antonio).\n  * **Reputation:** Massey is a household name in the South. They are known for integrated pest management that often bundles general household pest control with lawn care, mosquito prevention, and termite defense.\n\n---\n\n### 2. Best State-Specific & Local Leaders\n\n* **ABC Home & Commercial Services (Texas)**\n  * **Footprint:** Major presence across Texas (Austin, Houston, Dallas–Fort Worth, San Antonio, Bryan/College Station).\n  * **Reputation:** Widely considered the gold standard for residential pest and home services in Texas. Family-owned for generations, ABC has an exceptional local reputation for reliability, thorough technician training, and fair pricing.\n* **Breda Pest Management (Georgia)**\n  * **Footprint:** Metro Atlanta and surrounding North/Central Georgia.\n  * **Reputation:** Known for using advanced detection tools (such as infrared cameras and termiticide foam injection). They maintain some of the highest customer review ratings of any regional operator in Georgia.\n* **Turner Pest Control (Florida)**\n  * **Footprint:** Northeast and Central Florida.\n  * **Reputation:** Highly regarded for transparent pricing, comprehensive recurring maintenance packages, and organic/eco-friendly treatment options.\n\n---\n\n### 3. National Powerhouses with Deep Southern Roots\n\n* **Orkin**\n  * **Headquarters:** Atlanta, GA\n  * **Footprint:** Extensive across FL, GA, and TX.\n  * **Reputation:** Because Orkin is headquartered in Georgia, its training facility and regional operational focus are deeply attuned to Southeastern pests. They are known for strict technician certification protocols, a reliable 30-day money-back guarantee, and free re-treatments between scheduled visits if pests return.\n* **Terminix**\n  * **Footprint:** Comprehensive coverage throughout the Southeast.\n  * **Reputation:** Given the severe termite risk in the Gulf and Atlantic Coastal plains, Terminix remains one of the most widely used providers for subterranean and drywood termite protection plans (Terminix Promise / Termite Defend System).\n\n---\n\n### What to Look for When Choosing in the Southeast:\n\n1. **Termite Coverage (Crucial):** In FL, GA, and TX, general pest control does not typically include termites. Ask specifically about **termite bonds** or warranty agreements. Look for coverage that handles both native subterranean and aggressive Formosan termites, as well as repair guarantees rather than just \"re-treatment\" guarantees.\n2. **Re-treatment Guarantee:** The climate means bug barriers wash away or degrade faster. Ensure the contract includes free mid-cycle service visits if you spot activity between regular visits.\n3. **Branch-Level Reviews:** While the brands listed above have strong corporate reputations, pest control quality relies heavily on your specific route technician. Always check Google reviews for your specific municipal branch before signing an annual agreement.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:52:20+00:00",
+  "has_unknown": true
+}

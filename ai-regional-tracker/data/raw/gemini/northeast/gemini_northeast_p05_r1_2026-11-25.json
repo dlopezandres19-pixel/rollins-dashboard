@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "For a home in the Northeast—specifically New York, New Jersey, and Pennsylvania—the best pest control choice often comes down to whether you prefer a **deeply established regional specialist** (which often provides more tailored local service) or a **major national brand** (which offers broad coverage and standardized guarantees).\n\nHere are the top-rated options for the NY/NJ/PA tri-state area, broken down by category:\n\n---\n\n### 1. Top Regional Brands (Best Overall for Local Expertise)\n\nBecause the Northeast has specific pest pressures (like old basements prone to rodents, high tick activity, and spotted lanternflies), regional companies often outperform national chains in customer satisfaction:\n\n* **Ehrlich Pest Control (A Rentokil Company)**\n  * **Where they shine:** Founded in Reading, PA, Ehrlich is arguably the most recognized regional pest name across Pennsylvania, Upstate New York, and New Jersey. \n  * **Best for:** Year-round preventative maintenance (their \"PestFree365+\" plan covers dozens of common Northeast pests, including bed bugs and mice).\n  * **Why choose them:** Excellent institutional knowledge of Northeast pests, high-quality entomologists on staff, and strong coverage in both rural and suburban areas.\n\n* **Viking Pest Control**\n  * **Where they shine:** Massive footprint across New Jersey, Eastern Pennsylvania, and Lower New York.\n  * **Best for:** Smart, modern rodent control and eco-conscious treatments.\n  * **Why choose them:** They utilize Anticimex SMART technology (non-toxic, digital monitoring traps that alert technicians 24/7 if rodents enter). They are also very well-versed in seasonal Northeast issues like spotted lanternflies and tick/mosquito yard treatments.\n\n* **Western Pest Services**\n  * **Where they shine:** Very strong across the NYC metro area, New Jersey, and Eastern PA (Philadelphia/Delaware Valley).\n  * **Best for:** Residential pest exclusion (sealing entry points) and tough structural pests like carpenter ants and termites.\n  * **Why choose them:** They have been serving the Mid-Atlantic since 1928, have an exceptional reputation for residential service, and focus heavily on integrated pest management (IPM) rather than just spraying chemicals.\n\n*(Note: In specific metro areas, prominent local outfits like **JP McHale** in Westchester/Hudson Valley/NYC or **Cooper Pest Solutions** in Central NJ/Bucks County PA are also top-tier choices).*\n\n---\n\n### 2. Top National Providers (Best for Availability & Termites)\n\nIf you live in an area outside major regional routes, or want standardized multi-property management, these two are the industry leaders:\n\n* **Orkin**\n  * **Best for:** Emergency infestations and highly trained technicians.\n  * **Why choose them:** Orkin technicians undergo rigorous hands-on training. If you have an active, severe infestation (e.g., German roaches, bed bugs, or wasps), Orkin is known for aggressive and thorough initial treatments, backed by a 30-day money-back guarantee.\n\n* **Terminix**\n  * **Best for:** Termites and whole-home prevention plans.\n  * **Why choose them:** In older Northeast homes with stone or aged wood foundations, subterranean termites are a frequent issue. Terminix offers the **Nix Pest Guarantee** and some of the strongest termite damage repair warranties in the business (The Terminix Promise).\n\n---\n\n### How to Decide for Your Specific Property\n\nBefore signing a contract, match your provider to your primary concern:\n\n1. **Rodents (Mice/Rats):** Older housing stock in PA, NY, and NJ makes mice a dominant fall/winter threat. Ask prospective companies if their quote includes **exclusion work** (sealing exterior entry holes with steel wool/copper mesh) or just bait traps. *Viking and Western are especially strong here.*\n2. **Ticks & Mosquitoes:** If you have a wooded yard in the Mid-Atlantic Lyme belt, ask about seasonal yard perimeter fogging/spraying from April through October. *Ehrlich and Viking offer targeted seasonal plans.*\n3. **Carpenter Ants vs. Termites:** In heavily wooded Northeast suburbs, carpenter ants are often mistaken for termites. Ensure the technician inspects moist structural framing before prescribing costly subterranean treatments.\n\n### Next Steps\nCall **2 or 3 of the providers above** for a free home inspection. Compare:\n* Whether re-treatments between scheduled visits are 100% free.\n* Whether the plan is a strict 12-month auto-renewing contract or cancel-anytime.\n* Specific exclusions (e.g., many basic plans do not cover bed bugs, termites, or wildlife without an add-on).",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:04:30+00:00",
+  "has_unknown": true
+}

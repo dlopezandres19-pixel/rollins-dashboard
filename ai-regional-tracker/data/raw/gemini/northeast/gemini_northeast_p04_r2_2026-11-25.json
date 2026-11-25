@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "In New York, New Jersey, and Pennsylvania, homeowners have access to both established regional powerhouses (often founded right in the tri-state area) and well-known national chains. \n\nDepending on whether you need a routine quarterly maintenance plan, specialized wildlife removal, or emergency treatments (like bed bugs or termites), here are the leading residential pest control companies in the region:\n\n---\n\n### 1. Top Regional Powerhouses (Strongest Northeast Footprint)\n\n* **Viking Pest Control**\n  * **Service Area:** New Jersey, Pennsylvania, New York, and Delaware.\n  * **Best For:** Comprehensive preventative home plans and smart rodent monitoring.\n  * **Highlights:** Headquartered in New Jersey and backed by Anticimex, Viking uses modern Integrated Pest Management (IPM) techniques. They are particularly well known for their \"Anticimex SMART\" digital rodent tracking systems and year-round residential maintenance packages.\n* **Western Pest Services**\n  * **Service Area:** New Jersey, New York, and Eastern Pennsylvania (plus Delaware/Maryland).\n  * **Best For:** General pest control, carpenter ants, and seasonal exterior protection.\n  * **Highlights:** Founded in New Jersey back in 1928, Western is one of the most recognizable names in the region. They offer solid residential warranties, rapid local dispatch, and customized treatment for common Northeast pests like stink bugs, spotted lanternflies, and carpenter ants.\n* **Ehrlich Pest Control (Rentokil)**\n  * **Service Area:** Extensive across Pennsylvania (headquartered historically in Reading, PA), Upstate New York, and New Jersey.\n  * **Best For:** Termite defense, tick and mosquito abatement, and rural/suburban pest issues.\n  * **Highlights:** Ehrlich is practically an institution in Pennsylvania and Upstate New York. As part of the Rentokil family, they offer the resources of a global brand while keeping technician routes localized. Their \"PestFree365+\" plan is a popular year-round residential choice.\n* **Cooper Pest Solutions**\n  * **Service Area:** Central/South New Jersey and Eastern Pennsylvania (Philadelphia metro).\n  * **Best For:** Eco-conscious treatments, bed bug elimination, and difficult rodent infestations.\n  * **Highlights:** Based in Lawrenceville, NJ, Cooper has a heavy focus on entomology-driven, environmentally friendly solutions and transparent service programs.\n\n---\n\n### 2. Leading National Providers\n\n* **Orkin**\n  * **Best For:** Rapid response, strict technician training, and money-back guarantees.\n  * **Highlights:** Orkin has dozens of branches across NY, NJ, and PA. Their \"Orkin A.I.M.\" (Assess, Implement, Monitor) methodology is standardized, and their 30-day money-back guarantee makes them a reliable, low-risk choice.\n* **Terminix**\n  * **Best For:** Termite monitoring/baiting systems (Sentricon) and whole-home exclusion.\n  * **Highlights:** A household name with vast coverage across the Northeast corridor. They are especially strong for structural pest issues (subterranean termites, powderpost beetles) and offer flexible quarterly home protection plans.\n* **Aptive Environmental**\n  * **Best For:** Suburban routine pest management.\n  * **Highlights:** Very prominent in suburban neighborhoods across PA, NJ, and Long Island/Westchester. They focus primarily on perimeter spraying and non-structural common pests (spiders, ants, wasps) using pyrethrin-based products.\n\n---\n\n### 3. NYC- & Metro-Specific Specialists\n\nIf you live in New York City or the immediate metro area (Long Island, Westchester, Northern NJ), urban pest dynamics differ significantly:\n* **MMPC (Metropolitan Multi-Pest Control):** Based in NYC, highly rated for eco-friendly pest solutions, canine bed bug scent inspections, and older apartment-building pest management.\n* **Knockout Pest Control:** Very active across Long Island, Westchester, and NYC, known for fast-turnaround bed bug thermal remediation and rodent exclusion.\n* **Arrow Pest Control:** A reputable family-owned provider serving residential homeowners across central and northern New Jersey.\n\n---\n\n### Tips for Choosing a Provider in the Northeast\n\n1. **Ask About Local Pests:** The Northeast deals with very specific seasonal pests—**spotted lanternflies** (PA/NJ/NY), **blacklegged (deer) ticks**, **carpenter ants**, and **fall rodent entry** as the weather cools. Ensure your plan specifically covers these.\n2. **Review the Reservice Policy:** A reputable company should offer free re-treatments between scheduled visits if covered pests return.\n3. **Get Multiple Inspections for Termites/Bed Bugs:** For major structural or specialized treatments, always get 2–3 written quotes. Pricing for termite baiting vs. liquid barrier treatments can vary by hundreds of dollars.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Anticimex",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Anticimex",
+  "top3_brands": [
+    "Anticimex",
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:03:47+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Midwest US (Illinois, Ohio, Michigan) should consider.",
+  "rep": 3,
+  "response_text": "For a homeowner in Illinois, Ohio, or Michigan, the best approach is to consider a mix of **established Midwest regional providers** (which often offer superior local customer service and familiarity with regional pests) and **reputable national brands** (which offer 24/7 support and broad service guarantees).\n\nHere is a curated shortlist of top companies to consider:\n\n---\n\n### Top Regional Midwest Specialists\n*These companies have deep roots in the Great Lakes region, meaning their technicians understand local seasonal shifts—like fall boxelder bug and stink bug invasions, winter rodent intrusions, and spring carpenter ant activity.*\n\n#### 1. **Rose Pest Solutions**\n* **Coverage:** Extensive coverage across **Michigan, Ohio, and Illinois** (as well as Indiana and Wisconsin).\n* **Best For:** Overall residential pest protection and local expertise.\n* **Why Consider Them:** Rose is the oldest pest management company in the nation (founded in 1860). They have dedicated regional operations headquartered in both Michigan (Troy) and Illinois (Northbrook). Because they are built specifically around the Midwest climate, their year-round residential plans are fine-tuned to local pest life cycles.\n\n#### 2. **Anderson Pest Solutions**\n* **Coverage:** Primarily **Illinois** (especially Chicagoland and northern/central IL) and adjacent border areas.\n* **Best For:** Environmentally conscious homeowners in Illinois.\n* **Why Consider Them:** Anderson is widely regarded for its \"Natural Choice\" home protection program, which emphasizes Integrated Pest Management (IPM)—identifying root causes and sealing entry points rather than relying solely on chemical sprays.\n\n#### 3. **ScherZinger Pest Control**\n* **Coverage:** **Ohio** (Columbus, Cincinnati, Dayton, and surrounding areas).\n* **Best For:** Central and Southwestern Ohio homeowners looking for a family-owned touch.\n* **Why Consider Them:** Operating in Ohio for more than 85 years, ScherZinger is a local institution. They offer transparent, bundled seasonal maintenance plans (Guardian programs) and are known for prompt, responsive technician follow-ups.\n\n---\n\n### Top National Providers with Strong Midwest Hubs\n*If you live in an exurb or rural area where regional companies may not travel, or if you need specialized services like advanced structural termite treatments or crawlspace remediation, national providers offer massive infrastructure.*\n\n#### 4. **Orkin**\n* **Coverage:** Hundreds of branches across **Illinois, Ohio, and Michigan**.\n* **Best For:** Rigorous technician training and emergency/rapid response.\n* **Why Consider Them:** Orkin invests heavily in entomology-backed training. Their standard residential plan involves a 6-step cycle that adjusts with the Midwest seasons. If pests return between your scheduled visits, they provide off-cycle treatments at no extra charge.\n\n#### 5. **Terminix**\n* **Coverage:** Widespread across all three states.\n* **Best For:** Termite monitoring/remediation and full-home exclusion services.\n* **Why Consider Them:** If your home has subterranean termite concerns or requires attic insulation capping and crawlspace barrier installation, Terminix has dedicated equipment and financing options that smaller outfits sometimes lack.\n\n---\n\n### Quick Buying Tips for Midwest Homeowners\n* **Ask About Seasonal Adjustment:** In the Midwest, your pest priorities change drastically every quarter (carpenter ants and wasps in spring/summer; mice, rats, and brown marmorated stink bugs seeking warmth in autumn). Confirm that their plan automatically changes focus with the seasons.\n* **Verify Free Re-Services:** Reputable recurring plans should always include free return visits if pests reappear between quarterly treatments.\n* **Get Multiple Quotes:** Most of these companies offer free home inspections. Have two providers inspect your property so you can compare whether they focus on physical exclusion (sealing cracks) or just surface spraying.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:21:32+00:00",
+  "has_unknown": true
+}

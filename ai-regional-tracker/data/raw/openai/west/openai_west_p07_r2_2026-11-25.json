@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "When looking for top pest control companies in the Western US, including California, Washington, and Arizona, consider these well-regarded options:\n\n1. **Orkin**: Known for comprehensive pest control solutions and a strong presence in the Western US. They offer services for a variety of pests and have a good reputation for customer service.\n\n2. **Terminix**: Offers extensive pest control services and has a strong network across the Western states. They provide solutions for termites, rodents, and other common pests.\n\n3. **Clark Pest Control**: Based in California, they are well-regarded for their personalized service and effective pest management strategies.\n\n4. **Western Exterminator**: Popular in California and nearby states, they offer a range of pest control services with a focus on environmentally-friendly solutions.\n\n5. **Ecola Termite and Pest Control**: Specializes in eco-friendly pest control solutions and is a good choice for those concerned about the environment.\n\n6. **Truly Nolen**: Offers comprehensive pest control services and is known for their innovative treatment methods.\n\nWhen choosing a pest control service, consider factors such as the specific pests you’re dealing with, customer reviews, service guarantees, and whether they offer environmentally-friendly options. It’s also a good idea to get quotes from a few companies to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:48:29+00:00",
+  "has_unknown": true
+}

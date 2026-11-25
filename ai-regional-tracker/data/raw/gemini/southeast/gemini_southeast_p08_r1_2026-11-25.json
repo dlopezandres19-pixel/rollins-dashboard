@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast—particularly across Florida, Georgia, and Texas—pest control demands are unique. The heat, high humidity, and sandy soil create aggressive environments for subterranean (and Formosan) termites, American cockroaches (palmetto bugs), fire ants, mosquitoes, and rodents. \n\nWhen shopping around, it is best to compare a mix of **large regional powerhouses**, **national brands**, and any **builder-specific services** that may apply to your home.\n\nHere are the top providers you should compare:\n\n---\n\n### 1. The Regional Powerhouses (Often the Sweet Spot for Service)\n\nThese companies have massive footprints across the Southeast, deep familiarity with local pest ecosystems, and often score higher for consistent customer service than the largest national chains.\n\n*   **Massey Services** *(Strongest in Florida, growing in Georgia & Texas)*\n    *   **Best for:** Florida homeowners, or anyone wanting pest, termite, and lawn/irrigation care bundled together.\n    *   **Why compare them:** Headquartered in Florida, Massey is one of the dominant names in the region. They specialize heavily in integrated exterior pest management (stopping bugs before they get inside) and are famous for bundling pest control with turf and shrub care—a very common need in FL and GA.\n*   **Arrow Exterminators** *(Strongest in Georgia, extensive reach in Florida & Texas)*\n    *   **Best for:** Overall customer satisfaction, comprehensive termite bonds, and whole-home pest protection.\n    *   **Why compare them:** Based in Georgia, Arrow is one of the largest family-owned pest control firms in the nation. They are particularly praised for their STEPS (Sustainability Total Environmental Pest Solutions) program and have a very strong reputation for honoring termite retreatment and repair guarantees without excessive hassle.\n*   **ABC Home & Commercial Services** *(Crucial comparison if you are in Texas)*\n    *   **Best for:** Texas homeowners looking for pest control or bundled home services.\n    *   **Why compare them:** ABC is a Texas staple with massive operations in Houston, Dallas-Fort Worth, Austin, and San Antonio. Like Massey in Florida, ABC can handle general pests, termites, mosquito mitigation, and full yard/pool maintenance under a single provider.\n\n---\n\n### 2. The National Giants\n\nThese companies operate virtually everywhere in Florida, Georgia, and Texas. They offer 24/7 customer support portals, standard operating procedures, and heavy-duty warranties.\n\n*   **Orkin**\n    *   **Best for:** Highly trained technicians and reliable retreatment guarantees.\n    *   **Why compare them:** Orkin invests heavily in entomology-backed training. Their standard quarterly plans are very reliable, and their 30-day money-back guarantee/free re-treatment policy is strictly enforced. They tend to be slightly more expensive, but service consistency across branches is generally high.\n*   **Terminix**\n    *   **Best for:** Specialized termite protection and extensive coverage options.\n    *   **Why compare them:** Given that the Southeast is the epicenter of subterranean and destructive Formosan termites, Terminix’s proprietary baiting systems and termite damage repair plans make them a natural contender for termite inspections and coverage comparisons.\n\n---\n\n### 3. Specialty & Niche Players to Keep on Your Radar\n\n*   **HomeTeam Pest Defense**\n    *   **Check this first if:** You live in a home built in the 2000s or later in Florida or Texas.\n    *   **Why:** Many suburban builders install the **Taexx® system** (the perforated tubing inside the walls accessed via an outdoor port). HomeTeam owns this system. While other companies can service your home traditionally, only HomeTeam can inject pesticide directly through that in-wall tubing port.\n*   **Truly Nolen**\n    *   **Best for:** Warmer metro areas across Florida and Texas.\n    *   **Why compare them:** Famous for their mouse-shaped cars, Truly Nolen has a strong southern branch presence and focuses heavily on seasonal \"Four Seasons\" treatment plans designed to target the specific bugs active during hot, wet southern summers versus milder winters.\n\n---\n\n### How to Evaluate Your Quotes\n\nBefore choosing one, ask each company these region-specific questions:\n\n1.  **What does your termite warranty cover?** \n    In FL, GA, and TX, subterranean and Formosan termites cause billions in damage. Ask if the termite contract covers **retreatment only** or **retreatment AND structural damage repair**. Look for coverage that includes Formosan termites, as some older contracts exclude them.\n2.  **Exterior vs. Interior Philosophy:** \n    Most reputable southern providers now use exterior barrier treatments so you don't have to be home for routine service, reserving interior sprays only for active outbreaks. Ask if interior treatments are included at no extra charge if an issue arises inside.\n3.  **Free Re-service Policy:** \n    During peak summer",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:56:58+00:00",
+  "has_unknown": true
+}

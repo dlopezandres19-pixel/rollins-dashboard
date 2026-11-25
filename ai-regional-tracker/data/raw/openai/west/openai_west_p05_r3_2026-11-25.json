@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "Choosing a pest control company in the Western US involves considering factors like reputation, services offered, and customer reviews. Here are some well-regarded options you might consider:\n\n1. **Orkin**: Known for its comprehensive services and strong reputation. They offer a wide range of pest control solutions and have branches across California, Washington, and Arizona.\n\n2. **Terminix**: Offers extensive plans for residential pest control, including termite and bed bug treatments. They have a strong presence in the Western US.\n\n3. **Western Exterminator**: Particularly popular in California, they provide both residential and commercial pest control services. Known for their personalized approach.\n\n4. **Ecola Termite and Pest Control**: Based in California, they are known for offering eco-friendly pest control options.\n\n5. **Bulwark Exterminating**: Provides services in Arizona and is known for its family-owned approach and excellent customer service.\n\nWhen choosing a company, consider:\n\n- **Certifications and Licenses**: Ensure the company is licensed and certified in your state.\n- **Customer Reviews**: Check online reviews to gauge customer satisfaction.\n- **Guarantees**: Look for companies that offer service guarantees.\n- **Pricing**: Get quotes from multiple companies to compare prices and services.\n\nIt’s a good idea to contact a few companies to discuss your specific pest issues and get estimates before making a decision.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:48:05+00:00",
+  "has_unknown": true
+}

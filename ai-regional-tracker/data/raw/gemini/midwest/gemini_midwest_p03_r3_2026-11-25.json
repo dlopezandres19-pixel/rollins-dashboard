@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When looking for reputable residential pest control in the Midwest—specifically Illinois, Ohio, and Michigan—you have a choice between established regional companies (which often receive higher marks for customer service and local knowledge) and the major national brands. \n\nHere are the most reputable providers across the region, broken down by category.\n\n---\n\n### 1. Top Regional Midwest Specialists (Often the Best Rated)\n\nRegional companies are typically the preferred choice in the Midwest because their technicians are deeply familiar with regional climate shifts, seasonal pests (like boxelder bugs, stink bugs, and carpenter ants), and local building styles.\n\n* **Rose Pest Solutions** *(IL, OH, MI)*\n  * **Reputation:** Established in 1860, Rose is one of the oldest and most trusted pest management companies in the country. They have a massive presence across Michigan, Ohio, and parts of Illinois.\n  * **Best For:** Year-round residential preventative maintenance and general household pests. They are known for transparent pricing, knowledgeable technicians, and prompt re-service visits under their service guarantees.\n* **ScherZinger Pest Control** *(Ohio)*\n  * **Reputation:** A multi-generation, family-owned company founded in 1934, ScherZinger has a stellar reputation throughout Central and Southwest Ohio (Columbus, Cincinnati, Dayton). \n  * **Best For:** Homeowners in Ohio looking for personalized customer service without long-term aggressive contracts, as well as specialized termite and bed bug treatments.\n* **Anderson Pest Solutions** *(Illinois & Chicagoland)*\n  * **Reputation:** One of the most established names in Northern Illinois and the greater Chicago area. (Now part of the Rentokil family, but still operated with deep local roots).\n  * **Best For:** Urban and suburban pest issues common to Illinois, particularly rodent exclusion, carpenter ants, and residential preventive programs (their \"Natural Choice Home Protection\" program is widely used).\n* **Griffin Pest Solutions** *(Michigan)*\n  * **Reputation:** Operating since 1929, Griffin is one of Michigan’s most reputable homegrown pest services, covering Detroit, Grand Rapids, Kalamazoo, and Lansing.\n  * **Best For:** Seasonal Michigan pests (stink bugs, spiders, mice wintering in attics) and targeted pest exclusion work.\n* **Varment Guard / Plunkett’s Pest Control** *(Ohio, Illinois)*\n  * **Reputation:** Varment Guard (now backed by regional powerhouse Plunkett's) is well-regarded across Ohio and parts of neighboring states.\n  * **Best For:** Dual pest and wildlife control. If your issue involves raccoons, bats, or squirrels in addition to insects, they are among the best equipped.\n\n---\n\n### 2. Top National Providers with Strong Midwest Networks\n\nIf you live in a rural area or prefer the 24/7 customer support and digital portal access of a national provider, these are the two most dependable in the region:\n\n* **Orkin**\n  * **Reputation:** Orkin is widely considered the gold standard among national brands due to its rigorous technician training (Orkin requires extensive classroom and field hours) and its 30-day money-back guarantee.\n  * **Best For:** Serious infestations (termites, bed bugs, persistent rodent problems) where specialized equipment and structured treatment protocols are essential.\n* **Terminix**\n  * **Reputation:** Terminix has a massive footprint across IL, OH, and MI. While customer service can vary slightly depending on the specific local franchise branch, their termite and moisture-control programs are industry-leading.\n  * **Best For:** Termite bonds and comprehensive whole-home barrier protections.\n\n---\n\n### What to Look for Before Signing a Contract\n\n1. **Check for \"QualityPro\" Certification:** The National Pest Management Association (NPMA) awards QualityPro status to companies that pass strict background checks, environmental safety standards, and operational guidelines. (Rose, ScherZinger, and Orkin hold this).\n2. **Beware of Door-to-Door Sales Tactics:** Companies like Aptive Environmental are very active in Midwest suburbs during the spring and summer. While their treatments work, their sales reps frequently push long-term, hard-to-cancel annual contracts. Always read the cancellation clause before signing an electronic tablet.\n3. **Re-Service Policy:** A reputable company should always offer free re-treatment visits between scheduled services if the pests return.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:14:02+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When choosing a residential pest control service in the Southeast—especially in Florida, Georgia, and Texas, where warm, humid climates bring heavy pressure from termites, roaches, mosquitoes, and fire ants—homeowners generally look at two tiers: **Southeast-born regional giants** (which often get higher marks for customer service) and **established national providers** with large local branches.\n\nHere are the most reputable residential pest control companies operating across these states:\n\n---\n\n### 1. The Top Regional Powerhouses (Best Local Reputations)\n\n#### **Arrow Exterminators**\n* **Primary Footprint:** Headquartered in Atlanta, GA, with extensive service across **Georgia, Florida, and Texas**.\n* **Reputation:** Arrow is one of the largest family-owned pest control companies in the country and consistently earns higher customer satisfaction ratings than the mega-corporations. They are especially regarded for their comprehensive termite bonds (using the Sentricon system) and integrated pest management (STEPS program).\n* **Best For:** Termite prevention, general household pests, and wildlife exclusion.\n\n#### **Massey Services**\n* **Primary Footprint:** Headquartered in Orlando, FL, with deep coverage across **Florida, Georgia, and major Texas metros** (Dallas-Fort Worth, Houston, Austin, San Antonio).\n* **Reputation:** Massey is a household name in Florida and Georgia. They are best known for bundled exterior pest control (treating the perimeter so technicians rarely need to come inside) alongside lawn care, irrigation, and termite protection.\n* **Best For:** Homeowners who want a single company to handle quarterly pest defense, termite protection, and lawn/landscape treatments.\n\n#### **ABC Home & Commercial Services** *(Best for Texas)*\n* **Primary Footprint:** Primarily **Texas** (Austin, Houston, Dallas, San Antonio, Bryan/College Station), with some presence in Florida.\n* **Reputation:** In Texas, ABC is an institution. Family-owned for generations, they have a stellar reputation for customer service, transparent pricing, and background-checked technicians. \n* **Best For:** Texas residents wanting a trusted, local-first alternative to national conglomerates.\n\n---\n\n### 2. Widely Trusted National Providers\n\n#### **Orkin**\n* **Primary Footprint:** Headquartered in Atlanta, GA; covers virtually every zip code across **GA, FL, and TX**.\n* **Reputation:** Orkin is widely considered the gold standard among national brands for technician training. Their technicians undergo rigorous coursework and practical training in entomology. They provide thorough initial inspections and offer a 30-day money-back guarantee.\n* **Best For:** Severe, active infestations (bed bugs, German roaches, heavy termite activity) where deep technical expertise is required.\n\n#### **Truly Nolen**\n* **Primary Footprint:** Very active across **Florida and Texas**, as well as parts of Georgia.\n* **Reputation:** Known for their distinct yellow \"mouse cars,\" Truly Nolen has a strong regional footprint in the Sunbelt. They specialize in four-season pest management tailored to changes in insect behavior across southern climates.\n* **Best For:** Routine seasonal pest maintenance and rodent control.\n\n#### **Terminix**\n* **Primary Footprint:** Universal coverage across Florida, Georgia, and Texas.\n* **Reputation:** Terminix is historically the biggest name in termite defense. While branch-to-branch customer service quality can vary more widely than regional firms like Arrow or ABC, they offer strong subterranean termite warranties and extensive resources.\n* **Best For:** Subterranean and drywood termite protection programs.\n\n---\n\n### Summary Recommendation by State\n\n* **If you are in Florida:** Look first at **Massey Services** or **Arrow Exterminators** for balanced pest and lawn needs, or **Orkin** for active structural pest issues.\n* **If you are in Georgia:** **Arrow Exterminators** and **Cook's Pest Control** (strong in North/Central GA) consistently outperform the big national names in customer satisfaction, with **Orkin** as the premier national choice.\n* **If you are in Texas:** **ABC Home & Commercial Services** is widely considered the top residential brand, closely followed by **Arrow Exterminators** and **Massey Services** in major metros.\n\n### Tips for Homeowners in the Southeast:\n1. **Prioritize the Termite Bond:** In FL, GA, and TX, subterranean (and in coastal areas, Formosan/drywood) termites are a major risk. Always ask what warranty is included (e.g., *repair guarantee* vs. *re-treatment only*).\n2. **Perimeter-First Service:** Because southern bugs thrive outdoors year-round, look for companies that focus heavily on exterior barrier treatments (granules, sweeps, and liquid barriers) so you don't constantly need strangers inside your home.\n3. **Compare Guarantees:** Reputable companies should provide free re-treatments between scheduled quarterly visits if pests return.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:51:58+00:00",
+  "has_unknown": true
+}

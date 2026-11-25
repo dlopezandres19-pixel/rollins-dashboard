@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, several pest control companies are known for their reputable services in Florida, Georgia, and Texas:\n\n1. **Orkin**: With a long-standing reputation, Orkin provides comprehensive pest control services and has numerous locations throughout the Southeast.\n\n2. **Terminix**: Known for its extensive experience and effective treatment plans, Terminix offers services across Florida, Georgia, and Texas.\n\n3. **Truly Nolen**: This company is well-regarded for innovative pest control solutions and eco-friendly options, with many locations in these states.\n\n4. **Arrow Exterminators**: A family-owned business, Arrow Exterminators is well-known in the Southeast for their personalized service and comprehensive pest control solutions.\n\n5. **Massey Services**: Based in Florida, Massey Services has a strong presence in the region and offers a variety of pest prevention and control options.\n\n6. **Ehrlich Pest Control**: Operating under the Rentokil brand, Ehrlich offers reliable pest control services with a focus on preventative measures.\n\nFor the best results, consider checking online reviews and asking for recommendations from local community members. It’s also wise to contact a few companies for quotes and to inquire about their specific services and guarantees.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Truly Nolen",
+    "Arrow Exterminators"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:40:35+00:00",
+  "has_unknown": true
+}

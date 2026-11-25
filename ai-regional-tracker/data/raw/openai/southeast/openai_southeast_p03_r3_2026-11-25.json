@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "When looking for reputable pest control companies in the Southeast US, including Florida, Georgia, and Texas, consider the following options known for their strong reputations:\n\n1. **Orkin**:\n   - Nationwide presence with a strong reputation for effective pest control services.\n   - Offers comprehensive pest management solutions and guarantees.\n\n2. **Terminix**:\n   - Well-known for its extensive experience and wide range of services.\n   - Provides customized pest control plans and strong customer support.\n\n3. **Massey Services**:\n   - Headquartered in Florida with a strong local presence.\n   - Offers environmentally friendly pest control solutions.\n\n4. **Arrow Exterminators**:\n   - Family-owned company based in Georgia.\n   - Known for its commitment to eco-friendly methods and excellent customer service.\n\n5. **Truly Nolen**:\n   - Offers innovative pest control solutions with a focus on prevention.\n   - Provides a variety of pest management services and seasonal plans.\n\n6. **Bulwark Exterminating**:\n   - Known for customer satisfaction and effective pest control treatments.\n   - Offers services in several states, including Texas.\n\nWhen choosing a pest control company, consider reading reviews, checking their certifications, and comparing service guarantees to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:40:46+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 2,
+  "response_text": "When seeking top pest control services in Illinois, Ohio, and Michigan, consider the following reputable companies:\n\n**1. Orkin**\n\nOrkin is a well-established pest control provider with a strong presence across the Midwest. They offer comprehensive services, including termite and pest control, with a commitment to customer satisfaction. In Cleveland, Ohio, Orkin has a CR Score of 63/100 and a 4.7-star rating from 557 Google reviews, operating 24/7. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/cleveland-oh?utm_source=openai)) Similarly, in Kalamazoo, Michigan, Orkin holds a CR Score of 67/100 with a 4.7-star rating from 1,968 Google reviews, also offering 24/7 service. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/kalamazoo-mi?utm_source=openai))\n\n**2. Terminix**\n\nTerminix is another leading pest control company with extensive coverage in the Midwest. They provide specialized services for pests and termites, backed by industry-leading guarantees. In Kalamazoo, Michigan, Terminix has a CR Score of 61/100 and a 4.4-star rating from 72 Google reviews, operating 24/7. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/kalamazoo-mi?utm_source=openai))\n\n**3. Rose Pest Solutions**\n\nEstablished in 1860, Rose Pest Solutions is the nation's oldest pest control company, serving parts of Illinois, Indiana, Kentucky, Michigan, Ohio, Pennsylvania, West Virginia, and Wisconsin. They offer residential, industrial, and commercial pest management services, emphasizing Integrated Pest Management (IPM) practices. Rose Pest Solutions holds an A+ rating with the Better Business Bureau. ([thisoldhouse.com](https://www.thisoldhouse.com/pest-control/rose-pest-solutions-review?utm_source=openai))\n\n**4. Greenix Pest Control**\n\nGreenix Pest Control is recognized for its effective pest management services. In Cleveland, Ohio, Greenix has a CR Score of 63/100 and a 4.8-star rating from 908 Google reviews, offering services on Saturdays, Sundays, and evenings. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/cleveland-oh?utm_source=openai))\n\n**5. Community Pest Solutions**\n\nFor localized service, Community Pest Solutions in Ann Arbor, Michigan, has a CR Score of 68/100 and a 5.0-star rating from 3,272 Google reviews, operating 24/7. ([contractorsranked.com](https://www.contractorsranked.com/pest-control/ann-arbor-mi?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's reputation, range of services, availability, and customer reviews to ensure they meet your specific needs. ",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:44:48+00:00",
+  "has_unknown": true
+}

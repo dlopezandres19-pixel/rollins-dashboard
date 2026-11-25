@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "For homeowners in the Southeast (Florida, Georgia, and Texas), pest control needs are unique. The warm, humid climate creates intense, year-round pressure from pests like subterranean and Formosan termites, American cockroaches (\"palmetto bugs\"), fire ants, and mosquitoes. \n\nThe best pest control companies for this region combine specialized regional expertise, strong termite guarantees, and reliable service:\n\n---\n\n### 1. Arrow Exterminators (Best Overall for the Southeast)\n* **Presence:** Widespread across Georgia, Florida, and Texas.\n* **Why they stand out:** Headquartered in Atlanta, Georgia, Arrow is the premier regional powerhouse in the Southeast. They understand Southern pest biology exceptionally well and operate with a higher level of customer satisfaction than many massive national franchises.\n* **Key Offerings:** Their **STEPS Total Protection System** provides comprehensive general pest control, mosquito reduction, and specialized termite defenses (using the Sentricon system).\n* **Best for:** Homeowners wanting regional expertise, strong customer service, and integrated termite protection.\n\n---\n\n### 2. Massey Services (Best for Combined Pest & Lawn Care)\n* **Presence:** Strong coverage across Florida (headquartered in Orlando), Georgia, and Texas.\n* **Why they stand out:** Massey excels in the \"whole property\" approach. Southern pests often originate in lush turf, mulch beds, and landscaping. Massey offers integrated packages that handle interior pest control, exterior perimeter barriers, termite protection, and lawn/irrigation health.\n* **Key Offerings:** Comprehensive pest control, subterranean and drywood termite treatments, and environmentally responsible pest solutions.\n* **Best for:** Homeowners looking for a one-stop shop to handle both pest control and Southern turf/landscape maintenance.\n\n---\n\n### 3. ABC Home & Commercial Services (Top Pick Specifically for Texas)\n* **Presence:** Major presence across Texas (Austin, Houston, Dallas-Fort Worth, San Antonio, Bryan/College Station).\n* **Why they stand out:** ABC is a beloved, family-owned institution in Texas. If you are located in the Lone Star State, they often outperform national chains in responsiveness, technician consistency, and local pest knowledge (including scorpions, fire ants, and roof rats).\n* **Best for:** Texas homeowners looking for established local service with a wide range of home maintenance add-ons.\n\n---\n\n### 4. Orkin (Best for Technician Training & General Pest Control)\n* **Presence:** Ubiquitous across all three states with dozens of local branches.\n* **Why they stand out:** Orkin’s training program (often certified in conjunction with universities) is among the most rigorous in the industry. Their \"Points of Service\" system focuses on finding harborage areas, identifying entry points, and maintaining an exterior barrier.\n* **Key Offerings:** 30-day money-back guarantee and free touch-up visits between quarterly services if pests return.\n* **Best for:** Consistent, highly structured general pest management with nationwide support.\n\n---\n\n### 5. Terminix (Best for Heavy Termite Pressure)\n* **Presence:** Extensive across Florida, Georgia, and Texas.\n* **Why they stand out:** Termites are arguably the biggest structural threat to homes in the Deep South. Terminix has built its brand on termite management and offers robust **Termite Bonds / Damage Repair Guarantees** (which can be transferred to new buyers if you sell your home).\n* **Key Offerings:** Sentricon baiting systems, liquid soil treatments, and specialized Formosan termite plans.\n* **Best for:** Homeowners who prioritize aggressive termite prevention and clear repair-damage coverage.\n\n---\n\n### Key Tips Before Hiring in the Southeast:\n\n1. **Demand a Termite Bond with a Repair Guarantee:** Subterranean (especially Formosan) and drywood termites cause catastrophic damage in FL, GA, and TX. Ensure the company offers a transferable **damage repair guarantee**, not just a \"re-treatment\" guarantee.\n2. **Prioritize Exterior-Only Maintenance:** A good Southern pest program should establish a strong perimeter barrier outdoors (treating weep holes, eaves, and foundation lines), meaning technicians rarely need to spray chemicals inside your living spaces after the initial treatment.\n3. **Check for Free Reservice Calls:** Because pests thrive year-round in the South, verify that the contract includes free mid-cycle service visits if you spot activity between scheduled treatments.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:51:12+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "For homeowners in the Northeast (New York, New Jersey, and Pennsylvania), the best pest control choice often comes down to whether you prefer a **deeply established regional brand** that knows local climate and building styles or a **major national provider** with broad availability and standardized warranties.\n\nHere are the most reputable and effective options in the NY/NJ/PA tri-state area:\n\n---\n\n### Top Regional Providers (Best Local Expertise)\n\nRegional companies often offer the best balance of local knowledge (such as dealing with older fieldstone foundations, humid summers, and freeze-thaw cycles) and responsive customer service:\n\n1. **Western Pest Services** *(Best Overall for NY/NJ/PA)*\n   * **Footprint:** Heavily established throughout New Jersey, New York (including NYC, Long Island, and Hudson Valley), and Eastern Pennsylvania.\n   * **Strengths:** Founded in NJ in 1928, Western is one of the most trusted names in the mid-Atlantic. They excel at general quarterly pest maintenance, carpenter ants, and seasonal rodent exclusion.\n   * **Good to know:** Their technicians are known for thorough inspections and taking structural entry points (crawlspaces, old basements) into account.\n\n2. **Ehrlich Pest Control (a Rentokil company)** *(Best for Pennsylvania & Upstate NY)*\n   * **Footprint:** Massive presence across Pennsylvania (where it was founded), central/upstate New York, and northern New Jersey.\n   * **Strengths:** Their **PestFree365+** plan covers over 36 common pests—including bed bugs and stinging insects, which many other companies exclude from basic plans. \n   * **Good to know:** Ehrlich is particularly strong for rural or suburban properties dealing with ticks, mice, and wood-destroying insects.\n\n3. **Viking Pest Control** *(Best for Eco-Friendly & Tech-Driven Solutions)*\n   * **Footprint:** Covers all of New Jersey, Eastern/Central Pennsylvania, Delaware, and parts of New York.\n   * **Strengths:** Viking uses Anticimex SMART technology (non-toxic, digital rodent monitoring traps) which is ideal if you have pets or prefer minimal rodenticide use. They also specialize in invasive pests common to this region, such as the **spotted lanternfly**.\n\n---\n\n### Top National Providers (Best for Termites, Bed Bugs & Rural Coverage)\n\nIf you live in an area outside standard regional service routes, national chains offer standard protocols, extensive equipment, and 24/7 support:\n\n1. **Orkin**\n   * **Strengths:** Orkin has some of the most rigorous technician training in the industry (certified entomologists on staff). They offer a 30-day money-back guarantee and fast emergency response times.\n   * **Best for:** Complex infestations (bed bugs, aggressive rodent issues) and homeowners who want a dependable, corporate satisfaction guarantee.\n\n2. **Terminix**\n   * **Strengths:** The industry leader in wood-destroying insect prevention. In the Northeast, subterranean termites can quietly cause extensive damage to older timber-frame homes. \n   * **Best for:** Termite baiting systems (Sentricon), crawlspace moisture control/encapsulation, and whole-home wildlife exclusion.\n\n---\n\n### Key Northeast-Specific Factors to Ask About\n\nWhen calling for quotes in NY, NJ, or PA, make sure to ask prospective providers how they handle:\n\n* **Fall Rodent Exclusion:** Mice and rats seek indoor warmth aggressively between October and December. Ask if the company offers **exclusion service** (sealing entry holes with copper mesh and sealant), not just poison bait stations.\n* **Ticks & Mosquitoes:** Due to the prevalence of Lyme disease in this region, ask if their exterior seasonal plan includes tick yard-spraying or tick tubes.\n* **Spotted Lanternflies:** If you have maples, fruit trees, or Ailanthus (Tree of Heaven) on your property in PA or NJ, verify if they offer systemic or contact lanternfly treatments.\n* **Service Guarantees:** Ensure the contract includes free re-treatments between scheduled visits if pests return.\n\n### Recommendation\n* If you want a **regional specialist** with deep roots in local construction and pest habits, get quotes from **Western Pest Services** or **Ehrlich**.\n* If you need an immediate inspection for a **severe infestation (bed bugs or termites)**, call **Orkin** or **Terminix** for their rapid scheduling and national guarantees.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:01:39+00:00",
+  "has_unknown": true
+}

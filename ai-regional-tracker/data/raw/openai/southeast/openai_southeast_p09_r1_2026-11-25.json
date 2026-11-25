@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 1,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, you have several options for residential pest control. Here are some popular choices:\n\n1. **Professional Pest Control Services:**\n   - **Terminix** and **Orkin**: Nationally recognized brands with comprehensive pest management services.\n   - **Local Companies**: Often, local businesses offer personalized services and may have specific expertise regarding regional pests. Look for companies with good reviews and certifications.\n\n2. **DIY Pest Control:**\n   - **Products**: You can find a variety of sprays, traps, and baits at home improvement stores like Home Depot or Lowe's.\n   - **Integrated Pest Management (IPM)**: This approach combines prevention, monitoring, and control, using strategies like sealing entry points and maintaining cleanliness.\n\n3. **Natural and Organic Methods:**\n   - **Diatomaceous Earth**: A natural powder that can be used for insects like ants and cockroaches.\n   - **Essential Oils**: Oils like peppermint or eucalyptus can deter some pests.\n\n4. **Preventive Measures:**\n   - Regular cleaning and maintenance, sealing cracks, and managing moisture can help reduce pest problems.\n\n5. **Specialized Services:**\n   - For specific issues like termites or bed bugs, specialized services offer targeted solutions.\n\nAlways ensure the company or product is effective for the specific pests you're dealing with and check for any safety guidelines, especially if you have pets or children.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:41:57+00:00",
+  "has_unknown": true
+}

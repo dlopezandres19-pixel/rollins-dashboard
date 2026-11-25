@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 6,
+  "prompt_text": "What are the best national pest control companies operating in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When dealing with the climate in the Southeast and Gulf states—where high heat and humidity create year-round pressure from subterranean termites, American cockroaches (palmetto bugs), fire ants, and mosquitoes—several national pest control providers stand out for their footprint, warranties, and regional experience.\n\nHere are the best national pest control companies operating extensively in Florida, Georgia, and Texas:\n\n---\n\n### 1. Orkin\n* **Best Overall for Tough Infestations & Training**\n* **HQ / Regional Roots:** Headquartered in Atlanta, GA, with hundreds of branches across GA, FL, and TX.\n* **Why Choose Them:** Orkin is widely regarded for having one of the most rigorous technician training programs in the industry (through the Orkin Learning Center). Because they are headquartered in the South, their treatment protocols are built specifically around aggressive southern pests, including Formosan termites, German cockroaches, and carpenter ants.\n* **Guarantee:** 30-day money-back guarantee, plus free re-treatments between scheduled visits if pests return.\n\n### 2. Terminix\n* **Best for Termite Protection & Bundled Services**\n* **Regional Roots:** Deep southern roots (founded in Tennessee) with ubiquitous branch coverage throughout Texas, Georgia, and Florida.\n* **Why Choose Them:** Termites are a critical concern in these three states, and termite management is Terminix’s flagship service. They offer both liquid barriers and Sentricon baiting systems, backed by the **Nix Guarantee**, which covers the cost of repairing new structural damage if termites return under an active plan. They also offer broad bundles combining general pest control, mosquito defense, and wildlife exclusion.\n* **Guarantee:** Free re-treatments between scheduled visits on recurring plans.\n\n### 3. Truly Nolen Pest Control\n* **Best for Warm-Climate Seasonal Defense**\n* **Regional Presence:** Very heavy footprint in Florida and Texas (instantly recognizable by their yellow mouse-eared service vehicles).\n* **Why Choose Them:** While national, Truly Nolen’s operational sweet spot is warm-weather states. They utilize a **Four Seasons Pest Program**, adjusting treatments quarterly to match changes in insect behavior (e.g., ant surges in spring, outdoor roaches pushing inside during summer heat, rodent exclusion in fall/winter). They are also known for using pet- and plant-conscious treatment techniques around home perimeters.\n* **Guarantee:** 100% money-back guarantee on recurring programs.\n\n### 4. Aptive Environmental\n* **Best for Recurring Exterior Perimeter Maintenance**\n* **Regional Presence:** Extremely active across suburban developments in Texas (Dallas, Houston, Austin, San Antonio), Florida (Tampa, Orlando, Jacksonville), and the greater Atlanta metro.\n* **Why Choose Them:** Aptive focuses primarily on outdoor perimeter defense using pyrethrin-derived products. If your main issue is keeping wasps, spiders, ants, and outdoor roaches out of your living space rather than dealing with severe structural infestations, Aptive offers a modern, app-driven customer experience with simple recurring plans.\n* **Keep in Mind:** They generally do not specialize in structural wood-destroying insects (like termites), so you will need a separate company for a termite bond.\n\n### 5. Arrow Exterminators *(Major Multi-State Provider)*\n* **Best Customer Service & Full-Service Care**\n* **Regional Presence:** While technically a large regional provider rather than a 50-state company, Arrow is the **6th-largest pest control provider in the US**, headquartered in Georgia with massive footprints in Florida and Texas.\n* **Why Choose Them:** Arrow frequently scores higher in customer satisfaction surveys than the mega-corporations. They offer \"Total Home Protection,\" covering interior pests, termite bonds, mosquito reduction, and wildlife/critter removal (squirrels and raccoons in attics, a frequent issue in the Southeast).\n\n---\n\n### Tips for Hiring in FL, GA, and TX\n\n1. **Demand a Termite Warranty/Bond:** Because Florida, Georgia, and Texas are in the highest termite-hazard zone in the US, general pest control is not enough. Ensure your provider offers an annual subterranean/Formosan termite inspection and repair warranty.\n2. **Check the Local Branch Reputation:** National companies operate through local branches. A company with great national ratings might have an understaffed branch in your specific county. Always check recent Google reviews for the **exact branch** servicing your ZIP code.\n3. **Ask About \"Between-Visit\" Re-Treatments:** The southern climate often leads to sudden pest blooms after heavy rains. Confirm that your contract includes free mid-cycle service calls if bugs reappear inside.\n4. **Get Free Inspections:** Orkin, Terminix, and Arrow typically provide free initial home and termite inspections. It is worth getting at least two quotes before committing to an annual contract.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:55:06+00:00",
+  "has_unknown": true
+}

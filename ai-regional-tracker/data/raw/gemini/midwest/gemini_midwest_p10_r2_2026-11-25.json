@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Midwest US (Illinois, Ohio, Michigan) should consider.",
+  "rep": 2,
+  "response_text": "When choosing a pest control service in Illinois, Ohio, or Michigan, it helps to balance established regional operators who know the Midwest’s distinct seasonal challenges (like overwintering mice, boxelder bugs, and spring carpenter ants) with reliable national brands. \n\nHere is a shortlist of the top companies to consider:\n\n---\n\n### 1. The Top Regional Pick: **Rose Pest Solutions**\n* **Best for:** Local expertise, historic reputation, and customer service.\n* **Footprint:** Deep roots across Illinois, Michigan, and Ohio (it is the oldest pest management company in the nation, founded in 1860).\n* **Why consider them:** Because they specialize specifically in the Great Lakes/Midwest region, their technicians are intimately familiar with local pest patterns—from cold-weather rodent intrusions to summer carpenter ant swarms. They offer recurring residential protection plans (*Healthy Home Maintenance*) and have a reputation for personalized, non-pushy service compared to large national franchises.\n\n---\n\n### 2. The Best Full-Service National: **Orkin**\n* **Best for:** Consistent technician training, fast response times, and aggressive guarantees.\n* **Footprint:** Extensive presence in virtually every metro and mid-size market across IL, OH, and MI (Chicago, Detroit, Grand Rapids, Cleveland, Columbus, Cincinnati, etc.).\n* **Why consider them:** Orkin is widely regarded for having one of the most rigorous technician training programs in the industry. They offer a solid **30-day money-back guarantee** and will return between scheduled visits at no extra charge if pests reappear. They are a reliable go-to for general crawling pests, spiders, and severe rodent issues.\n\n---\n\n### 3. The Best for Termites & Urban Pests: **Terminix**\n* **Best for:** Wood-destroying insects (termites, carpenter ants) and bed bugs.\n* **Footprint:** Widespread coverage across all three states, including smaller rural and suburban communities.\n* **Why consider them:** Terminix specializes in termite prevention and remediation (using the Sentricon baiting system as well as liquid treatments). If you live in older homes common to Midwestern cities or heavily wooded lots where subterranean termites or carpenter ants are a major threat, Terminix’s specialized warranties and inspections are tough to beat.\n\n---\n\n### 4. The Best for Pests + Wildlife: **Varment Guard (Plunkett’s)**\n* **Best for:** Integrated pest management and nuisance wildlife removal (bats, raccoons, squirrels, birds).\n* **Footprint:** Very strong presence in Ohio and Michigan, backed by Midwest parent company Plunkett’s.\n* **Why consider them:** Standard pest companies often avoid dealing with wildlife. In the Midwest, where attics frequently become winter shelters for squirrels, raccoons, or bats, Varment Guard handles both traditional insect/rodent pest control and humane wildlife trapping, exclusion, and attic remediation.\n\n---\n\n### 5. Notable Illinois/Chicagoland Mention: **Anderson Pest Solutions**\n* **Best for:** Eco-friendly integrated pest management in northern/central Illinois.\n* **Footprint:** Concentrated in the Greater Chicago area, Rockford, and northwest Indiana.\n* **Why consider them:** Anderson is a staple in the Chicagoland market. They utilize \"Natural Choice\" environmentally responsible treatments that focus on exclusion and targeted applications rather than widespread chemical spraying—ideal for families with young children or pets.\n\n---\n\n### Tips for Midwestern Homeowners Before Signing:\n* **Check the Free Re-treatment Policy:** Midwestern weather causes rapid shifts in pest activity (e.g., mice rushing indoors in October/November, pavement ants invading in spring). Ensure your quarterly contract includes **free re-treatments between visits** if pests return.\n* **Ask About Wood-Destroying Organisms (WDO):** Carpenter ants are often just as destructive as termites in humid Great Lakes climates; make sure your inspector checks for both.\n* **Get Quotes from at Least Two:** National chains will often match or beat a written quote from a local competitor like Rose or Anderson.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:21:11+00:00",
+  "has_unknown": true
+}

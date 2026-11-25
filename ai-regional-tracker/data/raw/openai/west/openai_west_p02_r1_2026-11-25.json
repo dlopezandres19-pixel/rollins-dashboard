@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 1,
+  "response_text": "For homeowners in the Western US, including California, Washington, and Arizona, here are a few reputable pest control companies you might consider:\n\n1. **Orkin**: Known for their comprehensive pest control services and experienced technicians. They offer tailored solutions for different types of pests and environments.\n\n2. **Terminix**: Offers a wide range of services for residential pest control, including termite protection and bed bug removal. They have a strong presence in the Western US.\n\n3. **Western Exterminator**: A well-established company with extensive experience in the West Coast region. They provide personalized pest control solutions and have a good reputation for customer service.\n\n4. **Ecola Termite and Pest Control**: Particularly known in California, they offer eco-friendly pest control options, which might be appealing if you're looking for greener solutions.\n\n5. **Truly Nolen**: Offers pest control services in all three states and provides a variety of treatment plans, including options for environmentally conscious pest management.\n\nWhen choosing a pest control company, consider factors such as their specific services, customer reviews, pricing, and any guarantees they offer. It's often a good idea to get quotes from multiple companies to ensure you're getting the best service for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:47:08+00:00",
+  "has_unknown": true
+}

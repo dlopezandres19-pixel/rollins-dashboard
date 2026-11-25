@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "For a homeowner across the Western states—California, Washington, and Arizona—the best pest control company often depends on whether you prefer a large national network with 24/7 support or a regional provider that specializes in local desert or Pacific Northwest pests. \n\nThe most reputable options in this region, broken down by category, include:\n\n---\n\n### 1. Best Overall for the Western US: **Western Exterminator**\n* **Coverage:** California, Arizona, and parts of the Pacific Northwest (part of the Rentokil family).\n* **Best for:** Broad pest coverage tailored specifically to western ecosystems.\n* **Why them:** Recognizable by their iconic \"Little Man\" mascot, Western Exterminator has served the West Coast and Southwest for over a century. Their technicians undergo localized training specifically geared toward Western climate challenges, from coastal California Argentine ants and drywood termites to Arizona scorpions and rattlesnakes. \n\n---\n\n### 2. Best for High-Severity Infestations & Termites: **Orkin**\n* **Coverage:** Extensive across CA, WA, and AZ.\n* **Best for:** Aggressive infestations, termites, and strict technician training.\n* **Why them:** Orkin is widely regarded for having some of the most rigorous entomology-based training programs in the industry. Because termite pressure is heavy throughout California and Arizona (both subterranean and drywood) and carpenter ant pressure is intense in Washington, Orkin’s targeted treatments and solid re-treatment guarantees make them a safe, dependable choice anywhere in the West.\n\n---\n\n### 3. Best for Routine Preventive Maintenance: **Aptive Environmental**\n* **Coverage:** Strong residential presence in suburban CA, WA, and AZ.\n* **Best for:** Quarterly exterior perimeter defense and eco-conscious treatments.\n* **Why them:** If you do not have an active structural issue (like termites or bed bugs) and simply want routine quarterly service to keep spiders, ants, wasps, and common perimeter bugs away, Aptive is widely used across Western suburbs. They focus on synthetic pyrethroids (derived from chrysanthemum flowers) and offer free retreatments between regular visits if pests return.\n\n---\n\n### 4. Top State-Specific Regional Standouts\nLocal climate and pest biology vary wildly between the wet forests of Washington and the Sonoran Desert of Arizona. If you prefer a regional provider:\n\n* **In Arizona: Truly Nolen or Burns Pest Elimination**\n  * *Truly Nolen* is headquartered in Tucson and knows Arizona desert pests (scorpions, desert termites, pack rats) better than almost anyone. \n  * *Burns Pest Elimination* is a top-rated Southwest company with specialized knowledge in scorpion sealing and desert rodent exclusion.\n* **In California: Clark Pest Control**\n  * One of California's largest and most trusted providers (now part of Rollins/Orkin, but operated locally). They have unmatched density across Northern and Central California for agricultural pests, rodents, and termites.\n* **In Washington: Cascade Pest Control**\n  * A Pacific Northwest staple known for environmentally sensitive pest and rodent management, specifically targeting carpenter ants, moisture-loving insects, and PNW roof rats.\n\n---\n\n### Key Tips for Western Homeowners:\n1. **Know your regional threat:**\n   * **Arizona:** Ask specifically about **scorpions** and **subterranean termites**. Scorpion control often requires physical home sealing (\"exclusion\") rather than just basic perimeter sprays.\n   * **California:** Ensure the provider handles both **drywood and subterranean termites**, as treatment methods differ (tenting/fumigation vs. ground barrier/baiting).\n   * **Washington:** Focus on **carpenter ants** and **rodent exclusion** (rats/mice seeking shelter during the rainy season).\n2. **Always get 2–3 quotes:** Most reputable companies provide free in-person inspections. Compare not just the initial treatment cost, but the recurring annual service agreements and free re-service clauses.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:23:15+00:00",
+  "has_unknown": true
+}

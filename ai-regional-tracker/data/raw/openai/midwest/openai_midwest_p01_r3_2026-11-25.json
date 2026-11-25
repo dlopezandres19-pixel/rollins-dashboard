@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "Here are some of the top pest control companies in the Midwest, specifically in Illinois, Ohio, and Michigan:\n\n1. **Orkin**: Known nationwide for its comprehensive pest control services, Orkin offers treatment for a wide range of pests and has a strong presence in the Midwest.\n\n2. **Terminix**: Another national leader, Terminix provides extensive pest management solutions and has local branches across Illinois, Ohio, and Michigan.\n\n3. **TruGreen**: While primarily focused on lawn care, TruGreen also offers pest control services in the Midwest, including mosquito and tick control.\n\n4. **Rose Pest Solutions**: Serving the Midwest for over 150 years, Rose Pest Solutions offers personalized pest management services and has a strong reputation in the region.\n\n5. **Ehrlich Pest Control**: With regional offices in the Midwest, Ehrlich provides targeted pest control services using environmentally responsible methods.\n\n6. **Rove Pest Control**: Based in Minnesota, Rove also serves the Midwest with a focus on both residential and commercial pest control services.\n\n7. **Advanced Pest Control**: Operating in Michigan, this company offers a variety of pest control services and emphasizes customer satisfaction and customized solutions.\n\nWhen choosing a pest control service, consider factors like the specific pest issues you are facing, the company's reputation, customer reviews, and whether they offer environmentally friendly solutions. It's always a good idea to get quotes and consultations from a few companies before making a decision.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:44:54+00:00",
+  "has_unknown": true
+}

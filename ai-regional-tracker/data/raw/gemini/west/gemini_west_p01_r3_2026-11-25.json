@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "When dealing with pests in the Western United States, climate makes a big difference: Arizona homes frequently battle scorpions and roof rats; California faces heavy termite pressure and Argentine ants; and Washington deals with moisture-loving carpenter ants and rodents. \n\nDepending on whether you want a large regional brand or a specialized local outfit, here are the top-rated pest control companies across California, Washington, and Arizona:\n\n---\n\n### **1. Top Multi-State & Regional Brands in the West**\n\n* **Western Exterminator (CA & AZ)**\n  * **Best For:** Comprehensive general pest control and termites.\n  * Recognizable by their \"Little Man\" logo, Western Exterminator has served the West Coast since 1921 (now part of the Rentokil family). They have a deep operational footprint across California and Arizona and specialize in integrated pest management (IPM) tailored to arid and coastal climates.\n* **Truly Nolen Pest Control (AZ & CA)**\n  * **Best For:** Termite programs and desert pests.\n  * Headquartered in Tucson, Arizona, Truly Nolen is a Western staple. Because of their desert roots, they are particularly adept at handling scorpions, pack rats, and subterranean termites common to Arizona and Southern California.\n* **Clark Pest Control (CA & Pacific West)**\n  * **Best For:** Broad California coverage and lawn/pest combo care.\n  * Clark is one of the largest pest control brands in California, with deep coverage spanning from the Bay Area and Central Valley down to Southern California. They offer year-round perimeter defense and are well-regarded for customer service.\n\n---\n\n### **2. Best State-Specific Standouts**\n\n#### **Arizona**\n* **Burns Pest Elimination:** A locally founded, top-rated company serving the Phoenix and Tucson metro areas. They are known for scorpion-sealing services and desert-specific barrier treatments.\n* **Blue Sky Pest Control:** Widely considered one of the highest-rated providers in the Phoenix valley. They focus on custom formulations designed to withstand high desert heat, which can break down standard pesticide barriers quickly.\n\n#### **California**\n* **Lloyd Pest Control (Southern California):** A premier choice for San Diego, Los Angeles, and Orange County, especially for difficult termite infestations (tenting, heat treatments, and localized treatments).\n* **Hitmen Termite & Pest Control (Northern California):** Excellent reputation throughout the Bay Area, Marin, and Sonoma counties, known for both residential pest defense and structural repairs caused by drywood termites.\n\n#### **Washington**\n* **Cascade Pest Control:** Serving the greater Seattle and Puget Sound region, Cascade is known for eco-conscious, low-toxicity pest management that targets carpenter ants, spiders, and rats without harming PNW watershed environments.\n* **Eastside Exterminators:** A family-run favorite in the Seattle/Bellevue area specializing in complete 4-step rodent exclusion (inspection, extermination, repair/exclusion, and sanitation).\n\n---\n\n### **3. Leading National Providers (All 3 States)**\n\nIf you live in a rural area or prefer a company with a nationwide guarantee:\n* **Orkin:** The most reliable national brand across CA, WA, and AZ. Their technicians complete rigorous training, and their 30-day money-back guarantee is among the best in the industry.\n* **Aptive Environmental:** Excellent for routine residential perimeter defense (ants, spiders, crickets). They use naturally derived pyrethrin-based products and have a massive presence in Western suburban neighborhoods.\n\n---\n\n### **What to Ask Before Hiring**\n1. **Target Pest Guarantees:** If you’re in Arizona, confirm that **scorpions** are included in the regular maintenance plan, as many standard contracts exclude them or require an add-on.\n2. **Re-Treatment Policy:** Ask if free call-backs/re-treatments are included between scheduled visits if pests return.\n3. **State Licensing:** Verify licensing through the relevant state board:\n   * **CA:** California Structural Pest Control Board (SPCB)\n   * **AZ:** Arizona Department of Agriculture – Pest Management Division (PMD)\n   * **WA:** Washington State Department of Agriculture (WSDA)",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Truly Nolen",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:22:35+00:00",
+  "has_unknown": true
+}

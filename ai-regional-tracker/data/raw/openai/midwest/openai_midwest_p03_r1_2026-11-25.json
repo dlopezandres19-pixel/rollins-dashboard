@@ -1,0 +1,18 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 3,
+  "prompt_text": "Which residential pest control companies are the most reputable in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "When seeking reputable residential pest control services in the Midwest, particularly in Illinois, Ohio, and Michigan, consider the following companies:\n\n**Rose Pest Solutions**\n\nEstablished in 1860, Rose Pest Solutions is the nation's oldest pest control company. They offer comprehensive residential services across Michigan, Ohio, and parts of Illinois, focusing on safe and effective pest management. Their team includes licensed technicians and experienced entomologists, ensuring professional service. Customers have praised their professionalism and consistency. ([rosepestsolutions.com](https://www.rosepestsolutions.com/?utm_source=openai))\n\n**Bowers Pest Control**\n\nWith over 35 years of experience, Bowers Pest Control serves both Ohio and Michigan. They provide thorough inspections and tailored solutions for various pests, including bed bugs, termites, and rodents. Their emphasis on clear communication and lasting results has earned them a strong reputation in the regions they serve. ([bowerspestcontrol.com](https://bowerspestcontrol.com/?utm_source=openai))\n\n**Delving Pest Control**\n\nServing Northern Ohio and Southeastern Michigan for over 25 years, Delving Pest Control offers discreet one-time treatments and ongoing plans without requiring contracts. They specialize in bed bug treatments and rodent remediation, focusing on customized solutions to maintain pest-free environments. ([delvingpest.com](https://www.delvingpest.com/pest-control-services/?utm_source=openai))\n\n**Franklin Pest Solutions**\n\nOperating since 1929, Franklin Pest Solutions provides services in Illinois and parts of Indiana. They offer year-round protection plans and emphasize environmentally friendly methods. Their long-standing presence and commitment to customer satisfaction make them a trusted choice in the Midwest. ([franklin.us](https://franklin.us/?utm_source=openai))\n\n**Abell Pest Control**\n\nAbell Pest Control offers services across Michigan, providing affordable, year-round pest protection for residential properties. Their licensed technicians are recognized for delivering fast, effective, and tailored solutions. ([abellpestcontrol.com](https://www.abellpestcontrol.com/en-us/locations/michigan?utm_source=openai))\n\nWhen selecting a pest control provider, consider factors such as the company's experience, range of services, customer reviews, and their approach to safety and environmental responsibility. It's advisable to contact these companies directly to discuss your specific needs and ensure they align with your expectations. ",
+  "mentioned_brands": [],
+  "first_mentioned": null,
+  "top3_brands": [],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:45:10+00:00",
+  "has_unknown": true
+}

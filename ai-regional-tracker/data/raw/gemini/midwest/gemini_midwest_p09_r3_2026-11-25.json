@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When choosing residential pest control in the Midwest—particularly across Illinois, Ohio, and Michigan—homeowners typically choose between well-established regional companies with deep local expertise and large national providers with broad guarantees and 24/7 call centers. \n\nThe main options and how they compare break down as follows:\n\n---\n\n### 1. Established Midwest Regional Providers\nRegional providers often have technician teams with decades of experience dealing with the specific challenges of the Great Lakes climate (freeze-thaw cycles driving rodents into basements, humid summers, and seasonal invaders like boxelder bugs and stink bugs).\n\n* **Rose Pest Solutions (IL, MI, OH, IN):**  \n  One of the oldest and most reputable pest control companies in the country. Rose is headquartered in the Midwest and has extensive branch networks across Michigan, Ohio, and Illinois. They are known for residential quarterly perimeter maintenance programs and thorough rodent exclusion for older Midwestern homes.\n* **Varment Guard / Plunkett’s (OH, MI, and the Upper Midwest):**  \n  Varment Guard is widely known across Ohio and Michigan, particularly if you need both general pest control and **nuisance wildlife removal** (raccoons, bats, squirrels, and skunks). They merged operations under the Plunkett’s umbrella, offering heavy coverage in the northern Midwest.\n* **Anderson Pest Solutions (Primarily Illinois / Chicagoland):**  \n  A major presence across Illinois and Northwest Indiana. Anderson focuses heavily on Integrated Pest Management (IPM), which prioritizes non-chemical prevention, sealing entry points, and targeting specific harborage areas.\n\n---\n\n### 2. Major National Providers\nNational brands offer high availability, standardized digital portals, and formal satisfaction guarantees.\n\n* **Orkin:**  \n  Widely available in almost every metro area and mid-size city across IL, OH, and MI. Orkin is generally regarded as one of the best choices for **acute, active infestations** (such as bed bugs, roaches, or severe rodent issues) because of their extensive technician training and reliable 30-day money-back/re-treatment guarantees.\n* **Terminix:**  \n  A top competitor to Orkin with strong coverage throughout the Midwest. They are particularly well-suited for **termite protection** (especially relevant in Central/Southern Illinois and Ohio) and broad-scale crawl space / basement encapsulation and moisture control.\n* **Aptive Environmental:**  \n  Very active in suburban neighborhoods across Michigan, Ohio, and Illinois. Aptive focuses primarily on **routine exterior barrier treatments** (ants, spiders, crickets, wasps) using pyrethrin-based products. They operate almost exclusively on recurring quarterly subscription contracts.\n\n---\n\n### 3. Choosing the Right Service Model\n\nMidwest pest activity is intensely seasonal, so your choice should match your home’s specific vulnerability:\n\n| Service Model | Best For | Typical Pests Covered |\n| :--- | :--- | :--- |\n| **Quarterly Perimeter Plans** | Preventive maintenance; keeping seasonal pests out before they enter living areas. | Ants, spiders, centipedes, millipedes, wasps, boxelder bugs. |\n| **Rodent Exclusion & Trapping** | Fall and winter defense when temperatures drop and mice/rats seek warmth in basements, attics, and crawlspaces. | House mice, Norway rats. |\n| **Targeted / One-Time Treatments** | Specific, isolated outbreaks that don't necessarily require an ongoing annual contract. | Wasp nest removal, localized bed bug treatments, flea outbreaks. |\n| **Wildlife / Structural Control** | Older Midwest homes with gaps in soffits, chimneys, or foundation vents. | Squirrels, raccoons, bats, chipmunks. |\n\n---\n\n### Key Questions to Ask Before Signing\n\n1. **Does the contract include free re-treatments between visits?**  \n   Midwest rains or winter snow can wash away or degrade exterior barrier treatments. Reputable companies will return for free if pests reappear between scheduled quarterly visits.\n2. **Is rodent control included, or is it an add-on?**  \n   Some plans only spray for insects and charge extra for interior bait stations, traps, or exclusion work for mice.\n3. **What is the cancellation policy?**  \n   Many providers (especially national door-to-door services) lock customers into a 12-month auto-renewing contract with early termination fees. Ask for month-to-month or cancel-anytime terms in writing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:20:33+00:00",
+  "has_unknown": true
+}

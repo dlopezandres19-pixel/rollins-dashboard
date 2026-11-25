@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "In the Midwest, particularly in Illinois, Ohio, and Michigan, there are several leading residential pest control companies known for their effectiveness and customer service. Here are some of them:\n\n1. **Orkin**: A well-known national brand with local branches, offering comprehensive pest control services including termite, bed bug, and rodent control.\n\n2. **Terminix**: Another major national company with a strong presence in the Midwest, providing a wide range of pest management solutions.\n\n3. **Truly Nolen**: Known for their eco-friendly pest control methods, they offer services across many parts of the Midwest.\n\n4. **Rose Pest Solutions**: Based in the Midwest, they have a long history in pest control and offer customized solutions for various pest issues.\n\n5. **Environmental Pest Control**: Offers services in Ohio and is known for its environmentally friendly pest management techniques.\n\n6. **Griffin Pest Solutions**: Based in Michigan, they provide comprehensive pest control services with an emphasis on customer satisfaction.\n\n7. **Varment Guard**: Operating in Ohio, this company is known for using innovative and environmentally responsible methods.\n\nThese companies generally offer free inspections and personalized treatment plans. It's a good idea to check customer reviews and get quotes from a few different companies to find the best fit for your needs.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:45:33+00:00",
+  "has_unknown": true
+}

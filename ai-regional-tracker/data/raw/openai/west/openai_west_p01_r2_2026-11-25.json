@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 1,
+  "prompt_text": "What are the best pest control companies in the West US (California, Washington, Arizona)?",
+  "rep": 2,
+  "response_text": "Here are some reputable pest control companies in the Western US, including California, Washington, and Arizona:\n\n### California:\n1. **Orkin Pest Control**: Known for their comprehensive pest management services and strong customer service.\n2. **Terminix**: Offers a wide range of services for various pests and has a strong presence across California.\n3. **Clark Pest Control**: Specializes in both residential and commercial pest control with a focus on environmentally friendly solutions.\n4. **Western Exterminator**: Offers personalized pest control solutions and has a long-standing reputation in the industry.\n\n### Washington:\n1. **EcoShield Pest Solutions**: Provides eco-friendly pest control services with a focus on safety and customer satisfaction.\n2. **Parker Eco Pest Control**: Specializes in low-toxicity solutions and sustainable pest management practices.\n3. **Insight Pest Solutions**: Known for their effective and environmentally conscious pest management techniques.\n\n### Arizona:\n1. **Bulwark Exterminating**: Offers specialized services for desert pests and is highly rated for customer service.\n2. **Blue Sky Pest Control**: Provides tailored pest control strategies with a focus on customer care and satisfaction.\n3. **Truly Nolen**: Offers a comprehensive range of pest control services with a focus on innovative solutions.\n\n### Tips for Choosing a Pest Control Company:\n- **Check Reviews**: Look at customer reviews and ratings to gauge reliability and service quality.\n- **Ask for Estimates**: Obtain quotes from multiple companies to compare pricing and services.\n- **Verify Licensing**: Ensure the company is licensed and insured in your state.\n- **Inquire About Methods**: Ask about the pest control methods they use, especially if you prefer eco-friendly options.\n\nAlways ensure the company you choose meets your specific needs and preferences.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Truly Nolen"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:46:58+00:00",
+  "has_unknown": true
+}

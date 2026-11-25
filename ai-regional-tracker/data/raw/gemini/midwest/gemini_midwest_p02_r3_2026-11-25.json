@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "For homeowners in the Midwest—specifically Illinois, Ohio, and Michigan—pest pressures are heavily dictated by the seasons (rodents seeking warmth in late fall, boxelder bugs and stink bugs invading siding, carpenter ants, and seasonal mosquitoes/wasps). \n\nBecause of this, you generally have two great routes: **well-established Midwest regional companies** (which often provide better customer service and local knowledge) and **national giants** (best for robust guarantees, advanced scheduling tech, and standardized training).\n\nHere are the top recommendations:\n\n---\n\n### 1. Best Midwest Regional Pick: **Rose Pest Solutions**\n* **Service Area:** Strong presence throughout Michigan, Ohio, northern Indiana, and Illinois.\n* **Why Recommend:** Billed as the oldest pest control company in America (founded in 1860), Rose is an institution in the Great Lakes region. \n* **Best For:** Homeowners who want a company that genuinely understands Midwest seasonal cycles (freeze-thaw pest migration, lake-effect humidity pests, and fall rodent exclusion). Their technicians tend to have higher retention than national chains, meaning you often get the same tech on every visit.\n\n### 2. Best for Illinois & Chicago Metro: **Anderson Pest Solutions**\n* **Service Area:** Illinois (especially greater Chicagoland and central IL), northwest Indiana, and parts of Wisconsin.\n* **Why Recommend:** Anderson is the premier regional brand in Illinois. While now backed by Rentokil, they operate with a dedicated local branch model.\n* **Best For:** Urban and suburban pest issues, from brown recluse and carpenter ant management to comprehensive multi-season perimeter defense.\n\n### 3. Best for Ohio (and Wildlife/Rodent Exclusion): **Varment Guard / Plunkett’s**\n* **Service Area:** Deep footprint in Ohio (Columbus, Cleveland, Cincinnati) and the broader upper Midwest.\n* **Why Recommend:** Varment Guard is uniquely strong in both standard insect management and vertebrate pest control (mice, rats, bats, raccoons, and squirrels). \n* **Best For:** Homes with attic intrusions, field-mouse pressure, or properties backing up to woods/farmland where structural exclusion is just as important as chemical sprays.\n\n---\n\n### 4. Best National Option: **Orkin**\n* **Service Area:** Widespread across all three states with dozens of local branches.\n* **Why Recommend:** Orkin’s technician training program (partnered with universities like Purdue) is widely considered the gold standard in the industry. \n* **Best For:** Fast response times, emergency treatments, and severe active infestations (like bed bugs or aggressive wasp nests). Their **30-day money-back guarantee** is strictly honored: if pests return between regular treatments, they return to retreat at no extra charge.\n\n### 5. Best for Termites & Multi-Pest Bundles: **Terminix**\n* **Service Area:** Broad coverage throughout IL, OH, and MI.\n* **Why Recommend:** If subterranean termites are a primary worry (common in southern Ohio, central/southern Illinois, and sandy pockets of Michigan), Terminix has some of the most comprehensive baiting (Sentricon) and structural repair guarantees available.\n\n---\n\n### Which should you choose?\n\n* **Choose a regional company (Rose or Varment Guard)** if you prefer local customer support, want the same technician each season, and need long-term rodent/exclusion work tailored to Midwest winters.\n* **Choose Orkin or Terminix** if you live in an exurban or rural area where regional outfits don't service, or if you want a reliable corporate guarantee with 24/7 phone support and easy online scheduling.\n\n**Tip before signing:** Always ask if they require an annual contract. Most Midwest homes do best with a **quarterly seasonal plan** (Spring wake-up spray, Summer exterior barrier, Fall rodent/invader exclusion, and Winter attic/crawlspace check), but ensure they offer free re-treatments between visits if pests break through the barrier.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:12:53+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 7,
+  "prompt_text": "Which pest control companies offer the best overall service for homeowners in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 2,
+  "response_text": "When looking for top pest control companies in the Northeast US, including New York, New Jersey, and Pennsylvania, several companies are known for offering excellent service:\n\n1. **Orkin**: Known for comprehensive pest control services, Orkin has a strong reputation for customer service and effective treatments. They offer customized plans and have a satisfaction guarantee.\n\n2. **Terminix**: Another large company with a wide range of services, Terminix offers advanced pest control solutions and preventive measures. They also provide a 100% satisfaction guarantee.\n\n3. **Ehrlich Pest Control**: With a strong presence in the Northeast, Ehrlich offers personalized pest management solutions and environmentally friendly options. They focus on integrated pest management (IPM) practices.\n\n4. **Western Pest Services**: Based in New Jersey, Western offers localized services with a focus on personalized customer care. They have experience with regional pests and offer both residential and commercial services.\n\n5. **Viking Pest Control**: Serving New Jersey and Pennsylvania, Viking provides modern pest control techniques with a focus on eco-friendly options. They offer a satisfaction guarantee and customized treatment plans.\n\nWhen choosing a pest control company, consider factors such as the types of pests you're dealing with, the company's reputation, customer reviews, and the guarantees they offer. It's also wise to get quotes from multiple providers to compare services and pricing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:43:55+00:00",
+  "has_unknown": true
+}

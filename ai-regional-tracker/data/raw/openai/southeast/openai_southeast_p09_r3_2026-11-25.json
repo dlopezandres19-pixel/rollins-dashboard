@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "In the Southeast US, including Florida, Georgia, and Texas, you have several options for residential pest control. Here are the main ones:\n\n1. **Professional Pest Control Services:**\n   - Companies like Orkin, Terminix, and Rentokil offer comprehensive services that include regular inspections and treatments for a variety of pests such as termites, ants, mosquitoes, and rodents.\n   - Local companies often provide specialized services tailored to regional pests common in the area.\n\n2. **DIY Pest Control:**\n   - Many homeowners opt for DIY solutions using products available at home improvement stores. These can include sprays, baits, and traps for specific pests like ants, cockroaches, and mosquitoes.\n   - Natural remedies, such as diatomaceous earth or essential oils, are also popular for those looking for eco-friendly options.\n\n3. **Integrated Pest Management (IPM):**\n   - This approach combines multiple strategies to manage pests effectively with minimal impact on the environment. It often involves preventive measures, monitoring, and targeted treatments.\n\n4. **Specialized Services:**\n   - Mosquito control services, particularly important in humid climates, are available from companies like Mosquito Joe or Mosquito Squad.\n\n5. **Regular Maintenance:**\n   - Routine checks and maintenance, such as sealing entry points and managing landscaping, can help prevent infestations.\n\nWhen choosing a service, consider factors like the type of pests you're dealing with, budget, and whether you prefer chemical or natural solutions. Always check reviews and ensure any professional service is licensed and insured.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Mosquito Squad"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Mosquito Squad"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:42:07+00:00",
+  "has_unknown": true
+}

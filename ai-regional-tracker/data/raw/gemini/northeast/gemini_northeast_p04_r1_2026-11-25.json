@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "northeast",
+  "region_label": "Northeast",
+  "prompt_id": 4,
+  "prompt_text": "What are the leading residential pest control companies in the Northeast US (New York, New Jersey, Pennsylvania)?",
+  "rep": 1,
+  "response_text": "When choosing a residential pest control provider in the Northeast (New York, New Jersey, and Pennsylvania), homeowners generally choose between **established regional powerhouses** with deep roots in the Mid-Atlantic/Northeast climate and **large national brands** with broad coverage and standardized guarantees.\n\nHere are the leading residential pest control companies across NY, NJ, and PA:\n\n---\n\n### 1. Top Regional Leaders (Deep Northeast Roots)\n\n*   **Ehrlich Pest Control**\n    *   **Coverage:** Extensive across PA, NJ, and NY.\n    *   **Overview:** Founded in Reading, Pennsylvania in 1928 (now part of the Rentokil family), Ehrlich is one of the most recognized names in the Northeast. \n    *   **Best For:** Comprehensive annual plans. Their **PestFree365+** plan covers over 30 common household pests (including bed bugs in many packages) and accounts for seasonal Northeast shifts like overwintering stink bugs and spring carpenter ants.\n*   **Western Pest Services**\n    *   **Coverage:** NJ, Eastern PA, NYC metro, Westchester, Long Island, and CT.\n    *   **Overview:** Headquartered in Parsippany, New Jersey, Western has been serving the Mid-Atlantic since 1928. They have a strong reputation for knowledgeable, long-tenured local technicians.\n    *   **Best For:** Termite treatments, tick/mosquito reduction, and suburban residential pest management.\n*   **Viking Pest Control**\n    *   **Coverage:** Throughout NJ, Eastern PA, Northern DE, and parts of NY.\n    *   **Overview:** An Anticimex company based in New Jersey, Viking is known for adopting high-tech and environmentally responsible solutions.\n    *   **Best For:** Modern rodent control (they offer \"SMART\" electronic rodent monitoring systems that report back wirelessly) and integrated pest management (IPM) that minimizes chemical use.\n*   **Cooper Pest Solutions**\n    *   **Coverage:** Central and Northern NJ, Bucks County & Greater Philadelphia, PA.\n    *   **Overview:** Widely respected for entomologist-driven methods. They specialize heavily in targeted treatments rather than just general spraying.\n    *   **Best For:** Tough infestations like bed bugs, carpenter ants, and seasonal invaders like stink bugs and boxelder bugs.\n*   **Catseye Pest Control**\n    *   **Coverage:** Upstate New York (Albany, Capital District, Hudson Valley), Western MA, and parts of CT.\n    *   **Overview:** A regional favorite in Upstate New York known for premium service and wildlife control.\n    *   **Best For:** Wildlife exclusion, rodent-proofing, and clean-up/restoration via their permanent barrier installation (\"Cat-Guard\").\n\n---\n\n### 2. Major National Brands\n\nIf you live in a rural area or outside the service zone of the regional specialists, the two national giants have extensive branch networks across all three states:\n\n*   **Orkin**\n    *   **Coverage:** Ubiquitous across NY, NJ, and PA.\n    *   **Strengths:** Industry-leading technician training program (often certified in conjunction with universities). Good for targeted, aggressive treatments and backed by a 30-day money-back guarantee.\n*   **Terminix**\n    *   **Coverage:** Ubiquitous across all three states.\n    *   **Strengths:** Best-known for subterranean termite control (Bait Stations and liquid treatments) and comprehensive annual packages.\n\n---\n\n### 3. Metro-Specific & Eco-Friendly Highlights\n\n*   **MMPC (Metro New York / Long Island):** If you are in NYC or the immediate surrounding boroughs, MMPC is consistently ranked among the top independent providers, known for bed bug canine inspections and green, eco-friendly pest management.\n*   **Green Way Pest Control / Eco-Friendly Alternatives:** If avoiding standard synthetic pesticides is a priority, many local operators in PA and NJ offer organic cedarwood- oil or botanical-based barrier treatments.\n\n---\n\n### What to Consider for the Northeast Climate:\n1. **Targeted Seasonal Pests:** The Northeast experiences intense seasonal changes. Make sure your contract covers:\n   * **Spring/Summer:** Carpenter ants, ticks, and mosquitoes.\n   * **Fall/Winter:** Mice, rats, brown marmorated stink bugs, and lady beetles trying to overwinter inside wall voids.\n2. **Exclusion Work:** Because mice and rats frequently enter older Northeast homes during cold snaps, ask whether the company provides **rodent exclusion** (patching entry points with metal mesh/copper wool) or just places poison bait boxes.\n3. **Re-Service Guarantee:** Choose a provider that includes **free re-treatments between scheduled visits** if pests return.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Anticimex"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Anticimex",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:03:25+00:00",
+  "has_unknown": true
+}

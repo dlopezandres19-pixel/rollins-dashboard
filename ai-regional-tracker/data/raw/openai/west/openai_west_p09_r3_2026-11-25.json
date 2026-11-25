@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "west",
+  "region_label": "West",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the West US (California, Washington, Arizona)?",
+  "rep": 3,
+  "response_text": "In the western United States, including California, Washington, and Arizona, there are several options for residential pest control. Here are some common approaches:\n\n1. **Professional Pest Control Services:**\n   - Companies like Orkin, Terminix, and Rentokil offer comprehensive pest control services. They provide treatments for a wide range of pests, including ants, termites, rodents, and more.\n   - Local companies often offer tailored services that consider regional pest issues. For example, Western Exterminator is popular in California.\n\n2. **Integrated Pest Management (IPM):**\n   - This approach focuses on long-term prevention and combines different management strategies and practices. It includes monitoring pests, using physical barriers, and employing biological control methods.\n\n3. **DIY Solutions:**\n   - Many homeowners opt for DIY solutions using products from hardware stores, such as sprays, traps, and baits. Brands like Raid, Ortho, and Hot Shot are commonly used.\n\n4. **Natural and Organic Methods:**\n   - Some prefer eco-friendly options, using natural repellents like diatomaceous earth, essential oils, or neem oil. These methods are often less harmful to pets and the environment.\n\n5. **Preventive Measures:**\n   - Ensuring good sanitation, sealing entry points, and reducing moisture can help prevent infestations. Regular maintenance of the home and garden can also be effective.\n\n6. **Specialized Treatments:**\n   - For specific pests like termites or bed bugs, specialized treatments such as fumigation or heat treatment may be necessary.\n\nWhen choosing a pest control method, consider factors like the type of pest, severity of the infestation, budget, and environmental impact. Consulting with a professional can provide guidance tailored to your specific situation.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:49:03+00:00",
+  "has_unknown": true
+}

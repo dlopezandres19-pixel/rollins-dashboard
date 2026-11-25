@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 10,
+  "prompt_text": "Give me a shortlist of pest control companies a homeowner in the Southeast US (Florida, Georgia, Texas) should consider.",
+  "rep": 3,
+  "response_text": "For homeowners in the Southeast (especially across Florida, Georgia, and Texas), pest control is practically a necessity rather than a luxury due to year-round humidity and mild winters. Pests like subterranean and Formosan termites, \"palmetto bugs\" (American cockroaches), fire ants, and mosquitoes require companies with deep regional expertise.\n\nHere is a shortlist of the top pest control companies to consider:\n\n---\n\n### 1. **Massey Services**\n* **Best for:** Bundled pest control and lawn care.\n* **Footprint:** Massive across Florida (headquartered in Orlando), Georgia, and Texas.\n* **Why consider them:** Massey is uniquely tailored to Southern climates. In addition to interior and exterior pest control, they specialize in exterior perimeter treatments (reducing the need to spray inside) and offer comprehensive lawn care, irrigation, and landscape pest protection (targeting pests like chinch bugs and sod webworms).\n* **Standout service:** Strong termite pretreatments and recurring prevention plans.\n\n### 2. **Arrow Exterminators**\n* **Best for:** Termite protection and customer service reputation.\n* **Footprint:** Founded in Atlanta, Georgia, with widespread coverage across Georgia, Florida, and Texas.\n* **Why consider them:** Arrow is the sixth-largest pest control company in the U.S. but maintains a strong regional, customer-first reputation. They use the Sentricon termite baiting system extensively, which is considered an industry gold standard in the termite-heavy Southeast.\n* **Standout service:** The \"STEPS Total Protection System,\" an environmentally mindful approach focusing on exclusion and perimeter defense.\n\n### 3. **ABC Home & Commercial Services**\n* **Best for:** Texas homeowners (with growing operations in Florida).\n* **Footprint:** A household name throughout Texas (Austin, Dallas, Houston, San Antonio) with locations in parts of Florida.\n* **Why consider them:** ABC is a family-owned business that has operated in the South for decades. They offer a holistic approach to home services, meaning you can often bundle pest control with pool care, HVAC, handyman work, and lawn maintenance. \n* **Standout service:** Tailored Texas pest programs targeting scorpions, fire ants, and native roach species.\n\n### 4. **Orkin**\n* **Best for:** Reliable technician training and national backing.\n* **Footprint:** Headquartered in Atlanta, Georgia, with branch offices in virtually every metro area across FL, GA, and TX.\n* **Why consider them:** Orkin technicians undergo rigorous, standardized training at their central Rollins training facility in Atlanta. Because of their sheer size, scheduling is easy, emergency response times are fast, and they offer a 30-day money-back guarantee.\n* **Standout service:** Their proprietary \"Points of Service\" process, which maps, monitors, and treats hidden pest entry points.\n\n### 5. **Terminix**\n* **Best for:** Comprehensive termite bonds and warranties.\n* **Footprint:** Extensive footprint across the entire Southeast and Gulf Coast.\n* **Why consider them:** If your primary concern is termites—especially invasive Formosan termites that thrive along the Gulf Coast and in Florida—Terminix offers some of the most robust repair-and-retreatment damage guarantees in the industry.\n* **Standout service:** The \"Nix Pest Guarantee\" for general pests and their high-tier termite protection contracts.\n\n---\n\n### Key Questions to Ask Before Signing a Contract in the Southeast:\n1. **Does the contract include a Termite Warranty/Bond?** In FL, GA, and TX, a standard general pest contract rarely covers termites. Ask whether treatment covers subterranean, drywood, and Formosan termites, and check whether the warranty covers *re-treatment only* or *re-treatment plus damage repair*.\n2. **What is the exterior-to-interior ratio?** Most modern pest companies in warm climates focus on maintaining a strong exterior barrier so technicians rarely need to spray chemical products inside your living spaces.\n3. **What is their free re-service policy?** Summer rains and extreme heat can break down chemical barriers quickly; ensure the company offers free callback visits between scheduled treatments if pests return.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:59:55+00:00",
+  "has_unknown": true
+}

@@ -1,0 +1,26 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "For residential pest control in the Midwest (Illinois, Ohio, and Michigan), homeowners generally choose between **major national chains**, **long-standing regional providers**, and **independent local specialists**. \n\nBecause the Midwest experiences dramatic seasonal temperature shifts, pest pressures change throughout the year—ranging from ants, wasps, and mosquitoes in the summer to mice, rats, and boxelder bugs/stink bugs seeking shelter in the fall and winter.\n\nHere is a breakdown of the main residential pest control options across the region:\n\n---\n\n### 1. Established Midwest Regional Companies\nRegional providers often have deep, generational expertise dealing with Midwest-specific pest cycles and architectural styles (e.g., older basements, crawlspaces, brick builds).\n\n*   **Rose Pest Solutions:** One of the oldest and most widely recognized pest management companies in the nation, with an extensive presence across Michigan, Ohio, and northeastern Illinois. They offer comprehensive quarterly residential programs (Home Maintenance Plan) covering general pests, rodents, and stinging insects.\n*   **Varment Guard / Plunkett’s Pest Control:** A dominant force across the Midwest, Varment Guard is especially prominent throughout Ohio and Michigan. In addition to standard insect and rodent control, they specialize heavily in wildlife removal and exclusion (raccoons, bats, squirrels, birds).\n*   **Anderson Pest Solutions:** A staple across the Chicago metro area, northern Illinois, and surrounding areas (part of the Rentokil family). They are known for their \"Natural Choice\" residential programs focusing on Integrated Pest Management (IPM).\n\n---\n\n### 2. Major National Providers\nNational brands have branch locations in almost every major metro area (Chicago, Columbus, Cleveland, Detroit, Grand Rapids, etc.) and offer 24/7 call centers, mobile scheduling apps, and strong money-back guarantees.\n\n*   **Orkin:** Well-known for thoroughly trained technicians and targeted treatment plans. They handle general insects, rodents, termites, and bed bugs, with strong coverage across all three states.\n*   **Terminix:** Particularly strong for termite inspections and remediation, moisture control, and general recurring pest maintenance. They offer seasonal perimeter treatments designed to keep pests out during seasonal transitions.\n*   **Aptive Environmental:** A common option in suburban Midwest neighborhoods. They focus primarily on regular exterior barrier treatments for general pests (ants, spiders, crickets, wasps) through quarterly subscription models, though they generally do not handle wood-destroying insects (termites) or wildlife removal.\n\n---\n\n### 3. Notable State-Specific & Local Favorites\nIf you prefer supporting family-owned or state-specific operators, several reputable companies serve major metro areas:\n\n*   **Illinois:**\n    *   *Smithereen Pest Management Services:* Based in the Chicago area, one of the oldest GreenPro-certified pest control services in the state.\n    *   *Pest Arrest / Fox Pest Control:* Popular for suburban residential subscription plans in northern and central Illinois.\n*   **Ohio:**\n    *   *Scherzinger Pest Control:* A prominent family-owned provider serving Southwest and Central Ohio (Cincinnati, Dayton, Columbus).\n    *   *Apex Pest Control:* Common across Northeast Ohio (Cleveland, Akron, Canton).\n*   **Michigan:**\n    *   *Griffin Pest Solutions:* A major Western/Central Michigan staple (Kalamazoo, Grand Rapids, Lansing).\n    *   *Eradico Services / CJB Pest Reviews:* Well-known across Metro Detroit and Southeast Michigan.\n\n---\n\n### Common Service Models in the Midwest\n\n1. **Quarterly / Seasonal Maintenance Plans:**\n   * **Best for:** Ongoing protection against spiders, carpenter ants, mice, and seasonal invaders.\n   * **How it works:** A technician visits 3 to 4 times a year to refresh exterior perimeter barriers, treat eaves for nests, and check interior rodent bait stations. Most plans include free return visits if pests return between scheduled treatments.\n2. **Targeted One-Time Treatments:**\n   * **Best for:** Immediate, isolated issues such as a hornets' nest in a tree, yellowjackets in an attic, or a localized flea outbreak.\n   * **Cost:** Typically higher per visit than subscription services",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Aptive"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin",
+    "Aptive"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:19:51+00:00",
+  "has_unknown": true
+}

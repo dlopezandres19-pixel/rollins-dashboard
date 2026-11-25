@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "When choosing a pest control company in the Midwest (Illinois, Ohio, and Michigan), you have access to both established national giants and strong, long-standing regional specialists who understand the area’s specific pest cycles (such as seasonal mice invasions, carpenter ants, boxelder bugs, and subterranean termites).\n\nHere are the top recommendations broken down by category:\n\n---\n\n### 1. Best Regional Pick: **Rose Pest Solutions**\n* **Best for:** Overall customer satisfaction, local knowledge, and seasonal preventative care.\n* **Service Area:** Deep footprint across Michigan, Ohio, and parts of Indiana/Illinois.\n* **Why choose them:** Rose is one of the oldest pest management companies in the nation and is deeply rooted in the Midwest. Because they specialize in this region, their technicians are particularly adept at handling common Midwestern headaches—such as fall invaders (stink bugs, boxelder bugs, Western conifer seed bugs) and winter rodent infestations. They offer reliable recurring home protection plans and generally score higher on personalized customer service than national chains.\n\n---\n\n### 2. Best for Illinois & Chicago Metro: **Anderson Pest Solutions**\n* **Best for:** Homes in Illinois, particularly northern and central IL and the Chicagoland suburbs.\n* **Why choose them:** Anderson is a regional branch (under the Rentokil family) that has operated in Illinois for decades. They use an Integrated Pest Management (IPM) approach, focusing on exclusion and environmental adjustments rather than just heavy chemical sprays. They offer a strong year-round residential package (*Natural Choice Home Protection*) with free touch-ups between scheduled visits.\n\n---\n\n### 3. Best for Ohio (General Pests & Wildlife): **Varment Guard** *(Plunkett’s)*\n* **Best for:** Homes throughout Columbus, Cleveland, Cincinnati, and surrounding Ohio areas.\n* **Why choose them:** If you are dealing with pests as well as nuisance wildlife (raccoons, bats, squirrels, or moles—frequent issues near Ohio woodlots and older suburbs), Varment Guard is one of the premier names in the state. They have strong local expertise and handle both insect exclusion and wildlife trapping.\n\n---\n\n### 4. Best National Brands: **Orkin** & **Terminix**\n* **Best for:** Termite infestations, rural coverage, and around-the-clock customer support.\n* **Why choose them:**\n  * **Orkin:** Known for some of the most rigorous technician training in the industry. If you have an active, difficult infestation (such as bed bugs or an aggressive ant colony inside walls), Orkin’s targeted treatments and 30-day money-back guarantee make them a very safe bet anywhere in the Midwest.\n  * **Terminix:** Often the go-to for **termite management**. Subterranean termites are active throughout Ohio, southern/central Illinois, and lower Michigan. Terminix offers extensive baiting systems (Sentricon) and strong damage repair guarantees if you need termite-specific protection.\n\n---\n\n### How to Decide for Your Home\n\n1. **For general quarterly maintenance:** Call **Rose Pest Solutions** (if in MI/OH) or **Anderson Pest Solutions** (if in IL) alongside **Orkin** for quotes. Regional companies frequently provide more consistent technicians who know your neighborhood.\n2. **For termites:** Get inspections from **Terminix** and **Orkin**. Compare their warranty terms (specifically whether the contract covers *retreating only* or *retreating plus structural damage repair*).\n3. **Ask about \"Midwest Fall Prep\":** In late summer and early autumn, rodents, cluster flies, and boxelder bugs look for winter harborage in siding, attics, and basements. Ask prospective companies if their plan includes an exterior perimeter barrier and exclusion sealing in August/September before the first freeze.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rentokil / Terminix",
+  "top3_brands": [
+    "Rentokil / Terminix",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:16:18+00:00",
+  "has_unknown": true
+}

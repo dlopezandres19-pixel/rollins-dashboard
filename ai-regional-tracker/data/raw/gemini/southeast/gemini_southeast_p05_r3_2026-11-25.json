@@ -1,0 +1,27 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 5,
+  "prompt_text": "Which pest control company should I choose for my home in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 3,
+  "response_text": "When choosing a pest control company for the Southeast (Florida, Georgia, and Texas), your primary concerns will almost certainly involve high humidity pests: **Formosan and subterranean termites, American cockroaches (\"palmetto bugs\"), fire ants, and mosquitoes**. \n\nBecause pest pressure in these warm climates is year-round, you have a choice between premier regional specialists with deep Southern roots and large national providers.\n\nHere are the best pest control companies to consider for your home in this region:\n\n---\n\n### 1. Top Regional Champions (Best Balance of Local Expertise & Service)\n\n* **Arrow Exterminators** *(Best Overall for the Southeast)*\n  * **Where they excel:** Headquartered in Atlanta, Arrow has an enormous footprint across Georgia, Florida, and Texas. They are widely regarded for excellent customer service and their \"STEPS\" (Sustainable Total Environmental Pest Solutions) approach.\n  * **Best for:** Whole-home pest management, particularly their **Sentricon termite baiting systems**. If you want a company that understands Southern pest biology without the red tape of a massive global conglomerate, Arrow is often the top recommendation.\n\n* **Massey Services** *(Best for Combined Pest, Termite & Lawn Care — FL & GA)*\n  * **Where they excel:** Based in Orlando, Massey is an absolute staple in Florida and has strong branch coverage in Georgia and Texas. They focus heavily on exterior perimeter prevention so chemicals rarely need to be applied inside your home.\n  * **Best for:** Homeowners who want a single provider for **general pest control, termite defense, and lawn/irrigation treatments** (a major plus in Florida and Georgia HOA communities where turf health and fire ant control go hand-in-hand).\n\n* **ABC Home & Commercial Services** *(Best Choice for Texas)*\n  * **Where they excel:** Family-owned and deeply entrenched across Texas (Austin, Houston, Dallas-Fort Worth, San Antonio), ABC is legendary for service quality in the state. \n  * **Best for:** Texas residents who want high-touch, dependable local service that covers pests, mosquitoes, pool, and lawn care.\n\n---\n\n### 2. Top National Providers (Best for High-Risk Infestations & Broad Reach)\n\n* **Terminix** *(Best for Termite Guarantees & Coastal Areas)*\n  * **Where they excel:** Termites are a catastrophic threat along the Gulf Coast and throughout the Deep South. Terminix was built around termite eradication and offers some of the most comprehensive termite inspection and protection plans in the industry.\n  * **Best for:** Homes in high-risk termite zones (especially near coastal Florida and the Texas Gulf). If qualified, their **Termite Defend Plan** offers strong damage repair guarantees if termites return.\n\n* **Orkin** *(Best for Fast Response & Tough Active Infestations)*\n  * **Where they excel:** Orkin has branches in almost every corner of FL, GA, and TX. Their technicians undergo rigorous, entomologist-designed training, making them exceptionally good at identifying elusive pests.\n  * **Best for:** Active infestations (German roaches, bed bugs, or severe rodent issues) where you need a technician on-site fast with a strict 30-day money-back guarantee.\n\n---\n\n### Key Southeast-Specific Buying Tips\n\nBefore signing an annual contract, keep these regional factors in mind:\n\n1. **Scrutinize the Termite Warranty:** In FL, GA, and TX, a termite plan (often called a \"termite bond\") is essential. Ask whether their contract provides **damage repair** or merely **re-treatment**. A damage repair guarantee means the company pays to fix structural damage if termites bypass their barrier; a re-treatment warranty only covers coming back out to spray again.\n2. **Prioritize \"Exterior-Only\" Quarterly Maintenance:** Modern pest management in the South focuses on keeping bugs out by treating the foundation, eaves, and perimeter every 2–3 months. A good company should only need to enter your home if you notice an active issue inside.\n3. **Ask About Add-ons (Mosquitoes & Fire Ants):** If you have a yard, standard pest control rarely covers mosquitoes or broadcast yard treatments for fire ants. Ask about bundle pricing for seasonal mosquito misting or once-a-year fire ant treatments (like TopChoice).\n\n**Recommended Next Step:** Contact **Arrow Exterminators** (or **ABC** if you are in Texas) and one national provider like **Terminix** or **Orkin** for a free home inspection and quote. Compare their termite warranty terms side-by-side before committing.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators"
+  ],
+  "first_mentioned": "Arrow Exterminators",
+  "top3_brands": [
+    "Arrow Exterminators",
+    "Massey",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:54:23+00:00",
+  "has_unknown": true
+}

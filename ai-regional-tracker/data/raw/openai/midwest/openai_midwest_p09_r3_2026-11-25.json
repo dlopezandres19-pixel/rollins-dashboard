@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 9,
+  "prompt_text": "What are the main options for residential pest control in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 3,
+  "response_text": "In the Midwest US, including Illinois, Ohio, and Michigan, there are several main options for residential pest control. Here are some popular methods and services:\n\n1. **Professional Pest Control Services:**\n   - **Orkin:** Offers comprehensive pest management solutions, including termite protection and bed bug treatment.\n   - **Terminix:** Provides a variety of services such as termite control, mosquito and tick treatment, and general pest management.\n   - **Ehrlich Pest Control:** Known for environmentally responsible pest management solutions.\n   - **Local Companies:** Many areas have local pest control services that offer personalized solutions and may be familiar with regional pest issues.\n\n2. **DIY Pest Control:**\n   - **Traps and Baits:** For rodents and insects, you can use traps and baits available at home improvement stores.\n   - **Natural Remedies:** Options like diatomaceous earth, essential oils (e.g., peppermint for spiders), and vinegar sprays can deter pests.\n   - **Insecticides:** There are various over-the-counter insecticides for different pests, but they should be used according to safety guidelines.\n\n3. **Preventive Measures:**\n   - **Sealing Entry Points:** Ensuring that windows, doors, and foundation cracks are sealed can prevent pests from entering.\n   - **Proper Sanitation:** Keeping a clean home, especially in the kitchen, can reduce the likelihood of infestations.\n   - **Landscaping Practices:** Trim back bushes and trees, and maintain a tidy yard to minimize pest harborage areas.\n\n4. **Integrated Pest Management (IPM):**\n   - Combines different management strategies and practices to control pests in an environmentally and economically sound manner. This approach often involves monitoring and identifying pests, setting action thresholds, and using a combination of control methods.\n\nChoosing the right option depends on the severity of the pest problem, your budget, and personal preference for handling pest issues. For significant infestations, professional services are often recommended.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:46:37+00:00",
+  "has_unknown": true
+}

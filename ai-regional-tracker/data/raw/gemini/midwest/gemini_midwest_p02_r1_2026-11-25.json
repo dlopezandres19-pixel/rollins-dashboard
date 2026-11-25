@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "midwest",
+  "region_label": "Midwest",
+  "prompt_id": 2,
+  "prompt_text": "What pest control company would you recommend for a homeowner in the Midwest US (Illinois, Ohio, Michigan)?",
+  "rep": 1,
+  "response_text": "For homeowners in Illinois, Ohio, and Michigan, the best choice usually comes down to whether you prefer a **well-established regional company** (which often offers more consistent technician retention and localized expertise) or a **major national chain** (which offers nationwide guarantees, standardized training, and flexible scheduling).\n\nHere are the top recommendations across the region:\n\n---\n\n### 1. Best Regional Pick: **Rose Pest Solutions**\n* **Best for:** Overall customer service, local expertise, and general year-round pest protection.\n* **Coverage:** Extensive throughout Michigan, Ohio, Illinois, and Indiana.\n* **Why them:** Rose Pest Solutions is one of the oldest pest control companies in the nation and has a massive, highly respected footprint across the Midwest. Because they focus heavily on this specific climate, their technicians are intimately familiar with regional seasonal patterns—such as the fall invasion of boxelder bugs, stink bugs, and mice seeking winter warmth. Their customer service and technician retention tend to rank higher than the giant national chains.\n\n### 2. Best for Illinois & Chicagoland: **Anderson Pest Solutions**\n* **Best for:** Homeowners in northern/central Illinois and adjacent borders (parts of MI/IN/WI).\n* **Coverage:** Illinois (especially greater Chicago and Rockford), Indiana, and Michigan.\n* **Why them:** Anderson is a Midwest institution specializing in environmentally conscious \"Integrated Pest Management\" (IPM). They offer their signature \"PestFree365\" plan, which covers dozens of common household pests with free retreatments if something returns between regular visits.\n\n### 3. Best Large National Chain: **Orkin**\n* **Best for:** Severe infestations, wood-destroying insects (termites, carpenter ants), and rapid availability.\n* **Coverage:** Nearly universal across IL, OH, and MI.\n* **Why them:** Orkin puts their technicians through rigorous, university-developed training programs. If you are dealing with structural pests like subterranean termites or carpenter ants (very common in wooded parts of Michigan and Ohio), Orkin’s targeted treatments and solid 30-day money-back/re-service guarantees make them a safe, dependable choice.\n\n### 4. Best for Wildlife & Exclusion Work: **Critter Control** or **Varment Guard**\n* **Best for:** Raccoons, bats, squirrels, skunks, and heavy rodent entry-proofing.\n* **Coverage:** Widely available across the Midwest (Varment Guard is particularly prominent in Ohio and surrounding areas).\n* **Why them:** Traditional pest companies excel at insects and simple mouse problems, but Midwest attics and crawlspaces are frequently targeted by raccoons, bats, and tree squirrels. These companies specialize in humane trapping, damage repair, and permanent \"exclusion\" (sealing roof vents, soffits, and foundation gaps) so animals can't get back in.\n\n---\n\n### Tips for Choosing the Right Service in the Midwest:\n\n1. **Focus on Seasonal Timing:** The Midwest sees heavy spring ant and termite emergence, followed by late-summer wasps and yellowjackets, and an aggressive push by rodents to get indoors starting in October/November. Look for a plan that schedules visits around these seasonal shifts.\n2. **Prioritize Re-service Guarantees:** Ensure any recurring plan includes free intermediate visits. If you sign up for a quarterly plan and see mice or yellowjackets between scheduled visits, the company should come back at zero extra charge.\n3. **Check Local Branch Reviews:** A company like Orkin or Terminix may have an outstanding 4.8-star branch in Columbus or Ann Arbor, while an office in Peoria or Toledo might have lower ratings. Always search Google Reviews for the specific branch that will service your zip code.\n4. **Get a Quote on Rodent Exclusion:** If mice or rats are your primary concern, chemical baiting is only a temporary fix. Ask if the company performs entry-point exclusion (sealing foundation cracks, pipe gaps, and door sweeps) to prevent future entry.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "first_mentioned": "Rollins / Orkin",
+  "top3_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T18:12:12+00:00",
+  "has_unknown": true
+}

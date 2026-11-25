@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-11-25",
+  "iso_week": "2026-W48",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "region_id": "southeast",
+  "region_label": "Southeast",
+  "prompt_id": 8,
+  "prompt_text": "What pest control companies should I compare before choosing a provider in the Southeast US (Florida, Georgia, Texas)?",
+  "rep": 2,
+  "response_text": "When hiring a pest control provider in the Southeast (particularly Florida, Georgia, and Texas), you face distinct pest challenges: year-round warm weather, high humidity, aggressive subterranean and Formosan termites, palmetto bugs (American cockroaches), fire ants, and heavy mosquito activity. \n\nHere are the top providers to compare, broken down by regional powerhouses, national brands, and state-specific leaders:\n\n---\n\n### 1. The Regional Powerhouses (Best Tailored for the Southeast)\nThese companies are based in the Southeast and specialize specifically in warm-climate pest biology, termite prevention, and lawn care.\n\n*   **Massey Services**\n    *   **Headquarters:** Orlando, FL (with deep reach across FL, GA, and TX).\n    *   **Why compare them:** Massey is one of the largest independent pest companies in the country. Beyond standard indoor/outdoor pest control, they specialize in **integrated exterior pest prevention and lawn/irrigation care**. If you want a single company to handle perimeter pests, fire ants, and turf disease or aeration, Massey is a prime candidate.\n*   **Arrow Exterminators**\n    *   **Headquarters:** Atlanta, GA (widespread across GA, FL, and TX).\n    *   **Why compare them:** Arrow consistently scores high for customer satisfaction among large providers. They are especially renowned for their **STEPS Total Protection System** and comprehensive termite warranties (repair guarantees rather than just re-treatment guarantees).\n\n---\n\n### 2. The Big National Brands (Widest Availability & Resources)\nThese companies have branches in nearly every metro and mid-size market across all three states, offering standardized training and 24/7 support.\n\n*   **Orkin**\n    *   **Headquarters:** Atlanta, GA.\n    *   **Why compare them:** Orkin is widely regarded for rigorous technician training (developed in partnership with universities). They use an exterior-focused integrated pest management (IPM) approach and offer a solid 30-day money-back guarantee. They are particularly strong for difficult infestations like bed bugs and German roaches.\n*   **Terminix**\n    *   **Why compare them:** Terminix has historically focused on termite mitigation. In the Southeast, where termite damage can devastate a home quickly, their baiting systems (Sentricon or proprietary baits) and extensive termite damage protection plans are worth quoting against local competitors.\n\n---\n\n### 3. State-Specific Leaders & Specialized Contenders\n\n*   **HomeTeam Pest Defense (Crucial for Newer Homes in TX & FL)**\n    *   If your home was built in the last 15–20 years in Texas or Florida, look at your exterior walls for small utility ports. Many builders install the **Taexx \"tubes-in-the-wall\" system**, and HomeTeam is the primary provider equipped to inject treatments directly into those internal lines without needing to spray inside your living areas.\n*   **ABC Home & Commercial Services (Texas)**\n    *   A legacy family-owned business in Texas (serving Austin, Houston, DFW, San Antonio, and surrounding areas). They are heavily trusted for local climate-specific issues and offer bundled services ranging from pest and mosquito control to lawn and pool care.\n*   **Truly Nolen (FL and TX)**\n    *   Famous for their mouse-eared service vehicles, Truly Nolen’s \"Four Seasons\" program is modified specifically for southern climates where pest breeding cycles don't pause for winter. They have a very strong footprint across Florida and Texas.\n\n---\n\n### What to Ask and Compare Before Signing:\n\n1.  **Termite Bond Specifics:** Ask whether the termite contract is **re-treatment only** or includes a **repair guarantee** (which pays for structural repairs if termites cause damage while under contract). Ensure Formosan termites are explicitly covered.\n2.  **Exterior vs. Interior Policy:** High-quality southern pest control focuses 90% on the exterior barrier to keep bugs from ever entering. Ask if interior treatments are included at no extra charge on an as-needed basis.\n3.  **Included Pests:** In the Southeast, ensure basic quarterly plans include common regional invaders like American roaches/palmetto bugs, silverfish, and standard ants. Note that **fire ants, carpenter ants, German roaches, fleas, and rodents** often require an add-on or specialty tier.\n4.  **Free Re-services:** Confirm whether the company will return between scheduled quarterly visits for free if pests appear inside.",
+  "mentioned_brands": [
+    "Rollins / Orkin",
+    "Rentokil / Terminix",
+    "Massey",
+    "Arrow Exterminators",
+    "Truly Nolen"
+  ],
+  "first_mentioned": "Massey",
+  "top3_brands": [
+    "Massey",
+    "Arrow Exterminators",
+    "Rollins / Orkin"
+  ],
+  "error": null,
+  "timestamp_utc": "2026-11-25T17:57:20+00:00",
+  "has_unknown": true
+}
